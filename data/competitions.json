@@ -6891,20 +6891,6 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92861"
     },
     {
-      "id": "93379",
-      "nom": "Plot-3 Maître",
-      "ville": "SAINT-BRIEUC",
-      "dateDebut": "2026-05-30",
-      "dateFin": "2026-05-30",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 48.5141134,
-      "lon": -2.7603283,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93379"
-    },
-    {
       "id": "92093",
       "nom": "Chpts Eté Masters Loire",
       "ville": "SAINT-ÉTIENNE",
