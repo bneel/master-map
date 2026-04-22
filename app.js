@@ -476,39 +476,37 @@ function initBassinFilter() {
   });
 }
 
-// Bouton "actualiser" : re-fetch le JSON avec cache-bust et re-render en place,
-// sans recharger HTML/CSS/JS. Plus fluide que location.reload() + évite les
-// caches intermédiaires grâce au query param + cache: 'no-store'.
+// Bouton "actualiser" : reload TOTAL avec cache-bust.
+// Remplace le pull-to-refresh natif (impossible depuis qu'on a overflow: hidden).
+// Sur mobile, c'est le seul moyen de forcer la re-récupération de tous les
+// fichiers (HTML, CSS, JS, JSON, favicon) sans devoir passer par les menus
+// du navigateur.
 function initReload() {
   const btn = document.getElementById('reloadBtn');
   btn.addEventListener('click', async () => {
     if (btn.disabled) return;
     btn.classList.add('spinning');
     btn.disabled = true;
-    const started = Date.now();
-    try {
-      await loadData({ cacheBust: true });
-    } catch (e) {
-      // Fallback : rechargement complet si le re-fetch échoue
-      location.reload();
-      return;
-    } finally {
-      // Garde le spinner visible au moins 400ms pour l'utilisateur
-      const elapsed = Date.now() - started;
-      setTimeout(() => {
-        btn.classList.remove('spinning');
-        btn.disabled = false;
-      }, Math.max(0, 400 - elapsed));
-    }
+
+    // 1. Re-télécharge chaque asset en forçant l'origine (bypass du cache
+    //    navigateur). Cela MET À JOUR le cache local avec la version fraîche
+    //    du serveur, que le reload HTML va ensuite utiliser.
+    const assets = ['app.css', 'app.js', 'favicon.svg', 'data/competitions.json'];
+    await Promise.all(
+      assets.map(url => fetch(url, { cache: 'reload' }).catch(() => null))
+    );
+
+    // 2. Reload le HTML avec un query param unique → force la ré-interprétation
+    //    complète de la page depuis le cache fraîchement mis à jour.
+    const u = new URL(location.href);
+    u.searchParams.set('_r', Date.now());
+    location.href = u.toString();
   });
 }
 
-// Fonction de chargement de données, utilisée au boot ET par le bouton reload.
-async function loadData({ cacheBust = false } = {}) {
-  const url = cacheBust
-    ? `data/competitions.json?t=${Date.now()}`
-    : 'data/competitions.json';
-  const res = await fetch(url, { cache: cacheBust ? 'no-store' : 'no-cache' });
+// Fonction de chargement de données, appelée au boot.
+async function loadData() {
+  const res = await fetch('data/competitions.json', { cache: 'no-cache' });
   if (!res.ok) throw new Error('HTTP ' + res.status);
   const data = await res.json();
 
