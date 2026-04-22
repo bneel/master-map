@@ -1,0 +1,56 @@
+name: Scrape liveffn
+
+# Cron : 11:00 UTC (~12h Paris en hiver / 13h en été)
+#        17:00 UTC (~18h Paris en hiver / 19h en été)
+# + déclenchement manuel via le bouton "Run workflow" dans l'onglet Actions.
+on:
+  schedule:
+    - cron: "0 11 * * *"
+    - cron: "0 17 * * *"
+  workflow_dispatch:
+
+# Le bot a besoin de pousser les mises à jour de data/*.json
+permissions:
+  contents: write
+
+# Une seule exécution à la fois, pour éviter les conflits de push
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run scraper
+        run: node scripts/scrape.mjs
+
+      - name: Sanity check — au moins 5 compétitions
+        run: |
+          count=$(node -e 'console.log(require("./data/competitions.json").competitions.length)')
+          echo "Compétitions dans le JSON : $count"
+          if [ "$count" -lt 5 ]; then
+            echo "::error::Anomalie : seulement $count compétitions, probablement un bug de scraping. On n'écrit pas."
+            exit 1
+          fi
+
+      - name: Commit & push if data changed
+        run: |
+          git config user.name "master-map-bot"
+          git config user.email "master-map-bot@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Aucun changement de données, rien à committer."
+          else
+            git commit -m "data: $(date -u +%FT%TZ)"
+            git push
+          fi
