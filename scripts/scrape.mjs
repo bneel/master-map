@@ -19,8 +19,13 @@ const COMPETITIONS_PATH = path.join(DATA_DIR, "competitions.json");
 const CITIES_PATH = path.join(DATA_DIR, "cities.json");
 const POOL_SIZES_PATH = path.join(DATA_DIR, "pool_sizes.json");
 
+// User-Agent explicite pour les administrateurs de liveffn.com :
+// - nom du projet clairement identifié (MasterMap)
+// - lien vers le site live (pour voir ce qu'on fait des données)
+// - lien vers le repo (pour comprendre le code)
+// - "issues" = canal de contact direct
 const USER_AGENT =
-  "Mozilla/5.0 (compatible; MasterMapBot/0.1; +https://github.com/bneel/master-map)";
+  "MasterMap/1.0 (+https://bneel.github.io/master-map/; source https://github.com/bneel/master-map; contact via github issues)";
 
 // Drapeau : true pour couvrir saison courante + saison précédente
 // (fenêtre de ~24 mois). Le cache pool_sizes.json évite les re-fetch.
@@ -309,11 +314,12 @@ const POOL_SIZE_RE = / - (25|50) m(?!\w)/;
 
 async function fetchPoolSize(competitionId) {
   const url = `https://www.liveffn.com/cgi-bin/index.php?competition=${competitionId}`;
+  // On n'envoie PAS de Referer bidon (pointer sur liveffn serait mentir).
+  // Le User-Agent identifie clairement le projet.
   const res = await fetch(url, {
     headers: {
       "User-Agent": USER_AGENT,
       "Accept-Language": "fr-FR,fr;q=0.9",
-      "Referer": "https://www.liveffn.com/cgi-bin/calendrier_live.php",
       "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     },
   });
