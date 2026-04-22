@@ -222,20 +222,34 @@ header {
 }
 .search:focus { outline: 2px solid #2563eb; outline-offset: 1px; }
 
-/* Tabs avec icône à droite du libellé */
+/* Tabs Carte/Liste — style "segmented control" plus affirmé */
 .tabs {
   display: flex;
+  gap: 0.4rem;
+  padding: 0.5rem 0.75rem;
   background: #fff;
   border-bottom: 1px solid #e2e8f0;
   flex-shrink: 0;
 }
 .tab {
-  flex: 1; padding: 0.6rem; border: 0; background: transparent;
-  font: inherit; font-size: 0.9rem; color: #64748b; cursor: pointer;
-  border-bottom: 2px solid transparent;
+  flex: 1;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.45rem;
+  background: #f8fafc;
+  color: #475569;
+  font: inherit; font-size: 0.95rem; font-weight: 600;
+  cursor: pointer;
   display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
 }
-.tab.active { color: #0f172a; border-bottom-color: #2563eb; font-weight: 600; }
+.tab:hover { background: #e2e8f0; }
+.tab.active {
+  background: #2563eb;
+  color: #fff;
+  border-color: #2563eb;
+  box-shadow: 0 2px 6px rgba(37, 99, 235, 0.28);
+}
 .tab-icon { width: 1.1rem; height: 1.1rem; flex-shrink: 0; }
 
 /* Layout
@@ -450,11 +464,18 @@ main { flex: 1; display: flex; position: relative; min-height: 0; }
 }
 .empty { padding: 1.5rem 1rem; text-align: center; color: #475569; font-size: 0.9rem; }
 
-/* Footer */
+/* Footer compact — tient sur 1 ligne jusque ~320px */
 footer {
-  padding: 0.6rem 1rem; font-size: 0.7rem; color: #64748b;
-  text-align: center; background: #fff; border-top: 1px solid #e2e8f0;
+  padding: 0.35rem 0.6rem;
+  font-size: 0.62rem;
+  color: #64748b;
+  text-align: center;
+  background: #fff;
+  border-top: 1px solid #e2e8f0;
   flex-shrink: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Desktop : les deux panes côte-à-côte + titre plus généreux */
