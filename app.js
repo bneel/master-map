@@ -476,16 +476,61 @@ function initBassinFilter() {
   });
 }
 
-// Bouton "actualiser" : recharge la page pour récupérer un JSON à jour.
-// Nécessaire car body { overflow: hidden } désactive le pull-to-refresh natif.
+// Bouton "actualiser" : re-fetch le JSON avec cache-bust et re-render en place,
+// sans recharger HTML/CSS/JS. Plus fluide que location.reload() + évite les
+// caches intermédiaires grâce au query param + cache: 'no-store'.
 function initReload() {
   const btn = document.getElementById('reloadBtn');
-  btn.addEventListener('click', () => {
+  btn.addEventListener('click', async () => {
+    if (btn.disabled) return;
     btn.classList.add('spinning');
     btn.disabled = true;
-    // Cache-bust explicite pour contourner un éventuel cache de navigateur.
-    location.reload();
+    const started = Date.now();
+    try {
+      await loadData({ cacheBust: true });
+    } catch (e) {
+      // Fallback : rechargement complet si le re-fetch échoue
+      location.reload();
+      return;
+    } finally {
+      // Garde le spinner visible au moins 400ms pour l'utilisateur
+      const elapsed = Date.now() - started;
+      setTimeout(() => {
+        btn.classList.remove('spinning');
+        btn.disabled = false;
+      }, Math.max(0, 400 - elapsed));
+    }
   });
+}
+
+// Fonction de chargement de données, utilisée au boot ET par le bouton reload.
+async function loadData({ cacheBust = false } = {}) {
+  const url = cacheBust
+    ? `data/competitions.json?t=${Date.now()}`
+    : 'data/competitions.json';
+  const res = await fetch(url, { cache: cacheBust ? 'no-store' : 'no-cache' });
+  if (!res.ok) throw new Error('HTTP ' + res.status);
+  const data = await res.json();
+
+  if (data.generatedAt) {
+    const u = formatUpdated(data.generatedAt);
+    const btn = document.getElementById('infoBtn');
+    btn.classList.remove('warn', 'stale');
+    if (u.cls) btn.classList.add(u.cls);
+    state.updatedText = u.text;
+    state.updatedClass = u.cls;
+  }
+
+  state.seasons = Array.isArray(data.seasons) ? data.seasons : [];
+  const currentIdx = state.seasons.findIndex((s) => s.current);
+  state.seasonIndex = currentIdx >= 0 ? currentIdx : state.seasons.length - 1;
+  populateSeasonOptions();
+
+  const comps = Array.isArray(data.competitions) ? data.competitions : [];
+  state.all = comps.map(c => ({ c, dist: Infinity }));
+  recomputeDistances();
+
+  render();
 }
 
 // --- Tri par boutons radio ------------------------------------------------
@@ -698,41 +743,11 @@ async function init() {
     addUserMarker();
   }
 
-  let data;
   try {
-    const res = await fetch('data/competitions.json', { cache: 'no-cache' });
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    data = await res.json();
+    await loadData();
   } catch (e) {
     setError('Impossible de charger les données. Réessayez.');
-    return;
   }
-
-  if (data.generatedAt) {
-    const u = formatUpdated(data.generatedAt);
-    // Propage la staleness au bouton "?" (coloration) et mémorise
-    // le texte brut (ex. "il y a 3 h") pour l'injecter dans la phrase du modal.
-    const btn = document.getElementById('infoBtn');
-    btn.classList.remove('warn', 'stale');
-    if (u.cls) btn.classList.add(u.cls);
-    state.updatedText = u.text;
-    state.updatedClass = u.cls;
-  }
-
-  state.seasons = Array.isArray(data.seasons) ? data.seasons : [];
-  // seasonIndex pointe sur la saison marquée `current`, sinon la dernière.
-  const currentIdx = state.seasons.findIndex((s) => s.current);
-  state.seasonIndex = currentIdx >= 0 ? currentIdx : state.seasons.length - 1;
-  populateSeasonOptions();
-
-  const comps = Array.isArray(data.competitions) ? data.competitions : [];
-
-  // Prépare le tableau. La distance est recalculée quand la position
-  // utilisateur est connue (loadUserPos() ou applyUserPos()).
-  state.all = comps.map(c => ({ c, dist: Infinity }));
-  recomputeDistances();
-
-  render();
 }
 
 document.addEventListener('DOMContentLoaded', init);
