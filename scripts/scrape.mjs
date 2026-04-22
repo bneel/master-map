@@ -12,8 +12,12 @@
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const ROOT = "/home/bneel/laboxy/extranat";
+// Résolution portable : la racine du projet est le parent du dossier scripts/.
+// Fonctionne sur ton poste ET sur le runner GitHub Actions (chemins différents).
+const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(SCRIPT_DIR, "..");
 const DATA_DIR = path.join(ROOT, "data");
 const COMPETITIONS_PATH = path.join(DATA_DIR, "competitions.json");
 const CITIES_PATH = path.join(DATA_DIR, "cities.json");
