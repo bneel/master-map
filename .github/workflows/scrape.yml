@@ -47,6 +47,16 @@ jobs:
         run: |
           git config user.name "master-map-bot"
           git config user.email "master-map-bot@users.noreply.github.com"
+
+          # Défense en profondeur : on refuse de commit si le scraper a
+          # touché autre chose que data/ (fichiers de code, workflow, etc.)
+          changed_out_of_data=$(git status --porcelain | awk '{print $2}' | grep -vE '^data/' || true)
+          if [ -n "$changed_out_of_data" ]; then
+            echo "::error::Le scraper a modifié des fichiers hors data/ :"
+            echo "$changed_out_of_data"
+            exit 1
+          fi
+
           git add data/
           if git diff --cached --quiet; then
             echo "Aucun changement de données, rien à committer."

@@ -4,6 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- Content Security Policy : limite d'où viennent les scripts/styles/images
+       pour réduire l'impact d'un éventuel XSS ou compromis de CDN.
+       'unsafe-inline' toléré pour styles (Leaflet positionne les tuiles inline)
+       et pour scripts (JSON-LD inline et gestion de Leaflet). -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com 'unsafe-inline'; style-src 'self' https://unpkg.com 'unsafe-inline'; img-src 'self' data: https://*.basemaps.cartocdn.com; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'" />
+
   <title>Master Map — Les compétitions de natation des maîtres en France</title>
   <meta name="description" content="Master Map recense toutes les compétitions de natation des maîtres (masters, master, maitre) en France. Carte interactive et liste triée par distance ou par date, filtrables par bassin 25 m / 50 m. Données issues de liveffn.com (FFN), mises à jour quotidiennement." />
   <meta name="keywords" content="natation, natation maîtres, natation maitres, natation master, natation masters, natation maître, natation maitre, compétition natation maîtres, compétition natation masters, meeting natation maîtres, meeting masters, championnat natation maîtres, championnat de France maîtres, calendrier natation maîtres, calendrier compétitions maîtres, carte natation maîtres, France, bassin 25m, bassin 50m, piscine 25 mètres, piscine 50 mètres, FFN, liveffn, natation adulte, vétérans natation, nageurs maîtres, club natation maîtres" />
@@ -13,6 +19,10 @@
   <meta name="geo.region" content="FR" />
   <meta name="geo.placename" content="France" />
   <link rel="canonical" href="https://bneel.github.io/master-map/" />
+
+  <!-- Favicon SVG (support moderne) + apple-touch-icon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="favicon.svg" />
 
   <!-- Open Graph (Facebook, WhatsApp, LinkedIn, etc.) -->
   <meta property="og:type" content="website" />
@@ -49,15 +59,20 @@
   }
   </script>
 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H"
+        crossorigin="anonymous" />
   <link rel="stylesheet" href="app.css" />
 </head>
 <body>
   <header>
     <div class="title-row">
       <div class="brand">
-        <h1>Master Map</h1>
-        <p class="tagline">Les compétitions de natation des maîtres</p>
+        <img src="favicon.svg" alt="" class="brand-logo" />
+        <div class="brand-text">
+          <h1>Master Map</h1>
+          <p class="tagline">Les compétitions de natation des maîtres</p>
+        </div>
       </div>
       <button type="button" id="infoBtn" class="info-btn" aria-label="À propos — informations sur les données" title="À propos">?</button>
     </div>
@@ -192,7 +207,9 @@
     Non officiel. Source&nbsp;: liveffn.com. Cartographie &copy; OpenStreetMap / CARTO.
   </footer>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH"
+          crossorigin="anonymous"></script>
   <script src="app.js"></script>
 </body>
 </html>

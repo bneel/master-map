@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Fond : carré arrondi bleu marine -->
+  <rect x="1" y="1" width="30" height="30" rx="7" fill="#2563eb"/>
+  <!-- 3 vagues blanches (couloirs de piscine) -->
+  <path d="M 6 13 Q 11 9.5, 16 13 T 26 13" stroke="#ffffff" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <path d="M 6 18 Q 11 14.5, 16 18 T 26 18" stroke="#ffffff" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <path d="M 6 23 Q 11 19.5, 16 23 T 26 23" stroke="#ffffff" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+</svg>

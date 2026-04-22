@@ -10,3 +10,12 @@ nbproject/
 
 # Logs
 *.log
+
+# Secrets / keys (défense en profondeur — rien de tel prévu ici)
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.ppk
+*.crt

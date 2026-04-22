@@ -271,6 +271,15 @@ function escapeHtml(s) {
   ));
 }
 
+// Whitelist stricte pour les URLs sortantes injectées dans des <a href>.
+// Défense en profondeur : empêche un éventuel `javascript:...` ou autre
+// schéma exotique même si l'URL venait un jour d'une source non maîtrisée.
+function safeExternalUrl(url) {
+  if (typeof url !== 'string') return '#';
+  if (url.startsWith('https://www.liveffn.com/')) return url;
+  return '#';
+}
+
 function effectiveNiveau(c) {
   return c.championnatFrance ? 'F' : c.niveau;
 }
@@ -321,7 +330,7 @@ function popupItemHtml(c) {
     ${tags ? `<div class="item-tags">${tags}</div>` : ''}
     <div class="item-title">${escapeHtml(c.nom)}</div>
     <div class="item-meta">${escapeHtml(dates)} · ${escapeHtml(niveauLabel(c))}</div>
-    <a class="item-link" href="${escapeHtml(c.url)}" target="_blank" rel="noopener">🏊 Détails FFN</a>
+    <a class="item-link" href="${escapeHtml(safeExternalUrl(c.url))}" target="_blank" rel="noopener">🏊 Détails FFN</a>
   </div>`;
 }
 
