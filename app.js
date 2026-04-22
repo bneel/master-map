@@ -336,9 +336,16 @@ function popupItemHtml(c) {
 
 function popupGroupHtml(group) {
   const first = group[0].c;
+  // La distance est la même pour toutes les comp du groupe (même point GPS)
+  const distHtml = state.userPos
+    ? `<span class="distance-pin"><span class="distance-pin-ico" aria-hidden="true">📍</span>${Math.round(group[0].dist)} km</span>`
+    : '';
   const header = `<div class="popup-head">
-    <strong>${escapeHtml(first.ville)}</strong>
-    ${group.length > 1 ? `<span class="count-badge">${group.length} compétitions</span>` : ''}
+    <span class="popup-head-main">
+      <strong>${escapeHtml(first.ville)}</strong>
+      ${group.length > 1 ? `<span class="count-badge">${group.length} compétitions</span>` : ''}
+    </span>
+    ${distHtml}
   </div>`;
   // Trie les compétitions du popup : championnats d'abord, puis par date.
   const sorted = group.slice().sort((a, b) => {
@@ -654,15 +661,22 @@ function renderList() {
     const li = document.createElement('li');
     if (isPast(c)) li.classList.add('past');
     const dates = formatDateRange(c.dateDebut, c.dateFin);
-    const metaParts = [escapeHtml(c.ville), escapeHtml(dates)];
-    if (c.bassin) metaParts.push(`${c.bassin} m`);
-    if (state.userPos) metaParts.push(`${Math.round(dist)} km`);
     const code = effectiveNiveau(c);
+    const bassinHtml = c.bassin
+      ? `<span class="bassin-tag">${c.bassin} m</span>`
+      : '';
+    const distHtml = state.userPos
+      ? `<span class="distance-pin"><span class="distance-pin-ico" aria-hidden="true">📍</span>${Math.round(dist)} km</span>`
+      : '';
     li.innerHTML = `
       <span class="badge badge-${escapeHtml(code)}" title="${escapeHtml(niveauLabel(c))}">${escapeHtml(code)}</span>
       <div class="info">
         <p class="name">${escapeHtml(c.nom)}</p>
-        <p class="meta">${metaParts.join(' &middot; ')}</p>
+        <p class="meta">
+          <span class="meta-text">${escapeHtml(c.ville)} &middot; ${escapeHtml(dates)}</span>
+          ${bassinHtml}
+          ${distHtml}
+        </p>
       </div>
     `;
     li.addEventListener('click', () => {

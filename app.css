@@ -309,7 +309,23 @@ main { flex: 1; display: flex; position: relative; min-height: 0; }
 #list li.past .name { text-decoration: line-through; text-decoration-color: #94a3b8; }
 #list .info { flex: 1; min-width: 0; }
 #list .name { font-weight: 600; font-size: 0.95rem; margin: 0 0 0.15rem; }
-#list .meta { font-size: 0.8rem; color: #475569; margin: 0; }
+#list .meta {
+  font-size: 0.8rem; color: #475569; margin: 0;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem;
+}
+#list .meta-text { min-width: 0; }
+
+/* Pin rouge + distance (même emoji que le marqueur "Ma position") */
+.distance-pin {
+  display: inline-flex; align-items: center; gap: 0.15rem;
+  font-weight: 600; color: #334155;
+  white-space: nowrap;
+}
+.distance-pin-ico { font-size: 0.95rem; line-height: 1; }
+
+/* La pastille bassin, réutilisée du popup, reste visuellement homogène
+   entre la carte et la liste. */
+#list .bassin-tag { font-size: 0.68rem; }
 
 /* Badges de niveau
    Hiérarchie visuelle :
@@ -404,9 +420,13 @@ main { flex: 1; display: flex; position: relative; min-height: 0; }
 /* Popup multi-compétitions */
 .popup-group { min-width: 220px; max-width: 300px; }
 .popup-head {
-  display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 0.5rem; flex-wrap: wrap;
   padding-bottom: 0.35rem; margin-bottom: 0.4rem;
   border-bottom: 1px solid #e2e8f0;
+}
+.popup-head-main {
+  display: inline-flex; align-items: center; gap: 0.4rem; flex-wrap: wrap;
 }
 .popup-head strong { font-size: 0.95rem; color: #0f172a; }
 .count-badge {
