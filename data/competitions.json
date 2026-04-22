@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T18:30:10.323Z",
+  "generatedAt": "2026-04-22T21:04:51.922Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -6889,6 +6889,20 @@
       "lat": 51.071002,
       "lon": 2.5245134,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92861"
+    },
+    {
+      "id": "93379",
+      "nom": "Plot-3 Maître",
+      "ville": "SAINT-BRIEUC",
+      "dateDebut": "2026-05-30",
+      "dateFin": "2026-05-30",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.5141134,
+      "lon": -2.7603283,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93379"
     },
     {
       "id": "92093",
