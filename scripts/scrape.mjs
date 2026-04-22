@@ -1,4 +1,4 @@
-// Scraper FFN maîtres → public/data/competitions.json
+// Scraper FFN maîtres → data/competitions.json
 // Node 22, stdlib pure, aucune dépendance npm.
 //
 // Pipeline :
@@ -8,13 +8,13 @@
 //   4. Dédoublonne par competitionId, calcule plage [dateDebut, dateFin].
 //   5. Marque championnatFrance : regex "Championnat(s) de France ... maîtres".
 //   6. Géocode les villes via Nominatim (cache persistant, 1 req/sec).
-//   7. Écrit public/data/competitions.json + public/data/cities.json.
+//   7. Écrit data/competitions.json + data/cities.json.
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 
 const ROOT = "/home/bneel/laboxy/extranat";
-const DATA_DIR = path.join(ROOT, "public", "data");
+const DATA_DIR = path.join(ROOT, "data");
 const COMPETITIONS_PATH = path.join(DATA_DIR, "competitions.json");
 const CITIES_PATH = path.join(DATA_DIR, "cities.json");
 const POOL_SIZES_PATH = path.join(DATA_DIR, "pool_sizes.json");

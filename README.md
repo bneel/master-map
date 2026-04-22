@@ -6,9 +6,9 @@ En ligne : https://bneel.github.io/master-map/
 
 ## Comment ça marche
 
-Un scraper Node parse le calendrier public de [liveffn.com](https://www.liveffn.com) et géocode les villes via [Nominatim](https://nominatim.openstreetmap.org) (OpenStreetMap). Pour chaque compétition, il fetche aussi la page détail pour récupérer la taille du bassin (25 m / 50 m). Le résultat est sérialisé en JSON statique dans `public/data/`. Le front (HTML/JS vanilla, Leaflet) lit ces JSON et affiche carte + liste.
+Un scraper Node parse le calendrier public de [liveffn.com](https://www.liveffn.com) et géocode les villes via [Nominatim](https://nominatim.openstreetmap.org) (OpenStreetMap). Pour chaque compétition, il fetche aussi la page détail pour récupérer la taille du bassin (25 m / 50 m). Le résultat est sérialisé en JSON statique dans `data/`. Le front (HTML/JS vanilla, Leaflet) lit ces JSON et affiche carte + liste.
 
-Hébergement : GitHub Pages, servi depuis `public/`. Un cron GitHub Actions mettra à jour les données automatiquement (étape 3).
+Hébergement : GitHub Pages, servi depuis la racine du repo. Un cron GitHub Actions mettra à jour les données automatiquement (étape 3).
 
 ## Développement local
 
@@ -16,8 +16,8 @@ Hébergement : GitHub Pages, servi depuis `public/`. Un cron GitHub Actions mett
 # 1. Générer/rafraîchir les données
 node scripts/scrape.mjs
 
-# 2. Lancer un serveur statique
-cd public && python3 -m http.server 8000
+# 2. Lancer un serveur statique depuis la racine
+python3 -m http.server 8000
 
 # 3. Ouvrir http://localhost:8000
 ```
@@ -29,23 +29,24 @@ Raccourcis `make` disponibles : `make scrape` et `make serve`.
 ## Structure du projet
 
 ```
-├── scripts/scrape.mjs              # Scrape liveffn + géocode + bassins -> public/data/*.json
-├── public/
-│   ├── index.html                  # Page unique (SEO meta + Open Graph)
-│   ├── app.js                      # Logique carte/liste/filtres/position
-│   ├── app.css                     # Styles
-│   ├── robots.txt                  # SEO
-│   ├── sitemap.xml                 # SEO
-│   └── data/
-│       ├── competitions.json       # 2 saisons de compétitions maîtres
-│       ├── cities.json             # Cache géocodage Nominatim
-│       └── pool_sizes.json         # Cache tailles de bassin (25/50)
+├── index.html                      # Page unique (SEO meta + Open Graph)
+├── app.js                          # Logique carte/liste/filtres/position
+├── app.css                         # Styles
+├── robots.txt                      # SEO
+├── sitemap.xml                     # SEO
+├── data/
+│   ├── competitions.json           # 2 saisons de compétitions maîtres
+│   ├── cities.json                 # Cache géocodage Nominatim
+│   └── pool_sizes.json             # Cache tailles de bassin (25/50)
+├── scripts/
+│   └── scrape.mjs                  # Scrape liveffn + géocode + bassins -> data/*.json
+├── Makefile
 └── README.md
 ```
 
 ## Déploiement
 
-Settings → Pages → source = `main`, dossier `/public`. URL active en ~1 min : `https://bneel.github.io/master-map/`. SSL automatique (Let's Encrypt via GitHub).
+Settings → Pages → source = `main`, dossier `/ (root)`. URL active en ~1 min : `https://bneel.github.io/master-map/`. SSL automatique (Let's Encrypt via GitHub).
 
 ## Sources et attributions
 
