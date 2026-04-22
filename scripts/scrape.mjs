@@ -413,16 +413,17 @@ async function geocodeAll(cities, cache) {
     }
   }
   console.log(`[geo] cache hit: ${hits.length} villes`);
-  const estimatedSec = Math.ceil(misses.length * 1.1);
+  const estimatedSec = Math.ceil(misses.length * 2);
   console.log(
     `[geo] cache miss: ${misses.length} villes à géocoder (~${estimatedSec} sec)`,
   );
 
+  // Throttle 2s entre requêtes Nominatim (plus respectueux que les 1s
+  // minimum de leur ToS, aligné avec le throttle du calendrier liveffn).
+  const GEO_DELAY_MS = 2000;
   for (let i = 0; i < misses.length; i++) {
     const city = misses[i];
-    if (i > 0) {
-      await new Promise((r) => setTimeout(r, 1100));
-    }
+    if (i > 0) await sleep(GEO_DELAY_MS);
     try {
       const r = await geocodeCity(city);
       cache[city] = r;
@@ -460,9 +461,13 @@ async function main() {
   const rangeEnd = new Date(now.getFullYear(), now.getMonth() + FORWARD_HORIZON_MONTHS, 1);
   const months = monthsBetween(rangeStart, rangeEnd);
 
-  // 1. Fetch + parse
+  // 1. Fetch + parse (throttle 2s entre chaque requête calendrier —
+  // courtoisie envers liveffn, reste imperceptible pour un cron quotidien)
+  const CAL_DELAY_MS = 2000;
   const rawMaitres = [];
-  for (const { month, year } of months) {
+  for (let i = 0; i < months.length; i++) {
+    if (i > 0) await sleep(CAL_DELAY_MS);
+    const { month, year } = months[i];
     const html = await fetchMonthHtml(month, year);
     const raw = parseMonthHtml(html, month, year);
     const maitres = raw.filter((r) => isMaitres(r.libelle));
