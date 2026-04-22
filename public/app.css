@@ -1,0 +1,464 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; height: 100%; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  /* Viewport exact, pas "au minimum" : pas de dépassement = pas de scroll body */
+  height: 100%;
+  height: 100dvh; /* mobile moderne : hauteur dynamique qui s'adapte à la barre d'adresse */
+  overflow: hidden; /* interdit tout scroll global, le scroll vit dans les panes internes */
+}
+
+/* Header compact : titre en haut + 1 ligne de contrôles */
+header {
+  padding: 0.5rem 0.75rem;
+  background: #fff;
+  border-bottom: 1px solid #e2e8f0;
+  flex-shrink: 0; /* pas de compression, hauteur naturelle */
+}
+.title-row {
+  display: flex; align-items: baseline; gap: 0.6rem;
+  margin-bottom: 0.45rem;
+}
+.brand {
+  flex: 1; min-width: 0;
+  display: flex; flex-direction: column; gap: 0.05rem;
+}
+.title-row h1 {
+  margin: 0; font-size: 1.15rem; font-weight: 800;
+  line-height: 1.15;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  color: #0f172a; letter-spacing: -0.01em;
+}
+.tagline {
+  margin: 0; font-size: 0.72rem; color: #64748b; font-weight: 500;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+/* Bouton "?" d'info (remplace l'ancien libellé "Mis à jour") */
+.info-btn {
+  flex-shrink: 0;
+  width: 1.75rem; height: 1.75rem;
+  border: 0; border-radius: 50%;
+  background: #2563eb; color: #fff;
+  font: inherit; font-weight: 700; font-size: 0.95rem;
+  cursor: pointer; line-height: 1;
+  display: inline-flex; align-items: center; justify-content: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+.info-btn:hover { background: #1d4ed8; }
+/* Variantes de staleness — signalent visuellement l'âge des données */
+.info-btn.warn { background: #ea580c; }
+.info-btn.warn:hover { background: #c2410c; }
+.info-btn.stale { background: #dc2626; }
+.info-btn.stale:hover { background: #b91c1c; }
+
+/* Modal "À propos" */
+.modal[hidden] { display: none; }
+.modal {
+  position: fixed; inset: 0; z-index: 2000;
+  display: flex; align-items: center; justify-content: center;
+}
+.modal-backdrop {
+  position: absolute; inset: 0;
+  background: rgba(15, 23, 42, 0.55);
+}
+.modal-content {
+  position: relative;
+  background: #fff; color: #0f172a;
+  border-radius: 0.6rem;
+  padding: 1.25rem 1.25rem 1rem;
+  max-width: calc(100% - 2rem); width: 26rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  max-height: calc(100vh - 2rem); overflow-y: auto;
+}
+.modal-close {
+  position: absolute; top: 0.4rem; right: 0.5rem;
+  width: 2rem; height: 2rem;
+  border: 0; background: transparent;
+  color: #64748b; font-size: 1.1rem; cursor: pointer;
+  border-radius: 50%;
+}
+.modal-close:hover { background: #f1f5f9; color: #0f172a; }
+.modal-title { margin: 0 1.5rem 0.5rem 0; font-size: 1.05rem; }
+.modal-p {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem; line-height: 1.45;
+  color: #334155;
+}
+.modal-p:first-of-type {
+  font-size: 0.95rem; color: #0f172a;
+}
+.modal-p a { color: #2563eb; text-decoration: underline; }
+#modalUpdated { font-weight: 600; color: #16a34a; }
+#modalUpdated.warn { color: #ea580c; }
+#modalUpdated.stale { color: #dc2626; }
+.modal-sep { border: 0; border-top: 1px solid #e2e8f0; margin: 0.75rem 0; }
+.modal-author {
+  margin: 0 0 0.5rem; font-size: 1rem; color: #0f172a;
+}
+.modal-author strong { color: #0f172a; }
+.modal-socials { display: flex; gap: 0.8rem; flex-wrap: wrap; margin-top: 0.25rem; }
+.social-link {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  padding: 0.6rem 0.9rem;
+  border-radius: 0.5rem;
+  text-decoration: none; font-weight: 600; font-size: 1rem;
+  border: 1px solid transparent;
+  transition: transform 0.1s ease;
+}
+.social-link:hover { transform: translateY(-1px); }
+.social-link svg { width: 1.75rem; height: 1.75rem; flex-shrink: 0; }
+.social-instagram {
+  background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+  color: #fff;
+}
+.social-instagram:hover { filter: brightness(1.08); }
+.social-linkedin {
+  background: #0a66c2; color: #fff;
+}
+.social-linkedin:hover { background: #084c94; }
+
+.modal-admin-note {
+  margin: 0.9rem 0 0;
+  font-size: 0.72rem;
+  font-style: italic;
+  color: #94a3b8;
+  line-height: 1.35;
+}
+
+.controls-row {
+  display: flex; align-items: center; gap: 0.4rem;
+}
+
+/* Ligne filtre bassin + bouton reload à droite */
+.bassin-row {
+  display: flex; align-items: center; gap: 0.35rem;
+  margin-top: 0.45rem;
+}
+.bassin-filter {
+  display: flex; align-items: center; gap: 0.35rem;
+  flex: 1; min-width: 0; flex-wrap: wrap;
+}
+.bassin-label {
+  font-size: 0.75rem; color: #64748b; text-transform: uppercase;
+  letter-spacing: 0.03em; margin-right: 0.15rem;
+}
+.bassin-pill {
+  font: inherit; font-size: 0.8rem; font-weight: 600;
+  padding: 0.25rem 0.65rem;
+  border: 1px solid #cbd5e1; border-radius: 999px;
+  background: #fff; color: #475569; cursor: pointer;
+  line-height: 1.3;
+}
+.bassin-pill:hover { background: #f1f5f9; }
+.bassin-pill.active {
+  background: #2563eb; color: #fff; border-color: #2563eb;
+}
+
+/* Bouton reload (alignement à droite, aligné visuellement avec .pos-btn au-dessus) */
+.reload-btn {
+  flex-shrink: 0;
+  width: 2rem; height: 2rem;
+  border: 1px solid #cbd5e1; border-radius: 0.35rem;
+  background: #fff; color: #0f172a;
+  font: inherit; font-size: 1.1rem; font-weight: 700;
+  cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center;
+  line-height: 1;
+}
+.reload-btn:hover { background: #f1f5f9; }
+.reload-btn.spinning { animation: spin 0.8s linear infinite; }
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.controls-row .search { flex: 1; min-width: 0; }
+.horizon-select {
+  font: inherit; font-size: 0.8rem; font-weight: 600;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid #cbd5e1; border-radius: 0.35rem;
+  background: #fff; color: #0f172a; cursor: pointer;
+  flex-shrink: 0; max-width: 38%;
+}
+.horizon-select:focus { outline: 2px solid #2563eb; outline-offset: 1px; }
+
+/* Bouton "Ma position" (header) */
+.pos-btn {
+  flex-shrink: 0;
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.35rem 0.55rem;
+  font: inherit; font-size: 0.8rem; font-weight: 600;
+  border: 1px solid #cbd5e1; border-radius: 0.35rem;
+  background: #fff; color: #0f172a; cursor: pointer;
+  line-height: 1;
+}
+.pos-btn:hover { background: #f1f5f9; }
+.pos-btn-label { white-space: nowrap; }
+/* Sur mobile étroit, on masque le texte pour économiser la place */
+@media (max-width: 560px) {
+  .pos-btn-label { display: none; }
+  .pos-btn { padding: 0.4rem; }
+}
+
+
+/* Recherche */
+.search {
+  font: inherit; font-size: 0.85rem;
+  padding: 0.35rem 0.55rem;
+  border: 1px solid #cbd5e1; border-radius: 0.35rem;
+  background: #fff; color: #0f172a;
+}
+.search:focus { outline: 2px solid #2563eb; outline-offset: 1px; }
+
+/* Tabs avec icône à droite du libellé */
+.tabs {
+  display: flex;
+  background: #fff;
+  border-bottom: 1px solid #e2e8f0;
+  flex-shrink: 0;
+}
+.tab {
+  flex: 1; padding: 0.6rem; border: 0; background: transparent;
+  font: inherit; font-size: 0.9rem; color: #64748b; cursor: pointer;
+  border-bottom: 2px solid transparent;
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+}
+.tab.active { color: #0f172a; border-bottom-color: #2563eb; font-weight: 600; }
+.tab-icon { width: 1.1rem; height: 1.1rem; flex-shrink: 0; }
+
+/* Layout
+   Mobile : le pane actif remplit toute la hauteur restante de <main>
+   via flex:1. On évite les hauteurs fixes (60vh/40vh) qui tronquaient
+   la liste en-dessous de 40 % du viewport. */
+main { flex: 1; display: flex; position: relative; min-height: 0; }
+.pane { display: none; flex: 1; min-height: 0; overflow: hidden; position: relative; }
+.pane.active { display: flex; flex-direction: column; }
+#map { flex: 1; width: 100%; min-height: 0; }
+
+/* Légende carte */
+.legend {
+  position: absolute; bottom: 0.5rem; left: 0.5rem; z-index: 500;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid #e2e8f0; border-radius: 0.4rem;
+  padding: 0.4rem 0.5rem;
+  display: flex; flex-wrap: wrap; gap: 0.25rem 0.6rem;
+  font-size: 0.7rem; color: #334155;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  max-width: calc(100% - 1rem);
+}
+.legend-item { display: inline-flex; align-items: center; gap: 0.25rem; }
+.legend .badge {
+  width: 1.1rem; height: 1.1rem; font-size: 0.65rem;
+}
+
+/* Liste */
+.list-toolbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0.5rem 1rem; background: #fff;
+  border-bottom: 1px solid #e2e8f0;
+  flex-shrink: 0;
+}
+.list-count { font-size: 0.75rem; color: #64748b; }
+.sort-group { display: inline-flex; border: 1px solid #cbd5e1; border-radius: 0.35rem; overflow: hidden; }
+.sort-btn {
+  font: inherit; font-size: 0.8rem; font-weight: 500;
+  padding: 0.35rem 0.7rem; border: 0; background: #fff; color: #475569; cursor: pointer;
+  border-right: 1px solid #cbd5e1;
+}
+.sort-btn:last-child { border-right: 0; }
+.sort-btn:hover { background: #f1f5f9; }
+.sort-btn.active { background: #2563eb; color: #fff; font-weight: 600; }
+
+#list {
+  list-style: none; margin: 0; padding: 0;
+  flex: 1; min-height: 0; overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+#list li {
+  display: flex; gap: 0.6rem; padding: 0.7rem 1rem;
+  border-bottom: 1px solid #e2e8f0; cursor: pointer; background: #fff;
+}
+#list li:hover, #list li:active { background: #f1f5f9; }
+#list li.past { opacity: 0.55; }
+#list li.past .name { text-decoration: line-through; text-decoration-color: #94a3b8; }
+#list .info { flex: 1; min-width: 0; }
+#list .name { font-weight: 600; font-size: 0.95rem; margin: 0 0 0.15rem; }
+#list .meta { font-size: 0.8rem; color: #475569; margin: 0; }
+
+/* Badges de niveau
+   Hiérarchie visuelle :
+   - F (Championnat de France maîtres) : rouge vif, le plus fort
+   - I (International) : bordeaux, distinct du rouge CdF
+   - N, Z, R, D : orange, jaune, bleu, gris */
+.badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 1.7rem; height: 1.7rem; border-radius: 50%;
+  color: #fff; font-weight: 700; font-size: 0.8rem; flex-shrink: 0;
+}
+.badge-F { background: #DC2626; }
+.badge-I { background: #7C2D12; }
+.badge-N { background: #EA580C; }
+.badge-Z { background: #CA8A04; }
+.badge-R { background: #2563EB; }
+.badge-D { background: #64748B; }
+
+/* Marqueurs (divIcon) */
+.marker-wrapper { background: transparent; border: 0; }
+.marker-pill {
+  border-radius: 50%;
+  border-style: solid; border-color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; font-weight: 700; font-size: 0.8rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+}
+.marker-pill.past { opacity: 0.5; }
+
+/* Marqueur de position utilisateur (emoji) — cliquable pour redéfinir */
+.marker-user {
+  font-size: 1.6rem; line-height: 1;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+.marker-user.clickable { cursor: pointer; }
+
+/* Tooltip permanent "Ma position" à côté du marqueur (cliquable aussi) */
+.leaflet-tooltip.user-tooltip {
+  background: #0f172a; color: #fff;
+  border: 0; border-radius: 0.3rem;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.75rem; font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.leaflet-tooltip.user-tooltip::before { display: none; }
+
+/* Prompt de localisation (par-dessus la carte) */
+.location-prompt {
+  position: absolute; top: 0.75rem; left: 50%;
+  transform: translateX(-50%);
+  z-index: 550;
+  background: #fff; border: 1px solid #e2e8f0;
+  border-radius: 0.5rem; padding: 0.75rem 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: calc(100% - 1.5rem); width: 22rem;
+}
+.location-prompt p { margin: 0 0 0.6rem; font-size: 0.85rem; color: #0f172a; }
+.location-prompt-actions { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.btn-primary, .btn-secondary, .btn-link {
+  font: inherit; font-size: 0.8rem; font-weight: 600;
+  padding: 0.4rem 0.7rem; border-radius: 0.35rem; cursor: pointer;
+  border: 1px solid transparent;
+}
+.btn-primary { background: #2563eb; color: #fff; }
+.btn-primary:hover { background: #1d4ed8; }
+.btn-secondary {
+  background: #fff; color: #0f172a; border-color: #cbd5e1;
+}
+.btn-secondary:hover { background: #f1f5f9; }
+.btn-link {
+  background: transparent; color: #64748b; border-color: transparent;
+  text-decoration: underline;
+}
+.btn-link:hover { color: #0f172a; }
+
+/* Mode sélection de position : overlay + curseur crosshair */
+#map.picking { cursor: crosshair; }
+.map-pick-overlay {
+  position: absolute; bottom: 0.5rem; left: 50%;
+  transform: translateX(-50%);
+  z-index: 500;
+  background: #0f172a; color: #fff;
+  padding: 0.45rem 0.8rem;
+  border-radius: 0.35rem;
+  font-size: 0.85rem; font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+}
+
+/* Popup multi-compétitions */
+.popup-group { min-width: 220px; max-width: 300px; }
+.popup-head {
+  display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap;
+  padding-bottom: 0.35rem; margin-bottom: 0.4rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+.popup-head strong { font-size: 0.95rem; color: #0f172a; }
+.count-badge {
+  display: inline-block;
+  padding: 0.05rem 0.35rem;
+  background: #e2e8f0; color: #475569;
+  border-radius: 0.25rem;
+  font-size: 0.7rem; font-weight: 600;
+}
+.popup-item {
+  padding: 0.35rem 0;
+  border-bottom: 1px dashed #e2e8f0;
+}
+.popup-item:last-child { border-bottom: 0; }
+.popup-item .item-tags {
+  margin-bottom: 0.2rem; display: flex; gap: 0.3rem; flex-wrap: wrap;
+}
+.popup-item .item-title {
+  font-weight: 600; font-size: 0.85rem; margin-bottom: 0.15rem;
+  color: #0f172a;
+}
+.popup-item .item-meta {
+  font-size: 0.75rem; color: #475569; margin-bottom: 0.25rem;
+}
+.popup-item .item-link {
+  display: inline-block; color: #2563eb; text-decoration: none;
+  font-size: 0.8rem;
+}
+.popup-item .item-link:hover { text-decoration: underline; }
+
+/* Badges dans la popup */
+.champ-france {
+  display: inline-block;
+  padding: 0.1rem 0.4rem; font-size: 0.65rem; font-weight: 700;
+  background: #DC2626; color: #fff; border-radius: 0.25rem;
+  letter-spacing: 0.03em;
+}
+.past-tag {
+  display: inline-block;
+  padding: 0.1rem 0.4rem; font-size: 0.65rem; font-weight: 700;
+  background: #94a3b8; color: #fff; border-radius: 0.25rem;
+  letter-spacing: 0.03em;
+}
+.bassin-tag {
+  display: inline-block;
+  padding: 0.1rem 0.4rem; font-size: 0.65rem; font-weight: 700;
+  background: #0ea5e9; color: #fff; border-radius: 0.25rem;
+  letter-spacing: 0.03em;
+}
+
+/* États */
+.error {
+  padding: 1.5rem 1rem; text-align: center; color: #b91c1c;
+  font-size: 0.9rem;
+}
+.empty { padding: 1.5rem 1rem; text-align: center; color: #475569; font-size: 0.9rem; }
+
+/* Footer */
+footer {
+  padding: 0.6rem 1rem; font-size: 0.7rem; color: #64748b;
+  text-align: center; background: #fff; border-top: 1px solid #e2e8f0;
+  flex-shrink: 0;
+}
+
+/* Desktop : les deux panes côte-à-côte + titre plus généreux */
+@media (min-width: 960px) {
+  .tabs { display: none; }
+  main { flex-direction: row; }
+  .pane { display: flex !important; flex-direction: column; }
+  .pane-map { flex: 0 0 60%; }
+  .pane-list { flex: 0 0 40%; }
+
+  header { padding: 0.9rem 1.5rem 0.6rem; }
+  .title-row h1 { font-size: 1.8rem; letter-spacing: -0.02em; }
+  .tagline { font-size: 0.95rem; }
+  .info-btn { width: 2.1rem; height: 2.1rem; font-size: 1.05rem; }
+}

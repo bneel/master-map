@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Master Map — Les compétitions de natation des maîtres en France</title>
+  <meta name="description" content="Master Map recense toutes les compétitions de natation des maîtres (masters, master, maitre) en France. Carte interactive et liste triée par distance ou par date, filtrables par bassin 25 m / 50 m. Données issues de liveffn.com (FFN), mises à jour quotidiennement." />
+  <meta name="keywords" content="natation, natation maîtres, natation maitres, natation master, natation masters, natation maître, natation maitre, compétition natation maîtres, compétition natation masters, meeting natation maîtres, meeting masters, championnat natation maîtres, championnat de France maîtres, calendrier natation maîtres, calendrier compétitions maîtres, carte natation maîtres, France, bassin 25m, bassin 50m, piscine 25 mètres, piscine 50 mètres, FFN, liveffn, natation adulte, vétérans natation, nageurs maîtres, club natation maîtres" />
+  <meta name="author" content="Benjamin Néel" />
+  <meta name="robots" content="index, follow" />
+  <meta name="language" content="French" />
+  <meta name="geo.region" content="FR" />
+  <meta name="geo.placename" content="France" />
+  <link rel="canonical" href="https://bneel.github.io/master-map/" />
+
+  <!-- Open Graph (Facebook, WhatsApp, LinkedIn, etc.) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:site_name" content="Master Map" />
+  <meta property="og:title" content="Master Map — Les compétitions de natation des maîtres en France" />
+  <meta property="og:description" content="Carte interactive et liste des compétitions de natation maîtres (masters) en France. Filtrez par période et par taille de bassin (25 m / 50 m)." />
+  <meta property="og:url" content="https://bneel.github.io/master-map/" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Master Map — Compétitions de natation des maîtres" />
+  <meta name="twitter:description" content="Toutes les compétitions de natation maîtres (masters) en France sur une carte interactive." />
+
+  <!-- Structured data JSON-LD : aide Google à comprendre le site -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Master Map",
+    "alternateName": ["Master Map natation", "Master Map maîtres"],
+    "url": "https://bneel.github.io/master-map/",
+    "inLanguage": "fr-FR",
+    "description": "Carte et liste des compétitions de natation pour les maîtres (masters) en France.",
+    "author": {
+      "@type": "Person",
+      "name": "Benjamin Néel",
+      "sameAs": [
+        "https://www.instagram.com/benjamin_darneel/",
+        "https://www.linkedin.com/in/benjaminneel/"
+      ]
+    },
+    "keywords": "natation maîtres, natation masters, compétition natation, meeting natation, calendrier natation, France"
+  }
+  </script>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+  <header>
+    <div class="title-row">
+      <div class="brand">
+        <h1>Master Map</h1>
+        <p class="tagline">Les compétitions de natation des maîtres</p>
+      </div>
+      <button type="button" id="infoBtn" class="info-btn" aria-label="À propos — informations sur les données" title="À propos">?</button>
+    </div>
+    <div class="controls-row">
+      <select id="horizon" class="horizon-select" aria-label="Période à afficher">
+        <optgroup label="À venir">
+          <option value="upcoming:1">1 mois</option>
+          <option value="upcoming:3" selected>3 mois</option>
+          <option value="upcoming:6">6 mois</option>
+          <option value="upcoming:9">9 mois</option>
+          <option value="upcoming:12">12 mois</option>
+        </optgroup>
+        <optgroup label="Saisons" id="seasonGroup"></optgroup>
+      </select>
+      <form id="searchForm" style="display:contents" action="#" role="search">
+        <input
+          type="search"
+          id="search"
+          class="search"
+          placeholder="Nom ou ville…"
+          aria-label="Filtrer par nom ou ville"
+          autocomplete="off"
+          enterkeyhint="search"
+          inputmode="search"
+        />
+      </form>
+      <button type="button" id="changeLocationBtn" class="pos-btn" title="Changer ma position" aria-label="Changer ma position">
+        <span aria-hidden="true">📍</span><span class="pos-btn-label">Ma position</span>
+      </button>
+    </div>
+    <div class="bassin-row">
+      <div class="bassin-filter" role="group" aria-label="Filtre par taille de bassin">
+        <span class="bassin-label">Bassin</span>
+        <button type="button" class="bassin-pill active" data-bassin="all">Tous</button>
+        <button type="button" class="bassin-pill" data-bassin="25">25 m</button>
+        <button type="button" class="bassin-pill" data-bassin="50">50 m</button>
+      </div>
+      <button type="button" id="reloadBtn" class="reload-btn" title="Actualiser les données" aria-label="Actualiser les données">↻</button>
+    </div>
+  </header>
+
+  <div id="infoModal" class="modal" hidden aria-modal="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-content" role="document">
+      <button type="button" class="modal-close" id="modalClose" aria-label="Fermer">✕</button>
+      <h2 id="modalTitle" class="modal-title">À propos de Master Map</h2>
+      <p class="modal-p">
+        <strong>Master Map</strong> recense les compétitions de natation pour les maîtres en France.
+      </p>
+      <p class="modal-p">
+        Les données proviennent du site <a href="https://www.liveffn.com/" target="_blank" rel="noopener">liveffn.com</a> et sont mises à jour régulièrement.
+        Dernière mise à jour : <span id="modalUpdated">…</span>
+      </p>
+      <p class="modal-p">
+        Si une compétition n'apparaît pas sur Master Map, ce n'est pas un bug, c'est qu'elle n'est pas encore sur liveFFN.
+      </p>
+      <p class="modal-p">
+        Si le libellé de la compétition ne précise pas « <strong>maîtres</strong> » sur le site liveFFN, alors la compétition n'apparaîtra pas non plus sur Master Map (ex. les Championnats de France 2025 à Mulhouse… dommage).
+      </p>
+      <p class="modal-p">
+        Si vous souhaitez faire apparaître une compétition sur Master Map, demandez à votre club de l'ajouter sur liveFFN et de mettre le mot « maîtres » dans le titre. Elle apparaîtra 24 h après sur Master Map.
+      </p>
+      <hr class="modal-sep">
+      <p class="modal-author">Site développé par <strong>Benjamin Néel</strong></p>
+      <div class="modal-socials">
+        <a class="social-link social-instagram" href="https://www.instagram.com/benjamin_darneel/" target="_blank" rel="noopener" aria-label="Instagram de Benjamin">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>
+          <span>Instagram</span>
+        </a>
+        <a class="social-link social-linkedin" href="https://www.linkedin.com/in/benjaminneel/" target="_blank" rel="noopener" aria-label="LinkedIn de Benjamin">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M7 10.5h2.7v7.5H7v-7.5zm1.35-4.1a1.55 1.55 0 110 3.1 1.55 1.55 0 010-3.1zM11.3 10.5h2.6v1.05c.55-.9 1.55-1.25 2.55-1.25 2 0 2.85 1.15 2.85 3.35V18h-2.7v-3.9c0-1.05-.3-1.75-1.25-1.75s-1.35.75-1.35 1.75V18h-2.7v-7.5z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+      <p class="modal-admin-note">
+        Aux administrateurs du liveFFN : ce site fait seulement quelques appels par jour, c'est ultralight, contactez-moi si besoin.
+      </p>
+    </div>
+  </div>
+
+  <nav class="tabs" id="tabs">
+    <button type="button" class="tab active" data-tab="map">
+      <span>Carte</span>
+      <svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12,3 20,7.5 20,16.5 12,21 4,16.5 4,7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+    </button>
+    <button type="button" class="tab" data-tab="list">
+      <span>Liste</span>
+      <svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+    </button>
+  </nav>
+
+  <main>
+    <section id="mapPane" class="pane pane-map active">
+      <div id="map"></div>
+      <div id="mapError" class="error" hidden></div>
+      <div class="legend" aria-label="Légende des couleurs">
+        <span class="legend-item"><span class="badge badge-F">F</span>Champ. France</span>
+        <span class="legend-item"><span class="badge badge-I">I</span>International</span>
+        <span class="legend-item"><span class="badge badge-N">N</span>National</span>
+        <span class="legend-item"><span class="badge badge-Z">Z</span>Interrégional</span>
+        <span class="legend-item"><span class="badge badge-R">R</span>Régional</span>
+        <span class="legend-item"><span class="badge badge-D">D</span>Départemental</span>
+      </div>
+
+      <div class="location-prompt" id="locationPrompt" hidden>
+        <p id="locationPromptMsg">Indique ta position pour trier les compétitions par distance.</p>
+        <div class="location-prompt-actions">
+          <button type="button" id="geolocateBtn" class="btn-primary">📡 Utiliser ma position</button>
+          <button type="button" id="pickMapBtn" class="btn-secondary">🗺️ Choisir sur la carte</button>
+          <button type="button" id="dismissPromptBtn" class="btn-link">Plus tard</button>
+        </div>
+      </div>
+
+      <div class="map-pick-overlay" id="mapPickOverlay" hidden>
+        Clique n'importe où sur la carte pour placer ta position
+      </div>
+    </section>
+    <section id="listPane" class="pane pane-list">
+      <div class="list-toolbar">
+        <span class="list-count" id="listCount"></span>
+        <div class="sort-group" role="group" aria-label="Tri">
+          <button type="button" class="sort-btn active" data-sort="distance">📏 Tri par distance</button>
+          <button type="button" class="sort-btn" data-sort="date">📅 Tri par date</button>
+        </div>
+      </div>
+      <ul id="list"></ul>
+      <div id="listError" class="error" hidden></div>
+    </section>
+  </main>
+
+  <footer>
+    Non officiel. Source&nbsp;: liveffn.com. Cartographie &copy; OpenStreetMap / CARTO.
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
