@@ -10,7 +10,7 @@
 //   6. Géocode les villes via Nominatim (cache persistant, 1 req/sec).
 //   7. Écrit data/competitions.json + data/cities.json.
 
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile, rename, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -31,6 +31,13 @@ const POOL_SIZES_PATH = path.join(DATA_DIR, "pool_sizes.json");
 const USER_AGENT =
   "MasterMap/1.0 (+https://bneel.github.io/master-map/; source https://github.com/bneel/master-map; contact via github issues)";
 
+// Whitelist manuelle : Google Sheet publiée en CSV, une colonne `url`.
+// Permet de rattraper des compétitions maîtres rejetées par le filtre titre
+// (ex: "19e Meeting de Combs-la-Ville" — pas de mot "maîtres" dans le nom).
+// Soft-fail : si la variable n'est pas définie ou la sheet inaccessible,
+// le scrape continue avec liveffn seul.
+const MANUAL_SHEET_CSV_URL = process.env.MANUAL_SHEET_CSV_URL || "";
+
 // Drapeau : true pour couvrir saison courante + saison précédente
 // (fenêtre de ~24 mois). Le cache pool_sizes.json évite les re-fetch.
 const SCRAPE_PREVIOUS_SEASON = true;
@@ -45,6 +52,54 @@ const POOL_FLUSH_EVERY = 30;                // re-write competitions.json tous l
 
 function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
 function jitter(base, amp) { return base + (Math.random() * 2 - 1) * amp; }
+
+// Fetch avec timeout 30s et retry en backoff exponentiel sur 5xx/429/throw.
+// Usage pour endpoints externes "best-effort" (liveffn calendrier, Nominatim).
+// NE PAS utiliser pour fetchPoolSize : il gère lui-même les 403 (ban IP).
+async function fetchWithRetry(url, options = {}, { retries = 3, baseDelayMs = 2000 } = {}) {
+  let lastErr;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(url, { ...options, signal: AbortSignal.timeout(30000) });
+      if (res.status >= 500 || res.status === 429) {
+        lastErr = new Error(`HTTP ${res.status}`);
+        if (attempt < retries) {
+          const delay = baseDelayMs * Math.pow(2, attempt);
+          console.warn(`[http] retry ${attempt + 1}/${retries} pour ${url} (status: ${res.status}), pause ${delay}ms`);
+          await sleep(delay);
+          continue;
+        }
+        return res; // dernier essai : on renvoie la réponse, l'appelant gère le !ok
+      }
+      return res;
+    } catch (err) {
+      lastErr = err;
+      if (attempt < retries) {
+        const delay = baseDelayMs * Math.pow(2, attempt);
+        console.warn(`[http] retry ${attempt + 1}/${retries} pour ${url} (error: ${err.message}), pause ${delay}ms`);
+        await sleep(delay);
+        continue;
+      }
+      throw lastErr;
+    }
+  }
+  throw lastErr;
+}
+
+// Écriture atomique : write dans un .tmp puis rename. Évite un fichier
+// tronqué/corrompu si le process crashe en plein writeFile.
+async function atomicWriteFile(filePath, content) {
+  const tmp = filePath + ".tmp";
+  await writeFile(tmp, content);
+  await rename(tmp, filePath);
+}
+
+// Clé d'indexation canonique pour le cache villes.
+// La source peut envoyer "PARIS", "Paris", "Paris " — on unifie pour éviter
+// les doublons cache et les cache miss à tort.
+function normalizeCityKey(s) {
+  return String(s ?? "").trim().toUpperCase();
+}
 
 const NIVEAU_LIBELLE = {
   I: "International",
@@ -122,7 +177,7 @@ async function fetchMonthHtml(month, year) {
   const url =
     "https://www.liveffn.com/cgi-bin/calendrier_live_ajax.php" +
     `?action=select_mois&calendrier_mois=${pad2(month)}&calendrier_annee=${year}`;
-  const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
+  const res = await fetchWithRetry(url, { headers: { "User-Agent": USER_AGENT } });
   if (!res.ok) {
     throw new Error(`FFN fetch ${pad2(month)}/${year} HTTP ${res.status}`);
   }
@@ -189,6 +244,42 @@ function decodeEntities(s) {
     .replace(/&ugrave;/g, "ù")
     .replace(/&icirc;/g, "î")
     .replace(/&iuml;/g, "ï");
+}
+
+// --- Whitelist manuelle (Google Sheet en CSV) ---------------------------
+
+async function loadManualIds() {
+  if (!MANUAL_SHEET_CSV_URL) {
+    console.log("[manual] MANUAL_SHEET_CSV_URL non défini, skip");
+    return new Set();
+  }
+  let csv;
+  try {
+    const res = await fetch(MANUAL_SHEET_CSV_URL, {
+      signal: AbortSignal.timeout(15000),
+      headers: { "User-Agent": USER_AGENT },
+    });
+    if (!res.ok) {
+      console.warn(`[manual] HTTP ${res.status} sur la sheet, skip`);
+      return new Set();
+    }
+    csv = await res.text();
+  } catch (err) {
+    console.warn(`[manual] fetch sheet échoué: ${err.message}, skip`);
+    return new Set();
+  }
+  const lines = csv.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+  const ids = new Set();
+  let isHeader = true;
+  for (const line of lines) {
+    if (isHeader) { isHeader = false; continue; }
+    const url = line.replace(/^"|"$/g, "");
+    const m = url.match(/competition=(\d+)/);
+    if (m) ids.add(m[1]);
+    else console.warn(`[manual] ligne ignorée (pas d'id liveffn): ${line}`);
+  }
+  console.log(`[manual] ${ids.size} ids chargés depuis la sheet`);
+  return ids;
 }
 
 // --- Filtrage maîtres + parsing libellé ---------------------------------
@@ -267,20 +358,37 @@ function dedupeCompetitions(raw) {
 // --- Géocodage Nominatim ------------------------------------------------
 
 async function loadCitiesCache() {
+  let raw;
   try {
     const txt = await readFile(CITIES_PATH, "utf8");
-    return JSON.parse(txt);
+    raw = JSON.parse(txt);
   } catch (err) {
     if (err.code === "ENOENT") return {};
     throw err;
   }
+  // Ré-indexe les clés via normalizeCityKey. En cas de collision
+  // ("PARIS" vs "Paris"), on garde l'entrée avec la plus grande importance
+  // (fallback : la première rencontrée si importance null).
+  const out = {};
+  for (const [k, v] of Object.entries(raw)) {
+    const nk = normalizeCityKey(k);
+    if (!(nk in out)) {
+      out[nk] = v;
+      continue;
+    }
+    const existing = out[nk];
+    const ei = existing && existing.importance != null ? existing.importance : -Infinity;
+    const ni = v && v.importance != null ? v.importance : -Infinity;
+    if (ni > ei) out[nk] = v;
+  }
+  return out;
 }
 
 async function geocodeCity(city) {
   const url =
     "https://nominatim.openstreetmap.org/search" +
     `?city=${encodeURIComponent(city)}&countrycodes=fr&format=json&limit=1`;
-  const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
+  const res = await fetchWithRetry(url, { headers: { "User-Agent": USER_AGENT } });
   if (!res.ok) {
     throw new Error(`Nominatim HTTP ${res.status} pour ${city}`);
   }
@@ -337,7 +445,7 @@ async function fetchPoolSize(competitionId) {
 async function flushPoolCache(cache) {
   const sorted = {};
   for (const k of Object.keys(cache).sort()) sorted[k] = cache[k];
-  await writeFile(POOL_SIZES_PATH, JSON.stringify(sorted, null, 2) + "\n");
+  await atomicWriteFile(POOL_SIZES_PATH, JSON.stringify(sorted, null, 2) + "\n");
 }
 
 // `writeCompetitions` : callback fournie par main() qui re-génère
@@ -406,7 +514,7 @@ async function geocodeAll(cities, cache) {
   const misses = [];
   for (const city of cities) {
     if (!city) continue;
-    if (Object.prototype.hasOwnProperty.call(cache, city)) {
+    if (Object.prototype.hasOwnProperty.call(cache, normalizeCityKey(city))) {
       hits.push(city);
     } else {
       misses.push(city);
@@ -426,7 +534,7 @@ async function geocodeAll(cities, cache) {
     if (i > 0) await sleep(GEO_DELAY_MS);
     try {
       const r = await geocodeCity(city);
-      cache[city] = r;
+      cache[normalizeCityKey(city)] = r;
       if (r.lat == null) {
         console.log(`[geo] ${city} → aucun résultat`);
       } else {
@@ -464,6 +572,7 @@ async function main() {
   // 1. Fetch + parse (throttle 2s entre chaque requête calendrier —
   // courtoisie envers liveffn, reste imperceptible pour un cron quotidien)
   const CAL_DELAY_MS = 2000;
+  const rawAll = [];
   const rawMaitres = [];
   for (let i = 0; i < months.length; i++) {
     if (i > 0) await sleep(CAL_DELAY_MS);
@@ -474,7 +583,33 @@ async function main() {
     console.log(
       `[scrape] fetching ${year}-${pad2(month)}... ${raw.length} compétitions brutes, ${maitres.length} maîtres`,
     );
+    rawAll.push(...raw);
     rawMaitres.push(...maitres);
+  }
+
+  // 1b. Rattrapage manuel : ré-injecter les ids présents dans la whitelist
+  // Sheet mais filtrés par isMaitres (faux négatifs du filtre par nom).
+  const manualIds = await loadManualIds();
+  if (manualIds.size > 0) {
+    const collected = new Set(rawMaitres.map((r) => r.competitionId));
+    let added = 0;
+    const missing = [];
+    for (const id of manualIds) {
+      if (collected.has(id)) continue;
+      const found = rawAll.find((r) => r.competitionId === id);
+      if (found) {
+        rawMaitres.push(found);
+        collected.add(id);
+        added++;
+        console.log(`[manual] +${id} : ${found.libelle}`);
+      } else {
+        missing.push(id);
+      }
+    }
+    console.log(`[manual] ${added} compétitions ajoutées (rattrapage filtre titre)`);
+    if (missing.length > 0) {
+      console.warn(`[manual] WARN ${missing.length} ids introuvables dans la fenêtre 12 mois: ${missing.join(", ")}`);
+    }
   }
 
   // 2. Dédoublonnage
@@ -509,7 +644,7 @@ async function main() {
   // et le filtrage final la retire du JSON).
   let droppedForeign = 0;
   for (const c of filtered) {
-    const g = cache[c.ville];
+    const g = cache[normalizeCityKey(c.ville)];
     const importanceTooLow =
       g && g.importance != null && g.importance < MIN_IMPORTANCE;
     if (c.foreign || importanceTooLow || !g || g.lat == null) {
@@ -572,7 +707,7 @@ async function main() {
         url: c.url,
       })),
     };
-    await writeFile(COMPETITIONS_PATH, JSON.stringify(output, null, 2) + "\n");
+    await atomicWriteFile(COMPETITIONS_PATH, JSON.stringify(output, null, 2) + "\n");
   }
 
   // Pré-charger les bassins déjà en cache (pour l'écriture précoce)
@@ -584,7 +719,7 @@ async function main() {
   // Flush cities.json tout de suite (pas coûteux)
   const sortedCache = {};
   for (const k of Object.keys(cache).sort()) sortedCache[k] = cache[k];
-  await writeFile(CITIES_PATH, JSON.stringify(sortedCache, null, 2) + "\n");
+  await atomicWriteFile(CITIES_PATH, JSON.stringify(sortedCache, null, 2) + "\n");
 
   // Première écriture de competitions.json → le site voit tout de suite.
   await writeCompetitions();
