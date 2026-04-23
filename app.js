@@ -756,16 +756,16 @@ function renderList() {
     list.appendChild(li);
   });
 
-  // Pied de liste en mode recherche : rappelle la limite "pas dans liveFFN"
-  if (state.search) {
-    const hint = document.createElement('li');
-    hint.className = 'search-hint';
-    hint.innerHTML = `<p class="empty-msg-2"><span aria-hidden="true">⚠️</span> Si une compétition est manquante, c'est qu'elle n'est pas encore sur liveFFN.</p><button type="button" class="btn-secondary empty-info-btn">En savoir plus</button>`;
-    hint.querySelector('.empty-info-btn').addEventListener('click', () => {
-      document.getElementById('infoBtn').click();
-    });
-    list.appendChild(hint);
-  }
+  // Pied de liste : rappelle toujours que liveFFN est la source de vérité,
+  // y compris quand aucun filtre/recherche n'est actif (ça couvre le cas où
+  // l'utilisateur parcourt la liste sans requête précise).
+  const hint = document.createElement('li');
+  hint.className = 'search-hint';
+  hint.innerHTML = `<p class="empty-msg-2"><span aria-hidden="true">⚠️</span> Si une compétition est manquante, c'est qu'elle n'est pas encore sur liveFFN.</p><button type="button" class="btn-secondary empty-info-btn">En savoir plus</button>`;
+  hint.querySelector('.empty-info-btn').addEventListener('click', () => {
+    document.getElementById('infoBtn').click();
+  });
+  list.appendChild(hint);
 }
 
 // --- Boot -----------------------------------------------------------------
