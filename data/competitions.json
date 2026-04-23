@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T09:32:15.771Z",
+  "generatedAt": "2026-04-23T09:40:11.759Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -2241,6 +2241,20 @@
       "lat": 48.7262225,
       "lon": 4.5851622,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=89117"
+    },
+    {
+      "id": "88900",
+      "nom": "XXXe Championnat de France Hiver Open",
+      "ville": "LE MANS",
+      "dateDebut": "2025-03-06",
+      "dateFin": "2025-03-06",
+      "niveau": "N",
+      "niveauLibelle": "National",
+      "championnatFrance": true,
+      "bassin": 25,
+      "lat": 48.0073849,
+      "lon": 0.1967849,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=88900"
     },
     {
       "id": "89301",
