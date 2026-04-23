@@ -214,11 +214,6 @@ header {
   line-height: 1;
 }
 .reload-btn:hover { background: #f1f5f9; }
-.reload-btn.spinning { animation: spin 0.8s linear infinite; }
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
 .controls-row .search { flex: 1; min-width: 0; }
 .horizon-select {
   font: inherit; font-size: 0.8rem; font-weight: 600;
