@@ -44,6 +44,12 @@ const state = {
   userPos: null,
   pickingLocation: false,
   map: null,
+  // Map<locationKey ("lat,lon"), Leaflet marker> — clé stable par lieu :
+  // on réutilise le marqueur tant que le lieu reste à l'écran (évite
+  // le flash et le travail inutile sur simple changement de filtre).
+  markerGroups: new Map(),
+  // Index id compétition → marqueur (utilisé par le clic liste pour
+  // ouvrir le popup de la bonne comp).
   markers: {}
 };
 
@@ -294,6 +300,8 @@ function niveauLabel(c) {
 // Regroupe les compétitions par couple (lat, lon) arrondi à 4 décimales
 // (~11 m), ce qui permet de fusionner les points identiques d'une même
 // ville (cas Châteauroux : CdF N1 et N2 au même endroit, même jour).
+// Retourne une Map<key, group> (la clé est stable et sert à réutiliser
+// les marqueurs Leaflet d'un render à l'autre).
 function groupByLocation(items) {
   const groups = new Map();
   for (const item of items) {
@@ -302,7 +310,16 @@ function groupByLocation(items) {
     if (!g) { g = []; groups.set(key, g); }
     g.push(item);
   }
-  return [...groups.values()];
+  return groups;
+}
+
+// Signature d'un groupe : change chaque fois que quelque chose susceptible
+// d'affecter l'icône ou le popup change (composition, ordre, statut passé).
+// Permet de savoir quand mettre à jour un marqueur réutilisé.
+function groupSignature(group) {
+  const ids = group.map(({ c }) => c.id).sort().join('|');
+  const past = group.map(({ c }) => isPast(c) ? '1' : '0').join('');
+  return `${ids}#${past}`;
 }
 
 // Compétition la plus prestigieuse d'un groupe → détermine la couleur.
@@ -370,6 +387,15 @@ function markerIcon(group) {
   const size = isCdF || isMulti ? 26 : 20;
   const border = isCdF ? 3 : 2;
   const label = isMulti ? String(group.length) : '';
+  // Défense en profondeur : ces valeurs viennent de constantes internes
+  // (couleurs hex fixes, entiers), mais on garde une assertion stricte
+  // pour refuser toute injection CSS si la source changeait un jour.
+  if (!/^#[0-9a-f]{3,8}$/i.test(color)) {
+    throw new Error('markerIcon: couleur invalide');
+  }
+  if (!Number.isFinite(border)) {
+    throw new Error('markerIcon: border invalide');
+  }
   return L.divIcon({
     className: 'marker-wrapper',
     html: `<div class="marker-pill${allPast ? ' past' : ''}" style="width:${size}px;height:${size}px;background:${color};border-width:${border}px">${label}</div>`,
@@ -401,7 +427,9 @@ function initTabs() {
 
 function activateTab(name) {
   document.querySelectorAll('.tab').forEach(t => {
-    t.classList.toggle('active', t.dataset.tab === name);
+    const isActive = t.dataset.tab === name;
+    t.classList.toggle('active', isActive);
+    t.setAttribute('aria-selected', isActive ? 'true' : 'false');
   });
   document.getElementById('mapPane').classList.toggle('active', name === 'map');
   document.getElementById('listPane').classList.toggle('active', name === 'list');
@@ -415,13 +443,19 @@ function activateTab(name) {
 function initHorizon() {
   const sel = document.getElementById('horizon');
   sel.addEventListener('change', () => {
-    const v = sel.value; // "upcoming:3" | "season:<index>"
+    const v = sel.value; // "upcoming:3" | "season:<index>" | "year:current" | "year:previous"
     if (v.startsWith('upcoming:')) {
       state.mode = 'upcoming';
       state.horizonMonths = parseInt(v.slice(9), 10);
     } else if (v.startsWith('season:')) {
       state.mode = 'season';
       state.seasonIndex = parseInt(v.slice(7), 10);
+    } else if (v === 'year:current') {
+      state.mode = 'year';
+      state.yearOffset = 0;
+    } else if (v === 'year:previous') {
+      state.mode = 'year';
+      state.yearOffset = -1;
     }
     render();
   });
@@ -513,7 +547,19 @@ function initReload() {
 
 // Fonction de chargement de données, appelée au boot.
 async function loadData() {
-  const res = await fetch('data/competitions.json', { cache: 'no-cache' });
+  // Timeout de 10 s : sur réseau mobile capricieux, mieux vaut afficher
+  // une erreur claire que de laisser l'utilisateur regarder un spinner.
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 10000);
+  let res;
+  try {
+    res = await fetch('data/competitions.json', {
+      cache: 'no-cache',
+      signal: controller.signal
+    });
+  } finally {
+    clearTimeout(timeoutId);
+  }
   if (!res.ok) throw new Error('HTTP ' + res.status);
   const data = await res.json();
 
@@ -574,6 +620,10 @@ function filteredCompetitions() {
     const s = state.seasons[state.seasonIndex];
     lower = s ? s.start : '0000-00-00';
     upper = s ? s.end + '~' : '9999-12-31'; // on inclut le 31 août
+  } else if (state.mode === 'year') {
+    const y = new Date().getFullYear() + (state.yearOffset || 0);
+    lower = `${y}-01-01`;
+    upper = `${y}-12-31~`;
   }
 
   return state.all.filter(({ c }) => {
@@ -600,31 +650,44 @@ function render() {
 }
 
 function renderMap() {
-  // Nettoyer les marqueurs précédents (un seul par groupe, mais on garde
-  // une référence par compétition pour que le clic liste trouve son marqueur).
-  const seen = new Set();
-  for (const id in state.markers) {
-    const m = state.markers[id];
-    if (!seen.has(m)) {
-      state.map.removeLayer(m);
-      seen.add(m);
+  // Stratégie diff : on garde les marqueurs dont la clé lat,lon reste
+  // visible et on ne touche qu'au nécessaire. Évite le flash sur un
+  // simple changement de filtre et accélère le rendu mobile.
+  const groupsMap = groupByLocation(filteredCompetitions());
+
+  // 1. Retire les marqueurs des lieux qui ne sont plus visibles.
+  for (const [key, entry] of state.markerGroups) {
+    if (!groupsMap.has(key)) {
+      state.map.removeLayer(entry.marker);
+      state.markerGroups.delete(key);
     }
   }
-  state.markers = {};
 
-  const groups = groupByLocation(filteredCompetitions());
-  for (const group of groups) {
+  // 2. Pour chaque lieu visible : crée le marqueur s'il n'existe pas,
+  //    sinon ne met à jour icône/popup que si la signature a changé.
+  state.markers = {};
+  for (const [key, group] of groupsMap) {
     const first = group[0].c;
-    const marker = L.marker([first.lat, first.lon], {
-      icon: markerIcon(group)
-    }).addTo(state.map);
-    marker.bindPopup(popupGroupHtml(group), {
-      maxWidth: 320,
-      maxHeight: 400,
-      autoPan: true
-    });
+    const sig = groupSignature(group);
+    let entry = state.markerGroups.get(key);
+    if (!entry) {
+      const marker = L.marker([first.lat, first.lon], {
+        icon: markerIcon(group)
+      }).addTo(state.map);
+      marker.bindPopup(popupGroupHtml(group), {
+        maxWidth: 320,
+        maxHeight: 400,
+        autoPan: true
+      });
+      entry = { marker, sig };
+      state.markerGroups.set(key, entry);
+    } else if (entry.sig !== sig) {
+      entry.marker.setIcon(markerIcon(group));
+      entry.marker.setPopupContent(popupGroupHtml(group));
+      entry.sig = sig;
+    }
     for (const { c } of group) {
-      state.markers[c.id] = marker;
+      state.markers[c.id] = entry.marker;
     }
   }
 }
@@ -681,7 +744,7 @@ function renderList() {
     `;
     li.addEventListener('click', () => {
       if (window.innerWidth < 960) activateTab('map');
-      state.map.setView([c.lat, c.lon], 10);
+      state.map.setView([c.lat, c.lon], 8);
       const m = state.markers[c.id];
       if (m) setTimeout(() => m.openPopup(), 100);
     });
@@ -700,20 +763,62 @@ function initInfoModal() {
   const closeBtn = document.getElementById('modalClose');
   const updatedEl = document.getElementById('modalUpdated');
 
+  // AbortController dédié au listener keydown de la modal : à la fermeture
+  // on abort() pour retirer proprement le listener (auto-nettoyant).
+  let keyAbort = null;
+  // Pour restaurer le focus après fermeture (accessibilité clavier).
+  let previouslyFocused = null;
+
   function open() {
     updatedEl.textContent = state.updatedText || 'date indisponible';
     updatedEl.classList.remove('warn', 'stale');
     if (state.updatedClass) updatedEl.classList.add(state.updatedClass);
+    previouslyFocused = document.activeElement;
     modal.hidden = false;
+    keyAbort = new AbortController();
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !modal.hidden) close();
+    }, { signal: keyAbort.signal });
+    // Focus sur le bouton fermer pour la navigation clavier.
+    setTimeout(() => closeBtn.focus(), 0);
   }
-  function close() { modal.hidden = true; }
+  function close() {
+    modal.hidden = true;
+    if (keyAbort) { keyAbort.abort(); keyAbort = null; }
+    // Restaure le focus sur l'élément qui a ouvert la modal.
+    if (previouslyFocused && typeof previouslyFocused.focus === 'function') {
+      previouslyFocused.focus();
+    }
+    previouslyFocused = null;
+  }
 
   btn.addEventListener('click', open);
   closeBtn.addEventListener('click', close);
   backdrop.addEventListener('click', close);
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && !modal.hidden) close();
-  });
+}
+
+function initLegendClose() {
+  const legend = document.getElementById('legend');
+  const btn = document.getElementById('legendClose');
+  if (!legend || !btn) return;
+  btn.addEventListener('click', () => { legend.hidden = true; });
+}
+
+// Toast minimal : affiche un message 2 s en bas de page.
+let toastTimer = null;
+function showToast(msg) {
+  const el = document.getElementById('toast');
+  if (!el) return;
+  el.textContent = msg;
+  el.hidden = false;
+  // Force un reflow pour que la transition redémarre si un toast est déjà visible.
+  void el.offsetWidth;
+  el.classList.add('visible');
+  if (toastTimer) clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => {
+    el.classList.remove('visible');
+    setTimeout(() => { el.hidden = true; }, 200);
+  }, 2000);
 }
 
 async function init() {
@@ -725,6 +830,7 @@ async function init() {
   initLocation();
   initInfoModal();
   initReload();
+  initLegendClose();
 
   // Charge la position depuis le cache si disponible.
   state.userPos = loadUserPos();
@@ -743,6 +849,18 @@ async function init() {
     applyUserPos({ lat: e.latlng.lat, lon: e.latlng.lng });
   });
 
+  // Clic dans un popup : ferme le popup sauf si on a cliqué sur un lien
+  // (le lien doit pouvoir ouvrir la page liveffn dans un nouvel onglet).
+  // Motif : sur mobile le popup prend presque tout l'écran et masque la carte.
+  state.map.on('popupopen', (e) => {
+    const el = e.popup.getElement();
+    if (!el) return;
+    el.addEventListener('click', (ev) => {
+      if (ev.target.closest('a')) return;
+      state.map.closePopup();
+    });
+  });
+
   // Pas de position en cache → afficher le prompt
   if (!state.userPos) {
     showLocationPrompt();
@@ -758,8 +876,27 @@ async function init() {
   try {
     await loadData();
   } catch (e) {
-    setError('Impossible de charger les données. Réessayez.');
+    console.error('[MasterMap] Échec du chargement de data/competitions.json', e);
+    const msg = e && e.name === 'AbortError'
+      ? 'Impossible de charger les données (délai dépassé). Réessayez plus tard.'
+      : 'Impossible de charger les données, réessayez plus tard.';
+    setError(msg);
+    showLoadErrorBanner(msg);
   }
+}
+
+// Bannière d'erreur persistante en haut de page quand les données
+// ne se chargent pas : plus visible qu'un simple message dans les panes.
+function showLoadErrorBanner(msg) {
+  let banner = document.getElementById('loadErrorBanner');
+  if (!banner) {
+    banner = document.createElement('div');
+    banner.id = 'loadErrorBanner';
+    banner.className = 'load-error-banner';
+    banner.setAttribute('role', 'alert');
+    document.body.insertBefore(banner, document.body.firstChild);
+  }
+  banner.textContent = msg;
 }
 
 document.addEventListener('DOMContentLoaded', init);

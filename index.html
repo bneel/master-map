@@ -37,6 +37,12 @@
   <meta name="twitter:title" content="Master Map — Compétitions de natation des maîtres" />
   <meta name="twitter:description" content="Toutes les compétitions de natation maîtres (masters) en France sur une carte interactive." />
 
+  <!-- Aperçu social : le favicon SVG sert de fallback.
+       Pour un vrai aperçu riche sur les réseaux, remplacer par une image PNG
+       1200×630 (format recommandé par Facebook/Twitter/LinkedIn). -->
+  <meta property="og:image" content="favicon.svg" />
+  <meta name="twitter:image" content="favicon.svg" />
+
   <!-- Structured data JSON-LD : aide Google à comprendre le site -->
   <script type="application/ld+json">
   {
@@ -74,18 +80,16 @@
           <p class="tagline">Les compétitions de natation des maîtres</p>
         </div>
       </div>
-      <button type="button" id="infoBtn" class="info-btn" aria-label="À propos — informations sur les données" title="À propos">?</button>
+      <button type="button" id="infoBtn" class="info-btn" aria-label="À propos — informations sur les données" title="À propos">À propos</button>
     </div>
     <div class="controls-row">
       <select id="horizon" class="horizon-select" aria-label="Période à afficher">
-        <optgroup label="À venir">
-          <option value="upcoming:1">1 mois</option>
-          <option value="upcoming:3" selected>3 mois</option>
-          <option value="upcoming:6">6 mois</option>
-          <option value="upcoming:9">9 mois</option>
-          <option value="upcoming:12">12 mois</option>
-        </optgroup>
-        <optgroup label="Saisons" id="seasonGroup"></optgroup>
+        <option value="upcoming:1">Dans 1 mois</option>
+        <option value="upcoming:3" selected>Dans 3 mois</option>
+        <option value="upcoming:6">Dans 6 mois</option>
+        <option value="upcoming:12">Dans 12 mois</option>
+        <option value="year:current">Cette année</option>
+        <option value="year:previous">Année dernière</option>
       </select>
       <form id="searchForm" style="display:contents" action="#" role="search">
         <input
@@ -105,7 +109,6 @@
     </div>
     <div class="bassin-row">
       <div class="bassin-filter" role="group" aria-label="Filtre par taille de bassin">
-        <span class="bassin-label">Bassin</span>
         <button type="button" class="bassin-pill active" data-bassin="all">Tous</button>
         <button type="button" class="bassin-pill" data-bassin="25">25 m</button>
         <button type="button" class="bassin-pill" data-bassin="50">50 m</button>
@@ -118,22 +121,9 @@
     <div class="modal-backdrop" id="modalBackdrop"></div>
     <div class="modal-content" role="document">
       <button type="button" class="modal-close" id="modalClose" aria-label="Fermer">✕</button>
-      <h2 id="modalTitle" class="modal-title">À propos de Master Map</h2>
+      <h2 id="modalTitle" class="modal-title">À propos</h2>
       <p class="modal-p">
-        <strong>Master Map</strong> recense les compétitions de natation pour les maîtres en France.
-      </p>
-      <p class="modal-p">
-        Les données proviennent du site <a href="https://www.liveffn.com/" target="_blank" rel="noopener">liveffn.com</a> et sont mises à jour régulièrement.
-        Dernière mise à jour : <span id="modalUpdated">…</span>
-      </p>
-      <p class="modal-p">
-        Si une compétition n'apparaît pas sur Master Map, ce n'est pas un bug, c'est qu'elle n'est pas encore sur liveFFN.
-      </p>
-      <p class="modal-p">
-        Si le libellé de la compétition ne précise pas « <strong>maîtres</strong> » sur le site liveFFN, alors la compétition n'apparaîtra pas non plus sur Master Map (ex. les Championnats de France 2025 à Mulhouse… dommage).
-      </p>
-      <p class="modal-p">
-        Si vous souhaitez faire apparaître une compétition sur Master Map, demandez à votre club de l'ajouter sur liveFFN et de mettre le mot « maîtres » dans le titre. Elle apparaîtra 24 h après sur Master Map.
+        MasterMap recense les compétitions de natation maîtres en France sur une carte interactive. Les données proviennent de liveFFN. Dernière mise à jour : <span id="modalUpdated">…</span>.
       </p>
       <hr class="modal-sep">
       <p class="modal-author">Site développé par <strong>Benjamin Néel</strong></p>
@@ -147,34 +137,48 @@
           <span>LinkedIn</span>
         </a>
       </div>
+      <hr class="modal-sep">
+      <p class="modal-p">
+        Si une compétition n'apparaît pas sur MasterMap, ce n'est pas un bug : c'est qu'elle n'est pas encore sur liveFFN.
+      </p>
+      <p class="modal-p">
+        Si vous souhaitez faire apparaître une compétition sur MasterMap, demandez à votre club de l'ajouter sur liveFFN et de mettre le mot « maîtres » dans le titre. Elle apparaîtra 24 h après sur MasterMap.
+      </p>
+      <p class="modal-p">
+        Si une compétition maîtres existe sur liveFFN mais pas sur MasterMap, soit vous n'avez pas attendu 24 h, soit le mot « maîtres » ou « master » ne figure pas dans le titre sur liveFFN. Dans ce cas, envoyez-nous une demande via <a href="https://docs.google.com/forms/d/e/1FAIpQLSf6g021DXRIjD3V0xvkoZ9mtt02SCiwz91aicK6UGp37fEwQg/viewform" target="_blank" rel="noopener">ce formulaire</a>.
+      </p>
+      <hr class="modal-sep">
       <p class="modal-admin-note">
         Aux administrateurs du liveFFN : ce site fait seulement quelques appels par jour, c'est ultralight, contactez-moi si besoin.
       </p>
     </div>
   </div>
 
-  <nav class="tabs" id="tabs">
-    <button type="button" class="tab active" data-tab="map">
+  <div id="toast" class="toast" hidden role="status" aria-live="polite"></div>
+
+  <nav class="tabs" id="tabs" role="tablist">
+    <button type="button" class="tab active" data-tab="map" id="tabMap" role="tab" aria-selected="true" aria-controls="mapPane">
       <span>Carte</span>
       <svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12,3 20,7.5 20,16.5 12,21 4,16.5 4,7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
     </button>
-    <button type="button" class="tab" data-tab="list">
+    <button type="button" class="tab" data-tab="list" id="tabList" role="tab" aria-selected="false" aria-controls="listPane">
       <span>Liste</span>
       <svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
     </button>
   </nav>
 
   <main>
-    <section id="mapPane" class="pane pane-map active">
+    <section id="mapPane" class="pane pane-map active" role="tabpanel" aria-labelledby="tabMap">
       <div id="map"></div>
       <div id="mapError" class="error" hidden></div>
-      <div class="legend" aria-label="Légende des couleurs">
+      <div class="legend" id="legend" aria-label="Légende des couleurs">
         <span class="legend-item"><span class="badge badge-F">F</span>Champ. France</span>
         <span class="legend-item"><span class="badge badge-I">I</span>International</span>
         <span class="legend-item"><span class="badge badge-N">N</span>National</span>
         <span class="legend-item"><span class="badge badge-Z">Z</span>Interrégional</span>
         <span class="legend-item"><span class="badge badge-R">R</span>Régional</span>
         <span class="legend-item"><span class="badge badge-D">D</span>Départemental</span>
+        <button type="button" class="legend-close" id="legendClose" aria-label="Fermer la légende">✕</button>
       </div>
 
       <div class="location-prompt" id="locationPrompt" hidden>
@@ -190,7 +194,7 @@
         Clique n'importe où sur la carte pour placer ta position
       </div>
     </section>
-    <section id="listPane" class="pane pane-list">
+    <section id="listPane" class="pane pane-list" role="tabpanel" aria-labelledby="tabList">
       <div class="list-toolbar">
         <span class="list-count" id="listCount"></span>
         <div class="sort-group" role="group" aria-label="Tri">

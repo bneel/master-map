@@ -46,18 +46,21 @@ header {
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 
-/* Bouton "?" d'info (remplace l'ancien libellé "Mis à jour") */
+/* Bouton "À propos" dans le header
+   Intentionnellement visible (emoji + texte) : c'était invisible en version "?". */
 .info-btn {
   flex-shrink: 0;
-  width: 1.75rem; height: 1.75rem;
-  border: 0; border-radius: 50%;
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.35rem 0.6rem;
+  border: 0; border-radius: 0.35rem;
   background: #2563eb; color: #fff;
-  font: inherit; font-weight: 700; font-size: 0.95rem;
+  font: inherit; font-weight: 600; font-size: 0.8rem;
   cursor: pointer; line-height: 1;
-  display: inline-flex; align-items: center; justify-content: center;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  white-space: nowrap;
 }
 .info-btn:hover { background: #1d4ed8; }
+.info-btn-icon { font-size: 0.95rem; line-height: 1; }
 /* Variantes de staleness — signalent visuellement l'âge des données */
 .info-btn.warn { background: #ea580c; }
 .info-btn.warn:hover { background: #c2410c; }
@@ -105,6 +108,10 @@ header {
 #modalUpdated.warn { color: #ea580c; }
 #modalUpdated.stale { color: #dc2626; }
 .modal-sep { border: 0; border-top: 1px solid #e2e8f0; margin: 0.75rem 0; }
+.modal-updated-line {
+  margin: 0.5rem 0 0; font-size: 0.8rem; color: #64748b;
+}
+/* Ligne "Site développé par …" + icônes réseaux */
 .modal-author {
   margin: 0 0 0.5rem; font-size: 1rem; color: #0f172a;
 }
@@ -129,6 +136,38 @@ header {
   background: #0a66c2; color: #fff;
 }
 .social-linkedin:hover { background: #084c94; }
+.modal-admin-note {
+  margin: 0.75rem 0 0; font-size: 0.75rem; color: #94a3b8; font-style: italic;
+}
+
+/* Toast (confirmation de copie de lien) */
+.toast {
+  position: fixed; bottom: 1.2rem; left: 50%;
+  transform: translateX(-50%) translateY(0.5rem);
+  z-index: 2500;
+  background: #0f172a; color: #fff;
+  padding: 0.55rem 0.9rem;
+  border-radius: 0.4rem;
+  font-size: 0.85rem; font-weight: 500;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.toast[hidden] { display: none; }
+.toast.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Bannière d'erreur de chargement (insérée dynamiquement en haut du body) */
+.load-error-banner {
+  background: #fee2e2; color: #991b1b;
+  padding: 0.6rem 1rem;
+  font-size: 0.85rem; font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #fca5a5;
+  flex-shrink: 0;
+}
 
 .modal-admin-note {
   margin: 0.9rem 0 0;
@@ -150,10 +189,6 @@ header {
 .bassin-filter {
   display: flex; align-items: center; gap: 0.35rem;
   flex: 1; min-width: 0; flex-wrap: wrap;
-}
-.bassin-label {
-  font-size: 0.75rem; color: #64748b; text-transform: uppercase;
-  letter-spacing: 0.03em; margin-right: 0.15rem;
 }
 .bassin-pill {
   font: inherit; font-size: 0.8rem; font-weight: 600;
@@ -226,14 +261,14 @@ header {
 .tabs {
   display: flex;
   gap: 0.4rem;
-  padding: 0.5rem 0.75rem;
+  padding: 0.35rem 0.75rem;
   background: #fff;
   border-bottom: 1px solid #e2e8f0;
   flex-shrink: 0;
 }
 .tab {
   flex: 1;
-  padding: 0.55rem 0.75rem;
+  padding: 0.4rem 0.75rem;
   border: 1px solid #cbd5e1;
   border-radius: 0.45rem;
   background: #f8fafc;
@@ -276,6 +311,14 @@ main { flex: 1; display: flex; position: relative; min-height: 0; }
 .legend .badge {
   width: 1.1rem; height: 1.1rem; font-size: 0.65rem;
 }
+.legend[hidden] { display: none; }
+.legend-close {
+  border: 0; background: transparent;
+  color: #64748b; font-size: 0.85rem; line-height: 1;
+  padding: 0 0.15rem; margin-left: 0.2rem;
+  cursor: pointer; border-radius: 0.2rem;
+}
+.legend-close:hover { background: #f1f5f9; color: #0f172a; }
 
 /* Liste */
 .list-toolbar {
@@ -509,7 +552,16 @@ footer {
   header { padding: 0.9rem 1.5rem 0.6rem; }
   .title-row h1 { font-size: 1.8rem; letter-spacing: -0.02em; }
   .tagline { font-size: 0.95rem; }
-  .info-btn { width: 2.1rem; height: 2.1rem; font-size: 1.05rem; }
+  .info-btn { font-size: 0.9rem; padding: 0.45rem 0.8rem; }
   .brand { gap: 0.8rem; }
   .brand-logo { width: 3rem; height: 3rem; border-radius: 0.5rem; }
+}
+
+/* Très grand écran : limite la largeur du layout pour rester lisible. */
+@media (min-width: 1200px) {
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  }
 }
