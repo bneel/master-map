@@ -288,12 +288,12 @@ async function loadManualIds() {
 
 const MAITRES_RE = /\b(ma[iî]tres?|masters?)\b/i;
 
-// Championnat(s) de France ... maîtres — couvre :
-//   - "Championnat de France Interclubs N1/N2 des Maîtres"
-//   - "Championnats de France (Hiver|Été) (N2)? (Open)? des Maîtres"
-//   - variantes avec/sans accents, capitalisation, tirets.
-// Exclut "Championnat de France Universitaire" (pas de "maîtres").
-const CHAMPIONNAT_FRANCE_RE = /championnat[s]?\s+de\s+france[\s\S]{0,200}?ma[iî]tres?/i;
+// Championnat(s) de France — sur une compétition déjà filtrée comme "maîtres"
+// (soit par le filtre titre liveffn, soit via la whitelist manuelle). On n'a
+// donc plus besoin d'exiger "maîtres" dans le nom : ça permet de badger F
+// les CF dont le nom ne mentionne pas explicitement "maîtres"
+// (ex. "XXXVIIIe Championnats de France Été Open" à Mulhouse, validé manuellement).
+const CHAMPIONNAT_FRANCE_RE = /championnat[s]?\s+de\s+france\b/i;
 
 // Marqueurs textuels de compétition hors France dans le libellé.
 // Les compétitions matchant ce pattern sont inscrites au calendrier FFN

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T09:24:58.791Z",
+  "generatedAt": "2026-04-23T09:32:15.771Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -3720,7 +3720,7 @@
       "dateFin": "2025-06-26",
       "niveau": "N",
       "niveauLibelle": "National",
-      "championnatFrance": false,
+      "championnatFrance": true,
       "bassin": 50,
       "lat": 47.7467233,
       "lon": 7.3389937,
