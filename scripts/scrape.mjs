@@ -22,6 +22,7 @@ const DATA_DIR = path.join(ROOT, "data");
 const COMPETITIONS_PATH = path.join(DATA_DIR, "competitions.json");
 const CITIES_PATH = path.join(DATA_DIR, "cities.json");
 const POOL_SIZES_PATH = path.join(DATA_DIR, "pool_sizes.json");
+const OVERRIDES_PATH = path.join(DATA_DIR, "cities_overrides.json");
 
 // User-Agent explicite pour les administrateurs de liveffn.com :
 // - nom du projet clairement identifié (MasterMap)
@@ -101,6 +102,28 @@ async function atomicWriteFile(filePath, content) {
 // les doublons cache et les cache miss à tort.
 function normalizeCityKey(s) {
   return String(s ?? "").trim().toUpperCase();
+}
+
+// Overrides manuels de géocodage : pour les rares villes homonymes où
+// Nominatim tombe sur la mauvaise (ex: Belleville Nancy vs Beaujolais).
+// Fichier data/cities_overrides.json, format { "VILLE": { lat, lon, note } }.
+// Soft-fail : fichier absent ou mal formé → pas d'override.
+async function loadOverrides() {
+  try {
+    const txt = await readFile(OVERRIDES_PATH, "utf8");
+    const raw = JSON.parse(txt);
+    const out = {};
+    for (const [k, v] of Object.entries(raw)) {
+      if (v && typeof v.lat === "number" && typeof v.lon === "number") {
+        out[normalizeCityKey(k)] = { lat: v.lat, lon: v.lon };
+      }
+    }
+    return out;
+  } catch (err) {
+    if (err.code === "ENOENT") return {};
+    console.warn(`[overrides] lecture échouée: ${err.message}, skip`);
+    return {};
+  }
 }
 
 const NIVEAU_LIBELLE = {
@@ -644,9 +667,22 @@ async function main() {
   //     countrycodes=fr alors que la vraie ville est ailleurs).
   // Dans ces deux cas on écarte la compétition (lat/lon restent null,
   // et le filtrage final la retire du JSON).
+  const overrides = await loadOverrides();
+  if (Object.keys(overrides).length > 0) {
+    console.log(`[overrides] ${Object.keys(overrides).length} villes avec coordonnées forcées`);
+  }
   let droppedForeign = 0;
+  let overridden = 0;
   for (const c of filtered) {
-    const g = cache[normalizeCityKey(c.ville)];
+    const key = normalizeCityKey(c.ville);
+    const ov = overrides[key];
+    if (ov && !c.foreign) {
+      c.lat = ov.lat;
+      c.lon = ov.lon;
+      overridden++;
+      continue;
+    }
+    const g = cache[key];
     const importanceTooLow =
       g && g.importance != null && g.importance < MIN_IMPORTANCE;
     if (c.foreign || importanceTooLow || !g || g.lat == null) {
@@ -657,6 +693,9 @@ async function main() {
       c.lat = g.lat;
       c.lon = g.lon;
     }
+  }
+  if (overridden > 0) {
+    console.log(`[overrides] ${overridden} compétitions repositionnées`);
   }
 
   // 6. Filtrage final : on retire les compétitions sans géocodage France.

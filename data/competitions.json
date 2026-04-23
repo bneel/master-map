@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T09:40:11.759Z",
+  "generatedAt": "2026-04-23T10:43:25.223Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -3274,8 +3274,8 @@
       "niveauLibelle": "Régional",
       "championnatFrance": false,
       "bassin": 50,
-      "lat": 48.8176714,
-      "lon": 6.0982683,
+      "lat": 46.0986791,
+      "lon": 4.7359529,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=90224"
     },
     {
@@ -6914,8 +6914,8 @@
       "niveauLibelle": "Départemental",
       "championnatFrance": false,
       "bassin": 50,
-      "lat": 48.8176714,
-      "lon": 6.0982683,
+      "lat": 46.0986791,
+      "lon": 4.7359529,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93646"
     },
     {

@@ -1,0 +1,7 @@
+{
+  "BELLEVILLE": {
+    "lat": 46.0986791,
+    "lon": 4.7359529,
+    "note": "Belleville-en-Beaujolais (Rhône). Sans override, Nominatim renvoie Belleville près de Nancy (Meurthe-et-Moselle) qui a une importance légèrement supérieure."
+  }
+}
