@@ -520,7 +520,16 @@ main { flex: 1; display: flex; position: relative; min-height: 0; }
   padding: 1.5rem 1rem; text-align: center; color: #b91c1c;
   font-size: 0.9rem;
 }
-.empty { padding: 1.5rem 1rem; text-align: center; color: #475569; font-size: 0.9rem; }
+#list li.empty, #list li.search-hint {
+  display: block;
+  padding: 1.5rem 1rem; text-align: center; color: #475569; font-size: 0.9rem;
+  cursor: default; background: #fff;
+}
+#list li.empty:hover, #list li.search-hint:hover { background: #fff; }
+#list li.search-hint { border-top: 2px dashed #e2e8f0; }
+.empty-msg-1 { margin: 0 0 0.75rem; }
+.empty-msg-2 { margin: 0 0 1rem; font-weight: 700; font-size: 1.02rem; color: #0f172a; }
+.empty-info-btn { margin: 0 auto; display: inline-block; }
 
 /* Footer compact — tient sur 1 ligne jusque ~320px */
 footer {

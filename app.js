@@ -713,10 +713,15 @@ function renderList() {
 
   list.innerHTML = '';
   if (items.length === 0) {
-    const msg = state.search
-      ? 'Aucune compétition ne correspond à votre recherche.'
-      : 'Aucune compétition maîtres dans cette fenêtre.';
-    list.innerHTML = `<li class="empty">${msg}</li>`;
+    if (state.search) {
+      list.innerHTML = `<li class="empty"><p class="empty-msg-1">Aucune compétition ne correspond à votre recherche.</p><p class="empty-msg-2"><span aria-hidden="true">⚠️</span> Elle n'est peut-être pas encore sur liveFFN.</p><button type="button" class="btn-secondary empty-info-btn">En savoir plus</button></li>`;
+      const btnInfo = list.querySelector('.empty-info-btn');
+      if (btnInfo) btnInfo.addEventListener('click', () => {
+        document.getElementById('infoBtn').click();
+      });
+    } else {
+      list.innerHTML = `<li class="empty">Aucune compétition maîtres dans cette fenêtre.</li>`;
+    }
     return;
   }
 
@@ -750,6 +755,17 @@ function renderList() {
     });
     list.appendChild(li);
   });
+
+  // Pied de liste en mode recherche : rappelle la limite "pas dans liveFFN"
+  if (state.search) {
+    const hint = document.createElement('li');
+    hint.className = 'search-hint';
+    hint.innerHTML = `<p class="empty-msg-2"><span aria-hidden="true">⚠️</span> Si une compétition est manquante, c'est qu'elle n'est pas encore sur liveFFN.</p><button type="button" class="btn-secondary empty-info-btn">En savoir plus</button>`;
+    hint.querySelector('.empty-info-btn').addEventListener('click', () => {
+      document.getElementById('infoBtn').click();
+    });
+    list.appendChild(hint);
+  }
 }
 
 // --- Boot -----------------------------------------------------------------
