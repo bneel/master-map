@@ -34,9 +34,11 @@ const USER_AGENT =
 // Whitelist manuelle : Google Sheet publiée en CSV, une colonne `url`.
 // Permet de rattraper des compétitions maîtres rejetées par le filtre titre
 // (ex: "19e Meeting de Combs-la-Ville" — pas de mot "maîtres" dans le nom).
-// Soft-fail : si la variable n'est pas définie ou la sheet inaccessible,
-// le scrape continue avec liveffn seul.
-const MANUAL_SHEET_CSV_URL = process.env.MANUAL_SHEET_CSV_URL || "";
+// URL en dur par défaut (sheet publique, stable). La variable d'env permet
+// de surcharger pour tester avec une autre sheet. Soft-fail si inaccessible.
+const MANUAL_SHEET_CSV_URL =
+  process.env.MANUAL_SHEET_CSV_URL ||
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIFM8WzodikCJ26VeRZiSDblryGUuiWRIE4uQNSwPnH9fsJUuLa-Cv_EjA3X7UxnEtpM_Pz13P6SzV/pub?gid=0&single=true&output=csv";
 
 // Drapeau : true pour couvrir saison courante + saison précédente
 // (fenêtre de ~24 mois). Le cache pool_sizes.json évite les re-fetch.
