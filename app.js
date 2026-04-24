@@ -15,7 +15,7 @@ const FRANCE_CENTER = { lat: 46.5, lon: 2.5 };
 // "F" (championnat de France maîtres) est un niveau virtuel dérivé du flag
 // championnatFrance — tous les F sont aussi des N au sens FFN.
 const NIVEAU_COLORS = {
-  F: '#DC2626', // Championnat de France maîtres — rouge vif
+  F: '#7c3aed', // Championnat de France maîtres — violet
   I: '#7C2D12', // International — bordeaux
   N: '#EA580C', // National hors CdF — orange
   Z: '#CA8A04', // Interrégional — jaune
@@ -34,9 +34,8 @@ const MONTHS = [
 
 const state = {
   all: [],              // [{c, dist}, ...] (toutes les comp géolocalisées)
-  mode: 'upcoming',     // 'upcoming' | 'season'
-  horizonMonths: 3,     // n'a de sens que si mode === 'upcoming'
-  seasonIndex: 1,       // indice dans state.seasons[] quand mode === 'season'
+  mode: 'upcoming',     // 'upcoming' | 'past' | 'season'
+  seasonIndex: -1,      // fixé au boot via findCurrentSeasonIndex() ; utilisé quand mode === 'season'
   sortMode: 'distance', // 'distance' | 'date' (revient à 'date' si pas de position)
   search: '',           // chaîne normalisée
   bassinFilter: 'all',  // 'all' | '25' | '50'
@@ -58,11 +57,29 @@ function todayIso() {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
-function seasonLabel(s) {
-  // "2025-09-01" → "2025-2026"
-  if (!s) return '';
-  const y = parseInt(s.slice(0, 4), 10);
-  return `${y}-${y + 1}`;
+// Saison courante (flag `current` côté data) avec fallback sur la dernière
+// en date — évite d'avoir cette règle dupliquée dans plusieurs fonctions.
+function findCurrentSeasonIndex() {
+  if (state.seasons.length === 0) return -1;
+  const i = state.seasons.findIndex((s) => s.current);
+  return i >= 0 ? i : state.seasons.length - 1;
+}
+function findCurrentSeason() {
+  const i = findCurrentSeasonIndex();
+  return i >= 0 ? state.seasons[i] : null;
+}
+
+// Met à jour les 3 éléments DOM qui affichent le nombre de compétitions filtrées
+// (pastille des tabs + pastille toolbar + libellé texte "N compétitions").
+function setCompetitionCount(n) {
+  const pillText = n > 0 ? String(n) : '';
+  const label = n > 0 ? ` compétition${n > 1 ? 's' : ''}` : '';
+  const listPill = document.getElementById('listCountPill');
+  const listText = document.getElementById('listCountText');
+  const tabsPill = document.getElementById('tabsCount');
+  if (listPill) listPill.textContent = pillText;
+  if (listText) listText.textContent = label;
+  if (tabsPill) tabsPill.textContent = pillText;
 }
 
 // --- Position utilisateur (localStorage + géoloc + pick sur carte) --------
@@ -85,10 +102,6 @@ function saveUserPos(pos) {
   } catch {
     // Stockage indispo (mode privé) — on continue sans persister.
   }
-}
-
-function clearUserPos() {
-  try { localStorage.removeItem(USER_POS_STORAGE_KEY); } catch {}
 }
 
 // Enclenche l'un des chemins pour obtenir une position.
@@ -191,7 +204,7 @@ function hideLocationPrompt() {
 function setLocationPromptMsg(msg) {
   const el = document.getElementById('locationPromptMsg');
   if (!el) return;
-  el.textContent = msg || "Indique ta position pour trier les compétitions par distance.";
+  el.textContent = msg || "Position requise pour le tri par distance.";
 }
 
 function initLocation() {
@@ -443,19 +456,14 @@ function activateTab(name) {
 function initHorizon() {
   const sel = document.getElementById('horizon');
   sel.addEventListener('change', () => {
-    const v = sel.value; // "upcoming:3" | "season:<index>" | "year:current" | "year:previous"
-    if (v.startsWith('upcoming:')) {
+    const v = sel.value; // "upcoming" | "past" | "season:<index>"
+    if (v === 'upcoming') {
       state.mode = 'upcoming';
-      state.horizonMonths = parseInt(v.slice(9), 10);
+    } else if (v === 'past') {
+      state.mode = 'past';
     } else if (v.startsWith('season:')) {
       state.mode = 'season';
       state.seasonIndex = parseInt(v.slice(7), 10);
-    } else if (v === 'year:current') {
-      state.mode = 'year';
-      state.yearOffset = 0;
-    } else if (v === 'year:previous') {
-      state.mode = 'year';
-      state.yearOffset = -1;
     }
     render();
   });
@@ -465,25 +473,19 @@ function initHorizon() {
 // Les saisons sont listées de la plus récente à la plus ancienne
 // (cohérent avec ce que l'utilisateur attend dans un menu déroulant).
 function populateSeasonOptions() {
-  const group = document.getElementById('seasonGroup');
-  if (!group || state.seasons.length === 0) return;
-  group.innerHTML = '';
+  const sel = document.getElementById('horizon');
+  if (!sel || state.seasons.length === 0) return;
+  // Retire les anciennes options de saison (idempotent en cas de reload data)
+  sel.querySelectorAll('option[value^="season:"]').forEach((o) => o.remove());
   // Ordre : courante en premier, puis précédente
   const ordered = [...state.seasons].sort((a, b) => (a.start < b.start ? 1 : -1));
   for (const s of ordered) {
     const idx = state.seasons.indexOf(s);
     const opt = document.createElement('option');
     opt.value = `season:${idx}`;
-    opt.textContent = `Saison ${s.label}`;
-    group.appendChild(opt);
+    opt.textContent = s.label;
+    sel.appendChild(opt);
   }
-}
-
-// Borne supérieure de la fenêtre "à venir".
-function upcomingUpperIso() {
-  const d = new Date();
-  d.setMonth(d.getMonth() + state.horizonMonths);
-  return d.toISOString().slice(0, 10);
 }
 
 // --- Recherche ------------------------------------------------------------
@@ -573,8 +575,7 @@ async function loadData() {
   }
 
   state.seasons = Array.isArray(data.seasons) ? data.seasons : [];
-  const currentIdx = state.seasons.findIndex((s) => s.current);
-  state.seasonIndex = currentIdx >= 0 ? currentIdx : state.seasons.length - 1;
+  state.seasonIndex = findCurrentSeasonIndex();
   populateSeasonOptions();
 
   const comps = Array.isArray(data.competitions) ? data.competitions : [];
@@ -613,21 +614,24 @@ function filteredCompetitions() {
   const q = state.search;
 
   let lower, upper;
+  let onlyPast = false;
   if (state.mode === 'upcoming') {
     lower = today;
-    upper = upcomingUpperIso();
+    upper = '9999-12-31';
+  } else if (state.mode === 'past') {
+    const cur = findCurrentSeason();
+    lower = cur ? cur.start : '0000-00-00';
+    upper = cur ? cur.end + '~' : '9999-12-31'; // on inclut le 31 août
+    onlyPast = true;
   } else if (state.mode === 'season') {
     const s = state.seasons[state.seasonIndex];
     lower = s ? s.start : '0000-00-00';
     upper = s ? s.end + '~' : '9999-12-31'; // on inclut le 31 août
-  } else if (state.mode === 'year') {
-    const y = new Date().getFullYear() + (state.yearOffset || 0);
-    lower = `${y}-01-01`;
-    upper = `${y}-12-31~`;
   }
 
   return state.all.filter(({ c }) => {
     if (c.dateDebut < lower || c.dateDebut > upper) return false;
+    if (onlyPast && !(c.dateFin < today)) return false;
     if (q && !normalize(c.nom + ' ' + c.ville).includes(q)) return false;
     // Filtre bassin :
     //   - 'all'     : tout (25, 50, null)
@@ -694,7 +698,6 @@ function renderMap() {
 
 function renderList() {
   const list = document.getElementById('list');
-  const countEl = document.getElementById('listCount');
   const items = filteredCompetitions().slice();
 
   // Sans position utilisateur, le tri par distance n'a pas de sens :
@@ -707,9 +710,7 @@ function renderList() {
     items.sort((a, b) => a.dist - b.dist);
   }
 
-  countEl.textContent = items.length > 0
-    ? `${items.length} compétition${items.length > 1 ? 's' : ''}`
-    : '';
+  setCompetitionCount(items.length);
 
   list.innerHTML = '';
   if (items.length === 0) {
@@ -818,23 +819,6 @@ function initLegendClose() {
   const btn = document.getElementById('legendClose');
   if (!legend || !btn) return;
   btn.addEventListener('click', () => { legend.hidden = true; });
-}
-
-// Toast minimal : affiche un message 2 s en bas de page.
-let toastTimer = null;
-function showToast(msg) {
-  const el = document.getElementById('toast');
-  if (!el) return;
-  el.textContent = msg;
-  el.hidden = false;
-  // Force un reflow pour que la transition redémarre si un toast est déjà visible.
-  void el.offsetWidth;
-  el.classList.add('visible');
-  if (toastTimer) clearTimeout(toastTimer);
-  toastTimer = setTimeout(() => {
-    el.classList.remove('visible');
-    setTimeout(() => { el.hidden = true; }, 200);
-  }, 2000);
 }
 
 async function init() {

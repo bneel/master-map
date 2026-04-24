@@ -104,13 +104,15 @@ header {
   font-size: 0.95rem; color: #0f172a;
 }
 .modal-p a { color: #2563eb; text-decoration: underline; }
+.modal-updated-line {
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem; line-height: 1.4;
+  color: #64748b;
+}
 #modalUpdated { font-weight: 600; color: #16a34a; }
 #modalUpdated.warn { color: #ea580c; }
 #modalUpdated.stale { color: #dc2626; }
 .modal-sep { border: 0; border-top: 1px solid #e2e8f0; margin: 0.75rem 0; }
-.modal-updated-line {
-  margin: 0.5rem 0 0; font-size: 0.8rem; color: #64748b;
-}
 /* Ligne "Site développé par …" + icônes réseaux */
 .modal-author {
   margin: 0 0 0.5rem; font-size: 1rem; color: #0f172a;
@@ -136,28 +138,6 @@ header {
   background: #0a66c2; color: #fff;
 }
 .social-linkedin:hover { background: #084c94; }
-.modal-admin-note {
-  margin: 0.75rem 0 0; font-size: 0.75rem; color: #94a3b8; font-style: italic;
-}
-
-/* Toast (confirmation de copie de lien) */
-.toast {
-  position: fixed; bottom: 1.2rem; left: 50%;
-  transform: translateX(-50%) translateY(0.5rem);
-  z-index: 2500;
-  background: #0f172a; color: #fff;
-  padding: 0.55rem 0.9rem;
-  border-radius: 0.4rem;
-  font-size: 0.85rem; font-weight: 500;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
-  opacity: 0;
-  transition: opacity 0.2s ease, transform 0.2s ease;
-}
-.toast[hidden] { display: none; }
-.toast.visible {
-  opacity: 1;
-  transform: translateX(-50%) translateY(0);
-}
 
 /* Bannière d'erreur de chargement (insérée dynamiquement en haut du body) */
 .load-error-banner {
@@ -173,8 +153,16 @@ header {
   margin: 0.9rem 0 0;
   font-size: 0.72rem;
   font-style: italic;
-  color: #94a3b8;
+  color: #0f172a;
   line-height: 1.35;
+}
+.modal-copyright {
+  margin: 1rem 0 0;
+  padding-top: 0.75rem;
+  border-top: 1px solid #e2e8f0;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #64748b;
 }
 
 .controls-row {
@@ -282,6 +270,18 @@ header {
 }
 .tab-icon { width: 1.1rem; height: 1.1rem; flex-shrink: 0; }
 
+/* Pastille ronde bleue réutilisée pour afficher un compteur (tabs + toolbar liste) */
+.count-pill {
+  flex: 0 0 auto;
+  min-width: 2.1rem; height: 2.1rem;
+  padding: 0 0.5rem;
+  border-radius: 999px;
+  background: #2563eb; color: #fff;
+  font-size: 0.85rem; font-weight: 700; line-height: 1;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.count-pill:empty { display: none; }
+
 /* Layout
    Mobile : le pane actif remplit toute la hauteur restante de <main>
    via flex:1. On évite les hauteurs fixes (60vh/40vh) qui tronquaient
@@ -318,11 +318,15 @@ main { flex: 1; display: flex; position: relative; min-height: 0; }
 /* Liste */
 .list-toolbar {
   display: flex; align-items: center; justify-content: space-between;
+  flex-direction: row-reverse;
   padding: 0.5rem 1rem; background: #fff;
   border-bottom: 1px solid #e2e8f0;
   flex-shrink: 0;
 }
-.list-count { font-size: 0.75rem; color: #64748b; }
+.list-count {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font-size: 0.75rem; color: #64748b;
+}
 .sort-group { display: inline-flex; border: 1px solid #cbd5e1; border-radius: 0.35rem; overflow: hidden; }
 .sort-btn {
   font: inherit; font-size: 0.8rem; font-weight: 500;
@@ -375,7 +379,7 @@ main { flex: 1; display: flex; position: relative; min-height: 0; }
   width: 1.7rem; height: 1.7rem; border-radius: 50%;
   color: #fff; font-weight: 700; font-size: 0.8rem; flex-shrink: 0;
 }
-.badge-F { background: #DC2626; }
+.badge-F { background: #7c3aed; }
 .badge-I { background: #7C2D12; }
 .badge-N { background: #EA580C; }
 .badge-Z { background: #CA8A04; }
@@ -496,24 +500,19 @@ main { flex: 1; display: flex; position: relative; min-height: 0; }
 .popup-item .item-link:hover { text-decoration: underline; }
 
 /* Badges dans la popup */
-.champ-france {
-  display: inline-block;
-  padding: 0.1rem 0.4rem; font-size: 0.65rem; font-weight: 700;
-  background: #DC2626; color: #fff; border-radius: 0.25rem;
+.champ-france, .past-tag, .bassin-tag {
+  display: inline-flex;
+  align-items: center; justify-content: center;
+  padding: 0.2rem 0.45rem;
+  font-size: 0.65rem; font-weight: 700;
+  color: #fff; border-radius: 0.25rem;
+  line-height: 1;
   letter-spacing: 0.03em;
+  text-indent: 0.03em; /* compense le letter-spacing final pour centrer visuellement */
 }
-.past-tag {
-  display: inline-block;
-  padding: 0.1rem 0.4rem; font-size: 0.65rem; font-weight: 700;
-  background: #94a3b8; color: #fff; border-radius: 0.25rem;
-  letter-spacing: 0.03em;
-}
-.bassin-tag {
-  display: inline-block;
-  padding: 0.1rem 0.4rem; font-size: 0.65rem; font-weight: 700;
-  background: #0ea5e9; color: #fff; border-radius: 0.25rem;
-  letter-spacing: 0.03em;
-}
+.champ-france { background: #7c3aed; }
+.past-tag     { background: #94a3b8; }
+.bassin-tag   { background: #0ea5e9; }
 
 /* États */
 .error {
@@ -569,3 +568,9 @@ footer {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
   }
 }
+
+/* Distinction visuelle liste vs filtres/onglets (mobile + desktop) */
+.pane-list { background: #eff6ff; }
+.list-toolbar { background: transparent; border-bottom: 1px solid #bfdbfe; }
+#list li { background: transparent; border-bottom: 1px solid #bfdbfe; }
+#list li:hover, #list li:active { background: #dbeafe; }

@@ -84,12 +84,8 @@
     </div>
     <div class="controls-row">
       <select id="horizon" class="horizon-select" aria-label="Période à afficher">
-        <option value="upcoming:1">Dans 1 mois</option>
-        <option value="upcoming:3" selected>Dans 3 mois</option>
-        <option value="upcoming:6">Dans 6 mois</option>
-        <option value="upcoming:12">Dans 12 mois</option>
-        <option value="year:current">Cette année</option>
-        <option value="year:previous">Année dernière</option>
+        <option value="upcoming" selected>À venir</option>
+        <option value="past">Passées</option>
       </select>
       <form id="searchForm" style="display:contents" action="#" role="search">
         <input
@@ -123,8 +119,9 @@
       <button type="button" class="modal-close" id="modalClose" aria-label="Fermer">✕</button>
       <h2 id="modalTitle" class="modal-title">À propos</h2>
       <p class="modal-p">
-        <strong>Master Map</strong> recense les compétitions de natation maîtres en France sur une carte interactive. Les données proviennent de liveFFN. Dernière mise à jour : <span id="modalUpdated">…</span>.
+        <strong>Master Map</strong> recense les compétitions de natation maîtres en France sur une carte interactive. Les données proviennent de liveFFN.
       </p>
+      <p class="modal-updated-line">Dernière mise à jour : <span id="modalUpdated">…</span>.</p>
       <hr class="modal-sep">
       <p class="modal-author">Site développé par <strong>Benjamin Néel</strong></p>
       <div class="modal-socials">
@@ -151,12 +148,15 @@
       <p class="modal-admin-note">
         Aux administrateurs du liveFFN : ce site fait seulement quelques appels par jour, c'est ultralight, contactez-moi si besoin.
       </p>
+      <p class="modal-admin-note">
+        <strong>Master Map</strong> est un service gratuit et libre d'accès, développé bénévolement pour la communauté des nageurs maîtres. Le code source est ouvert ; il est consultable et réutilisable sur <a href="https://github.com/bneel/master-map" target="_blank" rel="noopener">GitHub</a>.
+      </p>
+      <p class="modal-copyright">© 2026 Benjamin Néel · Publié sous licence MIT</p>
     </div>
   </div>
 
-  <div id="toast" class="toast" hidden role="status" aria-live="polite"></div>
-
   <nav class="tabs" id="tabs" role="tablist">
+    <span class="count-pill" id="tabsCount" aria-hidden="true"></span>
     <button type="button" class="tab active" data-tab="map" id="tabMap" role="tab" aria-selected="true" aria-controls="mapPane">
       <span>Carte</span>
       <svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12,3 20,7.5 20,16.5 12,21 4,16.5 4,7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
@@ -182,7 +182,7 @@
       </div>
 
       <div class="location-prompt" id="locationPrompt" hidden>
-        <p id="locationPromptMsg">Indique ta position pour trier les compétitions par distance.</p>
+        <p id="locationPromptMsg">Position requise pour le tri par distance.</p>
         <div class="location-prompt-actions">
           <button type="button" id="geolocateBtn" class="btn-primary">📡 Utiliser ma position</button>
           <button type="button" id="pickMapBtn" class="btn-secondary">🗺️ Choisir sur la carte</button>
@@ -196,7 +196,7 @@
     </section>
     <section id="listPane" class="pane pane-list" role="tabpanel" aria-labelledby="tabList">
       <div class="list-toolbar">
-        <span class="list-count" id="listCount"></span>
+        <span class="list-count" id="listCount"><span class="count-pill" id="listCountPill"></span><span class="list-count-text" id="listCountText"></span></span>
         <div class="sort-group" role="group" aria-label="Tri">
           <button type="button" class="sort-btn active" data-sort="distance">📏 Tri par distance</button>
           <button type="button" class="sort-btn" data-sort="date">📅 Tri par date</button>
