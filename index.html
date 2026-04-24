@@ -8,7 +8,7 @@
        pour réduire l'impact d'un éventuel XSS ou compromis de CDN.
        'unsafe-inline' toléré pour styles (Leaflet positionne les tuiles inline)
        et pour scripts (JSON-LD inline et gestion de Leaflet). -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com 'unsafe-inline'; style-src 'self' https://unpkg.com 'unsafe-inline'; img-src 'self' data: https://*.basemaps.cartocdn.com; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com https://gc.zgo.at 'unsafe-inline'; style-src 'self' https://unpkg.com 'unsafe-inline'; img-src 'self' data: https://*.basemaps.cartocdn.com; connect-src 'self' https://bneel.goatcounter.com; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'" />
 
   <title>Master Map — Les compétitions de natation des maîtres en France</title>
   <meta name="description" content="Master Map recense toutes les compétitions de natation des maîtres (masters, master, maitre) en France. Carte interactive et liste triée par distance ou par date, filtrables par bassin 25 m / 50 m. Données issues de liveffn.com (FFN), mises à jour quotidiennement." />
@@ -215,5 +215,7 @@
           integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH"
           crossorigin="anonymous"></script>
   <script src="app.js"></script>
+  <script data-goatcounter="https://bneel.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

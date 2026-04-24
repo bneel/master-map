@@ -57,6 +57,15 @@ function todayIso() {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
+// Envoie un événement custom à GoatCounter. No-op si le script n'est pas
+// encore chargé (async) : c'est sans conséquence, les events ratés concernent
+// uniquement les premières ms après le boot.
+function trackEvent(name) {
+  if (window.goatcounter && typeof window.goatcounter.count === 'function') {
+    window.goatcounter.count({ path: name, event: true });
+  }
+}
+
 // Saison courante (flag `current` côté data) avec fallback sur la dernière
 // en date — évite d'avoir cette règle dupliquée dans plusieurs fonctions.
 function findCurrentSeasonIndex() {
@@ -106,6 +115,7 @@ function saveUserPos(pos) {
 
 // Enclenche l'un des chemins pour obtenir une position.
 function requestGeolocation() {
+  trackEvent('geoloc:click');
   if (!navigator.geolocation) {
     setLocationPromptMsg("Géolocalisation indisponible sur ce navigateur. Utilise le clic sur la carte.");
     return;
@@ -115,6 +125,7 @@ function requestGeolocation() {
     (p) => {
       const pos = { lat: p.coords.latitude, lon: p.coords.longitude };
       applyUserPos(pos);
+      trackEvent('geoloc:success');
     },
     (err) => {
       setLocationPromptMsg(
@@ -123,6 +134,7 @@ function requestGeolocation() {
           : "Position introuvable. Clique sur la carte pour la choisir."
       );
       enableMapPicking();
+      trackEvent(err.code === 1 ? 'geoloc:refus' : 'geoloc:echec');
     },
     { enableHighAccuracy: false, timeout: 8000, maximumAge: 60 * 60 * 1000 }
   );
@@ -434,7 +446,10 @@ function setError(msg) {
 
 function initTabs() {
   document.querySelectorAll('.tab').forEach(t => {
-    t.addEventListener('click', () => activateTab(t.dataset.tab));
+    t.addEventListener('click', () => {
+      activateTab(t.dataset.tab);
+      trackEvent('tab:' + t.dataset.tab);
+    });
   });
 }
 
@@ -459,11 +474,15 @@ function initHorizon() {
     const v = sel.value; // "upcoming" | "past" | "season:<index>"
     if (v === 'upcoming') {
       state.mode = 'upcoming';
+      trackEvent('periode:a-venir');
     } else if (v === 'past') {
       state.mode = 'past';
+      trackEvent('periode:passees');
     } else if (v.startsWith('season:')) {
       state.mode = 'season';
       state.seasonIndex = parseInt(v.slice(7), 10);
+      const label = state.seasons[state.seasonIndex]?.label || state.seasonIndex;
+      trackEvent('periode:' + String(label).replace('/', '-'));
     }
     render();
   });
@@ -493,9 +512,15 @@ function populateSeasonOptions() {
 function initSearch() {
   const input = document.getElementById('search');
   const form = document.getElementById('searchForm');
+  // Debounce du tracking : 1 event par session de frappe, pas par touche.
+  let searchTrackTimer = null;
   input.addEventListener('input', () => {
     state.search = normalize(input.value).trim();
     render();
+    if (searchTrackTimer) clearTimeout(searchTrackTimer);
+    if (state.search) {
+      searchTrackTimer = setTimeout(() => trackEvent('recherche'), 1200);
+    }
   });
   // Clavier mobile : le submit du <form> est le seul événement fiable pour
   // détecter l'appui sur la loupe/Entrée du clavier virtuel.
@@ -515,6 +540,7 @@ function initBassinFilter() {
         b.classList.toggle('active', b === btn);
       });
       render();
+      trackEvent('bassin:' + btn.dataset.bassin);
     });
   });
 }
@@ -528,6 +554,7 @@ function initReload() {
   const btn = document.getElementById('reloadBtn');
   btn.addEventListener('click', async () => {
     if (btn.disabled) return;
+    trackEvent('reload:click');
     btn.classList.add('spinning');
     btn.disabled = true;
 
@@ -603,6 +630,7 @@ function initSort() {
         b.classList.toggle('active', b === btn);
       });
       renderList();
+      trackEvent('tri:' + btn.dataset.sort);
     });
   });
 }
@@ -749,6 +777,7 @@ function renderList() {
       </div>
     `;
     li.addEventListener('click', () => {
+      trackEvent('liste:click');
       if (window.innerWidth < 960) activateTab('map');
       state.map.setView([c.lat, c.lon], 8);
       const m = state.markers[c.id];
@@ -787,6 +816,7 @@ function initInfoModal() {
   let previouslyFocused = null;
 
   function open() {
+    trackEvent('modale:about:open');
     updatedEl.textContent = state.updatedText || 'date indisponible';
     updatedEl.classList.remove('warn', 'stale');
     if (state.updatedClass) updatedEl.classList.add(state.updatedClass);
@@ -812,6 +842,14 @@ function initInfoModal() {
   btn.addEventListener('click', open);
   closeBtn.addEventListener('click', close);
   backdrop.addEventListener('click', close);
+  // Tracking des liens sortants de la modale (formulaire, GitHub).
+  modal.addEventListener('click', (ev) => {
+    const a = ev.target.closest('a[href]');
+    if (!a) return;
+    const href = a.getAttribute('href') || '';
+    if (href.includes('docs.google.com/forms')) trackEvent('formulaire-ajout:click');
+    else if (href.includes('github.com')) trackEvent('github:click');
+  });
 }
 
 function initLegendClose() {
@@ -831,6 +869,13 @@ async function init() {
   initInfoModal();
   initReload();
   initLegendClose();
+
+  // Envoie un événement "device" une fois le script GoatCounter chargé
+  // (async → on laisse 1.5 s pour être tranquille).
+  setTimeout(() => {
+    const isDesktop = window.matchMedia('(min-width: 960px)').matches;
+    trackEvent(isDesktop ? 'device:desktop' : 'device:mobile');
+  }, 1500);
 
   // Charge la position depuis le cache si disponible.
   state.userPos = loadUserPos();
@@ -853,9 +898,11 @@ async function init() {
   // (le lien doit pouvoir ouvrir la page liveffn dans un nouvel onglet).
   // Motif : sur mobile le popup prend presque tout l'écran et masque la carte.
   state.map.on('popupopen', (e) => {
+    trackEvent('popup:open');
     const el = e.popup.getElement();
     if (!el) return;
     el.addEventListener('click', (ev) => {
+      if (ev.target.closest('a.item-link')) trackEvent('details-ffn:click');
       if (ev.target.closest('a')) return;
       state.map.closePopup();
     });
