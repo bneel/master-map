@@ -1,0 +1,2462 @@
+{
+  "savedAt": "2026-04-25T17:29:42.730Z",
+  "year": 2021,
+  "month": 11,
+  "count": 409,
+  "raw": [
+    {
+      "competitionId": "72245",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes  - BORDEAUX",
+      "dateIso": "2021-11-01"
+    },
+    {
+      "competitionId": "73075",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes \"Mixte & Remplaçants\" - BORDEAUX",
+      "dateIso": "2021-11-01"
+    },
+    {
+      "competitionId": "72485",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes - HENDAYE",
+      "dateIso": "2021-11-01"
+    },
+    {
+      "competitionId": "72161",
+      "niveau": "D",
+      "libelle": "6e Meeting du Demi-fond - ROMILLY-SUR-SEINE",
+      "dateIso": "2021-11-01"
+    },
+    {
+      "competitionId": "71589",
+      "niveau": "N",
+      "libelle": "14e Meeting National de Béthune - BÉTHUNE",
+      "dateIso": "2021-11-05"
+    },
+    {
+      "competitionId": "71879",
+      "niveau": "N",
+      "libelle": "Meeting National Auvergne Rhône Alpes - SAINT-ÉTIENNE",
+      "dateIso": "2021-11-05"
+    },
+    {
+      "competitionId": "71721",
+      "niveau": "R",
+      "libelle": "13e Meeting Choletais - CHOLET",
+      "dateIso": "2021-11-05"
+    },
+    {
+      "competitionId": "72509",
+      "niveau": "R",
+      "libelle": "Championnats de Polynésie 25m - PIRAE",
+      "dateIso": "2021-11-05"
+    },
+    {
+      "competitionId": "72199",
+      "niveau": "D",
+      "libelle": "Xe Meeting Catherine Brunet - MASSY",
+      "dateIso": "2021-11-05"
+    },
+    {
+      "competitionId": "71979",
+      "niveau": "N",
+      "libelle": "Tous à Saint-Raphaël - SAINT-RAPHAËL",
+      "dateIso": "2021-11-06"
+    },
+    {
+      "competitionId": "72933",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC Martinique - LE LAMENTIN",
+      "dateIso": "2021-11-06"
+    },
+    {
+      "competitionId": "72869",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule 40 - MIMIZAN",
+      "dateIso": "2021-11-06"
+    },
+    {
+      "competitionId": "73207",
+      "niveau": "D",
+      "libelle": "Championnat Départemental de la Somme 2022 - AMIENS",
+      "dateIso": "2021-11-06"
+    },
+    {
+      "competitionId": "72719",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - CONFLANS-SAINTE-HONORINE",
+      "dateIso": "2021-11-06"
+    },
+    {
+      "competitionId": "72439",
+      "niveau": "D",
+      "libelle": "Inter-clubs 400 NL/1500 NL/50 - SAINT-ANDRÉ-LEZ-LILLE",
+      "dateIso": "2021-11-06"
+    },
+    {
+      "competitionId": "72357",
+      "niveau": "R",
+      "libelle": "Championnat Régional Interclubs TC - Poule Régionale - BORDEAUX",
+      "dateIso": "2021-11-07"
+    },
+    {
+      "competitionId": "73243",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule 86 - POITIERS",
+      "dateIso": "2021-11-07"
+    },
+    {
+      "competitionId": "73145",
+      "niveau": "R",
+      "libelle": "Championnat d'Ile de France 5Km Indoor - SARCELLES",
+      "dateIso": "2021-11-07"
+    },
+    {
+      "competitionId": "72853",
+      "niveau": "D",
+      "libelle": "Championnat départemental open des maîtres #1  - BALMA",
+      "dateIso": "2021-11-07"
+    },
+    {
+      "competitionId": "72885",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes - BALMA",
+      "dateIso": "2021-11-07"
+    },
+    {
+      "competitionId": "72527",
+      "niveau": "D",
+      "libelle": "Coupe de la Communauté de Communes du Pays de Blain - BLAIN",
+      "dateIso": "2021-11-07"
+    },
+    {
+      "competitionId": "73059",
+      "niveau": "D",
+      "libelle": "Circuit Départemental N°2 - CARMAUX",
+      "dateIso": "2021-11-07"
+    },
+    {
+      "competitionId": "73053",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Demi-fond  - CHAUMONT",
+      "dateIso": "2021-11-07"
+    },
+    {
+      "competitionId": "72767",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes  - LA FERTÉ-BERNARD",
+      "dateIso": "2021-11-07"
+    },
+    {
+      "competitionId": "72769",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 2 - LA FERTÉ-BERNARD",
+      "dateIso": "2021-11-07"
+    },
+    {
+      "competitionId": "72979",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes - Remplaçants - LA FERTÉ-BERNARD",
+      "dateIso": "2021-11-07"
+    },
+    {
+      "competitionId": "72229",
+      "niveau": "D",
+      "libelle": "Journée de Demi-fond - LOUVIERS",
+      "dateIso": "2021-11-07"
+    },
+    {
+      "competitionId": "72801",
+      "niveau": "D",
+      "libelle": "Challenge de Manosque - MANOSQUE",
+      "dateIso": "2021-11-07"
+    },
+    {
+      "competitionId": "72919",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes - ORANGE",
+      "dateIso": "2021-11-07"
+    },
+    {
+      "competitionId": "72573",
+      "niveau": "D",
+      "libelle": "Circuit Qualificatif Nouvelle-Aquitaine Hiver - JOQUA 2 - PÉRIGUEUX",
+      "dateIso": "2021-11-07"
+    },
+    {
+      "competitionId": "72525",
+      "niveau": "D",
+      "libelle": "Meeting 2 DSL/SVB - SAINT-LOUIS",
+      "dateIso": "2021-11-07"
+    },
+    {
+      "competitionId": "72661",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule 19/23/87 - AUBUSSON",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72663",
+      "niveau": "R",
+      "libelle": "Championnats Interclubs TC - Poule 24/47 - BERGERAC",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72651",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule 33 - BORDEAUX",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72681",
+      "niveau": "R",
+      "libelle": "Interclubs Jeunes - Secteur Oise - COMPIÈGNE",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72789",
+      "niveau": "R",
+      "libelle": "Interclubs Jeunes - Secteur Nord-Est - DOUAI",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72653",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule 33 - LE BOUSCAT",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72735",
+      "niveau": "R",
+      "libelle": "Interclubs Jeunes - Secteur Maritime - LUMBRES",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "73149",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule 79 - MELLE",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72645",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule 64 - PAU",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72657",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule 17 - ROCHEFORT-SUR-MER",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72587",
+      "niveau": "R",
+      "libelle": "Interclubs Jeunes - Secteur Centre Nord - SAINT-ANDRÉ-LEZ-LILLE",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "73065",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - ANCENIS",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "73067",
+      "niveau": "D",
+      "libelle": "Remplaçants Interclubs TC - ANCENIS",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72537",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - Poule A - ANGERS",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "73169",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Poule Départementale - AUXERRE",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72785",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 1 - CHALLANS",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72787",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs 1 - CHALLANS",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "73277",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs - Poule Départementale de Chalon - CHALON-SUR-SAÔNE",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72823",
+      "niveau": "D",
+      "libelle": "Interclubs du 28 - CHARTRES",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72453",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux - CHERBOURG-OCTEVILLE",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72381",
+      "niveau": "D",
+      "libelle": "Demi-fond - CHEVREUSE",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "73349",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs - LANNION",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "71565",
+      "niveau": "D",
+      "libelle": "Remplaçants Interclubs Départementaux - LAVAL",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "73137",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux TC - Mayenne - LAVAL",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72887",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs - LOCHES",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "73347",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs - LOUDÉAC",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72095",
+      "niveau": "D",
+      "libelle": "Interclubs TC - MOULINS",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "73385",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Poule 64 (équipes mixtes et remplaçants) - PAU",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72713",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Open TC 25m - REMIREMONT",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "72107",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs Départementaux 35 - RENNES",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "73601",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants - ROCHEFORT-SUR-MER",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "71783",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs Drôme/Ardèche - ROMANS-SUR-ISÈRE",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "73291",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Jeunes - SAINT-ANDRÉ-LEZ-LILLE",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "73187",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - Landes - SAINT-PIERRE-DU-MONT",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "73193",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes - SAINT-PIERRE-DU-MONT",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "71555",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux - 1ère Journée - SARAN",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "73299",
+      "niveau": "D",
+      "libelle": "Interclubs TC - 56 - VANNES",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "73301",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - 56 - VANNES",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "71621",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - Poule A - VILLEFRANCHE-SUR-SAÔNE",
+      "dateIso": "2021-11-11"
+    },
+    {
+      "competitionId": "71605",
+      "niveau": "N",
+      "libelle": "Meeting National de la Vallée de Garonne - AGEN",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72593",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule K - ASNIÈRES-SUR-SEINE",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "71461",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs - BRAS-PANON",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72243",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - BREST",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72605",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule Q - CERGY-PONTOISE",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "73107",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs - CHARLEVILLE-MÉZIÈRES",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72577",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule E - CHEVREUSE",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72595",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule L - CLAMART",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72579",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule F - CONFLANS-SAINTE-HONORINE",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72503",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule C - COULOMMIERS",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72597",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule M - DRANCY",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "73175",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs - LA POSSESSION",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "73241",
+      "niveau": "R",
+      "libelle": "Compétition LNM - LE LAMENTIN",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "73025",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - LE MANS",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "73029",
+      "niveau": "R",
+      "libelle": "Remplaçants IC TC - LE MANS",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72581",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule G - LE PECQ",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72585",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule I - MASSY",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72345",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - Montpellier - MONTPELLIER",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72347",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - Muret - MURET",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "73255",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs  TC  - NEVERS",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72603",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule P - NOGENT-SUR-MARNE",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "71991",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule R1 - PARIS",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72497",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule A - PARIS",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "71459",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs - SAINT-PHILIPPE",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72591",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule J - VIRY-CHATILLON",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72815",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs TC - BLOIS",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "71955",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux du Calvados - CAEN",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "71959",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 1 - CAEN",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "71961",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 1bis - CAEN",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "71963",
+      "niveau": "D",
+      "libelle": "Nat' Avenirs Hiver 1 - CAEN",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "73571",
+      "niveau": "D",
+      "libelle": "Course des remplaçants Interclubs TC - Poule E - CHEVREUSE",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72461",
+      "niveau": "D",
+      "libelle": "Championnats de l'Oise Hiver - COULOISY",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72427",
+      "niveau": "D",
+      "libelle": "Interclubs District  - DOLE",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "73257",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants - DOLE",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "73575",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - Poule G - LE PECQ",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "73433",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes des Bouches-du-Rhône - MARSEILLE",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "71619",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs/Jeunes de Megève - MEGÈVE",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "71625",
+      "niveau": "D",
+      "libelle": "Poule Départementale des Interclubs 76 - MONTIVILLIERS",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "73383",
+      "niveau": "D",
+      "libelle": "Championnat interclub départementaux TC - NEVERS",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "73037",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux du Loiret - ORLÉANS",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "71539",
+      "niveau": "D",
+      "libelle": "Championnat du Nord Open Hiver - SAINT-POL-SUR-MER",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "72983",
+      "niveau": "D",
+      "libelle": "Interclubs TC en bassin  de 25 m - THIONVILLE",
+      "dateIso": "2021-11-13"
+    },
+    {
+      "competitionId": "73307",
+      "niveau": "R",
+      "libelle": "Championnat de Normandie Interclubs TC - CAEN",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72501",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule D - PROVINS",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "71711",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs - VENDÔME",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72583",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule H - VERSAILLES",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72599",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule N - VILLEPINTE",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73027",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Pass'compétition - ALBERT",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73033",
+      "niveau": "D",
+      "libelle": "Circuit 1 Avenirs (Titulaire du Pass'comp) - ALBERT",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72777",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Toutes Catégories - ALBI",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73625",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs - ALBI",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72667",
+      "niveau": "D",
+      "libelle": "Interclubs TC du Gard - ALES",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72753",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - Poule B - BEAUPREAU",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72279",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes - BELLEGARDE-SUR-VALSERINE",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72291",
+      "niveau": "D",
+      "libelle": "Complément Jeunes - BELLEGARDE-SUR-VALSERINE",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73051",
+      "niveau": "D",
+      "libelle": "Championnat France Interclubs par Équipes - BESANÇON",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73505",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs 2021 - BESANÇON",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72165",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux - BOURGES",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72433",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs   - BREST",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73499",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux des Pyrénées-Orientales - CANET-EN-ROUSSILLON",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73231",
+      "niveau": "D",
+      "libelle": "Challenge Hiver bis - CERIZAY",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72883",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs TC - 36 - CHÂTEAUROUX",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "71761",
+      "niveau": "D",
+      "libelle": "Championnat Interclubs TC - CLERMONT-FERRAND",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73361",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - COLOMIERS",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72099",
+      "niveau": "D",
+      "libelle": "2e Challenge Départemental Avenirs - COSNE-D'ALLIER",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72103",
+      "niveau": "D",
+      "libelle": "2e Journée Départementale Avenirs - COSNE-D'ALLIER",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73113",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - COUERON",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73115",
+      "niveau": "D",
+      "libelle": "Remplaçants IC Toutes Catégories - COUERON",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72779",
+      "niveau": "D",
+      "libelle": "Finale Départementale Interclubs Vendée - FONTENAY-LE-COMTE",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73101",
+      "niveau": "D",
+      "libelle": "Remplaçants Interclubs Départ. Vendée - FONTENAY-LE-COMTE",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73267",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux  - GIVET",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73287",
+      "niveau": "D",
+      "libelle": "Championnat d'Alsace Interclubs - GUEBWILLER",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73049",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC 54 - LANEUVEVILLE-DEVANT-NANCY",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72387",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs Départementaux - LE MANS",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72981",
+      "niveau": "D",
+      "libelle": "Remplaçants Championnats Interclubs TC - LE MANS",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73401",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux 65/32 - LOURDES",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73265",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes  - MANOSQUE",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73629",
+      "niveau": "D",
+      "libelle": "Remplaçants Interclubs Jeunes & Avenirs - MANOSQUE",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73659",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - MANOSQUE",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72471",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes - MENTON",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72765",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux - MONTAUBAN",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73047",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories Hérault - MONTPELLIER",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73069",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - NANTES",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73111",
+      "niveau": "D",
+      "libelle": "Remplaçants IC Toutes Catégories - NANTES",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73309",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - REIMS",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73331",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Loire - ROANNE",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73665",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - Loire - ROANNE",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "71891",
+      "niveau": "D",
+      "libelle": "1/2 Fond - Journée 1 - ROCHEFORT-SUR-MER",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73233",
+      "niveau": "D",
+      "libelle": "Championnat Départemental IC TC Aveyron/Lozère - RODEZ",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73663",
+      "niveau": "D",
+      "libelle": "Equipes incomplètes/Bannières/Remplaçants - 12 & 48 - RODEZ",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73351",
+      "niveau": "D",
+      "libelle": "Championnats des Côtes-d'Armor Interclubs Avenirs - SAINT-BRIEUC",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73353",
+      "niveau": "D",
+      "libelle": "Championnats des Côtes-d'Armor Interclubs Jeunes - SAINT-BRIEUC",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73507",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs - SAINT-EGREVE",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72897",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs n°2 - SAINT-LAURENT-DU-VAR",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72899",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs n°2 - SAINT-LAURENT-DU-VAR",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72993",
+      "niveau": "D",
+      "libelle": "Maîtres Départementaux N°2 - 06 & 83 - SAINT-LAURENT-DU-VAR",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72643",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux TC - TROYES",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72463",
+      "niveau": "D",
+      "libelle": "Finale Départementale Interclubs TC - VAL-DE-REUIL",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72929",
+      "niveau": "D",
+      "libelle": "1er Championnat Départemental Avenirs - Zone Ouest - VEDENE",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "72931",
+      "niveau": "D",
+      "libelle": "1er Championnat Départemental Avenirs - Zone Est - VEDENE",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "71623",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - Poule B - VILLEFRANCHE-SUR-SAÔNE",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "71671",
+      "niveau": "D",
+      "libelle": "2e Challenge Avenirs - YSSINGEAUX",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "71673",
+      "niveau": "D",
+      "libelle": "2nd Meeting Départemental - 2nds Trophées Jeunes et Avenirs - YSSINGEAUX",
+      "dateIso": "2021-11-14"
+    },
+    {
+      "competitionId": "73171",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Etape N°2 - Poule 1 - SAINT-FLORENTIN",
+      "dateIso": "2021-11-17"
+    },
+    {
+      "competitionId": "73173",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Etape N°2 - Poule 2 - TONNERRE",
+      "dateIso": "2021-11-17"
+    },
+    {
+      "competitionId": "71663",
+      "niveau": "N",
+      "libelle": "Meeting National Occitanie de Toulouse - TOULOUSE",
+      "dateIso": "2021-11-19"
+    },
+    {
+      "competitionId": "72511",
+      "niveau": "R",
+      "libelle": "Meeting 50m #1 - PAPEETE",
+      "dateIso": "2021-11-19"
+    },
+    {
+      "competitionId": "72951",
+      "niveau": "N",
+      "libelle": "16e Meeting National de la mer - CHERBOURG-EN-COTENTIN",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72729",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Secteur Maritime - BÉTHUNE",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72173",
+      "niveau": "R",
+      "libelle": "Championnats Interclubs Jeunes 2021 - BLOIS",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72179",
+      "niveau": "R",
+      "libelle": "Championnats Interclubs Avenirs 2021 - BLOIS",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "71487",
+      "niveau": "R",
+      "libelle": "Championnat de la Ligue - Web Confront@tion - 3 - CAYENNE",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72701",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Secteur Maritime - GRAVELINES",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73537",
+      "niveau": "R",
+      "libelle": "Interclubs PACA Toutes Catégories - Poule A - ISTRES",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "71467",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs de La Réunion - LE PORT",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73825",
+      "niveau": "R",
+      "libelle": "Course des Remplaçants IC TC - LE PORT",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73543",
+      "niveau": "R",
+      "libelle": "Interclubs PACA Toutes Catégories - Est - Poule B - NICE",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72181",
+      "niveau": "R",
+      "libelle": "Championnats Interclubs Avenirs 2021 - SARAN",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72183",
+      "niveau": "R",
+      "libelle": "Championnats Interclubs Jeunes 2021 - SARAN",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72389",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver - ALLONNES",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72781",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes - BOBIGNY",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73535",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - BOBIGNY",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73249",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs n°1 - District Nord - BREST",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73271",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs n°1 - District Nord - BREST",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73153",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes - CD 91 - CORBEIL-ESSONNES",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73321",
+      "niveau": "D",
+      "libelle": "Championnat de la Manche Jeunes/Juniors/Séniors - COUTANCES",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73961",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes - CRÉTEIL",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73413",
+      "niveau": "D",
+      "libelle": "Championnats des Vosges Hiver Open 25m - ÉPINAL",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72465",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver - ÉVREUX",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73609",
+      "niveau": "D",
+      "libelle": "Etape Départementale d'Automne - FAGNIÈRES",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72435",
+      "niveau": "D",
+      "libelle": "Championnats 76 Hiver - FÉCAMP",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72257",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver Jeunes - LA TESTE-DE-BUCH",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "71765",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - LES ANCIZES-COMPS",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72793",
+      "niveau": "D",
+      "libelle": "Championnats de Vendée Hiver - LES SABLES-D'OLONNE",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72829",
+      "niveau": "D",
+      "libelle": "Circuit Jeunes 1 - LES SABLES-D'OLONNE",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72889",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver - LOCHES",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73769",
+      "niveau": "D",
+      "libelle": "Championnats des Côtes d'Armor Élite  - LOUDÉAC",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73455",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux 34 - Jeunes 3 - Jun./Sén. - LUNEL",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73471",
+      "niveau": "D",
+      "libelle": "1ère Journée Masters CD34 - LUNEL",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72019",
+      "niveau": "D",
+      "libelle": "Championnats Interdépartementaux Hiver  - LURE",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72809",
+      "niveau": "D",
+      "libelle": "Coupe Interclubs Jeunes - MANTES-LA-VILLE",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72917",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes Equipes Mixtes et Ententes - MANTES-LA-VILLE",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73763",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants - Interclubs Jeunes - MANTES-LA-VILLE",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73465",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes  - MAYENNE",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73467",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - MAYENNE",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "71877",
+      "niveau": "D",
+      "libelle": "Interclubs Parisiens – Jeunes - PARIS",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73417",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver Masters - ROANNE",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73217",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Juniors/Séniors - SAINT-BRÉVIN-LES-PINS",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "71427",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Haute-Savoie 01 - SAINT-GERVAIS",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72947",
+      "niveau": "D",
+      "libelle": "Meeting de la Ville de Saint-Priest - SAINT-PRIEST",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73521",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux et Critérium Jeunes Hiver 2021 - SENS",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73183",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - VÉNISSIEUX",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73749",
+      "niveau": "D",
+      "libelle": "Coupe du Sud n°1 - VÉNISSIEUX",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "71969",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes  - VIRE",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "71971",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Hiver - VIRE",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72117",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver 25m - VITRE",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "73845",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Jeunes sélectionnés - VITRE",
+      "dateIso": "2021-11-20"
+    },
+    {
+      "competitionId": "72747",
+      "niveau": "R",
+      "libelle": "Interclubs Régionaux Toutes Catégories - AJACCIO",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72733",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Secteur Oise - BEAUVAIS",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72445",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Poule Régionale - DUNKERQUE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73539",
+      "niveau": "R",
+      "libelle": "Interclubs PACA Toutes Catégories - Poule B - Ouest - ISTRES",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73567",
+      "niveau": "R",
+      "libelle": "Championnats de la Guadeloupe Interclubs  - LES ABYMES",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73955",
+      "niveau": "R",
+      "libelle": "Remplaçants des Interclubs - LES ABYMES",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72685",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Secteur Nord-Est - SAINT-AMAND-LES-EAUX",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72659",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule 16 - SAINT-YRIEIX-SUR-CHARENTE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72691",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Secteur Centre Nord - VILLENEUVE-D'ASCQ",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "71425",
+      "niveau": "D",
+      "libelle": "Interclubs TC Haute-Savoie - ANNEMASSE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73633",
+      "niveau": "D",
+      "libelle": "Départementaux Hiver du 28 - AUNEAU",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73635",
+      "niveau": "D",
+      "libelle": "Départementaux Maîtres Hiver du 28 - AUNEAU",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72757",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs 1 - AVRILLÉ",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73701",
+      "niveau": "D",
+      "libelle": "Interclubs Equipes Mixtes & Remplaçants - Secteur Oise  - BEAUVAIS",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73643",
+      "niveau": "D",
+      "libelle": "Journée 1/2 Fond - BRESSUIRE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73209",
+      "niveau": "D",
+      "libelle": "Challenge Départemental Avenirs N°2 /4T 2021 - CARQUEFOU",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73211",
+      "niveau": "D",
+      "libelle": "Pré-saison Avenirs - CARQUEFOU",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73581",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes - CHALON-SUR-SAÔNE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73323",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Petit Bassin TC - CHÂTELLERAULT",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73801",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes - Zone Sud - CLICHY",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73547",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - Département 13 (Poule C) - FOS-SUR-MER",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73621",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs N°2 - FOSSES",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73593",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes - FRANCONVILLE-LA-GARENNE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73131",
+      "niveau": "D",
+      "libelle": "2e Animation Avenirs CD34 - FRONTIGNAN",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73999",
+      "niveau": "D",
+      "libelle": "Challenge 34 Hérault - FRONTIGNAN",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73623",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs - GAP",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73339",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes - GENILAC",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73343",
+      "niveau": "D",
+      "libelle": "Jeunes 2 - GENILAC",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73797",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Avenirs - GRAND-CHAMP",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73799",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes - GRAND-CHAMP",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73879",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Avenirs & Jeunes - Equipes Mixtes - GRAND-CHAMP",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72999",
+      "niveau": "D",
+      "libelle": "Meeting Départemental Avenirs - HOCHFELDEN",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73369",
+      "niveau": "D",
+      "libelle": "Championnats d'Ille-et-Vilaine Open des Maîtres - JANZÉ",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72771",
+      "niveau": "D",
+      "libelle": "Challenge Départemental Avenirs N°2 - LAVAUR",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72775",
+      "niveau": "D",
+      "libelle": "Confrontations Avenirs N°2 - LAVAUR",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "71675",
+      "niveau": "D",
+      "libelle": "Interclubs - LE PUY-EN-VELAY",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72831",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes 1 - LES SABLES-D'OLONNE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72833",
+      "niveau": "D",
+      "libelle": "Critérium Jeunes - LES SABLES-D'OLONNE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73457",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs 19/23/87 - LIMOGES",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73459",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes 19/23/87 - LIMOGES",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73461",
+      "niveau": "D",
+      "libelle": "Mixtes & Remplaçants - Avenirs & Jeunes 19/23/87 - LIMOGES",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73151",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs (Pass'compétition)   - MAYENNE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73423",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Hiver Juniors/Séniors - MAYENNE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "71789",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs Jeunes Drôme/Ardèche - MONTELIMAR",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73927",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs Avenirs Drôme/Ardèche - MONTELIMAR",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73477",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes - MONTEREAU-FAULT-YONNE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73847",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - MONTEREAU-FAULT-YONNE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72469",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - Poule C - NICE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72529",
+      "niveau": "D",
+      "libelle": "3e Circuit Qualificatif Jeunes - ORTHEZ",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "71925",
+      "niveau": "D",
+      "libelle": "Meeting Départemental Avenirs - OSTWALD",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72281",
+      "niveau": "D",
+      "libelle": "Interclubs TC - OYONNAX",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73561",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs – 1ère Etape - PARIS",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73705",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs – 2e Etape - PARIS",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73861",
+      "niveau": "D",
+      "libelle": "Mini Triathlon Avenirs - Paris - PARIS",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73269",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs n°1 - District Sud - QUIMPER",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73273",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs  n°1 - District Sud - QUIMPER",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "71893",
+      "niveau": "D",
+      "libelle": "Journée Jeunes - Plot 2 - ROYAN",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73811",
+      "niveau": "D",
+      "libelle": "100 4N BPJEPS - ROYAN",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73995",
+      "niveau": "D",
+      "libelle": "Journée Jeunes - Plot 2 - ROYAN",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73159",
+      "niveau": "D",
+      "libelle": "Circuit Qualificatif Nouvelle-Aquitaine Hiver - JOQUA 3  1/2 - SAINT-ASTIER",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73363",
+      "niveau": "D",
+      "libelle": "Interclubs Bi-départementaux 24-47 Avenirs - SAINT-ASTIER",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73365",
+      "niveau": "D",
+      "libelle": "Interclubs Bi-départementaux Jeunes 24/47 - SAINT-ASTIER",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73199",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux - SAINT-GEOURS-DE-MAREMNE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73325",
+      "niveau": "D",
+      "libelle": "Championnat de la Manche Jeunes/Juniors/Séniors - SAINT-LÔ",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73807",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes - SAINT-LÔ",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72115",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes CD03/CD63/CD15 - SAINT-VICTOR",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72035",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Automne - SAINT-YRIEIX-SUR-CHARENTE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "71557",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux - 2e Journée - SARAN",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72755",
+      "niveau": "D",
+      "libelle": "Championnat Départemental d'Automne J/S - SEGRE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73447",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux TC - SORGUES",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72565",
+      "niveau": "D",
+      "libelle": "Avenirs - Plot 1  - THANN",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73275",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 68 - THANN",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73905",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs d'Automne #1 - TOULOUSE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73907",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs d'Automne #2 - TOULOUSE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "73803",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes - Zone Nord - VILLENEUVE-LA-GARENNE",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72669",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Etape 1 - VILLENEUVE-LÈS-AVIGNON",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "72671",
+      "niveau": "D",
+      "libelle": "Triathlon Avenirs - Etape 1 - VILLENEUVE-LÈS-AVIGNON",
+      "dateIso": "2021-11-21"
+    },
+    {
+      "competitionId": "71729",
+      "niveau": "N",
+      "libelle": "Championnats de France Nationale 2 - BÉTHUNE",
+      "dateIso": "2021-11-24"
+    },
+    {
+      "competitionId": "72841",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 3 - SAINT-ÉTIENNE",
+      "dateIso": "2021-11-25"
+    },
+    {
+      "competitionId": "72949",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - VILLENEUVE-D'ASCQ",
+      "dateIso": "2021-11-25"
+    },
+    {
+      "competitionId": "71881",
+      "niveau": "N",
+      "libelle": "Meeting Espoirs de l'Ouest Hiver - ROUEN",
+      "dateIso": "2021-11-26"
+    },
+    {
+      "competitionId": "73969",
+      "niveau": "R",
+      "libelle": "Championnat Régional Jeunes 2021 - SARCELLES",
+      "dateIso": "2021-11-26"
+    },
+    {
+      "competitionId": "73245",
+      "niveau": "D",
+      "libelle": "Championnats Maitres - Plot 1 - PONT-SAINT-PIERRE",
+      "dateIso": "2021-11-26"
+    },
+    {
+      "competitionId": "73773",
+      "niveau": "D",
+      "libelle": "Championnats des Côtes-d'Armor Hiver Open des Maîtres - SAINT-BRIEUC",
+      "dateIso": "2021-11-26"
+    },
+    {
+      "competitionId": "72513",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs #1 - PIRAE",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "71491",
+      "niveau": "R",
+      "libelle": "Championnat de Guyane en petit bassin - REMIRE-MONTJOLY",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "71469",
+      "niveau": "R",
+      "libelle": "Championnats de La Réunion 25m - SAINT-ANDRÉ",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73671",
+      "niveau": "R",
+      "libelle": "Trophées Avenirs - SAINT-ANDRÉ",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73897",
+      "niveau": "R",
+      "libelle": "Interclubs Avenirs Martinique  - SAINT-ESPRIT",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73971",
+      "niveau": "R",
+      "libelle": "Interclubs Jeunes Martinique - SAINT-ESPRIT",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "72287",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs N°2 - 2021 - AMBÉRIEU-EN-BUGEY",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "74001",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs 2021 - AMBÉRIEU-EN-BUGEY",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "74023",
+      "niveau": "D",
+      "libelle": "Championnats 36 Hiver - ARGENTON-SUR-CREUSE",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "74107",
+      "niveau": "D",
+      "libelle": "1er Challenge Avenirs - ARGENTON-SUR-CREUSE",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73333",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 2 - Sud - AVRANCHES",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73709",
+      "niveau": "D",
+      "libelle": "1er Championnat Départemental Jeunes/Juniors/Séniors - BOLLÈNE",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "71677",
+      "niveau": "D",
+      "libelle": "Meeting Open des Maîtres - BRIOUDE",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73903",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver Open - CASSIS",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73741",
+      "niveau": "D",
+      "libelle": "1ère Soirée Open des Maîtres - Hérault - CLERMONT-L'HÉRAULT",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73305",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 3 - COULAINES",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73411",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 3 - COULAINES",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73917",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Zone Nord - COURBEVOIE",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73919",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 2 - Zone Nord - Epreuve des Relais - COURBEVOIE",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "72693",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Plot 2 - DIJON",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73541",
+      "niveau": "D",
+      "libelle": "Championnats District Hiver  - DIJON",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "72791",
+      "niveau": "D",
+      "libelle": "Championnats 93 d'Hiver (Epreuves de Demi-fond) - GAGNY",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "74047",
+      "niveau": "D",
+      "libelle": "Meeting Départemental des Jeunes - GUYANCOURT",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "72891",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Open des Maitres - JOUÉ-LES-TOURS",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73867",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux  - LIMOUX",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73557",
+      "niveau": "D",
+      "libelle": "Championnats 56 Automne - Journée 1 - LORIENT",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73831",
+      "niveau": "D",
+      "libelle": "Championnats 71 Hiver - 25m - Mâcon - MÂCON",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73981",
+      "niveau": "D",
+      "libelle": "Jeux Aquatiques d'Ariège  - MIREPOIX",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "74117",
+      "niveau": "D",
+      "libelle": "Championnat Départemental d'Automne - MONTEREAU-FAULT-YONNE",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73707",
+      "niveau": "D",
+      "libelle": "Championnat de Paris Hiver Open des Maîtres - PARIS",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "71791",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Drôme/Ardèche - PIERRELATTE",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73783",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs Anges & Démons du CNPR Redon - REDON",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "72825",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver  - ROMORANTIN-LANTHENAY",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73687",
+      "niveau": "D",
+      "libelle": "Championnat Départemental d'Automne - SAINT-ESTÈVE",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "74049",
+      "niveau": "D",
+      "libelle": "Journées Qualificatives Départementales - SAINT-GERMAIN-EN-LAYE",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "72985",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Hiver Avenirs & Jeunes   - THIONVILLE",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "74035",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Jeunes #2 - TOULOUSE",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "74037",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Juniors/Séniors #1 - TOULOUSE",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "72167",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver - VIERZON",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "72169",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver des Maitres - VIERZON",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73989",
+      "niveau": "D",
+      "libelle": "Rencontre ISL Juniors - VILLERUPT",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73973",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Jeune & Avenirs (avec Pass'comp.) - VOIRON",
+      "dateIso": "2021-11-27"
+    },
+    {
+      "competitionId": "73079",
+      "niveau": "R",
+      "libelle": "Meeting Régional du Noblat Aquatique Club - SAINT-LÉONARD-DE-NOBLAT",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73853",
+      "niveau": "D",
+      "libelle": "Parcours Avenirs N°1 - Argenteuil - ARGENTEUIL",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "72647",
+      "niveau": "D",
+      "libelle": "Journée Départementale 1 - BAR-SUR-AUBE",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "72649",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - BAR-SUR-AUBE",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73787",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes - BELFORT",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73789",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Avenirs  - BELFORT",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73791",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants IC Jeunes & Avenirs - BELFORT",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73757",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes 2021 - BLAIN",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73759",
+      "niveau": "D",
+      "libelle": "Remplaçants Interclubs Jeunes - BLAIN",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73281",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes Finistère - BREST",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "74163",
+      "niveau": "D",
+      "libelle": "Avenirs CD94 - Plot 1 - CACHAN",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "74367",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs CD94 - Cachan - CACHAN",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "72795",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 2 - CHANTONNAY",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "72797",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs 2 - CHANTONNAY",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73911",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - CHASSIEU",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "72037",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Plot 1 - COGNAC",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "72563",
+      "niveau": "D",
+      "libelle": "Meeting Demi-fond 68 - COLMAR",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "72111",
+      "niveau": "D",
+      "libelle": "Championnats de l'Allier Open Masters - 1ère Journée - GANNAT",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "72405",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Plot 3 - GRANDVILLIERS",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "72407",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Plot 4 - GRANDVILLIERS",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "72411",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs - Etape 2 - GRANDVILLIERS",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73081",
+      "niveau": "D",
+      "libelle": "5e Journée Avenirs/Jeunes - ISSOIRE",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "74179",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - JOIGNY",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "74185",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes - JOIGNY",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73809",
+      "niveau": "D",
+      "libelle": "Championnats Juniors/Séniors - LA ROCHELLE",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "74177",
+      "niveau": "D",
+      "libelle": "Qualifs Régionaux NA - LA TESTE-DE-BUCH",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "72935",
+      "niveau": "D",
+      "libelle": "Départementaux d'Automne Open des Maîtres - LAVAL",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "71995",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Journée 2 - Zone Sud - LE PLESSIS-ROBINSON",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "71999",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Journée 2 - Zone Sud (Relais) - LE PLESSIS-ROBINSON",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "71681",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes - LE PUY-EN-VELAY",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "72535",
+      "niveau": "D",
+      "libelle": "3e Journée Qualificative - LONS",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73805",
+      "niveau": "D",
+      "libelle": "Championnat Départemental - Hiver - Lot-et-Garonne - MARMANDE",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73517",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Aveyron/Lozère - MENDE",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73519",
+      "niveau": "D",
+      "libelle": "Journée de Qualification Avenirs/Jeunes - Aveyron/Lozère - MENDE",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73755",
+      "niveau": "D",
+      "libelle": "Meeting M4 Circuit de l'Arc Atlantique - MONT-DE-MARSAN",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73889",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes - MONTAUBAN",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "74019",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Avenirs - MONTAUBAN",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "74265",
+      "niveau": "D",
+      "libelle": "1er Circuit Hérault Jeunes - Nageur Complet - MONTPELLIER",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73283",
+      "niveau": "D",
+      "libelle": "Championnats du Finistère Open des Maîtres - MORLAIX",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "72673",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Etape 2 - NÎMES",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "74081",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes - NÎMES",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73613",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes - PARTHENAY",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "74229",
+      "niveau": "D",
+      "libelle": "Interclubs Bi-départementaux Avenirs - PARTHENAY",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "74287",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants IC Avenirs - PARTHENAY",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "74289",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Jeunes - PARTHENAY",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73559",
+      "niveau": "D",
+      "libelle": "Championnats 56 Automne - Journée 2 - PLOËRMEL",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73779",
+      "niveau": "D",
+      "libelle": "Meeting Jeunes Anges et Démons du CNPR REDON - REDON",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73345",
+      "niveau": "D",
+      "libelle": "Championnat Départemental d'Automne Juniors/Séniors - SAINT-ÉTIENNE",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73851",
+      "niveau": "D",
+      "libelle": "Parcours Avenirs N°1 - St Leu - SAINT-LEU-LA-FORET",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "74193",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes - SAUMUR",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73923",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Avenirs - SEDAN",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "73925",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes - SEDAN",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "74025",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - VILLERUPT",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "74027",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes - VILLERUPT",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "74075",
+      "niveau": "D",
+      "libelle": "Interclubs Avenir et Jeunes - Équipes Mixtes - VILLERUPT",
+      "dateIso": "2021-11-28"
+    },
+    {
+      "competitionId": "74403",
+      "niveau": "D",
+      "libelle": "Remplaçants Interclubs Avenirs/Jeunes - VILLERUPT",
+      "dateIso": "2021-11-28"
+    }
+  ]
+}

@@ -1,0 +1,848 @@
+{
+  "savedAt": "2026-04-25T17:29:31.499Z",
+  "year": 2021,
+  "month": 6,
+  "count": 140,
+  "raw": [
+    {
+      "competitionId": "70179",
+      "niveau": "I",
+      "libelle": "Meeting International de Canet-en-Roussillon - CANET-EN-ROUSSILLON",
+      "dateIso": "2021-06-01"
+    },
+    {
+      "competitionId": "69731",
+      "niveau": "N",
+      "libelle": "12e Grand Prix d'Oyonnax Haut-Bugey - OYONNAX",
+      "dateIso": "2021-06-05"
+    },
+    {
+      "competitionId": "70371",
+      "niveau": "R",
+      "libelle": "Compétition LNM 4 - LE LAMENTIN",
+      "dateIso": "2021-06-05"
+    },
+    {
+      "competitionId": "70043",
+      "niveau": "R",
+      "libelle": "Circuit 25m (C3 et C4 regroupés) - NOUMÉA",
+      "dateIso": "2021-06-05"
+    },
+    {
+      "competitionId": "70413",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs #4 - PIRAE",
+      "dateIso": "2021-06-05"
+    },
+    {
+      "competitionId": "69689",
+      "niveau": "R",
+      "libelle": "Meeting de Qualification 4 - SAINT-DENIS",
+      "dateIso": "2021-06-05"
+    },
+    {
+      "competitionId": "70389",
+      "niveau": "D",
+      "libelle": "Meeting Eté  Jeunes #1 - BAZAS",
+      "dateIso": "2021-06-05"
+    },
+    {
+      "competitionId": "70177",
+      "niveau": "D",
+      "libelle": "Meeting du Beaujolais - BELLEVILLE",
+      "dateIso": "2021-06-05"
+    },
+    {
+      "competitionId": "70383",
+      "niveau": "D",
+      "libelle": "Compet Reprise Juniors - BOUSSY-SAINT-ANTOINE",
+      "dateIso": "2021-06-05"
+    },
+    {
+      "competitionId": "70441",
+      "niveau": "D",
+      "libelle": "Compétition Jeunes  - LUÇON",
+      "dateIso": "2021-06-05"
+    },
+    {
+      "competitionId": "70337",
+      "niveau": "D",
+      "libelle": "Grand Prix de Romans - ROMANS-SUR-ISÈRE",
+      "dateIso": "2021-06-05"
+    },
+    {
+      "competitionId": "70429",
+      "niveau": "D",
+      "libelle": "Challenge Départemental de fin de saison - SAINT-PIERRE-DU-MONT",
+      "dateIso": "2021-06-05"
+    },
+    {
+      "competitionId": "70297",
+      "niveau": "D",
+      "libelle": "A vos Plots - Saint-Sébastien Natation - SAINT-SÉBASTIEN-SUR-LOIRE",
+      "dateIso": "2021-06-05"
+    },
+    {
+      "competitionId": "70379",
+      "niveau": "D",
+      "libelle": "Meeting de Versailles - VERSAILLES",
+      "dateIso": "2021-06-05"
+    },
+    {
+      "competitionId": "70197",
+      "niveau": "N",
+      "libelle": "Meeting National de Reprise Open du Pas-de-Calais - BÉTHUNE",
+      "dateIso": "2021-06-06"
+    },
+    {
+      "competitionId": "70219",
+      "niveau": "D",
+      "libelle": "Animation Jeunes et Juniors - ALES",
+      "dateIso": "2021-06-06"
+    },
+    {
+      "competitionId": "70579",
+      "niveau": "D",
+      "libelle": "Championnat Départemental - Plot 1 - BARBEZIEUX-SAINT-HILAIRE",
+      "dateIso": "2021-06-06"
+    },
+    {
+      "competitionId": "70327",
+      "niveau": "D",
+      "libelle": "1er Circuit Qualificatif Jeunes (Côte Basque) - BAYONNE",
+      "dateIso": "2021-06-06"
+    },
+    {
+      "competitionId": "70391",
+      "niveau": "D",
+      "libelle": "Meeting Eté  Juniors / Seniors #1 - BAZAS",
+      "dateIso": "2021-06-06"
+    },
+    {
+      "competitionId": "70183",
+      "niveau": "D",
+      "libelle": "Meeting du Beaujolais - J2 - BELLEVILLE",
+      "dateIso": "2021-06-06"
+    },
+    {
+      "competitionId": "70385",
+      "niveau": "D",
+      "libelle": "Challenge Reprise Avenirs - BOUSSY-SAINT-ANTOINE",
+      "dateIso": "2021-06-06"
+    },
+    {
+      "competitionId": "70415",
+      "niveau": "D",
+      "libelle": "Championnat Départemental de Printemps - CANET-EN-ROUSSILLON",
+      "dateIso": "2021-06-06"
+    },
+    {
+      "competitionId": "70443",
+      "niveau": "D",
+      "libelle": "Compétition Juniors - LUÇON",
+      "dateIso": "2021-06-06"
+    },
+    {
+      "competitionId": "70445",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs  - LUÇON",
+      "dateIso": "2021-06-06"
+    },
+    {
+      "competitionId": "70447",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs - LUÇON",
+      "dateIso": "2021-06-06"
+    },
+    {
+      "competitionId": "70407",
+      "niveau": "D",
+      "libelle": "La Relance - 1 - NIORT",
+      "dateIso": "2021-06-06"
+    },
+    {
+      "competitionId": "70409",
+      "niveau": "D",
+      "libelle": "La Relance Juniors - 1 - NIORT",
+      "dateIso": "2021-06-06"
+    },
+    {
+      "competitionId": "70259",
+      "niveau": "D",
+      "libelle": "5e Challenge Avenirs - Zone Est - ORANGE",
+      "dateIso": "2021-06-06"
+    },
+    {
+      "competitionId": "70325",
+      "niveau": "D",
+      "libelle": "1er Circuit Qualificatif Jeunes (Béarn) - PAU",
+      "dateIso": "2021-06-06"
+    },
+    {
+      "competitionId": "70381",
+      "niveau": "D",
+      "libelle": "Compet Reprise Jeunes - YERRES",
+      "dateIso": "2021-06-06"
+    },
+    {
+      "competitionId": "70411",
+      "niveau": "R",
+      "libelle": "Championnats de Polynésie - PAPEETE",
+      "dateIso": "2021-06-11"
+    },
+    {
+      "competitionId": "69969",
+      "niveau": "N",
+      "libelle": "27e Meeting de Printemps - BELLERIVE-SUR-ALLIER",
+      "dateIso": "2021-06-12"
+    },
+    {
+      "competitionId": "70511",
+      "niveau": "R",
+      "libelle": "Meeting Régional Estival - BOURGES",
+      "dateIso": "2021-06-12"
+    },
+    {
+      "competitionId": "70291",
+      "niveau": "R",
+      "libelle": "Critérium Régional Jeunes Eté - LIMOGES",
+      "dateIso": "2021-06-12"
+    },
+    {
+      "competitionId": "69691",
+      "niveau": "R",
+      "libelle": "Finale Avenirs - SAINT-DENIS",
+      "dateIso": "2021-06-12"
+    },
+    {
+      "competitionId": "70065",
+      "niveau": "D",
+      "libelle": "10e Meeting \"PITCH\" de l'Avenir - AVENIRS - ANGERS",
+      "dateIso": "2021-06-12"
+    },
+    {
+      "competitionId": "70067",
+      "niveau": "D",
+      "libelle": "10e Meeting \"PITCH\" de l'Avenir - JEUNES - ANGERS",
+      "dateIso": "2021-06-12"
+    },
+    {
+      "competitionId": "70533",
+      "niveau": "D",
+      "libelle": "Challenge Jeunes  - ANTONY",
+      "dateIso": "2021-06-12"
+    },
+    {
+      "competitionId": "70367",
+      "niveau": "D",
+      "libelle": "Fête de la Natation Vauclusienne - CARPENTRAS",
+      "dateIso": "2021-06-12"
+    },
+    {
+      "competitionId": "70343",
+      "niveau": "D",
+      "libelle": "1er Meeting des Glaçons Fondus - DINAN",
+      "dateIso": "2021-06-12"
+    },
+    {
+      "competitionId": "70537",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Eté - NEMOURS",
+      "dateIso": "2021-06-12"
+    },
+    {
+      "competitionId": "70523",
+      "niveau": "D",
+      "libelle": "Championnats 56 Eté - PONTIVY",
+      "dateIso": "2021-06-12"
+    },
+    {
+      "competitionId": "70329",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux - SABLE-SUR-SARTHE",
+      "dateIso": "2021-06-12"
+    },
+    {
+      "competitionId": "70719",
+      "niveau": "D",
+      "libelle": "Meeting de Juin du CD65 - SÉMÉAC",
+      "dateIso": "2021-06-12"
+    },
+    {
+      "competitionId": "70317",
+      "niveau": "D",
+      "libelle": "Championnats des Vosges Eté 50m - VITTEL",
+      "dateIso": "2021-06-12"
+    },
+    {
+      "competitionId": "70167",
+      "niveau": "N",
+      "libelle": "Meeting National de Strasbourg - STRASBOURG",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70499",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs 4 - SAINT-ESPRIT",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70439",
+      "niveau": "D",
+      "libelle": "A vos Plots - Challans - CHALLANS",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70773",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Hérault - COURNONTERRAL",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70637",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Jeunes - DIJON",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70205",
+      "niveau": "D",
+      "libelle": "Meeting de Juin - HÉROUVILLE-SAINT-CLAIR",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70611",
+      "niveau": "D",
+      "libelle": "Compétition La Roche Nat. - LA ROCHE-SUR-YON",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70737",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - LE PLESSIS-ROBINSON",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70647",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Aveyron - ONET-LE-CHÂTEAU",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70653",
+      "niveau": "D",
+      "libelle": "Challenge du Conseil Départemental de l’Aveyron - Avenirs - ONET-LE-CHÂTEAU",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70655",
+      "niveau": "D",
+      "libelle": "Challenge du Conseil Dptl - Aveyron - Jeunes/Juniors/Seniors - ONET-LE-CHÂTEAU",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70739",
+      "niveau": "D",
+      "libelle": "Compétition de Reprise - PLEYBER-CHRIST",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70555",
+      "niveau": "D",
+      "libelle": "2e Journée Avenirs/Jeunes - SAINT-GEORGES-DE-MONS",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70489",
+      "niveau": "D",
+      "libelle": "Coupe Maryline Douay - SAINT-HERBLAIN",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70559",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Open d'Eté - SAINT-MALO",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70553",
+      "niveau": "D",
+      "libelle": "Meeting de Reprise - STRASBOURG",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70747",
+      "niveau": "D",
+      "libelle": "Tous à l'eau - TOULON",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70585",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs du Conseil Départemental #1 - TOULOUSE",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70587",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs du Conseil Départemental #2 - TOULOUSE",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70589",
+      "niveau": "D",
+      "libelle": "Challenge Jeunes du Conseil Départemental - TOULOUSE",
+      "dateIso": "2021-06-13"
+    },
+    {
+      "competitionId": "70185",
+      "niveau": "N",
+      "libelle": "Championnats de France Elite - CHARTRES",
+      "dateIso": "2021-06-15"
+    },
+    {
+      "competitionId": "69483",
+      "niveau": "N",
+      "libelle": "3e Meeting Open 63 - CHAMALIÈRES",
+      "dateIso": "2021-06-18"
+    },
+    {
+      "competitionId": "70921",
+      "niveau": "D",
+      "libelle": "Meeting de Reprise - CHALONNES-SUR-LOIRE",
+      "dateIso": "2021-06-18"
+    },
+    {
+      "competitionId": "70045",
+      "niveau": "N",
+      "libelle": "8e Meeting National des Jeunes de Caen - CAEN",
+      "dateIso": "2021-06-19"
+    },
+    {
+      "competitionId": "70759",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Jeunes 50m - AVIGNON",
+      "dateIso": "2021-06-19"
+    },
+    {
+      "competitionId": "70111",
+      "niveau": "R",
+      "libelle": "Meeting Arena La Roche-sur-Yon - LA ROCHE-SUR-YON",
+      "dateIso": "2021-06-19"
+    },
+    {
+      "competitionId": "70767",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Eté - PONTIVY",
+      "dateIso": "2021-06-19"
+    },
+    {
+      "competitionId": "70451",
+      "niveau": "D",
+      "libelle": "Championnat Départemental d'Eté du Gers 2021 - FLEURANCE",
+      "dateIso": "2021-06-19"
+    },
+    {
+      "competitionId": "70395",
+      "niveau": "D",
+      "libelle": "Meeting Eté Juniors/Seniors #2 - LANGON",
+      "dateIso": "2021-06-19"
+    },
+    {
+      "competitionId": "70817",
+      "niveau": "D",
+      "libelle": "Circuit Départemental de Reprise - RETHEL",
+      "dateIso": "2021-06-19"
+    },
+    {
+      "competitionId": "70433",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - SAINT-LAURENT-NOUAN",
+      "dateIso": "2021-06-19"
+    },
+    {
+      "competitionId": "70435",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux des Maitres Eté - SAINT-LAURENT-NOUAN",
+      "dateIso": "2021-06-19"
+    },
+    {
+      "competitionId": "70713",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - VERSAILLES",
+      "dateIso": "2021-06-19"
+    },
+    {
+      "competitionId": "70119",
+      "niveau": "N",
+      "libelle": "Meeting National Open 06 - ANTIBES",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70765",
+      "niveau": "D",
+      "libelle": "La Relance n°2 - AIRVAULT",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70513",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Eté - ANGERS",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70863",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs de Reprise - BELFORT",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70867",
+      "niveau": "D",
+      "libelle": "Meeting de Reprise Belfortain - BELFORT",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70879",
+      "niveau": "D",
+      "libelle": "Meeting d'Eté - CHÂTILLON-SUR-INDRE",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70755",
+      "niveau": "D",
+      "libelle": "Championnat de la Loire TC - FEURS",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70601",
+      "niveau": "D",
+      "libelle": "Critérium d'été TOUTES CATEGORIES - FOURMIES",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70393",
+      "niveau": "D",
+      "libelle": "Meeting Eté  Jeunes #2 - LANGON",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70815",
+      "niveau": "D",
+      "libelle": "Journée Départementale - LUMBRES",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70551",
+      "niveau": "D",
+      "libelle": "Critérium d'été JUNIORS/SENIORS - MARCQ-EN-BAROEUL",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70839",
+      "niveau": "D",
+      "libelle": "Web Challenge Parisien - Juin 2021 - PARIS",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70843",
+      "niveau": "D",
+      "libelle": "2ème Etape Départementale de la Marne  - REIMS",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70431",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Eté - ROMORANTIN-LANTHENAY",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70869",
+      "niveau": "D",
+      "libelle": "37e Meeting de St-Egrève - SAINT-EGREVE",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70619",
+      "niveau": "D",
+      "libelle": "Journée de Retour  - SAINT-GERMAIN-DES-FOSSÉS",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70841",
+      "niveau": "D",
+      "libelle": "Compétition Départementale - SARLAT-LA-CANÉDA",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70871",
+      "niveau": "D",
+      "libelle": "Championnat Hérault Jeunes-Jun-Séniors - SAUVIAN",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70931",
+      "niveau": "D",
+      "libelle": "Championnat Maitres - Hérault - SAUVIAN",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "68915",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Été - SERRES-CASTET",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70599",
+      "niveau": "D",
+      "libelle": "Critérium d'Eté TC - VALENCIENNES",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70725",
+      "niveau": "D",
+      "libelle": "Journée Départementale Avenirs (séries) - VERSAILLES",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70727",
+      "niveau": "D",
+      "libelle": "Journée Départementale Avenirs - Finales - VERSAILLES",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70521",
+      "niveau": "D",
+      "libelle": "Meeting de la Ville de Villefranche - VILLEFRANCHE-SUR-SAÔNE",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70939",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs NVB - VILLEFRANCHE-SUR-SAÔNE",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70575",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Etape 6 - VILLENEUVE-LÈS-AVIGNON",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70577",
+      "niveau": "D",
+      "libelle": "Animation d'Eté du Gard - VILLENEUVE-LÈS-AVIGNON",
+      "dateIso": "2021-06-20"
+    },
+    {
+      "competitionId": "70987",
+      "niveau": "R",
+      "libelle": "Championnats de Martinique - LE LAMENTIN",
+      "dateIso": "2021-06-25"
+    },
+    {
+      "competitionId": "70295",
+      "niveau": "R",
+      "libelle": "CHAMPIONNATS CVL ETE - ORLÉANS",
+      "dateIso": "2021-06-25"
+    },
+    {
+      "competitionId": "70529",
+      "niveau": "R",
+      "libelle": "Grand Prix de la Ligue Auvergne Rhône-Alpes Jeunes - OYONNAX",
+      "dateIso": "2021-06-25"
+    },
+    {
+      "competitionId": "70729",
+      "niveau": "R",
+      "libelle": "Championnat promotionnel Ile-de-France - PARIS",
+      "dateIso": "2021-06-25"
+    },
+    {
+      "competitionId": "70809",
+      "niveau": "R",
+      "libelle": "Championnat de l'Essonne été - CORBEIL-ESSONNES",
+      "dateIso": "2021-06-26"
+    },
+    {
+      "competitionId": "70011",
+      "niveau": "R",
+      "libelle": "championnats de nouvelle -calédonie open bassin de 50 m  - DUMBÉA",
+      "dateIso": "2021-06-26"
+    },
+    {
+      "competitionId": "70531",
+      "niveau": "R",
+      "libelle": "GRAND PRIX Ligue Auvergne Rhône Alpes Juniors-Seniors - OYONNAX",
+      "dateIso": "2021-06-26"
+    },
+    {
+      "competitionId": "70293",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Juniors/Seniors Open été - POITIERS",
+      "dateIso": "2021-06-26"
+    },
+    {
+      "competitionId": "69693",
+      "niveau": "R",
+      "libelle": "Championnats de La Réunion hiver - SAINT-DENIS",
+      "dateIso": "2021-06-26"
+    },
+    {
+      "competitionId": "70547",
+      "niveau": "D",
+      "libelle": "Rencontre départementale - ATTICHY",
+      "dateIso": "2021-06-26"
+    },
+    {
+      "competitionId": "70427",
+      "niveau": "D",
+      "libelle": "Challenge Baptiste Dupuis et Coupe Ali Benfifi - EYZIN-PINET",
+      "dateIso": "2021-06-26"
+    },
+    {
+      "competitionId": "70887",
+      "niveau": "D",
+      "libelle": "Meeting de Reprise - FOS-SUR-MER",
+      "dateIso": "2021-06-26"
+    },
+    {
+      "competitionId": "70643",
+      "niveau": "D",
+      "libelle": "Challenge Juniors Seniors - NANTERRE",
+      "dateIso": "2021-06-26"
+    },
+    {
+      "competitionId": "70707",
+      "niveau": "D",
+      "libelle": "Finale Départementale Avenirs - NOZAY",
+      "dateIso": "2021-06-26"
+    },
+    {
+      "competitionId": "70285",
+      "niveau": "D",
+      "libelle": "Meeting Dauphins de Saint-Louis - SAINT-LOUIS",
+      "dateIso": "2021-06-26"
+    },
+    {
+      "competitionId": "70613",
+      "niveau": "D",
+      "libelle": "Meeting des Avenirs - SAINT-LOUIS",
+      "dateIso": "2021-06-26"
+    },
+    {
+      "competitionId": "71047",
+      "niveau": "D",
+      "libelle": "Challenge 1 Avenirs CD68 - SAINT-LOUIS",
+      "dateIso": "2021-06-26"
+    },
+    {
+      "competitionId": "71051",
+      "niveau": "D",
+      "libelle": "Challenge 2 Avenirs CD68 - SAINT-LOUIS",
+      "dateIso": "2021-06-26"
+    },
+    {
+      "competitionId": "70591",
+      "niveau": "D",
+      "libelle": "11ème Meeting des Mousselines - TARARE",
+      "dateIso": "2021-06-26"
+    },
+    {
+      "competitionId": "71031",
+      "niveau": "R",
+      "libelle": "Championnats régionaux été  - BESANÇON",
+      "dateIso": "2021-06-27"
+    },
+    {
+      "competitionId": "70991",
+      "niveau": "D",
+      "libelle": "challenge avenirs departemental n1 - ALLONNES",
+      "dateIso": "2021-06-27"
+    },
+    {
+      "competitionId": "70225",
+      "niveau": "D",
+      "libelle": "Prise de Temps - ESCAUDAIN",
+      "dateIso": "2021-06-27"
+    },
+    {
+      "competitionId": "70473",
+      "niveau": "D",
+      "libelle": "Coupe d'été open du Lot - GRAMAT",
+      "dateIso": "2021-06-27"
+    },
+    {
+      "competitionId": "70687",
+      "niveau": "D",
+      "libelle": "Critérium d'été AVENIRS - GRAVELINES",
+      "dateIso": "2021-06-27"
+    },
+    {
+      "competitionId": "70689",
+      "niveau": "D",
+      "libelle": "Critérium d'été JEUNES / JUNIORS / SENIORS - GRAVELINES",
+      "dateIso": "2021-06-27"
+    },
+    {
+      "competitionId": "70345",
+      "niveau": "D",
+      "libelle": "Meeting de la SN Haguenau - HAGUENAU",
+      "dateIso": "2021-06-27"
+    },
+    {
+      "competitionId": "70999",
+      "niveau": "D",
+      "libelle": "Championnat Hérault Avenirs - LUNEL",
+      "dateIso": "2021-06-27"
+    },
+    {
+      "competitionId": "70847",
+      "niveau": "D",
+      "libelle": "Interclubs de l'amitié - MARVILLE",
+      "dateIso": "2021-06-27"
+    },
+    {
+      "competitionId": "70949",
+      "niveau": "D",
+      "libelle": "Rencontre Jeunes et Avenirs - MASSY",
+      "dateIso": "2021-06-27"
+    },
+    {
+      "competitionId": "70715",
+      "niveau": "D",
+      "libelle": "Finale Départementale Jeunes - NOZAY",
+      "dateIso": "2021-06-27"
+    },
+    {
+      "competitionId": "70899",
+      "niveau": "D",
+      "libelle": "3ème Journée Avenirs Jeunes - RIOM",
+      "dateIso": "2021-06-27"
+    },
+    {
+      "competitionId": "70243",
+      "niveau": "D",
+      "libelle": "Critérium d'été AVENIRS/JEUNES - SAINT-ANDRÉ-LEZ-LILLE",
+      "dateIso": "2021-06-27"
+    },
+    {
+      "competitionId": "70039",
+      "niveau": "D",
+      "libelle": "Championnats Haute Savoie Avenirs-Jeunes - THONON-LES-BAINS",
+      "dateIso": "2021-06-27"
+    },
+    {
+      "competitionId": "70641",
+      "niveau": "D",
+      "libelle": "Challenge Avenir Haute Savoie 03 - THONON-LES-BAINS",
+      "dateIso": "2021-06-27"
+    },
+    {
+      "competitionId": "70645",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Haute Savoie 04 - THONON-LES-BAINS",
+      "dateIso": "2021-06-27"
+    }
+  ]
+}

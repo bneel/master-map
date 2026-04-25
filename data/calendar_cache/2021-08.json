@@ -1,0 +1,320 @@
+{
+  "savedAt": "2026-04-25T17:29:35.901Z",
+  "year": 2021,
+  "month": 8,
+  "count": 52,
+  "raw": [
+    {
+      "competitionId": "71349",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs (16) - MONTLIEU-LA-GARDE",
+      "dateIso": "2021-08-01"
+    },
+    {
+      "competitionId": "70495",
+      "niveau": "R",
+      "libelle": "Trophée individuel été # 2 - SAINT-CÉRÉ",
+      "dateIso": "2021-08-01"
+    },
+    {
+      "competitionId": "70633",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs - SAINT-CÉRÉ",
+      "dateIso": "2021-08-01"
+    },
+    {
+      "competitionId": "71341",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Aude/PO/Hérault - CÉRET",
+      "dateIso": "2021-08-01"
+    },
+    {
+      "competitionId": "71339",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Aude/PO/Hérault  - CÉRET",
+      "dateIso": "2021-08-01"
+    },
+    {
+      "competitionId": "71337",
+      "niveau": "D",
+      "libelle": "Tri Départementaux - Aude/Hérault/PO - CÉRET",
+      "dateIso": "2021-08-01"
+    },
+    {
+      "competitionId": "71317",
+      "niveau": "D",
+      "libelle": "1er Meeting du Sud Saintonge - MONTLIEU-LA-GARDE",
+      "dateIso": "2021-08-01"
+    },
+    {
+      "competitionId": "70917",
+      "niveau": "D",
+      "libelle": "Journée Qualificative Open - SAINT-PALAIS",
+      "dateIso": "2021-08-01"
+    },
+    {
+      "competitionId": "71351",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs - MONTLIEU-LA-GARDE",
+      "dateIso": "2021-08-02"
+    },
+    {
+      "competitionId": "71229",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs Toutes catégories - BARBEZIEUX-SAINT-HILAIRE",
+      "dateIso": "2021-08-08"
+    },
+    {
+      "competitionId": "71313",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs - Juniors 1 et moins - CHALONNES-SUR-LOIRE",
+      "dateIso": "2021-08-08"
+    },
+    {
+      "competitionId": "71023",
+      "niveau": "R",
+      "libelle": "4e Journée Régionale - SAINT-BENIN-D'AZY",
+      "dateIso": "2021-08-08"
+    },
+    {
+      "competitionId": "71355",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs - SAINT-CÉRÉ",
+      "dateIso": "2021-08-08"
+    },
+    {
+      "competitionId": "70497",
+      "niveau": "R",
+      "libelle": "Challenge Yvette Andrada - SAINT-CÉRÉ",
+      "dateIso": "2021-08-08"
+    },
+    {
+      "competitionId": "71099",
+      "niveau": "D",
+      "libelle": "Open Départemental TC + Challenge A. Lelièvre - CHALONNES-SUR-LOIRE",
+      "dateIso": "2021-08-08"
+    },
+    {
+      "competitionId": "71261",
+      "niveau": "D",
+      "libelle": "Challenge Estival Avenirs - Plot 2 - MONTBRON",
+      "dateIso": "2021-08-11"
+    },
+    {
+      "competitionId": "71253",
+      "niveau": "D",
+      "libelle": "Trophée Charente - Plot 2 - MONTBRON",
+      "dateIso": "2021-08-11"
+    },
+    {
+      "competitionId": "71129",
+      "niveau": "D",
+      "libelle": "Top 50 - NEUVILLE-DE-POITOU",
+      "dateIso": "2021-08-12"
+    },
+    {
+      "competitionId": "71131",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 4 - NEUVILLE-DE-POITOU",
+      "dateIso": "2021-08-12"
+    },
+    {
+      "competitionId": "70919",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux - BIDACHE",
+      "dateIso": "2021-08-14"
+    },
+    {
+      "competitionId": "70365",
+      "niveau": "D",
+      "libelle": "Championnats de Haute-Savoie de Natation Estivale - LA ROCHE-SUR-FORON",
+      "dateIso": "2021-08-14"
+    },
+    {
+      "competitionId": "71199",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Isère Open - TULLINS",
+      "dateIso": "2021-08-14"
+    },
+    {
+      "competitionId": "70503",
+      "niveau": "R",
+      "libelle": "Critériums Occitanie Nord-Ouest # 1 - BIARS-SUR-CÈRE",
+      "dateIso": "2021-08-15"
+    },
+    {
+      "competitionId": "71373",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs - BIARS-SUR-CÈRE",
+      "dateIso": "2021-08-15"
+    },
+    {
+      "competitionId": "71179",
+      "niveau": "D",
+      "libelle": "Challenge Guy Coutel - BAGNOLS-SUR-CÈZE",
+      "dateIso": "2021-08-15"
+    },
+    {
+      "competitionId": "71367",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux 2021 - BARBEZIEUX-SAINT-HILAIRE",
+      "dateIso": "2021-08-15"
+    },
+    {
+      "competitionId": "71275",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 5 - CIVRAY",
+      "dateIso": "2021-08-15"
+    },
+    {
+      "competitionId": "71137",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 6 - CIVRAY",
+      "dateIso": "2021-08-15"
+    },
+    {
+      "competitionId": "71133",
+      "niveau": "D",
+      "libelle": "Coupe de Ville de Civray - CIVRAY",
+      "dateIso": "2021-08-15"
+    },
+    {
+      "competitionId": "71303",
+      "niveau": "D",
+      "libelle": "Critérium La Chataigneraie - LA CHATAIGNERAIE",
+      "dateIso": "2021-08-15"
+    },
+    {
+      "competitionId": "71365",
+      "niveau": "D",
+      "libelle": "Championnats Interdépartementaux 24/33/47 - LANGON",
+      "dateIso": "2021-08-15"
+    },
+    {
+      "competitionId": "71333",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Langon - matin - LANGON",
+      "dateIso": "2021-08-15"
+    },
+    {
+      "competitionId": "71335",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Langon - après-midi - LANGON",
+      "dateIso": "2021-08-15"
+    },
+    {
+      "competitionId": "71255",
+      "niveau": "D",
+      "libelle": "Trophée Charente - PLOT 3 - BARBEZIEUX-SAINT-HILAIRE",
+      "dateIso": "2021-08-18"
+    },
+    {
+      "competitionId": "71263",
+      "niveau": "D",
+      "libelle": "Challenge Estival Avenirs - Plot 3 - BARBEZIEUX-SAINT-HILAIRE",
+      "dateIso": "2021-08-18"
+    },
+    {
+      "competitionId": "71005",
+      "niveau": "R",
+      "libelle": "Championnats de la Ligue Auvergne-Rhône-Alpes - AIGUEBLANCHE",
+      "dateIso": "2021-08-21"
+    },
+    {
+      "competitionId": "71231",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux des clubs d'été - CASTELJALOUX",
+      "dateIso": "2021-08-21"
+    },
+    {
+      "competitionId": "71353",
+      "niveau": "R",
+      "libelle": "Finale Individuelle Régionale  - VERN-D'ANJOU",
+      "dateIso": "2021-08-21"
+    },
+    {
+      "competitionId": "71027",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux individuels - GUEUGNON",
+      "dateIso": "2021-08-22"
+    },
+    {
+      "competitionId": "71371",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux - Zone Est - Ligue Occitanie - SALINDRES",
+      "dateIso": "2021-08-22"
+    },
+    {
+      "competitionId": "71383",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs - SOUILLAC",
+      "dateIso": "2021-08-22"
+    },
+    {
+      "competitionId": "70505",
+      "niveau": "R",
+      "libelle": "Critériums - Nord-Ouest - Ligue Occitanie # 2 - SOUILLAC",
+      "dateIso": "2021-08-22"
+    },
+    {
+      "competitionId": "71347",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs Toutes Catégories - VERN-D'ANJOU",
+      "dateIso": "2021-08-22"
+    },
+    {
+      "competitionId": "71379",
+      "niveau": "D",
+      "libelle": "Compétition de clôture estivale 2021 - MONTBRON",
+      "dateIso": "2021-08-25"
+    },
+    {
+      "competitionId": "71397",
+      "niveau": "D",
+      "libelle": "Challenge Estival Avenirs - Compétition de clôture estivale - MONTBRON",
+      "dateIso": "2021-08-25"
+    },
+    {
+      "competitionId": "71307",
+      "niveau": "N",
+      "libelle": "IIe Critérium national de natation estivale - LAVAL",
+      "dateIso": "2021-08-27"
+    },
+    {
+      "competitionId": "71389",
+      "niveau": "R",
+      "libelle": "Coupe de la Ville de Salindres - SALINDRES",
+      "dateIso": "2021-08-29"
+    },
+    {
+      "competitionId": "71391",
+      "niveau": "R",
+      "libelle": "Challenge Sprint de Salindres - SALINDRES",
+      "dateIso": "2021-08-29"
+    },
+    {
+      "competitionId": "71393",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs - SALINDRES",
+      "dateIso": "2021-08-29"
+    },
+    {
+      "competitionId": "71279",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 8 - JAUNAY-CLAN",
+      "dateIso": "2021-08-29"
+    },
+    {
+      "competitionId": "71277",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 7 - JAUNAY-CLAN",
+      "dateIso": "2021-08-29"
+    },
+    {
+      "competitionId": "71139",
+      "niveau": "D",
+      "libelle": "Coupe de la ville de Jaunay Marigny - JAUNAY-CLAN",
+      "dateIso": "2021-08-29"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "savedAt": "2026-04-25T17:29:24.884Z",
+  "year": 2021,
+  "month": 3,
+  "count": 21,
+  "raw": [
+    {
+      "competitionId": "69813",
+      "niveau": "N",
+      "libelle": "XIIe Meeting National Eurocom de Massy - MASSY",
+      "dateIso": "2021-03-05"
+    },
+    {
+      "competitionId": "69883",
+      "niveau": "R",
+      "libelle": "Meeting Joël Rossi - PAPEETE",
+      "dateIso": "2021-03-05"
+    },
+    {
+      "competitionId": "69873",
+      "niveau": "R",
+      "libelle": "Championnat de Martinique Open Mars - LE LAMENTIN",
+      "dateIso": "2021-03-06"
+    },
+    {
+      "competitionId": "69579",
+      "niveau": "R",
+      "libelle": "Circuit Régional 3 - Jeunes & plus - LES ABYMES",
+      "dateIso": "2021-03-06"
+    },
+    {
+      "competitionId": "69663",
+      "niveau": "R",
+      "libelle": "Meeting de Qualification 3 - SAINT-DENIS",
+      "dateIso": "2021-03-06"
+    },
+    {
+      "competitionId": "69851",
+      "niveau": "R",
+      "libelle": "Web Challenge 50 mètres - MONTREUIL",
+      "dateIso": "2021-03-12"
+    },
+    {
+      "competitionId": "69887",
+      "niveau": "R",
+      "libelle": "Meeting Régional du Grand Est - VITTEL",
+      "dateIso": "2021-03-12"
+    },
+    {
+      "competitionId": "69869",
+      "niveau": "N",
+      "libelle": "39e Meeting National de l'ASM Chamalières Natation - CHAMALIÈRES",
+      "dateIso": "2021-03-13"
+    },
+    {
+      "competitionId": "69719",
+      "niveau": "N",
+      "libelle": "Meeting Open PACA Qualificatif # 2 - NICE",
+      "dateIso": "2021-03-13"
+    },
+    {
+      "competitionId": "69839",
+      "niveau": "N",
+      "libelle": "Meeting National Occitanie de Printemps - TOULOUSE",
+      "dateIso": "2021-03-13"
+    },
+    {
+      "competitionId": "69829",
+      "niveau": "R",
+      "libelle": "Amazonian Cup - CAYENNE",
+      "dateIso": "2021-03-13"
+    },
+    {
+      "competitionId": "69903",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs #2# - PIRAE",
+      "dateIso": "2021-03-13"
+    },
+    {
+      "competitionId": "69623",
+      "niveau": "I",
+      "libelle": "FFNGT Camille Muffat n°2 - Meeting Open de la Méditerranée - MARSEILLE",
+      "dateIso": "2021-03-19"
+    },
+    {
+      "competitionId": "69917",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - PIRAE",
+      "dateIso": "2021-03-20"
+    },
+    {
+      "competitionId": "67949",
+      "niveau": "D",
+      "libelle": "1er meeting avenirs jeunes des Rascasses - ÉGLETONS",
+      "dateIso": "2021-03-20"
+    },
+    {
+      "competitionId": "69905",
+      "niveau": "R",
+      "libelle": "Championnats de Martinique Maîtres en petit bassin - SCHOELCHER",
+      "dateIso": "2021-03-21"
+    },
+    {
+      "competitionId": "69923",
+      "niveau": "N",
+      "libelle": "14e Meeting National de Bron - BRON",
+      "dateIso": "2021-03-27"
+    },
+    {
+      "competitionId": "69879",
+      "niveau": "N",
+      "libelle": "13e Meeting National du Lille Métropole - LILLE",
+      "dateIso": "2021-03-27"
+    },
+    {
+      "competitionId": "69833",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs du territoire des Savanes - SINNAMARY",
+      "dateIso": "2021-03-27"
+    },
+    {
+      "competitionId": "69835",
+      "niveau": "R",
+      "libelle": "Spécial Sprint des Savanes - SINNAMARY",
+      "dateIso": "2021-03-27"
+    },
+    {
+      "competitionId": "69909",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs Martinique #3 - SCHOELCHER",
+      "dateIso": "2021-03-28"
+    }
+  ]
+}

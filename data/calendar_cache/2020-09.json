@@ -1,0 +1,20 @@
+{
+  "savedAt": "2026-04-25T17:29:11.756Z",
+  "year": 2020,
+  "month": 9,
+  "count": 2,
+  "raw": [
+    {
+      "competitionId": "68001",
+      "niveau": "D",
+      "libelle": "Inter-clubs - AUXERRE",
+      "dateIso": "2020-09-27"
+    },
+    {
+      "competitionId": "67989",
+      "niveau": "D",
+      "libelle": "Pré-saison Juniors/Séniors n°1 - ROGNAC",
+      "dateIso": "2020-09-27"
+    }
+  ]
+}

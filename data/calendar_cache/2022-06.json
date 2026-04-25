@@ -1,0 +1,1568 @@
+{
+  "savedAt": "2026-04-25T17:29:58.947Z",
+  "year": 2022,
+  "month": 6,
+  "count": 260,
+  "raw": [
+    {
+      "competitionId": "78761",
+      "niveau": "R",
+      "libelle": "Championnats de la Guadeloupe - LES ABYMES",
+      "dateIso": "2022-06-03"
+    },
+    {
+      "competitionId": "78765",
+      "niveau": "R",
+      "libelle": "Championnats de la Guadeloupe Maîtres - LES ABYMES",
+      "dateIso": "2022-06-03"
+    },
+    {
+      "competitionId": "78300",
+      "niveau": "R",
+      "libelle": "Meeting New Wave 2022 - VILLEJUIF",
+      "dateIso": "2022-06-03"
+    },
+    {
+      "competitionId": "77285",
+      "niveau": "N",
+      "libelle": "35e Meeting National des Jeunes - CLERMONT-FERRAND",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78174",
+      "niveau": "N",
+      "libelle": "Tournoi International de Paris - PARIS",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78664",
+      "niveau": "R",
+      "libelle": "27e Meeting de la Ville de Beaune - BEAUNE",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78487",
+      "niveau": "R",
+      "libelle": "Meeting Régional de Belfort Toutes Catégories - BELFORT",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78735",
+      "niveau": "R",
+      "libelle": "Coupe Catherine Plewinski - CHATTE",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78669",
+      "niveau": "R",
+      "libelle": "Coupe des Départements - CHINON",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78709",
+      "niveau": "R",
+      "libelle": "Coupe des Départements - Remplaçants - CHINON",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78529",
+      "niveau": "R",
+      "libelle": "Coupe des Départements Jeunes  - LA ROCHELLE",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "72567",
+      "niveau": "R",
+      "libelle": "Finale Aito 25m - PIRAE",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78653",
+      "niveau": "D",
+      "libelle": "Finale Circuit Juniors et + - AMIENS",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78720",
+      "niveau": "D",
+      "libelle": "1er Meeting Ancenis Natation Course - ANCENIS",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78437",
+      "niveau": "D",
+      "libelle": "Championnat Eté Open du Pas-de-Calais - AUCHEL",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78258",
+      "niveau": "D",
+      "libelle": "Championnats de la Manche et du Calvados Open Maîtres - CARENTAN",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78477",
+      "niveau": "D",
+      "libelle": "10e Meeting de Carquefou - CARQUEFOU",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78272",
+      "niveau": "D",
+      "libelle": "1er Meeting de la Pentecôte - CERNAY",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78227",
+      "niveau": "D",
+      "libelle": "2e Meeting de Claye-Souilly - CLAYE-SOUILLY",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78547",
+      "niveau": "D",
+      "libelle": "Nat'Avenirs Eté - Plot 3 - DIEPPE",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78548",
+      "niveau": "D",
+      "libelle": "Championnats 76 Eté - DIEPPE",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78733",
+      "niveau": "D",
+      "libelle": "Meeting du CN Grésivaudan - PONTCHARRA",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78755",
+      "niveau": "D",
+      "libelle": "Soirée N°4 des Maîtres - SAINT-LEU-LA-FORET",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78330",
+      "niveau": "D",
+      "libelle": "Meeting Open Espoirs de Versailles - VERSAILLES",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78546",
+      "niveau": "D",
+      "libelle": "Meeting Open Espoirs de Versailles (Finales) - VERSAILLES",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "74931",
+      "niveau": "D",
+      "libelle": "Championnat du Gard Jeunes - VILLENEUVE-LÈS-AVIGNON",
+      "dateIso": "2022-06-04"
+    },
+    {
+      "competitionId": "78597",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux PACA des Maitres 50m - ANTIBES",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78732",
+      "niveau": "R",
+      "libelle": "Coupe Catherine Plewinski - Remplaçants - CHATTE",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78690",
+      "niveau": "R",
+      "libelle": "Coupe de France des Départements - Ligue Grand-Est - ÉPINAL",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78745",
+      "niveau": "R",
+      "libelle": "Eliminatoires Coupe de France des Départements - Poule PACA - FRÉJUS",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78840",
+      "niveau": "R",
+      "libelle": "Coupe de France des Départements -  PACA - Remplaçants  - FRÉJUS",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78805",
+      "niveau": "R",
+      "libelle": "Challenge du CNSL - SAINT-LEU",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78762",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs 4 - SCHOELCHER",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "74933",
+      "niveau": "D",
+      "libelle": "Championnat du Gard Jeunes - 2e Journée - BEAUCAIRE",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78756",
+      "niveau": "D",
+      "libelle": "Finale Départementale Juniors/Séniors - CERGY-PONTOISE",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78280",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs n°6 - CHALLANS",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78281",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs n°6 - CHALLANS",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78283",
+      "niveau": "D",
+      "libelle": "Championnats de Vendée Eté Masters - CHALLANS",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78606",
+      "niveau": "D",
+      "libelle": "Meeting Départemental - CHÂTELLERAULT",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78172",
+      "niveau": "D",
+      "libelle": "Championnat 77 Eté Open des Maîtres - COMBS-LA-VILLE",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78666",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Open d'Eté  - GRANDVILLIERS",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78696",
+      "niveau": "D",
+      "libelle": "4e Championnat Départemental Avenirs - L'ISLE-SUR-LA-SORGUE",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78857",
+      "niveau": "D",
+      "libelle": "3e Challenge Départemental Avenirs bis - L'ISLE-SUR-LA-SORGUE",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "77335",
+      "niveau": "D",
+      "libelle": "Championnat Départemental - Meeting du Nord Open - LILLE",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78230",
+      "niveau": "D",
+      "libelle": "Trophée Jeunes 06/83 - NICE",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78231",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs 06/83 - NICE",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78121",
+      "niveau": "D",
+      "libelle": "Nat'Avenirs Eté - Plot 2 - PONT-AUDEMER",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78122",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 5 - PONT-AUDEMER",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78747",
+      "niveau": "D",
+      "libelle": "Finale Natathlon Avenirs CD34 - SAINT-JEAN-DE-VEDAS",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78325",
+      "niveau": "D",
+      "libelle": "Open Eté Maîtres 2022 - SAINT-OUEN",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78757",
+      "niveau": "D",
+      "libelle": "Finale Départementale Jeunes - SARCELLES",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78663",
+      "niveau": "D",
+      "libelle": "Championnats de l'Aube Eté Open - TROYES",
+      "dateIso": "2022-06-05"
+    },
+    {
+      "competitionId": "78248",
+      "niveau": "R",
+      "libelle": "Championnat Régional été Open des Maîtres HDF - MARCQ-EN-BAROEUL",
+      "dateIso": "2022-06-06"
+    },
+    {
+      "competitionId": "78569",
+      "niveau": "D",
+      "libelle": "16e Meeting Mélanie Dambrine - Avenirs & Jeunes - AMIENS",
+      "dateIso": "2022-06-06"
+    },
+    {
+      "competitionId": "78459",
+      "niveau": "D",
+      "libelle": "1er Meeting of the Ducks - LUNÉVILLE",
+      "dateIso": "2022-06-06"
+    },
+    {
+      "competitionId": "78460",
+      "niveau": "D",
+      "libelle": "1er Meeting of the Ducks - Maîtres - LUNÉVILLE",
+      "dateIso": "2022-06-06"
+    },
+    {
+      "competitionId": "78717",
+      "niveau": "D",
+      "libelle": "Challenge Départemental Avenirs N°3 - MONTCHANIN",
+      "dateIso": "2022-06-06"
+    },
+    {
+      "competitionId": "78223",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux de Ligue AuRA - Jeunes - BELLERIVE-SUR-ALLIER",
+      "dateIso": "2022-06-10"
+    },
+    {
+      "competitionId": "78549",
+      "niveau": "R",
+      "libelle": "Meeting Régional de l'AC Bourges - BOURGES",
+      "dateIso": "2022-06-10"
+    },
+    {
+      "competitionId": "78673",
+      "niveau": "R",
+      "libelle": "Championnat Régional Jeunes 2022 - CORBEIL-ESSONNES",
+      "dateIso": "2022-06-10"
+    },
+    {
+      "competitionId": "77923",
+      "niveau": "R",
+      "libelle": "Meeting Tchimbé Red des Savanes - SINNAMARY",
+      "dateIso": "2022-06-10"
+    },
+    {
+      "competitionId": "77925",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs - Meeting Tchimbé Red des Savanes - SINNAMARY",
+      "dateIso": "2022-06-10"
+    },
+    {
+      "competitionId": "78087",
+      "niveau": "N",
+      "libelle": "8e Meeting National des Maîtres du Laval Aquatique Club - LAVAL",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "72569",
+      "niveau": "R",
+      "libelle": "Tahiti Cup 25m - PIRAE",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "76125",
+      "niveau": "R",
+      "libelle": "Finale Avenirs Hiver - SAINT-DENIS (La Réunion)",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78542",
+      "niveau": "R",
+      "libelle": "Régionaux Jeunes Eté 50m - VALENCIENNES",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "75343",
+      "niveau": "D",
+      "libelle": "11e Meeting de l'Avenir - ANGERS",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "75561",
+      "niveau": "D",
+      "libelle": "Circuit Jeunes 3 - BAZAS",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78698",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Open du Vaucluse - CARPENTRAS",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78700",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux du Vaucluse Open des Maîtres - CARPENTRAS",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "77015",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs (Pass'compétition) - Samedi Matin - CRAON",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "77017",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Eté (Avenirs) - Samedi Matin - CRAON",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "77019",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Eté - Jeunes/Juniors/Séniors - CRAON",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78766",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Eté - DEAUVILLE",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78260",
+      "niveau": "D",
+      "libelle": "Championnat de la Manche Eté - GRANVILLE",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78825",
+      "niveau": "D",
+      "libelle": "Meeting / Support des Championnats 71 Eté - LE CREUSOT",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78284",
+      "niveau": "D",
+      "libelle": "Championnats de Vendée Eté - LES SABLES-D'OLONNE",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78721",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux - LIMOUX",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78203",
+      "niveau": "D",
+      "libelle": "Finale 93 du Natathlon Avenirs/Jeunes - MARVILLE",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78832",
+      "niveau": "D",
+      "libelle": "Circuit Départemental Multi-catégories - Finale - OBERNAI",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78833",
+      "niveau": "D",
+      "libelle": "DSL1 - Finale - OBERNAI",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78706",
+      "niveau": "D",
+      "libelle": "Demi-fond Open des Maîtres - PARIS",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78684",
+      "niveau": "D",
+      "libelle": "Championnats 56 Eté - PONTIVY",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78685",
+      "niveau": "D",
+      "libelle": "Championnats 56 Eté des Maîtres - PONTIVY",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78860",
+      "niveau": "D",
+      "libelle": "Finale Départementale Avenirs - REDON",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78827",
+      "niveau": "D",
+      "libelle": "Championnats de la Marne - REIMS",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78630",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux - SABLE-SUR-SARTHE",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78852",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Avenirs - SABLE-SUR-SARTHE",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78890",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - SABLE-SUR-SARTHE",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78344",
+      "niveau": "D",
+      "libelle": "Inter-clubs Fin de Saison  - SAINT-ANDRÉ-LEZ-LILLE",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78741",
+      "niveau": "D",
+      "libelle": "Championnats 19/23/87 Eté - SAINT-LÉONARD-DE-NOBLAT",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "74393",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - TARBES",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "74395",
+      "niveau": "D",
+      "libelle": "Journée Eté Jeunes - TARBES",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78861",
+      "niveau": "D",
+      "libelle": "Finale des Trophées Paule Lacoste - TOULOUSE",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78862",
+      "niveau": "D",
+      "libelle": "Grand Prix du Conseil Départemental Jeunes & Avenirs 3 - TOULOUSE",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78767",
+      "niveau": "D",
+      "libelle": "Meeting du Ludolac 2022 - VAIVRE-ET-MONTOILLE",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78769",
+      "niveau": "D",
+      "libelle": "Meeting du Ludolac 2022 - Masters - VAIVRE-ET-MONTOILLE",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78132",
+      "niveau": "D",
+      "libelle": "Championnat Départemental en petit bassin - VAL-DE-REUIL",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78370",
+      "niveau": "D",
+      "libelle": "Meeting Départemental des Jeunes - VERSAILLES",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78738",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - VERSAILLES",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78420",
+      "niveau": "D",
+      "libelle": "Championnats des Vosges Eté Open 50m - VITTEL",
+      "dateIso": "2022-06-11"
+    },
+    {
+      "competitionId": "78814",
+      "niveau": "R",
+      "libelle": "Critérium Régional Avenirs Eté  - BAZAS",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78603",
+      "niveau": "R",
+      "libelle": "Trophée du Sprint - CALVI",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78604",
+      "niveau": "R",
+      "libelle": "Trophée du Sprint - CALVI",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78816",
+      "niveau": "R",
+      "libelle": "Critérium Régional Avenirs Eté  - PAU",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78297",
+      "niveau": "R",
+      "libelle": "1er Meeting de Rambouillet - RAMBOUILLET",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78577",
+      "niveau": "R",
+      "libelle": "1er Meeting de Rambouillet (Finales) - RAMBOUILLET",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78898",
+      "niveau": "R",
+      "libelle": "Challenge du SSN - SAINT-PHILIPPE",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78286",
+      "niveau": "D",
+      "libelle": "Championnat Départemental 06/83 - ANTIBES",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78726",
+      "niveau": "D",
+      "libelle": "Meeting des Maîtres de fin de saison - ARGENTAN",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78801",
+      "niveau": "D",
+      "libelle": "Championnats de l'Orne Eté - ARGENTAN",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78868",
+      "niveau": "D",
+      "libelle": "Finale Départementale Avenirs - ARGENTEUIL",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78763",
+      "niveau": "D",
+      "libelle": "Finales Départementales Avenirs/Jeunes - CAHORS",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "72061",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Eté - CHASSENEUIL-SUR-BONNIEURE",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78261",
+      "niveau": "D",
+      "libelle": "Championnat de la Manche Eté - CHERBOURG-EN-COTENTIN",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78262",
+      "niveau": "D",
+      "libelle": "Trophée Jeunes Eté Nageur Complet - CHERBOURG-EN-COTENTIN",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78811",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 4 + ENF 2 - COMBS-LA-VILLE",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78703",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Eté - Landes - DAX",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78371",
+      "niveau": "D",
+      "libelle": "Meeting Départemental des Jeunes - GUYANCOURT",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78270",
+      "niveau": "D",
+      "libelle": "Championnats du Haut-Rhin Avenirs - ILLZACH",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78739",
+      "niveau": "D",
+      "libelle": "Première Médaille - L'HAŸ-LES-ROSES",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78913",
+      "niveau": "D",
+      "libelle": "Finale Avenirs - LA GARENNE-COLOMBES",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78194",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Maîtres Eté - LANGON",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78701",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs ENF 91 - MASSY",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78809",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 4 + ENF 2 - MEAUX",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78655",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - MIRAMAS",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78662",
+      "niveau": "D",
+      "libelle": "Parcours Avenirs - MIRAMAS",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78916",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs (Course des remplaçants) - MIRAMAS",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78924",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - MULHOUSE",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78823",
+      "niveau": "D",
+      "libelle": "Championnats des Hauts de Seine OPEN - NANTERRE",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78905",
+      "niveau": "D",
+      "libelle": "Challenge Open du 92 - NANTERRE",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78812",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 4 + ENF 2 - NEMOURS",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78770",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Eté - NIORT",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78563",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Plot 2 - NUITS-SAINT-GEORGES",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "77089",
+      "niveau": "D",
+      "libelle": "Meeting CNO - OSTWALD",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78659",
+      "niveau": "D",
+      "libelle": "Championnats Individuels Avenirs des Côtes-d'Armor - PAIMPOL",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78865",
+      "niveau": "D",
+      "libelle": "3 km Indoor open Juniors/séniors  - PARIS",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78341",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Eté Open des Maîtres - PLEYBER-CHRIST",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78625",
+      "niveau": "D",
+      "libelle": "14e Challenge Avenirs des Clubs - SAINT-HERBLAIN",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78712",
+      "niveau": "D",
+      "libelle": "8e Coupe Maryline Douay - SAINT-HERBLAIN",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78233",
+      "niveau": "D",
+      "libelle": "5e Meeting Open Nat' 35 - SAINT-MALO",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78802",
+      "niveau": "D",
+      "libelle": "Challenge Pascal  Antoine - SARREGUEMINES",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78810",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 4 + ENF 2 - TORCY",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78759",
+      "niveau": "D",
+      "libelle": "6e Meeting International des Sages - VILLERUPT",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78795",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs #4 et Rencontre Juniors #4 - VILLERUPT",
+      "dateIso": "2022-06-12"
+    },
+    {
+      "competitionId": "78869",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux  des Jeunes en bassin de 50m - AVIGNON",
+      "dateIso": "2022-06-17"
+    },
+    {
+      "competitionId": "78831",
+      "niveau": "R",
+      "libelle": "Championnats de Normandie Eté - GRAND-COURONNE",
+      "dateIso": "2022-06-17"
+    },
+    {
+      "competitionId": "78134",
+      "niveau": "D",
+      "libelle": "Finale Départementale Maitres - SAINT-MARCEL",
+      "dateIso": "2022-06-17"
+    },
+    {
+      "competitionId": "78391",
+      "niveau": "N",
+      "libelle": "Meeting National des Jeunes de Caen - CAEN",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "74869",
+      "niveau": "R",
+      "libelle": "Championnats de Nouvelle-Calédonie - Bernic Sport - DUMBÉA",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78646",
+      "niveau": "R",
+      "libelle": "Meeting Arena - LA ROCHE-SUR-YON",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78682",
+      "niveau": "R",
+      "libelle": "Trophée de Martinique Avenirs et Jeunes - LE LAMENTIN",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "72571",
+      "niveau": "R",
+      "libelle": "Meeting 50m #3 - PAPEETE",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78843",
+      "niveau": "R",
+      "libelle": "Finale Régionale Avenirs - SAINT-SÉBASTIEN-SUR-LOIRE",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "74973",
+      "niveau": "D",
+      "libelle": "3e Meeting du Gard - ALES",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "75213",
+      "niveau": "D",
+      "libelle": "Championnat Départemental/Critérium Jeunes Été - AUXERRE",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78531",
+      "niveau": "D",
+      "libelle": "25e Meeting 36 - CHÂTEAUROUX",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78834",
+      "niveau": "D",
+      "libelle": "25e Meeting 36 - CHÂTEAUROUX",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78848",
+      "niveau": "D",
+      "libelle": "Finale du Challenge Avenirs Conseil Départemental Aveyron  - DECAZEVILLE",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78849",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Aveyron/Lozère - DECAZEVILLE",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78850",
+      "niveau": "D",
+      "libelle": "Finale du Challenge du Conseil Départemental Aveyron Masters - DECAZEVILLE",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78054",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Juniors/Séniors - LANGON",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78920",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Eté Masters - LE LUDE",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78691",
+      "niveau": "D",
+      "libelle": "Meeting des Maîtres - LÉHON",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78847",
+      "niveau": "D",
+      "libelle": "Championnats 22 Elite Eté - LÉHON",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78922",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Eté 54 - LONGWY",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78915",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Eté - METZ",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78826",
+      "niveau": "D",
+      "libelle": "Etape Finale Départementale 93  - NOISY-LE-GRAND",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78686",
+      "niveau": "D",
+      "libelle": "Finale du Circuit Avenirs - OYONNAX",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78347",
+      "niveau": "D",
+      "libelle": "Rencontre Départementale Jeunes & Avenirs - PLEYBER-CHRIST",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78780",
+      "niveau": "D",
+      "libelle": "Trophée Jeunes & Avenirs 6 - SAINT-LAURENT-NOUAN",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78969",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 6 - SAINT-LAURENT-NOUAN",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78882",
+      "niveau": "D",
+      "libelle": "Championnats d'Alsace 2022 - SAINT-LOUIS",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78319",
+      "niveau": "D",
+      "libelle": "Championnat de Haute-Savoie Eté Avenirs/Jeunes - THONON-LES-BAINS",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78372",
+      "niveau": "D",
+      "libelle": "Championnat Honneur - VERSAILLES",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78444",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Avenirs - VERSAILLES",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "78897",
+      "niveau": "D",
+      "libelle": "Courses des nageurs non qualifiés aux Championnats Avenirs - VERSAILLES",
+      "dateIso": "2022-06-18"
+    },
+    {
+      "competitionId": "77377",
+      "niveau": "R",
+      "libelle": "Journée Régionale Yaouank - PONTIVY",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78675",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Été - Grand Bassin - AGEN",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78264",
+      "niveau": "D",
+      "libelle": "Coupe de la Manche  - BRÉCEY",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78377",
+      "niveau": "D",
+      "libelle": "Championnats Honneur - CHATOU",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78921",
+      "niveau": "D",
+      "libelle": "Finale Avenirs & Jeunes + Animation Juniors - CHAUMONT",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78023",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Eté - CHINON",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78871",
+      "niveau": "D",
+      "libelle": "Finale Départementale Avenirs - CHINON",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78851",
+      "niveau": "D",
+      "libelle": "Finale du Challenge du Conseil Départemental JJS Open - DECAZEVILLE",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78895",
+      "niveau": "D",
+      "libelle": "12e Meeting de Graulhet  - GRAULHET",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "77327",
+      "niveau": "D",
+      "libelle": "Découv' Nat 3 - GRAVELINES",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78926",
+      "niveau": "D",
+      "libelle": "Finale Parcours Avenirs/Jeunes - L'HAŸ-LES-ROSES",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78115",
+      "niveau": "D",
+      "libelle": "Coupe du Loiret & Finale Départementale Avenirs/Jeunes - LA FERTE-SAINT-AUBIN",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78813",
+      "niveau": "D",
+      "libelle": "Finale Départementale Avenirs Open  - LAGNY-SUR-MARNE",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78946",
+      "niveau": "D",
+      "libelle": "Championnat Inter-départemental Été 65/32 - LANNEMEZAN",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "77329",
+      "niveau": "D",
+      "libelle": "Découv' Nat 3 - MARCQ-EN-BAROEUL",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "76979",
+      "niveau": "D",
+      "libelle": "Coupe du Nageur Complet - MONTLIEU-LA-GARDE",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "76465",
+      "niveau": "D",
+      "libelle": "Finale Dépatementale Avenirs - NOYON",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78859",
+      "niveau": "D",
+      "libelle": "Trophée Nageur Complet - 4 Nages - Jeunes 2022 - NOZAY",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78687",
+      "niveau": "D",
+      "libelle": "Finale Départementale Jeunes/Juniors et + - OYONNAX",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78835",
+      "niveau": "D",
+      "libelle": "Finale Départementale Maîtres 2022 - OYONNAX",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78844",
+      "niveau": "D",
+      "libelle": "Finale Départementale Avenirs/Jeunes - PALAISEAU",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78746",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Été - PAMIERS",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78899",
+      "niveau": "D",
+      "libelle": "Championnats Interdépartementaux d'Été - PAMIERS",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78914",
+      "niveau": "D",
+      "libelle": "Interclubs Mixtes Avenirs – 3e Etape - PARIS",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78348",
+      "niveau": "D",
+      "libelle": "Championnat Eté du Finistère - PLEYBER-CHRIST",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "75349",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Drôme/Ardèche - ROMANS-SUR-ISÈRE",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "77333",
+      "niveau": "D",
+      "libelle": "Découv' Nat 3 - RONCHIN",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78884",
+      "niveau": "D",
+      "libelle": "38e Grand Prix de Natation de la Ville de Saint-Egrève - SAINT-EGREVE",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "72147",
+      "niveau": "D",
+      "libelle": "12e Coupe de l'Allier - SAINT-GERMAIN-DES-FOSSÉS",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78790",
+      "niveau": "D",
+      "libelle": "Cher Swimming League - SAINT-GERMAIN-DU-PUY",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78870",
+      "niveau": "D",
+      "libelle": "Cher Swimming League - Skin race - SAINT-GERMAIN-DU-PUY",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78374",
+      "niveau": "D",
+      "libelle": "Départementaux Eté Jeunes/Juniors/Séniors - SAINT-LAURENT-NOUAN",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78378",
+      "niveau": "D",
+      "libelle": "Départementaux Eté Maîtres - SAINT-LAURENT-NOUAN",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78875",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Eté  - SARLAT-LA-CANÉDA",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78623",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Eté 50m  Officiel FFN - SAUVIAN",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "75325",
+      "niveau": "D",
+      "libelle": "Championnat Départemental d'Eté Jeunes/Juniors-Séniors - SEGRE",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78751",
+      "niveau": "D",
+      "libelle": "Critériums Départementaux Été - SERRES-CASTET",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "73017",
+      "niveau": "D",
+      "libelle": "Découv' Nat 3 - SOMAIN",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78320",
+      "niveau": "D",
+      "libelle": "Championnat de Haute-Savoie Juniors/Séniors Eté - THONON-LES-BAINS",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78933",
+      "niveau": "D",
+      "libelle": "Challenge Départemental Jeunes - VILLENEUVE-LA-GARENNE",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "74977",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Etape 7 - VILLENEUVE-LÈS-AVIGNON",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78647",
+      "niveau": "D",
+      "libelle": "Challenge Sprint du Gard - VILLENEUVE-LÈS-AVIGNON",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78967",
+      "niveau": "D",
+      "libelle": "Challenge Sprint du Gard 2014 - VILLENEUVE-LÈS-AVIGNON",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78903",
+      "niveau": "D",
+      "libelle": "Critérium Avenirs Marne  - VITRY-LE-FRANÇOIS",
+      "dateIso": "2022-06-19"
+    },
+    {
+      "competitionId": "78806",
+      "niveau": "N",
+      "libelle": "XXXVes Championnats de France Eté Open - MULHOUSE",
+      "dateIso": "2022-06-23"
+    },
+    {
+      "competitionId": "78925",
+      "niveau": "R",
+      "libelle": "Meeting du SOC Natation - CHAMBÉRY",
+      "dateIso": "2022-06-24"
+    },
+    {
+      "competitionId": "78651",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Eté - DUNKERQUE",
+      "dateIso": "2022-06-24"
+    },
+    {
+      "competitionId": "77141",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Eté - ORLÉANS",
+      "dateIso": "2022-06-24"
+    },
+    {
+      "competitionId": "78935",
+      "niveau": "R",
+      "libelle": "Championnat Promotionnel d'Ile-de-France - PARIS",
+      "dateIso": "2022-06-24"
+    },
+    {
+      "competitionId": "78919",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Jeunes Eté - AGEN",
+      "dateIso": "2022-06-25"
+    },
+    {
+      "competitionId": "78808",
+      "niveau": "R",
+      "libelle": "Championnats Ligue Corse Eté - AJACCIO",
+      "dateIso": "2022-06-25"
+    },
+    {
+      "competitionId": "77929",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs - Meeting Tchimbé Rèd du Centre Littoral - CAYENNE",
+      "dateIso": "2022-06-25"
+    },
+    {
+      "competitionId": "77931",
+      "niveau": "R",
+      "libelle": "Meeting Tchimbé Rèd du Centre Littoral - CAYENNE",
+      "dateIso": "2022-06-25"
+    },
+    {
+      "competitionId": "78572",
+      "niveau": "R",
+      "libelle": "Meeting Jeunes/Juniors de Lyon Natation Métropole - LYON",
+      "dateIso": "2022-06-25"
+    },
+    {
+      "competitionId": "76129",
+      "niveau": "R",
+      "libelle": "Championnats de La Réunion 50m Hiver - SAINT-DENIS (La Réunion)",
+      "dateIso": "2022-06-25"
+    },
+    {
+      "competitionId": "78907",
+      "niveau": "R",
+      "libelle": "Finale Régionale Jeunes - SAINT-NAZAIRE",
+      "dateIso": "2022-06-25"
+    },
+    {
+      "competitionId": "76637",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Occitanie - Jeunes - TOULOUSE",
+      "dateIso": "2022-06-25"
+    },
+    {
+      "competitionId": "78987",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - ANTONY",
+      "dateIso": "2022-06-25"
+    },
+    {
+      "competitionId": "78944",
+      "niveau": "D",
+      "libelle": "Critérium des territoires de Champagne-Ardenne - CHÂLONS-EN-CHAMPAGNE",
+      "dateIso": "2022-06-25"
+    },
+    {
+      "competitionId": "78025",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Eté - CHAMALIÈRES",
+      "dateIso": "2022-06-25"
+    },
+    {
+      "competitionId": "78829",
+      "niveau": "D",
+      "libelle": "28e Meeting Open d'Été - FOS-SUR-MER",
+      "dateIso": "2022-06-25"
+    },
+    {
+      "competitionId": "78977",
+      "niveau": "D",
+      "libelle": "Finale Avenirs - JOIGNY",
+      "dateIso": "2022-06-25"
+    },
+    {
+      "competitionId": "78815",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Juniors/Séniors Eté 50m Open - NEMOURS",
+      "dateIso": "2022-06-25"
+    },
+    {
+      "competitionId": "78702",
+      "niveau": "D",
+      "libelle": "Finale Départementale Avenirs - PERTUIS",
+      "dateIso": "2022-06-25"
+    },
+    {
+      "competitionId": "78830",
+      "niveau": "D",
+      "libelle": "12e Meeting des Mousselines - Championnat du Rhône Avenirs - TARARE",
+      "dateIso": "2022-06-25"
+    },
+    {
+      "competitionId": "78989",
+      "niveau": "R",
+      "libelle": "Meeting Régional 4 - LES ABYMES",
+      "dateIso": "2022-06-26"
+    },
+    {
+      "competitionId": "78927",
+      "niveau": "R",
+      "libelle": "Finale PACA Avenirs  - PERTUIS",
+      "dateIso": "2022-06-26"
+    },
+    {
+      "competitionId": "78842",
+      "niveau": "R",
+      "libelle": "Nat'Avenirs Normand Eté - SAINT-LÔ",
+      "dateIso": "2022-06-26"
+    },
+    {
+      "competitionId": "77355",
+      "niveau": "D",
+      "libelle": "Challenge Guy Coutel - BAGNOLS-SUR-CÈZE",
+      "dateIso": "2022-06-26"
+    },
+    {
+      "competitionId": "78994",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Juniors/Séniors  - BORDEAUX",
+      "dateIso": "2022-06-26"
+    },
+    {
+      "competitionId": "78135",
+      "niveau": "D",
+      "libelle": "Finale Départementale Avenirs - BRETEUIL-SUR-ITON",
+      "dateIso": "2022-06-26"
+    },
+    {
+      "competitionId": "78530",
+      "niveau": "D",
+      "libelle": "Finales Trophées Avenirs/Jeunes et Meeting de l'Indre - CHÂTEAUROUX",
+      "dateIso": "2022-06-26"
+    },
+    {
+      "competitionId": "77091",
+      "niveau": "D",
+      "libelle": "3° Meeting d'été SN Haguenau - HAGUENAU",
+      "dateIso": "2022-06-26"
+    },
+    {
+      "competitionId": "78863",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux de Relais Avenirs - LUNEL",
+      "dateIso": "2022-06-26"
+    },
+    {
+      "competitionId": "78928",
+      "niveau": "D",
+      "libelle": "21e Meeting Avenirs/Jeunes de Montchanin - MONTCHANIN",
+      "dateIso": "2022-06-26"
+    },
+    {
+      "competitionId": "78930",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Départemental n°4 - NOZAY",
+      "dateIso": "2022-06-26"
+    },
+    {
+      "competitionId": "78942",
+      "niveau": "D",
+      "libelle": "Finale Avenirs Eté 2022 - NOZAY",
+      "dateIso": "2022-06-26"
+    },
+    {
+      "competitionId": "78564",
+      "niveau": "D",
+      "libelle": "Championnats District 21/39 Eté - NUITS-SAINT-GEORGES",
+      "dateIso": "2022-06-26"
+    },
+    {
+      "competitionId": "78365",
+      "niveau": "D",
+      "libelle": "Coupe d'Eté Open du Lot - PUY-L'ÉVÊQUE",
+      "dateIso": "2022-06-26"
+    },
+    {
+      "competitionId": "78956",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs N°5 - SANNOIS",
+      "dateIso": "2022-06-26"
+    },
+    {
+      "competitionId": "78794",
+      "niveau": "D",
+      "libelle": "Toutes Catégories - VIBRAYE",
+      "dateIso": "2022-06-26"
+    },
+    {
+      "competitionId": "79000",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 4  - TORCY",
+      "dateIso": "2022-06-27"
+    },
+    {
+      "competitionId": "78704",
+      "niveau": "R",
+      "libelle": "1ers Jeux de la Caraïbe - LES ABYMES",
+      "dateIso": "2022-06-30"
+    }
+  ]
+}

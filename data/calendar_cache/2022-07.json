@@ -1,0 +1,548 @@
+{
+  "savedAt": "2026-04-25T17:30:01.188Z",
+  "year": 2022,
+  "month": 7,
+  "count": 90,
+  "raw": [
+    {
+      "competitionId": "78379",
+      "niveau": "N",
+      "libelle": "Meeting de la Liberté 2022 - CAEN",
+      "dateIso": "2022-07-01"
+    },
+    {
+      "competitionId": "78981",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux PACA Juniors/Séniors Open - CANNES",
+      "dateIso": "2022-07-01"
+    },
+    {
+      "competitionId": "78997",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Jeunes 50m Suite - CANNES",
+      "dateIso": "2022-07-01"
+    },
+    {
+      "competitionId": "78929",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Juniors/Séniors Open Eté - LIMOGES",
+      "dateIso": "2022-07-01"
+    },
+    {
+      "competitionId": "76645",
+      "niveau": "R",
+      "libelle": "Championnats Été des Ligues - Juniors/Séniors - MONTAUBAN",
+      "dateIso": "2022-07-01"
+    },
+    {
+      "competitionId": "78599",
+      "niveau": "R",
+      "libelle": "XXIe Meeting de Montélimar - MONTELIMAR",
+      "dateIso": "2022-07-01"
+    },
+    {
+      "competitionId": "78841",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Eté - SAINT-BRIEUC",
+      "dateIso": "2022-07-01"
+    },
+    {
+      "competitionId": "78775",
+      "niveau": "D",
+      "libelle": "Compétition 02- Soirée 800 - 1500NL - ROCHEFORT-SUR-LOIRE",
+      "dateIso": "2022-07-01"
+    },
+    {
+      "competitionId": "77143",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Jeunes - BLOIS",
+      "dateIso": "2022-07-02"
+    },
+    {
+      "competitionId": "78983",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux PACA Juniors/Séniors - (Brevet & Bac) - CANNES",
+      "dateIso": "2022-07-02"
+    },
+    {
+      "competitionId": "78984",
+      "niveau": "R",
+      "libelle": "Championnat de la Ligue - Web Confront@tion 2 - CAYENNE",
+      "dateIso": "2022-07-02"
+    },
+    {
+      "competitionId": "78705",
+      "niveau": "R",
+      "libelle": "Championnats Ligue BFC Eté Jeunes - DOLE",
+      "dateIso": "2022-07-02"
+    },
+    {
+      "competitionId": "78974",
+      "niveau": "R",
+      "libelle": "Championnat Régional Eté - LAVAL",
+      "dateIso": "2022-07-02"
+    },
+    {
+      "competitionId": "78902",
+      "niveau": "R",
+      "libelle": "Championnats de Martinique Open - LE LAMENTIN",
+      "dateIso": "2022-07-02"
+    },
+    {
+      "competitionId": "78998",
+      "niveau": "R",
+      "libelle": "Championnats Eté des Ligues - Epreuves  - MONTAUBAN",
+      "dateIso": "2022-07-02"
+    },
+    {
+      "competitionId": "78888",
+      "niveau": "R",
+      "libelle": "Trophée NC 25m - NOUMÉA",
+      "dateIso": "2022-07-02"
+    },
+    {
+      "competitionId": "78993",
+      "niveau": "R",
+      "libelle": "Championnats de Paris d'Eté Open - PARIS",
+      "dateIso": "2022-07-02"
+    },
+    {
+      "competitionId": "78864",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Eté TC Open - STRASBOURG",
+      "dateIso": "2022-07-02"
+    },
+    {
+      "competitionId": "78822",
+      "niveau": "D",
+      "libelle": "Challenge Baptiste Dupuis - EYZIN-PINET",
+      "dateIso": "2022-07-02"
+    },
+    {
+      "competitionId": "78680",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs Crédit-Mutuel - MONTELIMAR",
+      "dateIso": "2022-07-02"
+    },
+    {
+      "competitionId": "78817",
+      "niveau": "D",
+      "libelle": "Finale Départementale Jeunes Open  - MONTEREAU-FAULT-YONNE",
+      "dateIso": "2022-07-02"
+    },
+    {
+      "competitionId": "78776",
+      "niveau": "D",
+      "libelle": "Compétition 03 - Toutes catégories - ROCHEFORT-SUR-LOIRE",
+      "dateIso": "2022-07-02"
+    },
+    {
+      "competitionId": "78778",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 1 - ROCHEFORT-SUR-LOIRE",
+      "dateIso": "2022-07-02"
+    },
+    {
+      "competitionId": "78990",
+      "niveau": "D",
+      "libelle": "Meeting de Serres-Castet Sprint - SERRES-CASTET",
+      "dateIso": "2022-07-02"
+    },
+    {
+      "competitionId": "78992",
+      "niveau": "D",
+      "libelle": "Pass'compétition - SERRES-CASTET",
+      "dateIso": "2022-07-02"
+    },
+    {
+      "competitionId": "78410",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs # 1 - FLEURANCE",
+      "dateIso": "2022-07-03"
+    },
+    {
+      "competitionId": "78409",
+      "niveau": "R",
+      "libelle": "Trophée Sprint - FLEURANCE",
+      "dateIso": "2022-07-03"
+    },
+    {
+      "competitionId": "78999",
+      "niveau": "R",
+      "libelle": "Journée Régionale 1 - MARCIGNY",
+      "dateIso": "2022-07-03"
+    },
+    {
+      "competitionId": "78607",
+      "niveau": "D",
+      "libelle": "Meeting Jacques Sipan - ATTICHY",
+      "dateIso": "2022-07-03"
+    },
+    {
+      "competitionId": "78894",
+      "niveau": "D",
+      "libelle": "Finale Départementale 28 - AUNEAU",
+      "dateIso": "2022-07-03"
+    },
+    {
+      "competitionId": "72063",
+      "niveau": "D",
+      "libelle": "Challenge - Finale - BARBEZIEUX-SAINT-HILAIRE",
+      "dateIso": "2022-07-03"
+    },
+    {
+      "competitionId": "78936",
+      "niveau": "D",
+      "libelle": "Var Cup 2022 - HYÈRES",
+      "dateIso": "2022-07-03"
+    },
+    {
+      "competitionId": "78939",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville - LA ROCHETTE",
+      "dateIso": "2022-07-03"
+    },
+    {
+      "competitionId": "78940",
+      "niveau": "D",
+      "libelle": "Challenge N°1 d'Eté - LA ROCHETTE",
+      "dateIso": "2022-07-03"
+    },
+    {
+      "competitionId": "78245",
+      "niveau": "D",
+      "libelle": "Compétition d'Ouverture de Saison - NEUVILLE-DE-POITOU",
+      "dateIso": "2022-07-03"
+    },
+    {
+      "competitionId": "79012",
+      "niveau": "D",
+      "libelle": "Inter-clubs de Fin de Saison - VILLENEUVE-D'ASCQ",
+      "dateIso": "2022-07-03"
+    },
+    {
+      "competitionId": "78238",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - CIVRAY",
+      "dateIso": "2022-07-07"
+    },
+    {
+      "competitionId": "78237",
+      "niveau": "D",
+      "libelle": "Top 50 - CIVRAY",
+      "dateIso": "2022-07-07"
+    },
+    {
+      "competitionId": "78226",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Ligue AuRA - CLERMONT-FERRAND",
+      "dateIso": "2022-07-08"
+    },
+    {
+      "competitionId": "78910",
+      "niveau": "R",
+      "libelle": "Meeting de l'Ouest Jeunes - NANTES",
+      "dateIso": "2022-07-09"
+    },
+    {
+      "competitionId": "78708",
+      "niveau": "R",
+      "libelle": "Championnats Ligue BFC Juniors/Séniors - NEVERS",
+      "dateIso": "2022-07-09"
+    },
+    {
+      "competitionId": "78782",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 2 - CHEMILLÉ",
+      "dateIso": "2022-07-09"
+    },
+    {
+      "competitionId": "78781",
+      "niveau": "D",
+      "libelle": "Compétition 4 Open TC - CHEMILLÉ",
+      "dateIso": "2022-07-09"
+    },
+    {
+      "competitionId": "78779",
+      "niveau": "D",
+      "libelle": "Compétition 4 - Interclub départemental Jeunes - CHEMILLÉ",
+      "dateIso": "2022-07-09"
+    },
+    {
+      "competitionId": "79008",
+      "niveau": "D",
+      "libelle": "Nager en Pyrénées-Atlantiques / Journée de Pré-saison - HASPARREN",
+      "dateIso": "2022-07-09"
+    },
+    {
+      "competitionId": "78996",
+      "niveau": "D",
+      "libelle": "Premier Meeting Maîtres du CNN - NOGENT-LE-ROTROU",
+      "dateIso": "2022-07-09"
+    },
+    {
+      "competitionId": "78565",
+      "niveau": "R",
+      "libelle": "Journée Régionale 2 - BOURBON-LANCY",
+      "dateIso": "2022-07-10"
+    },
+    {
+      "competitionId": "78414",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs # 2 - DECAZEVILLE",
+      "dateIso": "2022-07-10"
+    },
+    {
+      "competitionId": "78411",
+      "niveau": "R",
+      "libelle": "Trophée du 4 Nageur - DECAZEVILLE",
+      "dateIso": "2022-07-10"
+    },
+    {
+      "competitionId": "79048",
+      "niveau": "D",
+      "libelle": "Journée de Fin de Saison - LA CHATAIGNERAIE",
+      "dateIso": "2022-07-10"
+    },
+    {
+      "competitionId": "79026",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville de Salindres - SALINDRES",
+      "dateIso": "2022-07-10"
+    },
+    {
+      "competitionId": "79028",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - SALINDRES",
+      "dateIso": "2022-07-10"
+    },
+    {
+      "competitionId": "79027",
+      "niveau": "D",
+      "libelle": "Challenge Sprint de Salindres - SALINDRES",
+      "dateIso": "2022-07-10"
+    },
+    {
+      "competitionId": "78486",
+      "niveau": "N",
+      "libelle": "IIIèmes Championnats de France des Jeunes - PAU",
+      "dateIso": "2022-07-12"
+    },
+    {
+      "competitionId": "78783",
+      "niveau": "D",
+      "libelle": "Compétition 5  Meeting - CHALONNES-SUR-LOIRE",
+      "dateIso": "2022-07-13"
+    },
+    {
+      "competitionId": "79051",
+      "niveau": "D",
+      "libelle": "Challenge \"Benoît Lauvie\" - SOUILLAC",
+      "dateIso": "2022-07-14"
+    },
+    {
+      "competitionId": "79013",
+      "niveau": "N",
+      "libelle": "Finale 2022 Coupe de France des Départements  - PAU",
+      "dateIso": "2022-07-16"
+    },
+    {
+      "competitionId": "78714",
+      "niveau": "R",
+      "libelle": "Journée Régionale 3 - PARAY-LE-MONIAL",
+      "dateIso": "2022-07-17"
+    },
+    {
+      "competitionId": "79047",
+      "niveau": "R",
+      "libelle": "Meeting Nouvelle-Aquitaine des clubs d'été  - PEYREHORADE",
+      "dateIso": "2022-07-17"
+    },
+    {
+      "competitionId": "78416",
+      "niveau": "R",
+      "libelle": "Trophée du Nageur Complet Eté - SOUILLAC",
+      "dateIso": "2022-07-17"
+    },
+    {
+      "competitionId": "78418",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs # 3 - SOUILLAC",
+      "dateIso": "2022-07-17"
+    },
+    {
+      "competitionId": "78298",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Haute-Savoie 02 - SAMOËNS",
+      "dateIso": "2022-07-17"
+    },
+    {
+      "competitionId": "78296",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville de Samoëns - SAMOËNS",
+      "dateIso": "2022-07-17"
+    },
+    {
+      "competitionId": "78784",
+      "niveau": "D",
+      "libelle": "Compétition 6  Meeting - VERN-D'ANJOU",
+      "dateIso": "2022-07-18"
+    },
+    {
+      "competitionId": "79069",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Plot 1 - MONTBRON",
+      "dateIso": "2022-07-20"
+    },
+    {
+      "competitionId": "78986",
+      "niveau": "N",
+      "libelle": "IIes Championnats de France Open d'Eté - AMIENS",
+      "dateIso": "2022-07-23"
+    },
+    {
+      "competitionId": "79088",
+      "niveau": "R",
+      "libelle": "Coupe Nouvelle-Aquitaine Interclubs Toutes Catégories - BAZAS",
+      "dateIso": "2022-07-24"
+    },
+    {
+      "competitionId": "79089",
+      "niveau": "R",
+      "libelle": "Coupe Nouvelle-Aquitaine Interclubs TC - Equipes Mixtes - BAZAS",
+      "dateIso": "2022-07-24"
+    },
+    {
+      "competitionId": "78408",
+      "niveau": "R",
+      "libelle": "Coupe Interclubs Toutes Catégories - Poule Régionale - BÉDARIEUX",
+      "dateIso": "2022-07-24"
+    },
+    {
+      "competitionId": "78454",
+      "niveau": "R",
+      "libelle": "Coupe Occitanie Interclubs - Equipe Mixtes - BÉDARIEUX",
+      "dateIso": "2022-07-24"
+    },
+    {
+      "competitionId": "78874",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs TC BFC - CHAUFFAILLES",
+      "dateIso": "2022-07-24"
+    },
+    {
+      "competitionId": "79037",
+      "niveau": "R",
+      "libelle": "Coupe régionale interclubs mixtes BFC - CHAUFFAILLES",
+      "dateIso": "2022-07-24"
+    },
+    {
+      "competitionId": "79049",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs Toutes Catégories - LA CHATAIGNERAIE",
+      "dateIso": "2022-07-24"
+    },
+    {
+      "competitionId": "79006",
+      "niveau": "D",
+      "libelle": "Trophée Départemental - Plot 2 - CONFOLENS",
+      "dateIso": "2022-07-27"
+    },
+    {
+      "competitionId": "78239",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - NEUVILLE-DE-POITOU",
+      "dateIso": "2022-07-28"
+    },
+    {
+      "competitionId": "78240",
+      "niveau": "D",
+      "libelle": "Top 50 - NEUVILLE-DE-POITOU",
+      "dateIso": "2022-07-28"
+    },
+    {
+      "competitionId": "78964",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs Toutes Catégories AuRA - TULLINS",
+      "dateIso": "2022-07-30"
+    },
+    {
+      "competitionId": "79074",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs TC AuRA - Equipes Mixtes - TULLINS",
+      "dateIso": "2022-07-30"
+    },
+    {
+      "competitionId": "79114",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Peyrehorade - PEYREHORADE",
+      "dateIso": "2022-07-30"
+    },
+    {
+      "competitionId": "79065",
+      "niveau": "D",
+      "libelle": "Challenge des Gaves - PEYREHORADE",
+      "dateIso": "2022-07-30"
+    },
+    {
+      "competitionId": "78421",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs # 4 - BIARS-SUR-CÈRE",
+      "dateIso": "2022-07-31"
+    },
+    {
+      "competitionId": "78419",
+      "niveau": "R",
+      "libelle": "Trophée Individuel Eté - BIARS-SUR-CÈRE",
+      "dateIso": "2022-07-31"
+    },
+    {
+      "competitionId": "78715",
+      "niveau": "R",
+      "libelle": "Journée Régionale 4 - CHAROLLES",
+      "dateIso": "2022-07-31"
+    },
+    {
+      "competitionId": "79094",
+      "niveau": "R",
+      "libelle": "2e Meeting du Sud Saintonge - MONTLIEU-LA-GARDE",
+      "dateIso": "2022-07-31"
+    },
+    {
+      "competitionId": "79071",
+      "niveau": "D",
+      "libelle": "Tri-départementaux Aude/Hérault/PO - CÉRET",
+      "dateIso": "2022-07-31"
+    },
+    {
+      "competitionId": "79110",
+      "niveau": "D",
+      "libelle": "1er Challenge Avenirs - CÉRET",
+      "dateIso": "2022-07-31"
+    },
+    {
+      "competitionId": "78785",
+      "niveau": "D",
+      "libelle": "Compétition 8 - Journée 50-100 + Finale 100 4N - CHALONNES-SUR-LOIRE",
+      "dateIso": "2022-07-31"
+    },
+    {
+      "competitionId": "78786",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 3 - CHALONNES-SUR-LOIRE",
+      "dateIso": "2022-07-31"
+    },
+    {
+      "competitionId": "79030",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - LE VIGAN",
+      "dateIso": "2022-07-31"
+    },
+    {
+      "competitionId": "79029",
+      "niveau": "D",
+      "libelle": "Championnats du Gard de Natation Estivale - LE VIGAN",
+      "dateIso": "2022-07-31"
+    }
+  ]
+}

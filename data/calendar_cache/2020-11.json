@@ -1,0 +1,242 @@
+{
+  "savedAt": "2026-04-25T17:29:16.174Z",
+  "year": 2020,
+  "month": 11,
+  "count": 39,
+  "raw": [
+    {
+      "competitionId": "68955",
+      "niveau": "D",
+      "libelle": "Journée de la toussaint  - HÉROUVILLE-SAINT-CLAIR",
+      "dateIso": "2020-11-01"
+    },
+    {
+      "competitionId": "68823",
+      "niveau": "D",
+      "libelle": "Challenge de Manosque - MANOSQUE",
+      "dateIso": "2020-11-01"
+    },
+    {
+      "competitionId": "68131",
+      "niveau": "D",
+      "libelle": "1er Circuit Qualificatif Jeunes - MOURENX",
+      "dateIso": "2020-11-01"
+    },
+    {
+      "competitionId": "69085",
+      "niveau": "D",
+      "libelle": "Meeting 1/2 Fond - PAMIERS",
+      "dateIso": "2020-11-01"
+    },
+    {
+      "competitionId": "68607",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Plot 1 - THANN",
+      "dateIso": "2020-11-01"
+    },
+    {
+      "competitionId": "68609",
+      "niveau": "D",
+      "libelle": "Trophées Avenirs - Plot 1 - THANN",
+      "dateIso": "2020-11-01"
+    },
+    {
+      "competitionId": "69079",
+      "niveau": "D",
+      "libelle": "Prise de Temps 50/100/200 - MARCQ-EN-BAROEUL",
+      "dateIso": "2020-11-03"
+    },
+    {
+      "competitionId": "69301",
+      "niveau": "R",
+      "libelle": "Challenge Régional - SAINT-PAUL",
+      "dateIso": "2020-11-08"
+    },
+    {
+      "competitionId": "68931",
+      "niveau": "D",
+      "libelle": "2e journée Pré Saison - PONT-AUDEMER",
+      "dateIso": "2020-11-08"
+    },
+    {
+      "competitionId": "68929",
+      "niveau": "D",
+      "libelle": "2e journée de Pré Saison - PONT-SAINT-PIERRE",
+      "dateIso": "2020-11-08"
+    },
+    {
+      "competitionId": "69197",
+      "niveau": "D",
+      "libelle": "Circuit Qualificatif Nouvelle-Aquitaine Hiver - JOQUA 3  1/2 - SAINT-ASTIER",
+      "dateIso": "2020-11-08"
+    },
+    {
+      "competitionId": "68933",
+      "niveau": "D",
+      "libelle": "Championnats Maitres - Plot 1 - ÉTRÉPAGNY",
+      "dateIso": "2020-11-13"
+    },
+    {
+      "competitionId": "69333",
+      "niveau": "R",
+      "libelle": "Championnats Nationaux Interclubs  - NOUMÉA",
+      "dateIso": "2020-11-14"
+    },
+    {
+      "competitionId": "69191",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - LES ABYMES",
+      "dateIso": "2020-11-15"
+    },
+    {
+      "competitionId": "68101",
+      "niveau": "D",
+      "libelle": "Interclubs TC du Gard - ALES",
+      "dateIso": "2020-11-15"
+    },
+    {
+      "competitionId": "68625",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC Plot 2 - ANGERS",
+      "dateIso": "2020-11-15"
+    },
+    {
+      "competitionId": "68579",
+      "niveau": "D",
+      "libelle": "Championnat Interclubs TC 63 - CLERMONT-FERRAND",
+      "dateIso": "2020-11-15"
+    },
+    {
+      "competitionId": "68351",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Aveyron Interclubs TC - RODEZ",
+      "dateIso": "2020-11-15"
+    },
+    {
+      "competitionId": "68935",
+      "niveau": "D",
+      "libelle": "Finale Départementale Interclubs TC - VAL-DE-REUIL",
+      "dateIso": "2020-11-15"
+    },
+    {
+      "competitionId": "68749",
+      "niveau": "N",
+      "libelle": "Meeting National Occitanie-Toulouse - TOULOUSE",
+      "dateIso": "2020-11-21"
+    },
+    {
+      "competitionId": "69331",
+      "niveau": "R",
+      "libelle": "Championnat Régional Interclubs Toutes Catégories - REMIRE-MONTJOLY",
+      "dateIso": "2020-11-21"
+    },
+    {
+      "competitionId": "69379",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs 1 - Nord - SAINT-DENIS (La Réunion)",
+      "dateIso": "2020-11-21"
+    },
+    {
+      "competitionId": "69367",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs 2 - LES ABYMES",
+      "dateIso": "2020-11-22"
+    },
+    {
+      "competitionId": "69369",
+      "niveau": "R",
+      "libelle": "Challenge des Jeunes - LES ABYMES",
+      "dateIso": "2020-11-22"
+    },
+    {
+      "competitionId": "69365",
+      "niveau": "R",
+      "libelle": "Spécial Maîtres - LES ABYMES",
+      "dateIso": "2020-11-22"
+    },
+    {
+      "competitionId": "69199",
+      "niveau": "D",
+      "libelle": "Circuit Qualificatif Nouvelle-Aquitaine Hiver - JOQUA 2 - PÉRIGUEUX",
+      "dateIso": "2020-11-22"
+    },
+    {
+      "competitionId": "68533",
+      "niveau": "D",
+      "libelle": "CHALLENGE AVENIR - PLOT 2B - ROYAN",
+      "dateIso": "2020-11-22"
+    },
+    {
+      "competitionId": "68531",
+      "niveau": "D",
+      "libelle": "CHALLENGE AVENIR - PLOT 2A - ROYAN",
+      "dateIso": "2020-11-22"
+    },
+    {
+      "competitionId": "68529",
+      "niveau": "D",
+      "libelle": "JOURNEE AVENIR - PLOT 2 A - ROYAN",
+      "dateIso": "2020-11-22"
+    },
+    {
+      "competitionId": "68103",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Etape 1 - VILLENEUVE-LÈS-AVIGNON",
+      "dateIso": "2020-11-22"
+    },
+    {
+      "competitionId": "68105",
+      "niveau": "D",
+      "libelle": "Triathlon avenir étape 1 - VILLENEUVE-LÈS-AVIGNON",
+      "dateIso": "2020-11-22"
+    },
+    {
+      "competitionId": "68713",
+      "niveau": "N",
+      "libelle": "12e Meeting des Hortillons - AMIENS",
+      "dateIso": "2020-11-27"
+    },
+    {
+      "competitionId": "69375",
+      "niveau": "R",
+      "libelle": "Meeting Tchenbé Rèd' - CAYENNE",
+      "dateIso": "2020-11-28"
+    },
+    {
+      "competitionId": "69391",
+      "niveau": "R",
+      "libelle": "Meeting Tchenbé Rèd' - CAYENNE",
+      "dateIso": "2020-11-28"
+    },
+    {
+      "competitionId": "69371",
+      "niveau": "R",
+      "libelle": "5km indoor - LES ABYMES",
+      "dateIso": "2020-11-28"
+    },
+    {
+      "competitionId": "69345",
+      "niveau": "R",
+      "libelle": "Championnat Régional Interclubs - Poule B - SAINT-PAUL",
+      "dateIso": "2020-11-28"
+    },
+    {
+      "competitionId": "69343",
+      "niveau": "R",
+      "libelle": "Championnat Régional Interclubs - Poule A - SAINT-PAUL",
+      "dateIso": "2020-11-28"
+    },
+    {
+      "competitionId": "69415",
+      "niveau": "D",
+      "libelle": "A vos Plots - Saint-Louis - SAINT-LOUIS",
+      "dateIso": "2020-11-28"
+    },
+    {
+      "competitionId": "68535",
+      "niveau": "D",
+      "libelle": "CHAMPIONNAT JUNIORS SENIORS - PLOT 1 - LA ROCHELLE",
+      "dateIso": "2020-11-29"
+    }
+  ]
+}

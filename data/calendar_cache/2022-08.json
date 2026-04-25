@@ -1,0 +1,248 @@
+{
+  "savedAt": "2026-04-25T17:30:03.378Z",
+  "year": 2022,
+  "month": 8,
+  "count": 40,
+  "raw": [
+    {
+      "competitionId": "79007",
+      "niveau": "D",
+      "libelle": "Trophée Départemental - Plot 3 - BARBEZIEUX-SAINT-HILAIRE",
+      "dateIso": "2022-08-03"
+    },
+    {
+      "competitionId": "79052",
+      "niveau": "D",
+      "libelle": "2e Challenge Fabrice Duval - BEAUCHASTEL",
+      "dateIso": "2022-08-06"
+    },
+    {
+      "competitionId": "78787",
+      "niveau": "D",
+      "libelle": "Compétition 9 - Meeting avec Finales - VERN-D'ANJOU",
+      "dateIso": "2022-08-06"
+    },
+    {
+      "competitionId": "78788",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 4 - VERN-D'ANJOU",
+      "dateIso": "2022-08-06"
+    },
+    {
+      "competitionId": "79111",
+      "niveau": "R",
+      "libelle": "Meeting Open Nord - Challenge du Jeune Nageur Complet  - LANGON",
+      "dateIso": "2022-08-07"
+    },
+    {
+      "competitionId": "78872",
+      "niveau": "R",
+      "libelle": "Journée Régionale 5 - SAINT-BENIN-D'AZY",
+      "dateIso": "2022-08-07"
+    },
+    {
+      "competitionId": "78422",
+      "niveau": "R",
+      "libelle": "Challenge Yvette Andrada - SAINT-CÉRÉ",
+      "dateIso": "2022-08-07"
+    },
+    {
+      "competitionId": "78423",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs # 5 - SAINT-CÉRÉ",
+      "dateIso": "2022-08-07"
+    },
+    {
+      "competitionId": "79112",
+      "niveau": "R",
+      "libelle": "Meeting Open Sud - Challenge du Jeune Nageur Complet - SAINT-JEAN-PIED-DE-PORT",
+      "dateIso": "2022-08-07"
+    },
+    {
+      "competitionId": "79034",
+      "niveau": "D",
+      "libelle": "Rencontre Inter-Écoles de Natation de Salindres - SALINDRES",
+      "dateIso": "2022-08-07"
+    },
+    {
+      "competitionId": "79033",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - SALINDRES",
+      "dateIso": "2022-08-07"
+    },
+    {
+      "competitionId": "78789",
+      "niveau": "D",
+      "libelle": "Compétition 9 Bis - Meeting - VERN-D'ANJOU",
+      "dateIso": "2022-08-07"
+    },
+    {
+      "competitionId": "78881",
+      "niveau": "R",
+      "libelle": "Journée Régionale Demi-fond - CHAUFFAILLES",
+      "dateIso": "2022-08-10"
+    },
+    {
+      "competitionId": "78242",
+      "niveau": "D",
+      "libelle": "TOP 50 - JAUNAY-CLAN",
+      "dateIso": "2022-08-11"
+    },
+    {
+      "competitionId": "78241",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - JAUNAY-CLAN",
+      "dateIso": "2022-08-11"
+    },
+    {
+      "competitionId": "79135",
+      "niveau": "D",
+      "libelle": "Soirée Estivale - CHEMILLÉ",
+      "dateIso": "2022-08-12"
+    },
+    {
+      "competitionId": "78873",
+      "niveau": "R",
+      "libelle": "Journée Régionale 6 - GUEUGNON",
+      "dateIso": "2022-08-13"
+    },
+    {
+      "competitionId": "79126",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux - BIDACHE",
+      "dateIso": "2022-08-13"
+    },
+    {
+      "competitionId": "78307",
+      "niveau": "D",
+      "libelle": "Championnats de Haute-Savoie de Natation Estivale - RUMILLY",
+      "dateIso": "2022-08-13"
+    },
+    {
+      "competitionId": "79129",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - SORE",
+      "dateIso": "2022-08-13"
+    },
+    {
+      "competitionId": "79123",
+      "niveau": "D",
+      "libelle": "Championnat Interdépartemental - 33/40/47 - SORE",
+      "dateIso": "2022-08-13"
+    },
+    {
+      "competitionId": "78426",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs # 6 - SAINT-CÉRÉ",
+      "dateIso": "2022-08-14"
+    },
+    {
+      "competitionId": "78424",
+      "niveau": "R",
+      "libelle": "Critériums - Zone Ouest # 1 - SAINT-CÉRÉ",
+      "dateIso": "2022-08-14"
+    },
+    {
+      "competitionId": "78970",
+      "niveau": "D",
+      "libelle": "Championnat Départemental de Savoie Open - AIGUEBLANCHE",
+      "dateIso": "2022-08-14"
+    },
+    {
+      "competitionId": "79090",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Eté - BARBEZIEUX-SAINT-HILAIRE",
+      "dateIso": "2022-08-14"
+    },
+    {
+      "competitionId": "79035",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Ligue Occitanie - Zone Sud-Est - CÉRET",
+      "dateIso": "2022-08-20"
+    },
+    {
+      "competitionId": "79117",
+      "niveau": "R",
+      "libelle": "Finale Régionale Individuelle - CHALONNES-SUR-LOIRE",
+      "dateIso": "2022-08-20"
+    },
+    {
+      "competitionId": "78966",
+      "niveau": "R",
+      "libelle": "Championnats AURA de Natation Estivale - Avenirs - LA ROCHE-SUR-FORON",
+      "dateIso": "2022-08-20"
+    },
+    {
+      "competitionId": "78965",
+      "niveau": "R",
+      "libelle": "Championnats AURA de Natation Estivale - Jeunes à Séniors - LA..",
+      "dateIso": "2022-08-20"
+    },
+    {
+      "competitionId": "79101",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Nouvelle-Aquitaine des clubs d'été - NEUVILLE-DE-PO..",
+      "dateIso": "2022-08-20"
+    },
+    {
+      "competitionId": "79140",
+      "niveau": "R",
+      "libelle": "XV CANA African Swimming Championships - TUNIS",
+      "dateIso": "2022-08-20"
+    },
+    {
+      "competitionId": "78427",
+      "niveau": "R",
+      "libelle": "Critériums - Zone Ouest # 2 - GRAMAT",
+      "dateIso": "2022-08-21"
+    },
+    {
+      "competitionId": "78428",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs # 7 - GRAMAT",
+      "dateIso": "2022-08-21"
+    },
+    {
+      "competitionId": "78880",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Individuels - Ligue BFC - SANVIGNES-LES-MINES",
+      "dateIso": "2022-08-21"
+    },
+    {
+      "competitionId": "79109",
+      "niveau": "D",
+      "libelle": "Meeting Interclubs TC - CHALONNES-SUR-LOIRE",
+      "dateIso": "2022-08-21"
+    },
+    {
+      "competitionId": "79093",
+      "niveau": "N",
+      "libelle": "XXIVe Coupe de France des Régions de natation estivale - BAGNOLS-SUR-CÈZE",
+      "dateIso": "2022-08-26"
+    },
+    {
+      "competitionId": "79058",
+      "niveau": "N",
+      "libelle": "IIIe Critérium National Individuel de natation estivale - BAGNOLS-SUR-CÈZE",
+      "dateIso": "2022-08-26"
+    },
+    {
+      "competitionId": "78244",
+      "niveau": "D",
+      "libelle": "Compétition 50 ans - US Civray - CIVRAY",
+      "dateIso": "2022-08-28"
+    },
+    {
+      "competitionId": "79157",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Matin - CIVRAY",
+      "dateIso": "2022-08-28"
+    },
+    {
+      "competitionId": "79158",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Après-midi - CIVRAY",
+      "dateIso": "2022-08-28"
+    }
+  ]
+}

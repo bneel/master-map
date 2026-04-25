@@ -1,0 +1,182 @@
+{
+  "savedAt": "2026-04-25T17:29:29.273Z",
+  "year": 2021,
+  "month": 5,
+  "count": 29,
+  "raw": [
+    {
+      "competitionId": "70001",
+      "niveau": "N",
+      "libelle": "13e Meeting National de Saint-Etienne - SAINT-ÉTIENNE",
+      "dateIso": "2021-05-01"
+    },
+    {
+      "competitionId": "69985",
+      "niveau": "R",
+      "libelle": "Compétition Schoelcher Natation 2000 – Q France Jeunes  - SCHOELCHER",
+      "dateIso": "2021-05-01"
+    },
+    {
+      "competitionId": "70069",
+      "niveau": "R",
+      "libelle": "Trophée du Nageur Complet - LES ABYMES",
+      "dateIso": "2021-05-02"
+    },
+    {
+      "competitionId": "70009",
+      "niveau": "R",
+      "libelle": "Interclubs Régionaux des Maîtres - NOUMÉA",
+      "dateIso": "2021-05-08"
+    },
+    {
+      "competitionId": "69991",
+      "niveau": "R",
+      "libelle": "Interclubs Régionaux Jeunes - PIRAE",
+      "dateIso": "2021-05-08"
+    },
+    {
+      "competitionId": "69989",
+      "niveau": "R",
+      "libelle": "Interclubs Régionaux Avenirs - PIRAE",
+      "dateIso": "2021-05-08"
+    },
+    {
+      "competitionId": "68195",
+      "niveau": "R",
+      "libelle": "Interclubs Avenirs - NOUMÉA",
+      "dateIso": "2021-05-09"
+    },
+    {
+      "competitionId": "68191",
+      "niveau": "R",
+      "libelle": "Interclubs Jeunes - NOUMÉA",
+      "dateIso": "2021-05-09"
+    },
+    {
+      "competitionId": "70123",
+      "niveau": "R",
+      "libelle": "Rencontre CNPO - LA POSSESSION",
+      "dateIso": "2021-05-15"
+    },
+    {
+      "competitionId": "70105",
+      "niveau": "R",
+      "libelle": "Challenge CNBM - Trophée du 4 Nageur - LES ABYMES",
+      "dateIso": "2021-05-16"
+    },
+    {
+      "competitionId": "70077",
+      "niveau": "N",
+      "libelle": "Meeting Francily - Ville de Melun - MELUN",
+      "dateIso": "2021-05-21"
+    },
+    {
+      "competitionId": "70109",
+      "niveau": "N",
+      "libelle": "Meeting National Eté Occitanie de Toulouse - TOULOUSE",
+      "dateIso": "2021-05-22"
+    },
+    {
+      "competitionId": "70159",
+      "niveau": "R",
+      "libelle": "Meeting NC3 - DUMBÉA",
+      "dateIso": "2021-05-22"
+    },
+    {
+      "competitionId": "70231",
+      "niveau": "R",
+      "libelle": "Interclubs Avenirs - LE MOULE",
+      "dateIso": "2021-05-22"
+    },
+    {
+      "competitionId": "70215",
+      "niveau": "R",
+      "libelle": "Interclubs Jeunes - LE MOULE",
+      "dateIso": "2021-05-22"
+    },
+    {
+      "competitionId": "70117",
+      "niveau": "R",
+      "libelle": "Meeting 25m #3# - PIRAE",
+      "dateIso": "2021-05-22"
+    },
+    {
+      "competitionId": "69685",
+      "niveau": "R",
+      "libelle": "Championnat Régional Interclubs Jeunes - SAINT-PAUL",
+      "dateIso": "2021-05-22"
+    },
+    {
+      "competitionId": "69683",
+      "niveau": "R",
+      "libelle": "Championnat Régional Interclubs Avenirs - SAINT-PAUL",
+      "dateIso": "2021-05-22"
+    },
+    {
+      "competitionId": "70115",
+      "niveau": "R",
+      "libelle": "Meeting Régional Jeunes - TOULOUSE",
+      "dateIso": "2021-05-22"
+    },
+    {
+      "competitionId": "69687",
+      "niveau": "R",
+      "libelle": "Coupe Jean-Chaply - SAINT-PAUL",
+      "dateIso": "2021-05-23"
+    },
+    {
+      "competitionId": "70235",
+      "niveau": "D",
+      "libelle": "Challenge des Clubs - PONTIVY",
+      "dateIso": "2021-05-23"
+    },
+    {
+      "competitionId": "70017",
+      "niveau": "N",
+      "libelle": "3e Meeting National de Metz - METZ",
+      "dateIso": "2021-05-28"
+    },
+    {
+      "competitionId": "70169",
+      "niveau": "N",
+      "libelle": "Meeting National 13 Open - AIX-EN-PROVENCE",
+      "dateIso": "2021-05-29"
+    },
+    {
+      "competitionId": "70079",
+      "niveau": "N",
+      "libelle": "Meeting National de l'Ouest Printemps - SAINT-MALO",
+      "dateIso": "2021-05-29"
+    },
+    {
+      "competitionId": "70331",
+      "niveau": "R",
+      "libelle": "Championnats de la Guadeloupe - LES ABYMES",
+      "dateIso": "2021-05-29"
+    },
+    {
+      "competitionId": "70193",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Open Jeunes - MONTPELLIER",
+      "dateIso": "2021-05-29"
+    },
+    {
+      "competitionId": "69951",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Open de Printemps - MONTPELLIER",
+      "dateIso": "2021-05-29"
+    },
+    {
+      "competitionId": "70191",
+      "niveau": "D",
+      "libelle": "Meeting Jeunes Annecy - ANNECY",
+      "dateIso": "2021-05-30"
+    },
+    {
+      "competitionId": "70507",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs TCB - BELLEVILLE",
+      "dateIso": "2021-05-30"
+    }
+  ]
+}

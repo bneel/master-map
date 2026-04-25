@@ -1,0 +1,128 @@
+{
+  "savedAt": "2026-04-25T17:29:22.709Z",
+  "year": 2021,
+  "month": 2,
+  "count": 20,
+  "raw": [
+    {
+      "competitionId": "69625",
+      "niveau": "I",
+      "libelle": "FFNGT Camille Muffat n°1 - Meeting International Nice - NICE",
+      "dateIso": "2021-02-05"
+    },
+    {
+      "competitionId": "69769",
+      "niveau": "R",
+      "libelle": "Meeting du Crédit Mutuel - LE LAMENTIN",
+      "dateIso": "2021-02-06"
+    },
+    {
+      "competitionId": "69701",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes Mixtes - L'ISLE-SUR-LA-SORGUE",
+      "dateIso": "2021-02-07"
+    },
+    {
+      "competitionId": "69695",
+      "niveau": "D",
+      "libelle": "Poule Eliminatoire Interclubs Départementaux Jeunes - Est - L'ISLE-SUR-LA-SO..",
+      "dateIso": "2021-02-07"
+    },
+    {
+      "competitionId": "69697",
+      "niveau": "D",
+      "libelle": "Poule Eliminatoire Interclubs Départementaux Jeunes - Ouest - L'ISLE-SUR-LA-..",
+      "dateIso": "2021-02-07"
+    },
+    {
+      "competitionId": "69619",
+      "niveau": "N",
+      "libelle": "13e Meeting National de Béthune - BÉTHUNE",
+      "dateIso": "2021-02-12"
+    },
+    {
+      "competitionId": "69771",
+      "niveau": "N",
+      "libelle": "12e Meeting Gilbert Bozon - TOURS",
+      "dateIso": "2021-02-12"
+    },
+    {
+      "competitionId": "69651",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs 4 - Nord-Est - BRAS-PANON",
+      "dateIso": "2021-02-13"
+    },
+    {
+      "competitionId": "68039",
+      "niveau": "R",
+      "libelle": "Meeting NC 2 - DUMBÉA",
+      "dateIso": "2021-02-13"
+    },
+    {
+      "competitionId": "69705",
+      "niveau": "D",
+      "libelle": "3eme Challenge Avenirs - Zone Ouest - LE PONTET",
+      "dateIso": "2021-02-14"
+    },
+    {
+      "competitionId": "69707",
+      "niveau": "D",
+      "libelle": "3eme Challenge Avenirs - Zone Est - LE PONTET",
+      "dateIso": "2021-02-14"
+    },
+    {
+      "competitionId": "69799",
+      "niveau": "R",
+      "libelle": "Meeting Sprint - PIRAE",
+      "dateIso": "2021-02-19"
+    },
+    {
+      "competitionId": "69777",
+      "niveau": "N",
+      "libelle": "2e Meeting National de la Ville de Brive - BRIVE-LA-GAILLARDE",
+      "dateIso": "2021-02-20"
+    },
+    {
+      "competitionId": "69817",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs #1# - PIRAE",
+      "dateIso": "2021-02-20"
+    },
+    {
+      "competitionId": "69715",
+      "niveau": "N",
+      "libelle": "Meeting Open PACA Qualificatif # 1 - ANTIBES",
+      "dateIso": "2021-02-21"
+    },
+    {
+      "competitionId": "69815",
+      "niveau": "R",
+      "libelle": "Interclubs des Maîtres - LES ABYMES",
+      "dateIso": "2021-02-21"
+    },
+    {
+      "competitionId": "69847",
+      "niveau": "R",
+      "libelle": "Meeting de Qualification 2 - ''Accessibilité restreinte'' - SAINT-DENIS (La..",
+      "dateIso": "2021-02-21"
+    },
+    {
+      "competitionId": "69825",
+      "niveau": "R",
+      "libelle": "Championnat de Ligue de Guyane - Web Confront@tion (Étape 2) - CAYENNE",
+      "dateIso": "2021-02-27"
+    },
+    {
+      "competitionId": "69827",
+      "niveau": "R",
+      "libelle": "Championnat de Ligue de Guyane - Web Confront@tion (Étape 2) - CAYENNE",
+      "dateIso": "2021-02-27"
+    },
+    {
+      "competitionId": "69877",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs 2 - LE LORRAIN",
+      "dateIso": "2021-02-27"
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+{
+  "savedAt": "2026-04-25T17:29:33.715Z",
+  "year": 2021,
+  "month": 7,
+  "count": 75,
+  "raw": [
+    {
+      "competitionId": "70107",
+      "niveau": "N",
+      "libelle": "Meeting de la Liberté - CAEN",
+      "dateIso": "2021-07-02"
+    },
+    {
+      "competitionId": "70199",
+      "niveau": "N",
+      "libelle": "XXe Meeting National de Montélimar - MONTELIMAR",
+      "dateIso": "2021-07-02"
+    },
+    {
+      "competitionId": "71055",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Open PACA d'Eté Open - CANNES",
+      "dateIso": "2021-07-02"
+    },
+    {
+      "competitionId": "70527",
+      "niveau": "R",
+      "libelle": "Remise à l'eau - DUNKERQUE",
+      "dateIso": "2021-07-02"
+    },
+    {
+      "competitionId": "70799",
+      "niveau": "R",
+      "libelle": "3ème Championnat Régional - LAVAL",
+      "dateIso": "2021-07-02"
+    },
+    {
+      "competitionId": "70775",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Jeunes et plus - MULHOUSE",
+      "dateIso": "2021-07-02"
+    },
+    {
+      "competitionId": "70959",
+      "niveau": "R",
+      "libelle": "3ème Championnat Régional - LAVAL",
+      "dateIso": "2021-07-03"
+    },
+    {
+      "competitionId": "70905",
+      "niveau": "R",
+      "libelle": "Championnat de Paris d'Eté OPEN - PARIS",
+      "dateIso": "2021-07-03"
+    },
+    {
+      "competitionId": "69955",
+      "niveau": "R",
+      "libelle": "Championnat Eté de Ligue - TOULOUSE",
+      "dateIso": "2021-07-03"
+    },
+    {
+      "competitionId": "70981",
+      "niveau": "R",
+      "libelle": "Meeting Jeunes de Toulouse - TOULOUSE",
+      "dateIso": "2021-07-03"
+    },
+    {
+      "competitionId": "71025",
+      "niveau": "D",
+      "libelle": "Coupe estivale départementale - AUBIGNY-SUR-NÈRE",
+      "dateIso": "2021-07-03"
+    },
+    {
+      "competitionId": "71103",
+      "niveau": "D",
+      "libelle": "Championnat départemental - Plot 2 - COGNAC",
+      "dateIso": "2021-07-03"
+    },
+    {
+      "competitionId": "70947",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs départemental 2021 - Partie 2 - COGNAC",
+      "dateIso": "2021-07-03"
+    },
+    {
+      "competitionId": "70945",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs départemental 2021 - Partie 1 - COGNAC",
+      "dateIso": "2021-07-03"
+    },
+    {
+      "competitionId": "71101",
+      "niveau": "D",
+      "libelle": "Meeting de Reprise Lot-et-Garonne - MARMANDE",
+      "dateIso": "2021-07-03"
+    },
+    {
+      "competitionId": "70311",
+      "niveau": "D",
+      "libelle": "Grand prix de Montélimar Crédit Mutuel - MONTELIMAR",
+      "dateIso": "2021-07-03"
+    },
+    {
+      "competitionId": "70539",
+      "niveau": "D",
+      "libelle": "Challenge Jeunes - NANTERRE",
+      "dateIso": "2021-07-03"
+    },
+    {
+      "competitionId": "70943",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux et Critérium Jeunes Eté 2021 - TONNERRE",
+      "dateIso": "2021-07-03"
+    },
+    {
+      "competitionId": "70963",
+      "niveau": "R",
+      "libelle": "3ème Championnat Régional - LAVAL",
+      "dateIso": "2021-07-04"
+    },
+    {
+      "competitionId": "70995",
+      "niveau": "R",
+      "libelle": "Championnats de Martinique des Maîtres Juin - 50 m - LE LAMENTIN",
+      "dateIso": "2021-07-04"
+    },
+    {
+      "competitionId": "71063",
+      "niveau": "R",
+      "libelle": "Compétition Régionale Jeunes - LÉHON",
+      "dateIso": "2021-07-04"
+    },
+    {
+      "competitionId": "71021",
+      "niveau": "R",
+      "libelle": "1ère Journée Régionale - SANVIGNES-LES-MINES",
+      "dateIso": "2021-07-04"
+    },
+    {
+      "competitionId": "70203",
+      "niveau": "D",
+      "libelle": "Journée Open Haute Savoie - ANNEMASSE",
+      "dateIso": "2021-07-04"
+    },
+    {
+      "competitionId": "71065",
+      "niveau": "D",
+      "libelle": "Challenge Avenir 1ère journée CDAN - GANNAT",
+      "dateIso": "2021-07-04"
+    },
+    {
+      "competitionId": "70705",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - LA FERTE-SAINT-AUBIN",
+      "dateIso": "2021-07-04"
+    },
+    {
+      "competitionId": "70703",
+      "niveau": "D",
+      "libelle": "Meeting Estival du Loiret - LA FERTE-SAINT-AUBIN",
+      "dateIso": "2021-07-04"
+    },
+    {
+      "competitionId": "71073",
+      "niveau": "D",
+      "libelle": "Challenge avenirs Relais - LE PLESSIS-ROBINSON",
+      "dateIso": "2021-07-04"
+    },
+    {
+      "competitionId": "71071",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - LE PLESSIS-ROBINSON",
+      "dateIso": "2021-07-04"
+    },
+    {
+      "competitionId": "71075",
+      "niveau": "D",
+      "libelle": "Critérium Départemental Montceau  - MONTCEAU-LES-MINES",
+      "dateIso": "2021-07-04"
+    },
+    {
+      "competitionId": "71121",
+      "niveau": "D",
+      "libelle": "Compétiton d'ouverture saison - NEUVILLE-DE-POITOU",
+      "dateIso": "2021-07-04"
+    },
+    {
+      "competitionId": "70833",
+      "niveau": "N",
+      "libelle": "Iers Championnats de France N2 Eté Open - MULHOUSE",
+      "dateIso": "2021-07-08"
+    },
+    {
+      "competitionId": "68445",
+      "niveau": "N",
+      "libelle": "XXXIVes Championnats de France Eté Open - MULHOUSE",
+      "dateIso": "2021-07-08"
+    },
+    {
+      "competitionId": "71211",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs - LA CHATAIGNERAIE",
+      "dateIso": "2021-07-10"
+    },
+    {
+      "competitionId": "70935",
+      "niveau": "D",
+      "libelle": "Championnats de Vendée Avenirs - LA CHATAIGNERAIE",
+      "dateIso": "2021-07-10"
+    },
+    {
+      "competitionId": "71115",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs & Jeunes de l'Eté - LE PUY-SAINTE-RÉPARADE",
+      "dateIso": "2021-07-10"
+    },
+    {
+      "competitionId": "71019",
+      "niveau": "D",
+      "libelle": "Challenge des Gaves - PEYREHORADE",
+      "dateIso": "2021-07-10"
+    },
+    {
+      "competitionId": "70629",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs - DECAZEVILLE",
+      "dateIso": "2021-07-11"
+    },
+    {
+      "competitionId": "70485",
+      "niveau": "R",
+      "libelle": "Trophée du 4 Nageur Eté - DECAZEVILLE",
+      "dateIso": "2021-07-11"
+    },
+    {
+      "competitionId": "70889",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs TC - MARCIGNY",
+      "dateIso": "2021-07-11"
+    },
+    {
+      "competitionId": "70807",
+      "niveau": "R",
+      "libelle": "Meeting Régional Jeunes Eté - ROMORANTIN-LANTHENAY",
+      "dateIso": "2021-07-11"
+    },
+    {
+      "competitionId": "70933",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Vendée - LA CHATAIGNERAIE",
+      "dateIso": "2021-07-11"
+    },
+    {
+      "competitionId": "70977",
+      "niveau": "D",
+      "libelle": "Meeting d'Eté Open - SOUILLAC",
+      "dateIso": "2021-07-14"
+    },
+    {
+      "competitionId": "70975",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - SOUILLAC",
+      "dateIso": "2021-07-14"
+    },
+    {
+      "competitionId": "71187",
+      "niveau": "D",
+      "libelle": "Challenge Nocturne 2021 - SORE",
+      "dateIso": "2021-07-15"
+    },
+    {
+      "competitionId": "71151",
+      "niveau": "N",
+      "libelle": "Championnats de France Juniors Open d'Eté Seniors - DUNKERQUE",
+      "dateIso": "2021-07-17"
+    },
+    {
+      "competitionId": "71147",
+      "niveau": "R",
+      "libelle": "Meeting de Normandie Eté 2021 - HÉROUVILLE-SAINT-CLAIR",
+      "dateIso": "2021-07-17"
+    },
+    {
+      "competitionId": "70013",
+      "niveau": "R",
+      "libelle": "Trophée NC en bassin de 25m.  - NOUMÉA",
+      "dateIso": "2021-07-17"
+    },
+    {
+      "competitionId": "71059",
+      "niveau": "D",
+      "libelle": "Meeting Summer Royal Swim Meet de Versailles - Finales - VERSAILLES",
+      "dateIso": "2021-07-17"
+    },
+    {
+      "competitionId": "71057",
+      "niveau": "D",
+      "libelle": "Meeting Summer Royal Swim Meet de Versailles - VERSAILLES",
+      "dateIso": "2021-07-17"
+    },
+    {
+      "competitionId": "70891",
+      "niveau": "R",
+      "libelle": "2e Journée Régionale - CHAUFFAILLES",
+      "dateIso": "2021-07-18"
+    },
+    {
+      "competitionId": "70491",
+      "niveau": "R",
+      "libelle": "Trophée du Nageur complet Eté - FLEURANCE",
+      "dateIso": "2021-07-18"
+    },
+    {
+      "competitionId": "70631",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs - FLEURANCE",
+      "dateIso": "2021-07-18"
+    },
+    {
+      "competitionId": "71153",
+      "niveau": "R",
+      "libelle": "Meeting Nouvelle-Aquitaine des clubs d'été  - MONTLIEU-LA-GARDE",
+      "dateIso": "2021-07-18"
+    },
+    {
+      "competitionId": "71173",
+      "niveau": "R",
+      "libelle": "Meeting Nouvelle-Aquitaine Avenirs des clubs d'été - MONTLIEU-LA-GARDE",
+      "dateIso": "2021-07-18"
+    },
+    {
+      "competitionId": "71171",
+      "niveau": "D",
+      "libelle": "Journée de Clôture Départementale - AVRILLÉ",
+      "dateIso": "2021-07-18"
+    },
+    {
+      "competitionId": "71217",
+      "niveau": "D",
+      "libelle": "10e Challenge Mehdi Bouraghda - BEAUCHASTEL",
+      "dateIso": "2021-07-18"
+    },
+    {
+      "competitionId": "71203",
+      "niveau": "D",
+      "libelle": "3e Etape Départementale de la Marne - CHÂLONS-EN-CHAMPAGNE",
+      "dateIso": "2021-07-18"
+    },
+    {
+      "competitionId": "71215",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs La Chataigneraie - Après-midi - LA CHATAIGNERAIE",
+      "dateIso": "2021-07-18"
+    },
+    {
+      "competitionId": "71213",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs La Chataigneraie - Matin - LA CHATAIGNERAIE",
+      "dateIso": "2021-07-18"
+    },
+    {
+      "competitionId": "71207",
+      "niveau": "D",
+      "libelle": "Compétition 5 Départementale 85 - LA CHATAIGNERAIE",
+      "dateIso": "2021-07-18"
+    },
+    {
+      "competitionId": "70893",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs Juniors 1 et moins - DIGOIN",
+      "dateIso": "2021-07-24"
+    },
+    {
+      "competitionId": "70493",
+      "niveau": "R",
+      "libelle": "Trophée individuel été # 1 - CASTELSARRASIN",
+      "dateIso": "2021-07-25"
+    },
+    {
+      "competitionId": "71269",
+      "niveau": "R",
+      "libelle": "Rencontre Qualificative  Juniors/Seniors - DIGOIN",
+      "dateIso": "2021-07-25"
+    },
+    {
+      "competitionId": "71007",
+      "niveau": "R",
+      "libelle": "Interclubs Juniors 1 et moins - LA ROCHETTE",
+      "dateIso": "2021-07-25"
+    },
+    {
+      "competitionId": "71283",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - LA ROCHETTE",
+      "dateIso": "2021-07-25"
+    },
+    {
+      "competitionId": "71227",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs Juniors 1 et moins (Zone Nord) - NEUVILLE-DE-POITOU",
+      "dateIso": "2021-07-25"
+    },
+    {
+      "competitionId": "71225",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs Juniors 1 et moins (Zone Sud) - PEYREHORADE",
+      "dateIso": "2021-07-25"
+    },
+    {
+      "competitionId": "71271",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Jeunes 2 - DIJON",
+      "dateIso": "2021-07-25"
+    },
+    {
+      "competitionId": "71197",
+      "niveau": "D",
+      "libelle": "Meeting de l'été - LORIENT",
+      "dateIso": "2021-07-25"
+    },
+    {
+      "competitionId": "71293",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - SALINDRES",
+      "dateIso": "2021-07-25"
+    },
+    {
+      "competitionId": "71193",
+      "niveau": "D",
+      "libelle": "Championnat du Gard de Natation Estivale - SALINDRES",
+      "dateIso": "2021-07-25"
+    },
+    {
+      "competitionId": "71259",
+      "niveau": "D",
+      "libelle": "Challenge avenirs estival - PLOT 1 - CONFOLENS",
+      "dateIso": "2021-07-28"
+    },
+    {
+      "competitionId": "71251",
+      "niveau": "D",
+      "libelle": "Trophée Charente - PLOT 1 - CONFOLENS",
+      "dateIso": "2021-07-28"
+    },
+    {
+      "competitionId": "71081",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville de Bazas - BAZAS",
+      "dateIso": "2021-07-31"
+    },
+    {
+      "competitionId": "71079",
+      "niveau": "D",
+      "libelle": "Challenge Bazas - BAZAS",
+      "dateIso": "2021-07-31"
+    }
+  ]
+}

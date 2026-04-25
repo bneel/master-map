@@ -1,0 +1,98 @@
+{
+  "savedAt": "2026-04-25T17:29:27.062Z",
+  "year": 2021,
+  "month": 4,
+  "count": 15,
+  "raw": [
+    {
+      "competitionId": "69915",
+      "niveau": "R",
+      "libelle": "Coupe Diane Lacombe - PAPEETE",
+      "dateIso": "2021-04-02"
+    },
+    {
+      "competitionId": "69949",
+      "niveau": "N",
+      "libelle": "2e Meeting National de Nancy - NANCY",
+      "dateIso": "2021-04-03"
+    },
+    {
+      "competitionId": "69937",
+      "niveau": "N",
+      "libelle": "Meeting National du Cercle Paul Bert - RENNES",
+      "dateIso": "2021-04-03"
+    },
+    {
+      "competitionId": "69921",
+      "niveau": "R",
+      "libelle": "Meeting Occitanie Open de Printemps - Montpellier - MONTPELLIER",
+      "dateIso": "2021-04-03"
+    },
+    {
+      "competitionId": "69943",
+      "niveau": "R",
+      "libelle": "Meeting Papeete - PAPEETE",
+      "dateIso": "2021-04-03"
+    },
+    {
+      "competitionId": "69737",
+      "niveau": "N",
+      "libelle": "Meeting National Francily - SARCELLES",
+      "dateIso": "2021-04-16"
+    },
+    {
+      "competitionId": "69895",
+      "niveau": "N",
+      "libelle": "22e Meeting National de Lyon Natation Métropole  - LYON",
+      "dateIso": "2021-04-17"
+    },
+    {
+      "competitionId": "70015",
+      "niveau": "R",
+      "libelle": "Rencontre Jeunes - LES ABYMES",
+      "dateIso": "2021-04-17"
+    },
+    {
+      "competitionId": "69947",
+      "niveau": "R",
+      "libelle": "Coupe Régionale 3 - SAINT-PAUL",
+      "dateIso": "2021-04-18"
+    },
+    {
+      "competitionId": "69999",
+      "niveau": "R",
+      "libelle": "Meeting Open Qualificatif #3 - AIX-EN-PROVENCE",
+      "dateIso": "2021-04-24"
+    },
+    {
+      "competitionId": "69975",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs #3# - PIRAE",
+      "dateIso": "2021-04-24"
+    },
+    {
+      "competitionId": "69671",
+      "niveau": "R",
+      "libelle": "Critérium de la Ligue - SAINT-DENIS",
+      "dateIso": "2021-04-24"
+    },
+    {
+      "competitionId": "69977",
+      "niveau": "R",
+      "libelle": "Meeting 25m #2# - PIRAE",
+      "dateIso": "2021-04-25"
+    },
+    {
+      "competitionId": "69891",
+      "niveau": "R",
+      "libelle": "3e Meeting Régional du Noblat Aquatique Club - SAINT-LÉONARD-DE-NOBLAT",
+      "dateIso": "2021-04-25"
+    },
+    {
+      "competitionId": "70053",
+      "niveau": "R",
+      "libelle": "48e Coupe Guy d'Esposito - PAPEETE",
+      "dateIso": "2021-04-30"
+    }
+  ]
+}

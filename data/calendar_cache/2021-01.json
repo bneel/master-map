@@ -1,0 +1,104 @@
+{
+  "savedAt": "2026-04-25T17:29:20.535Z",
+  "year": 2021,
+  "month": 1,
+  "count": 16,
+  "raw": [
+    {
+      "competitionId": "69505",
+      "niveau": "R",
+      "libelle": "Compétition LNM 2 - LE LAMENTIN",
+      "dateIso": "2021-01-09"
+    },
+    {
+      "competitionId": "69495",
+      "niveau": "R",
+      "libelle": "Meeting Claude Sufrin - LE LAMENTIN",
+      "dateIso": "2021-01-16"
+    },
+    {
+      "competitionId": "69629",
+      "niveau": "D",
+      "libelle": "3ème Championnat départemental Avenirs - BOLLÈNE",
+      "dateIso": "2021-01-17"
+    },
+    {
+      "competitionId": "69601",
+      "niveau": "N",
+      "libelle": "Meeting National du N  - NANTES",
+      "dateIso": "2021-01-23"
+    },
+    {
+      "competitionId": "69573",
+      "niveau": "R",
+      "libelle": "Circuit Régional 2 - LES ABYMES",
+      "dateIso": "2021-01-23"
+    },
+    {
+      "competitionId": "69575",
+      "niveau": "R",
+      "libelle": "Championnats de la Guadeloupe des Maîtres - LES ABYMES",
+      "dateIso": "2021-01-23"
+    },
+    {
+      "competitionId": "69635",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs Martinique - 1 - SAINT-ESPRIT",
+      "dateIso": "2021-01-23"
+    },
+    {
+      "competitionId": "69571",
+      "niveau": "D",
+      "libelle": "9ème Défi Avenirs Jeunes - RILLIEUX-LA-PAPE",
+      "dateIso": "2021-01-23"
+    },
+    {
+      "competitionId": "69631",
+      "niveau": "R",
+      "libelle": "Championnats de Martinique des Maîtres - SCHOELCHER",
+      "dateIso": "2021-01-24"
+    },
+    {
+      "competitionId": "69617",
+      "niveau": "D",
+      "libelle": "JOQUA 4 - PÉRIGUEUX",
+      "dateIso": "2021-01-24"
+    },
+    {
+      "competitionId": "68725",
+      "niveau": "N",
+      "libelle": "XIe Meeting National du Chartres Métropole Natation - CHARTRES",
+      "dateIso": "2021-01-29"
+    },
+    {
+      "competitionId": "69641",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs 3 - Nord-Est - BRAS-PANON",
+      "dateIso": "2021-01-30"
+    },
+    {
+      "competitionId": "69643",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs 3 - Ouest - LA POSSESSION",
+      "dateIso": "2021-01-30"
+    },
+    {
+      "competitionId": "68037",
+      "niveau": "R",
+      "libelle": "Circuit 25 - 2e Journée - MONT-DORE",
+      "dateIso": "2021-01-30"
+    },
+    {
+      "competitionId": "69647",
+      "niveau": "R",
+      "libelle": "Coupe Régionale 1 - Nord-Est - SAINT-ANDRÉ",
+      "dateIso": "2021-01-31"
+    },
+    {
+      "competitionId": "69649",
+      "niveau": "R",
+      "libelle": "Coupe Régionale 1 - Sud-Ouest - SAINT-JOSEPH",
+      "dateIso": "2021-01-31"
+    }
+  ]
+}

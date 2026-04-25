@@ -1,0 +1,188 @@
+{
+  "savedAt": "2026-04-25T17:29:18.358Z",
+  "year": 2020,
+  "month": 12,
+  "count": 30,
+  "raw": [
+    {
+      "competitionId": "69347",
+      "niveau": "R",
+      "libelle": "Championnats de La Réunion 25m - SAINT-PAUL",
+      "dateIso": "2020-12-05"
+    },
+    {
+      "competitionId": "69413",
+      "niveau": "D",
+      "libelle": "Loire Avenirs n°1 - FEURS",
+      "dateIso": "2020-12-05"
+    },
+    {
+      "competitionId": "68109",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Etape 2 - NÎMES",
+      "dateIso": "2020-12-05"
+    },
+    {
+      "competitionId": "68111",
+      "niveau": "D",
+      "libelle": "Triathlon Avenirs - Etape 2 - NÎMES",
+      "dateIso": "2020-12-05"
+    },
+    {
+      "competitionId": "68353",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 2 - VILLEFRANCHE-DE-ROUERGUE",
+      "dateIso": "2020-12-05"
+    },
+    {
+      "competitionId": "68355",
+      "niveau": "D",
+      "libelle": "1er Challenge Hiver Conseil Départemental Aveyron Avenirs - VILLEFRANCHE-DE-..",
+      "dateIso": "2020-12-05"
+    },
+    {
+      "competitionId": "68359",
+      "niveau": "D",
+      "libelle": "Challenge du Conseil Départemental Aveyron Maîtres Open - VILLEFRANCHE-DE-R..",
+      "dateIso": "2020-12-05"
+    },
+    {
+      "competitionId": "68107",
+      "niveau": "D",
+      "libelle": "Championnat du Gard d'automne jeunes - NÎMES",
+      "dateIso": "2020-12-06"
+    },
+    {
+      "competitionId": "68537",
+      "niveau": "D",
+      "libelle": "JOURNEE JEUNES - PLOT 2 - SAINT-JEAN-D'ANGÉLY",
+      "dateIso": "2020-12-06"
+    },
+    {
+      "competitionId": "68357",
+      "niveau": "D",
+      "libelle": "1er Championnat Hiver du Conseil Départemental de l’Aveyron - VILLEFRANCHE..",
+      "dateIso": "2020-12-06"
+    },
+    {
+      "competitionId": "67939",
+      "niveau": "N",
+      "libelle": "Championnats de France Elite 2020 - SAINT-RAPHAËL",
+      "dateIso": "2020-12-10"
+    },
+    {
+      "competitionId": "67933",
+      "niveau": "R",
+      "libelle": "Championnats de Nouvelle-Calédonie en bassin de 25m. - NOUMÉA",
+      "dateIso": "2020-12-11"
+    },
+    {
+      "competitionId": "69459",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs 2 - Zone Nord/Est - BRAS-PANON",
+      "dateIso": "2020-12-12"
+    },
+    {
+      "competitionId": "69393",
+      "niveau": "R",
+      "libelle": "Championnat de Ligue de Guyane - Web Confront@tion - CAYENNE",
+      "dateIso": "2020-12-12"
+    },
+    {
+      "competitionId": "69395",
+      "niveau": "R",
+      "libelle": "Championnat de la Ligue de Guyane - Web confront@ation - CAYENNE",
+      "dateIso": "2020-12-12"
+    },
+    {
+      "competitionId": "69349",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs 2 - Ouest - LA POSSESSION",
+      "dateIso": "2020-12-12"
+    },
+    {
+      "competitionId": "69449",
+      "niveau": "R",
+      "libelle": "SPÉCIAL 200M ET + - LES ABYMES",
+      "dateIso": "2020-12-12"
+    },
+    {
+      "competitionId": "69451",
+      "niveau": "R",
+      "libelle": "CHALLENGE JEUNES - LES ABYMES",
+      "dateIso": "2020-12-12"
+    },
+    {
+      "competitionId": "69453",
+      "niveau": "R",
+      "libelle": "CHALLENGE AVENIRS 3 - LES ABYMES",
+      "dateIso": "2020-12-12"
+    },
+    {
+      "competitionId": "68949",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux J/S Open de Noël - AGEN",
+      "dateIso": "2020-12-18"
+    },
+    {
+      "competitionId": "69405",
+      "niveau": "N",
+      "libelle": "Meeting National de Mulhouse et du Département 68 - MULHOUSE",
+      "dateIso": "2020-12-19"
+    },
+    {
+      "competitionId": "69471",
+      "niveau": "R",
+      "libelle": "Meeting Régional de Noël - AIX-EN-PROVENCE",
+      "dateIso": "2020-12-19"
+    },
+    {
+      "competitionId": "69487",
+      "niveau": "R",
+      "libelle": "Championnat Régional Hiver - CHALON-SUR-SAÔNE",
+      "dateIso": "2020-12-19"
+    },
+    {
+      "competitionId": "68035",
+      "niveau": "R",
+      "libelle": "Meeting NC 1 - DUMBÉA",
+      "dateIso": "2020-12-19"
+    },
+    {
+      "competitionId": "69477",
+      "niveau": "R",
+      "libelle": "Meeting Régional de Noël  - DUNKERQUE",
+      "dateIso": "2020-12-19"
+    },
+    {
+      "competitionId": "69433",
+      "niveau": "R",
+      "libelle": "Compétition LNM - LE LAMENTIN",
+      "dateIso": "2020-12-19"
+    },
+    {
+      "competitionId": "69357",
+      "niveau": "R",
+      "libelle": "Meeting de l'Océan Indien - MQ1 - LE PORT",
+      "dateIso": "2020-12-19"
+    },
+    {
+      "competitionId": "69473",
+      "niveau": "R",
+      "libelle": "CIRCUIT REGIONAL 1ère  ETAPE - LES ABYMES",
+      "dateIso": "2020-12-19"
+    },
+    {
+      "competitionId": "69475",
+      "niveau": "R",
+      "libelle": "CIRCUIT REGIONAL 1 - LES ABYMES",
+      "dateIso": "2020-12-19"
+    },
+    {
+      "competitionId": "69427",
+      "niveau": "R",
+      "libelle": "Meeting Occitanie de Noël - TOULOUSE",
+      "dateIso": "2020-12-19"
+    }
+  ]
+}

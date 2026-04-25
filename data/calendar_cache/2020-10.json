@@ -1,0 +1,806 @@
+{
+  "savedAt": "2026-04-25T17:29:13.969Z",
+  "year": 2020,
+  "month": 10,
+  "count": 133,
+  "raw": [
+    {
+      "competitionId": "67901",
+      "niveau": "N",
+      "libelle": "Meeting des Vendanges - CANET-EN-ROUSSILLON",
+      "dateIso": "2020-10-03"
+    },
+    {
+      "competitionId": "68133",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 1ère Journée - FOURMIES",
+      "dateIso": "2020-10-04"
+    },
+    {
+      "competitionId": "68125",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 1ère Journée - MARCQ-EN-BAROEUL",
+      "dateIso": "2020-10-04"
+    },
+    {
+      "competitionId": "68139",
+      "niveau": "D",
+      "libelle": "Critérium d'Automne - MONTARGIS",
+      "dateIso": "2020-10-04"
+    },
+    {
+      "competitionId": "68045",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Drôme/Ardèche - Etape 1 - ROMANS-SUR-ISÈRE",
+      "dateIso": "2020-10-04"
+    },
+    {
+      "competitionId": "68123",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 1ère Journée - SAINT-ANDRÉ-LEZ-LILLE",
+      "dateIso": "2020-10-04"
+    },
+    {
+      "competitionId": "68217",
+      "niveau": "D",
+      "libelle": "Pré-saison Départementale J/S (Matin) - SAUMUR",
+      "dateIso": "2020-10-04"
+    },
+    {
+      "competitionId": "68219",
+      "niveau": "D",
+      "libelle": "Pré-saison Départementale J/S (AM) - SAUMUR",
+      "dateIso": "2020-10-04"
+    },
+    {
+      "competitionId": "68489",
+      "niveau": "R",
+      "libelle": "Challenge A vos Plots - Longvilliers Club - LE LAMENTIN",
+      "dateIso": "2020-10-06"
+    },
+    {
+      "competitionId": "68439",
+      "niveau": "D",
+      "libelle": "A vos Plots - Caudan - CAUDAN",
+      "dateIso": "2020-10-09"
+    },
+    {
+      "competitionId": "68371",
+      "niveau": "R",
+      "libelle": "10e Meeting Régional de Cergy-Pontoise Natation - CERGY-PONTOISE",
+      "dateIso": "2020-10-10"
+    },
+    {
+      "competitionId": "68081",
+      "niveau": "D",
+      "libelle": "1er Meeting du Gard - ALES",
+      "dateIso": "2020-10-10"
+    },
+    {
+      "competitionId": "68215",
+      "niveau": "D",
+      "libelle": "Pré-saison - ALLONNES",
+      "dateIso": "2020-10-10"
+    },
+    {
+      "competitionId": "68543",
+      "niveau": "D",
+      "libelle": "Challenge Départemental - 1ère Journée - BÉTHUNE",
+      "dateIso": "2020-10-10"
+    },
+    {
+      "competitionId": "67953",
+      "niveau": "D",
+      "libelle": "Soirée 1/2 Fond - CAEN",
+      "dateIso": "2020-10-10"
+    },
+    {
+      "competitionId": "68121",
+      "niveau": "D",
+      "libelle": "Critériums d'Automne - LAGNY-SUR-MARNE",
+      "dateIso": "2020-10-10"
+    },
+    {
+      "competitionId": "68267",
+      "niveau": "D",
+      "libelle": "Circuit Icaunais - 1ère Journée - Poule 1 - MIGENNES",
+      "dateIso": "2020-10-10"
+    },
+    {
+      "competitionId": "68005",
+      "niveau": "D",
+      "libelle": "12e Meeting de Pré-saison - NOGENT-SUR-OISE",
+      "dateIso": "2020-10-10"
+    },
+    {
+      "competitionId": "68377",
+      "niveau": "D",
+      "libelle": "Inter-clubs 50 et 100  - SAINT-ANDRÉ-LEZ-LILLE",
+      "dateIso": "2020-10-10"
+    },
+    {
+      "competitionId": "68223",
+      "niveau": "D",
+      "libelle": "1ère Journée Avenirs - SAINT-GEORGES-DE-MONS",
+      "dateIso": "2020-10-10"
+    },
+    {
+      "competitionId": "68361",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 19/23/87 - SAINT-JUNIEN",
+      "dateIso": "2020-10-10"
+    },
+    {
+      "competitionId": "68225",
+      "niveau": "D",
+      "libelle": "1er Challenge Avenirs - SORGUES",
+      "dateIso": "2020-10-10"
+    },
+    {
+      "competitionId": "68269",
+      "niveau": "D",
+      "libelle": "Circuit Icaunais - 1ère Journée - Poule 2 - TONNERRE",
+      "dateIso": "2020-10-10"
+    },
+    {
+      "competitionId": "68551",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs #1 - TOULOUSE",
+      "dateIso": "2020-10-10"
+    },
+    {
+      "competitionId": "68601",
+      "niveau": "D",
+      "libelle": "Trophées Avenirs Paule Lacoste #1 - TOULOUSE",
+      "dateIso": "2020-10-10"
+    },
+    {
+      "competitionId": "67973",
+      "niveau": "D",
+      "libelle": "Open Haute-Savoie 01 - ANNEMASSE",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68213",
+      "niveau": "D",
+      "libelle": "1ère Journée Départementale - AURILLAC",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68271",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - 1ère Journée  - AURILLAC",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68331",
+      "niveau": "D",
+      "libelle": "Journée des Sprints & des Relais - BRESSUIRE",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68337",
+      "niveau": "D",
+      "libelle": "1/2 Journée des Sprints & des Relais - BRESSUIRE",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68329",
+      "niveau": "D",
+      "libelle": "Meeting Départemental - BRIANCON",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "67951",
+      "niveau": "D",
+      "libelle": "Matinée Sprint - CAEN",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "67967",
+      "niveau": "D",
+      "libelle": "Challenge Départemental des Relais Jeunes (qualification) - CHOLET",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "67969",
+      "niveau": "D",
+      "libelle": "Challenge Départemental Jeunes  - CHOLET",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68559",
+      "niveau": "D",
+      "libelle": "1er Challenge Avenirs - Poule B (sans pass'competition) - CLERMONT-L'HÉRAULT",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68563",
+      "niveau": "D",
+      "libelle": "1ère Animation Avenirs - Poule B (avec pass'compétition) - CLERMONT-L'HÉRA..",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68279",
+      "niveau": "D",
+      "libelle": "1ère Journée Pré-saison - ÉTRÉPAGNY",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68459",
+      "niveau": "D",
+      "libelle": "Meeting de Rentrée Ornais - FLERS",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68343",
+      "niveau": "D",
+      "libelle": "11e Meeting EDF Transfrontières - Ardennes - GIVET",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68173",
+      "niveau": "D",
+      "libelle": "Circuit 56 #1 - Pool 1 - GRAND-CHAMP",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68387",
+      "niveau": "D",
+      "libelle": "Challenge Départemental Avenirs  - GRAULHET",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68389",
+      "niveau": "D",
+      "libelle": "Trophées Avenirs Tarnais - GRAULHET",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68507",
+      "niveau": "D",
+      "libelle": "1er Meeting de l'Indre - LA CHÂTRE",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68369",
+      "niveau": "D",
+      "libelle": "Dae An Arvor - LÉHON",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68015",
+      "niveau": "D",
+      "libelle": "Pré-saison - Luçon - LUÇON",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68325",
+      "niveau": "D",
+      "libelle": "1ère Journée du Challenge Départemental  - LUMBRES",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68545",
+      "niveau": "D",
+      "libelle": "1er Challenge Avenirs - Poule A (sans pass'compétition) - MONTPELLIER",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68581",
+      "niveau": "D",
+      "libelle": "1ère Animation Avenirs - Poule A (avec pass'compétition) - MONTPELLIER",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68285",
+      "niveau": "D",
+      "libelle": "1ère Journée Pré-saison - PACY-SUR-EURE",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68227",
+      "niveau": "D",
+      "libelle": "Pré-saison - PERTUIS",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68021",
+      "niveau": "D",
+      "libelle": "Un p'tit 50 maîtres - Circuit Départemental des Maîtres - J1 - POISSY",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68243",
+      "niveau": "D",
+      "libelle": "1ère Journée Jeunes - RIOM",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68521",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Plot 1 - ROCHEFORT-SUR-MER",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68523",
+      "niveau": "D",
+      "libelle": "Journée Avenirs - Plot 1 - ROCHEFORT-SUR-MER",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68009",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Juniors/Séniors - 25m. - SAINT-ÉTIENNE",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68605",
+      "niveau": "D",
+      "libelle": "A vos Plots - Saint-Louis - SAINT-LOUIS",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68447",
+      "niveau": "D",
+      "libelle": "Challenge de Rentrée Juniors/Seniors - SAINT-PIERRE-DU-MONT",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68425",
+      "niveau": "D",
+      "libelle": "Compétition de Rentrée - SAINT-YRIEIX-SUR-CHARENTE",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68575",
+      "niveau": "D",
+      "libelle": "Journée du CD57 - Poule B - SARREBOURG",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68573",
+      "niveau": "D",
+      "libelle": "Journée du CD57 - Poule A - THIONVILLE",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68567",
+      "niveau": "D",
+      "libelle": "Championnats Départemental Jeunes #1 - TOULOUSE",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68747",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs #1bis - TOULOUSE",
+      "dateIso": "2020-10-11"
+    },
+    {
+      "competitionId": "68619",
+      "niveau": "N",
+      "libelle": "8e Meeting National de Rentrée du NVB - VILLEFRANCHE-SUR-SAÔNE",
+      "dateIso": "2020-10-16"
+    },
+    {
+      "competitionId": "67921",
+      "niveau": "R",
+      "libelle": "Championnats de Polynésie - PIRAE",
+      "dateIso": "2020-10-16"
+    },
+    {
+      "competitionId": "68743",
+      "niveau": "R",
+      "libelle": "Meeting de la Toussaint - CAEN",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "67987",
+      "niveau": "R",
+      "libelle": "1er Meeting d'Olivet - OLIVET",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "68397",
+      "niveau": "D",
+      "libelle": "Soirée Sprint - BAYEUX",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "68571",
+      "niveau": "D",
+      "libelle": "Journée d'Automne - BOURGES",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "67947",
+      "niveau": "D",
+      "libelle": "1er Meeting des Maîtres de Ventadour - ÉGLETONS",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "68669",
+      "niveau": "D",
+      "libelle": "6e Meeting Pré-interclubs - ERSTEIN",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "68595",
+      "niveau": "D",
+      "libelle": "Pré-saison - LA TESTE-DE-BUCH",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "68449",
+      "niveau": "D",
+      "libelle": "Little Big Meeting - 3e Edition - LORIENT",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "68583",
+      "niveau": "D",
+      "libelle": "Journée du Demi-fond - MONTPELLIER",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "68693",
+      "niveau": "D",
+      "libelle": "Meeting de Rentrée - NANTERRE",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "68751",
+      "niveau": "D",
+      "libelle": "Meeting de Rentrée - Nageurs nés en 2002 - NANTERRE",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "68481",
+      "niveau": "D",
+      "libelle": "Meeting de Début de Saison - 1ère Partie - NOTRE-DAME-DE-GRAVENCHON",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "68637",
+      "niveau": "D",
+      "libelle": "Championnats de l'Ain de Demi-fond - OYONNAX",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "68345",
+      "niveau": "D",
+      "libelle": "Finale Challenge du Conseil Départemental Avenirs - SAINT-AFFRIQUE",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "68347",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 1 - SAINT-AFFRIQUE",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "68719",
+      "niveau": "D",
+      "libelle": "Meeting d'Automne - SÉMÉAC",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "68391",
+      "niveau": "D",
+      "libelle": "Meeting Demi-fond Jeunes & Juniors - VILLEURBANNE",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "67929",
+      "niveau": "D",
+      "libelle": "4e Meeting du CYN - YERRES",
+      "dateIso": "2020-10-17"
+    },
+    {
+      "competitionId": "68117",
+      "niveau": "R",
+      "libelle": "14e Meeting Annie Boyet - LONS-LE-SAUNIER",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68639",
+      "niveau": "D",
+      "libelle": "Meeting Départemental Jeunes - AMBÉRIEU-EN-BUGEY",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68497",
+      "niveau": "D",
+      "libelle": "Pré-saison Juniors/Séniors 44 - ANCENIS",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68127",
+      "niveau": "D",
+      "libelle": "1ère Journée Qualificative - BAYONNE",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68611",
+      "niveau": "D",
+      "libelle": "Pré-saison Départementale Avenirs - BEAUPREAU",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68585",
+      "niveau": "D",
+      "libelle": "1er Circuit Hérault Juniors/Seniors - BÉZIERS",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68671",
+      "niveau": "D",
+      "libelle": "6e Meeting Pré-interclubs - ERSTEIN",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68643",
+      "niveau": "D",
+      "libelle": "Pré-saison Juniors/Seniors N°2 - FOS-SUR-MER",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68339",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 2e Journée - FOURMIES",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68597",
+      "niveau": "D",
+      "libelle": "Pré-saison - LA TESTE-DE-BUCH",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68753",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 1 - LE PLESSIS-ROBINSON",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68755",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 1 (200 NL/Relais) - LE PLESSIS-ROBINSON",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68589",
+      "niveau": "D",
+      "libelle": "Journée de Demi-fond - LOUVIERS",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68379",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 2e Journée - MARCQ-EN-BAROEUL",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68645",
+      "niveau": "D",
+      "libelle": "Relais Avenirs - MARSEILLE",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68651",
+      "niveau": "D",
+      "libelle": "Parcours Avenirs - MARSEILLE",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68653",
+      "niveau": "D",
+      "libelle": "Relais Jeunes - MARSEILLE",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68341",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 2e Journée - MAUBEUGE",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68647",
+      "niveau": "D",
+      "libelle": "Sprint & 1/2 Fond - MONTAUBAN",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68047",
+      "niveau": "D",
+      "libelle": "Swimming Squad Challenge - MONTELIMAR",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68501",
+      "niveau": "D",
+      "libelle": "Pré-saison Jeunes - NORT-SUR-ERDRE",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68483",
+      "niveau": "D",
+      "libelle": "Meeting de Début de Saison - 2e Partie - NOTRE-DAME-DE-GRAVENCHON",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68485",
+      "niveau": "D",
+      "libelle": "Meeting de Début de Saison - 3e Partie - NOTRE-DAME-DE-GRAVENCHON",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68541",
+      "niveau": "D",
+      "libelle": "Circuit Qualificatif Nouvelle-Aquitaine Hiver - JOQUA 1 - PÉRIGUEUX",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68395",
+      "niveau": "D",
+      "libelle": "Journée d'Automne - 1 - ROMORANTIN-LANTHENAY",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68349",
+      "niveau": "D",
+      "libelle": "Finale Challenge du Conseil départemental Jeu/Jun/Sen - SAINT-AFFRIQUE",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68385",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 2e Journée - SAINT-ANDRÉ-LEZ-LILLE",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68011",
+      "niveau": "D",
+      "libelle": "Loire Jeunes N°1 - SAINT-ÉTIENNE",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68525",
+      "niveau": "D",
+      "libelle": "Journée Jeunes - Plot 1 - SAINT-JEAN-D'ANGÉLY",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68811",
+      "niveau": "D",
+      "libelle": "Challenge de Rentrée - Avenirs et Jeunes - SAINT-PIERRE-DU-MONT",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68467",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 2e Journée - SAINT-POL-SUR-MER",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68003",
+      "niveau": "D",
+      "libelle": "Meeting de Rentrée - 1ère Journée - Championnat Allier Open - SAINT-VICTOR",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68383",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 2e Journée - SECLIN",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "67899",
+      "niveau": "D",
+      "libelle": "4e Meeting des Leuques - TOUL",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68835",
+      "niveau": "D",
+      "libelle": "Meeting Départemental #1 - TOULOUSE",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68297",
+      "niveau": "D",
+      "libelle": "Compétition de Reprise - TROYES",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68299",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - TROYES",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68707",
+      "niveau": "D",
+      "libelle": "Circuit Qualificatif 47 - Etape 1 - VILLENEUVE-SUR-LOT",
+      "dateIso": "2020-10-18"
+    },
+    {
+      "competitionId": "68661",
+      "niveau": "N",
+      "libelle": "2e Meeting X'eau de Grand-Cognac - Les Sportives - COGNAC",
+      "dateIso": "2020-10-24"
+    },
+    {
+      "competitionId": "68519",
+      "niveau": "R",
+      "libelle": "Challenge Martinique - Etape 1 - SAINT-ESPRIT",
+      "dateIso": "2020-10-24"
+    },
+    {
+      "competitionId": "68587",
+      "niveau": "D",
+      "libelle": "Ccompétition Départementale de Reprise - VITRE",
+      "dateIso": "2020-10-24"
+    },
+    {
+      "competitionId": "68617",
+      "niveau": "D",
+      "libelle": "Demi-fond Départemental - ANGERS",
+      "dateIso": "2020-10-25"
+    },
+    {
+      "competitionId": "68869",
+      "niveau": "D",
+      "libelle": "A vos Plots - SAINT-LOUIS",
+      "dateIso": "2020-10-25"
+    },
+    {
+      "competitionId": "68673",
+      "niveau": "D",
+      "libelle": "Circuit 56#1 - Pool 2 - VANNES",
+      "dateIso": "2020-10-25"
+    },
+    {
+      "competitionId": "68049",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Drôme/Ardèche - VALENCE",
+      "dateIso": "2020-10-28"
+    },
+    {
+      "competitionId": "67927",
+      "niveau": "R",
+      "libelle": "Circuit 25m. - 1ère Journée - LA FOA",
+      "dateIso": "2020-10-31"
+    },
+    {
+      "competitionId": "69185",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs - LES ABYMES",
+      "dateIso": "2020-10-31"
+    },
+    {
+      "competitionId": "69187",
+      "niveau": "R",
+      "libelle": "Challenge Jeunes - LES ABYMES",
+      "dateIso": "2020-10-31"
+    },
+    {
+      "competitionId": "69251",
+      "niveau": "R",
+      "libelle": "Compétition d'Animation - LES ABYMES",
+      "dateIso": "2020-10-31"
+    },
+    {
+      "competitionId": "68095",
+      "niveau": "D",
+      "libelle": "Championnat du Gard - ALES",
+      "dateIso": "2020-10-31"
+    },
+    {
+      "competitionId": "69075",
+      "niveau": "D",
+      "libelle": "Circuit qualificatif Landes Automne Juniors - Seniors - MIMIZAN",
+      "dateIso": "2020-10-31"
+    }
+  ]
+}

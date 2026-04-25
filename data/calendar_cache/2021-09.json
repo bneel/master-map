@@ -1,0 +1,32 @@
+{
+  "savedAt": "2026-04-25T17:29:38.101Z",
+  "year": 2021,
+  "month": 9,
+  "count": 4,
+  "raw": [
+    {
+      "competitionId": "71455",
+      "niveau": "R",
+      "libelle": "Challenge Sprint - SAINT-PHILIPPE",
+      "dateIso": "2021-09-18"
+    },
+    {
+      "competitionId": "71547",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs - BRAS-PANON",
+      "dateIso": "2021-09-25"
+    },
+    {
+      "competitionId": "71559",
+      "niveau": "D",
+      "libelle": "Meeting de vitesse - AUXERRE",
+      "dateIso": "2021-09-26"
+    },
+    {
+      "competitionId": "71495",
+      "niveau": "D",
+      "libelle": "Pré-saison Juniors / Seniors N°1  - ROGNAC",
+      "dateIso": "2021-09-26"
+    }
+  ]
+}

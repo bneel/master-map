@@ -1,0 +1,1280 @@
+{
+  "savedAt": "2026-04-25T17:29:45.058Z",
+  "year": 2021,
+  "month": 12,
+  "count": 212,
+  "raw": [
+    {
+      "competitionId": "74431",
+      "niveau": "D",
+      "libelle": "Meeting Anges & Démons - Finales Avenirs & Jeunes - REDON",
+      "dateIso": "2021-12-01"
+    },
+    {
+      "competitionId": "73035",
+      "niveau": "R",
+      "libelle": "Championnat Régional Hiver - ANGERS",
+      "dateIso": "2021-12-03"
+    },
+    {
+      "competitionId": "73303",
+      "niveau": "R",
+      "libelle": "Championnat de Ligue Hiver TC et Jeunes - CHALON-SUR-SAÔNE",
+      "dateIso": "2021-12-03"
+    },
+    {
+      "competitionId": "73437",
+      "niveau": "R",
+      "libelle": "23e Meeting de la Vallée - CHEVREUSE",
+      "dateIso": "2021-12-03"
+    },
+    {
+      "competitionId": "72447",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Jeunes et + - DUNKERQUE",
+      "dateIso": "2021-12-03"
+    },
+    {
+      "competitionId": "73875",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Open TC - METZ",
+      "dateIso": "2021-12-03"
+    },
+    {
+      "competitionId": "74201",
+      "niveau": "R",
+      "libelle": "Championnats Ligue AuRA Jeunes Demi-fond  - OYONNAX",
+      "dateIso": "2021-12-03"
+    },
+    {
+      "competitionId": "73929",
+      "niveau": "R",
+      "libelle": "Championnats de Paris Open Hiver - PARIS",
+      "dateIso": "2021-12-03"
+    },
+    {
+      "competitionId": "74113",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Open des Jeunes  - ANTIBES",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "73639",
+      "niveau": "R",
+      "libelle": "Championnats Ligue Corse Hiver - BASTIA",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "73641",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue Corse Hiver des Maîtres - BASTIA",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "73491",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Jeunes Hiver (Zone Sud) - BAYONNE",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "74235",
+      "niveau": "R",
+      "libelle": "Championnats Open de Maîtres d'Ile-de-France - BOULOGNE-BILLANCOURT",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "72187",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Hiver - CHÂTEAUROUX",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "73443",
+      "niveau": "R",
+      "libelle": "23e Meeting de la Vallée (Finales du 4 dec.) - CHEVREUSE",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "74091",
+      "niveau": "R",
+      "libelle": "Championnats de Normandie Hiver - GRANVILLE",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "73435",
+      "niveau": "R",
+      "libelle": "6e Meeting Régional de Lagny-sur-Marne - LAGNY-SUR-MARNE",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "74173",
+      "niveau": "R",
+      "libelle": "Championnats de Martinique 50 m - LE LAMENTIN",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "72991",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux de Noël - NÎMES",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "72073",
+      "niveau": "R",
+      "libelle": "Championnats Ligue AuRA Jeunes - OYONNAX",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "74523",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue AuRA Jeunes - OYONNAX",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "73493",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Jeunes Hiver (Zone Nord) - POITIERS",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "73109",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Hiver - SAINT-BRIEUC",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "71471",
+      "niveau": "R",
+      "libelle": "Meeting de Qualification - SAINT-DENIS (La Réunion)",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "73871",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Jeunes - SAINT-LOUIS",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "72007",
+      "niveau": "D",
+      "libelle": "Challenge 92 étape 1 - BOULOGNE-BILLANCOURT",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "73965",
+      "niveau": "D",
+      "libelle": "Journée Qualificative 2 - CRÉTEIL",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "73377",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - Loire - FEURS",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "73381",
+      "niveau": "D",
+      "libelle": "Avenirs 1 - Loire - FEURS",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "74423",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Open (Epreuves Courtes) - MONTREUIL",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "73713",
+      "niveau": "D",
+      "libelle": "Championnat de Paris Jeunes – Hiver - PARIS",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "72353",
+      "niveau": "D",
+      "libelle": "Avenirs Drôme/Ardèche - ROMANS-SUR-ISÈRE",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "74439",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - ROMANS-SUR-ISÈRE",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "74295",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Juniors/Séniors - SARCELLES",
+      "dateIso": "2021-12-04"
+    },
+    {
+      "competitionId": "73497",
+      "niveau": "R",
+      "libelle": "23e Meeting de la Vallée (Finales du 5 Déc.) - CHEVREUSE",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "73511",
+      "niveau": "D",
+      "libelle": "Championnats Interdépartementaux Hiver - 25 m - CAHORS",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "72761",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Automne Jeunes - CHOLET",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "73247",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 1 - CONCHES-EN-OUCHE",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "73821",
+      "niveau": "D",
+      "libelle": "Nat' Avenirs Hiver - Plot 1 - CONCHES-EN-OUCHE",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "73725",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - CROIX",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "73727",
+      "niveau": "D",
+      "libelle": "Découv'nat 1 - CROIX",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "72119",
+      "niveau": "D",
+      "libelle": "challenge avenirs 1ére journée - CUSSET",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "72121",
+      "niveau": "D",
+      "libelle": "Journée Départementale Avenirs - CUSSET",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "71573",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - LA MADELEINE",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "71581",
+      "niveau": "D",
+      "libelle": "Découv'nat 1 - LA MADELEINE",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "74013",
+      "niveau": "D",
+      "libelle": "Parcours ENF - MARTIGUES",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "74015",
+      "niveau": "D",
+      "libelle": "Biathlon Avenirs - MARTIGUES",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "74007",
+      "niveau": "D",
+      "libelle": "Challenge Départemental Avenirs  - MELLE",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "74089",
+      "niveau": "D",
+      "libelle": "Championat 77 Hiver Open des Maîtres - OZOIR-LA-FERRIÈRE",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "74051",
+      "niveau": "D",
+      "libelle": "2e Challenge Départemental Avenirs bis - PERTUIS",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "74053",
+      "niveau": "D",
+      "libelle": "2e Challenge Départemental Avenirs - PERTUIS",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "74055",
+      "niveau": "D",
+      "libelle": "1er Challenge Natation pour tous - PERTUIS",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "73375",
+      "niveau": "D",
+      "libelle": "Circuit Départemental 1 - REDON",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "72171",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Plot 2 - SAINT-GERMAIN-DU-PUY",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "73215",
+      "niveau": "D",
+      "libelle": "Qualifications Juniors - Landes - SAINT-PIERRE-DU-MONT",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "71687",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - VILLENEUVE-D'ASCQ",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "71689",
+      "niveau": "D",
+      "libelle": "Découv'nat 1 - VILLENEUVE-D'ASCQ",
+      "dateIso": "2021-12-05"
+    },
+    {
+      "competitionId": "71895",
+      "niveau": "N",
+      "libelle": "Championnats de France Elite Hiver 2021 - MONTPELLIER",
+      "dateIso": "2021-12-09"
+    },
+    {
+      "competitionId": "72075",
+      "niveau": "R",
+      "libelle": "Championnats Ligue AuRA - Vichy - BELLERIVE-SUR-ALLIER",
+      "dateIso": "2021-12-10"
+    },
+    {
+      "competitionId": "72201",
+      "niveau": "R",
+      "libelle": "Championnats Ligue AuRA - Valence - VALENCE",
+      "dateIso": "2021-12-10"
+    },
+    {
+      "competitionId": "74129",
+      "niveau": "R",
+      "libelle": "Championnats de Normandie \"Honneur\" - VAL-DE-REUIL",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74415",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - ANTONY",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "72441",
+      "niveau": "D",
+      "libelle": "Championnat Hiver Open du Pas-de-Calais - ARRAS",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "73163",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Hiver en bassin de 25m - BERGERAC",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74605",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Journée 2 - BOURGOIN-JALLIEU",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74207",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Maitres - CHAMBRAY-LES-TOURS",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74065",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants - Interclubs Avenirs - CHEVREUSE",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74563",
+      "niveau": "D",
+      "libelle": "Coupe Interclubs Avenirs - CHEVREUSE",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74565",
+      "niveau": "D",
+      "libelle": "Coupe Interclubs Avenirs - Equipes Mixtes et Ententes - CHEVREUSE",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "72039",
+      "niveau": "D",
+      "libelle": "Challenge Demi-fond - COGNAC",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74223",
+      "niveau": "D",
+      "libelle": "Meeting des 50 et 100 Maîtres Conflanais - CONFLANS-SAINTE-HONORINE",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74647",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs du Val-de-Marne - CRÉTEIL",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74649",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs CD94 - Créteil - CRÉTEIL",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74651",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Avenirs - Val-de-Marne - CRÉTEIL",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "73533",
+      "niveau": "D",
+      "libelle": "Championnats de l'Yonne Open Masters - JOIGNY",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "72259",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver Juniors/Séniors - LA TESTE-DE-BUCH",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74345",
+      "niveau": "D",
+      "libelle": "1ère Etape du Challenge Avenirs - 3e District  - LAMBALLE",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74495",
+      "niveau": "D",
+      "libelle": "1ère Journée Avenirs et + (titulaire ENF3) - 3e District  - LAMBALLE",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74341",
+      "niveau": "D",
+      "libelle": "1ère Etape du Challenge Avenirs - 1er District  - LANNION",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74349",
+      "niveau": "D",
+      "libelle": "1ère Journée Avenirs et + (titulaire ENF3) - 1er District - LANNION",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74021",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux de Sprint Open Masters - LE LUDE",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74575",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Avenirs - LE LUDE",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74611",
+      "niveau": "D",
+      "libelle": "Remplaçants Interclubs Départementaux Avenirs - LE LUDE",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "72799",
+      "niveau": "D",
+      "libelle": "Championnat de Vendée Hiver Masters - LES HERBIERS",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "73863",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Hiver 19/23/87 - LIMOGES",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "73553",
+      "niveau": "D",
+      "libelle": "Championnats Open des Maîtres - Sprint - LORIENT",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "72009",
+      "niveau": "D",
+      "libelle": "Honneur  Journée 1 - MALAKOFF",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74547",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 2 - MONTAUBAN",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "73859",
+      "niveau": "D",
+      "libelle": "Championnats du Bas-Rhin Open 67 - OBERNAI",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "72227",
+      "niveau": "D",
+      "libelle": "Meeting Maîtres du Loiret - OLIVET",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "72827",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs - ROMORANTIN-LANTHENAY",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74577",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Aveyron/Lozère N° 2 - SAINT-AFFRIQUE",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74579",
+      "niveau": "D",
+      "libelle": "Challenge Hiver Conseil Départemental Aveyron Avenirs Open - SAINT-AFFRIQUE",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74675",
+      "niveau": "D",
+      "libelle": "Challenge du Conseil Départemental de l’Aveyron Master 2 - SAINT-AFFRIQUE",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74343",
+      "niveau": "D",
+      "libelle": "1ère Etape du Challenge Avenirs - 2e District  - SAINT-BRIEUC",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74351",
+      "niveau": "D",
+      "libelle": "1ère Journée Avenirs et + (titulaire ENF3) - 2e District - SAINT-BRIEUC",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74509",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Hiver Juniors/Séniors - SARREGUEMINES",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74413",
+      "niveau": "D",
+      "libelle": "Soirée des Maîtres N°1 - SOISY-SOUS-MONTMORENCY",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "73213",
+      "niveau": "D",
+      "libelle": "28e Rencontre Vénissiane des Maîtres - VÉNISSIEUX",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "74461",
+      "niveau": "D",
+      "libelle": "Départementaux Hiver 54 - J1 - VILLERUPT",
+      "dateIso": "2021-12-11"
+    },
+    {
+      "competitionId": "72451",
+      "niveau": "R",
+      "libelle": "Interclubs Avenirs - Zone Sud - CRÉPY-EN-VALOIS",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "73611",
+      "niveau": "R",
+      "libelle": "Interclubs Avenirs - Zone Nord - LOUVROIL",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "72709",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs du Gard - ALES",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "72711",
+      "niveau": "D",
+      "libelle": "Animation Jeunes Hiver - ALES",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74469",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - ALES",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74521",
+      "niveau": "D",
+      "libelle": "Natathlon Avenirs et Jeunes - 1ère Etape - AMBOISE",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "71421",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Haute-Savoie 02 - ANNECY",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "71423",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Haute-Savoie 03 - ANNECY",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74475",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - ARGENTEUIL",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "72543",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - BAYONNE",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74529",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs (Équipes Mixtes et Remplaçants) - BAYONNE",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "72773",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Départemental N°4 - CARMAUX",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "72783",
+      "niveau": "D",
+      "libelle": "Confrontations Avenirs N°3 - CARMAUX",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74417",
+      "niveau": "D",
+      "libelle": "Remplaçants Interclubs Avenirs - CARQUEFOU",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74455",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - CARQUEFOU",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74457",
+      "niveau": "D",
+      "libelle": "Natathlon Avenirs et Jeunes - 1ère étape - CHAMBRAY-LES-TOURS",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74263",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs (pass compétition) - Après-midi - CHÂTEAU-GONTIER",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74355",
+      "niveau": "D",
+      "libelle": "Tour de la Mayenne - Etape 1 - Avenirs (matin) - CHÂTEAU-GONTIER",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74357",
+      "niveau": "D",
+      "libelle": "Tour de la Mayenne - Etape 1 - Jeunes (matin) - CHÂTEAU-GONTIER",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74359",
+      "niveau": "D",
+      "libelle": "Tour de la Mayenne - Etape 1 - Juniors/Séniors - CHÂTEAU-GONTIER",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74553",
+      "niveau": "D",
+      "libelle": "Relais Mixtes Tour de la Mayenne - Etape 1 - Avenirs (matin) - CHÂTEAU-GONTIER",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74555",
+      "niveau": "D",
+      "libelle": "Relais Mixtes Tour de la Mayenne - Etape 1 - Jeunes (matin) - CHÂTEAU-GONTIER",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74557",
+      "niveau": "D",
+      "libelle": "Relais mixtes Tour de la Mayenne - Etape 1 - Juniors/Séniors - CHÂTEAU-GONT..",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74099",
+      "niveau": "D",
+      "libelle": "Championnat des Alpes Hiver - DIGNE-LES-BAINS",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74101",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs  - DIGNE-LES-BAINS",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74597",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - DOUÉ-LA-FONTAINE",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74199",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - FOS-SUR-MER",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74293",
+      "niveau": "D",
+      "libelle": "Matinée des Maîtres n°1 - FOS-SUR-MER",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74497",
+      "niveau": "D",
+      "libelle": "Championnats des Côtes-d'Armor Jeunes Hiver - GUINGAMP",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "71967",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs Avenirs  - HÉROUVILLE-SAINT-CLAIR",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "71973",
+      "niveau": "D",
+      "libelle": "Nat'avenirs Hiver 2 - HÉROUVILLE-SAINT-CLAIR",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74499",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Etape 2 - HÉROUVILLE-SAINT-CLAIR",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "72301",
+      "niveau": "D",
+      "libelle": "Meeting de Kaysersberg - KAYSERSBERG",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74701",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs Kaysersberg - KAYSERSBERG",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74061",
+      "niveau": "D",
+      "libelle": "16e Meeting de La Châtre - LA CHÂTRE",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74501",
+      "niveau": "D",
+      "libelle": "Départementaux Hiver 54 - 2 - LANEUVEVILLE-DEVANT-NANCY",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74541",
+      "niveau": "D",
+      "libelle": "1ère Journée Avenirs et Jeunes - LANGRES",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74599",
+      "niveau": "D",
+      "libelle": "1ère Journée Avenirs et Jeunes - Challenge Avenirs - LANGRES",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "73545",
+      "niveau": "D",
+      "libelle": "Défi Morbihannais Avenirs - LORIENT",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "73549",
+      "niveau": "D",
+      "libelle": "Défi Morbihannais Jeunes - LORIENT",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "72803",
+      "niveau": "D",
+      "libelle": "Vendée Tour n°1 - LUÇON",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74231",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - LUÇON",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74237",
+      "niveau": "D",
+      "libelle": "Critériums Avenirs  - LUÇON",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74197",
+      "niveau": "D",
+      "libelle": "Biathlon Jeunes - MARTIGUES",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74569",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs  - MEAUX",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "72995",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs N° 3 - NICE",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "72997",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - NICE",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74543",
+      "niveau": "D",
+      "libelle": "Challenge - Zone Sud - CD 79 - NIORT",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "73833",
+      "niveau": "D",
+      "libelle": "Journée Départementale CD 91 - Secteurs 1&3 - ORSAY",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "73837",
+      "niveau": "D",
+      "libelle": "Journée Départementale Maîtres - CD 91 - Secteurs 1&3 - ORSAY",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "73565",
+      "niveau": "D",
+      "libelle": "Interclubs Parisiens – Avenirs - PARIS",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "73975",
+      "niveau": "D",
+      "libelle": "Chpt Départemental - 10e Meeting Masters Henri Théolat - POITIERS",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74245",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Jeunes 2021 - PONTCHÂTEAU",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "73285",
+      "niveau": "D",
+      "libelle": "Compétition Jeunes - QUIMPER",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "73371",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs d'Ille-et-Vilaine - REDON",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74617",
+      "niveau": "D",
+      "libelle": "Challenge Conseil Départemental Jeunes/Juniors/Séniors Open - SAINT-AFFRIQUE",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "72665",
+      "niveau": "D",
+      "libelle": "Meeting 18 Open - Avenirs/Jeunes - SAINT-DOULCHARD",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "73083",
+      "niveau": "D",
+      "libelle": "Journée Longue Distance   - SAINT-GEORGES-DE-MONS",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "73085",
+      "niveau": "D",
+      "libelle": "2e Journée TC - SAINT-GEORGES-DE-MONS",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74623",
+      "niveau": "D",
+      "libelle": "Journée Avenirs - Plot M - SAINT-JEAN-D'ANGÉLY",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74625",
+      "niveau": "D",
+      "libelle": "Journée Avenirs - Plot AM - SAINT-JEAN-D'ANGÉLY",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74627",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Plot M - SAINT-JEAN-D'ANGÉLY",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74629",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Plot AM - SAINT-JEAN-D'ANGÉLY",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74715",
+      "niveau": "D",
+      "libelle": "100 4 N - BPJEPS AAN - SAINT-JEAN-D'ANGÉLY",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "73835",
+      "niveau": "D",
+      "libelle": "Journée Départementale CD 91 - Secteurs 2&4 - SAINT-MICHEL-SUR-ORGE",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "73841",
+      "niveau": "D",
+      "libelle": "Journée Départementale Maîtres - CD 91 - Secteurs 2&4 - SAINT-MICHEL-SUR-O..",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "73429",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs/Jeunes du Loiret - SARAN",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74057",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Avenirs - SORGUES",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "71627",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs Avenirs - TARARE",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "71747",
+      "niveau": "D",
+      "libelle": "2e Challenge Départemental Avenirs - TARARE",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74545",
+      "niveau": "D",
+      "libelle": "Challenge CD 79 - Zone Nord  - THOUARS",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74069",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - TOULOUSE",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74253",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs #2 - TOULOUSE",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74255",
+      "niveau": "D",
+      "libelle": "Trophées Avenirs Paule Lacoste #2 - TOULOUSE",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "72835",
+      "niveau": "D",
+      "libelle": "Journée d'Automne 2  - VENDÔME",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74437",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Open des Maitres Hiver - VENDÔME",
+      "dateIso": "2021-12-12"
+    },
+    {
+      "competitionId": "74591",
+      "niveau": "D",
+      "libelle": "Les Courses de l'Avent  - CHALON-SUR-SAÔNE",
+      "dateIso": "2021-12-15"
+    },
+    {
+      "competitionId": "74663",
+      "niveau": "D",
+      "libelle": "1ère Journée d'Hiver - VILLENEUVE-D'ASCQ",
+      "dateIso": "2021-12-16"
+    },
+    {
+      "competitionId": "73261",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Juniors/Séniors de Noël - AGEN",
+      "dateIso": "2021-12-17"
+    },
+    {
+      "competitionId": "72221",
+      "niveau": "N",
+      "libelle": "Championnats de France Juniors - MASSY",
+      "dateIso": "2021-12-18"
+    },
+    {
+      "competitionId": "72361",
+      "niveau": "N",
+      "libelle": "IIes Championnats de France Jeunes - Lucien Zins - RENNES",
+      "dateIso": "2021-12-18"
+    },
+    {
+      "competitionId": "71587",
+      "niveau": "N",
+      "libelle": "Meeting National de l'Ouest Hiver - TOURS",
+      "dateIso": "2021-12-18"
+    },
+    {
+      "competitionId": "74559",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux PACA Open d'Automne  - NICE",
+      "dateIso": "2021-12-18"
+    },
+    {
+      "competitionId": "74519",
+      "niveau": "R",
+      "libelle": "Championnat Régional Hiver Maîtres - NOGENT-SUR-OISE",
+      "dateIso": "2021-12-18"
+    },
+    {
+      "competitionId": "74587",
+      "niveau": "R",
+      "libelle": "Championnats de Nouvelle-Calédonie en bassin de 25m. - NOUMÉA",
+      "dateIso": "2021-12-18"
+    },
+    {
+      "competitionId": "74535",
+      "niveau": "R",
+      "libelle": "Championnat Régional 25m. Georges-Vallerey (75/92/93/94) - PARIS",
+      "dateIso": "2021-12-18"
+    },
+    {
+      "competitionId": "74533",
+      "niveau": "R",
+      "libelle": "Championnat Régional 25m. Sarcelles (77/78/91/95) - SARCELLES",
+      "dateIso": "2021-12-18"
+    },
+    {
+      "competitionId": "71437",
+      "niveau": "D",
+      "libelle": "5e Open Swim de Chamonix - CHAMONIX-MONT-BLANC",
+      "dateIso": "2021-12-18"
+    },
+    {
+      "competitionId": "74593",
+      "niveau": "D",
+      "libelle": "7e Meeting d'Épernay - ÉPERNAY",
+      "dateIso": "2021-12-18"
+    },
+    {
+      "competitionId": "74621",
+      "niveau": "D",
+      "libelle": "4e Meeting de Sedan  - SEDAN",
+      "dateIso": "2021-12-18"
+    },
+    {
+      "competitionId": "74491",
+      "niveau": "D",
+      "libelle": "Championnat du Rhône TC Hiver - VÉNISSIEUX",
+      "dateIso": "2021-12-18"
+    },
+    {
+      "competitionId": "72723",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - VERSAILLES",
+      "dateIso": "2021-12-18"
+    },
+    {
+      "competitionId": "73843",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - CD 91 - VIRY-CHATILLON",
+      "dateIso": "2021-12-18"
+    },
+    {
+      "competitionId": "74429",
+      "niveau": "D",
+      "libelle": "6e Meeting Maîtres des Marches de Bretagne - VITRE",
+      "dateIso": "2021-12-18"
+    },
+    {
+      "competitionId": "74195",
+      "niveau": "R",
+      "libelle": "Championnat Régional Hiver des Maîtres - TOULOUSE",
+      "dateIso": "2021-12-19"
+    },
+    {
+      "competitionId": "74369",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - AUCH",
+      "dateIso": "2021-12-19"
+    },
+    {
+      "competitionId": "74371",
+      "niveau": "D",
+      "libelle": "Championnat inter-départemental Hiver 65-32 - AUCH",
+      "dateIso": "2021-12-19"
+    },
+    {
+      "competitionId": "74405",
+      "niveau": "D",
+      "libelle": "Championnat Interdépartemental 32/65 Hiver - AUCH",
+      "dateIso": "2021-12-19"
+    },
+    {
+      "competitionId": "74571",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Hiver - AUCH",
+      "dateIso": "2021-12-19"
+    },
+    {
+      "competitionId": "72609",
+      "niveau": "D",
+      "libelle": "Finale Départementale Espoirs Hiver - AUCHEL",
+      "dateIso": "2021-12-19"
+    },
+    {
+      "competitionId": "71593",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - AURILLAC",
+      "dateIso": "2021-12-19"
+    },
+    {
+      "competitionId": "71595",
+      "niveau": "D",
+      "libelle": "Journée Départementale - AURILLAC",
+      "dateIso": "2021-12-19"
+    },
+    {
+      "competitionId": "73617",
+      "niveau": "D",
+      "libelle": "Meeting Format Animation - FERNEY-VOLTAIRE",
+      "dateIso": "2021-12-19"
+    },
+    {
+      "competitionId": "74821",
+      "niveau": "D",
+      "libelle": "Interclubs Hérault Avenirs - LUNEL",
+      "dateIso": "2021-12-19"
+    },
+    {
+      "competitionId": "74823",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes - LUNEL",
+      "dateIso": "2021-12-19"
+    },
+    {
+      "competitionId": "74825",
+      "niveau": "D",
+      "libelle": "3e Challenge Avenirs - (Sans Pass'compétition) - LUNEL",
+      "dateIso": "2021-12-19"
+    },
+    {
+      "competitionId": "73743",
+      "niveau": "D",
+      "libelle": "Combiné Départemental Jeunes/Juniors/TC - MOULINS",
+      "dateIso": "2021-12-19"
+    },
+    {
+      "competitionId": "74659",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Hiver 25m - SAVERDUN",
+      "dateIso": "2021-12-19"
+    },
+    {
+      "competitionId": "74661",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Hiver 25m (Maîtres) - SAVERDUN",
+      "dateIso": "2021-12-19"
+    },
+    {
+      "competitionId": "72707",
+      "niveau": "R",
+      "libelle": "29e Meeting Landron - ARRAS",
+      "dateIso": "2021-12-27"
+    },
+    {
+      "competitionId": "74713",
+      "niveau": "N",
+      "libelle": "Meeting du Bout de l'An - SAINT-LÔ",
+      "dateIso": "2021-12-28"
+    },
+    {
+      "competitionId": "71473",
+      "niveau": "R",
+      "libelle": "Meeting de l'Océan Indien - LE PORT",
+      "dateIso": "2021-12-28"
+    }
+  ]
+}

@@ -1,0 +1,1196 @@
+{
+  "savedAt": "2026-04-25T17:29:40.382Z",
+  "year": 2021,
+  "month": 10,
+  "count": 198,
+  "raw": [
+    {
+      "competitionId": "71463",
+      "niveau": "R",
+      "libelle": "Challenge 1/2 Fond - SAINT-PHILIPPE",
+      "dateIso": "2021-10-02"
+    },
+    {
+      "competitionId": "71719",
+      "niveau": "D",
+      "libelle": "1er Challenge Avenirs - CD 79 Nord - BRESSUIRE",
+      "dateIso": "2021-10-02"
+    },
+    {
+      "competitionId": "71701",
+      "niveau": "D",
+      "libelle": "Pré-saison Départementale Jeunes - ANGERS",
+      "dateIso": "2021-10-03"
+    },
+    {
+      "competitionId": "71703",
+      "niveau": "D",
+      "libelle": "Pré-saison Départementale Avenirs - ANGERS",
+      "dateIso": "2021-10-03"
+    },
+    {
+      "competitionId": "71561",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 1ère Journée - DOUAI",
+      "dateIso": "2021-10-03"
+    },
+    {
+      "competitionId": "71529",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 1ère Journée - LA MADELEINE",
+      "dateIso": "2021-10-03"
+    },
+    {
+      "competitionId": "71749",
+      "niveau": "D",
+      "libelle": "Challenge Départemental d'Automne - Plot 1 - LUMBRES",
+      "dateIso": "2021-10-03"
+    },
+    {
+      "competitionId": "71527",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 1ère Journée - SECLIN",
+      "dateIso": "2021-10-03"
+    },
+    {
+      "competitionId": "71723",
+      "niveau": "R",
+      "libelle": "Meeting des Vendanges - CANET-EN-ROUSSILLON",
+      "dateIso": "2021-10-09"
+    },
+    {
+      "competitionId": "71697",
+      "niveau": "R",
+      "libelle": "11e Meeting Régional de Rentrée du Cergy-Pontoise Natation - CERGY-PONTOISE",
+      "dateIso": "2021-10-09"
+    },
+    {
+      "competitionId": "71413",
+      "niveau": "D",
+      "libelle": "1er Meeting du Gard - ALES",
+      "dateIso": "2021-10-09"
+    },
+    {
+      "competitionId": "71649",
+      "niveau": "D",
+      "libelle": "Meeting de Rentrée - CAEN",
+      "dateIso": "2021-10-09"
+    },
+    {
+      "competitionId": "71899",
+      "niveau": "D",
+      "libelle": "Meeting Jeunes de l'Essonne - CORBEIL-ESSONNES",
+      "dateIso": "2021-10-09"
+    },
+    {
+      "competitionId": "72057",
+      "niveau": "D",
+      "libelle": "Meeting Pré-saison - JOUÉ-LES-TOURS",
+      "dateIso": "2021-10-09"
+    },
+    {
+      "competitionId": "71607",
+      "niveau": "D",
+      "libelle": "Critériums d'Automne - LAGNY-SUR-MARNE",
+      "dateIso": "2021-10-09"
+    },
+    {
+      "competitionId": "71897",
+      "niveau": "D",
+      "libelle": "Dae An Arvor 1 - Automne - LANNION",
+      "dateIso": "2021-10-09"
+    },
+    {
+      "competitionId": "71509",
+      "niveau": "D",
+      "libelle": "Pré-saisons Jeunes - LAVAL",
+      "dateIso": "2021-10-09"
+    },
+    {
+      "competitionId": "71511",
+      "niveau": "D",
+      "libelle": "Pré-saisons Juniors/Séniors - LAVAL",
+      "dateIso": "2021-10-09"
+    },
+    {
+      "competitionId": "71513",
+      "niveau": "D",
+      "libelle": "Pré-saisons Avenirs - LAVAL",
+      "dateIso": "2021-10-09"
+    },
+    {
+      "competitionId": "71635",
+      "niveau": "D",
+      "libelle": "Pré-saisons Avenirs - Pass'compétition 1 - LAVAL",
+      "dateIso": "2021-10-09"
+    },
+    {
+      "competitionId": "72065",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Plot 1 - SAINT-GERMAIN-DU-PUY",
+      "dateIso": "2021-10-09"
+    },
+    {
+      "competitionId": "71433",
+      "niveau": "D",
+      "libelle": "Meeting des Dauphins de Saint-Louis - SAINT-LOUIS",
+      "dateIso": "2021-10-09"
+    },
+    {
+      "competitionId": "71715",
+      "niveau": "D",
+      "libelle": "Challenge d'Automne - Nord - BRESSUIRE",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "71953",
+      "niveau": "D",
+      "libelle": "Journée d'Automne 71  - CHALON-SUR-SAÔNE",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "72031",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs  - CHAMPIGNEULLES",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "71939",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Départemental N°1 - COUERON",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "71553",
+      "niveau": "D",
+      "libelle": "Critérium d'Automne - GIEN",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "72155",
+      "niveau": "D",
+      "libelle": "Confrontations Jeunes N°1 - GRAULHET",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "72383",
+      "niveau": "D",
+      "libelle": "Confrontations Juniors/Séniors  - GRAULHET",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "71637",
+      "niveau": "D",
+      "libelle": "Pré-saisons Avenirs Pass'compétition 2 - LAVAL",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "71717",
+      "niveau": "D",
+      "libelle": "Challenge d'Automne - Sud - MELLE",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "72343",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Sud - MELLE",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "71665",
+      "niveau": "D",
+      "libelle": "Swimming Squad Challenge - MONTELIMAR",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "72077",
+      "niveau": "D",
+      "libelle": "Meeting de Rentrée - MONTMORILLON",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "71483",
+      "niveau": "D",
+      "libelle": "Meeting Sprint - PONT-L'ABBÉ",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "71901",
+      "niveau": "D",
+      "libelle": "Dae An Arvor 2 - Automne - SAINT-BRIEUC",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "71821",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Sprint Juniors/Séniors - SAINT-ÉTIENNE",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "71885",
+      "niveau": "D",
+      "libelle": "Journée Avenirs - Plot 1 - SAINT-JEAN-D'ANGÉLY",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "71887",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - SAINT-JEAN-D'ANGÉLY",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "71831",
+      "niveau": "D",
+      "libelle": "Pré-saison Départementale Juniors/Séniors - SAUMUR",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "71839",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs #1 - TOULOUSE",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "71841",
+      "niveau": "D",
+      "libelle": "Trophées Avenirs Paule Lacoste #1 - TOULOUSE",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "71763",
+      "niveau": "D",
+      "libelle": "Le Grand Tournoi - VILLEFRANCHE-SUR-SAÔNE",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "71859",
+      "niveau": "D",
+      "libelle": "Journées de Rentrée Avenirs - VILLENEUVE-D'ASCQ",
+      "dateIso": "2021-10-10"
+    },
+    {
+      "competitionId": "71945",
+      "niveau": "I",
+      "libelle": "29e Meeting International de Saint-Dizier - SAINT-DIZIER",
+      "dateIso": "2021-10-15"
+    },
+    {
+      "competitionId": "71597",
+      "niveau": "N",
+      "libelle": "9e Meeting de Rentrée du NVB - VILLEFRANCHE-SUR-SAÔNE",
+      "dateIso": "2021-10-15"
+    },
+    {
+      "competitionId": "71785",
+      "niveau": "R",
+      "libelle": "10e Meeting ASSJ Natation Vienne Glane - SAINT-JUNIEN",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72337",
+      "niveau": "D",
+      "libelle": "Pré-saison - ALLONNES",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72339",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - ALLONNES",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "71477",
+      "niveau": "D",
+      "libelle": "Meeting d'Angers - ANGERS",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72377",
+      "niveau": "D",
+      "libelle": "Meeting Départemental Var et Alpes Maritimes - ANTIBES",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72317",
+      "niveau": "D",
+      "libelle": "Challenge Départemental d'Automne - BÉTHUNE",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72163",
+      "niveau": "D",
+      "libelle": "Journée d'Automne - BOURGES",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72085",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Journée 1 - Zone Nord - CHÂTILLON",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72087",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Journée 1 - Zone Nord (200 NL et Relais) - CHÂTILLON",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72083",
+      "niveau": "D",
+      "libelle": "Challenge Jeunes Journée 1 Zone Sud - CLAMART",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72333",
+      "niveau": "D",
+      "libelle": "Meeting d'Automne - FONT-ROMEU",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72001",
+      "niveau": "D",
+      "libelle": "Challenge Jeunes - Journée 1 - Zone Nord - GENNEVILLIERS",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "71599",
+      "niveau": "D",
+      "libelle": "Meeting de Début de Saison - GRAVENCHON",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72367",
+      "niveau": "D",
+      "libelle": "Meeting Jeunes 1 et Avenirs - LA FERTÉ-SOUS-JOUARRE",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "71541",
+      "niveau": "D",
+      "libelle": "4e Journée Avenirs - LES ANCIZES-COMPS",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72237",
+      "niveau": "D",
+      "libelle": "Little Big Meeting - 4e Edition - LORIENT",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72151",
+      "niveau": "D",
+      "libelle": "1ère Journée du Circuit Icaunais - Poule 1 - MIGENNES",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72365",
+      "niveau": "D",
+      "libelle": "Meeting Jeunes 1 et Avenirs - MONTEREAU-FAULT-YONNE",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "71903",
+      "niveau": "D",
+      "libelle": "Meeting Juniors/Séniors de l'Essonne - MONTGERON",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72197",
+      "niveau": "D",
+      "libelle": "Meeting de l'Essonne - Maîtres - MONTGERON",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72371",
+      "niveau": "D",
+      "libelle": "Journée du Demi-fond - MONTPELLIER",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "71695",
+      "niveau": "D",
+      "libelle": "Meeting EANV - NOGENT-SUR-OISE",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "71917",
+      "niveau": "D",
+      "libelle": "Meeting Départemental Demi-fond - OBERNAI",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "71767",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs  - ROMORANTIN-LANTHENAY",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72303",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - SAINT-PIERRE-DU-MONT",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "71601",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes - SAINTE-FOY-LÈS-LYON",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "71431",
+      "niveau": "D",
+      "libelle": "Open des Savoie - SEYNOD",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "72153",
+      "niveau": "D",
+      "libelle": "1ère Journée du Circuit Icaunais - Poule 2 - TONNERRE",
+      "dateIso": "2021-10-16"
+    },
+    {
+      "competitionId": "71407",
+      "niveau": "R",
+      "libelle": "23e Meeting du Cotentin - CHERBOURG-EN-COTENTIN",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72023",
+      "niveau": "D",
+      "libelle": "Pré-saison Jeunes - ANCENIS",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72231",
+      "niveau": "D",
+      "libelle": "Circuit Qualificatif Nouvelle-Aquitaine Hiver - JOQUA 1 - BERGERAC",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72375",
+      "niveau": "D",
+      "libelle": "1er Circuit Hérault J3 - Juniors/Séniors - BÉZIERS",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71853",
+      "niveau": "D",
+      "libelle": "Pré-saison Juniors/Séniors - BOBIGNY",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72341",
+      "niveau": "D",
+      "libelle": "Meeting 28 de Reprise - BONNEVAL",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72273",
+      "niveau": "D",
+      "libelle": "Meeting Départemental n°1 - BOURG-EN-BRESSE",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72311",
+      "niveau": "D",
+      "libelle": "Etape Départementale de Reprise  - CHÂLONS-EN-CHAMPAGNE",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71725",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes - CROLLES",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72217",
+      "niveau": "D",
+      "libelle": "Meeting 4 Nages - DELLE",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72205",
+      "niveau": "D",
+      "libelle": "Circuit Alpin - DIGNE-LES-BAINS",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72235",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - DIGNE-LES-BAINS",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72425",
+      "niveau": "D",
+      "libelle": "Journée Départementale 21 Sprint - DIJON",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71563",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 2e Journée - DOUAI",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71773",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 2e Journée - DUNKERQUE",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72211",
+      "niveau": "D",
+      "libelle": "La Rentrée des Jeunes - ÉZANVILLE",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72379",
+      "niveau": "D",
+      "libelle": "Meeting Ornais de Rentrée - FLERS",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72369",
+      "niveau": "D",
+      "libelle": "Criterium de rentrée - 2ème journée - FOURMIES",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72091",
+      "niveau": "D",
+      "libelle": "Inter Team du Bourbonnais CD03 FFN - GANNAT",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71845",
+      "niveau": "D",
+      "libelle": "12e Meeting EDF Transfrontières - Ardennes - GIVET",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72157",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Départemental N°1 - GRAULHET",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72159",
+      "niveau": "D",
+      "libelle": "Confrontations Avenirs N°1 - GRAULHET",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72275",
+      "niveau": "D",
+      "libelle": "1er Meeting de l'Indre - LA CHÂTRE",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71533",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 2e Journée - LA MADELEINE",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72241",
+      "niveau": "D",
+      "libelle": "Challenge Départ. Jeunes et Juniors A - LA ROCHE-SUR-YON",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71993",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Journée 1 Zone Sud - LE PLESSIS-ROBINSON",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71997",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 1 zone Sud épreuves 200 NL et Relais - LE PLESSIS-ROBINSON",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72315",
+      "niveau": "D",
+      "libelle": "Meeting Départemental - LIMOUX",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72473",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - LIMOUX",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72247",
+      "niveau": "D",
+      "libelle": "Challenge Départ. Jeunes et Juniors B - LUÇON",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72269",
+      "niveau": "D",
+      "libelle": "Challenge Départemental Avenirs - LUÇON",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71531",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 2e Journée - MARCQ-EN-BAROEUL",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72203",
+      "niveau": "D",
+      "libelle": "Pré Saison Juniors/Séniors n°2 - MARTIGUES",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72309",
+      "niveau": "D",
+      "libelle": "Qualifications de Rentrée - Landes - MONT-DE-MARSAN",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72305",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - MONTAUBAN",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72307",
+      "niveau": "D",
+      "libelle": "Confrontations avenirs - MONTAUBAN",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72327",
+      "niveau": "D",
+      "libelle": "2e Journée Qualificative - MOURENX",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71501",
+      "niveau": "D",
+      "libelle": "Finales Meeting EANV - NOGENT-SUR-OISE",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71941",
+      "niveau": "D",
+      "libelle": "Pré-saison Juniors/Séniors 44 - NORT-SUR-ERDRE",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71743",
+      "niveau": "D",
+      "libelle": "1ère Journée Pré-saison - PACY-SUR-EURE",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71655",
+      "niveau": "D",
+      "libelle": "Journées de Rentrée Jeunes - POISSY",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71741",
+      "niveau": "D",
+      "libelle": "1ère Journée Pré-saison - PONT-SAINT-PIERRE",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72373",
+      "niveau": "D",
+      "libelle": "Demi-fond - QUINTIN",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71699",
+      "niveau": "D",
+      "libelle": "4e Journée Jeunes - RIOM",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71769",
+      "niveau": "D",
+      "libelle": "Journée d'automne 1 - ROMORANTIN-LANTHENAY",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71685",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 2e Journée - ROUBAIX",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71889",
+      "niveau": "D",
+      "libelle": "Journée Jeunes - Plot 1 - ROYAN",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72335",
+      "niveau": "D",
+      "libelle": "Jeunes 1 - SAINT-ÉTIENNE",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72355",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Saint-Priest - SAINT-PRIEST",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72209",
+      "niveau": "D",
+      "libelle": "La Rentrée des Jeunes - SANNOIS",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71801",
+      "niveau": "D",
+      "libelle": "Journée du CD57 - THIONVILLE",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71615",
+      "niveau": "D",
+      "libelle": "5e Meeting des Leuques - TOUL",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72293",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Jeunes #1 - TOULOUSE",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71775",
+      "niveau": "D",
+      "libelle": "Compétition de Reprise - TROYES",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "71777",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - TROYES",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72271",
+      "niveau": "D",
+      "libelle": "Journées de Rentrée Jeunes - VERSAILLES",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72391",
+      "niveau": "D",
+      "libelle": "Challenge Jeunes - Journée 1 -Zone Nord - VILLENEUVE-LA-GARENNE",
+      "dateIso": "2021-10-17"
+    },
+    {
+      "competitionId": "72457",
+      "niveau": "D",
+      "libelle": "Championnats de France Militaire - SAINT-AGNANT",
+      "dateIso": "2021-10-19"
+    },
+    {
+      "competitionId": "72545",
+      "niveau": "D",
+      "libelle": "Etape N°1 Challenge Avenirs - SAINT-FLORENTIN",
+      "dateIso": "2021-10-20"
+    },
+    {
+      "competitionId": "71691",
+      "niveau": "N",
+      "libelle": "1er Meeting National de Paris d'Automne - PARIS",
+      "dateIso": "2021-10-22"
+    },
+    {
+      "competitionId": "71871",
+      "niveau": "N",
+      "libelle": "5e Meeting d'Hérouville Saint-Clair - CAEN",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "71837",
+      "niveau": "R",
+      "libelle": "Meeting d'Olivet - Florian WIJAS - OLIVET",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "72507",
+      "niveau": "R",
+      "libelle": "Aito 25m #1 - PIRAE",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "71419",
+      "niveau": "D",
+      "libelle": "Championnat du Gard - 1 - ALES",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "72277",
+      "niveau": "D",
+      "libelle": "Challenge 2021 - N°1 - AMBÉRIEU-EN-BUGEY",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "71755",
+      "niveau": "D",
+      "libelle": "1ère Journée Départementale TC - AMBERT",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "72005",
+      "niveau": "D",
+      "libelle": "Meeting de Rentrée (Non OPEN) - BOULOGNE-BILLANCOURT",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "72615",
+      "niveau": "D",
+      "libelle": "Meeting de Rentrée (Non Open) - BOULOGNE-BILLANCOURT",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "71479",
+      "niveau": "D",
+      "libelle": "Meeting de Rentrée Avenirs - CARROS",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "71987",
+      "niveau": "D",
+      "libelle": "Championnats d'Automne  - CHATTE",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "71475",
+      "niveau": "D",
+      "libelle": "2nd Meeting des Maîtres de Ventadour - ÉGLETONS",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "71921",
+      "niveau": "D",
+      "libelle": "Meeting Pré-interclubs - ERSTEIN",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "72239",
+      "niveau": "D",
+      "libelle": "Pré-saison - LA TESTE-DE-BUCH",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "72419",
+      "niveau": "D",
+      "libelle": "Championnats du Finistère - LANDERNEAU",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "72089",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 1 - RENNES",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "72093",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes - RENNES",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "72097",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 2 - RENNES",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "71651",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs  - VERSAILLES",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "72255",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs Aveyron/Lozère - VILLEFRANCHE-DE-ROUERGUE",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "72261",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes Aveyron/Lozère - VILLEFRANCHE-DE-ROUERGUE",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "72875",
+      "niveau": "D",
+      "libelle": "Challenge du Conseil Départemental de l’Aveyron Master - VILLEFRANCHE-DE-R..",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "72903",
+      "niveau": "D",
+      "libelle": "interclubs equipes diverses avenirs - VILLEFRANCHE-DE-ROUERGUE",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "72905",
+      "niveau": "D",
+      "libelle": "Interclubs Jeunes Equipes diverses - VILLEFRANCHE-DE-ROUERGUE",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "71543",
+      "niveau": "D",
+      "libelle": "5e Meeting du CYN - YERRES",
+      "dateIso": "2021-10-23"
+    },
+    {
+      "competitionId": "71481",
+      "niveau": "R",
+      "libelle": "Meeting Annie BOYER 2021 - LONS-LE-SAUNIER",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "71591",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - AURILLAC",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "71417",
+      "niveau": "D",
+      "libelle": "Championnat du Gard - 2 - BEAUCAIRE",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "71833",
+      "niveau": "D",
+      "libelle": "Pré-saison Départementale Avenirs - BEAUPREAU",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72223",
+      "niveau": "D",
+      "libelle": "2e Journée Pré-saison - BERNAY",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72401",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Plot 1 - COULOISY",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72403",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Plot 2 - COULOISY",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72409",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs - Etape 1 - COULOISY",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72717",
+      "niveau": "D",
+      "libelle": "1er Challenge Avenirs - (Sans Pass'compétition) - LATTES",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72385",
+      "niveau": "D",
+      "libelle": "Pré-saison - LE LUDE",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72415",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Lot-et-Garonne - MARMANDE",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72417",
+      "niveau": "D",
+      "libelle": "Etape Qualificative n°1 - Lot-et-Garonne - MARMANDE",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72601",
+      "niveau": "D",
+      "libelle": "Circuit Départemental N°1 - MAZAMET",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72589",
+      "niveau": "D",
+      "libelle": "Circuit Départemental 1 - MONTAUBAN",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72455",
+      "niveau": "D",
+      "libelle": "CD70 - Etape 1 - 2021 - T4 - NOIDANS-LÈS-VESOUL",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72505",
+      "niveau": "D",
+      "libelle": "CD70 - Challenge Avenirs 2021 - NOIDANS-LÈS-VESOUL",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72475",
+      "niveau": "D",
+      "libelle": "2e Circuit Qualificatif Jeunes - PAU",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72449",
+      "niveau": "D",
+      "libelle": "Pré-saison - PERTUIS",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72225",
+      "niveau": "D",
+      "libelle": "2e Journée Pré-saison - PONT-AUDEMER",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72105",
+      "niveau": "D",
+      "libelle": "5e Meeting de Rentrée du CD03 FFN - 1ère Journée - SAINT-VICTOR",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72021",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Jeunes - SAINT-YRIEIX-SUR-CHARENTE",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72025",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Avenirs - SAINT-YRIEIX-SUR-CHARENTE",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72027",
+      "niveau": "D",
+      "libelle": "Challenge Sprint - SAINT-YRIEIX-SUR-CHARENTE",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72521",
+      "niveau": "D",
+      "libelle": "Meeting d'Automne - SÉMÉAC",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72877",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - SÉMÉAC",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72945",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - SÉMÉAC",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72607",
+      "niveau": "D",
+      "libelle": "Meeting Sprint Juniors/Séniors - TOULOUSE",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "72263",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Aveyron/Lozère  - VILLEFRANCHE-DE-ROUERGUE",
+      "dateIso": "2021-10-24"
+    },
+    {
+      "competitionId": "71693",
+      "niveau": "N",
+      "libelle": "12e Meeting National Open Côte d'Opale/Pas-de-Calais - BERCK",
+      "dateIso": "2021-10-29"
+    },
+    {
+      "competitionId": "71933",
+      "niveau": "R",
+      "libelle": "7e Meeting de Natation CNF Fougères Agglomération - FOUGÈRES",
+      "dateIso": "2021-10-29"
+    },
+    {
+      "competitionId": "71727",
+      "niveau": "N",
+      "libelle": "Meeting National Alice Milliat - COGNAC",
+      "dateIso": "2021-10-30"
+    },
+    {
+      "competitionId": "71935",
+      "niveau": "R",
+      "libelle": "7e Meeting de Natation CNF - Finales du Samedi 30/10 - FOUGÈRES",
+      "dateIso": "2021-10-30"
+    },
+    {
+      "competitionId": "72393",
+      "niveau": "R",
+      "libelle": "Challenge 4 Nages - SAINT-ANDRÉ",
+      "dateIso": "2021-10-30"
+    },
+    {
+      "competitionId": "72939",
+      "niveau": "D",
+      "libelle": "Championnat du Sprint de Haute-Marne - LANGRES",
+      "dateIso": "2021-10-30"
+    },
+    {
+      "competitionId": "71937",
+      "niveau": "R",
+      "libelle": "7e Meeting de Natation CNF - Finales du Dimanche 31/10 - FOUGÈRES",
+      "dateIso": "2021-10-31"
+    },
+    {
+      "competitionId": "71409",
+      "niveau": "R",
+      "libelle": "Meeting 2021 de la ville de Grand-Quevilly - GRAND-QUEVILLY",
+      "dateIso": "2021-10-31"
+    },
+    {
+      "competitionId": "72113",
+      "niveau": "D",
+      "libelle": "5e Meeting de Rentrée du CD03 FFN - 2e Journée - BELLERIVE-SUR-ALLIER",
+      "dateIso": "2021-10-31"
+    },
+    {
+      "competitionId": "72437",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Automne - PAMIERS",
+      "dateIso": "2021-10-31"
+    },
+    {
+      "competitionId": "72865",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Automne 25m - PAMIERS",
+      "dateIso": "2021-10-31"
+    },
+    {
+      "competitionId": "72523",
+      "niveau": "D",
+      "libelle": "Meeting 1 DSL/SVB - SAINT-LOUIS",
+      "dateIso": "2021-10-31"
+    }
+  ]
+}
