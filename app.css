@@ -377,6 +377,49 @@ main { flex: 1; display: flex; position: relative; min-height: 0; }
    entre la carte et la liste. */
 #list .bassin-tag { font-size: 0.68rem; }
 
+/* Items "Habituelles" (compétitions récurrentes prédites, pas encore sur liveffn).
+   Fond orange pâle pour différencier visuellement, curseur par défaut (pas
+   de clic actif puisque pas d'ID liveffn vers où aller). */
+#list li.habituelle-item {
+  background: #fff7ed; border-left: 3px solid #f97316;
+  cursor: default;
+}
+#list li.habituelle-item:hover, #list li.habituelle-item:active {
+  background: #fed7aa;
+}
+.habituelle-lieu-tbd {
+  font-style: italic; color: #9a3412;
+}
+.habituelle-note {
+  font-size: 0.72rem; color: #9a3412; margin: 0.3rem 0 0;
+  font-style: italic;
+}
+.habituelle-recent {
+  font-size: 0.72rem; color: #475569; margin: 0.25rem 0 0;
+}
+
+/* Mode "Habituelles" : on cache uniquement le tri par distance (pas
+   pertinent pour des compés non confirmées). Le filtre bassin reste
+   utilisable. La carte affiche les ville-centrées + le centroïde des
+   dernières éditions pour les tournantes Régional/Départemental
+   (les CF restent uniquement dans la liste, pas mappable). */
+body.mode-habituelles .sort-group { display: none; }
+
+/* En-tête explicatif au-dessus de la liste */
+.habituelles-header {
+  background: #fff7ed; border-left: 3px solid #f97316;
+  padding: 0.7rem 1rem;
+  font-size: 0.78rem; color: #9a3412;
+  border-bottom: 1px solid #e2e8f0;
+}
+.habituelles-header strong { color: #7c2d12; }
+
+/* Marqueur orange pour les "habituelles" sur la carte */
+.marker-pill.marker-habituelle {
+  background: #f97316; border-color: #fff;
+  color: #fff;
+}
+
 /* Badges de niveau
    Hiérarchie visuelle :
    - F (Championnat de France maîtres) : rouge vif, le plus fort

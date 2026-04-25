@@ -25,6 +25,7 @@ const CITIES_PATH = path.join(DATA_DIR, "cities.json");
 const POOL_SIZES_PATH = path.join(DATA_DIR, "pool_sizes.json");
 const OVERRIDES_PATH = path.join(DATA_DIR, "cities_overrides.json");
 const CALENDAR_CACHE_DIR = path.join(DATA_DIR, "calendar_cache");
+const PREDICTIONS_PATH = path.join(DATA_DIR, "predictions.json");
 
 // User-Agent explicite pour les administrateurs de liveffn.com :
 // - nom du projet clairement identifié (Couloir 4)
@@ -872,6 +873,420 @@ async function main() {
   const bassinNull = kept.filter(c => c.bassin == null).length;
   console.log(
     `[scrape] final: competitions.json (${kept.length} comp : ${bassin25}×25m, ${bassin50}×50m, ${bassinNull}×null), cities.json (${Object.keys(sortedCache).length}), pool_sizes.json (${Object.keys(poolCache).length})`,
+  );
+
+  // 8. Prédictions des compétitions "habituelles" (récurrentes non encore confirmées
+  //    sur liveffn pour la saison courante). Lit l'ensemble des snapshots
+  //    calendar_cache/ pour bénéficier d'un historique étendu (jusqu'à 6 saisons).
+  await generatePredictions(kept, poolCache, cache, overrides, now);
+}
+
+// --- Prédictions "Habituelles" -------------------------------------------
+// Une compétition récurrente est identifiée par sa présence sur ≥ 4 saisons
+// (sur 6 max disponibles). On match différemment selon le type :
+//   - Tournante (championnat, régional, départemental, interclub, finale,
+//     coupe de france) : la ville change chaque année → match (niveau,
+//     fingerprint nom, mois) ±21 j de tolérance.
+//   - Ville-centrée (meeting de club, etc.) : la ville est l'identité →
+//     match (ville, niveau) ±21 j.
+// On filtre ensuite les séries déjà confirmées dans la saison courante
+// (pour éviter le doublon avec "À venir") et celles dont la date estimée
+// est passée depuis > FROZEN_GRACE_DAYS jours (probablement annulées).
+
+const TOURNANT_RE =
+  /championn?at?s?|régional|regional|départemental|departemental|interclub|finale|coupe de france/i;
+
+function isTournant(c) {
+  if (c.championnatFrance === true) return true;
+  return TOURNANT_RE.test(c.nom || "");
+}
+
+function canonicalize(nom) {
+  return String(nom)
+    .toLowerCase()
+    .normalize("NFD").replace(/[̀-ͯ]/g, "")
+    // numéros arabes : "1er", "12e", "12ème", "12es"
+    .replace(/^\d+\s*(?:es|ères?|ieres?|ière?|eme|ème|er|nd|rd|st|th|e)\b\s*/i, "")
+    // numéros romains : "Ve", "XIVe", "XXXVIIes", "IIIèmes"
+    .replace(/^[ivx]+\s*(?:es|èmes?|emes?|e)?\b\s*/i, "")
+    .replace(/[.,;:'"()\[\]\-]/g, " ")
+    .replace(/\b(maîtres?|maitres?|masters?|open|france|de|du|des|d|la|le|les|en|au|aux|et|nat|natation)\b/gi, "")
+    .replace(/\s+/g, " ").trim();
+}
+
+function fingerprint(nom) {
+  // Retire le "s" final de chaque mot (championnat/championnats → championnat)
+  // pour rendre singulier/pluriel équivalents au matching.
+  return canonicalize(nom)
+    .split(/\s+/)
+    .filter((w) => w.length > 2)
+    .map((w) => w.replace(/s$/, ""))
+    .slice(0, 5)
+    .sort()
+    .join("_");
+}
+
+function dayOfYear(iso) {
+  const d = new Date(iso);
+  return Math.floor((d - new Date(d.getFullYear(), 0, 0)) / 86400000);
+}
+
+function circDist(a, b) {
+  const d = Math.abs(a - b);
+  return Math.min(d, 365 - d);
+}
+
+function splitNomVilleLocal(libelle) {
+  const idx = libelle.lastIndexOf(" - ");
+  if (idx === -1) return { nom: libelle.trim(), ville: "" };
+  return { nom: libelle.slice(0, idx).trim(), ville: libelle.slice(idx + 3).trim().toUpperCase() };
+}
+
+// Charge tous les snapshots calendar_cache + extrait les compés maîtres dédupliquées
+async function loadHistoricalMaitres() {
+  const { readdir } = await import("node:fs/promises");
+  let files = [];
+  try {
+    files = (await readdir(CALENDAR_CACHE_DIR)).filter((f) => f.endsWith(".json")).sort();
+  } catch (err) {
+    if (err.code === "ENOENT") return [];
+    throw err;
+  }
+  const dedup = new Map();
+  for (const f of files) {
+    let payload;
+    try {
+      payload = JSON.parse(await readFile(path.join(CALENDAR_CACHE_DIR, f), "utf8"));
+    } catch (err) {
+      console.warn(`[predict] snapshot ${f} illisible: ${err.message}`);
+      continue;
+    }
+    if (!Array.isArray(payload?.raw)) continue;
+    for (const r of payload.raw) {
+      if (!isMaitres(r.libelle)) continue;
+      const decoded = decodeEntities(r.libelle);
+      if (isForeign(decoded)) continue; // exclut Tunisian Open, etc.
+      const { nom, ville } = splitNomVilleLocal(decoded);
+      const id = r.competitionId;
+      if (!dedup.has(id)) {
+        dedup.set(id, {
+          id,
+          niveau: r.niveau,
+          nom,
+          ville,
+          dateDebut: r.dateIso,
+          dateFin: r.dateIso,
+          championnatFrance: isChampionnatFrance(nom),
+        });
+      } else {
+        const e = dedup.get(id);
+        if (r.dateIso < e.dateDebut) e.dateDebut = r.dateIso;
+        if (r.dateIso > e.dateFin) e.dateFin = r.dateIso;
+      }
+    }
+  }
+  return [...dedup.values()];
+}
+
+// Saison ID au format "YYYY-YYYY" pour une date ISO donnée
+function seasonIdOf(dateIso) {
+  const d = new Date(dateIso);
+  const y = d.getFullYear();
+  const m = d.getMonth();
+  const start = m >= 8 ? y : y - 1;
+  return `${start}-${start + 1}`;
+}
+
+function momentOfMonth(dayOfMonth) {
+  if (dayOfMonth <= 10) return "début";
+  if (dayOfMonth <= 20) return "mi";
+  return "fin";
+}
+
+const FR_MONTHS = [
+  "janvier", "février", "mars", "avril", "mai", "juin",
+  "juillet", "août", "septembre", "octobre", "novembre", "décembre",
+];
+
+async function generatePredictions(currentSeasonComps, poolCache, citiesCache, overrides, now) {
+  console.log("[predict] génération des prédictions 'Habituelles'...");
+
+  // 1. Charger l'historique complet (depuis les snapshots calendar_cache)
+  const historical = await loadHistoricalMaitres();
+  console.log(`[predict] ${historical.length} compés historiques chargées (snapshots cache)`);
+
+  // 2. Combiner avec la saison courante (qui n'est pas encore figée)
+  // currentSeasonComps : objets enrichis lat/lon/bassin (kept dans main)
+  const combined = [...historical];
+  const currentIds = new Set(currentSeasonComps.map((c) => c.id));
+  for (const c of currentSeasonComps) {
+    if (!combined.find((h) => h.id === c.id)) {
+      combined.push({
+        id: c.id,
+        niveau: c.niveau,
+        nom: c.nom,
+        ville: c.ville,
+        dateDebut: c.dateDebut,
+        dateFin: c.dateFin,
+        championnatFrance: c.championnatFrance,
+      });
+    }
+  }
+
+  // 3. Enrichir chaque compé avec saison + doy
+  const enriched = combined
+    .map((c) => ({
+      ...c,
+      season: seasonIdOf(c.dateDebut),
+      doy: dayOfYear(c.dateDebut),
+    }))
+    .filter((c) => c.ville && c.dateDebut); // sanity
+
+  // 4. Group par clé adaptée au type
+  const groups = new Map();
+  for (const c of enriched) {
+    const key = isTournant(c)
+      ? `T|${c.niveau}|${fingerprint(c.nom)}`
+      : `V|${c.ville}|${c.niveau}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(c);
+  }
+
+  // 5. Union-Find ±45j pour clusterer en séries annuelles. 21j initialement
+  //    était trop strict — une compé peut bouger de 4-6 semaines entre 2
+  //    éditions (changement de calendrier, weekend de Pâques mobile, etc.).
+  //    45j reste assez petit pour distinguer une "édition Printemps" d'une
+  //    "édition Automne" dans la même ville (>3 mois d'écart).
+  const series = [];
+  const THRESHOLD_DAYS = 45;
+  for (const [k, list] of groups) {
+    if (list.length === 1) { series.push({ key: k, items: list }); continue; }
+    const parent = list.map((_, i) => i);
+    const find = (x) => { while (parent[x] !== x) { parent[x] = parent[parent[x]]; x = parent[x]; } return x; };
+    const union = (a, b) => { const ra = find(a), rb = find(b); if (ra !== rb) parent[ra] = rb; };
+    for (let i = 0; i < list.length; i++) {
+      for (let j = i + 1; j < list.length; j++) {
+        if (list[i].season === list[j].season) continue;
+        if (circDist(list[i].doy, list[j].doy) <= THRESHOLD_DAYS) union(i, j);
+      }
+    }
+    const cmap = new Map();
+    for (let i = 0; i < list.length; i++) {
+      const r = find(i);
+      if (!cmap.has(r)) cmap.set(r, []);
+      cmap.get(r).push(list[i]);
+    }
+    for (const g of cmap.values()) series.push({ key: k, items: g });
+  }
+
+  // 6. Saison courante (id "YYYY-YYYY") et fenêtre de validité
+  const currentSeasonId = seasonIdOf(isoDate(now));
+  const todayIso = isoDate(now);
+  const seasonEnd = `${parseInt(currentSeasonId.split("-")[1], 10)}-08-31`;
+
+  // 7. Garder les séries éligibles. Règle :
+  //    - PRÉSENCE en N-1 obligatoire (signal récent fort = "elle existait
+  //      l'an dernier")
+  //    - + au moins 1 autre saison d'historique (pour distinguer une vraie
+  //      récurrente d'un one-shot)
+  //    - + pas encore confirmée dans la saison courante
+  //    On expose aussi le streak consécutif (combien d'années d'affilée
+  //    finissant en N-1) à titre de "force" du signal.
+  const startYearCurrent = parseInt(currentSeasonId.split("-")[0], 10);
+  const sN1 = `${startYearCurrent - 1}-${startYearCurrent}`;
+  const sN2 = `${startYearCurrent - 2}-${startYearCurrent - 1}`;
+  const sN3 = `${startYearCurrent - 3}-${startYearCurrent - 2}`;
+  const sN4 = `${startYearCurrent - 4}-${startYearCurrent - 3}`;
+
+  function consecutiveStreakFromN1(seasonsSet) {
+    // compte les saisons d'affilée en partant de N-1 vers le passé
+    let n = 0;
+    for (let y = startYearCurrent; y >= startYearCurrent - 5; y--) {
+      const sId = `${y - 1}-${y}`;
+      if (seasonsSet.has(sId)) n++;
+      else break;
+    }
+    return n;
+  }
+
+  // Convertit "2024-2025" → "2025" (l'année finale, la plus parlante)
+  function seasonShortLabel(seasonId) {
+    return seasonId.split("-")[1];
+  }
+
+  const predictions = [];
+  for (const s of series) {
+    const seasonsSeen = new Set(s.items.map((c) => c.season));
+    const presentInCurrent = seasonsSeen.has(currentSeasonId);
+    if (presentInCurrent) continue; // déjà sur liveffn → exclu
+
+    if (!seasonsSeen.has(sN1)) continue; // N-1 OBLIGATOIRE (l'an dernier)
+    // Au moins 2 présences sur les 4 saisons récentes (N-1, N-2, N-3, N-4).
+    // Toulouse (N-1 + N-4) passe ici, mais une compé vue uniquement en N-1
+    // sans aucune autre récurrence dans les 4 dernières années est exclue.
+    const recentCount =
+      (seasonsSeen.has(sN1) ? 1 : 0) +
+      (seasonsSeen.has(sN2) ? 1 : 0) +
+      (seasonsSeen.has(sN3) ? 1 : 0) +
+      (seasonsSeen.has(sN4) ? 1 : 0);
+    if (recentCount < 2) continue;
+
+    const historicalSeasons = [...seasonsSeen].filter((id) => id !== currentSeasonId);
+
+    const streak = consecutiveStreakFromN1(seasonsSeen);
+
+    // Date estimée : on privilégie les éditions consécutives finissant en
+    // N-1 (plus représentatives de la date probable cette année). Si pas
+    // de streak (toutes les saisons d'historique sont éparses), on prend
+    // simplement les 3 dernières par dateDebut.
+    const consecSeasonIds = new Set();
+    for (let y = startYearCurrent, n = 0; n < streak; y--, n++) {
+      consecSeasonIds.add(`${y - 1}-${y}`);
+    }
+    let historicalItems = s.items.filter((c) => consecSeasonIds.has(c.season));
+    if (historicalItems.length === 0) {
+      // fallback : si la sélection consécutive est vide (cas limite),
+      // prendre les 3 occurrences les plus récentes
+      historicalItems = [...s.items]
+        .filter((c) => c.season !== currentSeasonId)
+        .sort((a, b) => b.dateDebut.localeCompare(a.dateDebut))
+        .slice(0, 3);
+    }
+    const meanDoy = Math.round(
+      historicalItems.reduce((a, b) => a + b.doy, 0) / historicalItems.length,
+    );
+    const dispersion = (() => {
+      const m = meanDoy;
+      return Math.sqrt(
+        historicalItems.reduce((s2, c) => s2 + (c.doy - m) ** 2, 0) / historicalItems.length,
+      );
+    })();
+
+    // Date civile : choisir l'année correcte (sept-déc → start, jan-août → start+1)
+    const startYear = parseInt(currentSeasonId.split("-")[0], 10);
+    const endYear = parseInt(currentSeasonId.split("-")[1], 10);
+    const expectedYear = meanDoy >= 244 ? startYear : endYear; // doy 244 = ~1er sept
+    const dRef = new Date(expectedYear, 0, meanDoy);
+    const expectedIso = isoDate(dRef);
+    if (expectedIso > seasonEnd) continue; // hors saison courante
+    // Filtre : on retire celles dont la date estimée est strictement passée.
+    // Pas de grâce : si on est le 25 avril, une compé estimée au 27 mars est
+    // visiblement passée pour l'utilisateur, même si elle pourrait théoriquement
+    // arriver dans la "tolérance" du modèle.
+    if (expectedIso < todayIso) continue;
+
+    const example = s.items[s.items.length - 1]; // exemple le plus récent
+    const tournant = isTournant(example);
+    const isCF = example.championnatFrance === true;
+
+    // Helper pour récupérer lat/lon d'une ville (override > cache)
+    const cityCoords = (ville) => {
+      const k = normalizeCityKey(ville);
+      const ov = overrides[k];
+      if (ov) return { lat: ov.lat, lon: ov.lon };
+      const c = citiesCache[k];
+      if (c && c.lat != null) return { lat: c.lat, lon: c.lon };
+      return null;
+    };
+
+    // Coordonnées + bassin :
+    //   - Ville-centrée : ville/bassin stables d'une saison à l'autre.
+    //   - Tournante Régional/Départemental : centroïde des dernières villes
+    //     hôtes (rotation locale, donc moyenne représentative).
+    //   - CF (champ. France) : pas de carte, rotation nationale.
+    let lat = null, lon = null, bassin = null;
+    if (!tournant) {
+      // Ville-centrée
+      const coords = cityCoords(example.ville);
+      if (coords) { lat = coords.lat; lon = coords.lon; }
+    } else if (isCF) {
+      // Championnat de France : rotation nationale, lieu impossible à
+      // prédire à partir des éditions précédentes. Easter egg : on les
+      // place à Nîmes avec un nom de ville fictif.
+      lat = 43.836699; lon = 4.360054; // Nîmes
+    } else {
+      // Tournante régionale/départementale : centroïde des 3 derniers hôtes connus
+      const lastHosts = [...historicalItems]
+        .sort((a, b) => b.dateDebut.localeCompare(a.dateDebut))
+        .slice(0, 3);
+      const coordsList = lastHosts
+        .map((h) => cityCoords(h.ville))
+        .filter(Boolean);
+      if (coordsList.length > 0) {
+        lat = coordsList.reduce((s2, c) => s2 + c.lat, 0) / coordsList.length;
+        lon = coordsList.reduce((s2, c) => s2 + c.lon, 0) / coordsList.length;
+      }
+    }
+    // Bassin : prendre celui du membre de série qui en a un (cohérent à 100%
+    // pour les ville-centrées ; pour les tournantes c'est juste indicatif).
+    for (const item of [...s.items].sort((a, b) => b.dateDebut.localeCompare(a.dateDebut))) {
+      if (poolCache[item.id] != null) { bassin = poolCache[item.id]; break; }
+    }
+
+    predictions.push({
+      id: `habituelle-${s.key.replace(/[^a-zA-Z0-9_]/g, "_")}-${expectedYear}-${pad2(dRef.getMonth() + 1)}`,
+      type: tournant ? "tournant" : "ville",
+      nom: example.nom,
+      ville: !tournant ? example.ville : (isCF ? "LAPINLAND" : null),
+      // Pour les tournantes R/D : lat/lon = centroïde des derniers hôtes,
+      // affichables sur la carte. Pour les CF : null (pas mappable).
+      lat,
+      lon,
+      niveau: example.niveau,
+      niveauLibelle: NIVEAU_LIBELLE[example.niveau] || example.niveau,
+      championnatFrance: example.championnatFrance,
+      bassin,
+      month: pad2(dRef.getMonth() + 1),
+      monthLabel: FR_MONTHS[dRef.getMonth()],
+      moment: momentOfMonth(dRef.getDate()),
+      expectedDate: expectedIso, // pour le tri
+      dispersionDays: Math.round(dispersion),
+      seasonsSeen: historicalSeasons.sort(),
+      consecutiveStreak: streak,
+      // Libellé "Vue en 2025, 2024, 2022" (3 dernières années d'historique)
+      seasonsLabel: (() => {
+        const years = historicalSeasons
+          .sort()
+          .reverse()
+          .slice(0, 4)
+          .map(seasonShortLabel);
+        return years.join(", ");
+      })(),
+      // 3 dernières villes hôtes connues (ordre récent → ancien). Surtout
+      // utile pour les tournantes : permet à l'utilisateur de visualiser où
+      // la compé a eu lieu les éditions précédentes.
+      recentCities: (() => {
+        const seen = new Set();
+        const out = [];
+        const sortedItems = [...historicalItems].sort((a, b) => b.dateDebut.localeCompare(a.dateDebut));
+        for (const it of sortedItems) {
+          if (it.ville && !seen.has(it.ville)) {
+            seen.add(it.ville);
+            out.push(it.ville);
+            if (out.length >= 3) break;
+          }
+        }
+        return out;
+      })(),
+    });
+  }
+
+  // 8. Trier par date estimée croissante
+  predictions.sort((a, b) => a.expectedDate.localeCompare(b.expectedDate));
+
+  // 9. Écrire data/predictions.json
+  const output = {
+    generatedAt: new Date().toISOString(),
+    season: currentSeasonId,
+    rule: "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
+    predictions,
+  };
+  await atomicWriteFile(PREDICTIONS_PATH, JSON.stringify(output, null, 2) + "\n");
+
+  const tournantes = predictions.filter((p) => p.type === "tournant").length;
+  const villes = predictions.filter((p) => p.type === "ville").length;
+  console.log(
+    `[predict] ${predictions.length} prédictions écrites (${villes} ville-centrées, ${tournantes} tournantes)`,
   );
 }
 

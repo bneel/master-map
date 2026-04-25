@@ -1,0 +1,492 @@
+{
+  "generatedAt": "2026-04-25T18:01:53.084Z",
+  "season": "2025-2026",
+  "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
+  "predictions": [
+    {
+      "id": "habituelle-T_D_departementale_journee-2026-05",
+      "type": "tournant",
+      "nom": "Journée Départementale Maitres",
+      "ville": null,
+      "lat": 48.8376296,
+      "lon": -1.5959177,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "05",
+      "monthLabel": "mai",
+      "moment": "début",
+      "expectedDate": "2026-05-01",
+      "dispersionDays": 3,
+      "seasonsSeen": [
+        "2024-2025",
+        "2023-2024",
+        "2021-2022"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2025, 2024, 2022",
+      "recentCities": [
+        "GRANVILLE"
+      ]
+    },
+    {
+      "id": "habituelle-T_R_championnat_normandie-2026-05",
+      "type": "tournant",
+      "nom": "Championnats de Normandie Open des Maîtres",
+      "ville": null,
+      "lat": 49.411937300000005,
+      "lon": -0.994259,
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "05",
+      "monthLabel": "mai",
+      "moment": "mi",
+      "expectedDate": "2026-05-12",
+      "dispersionDays": 27,
+      "seasonsSeen": [
+        "2024-2025",
+        "2023-2024",
+        "2021-2022"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2025, 2024, 2022",
+      "recentCities": [
+        "CHERBOURG-EN-COTENTIN",
+        "CAEN"
+      ]
+    },
+    {
+      "id": "habituelle-V_SAINT_LEU_R-2026-05",
+      "type": "ville",
+      "nom": "Challenge des Maîtres 2",
+      "ville": "SAINT-LEU",
+      "lat": -21.1677694,
+      "lon": 55.2881932,
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "05",
+      "monthLabel": "mai",
+      "moment": "mi",
+      "expectedDate": "2026-05-12",
+      "dispersionDays": 8,
+      "seasonsSeen": [
+        "2024-2025",
+        "2023-2024"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2025, 2024",
+      "recentCities": [
+        "SAINT-LEU"
+      ]
+    },
+    {
+      "id": "habituelle-V_LURE_D-2026-05",
+      "type": "ville",
+      "nom": "Meeting Maîtres Open",
+      "ville": "LURE",
+      "lat": 47.6863376,
+      "lon": 6.4946806,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "05",
+      "monthLabel": "mai",
+      "moment": "mi",
+      "expectedDate": "2026-05-19",
+      "dispersionDays": 10,
+      "seasonsSeen": [
+        "2024-2025",
+        "2023-2024"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2025, 2024",
+      "recentCities": [
+        "LURE"
+      ]
+    },
+    {
+      "id": "habituelle-V_NOGENT_SUR_OISE_D-2026-05",
+      "type": "ville",
+      "nom": "Meeting les Maîtres en Fête",
+      "ville": "NOGENT-SUR-OISE",
+      "lat": 49.2720766,
+      "lon": 2.469591,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "05",
+      "monthLabel": "mai",
+      "moment": "fin",
+      "expectedDate": "2026-05-25",
+      "dispersionDays": 1,
+      "seasonsSeen": [
+        "2024-2025",
+        "2023-2024"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2025, 2024",
+      "recentCities": [
+        "NOGENT-SUR-OISE"
+      ]
+    },
+    {
+      "id": "habituelle-T_D_championnat_printemp-2026-05",
+      "type": "tournant",
+      "nom": "Championnats 36 Printemps Maîtres",
+      "ville": null,
+      "lat": 47.6903527,
+      "lon": 1.9411757,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "05",
+      "monthLabel": "mai",
+      "moment": "fin",
+      "expectedDate": "2026-05-26",
+      "dispersionDays": 1,
+      "seasonsSeen": [
+        "2024-2025",
+        "2023-2024"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2025, 2024",
+      "recentCities": [
+        "ARGENTON-SUR-CREUSE",
+        "VILLEJUIF"
+      ]
+    },
+    {
+      "id": "habituelle-V_PAU_D-2026-05",
+      "type": "ville",
+      "nom": "Meeting Masters de Pau - Paul Izard",
+      "ville": "PAU",
+      "lat": 43.2957547,
+      "lon": -0.3685668,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 50,
+      "month": "05",
+      "monthLabel": "mai",
+      "moment": "fin",
+      "expectedDate": "2026-05-29",
+      "dispersionDays": 5,
+      "seasonsSeen": [
+        "2024-2025",
+        "2023-2024"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2025, 2024",
+      "recentCities": [
+        "PAU"
+      ]
+    },
+    {
+      "id": "habituelle-T_D_championnat_departementaux_ete-2026-05",
+      "type": "tournant",
+      "nom": "Championnats Départementaux Open Masters Eté",
+      "ville": null,
+      "lat": 46.477343033333334,
+      "lon": 0.6597852000000001,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "05",
+      "monthLabel": "mai",
+      "moment": "fin",
+      "expectedDate": "2026-05-31",
+      "dispersionDays": 11,
+      "seasonsSeen": [
+        "2024-2025",
+        "2023-2024",
+        "2021-2022",
+        "2020-2021"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2025, 2024, 2022, 2021",
+      "recentCities": [
+        "LE LUDE",
+        "VIERZON",
+        "LANGON"
+      ]
+    },
+    {
+      "id": "habituelle-V_LUN_VILLE_D-2026-05",
+      "type": "ville",
+      "nom": "4th Meeting of the Ducks - Maîtres",
+      "ville": "LUNÉVILLE",
+      "lat": 48.5916164,
+      "lon": 6.4919563,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 50,
+      "month": "05",
+      "monthLabel": "mai",
+      "moment": "fin",
+      "expectedDate": "2026-05-31",
+      "dispersionDays": 10,
+      "seasonsSeen": [
+        "2024-2025",
+        "2023-2024",
+        "2021-2022"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2025, 2024, 2022",
+      "recentCities": [
+        "LUNÉVILLE"
+      ]
+    },
+    {
+      "id": "habituelle-V_LES_ABYMES_R-2026-06",
+      "type": "ville",
+      "nom": "Shark Meet Maîtres",
+      "ville": "LES ABYMES",
+      "lat": 16.2706436,
+      "lon": -61.5057749,
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 50,
+      "month": "06",
+      "monthLabel": "juin",
+      "moment": "début",
+      "expectedDate": "2026-06-05",
+      "dispersionDays": 3,
+      "seasonsSeen": [
+        "2024-2025",
+        "2023-2024"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2025, 2024",
+      "recentCities": [
+        "LES ABYMES"
+      ]
+    },
+    {
+      "id": "habituelle-T_R_championnat_ete_regional-2026-06",
+      "type": "tournant",
+      "nom": "Championnat Régional Eté Maîtres",
+      "ville": null,
+      "lat": 46.194827,
+      "lon": 1.9507644666666666,
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 50,
+      "month": "06",
+      "monthLabel": "juin",
+      "moment": "début",
+      "expectedDate": "2026-06-05",
+      "dispersionDays": 4,
+      "seasonsSeen": [
+        "2024-2025",
+        "2023-2024",
+        "2021-2022"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2025, 2024, 2022",
+      "recentCities": [
+        "ORLÉANS",
+        "SAUVIAN",
+        "TOURS"
+      ]
+    },
+    {
+      "id": "habituelle-T_R_corse_interclub_juniors_senior-2026-06",
+      "type": "tournant",
+      "nom": "Interclubs Corse Juniors/Séniors et Maîtres",
+      "ville": null,
+      "lat": 42.3128985,
+      "lon": 9.0942608,
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "06",
+      "monthLabel": "juin",
+      "moment": "début",
+      "expectedDate": "2026-06-06",
+      "dispersionDays": 5,
+      "seasonsSeen": [
+        "2024-2025",
+        "2023-2024"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2025, 2024",
+      "recentCities": [
+        "AJACCIO",
+        "BASTIA"
+      ]
+    },
+    {
+      "id": "habituelle-V_TOULOUSE_N-2026-06",
+      "type": "ville",
+      "nom": "13e Meeting National des Maîtres de Toulouse",
+      "ville": "TOULOUSE",
+      "lat": 43.6044638,
+      "lon": 1.4442433,
+      "niveau": "N",
+      "niveauLibelle": "National",
+      "championnatFrance": false,
+      "bassin": 50,
+      "month": "06",
+      "monthLabel": "juin",
+      "moment": "début",
+      "expectedDate": "2026-06-07",
+      "dispersionDays": 0,
+      "seasonsSeen": [
+        "2024-2025",
+        "2021-2022"
+      ],
+      "consecutiveStreak": 1,
+      "seasonsLabel": "2025, 2022",
+      "recentCities": [
+        "TOULOUSE"
+      ]
+    },
+    {
+      "id": "habituelle-T_D_circuit_finale-2026-06",
+      "type": "tournant",
+      "nom": "Finale du Circuit 76 des Maîtres",
+      "ville": null,
+      "lat": 49.4938975,
+      "lon": 0.1079732,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 50,
+      "month": "06",
+      "monthLabel": "juin",
+      "moment": "début",
+      "expectedDate": "2026-06-09",
+      "dispersionDays": 8,
+      "seasonsSeen": [
+        "2024-2025",
+        "2023-2024"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2025, 2024",
+      "recentCities": [
+        "LE HAVRE"
+      ]
+    },
+    {
+      "id": "habituelle-T_N_championnat_ete-2026-06",
+      "type": "tournant",
+      "nom": "XXXVIIIe Championnats de France Eté Open",
+      "ville": "LAPINLAND",
+      "lat": 43.836699,
+      "lon": 4.360054,
+      "niveau": "N",
+      "niveauLibelle": "National",
+      "championnatFrance": true,
+      "bassin": 50,
+      "month": "06",
+      "monthLabel": "juin",
+      "moment": "mi",
+      "expectedDate": "2026-06-14",
+      "dispersionDays": 16,
+      "seasonsSeen": [
+        "2024-2025",
+        "2023-2024"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2025, 2024",
+      "recentCities": [
+        "MULHOUSE",
+        "NÎMES",
+        "MONTPELLIER"
+      ]
+    },
+    {
+      "id": "habituelle-T_D_calvado_championnat_manche-2026-06",
+      "type": "tournant",
+      "nom": "Championnats de la Manche et du Calvados OPEN - Maitres",
+      "ville": null,
+      "lat": 49.115808,
+      "lon": -1.0909278,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "06",
+      "monthLabel": "juin",
+      "moment": "mi",
+      "expectedDate": "2026-06-19",
+      "dispersionDays": 10,
+      "seasonsSeen": [
+        "2024-2025",
+        "2023-2024",
+        "2021-2022"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2025, 2024, 2022",
+      "recentCities": [
+        "SAINT-LÔ"
+      ]
+    },
+    {
+      "id": "habituelle-V_VAIVRE_ET_MONTOILLE_D-2026-06",
+      "type": "ville",
+      "nom": "Meeting du Ludolac Masters",
+      "ville": "VAIVRE-ET-MONTOILLE",
+      "lat": 47.6339612,
+      "lon": 6.106983,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 50,
+      "month": "06",
+      "monthLabel": "juin",
+      "moment": "fin",
+      "expectedDate": "2026-06-22",
+      "dispersionDays": 1,
+      "seasonsSeen": [
+        "2024-2025",
+        "2023-2024",
+        "2021-2022"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2025, 2024, 2022",
+      "recentCities": [
+        "VAIVRE-ET-MONTOILLE"
+      ]
+    },
+    {
+      "id": "habituelle-V_REMIREMONT_D-2026-07",
+      "type": "ville",
+      "nom": "Meeting  du CD88 Open Maîtres",
+      "ville": "REMIREMONT",
+      "lat": 48.0158951,
+      "lon": 6.5912615,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "07",
+      "monthLabel": "juillet",
+      "moment": "début",
+      "expectedDate": "2026-07-01",
+      "dispersionDays": 161,
+      "seasonsSeen": [
+        "2024-2025",
+        "2023-2024"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2025, 2024",
+      "recentCities": [
+        "REMIREMONT"
+      ]
+    }
+  ]
+}

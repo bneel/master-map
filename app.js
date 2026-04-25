@@ -34,7 +34,8 @@ const MONTHS = [
 
 const state = {
   all: [],              // [{c, dist}, ...] (toutes les comp géolocalisées)
-  mode: 'upcoming',     // 'upcoming' | 'past' | 'season'
+  predictions: [],      // [{...}] compés "habituelles" récurrentes non encore confirmées
+  mode: 'upcoming',     // 'upcoming' | 'past' | 'season' | 'habituelles'
   seasonIndex: -1,      // fixé au boot via findCurrentSeasonIndex() ; utilisé quand mode === 'season'
   sortMode: 'distance', // 'distance' | 'date' (revient à 'date' si pas de position)
   search: '',           // chaîne normalisée
@@ -471,21 +472,36 @@ function activateTab(name) {
 function initHorizon() {
   const sel = document.getElementById('horizon');
   sel.addEventListener('change', () => {
-    const v = sel.value; // "upcoming" | "past" | "season:<index>"
+    const v = sel.value; // "upcoming" | "past" | "habituelles" | "season:<index>"
     if (v === 'upcoming') {
       state.mode = 'upcoming';
       trackEvent('periode:a-venir');
     } else if (v === 'past') {
       state.mode = 'past';
       trackEvent('periode:passees');
+    } else if (v === 'habituelles') {
+      state.mode = 'habituelles';
+      trackEvent('periode:habituelles');
+      // Mode liste seul : si on est sur l'onglet Carte, basculer Liste auto.
+      activateTab('list');
     } else if (v.startsWith('season:')) {
       state.mode = 'season';
       state.seasonIndex = parseInt(v.slice(7), 10);
       const label = state.seasons[state.seasonIndex]?.label || state.seasonIndex;
       trackEvent('periode:' + String(label).replace('/', '-'));
     }
+    applyModeUI();
     render();
   });
+}
+
+// Active/désactive les éléments d'UI selon le mode courant.
+// Mode 'habituelles' : carte affiche les ville-centrées + centroïdes des
+// tournantes locales (R/D), liste avec en-tête explicatif. Filtre bassin
+// et tri distance cachés (pas pertinents pour des compés non confirmées).
+function applyModeUI() {
+  const isHab = state.mode === 'habituelles';
+  document.body.classList.toggle('mode-habituelles', isHab);
 }
 
 // Peuple dynamiquement les options "Saison XXXX/YY" depuis state.seasons.
@@ -609,7 +625,23 @@ async function loadData() {
   state.all = comps.map(c => ({ c, dist: Infinity }));
   recomputeDistances();
 
+  // Charger les prédictions "habituelles" en parallèle (ne bloque pas le rendu)
+  // Soft-fail : si le fichier est absent ou invalide, on désactive l'onglet.
+  loadPredictions().catch((err) => console.warn('predictions:', err.message));
+
   render();
+}
+
+async function loadPredictions() {
+  try {
+    const res = await fetch('data/predictions.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    state.predictions = Array.isArray(data.predictions) ? data.predictions : [];
+    if (state.mode === 'habituelles') render();
+  } catch (err) {
+    state.predictions = [];
+  }
 }
 
 // --- Tri par boutons radio ------------------------------------------------
@@ -677,6 +709,11 @@ function isPast(c) {
 }
 
 function render() {
+  if (state.mode === 'habituelles') {
+    renderHabituellesMap();
+    renderHabituelles();
+    return;
+  }
   renderMap();
   renderList();
 }
@@ -796,6 +833,135 @@ function renderList() {
     document.getElementById('infoBtn').click();
   });
   list.appendChild(hint);
+}
+
+// Rendu de l'onglet "Habituelles" : compétitions récurrentes (présentes en
+// N-1 + au moins 2 fois sur les 4 dernières saisons) non encore confirmées
+// sur liveFFN pour la saison courante. Filtre bassin et tri distance cachés.
+function renderHabituelles() {
+  const list = document.getElementById('list');
+  const search = state.search || '';
+  let items = state.predictions.slice();
+  if (search) {
+    items = items.filter((p) => {
+      const hay = `${p.nom} ${p.ville || ''} ${(p.recentCities || []).join(' ')}`.toLowerCase();
+      return hay.includes(search);
+    });
+  }
+  if (state.bassinFilter === '25') items = items.filter((p) => p.bassin === 25);
+  else if (state.bassinFilter === '50') items = items.filter((p) => p.bassin === 50);
+  items.sort((a, b) => a.expectedDate.localeCompare(b.expectedDate));
+  setCompetitionCount(items.length);
+  list.innerHTML = '';
+
+  // En-tête explicatif au-dessus de la liste
+  const header = document.createElement('li');
+  header.className = 'habituelles-header';
+  header.innerHTML = `<strong>Compétitions habituelles</strong> — récurrentes selon l'historique des 4 dernières saisons, mais pas encore confirmées sur liveFFN pour cette saison. Lieu et date estimés à partir des éditions précédentes.`;
+  list.appendChild(header);
+
+  if (items.length === 0) {
+    const empty = document.createElement('li');
+    empty.className = 'empty';
+    empty.innerHTML = `<p class="empty-msg-1">Aucune compétition habituelle attendue pour cette fin de saison.</p><p class="empty-msg-2">Les compétitions récurrentes ont déjà été ajoutées par leurs organisateurs sur liveFFN, ou la saison touche à sa fin.</p>`;
+    list.appendChild(empty);
+    return;
+  }
+  for (const p of items) {
+    const li = document.createElement('li');
+    li.className = 'habituelle-item';
+    if (p.type === 'tournant') li.classList.add('habituelle-tournant');
+    const code = p.championnatFrance ? 'F' : p.niveau;
+    // Affiche la ville si présente (CF easter egg "Lapinland" ou ville-centrée).
+    // Sinon "Lieu à confirmer" pour les tournantes locales sans hôte fixé.
+    const lieuHtml = p.ville
+      ? escapeHtml(p.ville)
+      : `<span class="habituelle-lieu-tbd">Lieu à confirmer</span>`;
+    const bassinHtml = p.bassin
+      ? `<span class="bassin-tag">${p.bassin} m</span>`
+      : '';
+    const dateApprox = `${escapeHtml(p.moment)} ${escapeHtml(p.monthLabel)}`;
+    // Pour les tournantes : montrer où ça a eu lieu les éditions précédentes
+    let recentCitiesHtml = '';
+    if (p.type === 'tournant' && Array.isArray(p.recentCities) && p.recentCities.length > 0) {
+      const list = p.recentCities.map((v) => escapeHtml(v.toLowerCase().replace(/\b(\w)/g, (m) => m.toUpperCase()))).join(', ');
+      recentCitiesHtml = `<p class="habituelle-recent">Précédentes éditions : ${list}</p>`;
+    }
+    li.innerHTML = `
+      <span class="badge badge-${escapeHtml(code)}" title="${escapeHtml(p.niveauLibelle || code)}">${escapeHtml(code)}</span>
+      <div class="info">
+        <p class="name">${escapeHtml(p.nom)}</p>
+        <p class="meta">
+          <span class="meta-text">${lieuHtml} &middot; ${dateApprox}</span>
+          ${bassinHtml}
+        </p>
+        ${recentCitiesHtml}
+        <p class="habituelle-note">Compétition récurrente (vue en ${escapeHtml(p.seasonsLabel || p.confidence || '')}) — pas encore confirmée sur liveFFN.</p>
+      </div>
+    `;
+    list.appendChild(li);
+  }
+}
+
+// Carte en mode "Habituelles" : marqueurs orange pour les ville-centrées
+// (à leur ville) et les tournantes locales (au centroïde des dernières
+// éditions). Les CF ne sont pas placées sur la carte.
+function renderHabituellesMap() {
+  // Vide les marqueurs existants (transition depuis un autre mode)
+  for (const [key, entry] of state.markerGroups) {
+    state.map.removeLayer(entry.marker);
+    state.markerGroups.delete(key);
+  }
+  state.markers = {};
+
+  // Filtres recherche + bassin identiques à la liste
+  const search = state.search || '';
+  let items = state.predictions.slice();
+  if (search) {
+    items = items.filter((p) => {
+      const hay = `${p.nom} ${p.ville || ''} ${(p.recentCities || []).join(' ')}`.toLowerCase();
+      return hay.includes(search);
+    });
+  }
+  if (state.bassinFilter === '25') items = items.filter((p) => p.bassin === 25);
+  else if (state.bassinFilter === '50') items = items.filter((p) => p.bassin === 50);
+  // Garde uniquement celles avec lat/lon (= excluant CF)
+  items = items.filter((p) => p.lat != null && p.lon != null);
+
+  for (const p of items) {
+    const key = `hab:${p.id}`;
+    const marker = L.marker([p.lat, p.lon], {
+      icon: L.divIcon({
+        className: 'marker-wrapper',
+        html: '<div class="marker-pill marker-habituelle" style="width:22px;height:22px;border-width:2px;font-size:0.85rem;display:flex;align-items:center;justify-content:center;border-radius:50%;border-style:solid;">?</div>',
+        iconSize: [22, 22],
+        iconAnchor: [11, 11],
+        popupAnchor: [0, -10],
+      }),
+    }).addTo(state.map);
+    marker.bindPopup(habituellePopupHtml(p), { maxWidth: 320, autoPan: true });
+    state.markerGroups.set(key, { marker, sig: 'hab' });
+  }
+}
+
+function habituellePopupHtml(p) {
+  const lieuTxt = p.ville
+    ? escapeHtml(p.ville)
+    : '<span class="habituelle-lieu-tbd">Lieu à confirmer</span>';
+  const recentTxt = p.type === 'tournant' && Array.isArray(p.recentCities) && p.recentCities.length > 0
+    ? `<div class="popup-recent">Précédentes éditions : ${escapeHtml(p.recentCities.map((v) => v.toLowerCase().replace(/\b(\w)/g, (m) => m.toUpperCase())).join(', '))}</div>`
+    : '';
+  const bassinTxt = p.bassin ? `<span class="bassin-tag">${p.bassin} m</span>` : '';
+  return `
+    <div class="popup popup-habituelle">
+      <div class="popup-head">
+        <strong>${escapeHtml(p.nom)}</strong>
+      </div>
+      <div>${lieuTxt} · ${escapeHtml(p.moment)} ${escapeHtml(p.monthLabel)} ${bassinTxt}</div>
+      ${recentTxt}
+      <div class="habituelle-note">Compétition récurrente (vue en ${escapeHtml(p.seasonsLabel || '')}) — pas encore confirmée sur liveFFN.</div>
+    </div>
+  `;
 }
 
 // --- Boot -----------------------------------------------------------------
