@@ -1,0 +1,62 @@
+{
+  "savedAt": "2026-04-25T15:55:53.055Z",
+  "year": 2023,
+  "month": 9,
+  "count": 9,
+  "raw": [
+    {
+      "competitionId": "80603",
+      "niveau": "R",
+      "libelle": "Trophée NC 25m - LA FOA",
+      "dateIso": "2023-09-16"
+    },
+    {
+      "competitionId": "81376",
+      "niveau": "R",
+      "libelle": "Match 5 - Benjamins/Juniors et Séniors - Secteur Nord - SAINT-PAUL",
+      "dateIso": "2023-09-23"
+    },
+    {
+      "competitionId": "81374",
+      "niveau": "R",
+      "libelle": "Match 5 - Benjamins/Juniors et Séniors - Secteur Sud - SAINT-PHILIPPE",
+      "dateIso": "2023-09-23"
+    },
+    {
+      "competitionId": "83215",
+      "niveau": "D",
+      "libelle": "Meeting d’après Eté du CNP - PONTARLIER",
+      "dateIso": "2023-09-23"
+    },
+    {
+      "competitionId": "81381",
+      "niveau": "R",
+      "libelle": "Coupe des Mini-champions - Match 5 Avenirs - Zone Nord-Est - BRAS-PANON",
+      "dateIso": "2023-09-30"
+    },
+    {
+      "competitionId": "81382",
+      "niveau": "R",
+      "libelle": "Coupe des Mini-champions - Match 5 Avenirs - Zone Ouest - LE PORT",
+      "dateIso": "2023-09-30"
+    },
+    {
+      "competitionId": "83159",
+      "niveau": "R",
+      "libelle": "2e Meeting International de Nouméa  - NOUMÉA",
+      "dateIso": "2023-09-30"
+    },
+    {
+      "competitionId": "83449",
+      "niveau": "R",
+      "libelle": "Trophée Avenirs #4 - PIRAE",
+      "dateIso": "2023-09-30"
+    },
+    {
+      "competitionId": "81383",
+      "niveau": "R",
+      "libelle": "Coupe des Mini-champions - Match 5 Avenirs - Zone Sud - SAINT-PIERRE",
+      "dateIso": "2023-09-30"
+    }
+  ]
+}

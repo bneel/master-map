@@ -1,0 +1,410 @@
+{
+  "savedAt": "2026-04-25T15:56:46.346Z",
+  "year": 2025,
+  "month": 7,
+  "count": 67,
+  "raw": [
+    {
+      "competitionId": "90545",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue AuRA Eté - CLERMONT-FERRAND",
+      "dateIso": "2025-07-04"
+    },
+    {
+      "competitionId": "90466",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue BFC Eté Juniors/Séniors - DIJON",
+      "dateIso": "2025-07-04"
+    },
+    {
+      "competitionId": "89286",
+      "niveau": "R",
+      "libelle": "Championnat de l'Ouest 2025 Web Confront@tion  - LAVAL",
+      "dateIso": "2025-07-04"
+    },
+    {
+      "competitionId": "90594",
+      "niveau": "R",
+      "libelle": "Championnat Région Sud Juniors/Séniors 50m - MARTIGUES",
+      "dateIso": "2025-07-04"
+    },
+    {
+      "competitionId": "90553",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue Eté - Juniors/Séniors - MÉRIGNAC",
+      "dateIso": "2025-07-04"
+    },
+    {
+      "competitionId": "89831",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue Eté Juniors/Séniors - MONTAUBAN",
+      "dateIso": "2025-07-04"
+    },
+    {
+      "competitionId": "90595",
+      "niveau": "R",
+      "libelle": "Web Confront@tion Régionale #2 - SCHILTIGHEIM",
+      "dateIso": "2025-07-04"
+    },
+    {
+      "competitionId": "90469",
+      "niveau": "R",
+      "libelle": "Web Confront@tion #2 - Ile-de-France - TAVERNY",
+      "dateIso": "2025-07-04"
+    },
+    {
+      "competitionId": "90538",
+      "niveau": "R",
+      "libelle": "Web Confront@tion Eté - VALENCIENNES",
+      "dateIso": "2025-07-04"
+    },
+    {
+      "competitionId": "90332",
+      "niveau": "D",
+      "libelle": "Challenge Baptiste Dupuis - EYZIN-PINET",
+      "dateIso": "2025-07-05"
+    },
+    {
+      "competitionId": "90331",
+      "niveau": "D",
+      "libelle": "Coupe Ali Benfifi - EYZIN-PINET",
+      "dateIso": "2025-07-05"
+    },
+    {
+      "competitionId": "90378",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 2 - ROCHEFORT-SUR-LOIRE",
+      "dateIso": "2025-07-05"
+    },
+    {
+      "competitionId": "90377",
+      "niveau": "D",
+      "libelle": "Compétition 2 Toutes Catégories - ROCHEFORT-SUR-LOIRE",
+      "dateIso": "2025-07-05"
+    },
+    {
+      "competitionId": "90422",
+      "niveau": "D",
+      "libelle": "1er Meeting de Saint-Pol-sur-Mer Natation - SAINT-POL-SUR-MER",
+      "dateIso": "2025-07-05"
+    },
+    {
+      "competitionId": "90253",
+      "niveau": "R",
+      "libelle": "Trophée du 4 Nageur Eté - CASTELSARRASIN",
+      "dateIso": "2025-07-06"
+    },
+    {
+      "competitionId": "90478",
+      "niveau": "R",
+      "libelle": "Quadrathlon du Brionnais - MARCIGNY",
+      "dateIso": "2025-07-06"
+    },
+    {
+      "competitionId": "90416",
+      "niveau": "R",
+      "libelle": "Challenge Sprint de Salindres - SALINDRES",
+      "dateIso": "2025-07-06"
+    },
+    {
+      "competitionId": "90415",
+      "niveau": "R",
+      "libelle": "Coupe de la Ville de Salindres - SALINDRES",
+      "dateIso": "2025-07-06"
+    },
+    {
+      "competitionId": "89818",
+      "niveau": "D",
+      "libelle": "Coupe de Ville - L'ISLE-JOURDAIN",
+      "dateIso": "2025-07-06"
+    },
+    {
+      "competitionId": "90398",
+      "niveau": "D",
+      "libelle": "Journée de fin de saison - LA CHATAIGNERAIE",
+      "dateIso": "2025-07-06"
+    },
+    {
+      "competitionId": "90599",
+      "niveau": "D",
+      "libelle": "Meeting Langon  - LANGON",
+      "dateIso": "2025-07-06"
+    },
+    {
+      "competitionId": "90598",
+      "niveau": "D",
+      "libelle": "JOQUA Pyrénées-Atlantiques - SAINT-PALAIS",
+      "dateIso": "2025-07-06"
+    },
+    {
+      "competitionId": "89922",
+      "niveau": "D",
+      "libelle": "Epreuves chronométriques Rumilly - RUMILLY",
+      "dateIso": "2025-07-09"
+    },
+    {
+      "competitionId": "90479",
+      "niveau": "R",
+      "libelle": "Soirée Sprint - SANVIGNES-LES-MINES",
+      "dateIso": "2025-07-11"
+    },
+    {
+      "competitionId": "90384",
+      "niveau": "D",
+      "libelle": "Compétition 3 - Meeting en soirée B/J/S - CHALONNES-SUR-LOIRE",
+      "dateIso": "2025-07-11"
+    },
+    {
+      "competitionId": "90624",
+      "niveau": "D",
+      "libelle": "Trophée Bixente-Vatine - HASPARREN",
+      "dateIso": "2025-07-12"
+    },
+    {
+      "competitionId": "89825",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville de Thônes - THÔNES",
+      "dateIso": "2025-07-12"
+    },
+    {
+      "competitionId": "90333",
+      "niveau": "D",
+      "libelle": "Tullinades 2025 - TULLINS",
+      "dateIso": "2025-07-12"
+    },
+    {
+      "competitionId": "90480",
+      "niveau": "R",
+      "libelle": "1ère Journée Régionale - CHAROLLES",
+      "dateIso": "2025-07-13"
+    },
+    {
+      "competitionId": "90282",
+      "niveau": "R",
+      "libelle": "Courses Complémentaires du Trophée Nageur Complet Eté - SOUILLAC",
+      "dateIso": "2025-07-13"
+    },
+    {
+      "competitionId": "90281",
+      "niveau": "R",
+      "libelle": "Meeting Mini Avenirs - SOUILLAC",
+      "dateIso": "2025-07-13"
+    },
+    {
+      "competitionId": "90255",
+      "niveau": "R",
+      "libelle": "Trophée Nageur Complet Eté  - SOUILLAC",
+      "dateIso": "2025-07-13"
+    },
+    {
+      "competitionId": "90529",
+      "niveau": "R",
+      "libelle": "1ère Soirée Demi-fond - CHAUFFAILLES",
+      "dateIso": "2025-07-16"
+    },
+    {
+      "competitionId": "90096",
+      "niveau": "N",
+      "libelle": "5e Open d'Eté - POITIERS",
+      "dateIso": "2025-07-17"
+    },
+    {
+      "competitionId": "89819",
+      "niveau": "D",
+      "libelle": "Top 50 - JAUNAY-CLAN",
+      "dateIso": "2025-07-17"
+    },
+    {
+      "competitionId": "90642",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - JAUNAY-CLAN",
+      "dateIso": "2025-07-17"
+    },
+    {
+      "competitionId": "88684",
+      "niveau": "R",
+      "libelle": "Championnats de Nouvelle-Calédonie Open grand bain - DUMBÉA",
+      "dateIso": "2025-07-19"
+    },
+    {
+      "competitionId": "89732",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville d'Evian - ÉVIAN-LES-BAINS",
+      "dateIso": "2025-07-19"
+    },
+    {
+      "competitionId": "90552",
+      "niveau": "D",
+      "libelle": "Challenge des Gaves - PEYREHORADE",
+      "dateIso": "2025-07-19"
+    },
+    {
+      "competitionId": "90604",
+      "niveau": "R",
+      "libelle": "Estival'Tour LNA - Zone Nord - CIVRAY",
+      "dateIso": "2025-07-20"
+    },
+    {
+      "competitionId": "90349",
+      "niveau": "R",
+      "libelle": "Trophée Individuel Eté  - DECAZEVILLE",
+      "dateIso": "2025-07-20"
+    },
+    {
+      "competitionId": "90350",
+      "niveau": "R",
+      "libelle": "Meeting Maîtres #2 - DECAZEVILLE",
+      "dateIso": "2025-07-20"
+    },
+    {
+      "competitionId": "90530",
+      "niveau": "R",
+      "libelle": "2e Journée Régionale - PARAY-LE-MONIAL",
+      "dateIso": "2025-07-20"
+    },
+    {
+      "competitionId": "90605",
+      "niveau": "R",
+      "libelle": "Estival'Tour LNA - Zone Sud - SERRES-CASTET",
+      "dateIso": "2025-07-20"
+    },
+    {
+      "competitionId": "90550",
+      "niveau": "D",
+      "libelle": "Championnats Interdépartementaux 11-34-66 - CÉRET",
+      "dateIso": "2025-07-20"
+    },
+    {
+      "competitionId": "90420",
+      "niveau": "D",
+      "libelle": "Championnats du Gard de Natation Estivale - LE VIGAN",
+      "dateIso": "2025-07-20"
+    },
+    {
+      "competitionId": "90385",
+      "niveau": "D",
+      "libelle": "Compétition 4 Avenirs/Benjamins - LONGUÉ-JUMELLES",
+      "dateIso": "2025-07-20"
+    },
+    {
+      "competitionId": "90386",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 3 - LONGUÉ-JUMELLES",
+      "dateIso": "2025-07-20"
+    },
+    {
+      "competitionId": "90388",
+      "niveau": "D",
+      "libelle": "Compétition 5 - Meeting en soirée  B/J/S - VERN-D'ANJOU",
+      "dateIso": "2025-07-21"
+    },
+    {
+      "competitionId": "90646",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - CIVRAY",
+      "dateIso": "2025-07-23"
+    },
+    {
+      "competitionId": "89820",
+      "niveau": "D",
+      "libelle": "Top 100 - CIVRAY",
+      "dateIso": "2025-07-23"
+    },
+    {
+      "competitionId": "90616",
+      "niveau": "D",
+      "libelle": "Trophée Charente - MONTBRON",
+      "dateIso": "2025-07-23"
+    },
+    {
+      "competitionId": "89757",
+      "niveau": "D",
+      "libelle": "Challenge Benoît Lauvie - SOUILLAC",
+      "dateIso": "2025-07-23"
+    },
+    {
+      "competitionId": "90650",
+      "niveau": "D",
+      "libelle": "Challenge Nocturne 2025 - SORE",
+      "dateIso": "2025-07-24"
+    },
+    {
+      "competitionId": "89028",
+      "niveau": "D",
+      "libelle": "Euro Games Lyon 2025 - VILLEURBANNE",
+      "dateIso": "2025-07-25"
+    },
+    {
+      "competitionId": "90454",
+      "niveau": "R",
+      "libelle": "Interclubs TC Natation Estivale AuRA - Equipes Mixtes - EYZIN-PINET",
+      "dateIso": "2025-07-26"
+    },
+    {
+      "competitionId": "90452",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs TC Natation Estivale - Ligue AuRA - EYZIN-PINET",
+      "dateIso": "2025-07-26"
+    },
+    {
+      "competitionId": "90613",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs - NEUVILLE-DE-POITOU",
+      "dateIso": "2025-07-26"
+    },
+    {
+      "competitionId": "90645",
+      "niveau": "R",
+      "libelle": "Interclubs - Equipes mixtes et remplaçants - NEUVILLE-DE-POITOU",
+      "dateIso": "2025-07-26"
+    },
+    {
+      "competitionId": "90352",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories  - Equipes mixtes - GOURDON",
+      "dateIso": "2025-07-27"
+    },
+    {
+      "competitionId": "90351",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs Toutes Catégories  - GOURDON",
+      "dateIso": "2025-07-27"
+    },
+    {
+      "competitionId": "90652",
+      "niveau": "R",
+      "libelle": "Finale Régionale Interclubs - LA CHATAIGNERAIE",
+      "dateIso": "2025-07-27"
+    },
+    {
+      "competitionId": "90654",
+      "niveau": "R",
+      "libelle": "Remplaçants Finale Régionale Interclubs - LA CHATAIGNERAIE",
+      "dateIso": "2025-07-27"
+    },
+    {
+      "competitionId": "90533",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs BFC Avenirs/Benjamins - SAINT-BENIN-D'AZY",
+      "dateIso": "2025-07-27"
+    },
+    {
+      "competitionId": "90531",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs BFC Toutes Catégories - SAINT-BENIN-D'AZY",
+      "dateIso": "2025-07-27"
+    },
+    {
+      "competitionId": "90617",
+      "niveau": "D",
+      "libelle": "Trophée Charente - CONFOLENS",
+      "dateIso": "2025-07-30"
+    },
+    {
+      "competitionId": "90069",
+      "niveau": "D",
+      "libelle": "Epreuves chronométriques Thônes - THÔNES",
+      "dateIso": "2025-07-30"
+    }
+  ]
+}

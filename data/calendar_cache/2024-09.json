@@ -1,0 +1,80 @@
+{
+  "savedAt": "2026-04-25T15:56:22.354Z",
+  "year": 2024,
+  "month": 9,
+  "count": 12,
+  "raw": [
+    {
+      "competitionId": "86950",
+      "niveau": "R",
+      "libelle": "Meeting Sprint 1 - PIRAE",
+      "dateIso": "2024-09-14"
+    },
+    {
+      "competitionId": "86951",
+      "niveau": "R",
+      "libelle": "Trophée Avenirs #2 - PIRAE",
+      "dateIso": "2024-09-14"
+    },
+    {
+      "competitionId": "86889",
+      "niveau": "D",
+      "libelle": "Meeting de Rentrée de l'ENP - PONTIVY",
+      "dateIso": "2024-09-21"
+    },
+    {
+      "competitionId": "86890",
+      "niveau": "D",
+      "libelle": "Meeting Masters de l'ENP - PONTIVY",
+      "dateIso": "2024-09-21"
+    },
+    {
+      "competitionId": "86862",
+      "niveau": "R",
+      "libelle": "Circuit 25m. - 3e Journée - R1 - DUMBÉA",
+      "dateIso": "2024-09-22"
+    },
+    {
+      "competitionId": "86863",
+      "niveau": "R",
+      "libelle": "Circuit 25m. -3e Journée - R2 - DUMBÉA",
+      "dateIso": "2024-09-22"
+    },
+    {
+      "competitionId": "84735",
+      "niveau": "R",
+      "libelle": "Matchs 5 Avenirs - BRAS-PANON",
+      "dateIso": "2024-09-28"
+    },
+    {
+      "competitionId": "87148",
+      "niveau": "R",
+      "libelle": "Matchs 5 Avenirs - LE PORT",
+      "dateIso": "2024-09-28"
+    },
+    {
+      "competitionId": "84737",
+      "niveau": "R",
+      "libelle": "Matchs 5 Avenirs - SAINT-LEU",
+      "dateIso": "2024-09-28"
+    },
+    {
+      "competitionId": "87094",
+      "niveau": "R",
+      "libelle": "Matchs 3 Benjamins/Juniors/Séniors - SAINT-LEU",
+      "dateIso": "2024-09-29"
+    },
+    {
+      "competitionId": "86913",
+      "niveau": "D",
+      "libelle": "1/2 Fond Pré-saison - AIXE-SUR-VIENNE",
+      "dateIso": "2024-09-29"
+    },
+    {
+      "competitionId": "86952",
+      "niveau": "D",
+      "libelle": "Meeting de Vitesse - AUXERRE",
+      "dateIso": "2024-09-29"
+    }
+  ]
+}

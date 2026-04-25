@@ -2,7 +2,8 @@
 // Node 22, stdlib pure, aucune dépendance npm.
 //
 // Pipeline :
-//   1. Fetch 12 mois glissants sur liveffn (HTML AJAX).
+//   1. Fetch les pages calendrier liveffn pour la fenêtre [N saisons précédentes,
+//      now + FORWARD_HORIZON_MONTHS]. Cache mensuel pour les mois figés.
 //   2. Parse HTML par regex, associe chaque compétition au dernier libelle_jour vu.
 //   3. Filtre "maîtres" sur le libellé.
 //   4. Dédoublonne par competitionId, calcule plage [dateDebut, dateFin].
@@ -23,14 +24,15 @@ const COMPETITIONS_PATH = path.join(DATA_DIR, "competitions.json");
 const CITIES_PATH = path.join(DATA_DIR, "cities.json");
 const POOL_SIZES_PATH = path.join(DATA_DIR, "pool_sizes.json");
 const OVERRIDES_PATH = path.join(DATA_DIR, "cities_overrides.json");
+const CALENDAR_CACHE_DIR = path.join(DATA_DIR, "calendar_cache");
 
 // User-Agent explicite pour les administrateurs de liveffn.com :
-// - nom du projet clairement identifié (MasterMap)
+// - nom du projet clairement identifié (Couloir 4)
 // - lien vers le site live (pour voir ce qu'on fait des données)
 // - lien vers le repo (pour comprendre le code)
 // - "issues" = canal de contact direct
 const USER_AGENT =
-  "MasterMap/1.0 (+https://bneel.github.io/master-map/; source https://github.com/bneel/master-map; contact via github issues)";
+  "Couloir4/1.0 (+https://www.couloir4.fr/; source https://github.com/bneel/master-map; contact via github issues)";
 
 // Whitelist manuelle : Google Sheet publiée en CSV, une colonne `url`.
 // Permet de rattraper des compétitions maîtres rejetées par le filtre titre
@@ -41,9 +43,17 @@ const MANUAL_SHEET_CSV_URL =
   process.env.MANUAL_SHEET_CSV_URL ||
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIFM8WzodikCJ26VeRZiSDblryGUuiWRIE4uQNSwPnH9fsJUuLa-Cv_EjA3X7UxnEtpM_Pz13P6SzV/pub?gid=0&single=true&output=csv";
 
-// Drapeau : true pour couvrir saison courante + saison précédente
-// (fenêtre de ~24 mois). Le cache pool_sizes.json évite les re-fetch.
-const SCRAPE_PREVIOUS_SEASON = true;
+// Nombre de saisons précédentes à inclure (en plus de la courante).
+// 2 = saison N-2 + N-1 + courante → ~36 mois côté passé pour les stats.
+// Le cache pool_sizes.json + calendar_cache/ évitent les re-fetch coûteux.
+const SCRAPE_PREVIOUS_SEASONS = 2;
+
+// Cache mensuel des pages calendrier liveffn : un mois M est immuable
+// après M + 30 jours. Bypass via env RESCRAPE_FROZEN=1 (pour reprendre
+// une éventuelle correction rétroactive côté liveffn).
+const FROZEN_GRACE_DAYS = 30;
+const RESCRAPE_FROZEN =
+  process.env.RESCRAPE_FROZEN === "1" || process.env.RESCRAPE_FROZEN === "true";
 
 // Pool sizes : endpoint sensible (a déjà déclenché un ban IP).
 // Throttle conservateur : 10 s ± jitter entre chaque requête.
@@ -165,9 +175,10 @@ function seasonStart(now) {
   return m >= 8 ? new Date(y, 8, 1) : new Date(y - 1, 8, 1);
 }
 
-function previousSeasonStart(now) {
+// Début de la n-ème saison précédente (n=1 → saison juste avant la courante).
+function nthPreviousSeasonStart(now, n) {
   const cs = seasonStart(now);
-  return new Date(cs.getFullYear() - 1, 8, 1);
+  return new Date(cs.getFullYear() - n, 8, 1);
 }
 
 // Génère la liste [{month, year}] de startDate à endDate inclus (par mois).
@@ -184,7 +195,10 @@ function monthsBetween(startDate, endDate) {
   return out;
 }
 
-const FORWARD_HORIZON_MONTHS = 12;
+// Horizon futur : analyse du 25/04/2026 → 90 % des compés maîtres futures
+// sont annoncées ≤ 5 mois avant l'événement, max observé 160 j. 8 mois donne
+// une marge confortable sans fetcher pour rien. Voir analyse dans la PR.
+const FORWARD_HORIZON_MONTHS = 8;
 
 // ISO "YYYY-MM-DD" depuis un Date (tz local, ce qui suffit pour des dates journalières)
 function isoDate(d) {
@@ -194,6 +208,55 @@ function isoDate(d) {
 function seasonLabel(startDate) {
   const y = startDate.getFullYear();
   return `${y}/${String(y + 1).slice(2)}`; // "2025/26"
+}
+
+// --- Cache mensuel des pages calendrier ---------------------------------
+// Une fois passé M + FROZEN_GRACE_DAYS jours, le calendrier d'un mois ne
+// bouge plus (aucune création post-événement détectée dans l'historique).
+// On stocke un snapshot par mois figé dans data/calendar_cache/YYYY-MM.json
+// et on évite ainsi 25-30 fetches HTTP par run au régime stationnaire.
+
+function lastDayOfMonthDate(year, month) {
+  // month = 1..12 → on prend le jour 0 du mois suivant = dernier jour de M.
+  return new Date(year, month, 0);
+}
+
+function isMonthFrozen(year, month, today) {
+  const cutoff = new Date(lastDayOfMonthDate(year, month));
+  cutoff.setDate(cutoff.getDate() + FROZEN_GRACE_DAYS);
+  return today > cutoff;
+}
+
+function calendarCachePath(year, month) {
+  return path.join(CALENDAR_CACHE_DIR, `${year}-${pad2(month)}.json`);
+}
+
+async function loadCalendarMonthCache(year, month) {
+  try {
+    const txt = await readFile(calendarCachePath(year, month), "utf8");
+    const data = JSON.parse(txt);
+    if (!Array.isArray(data?.raw)) return null;
+    return data.raw;
+  } catch (err) {
+    if (err.code === "ENOENT") return null;
+    console.warn(`[cache] lecture ${year}-${pad2(month)} échouée: ${err.message}, fallback fetch`);
+    return null;
+  }
+}
+
+async function saveCalendarMonthCache(year, month, raw) {
+  await mkdir(CALENDAR_CACHE_DIR, { recursive: true });
+  const payload = {
+    savedAt: new Date().toISOString(),
+    year,
+    month,
+    count: raw.length,
+    raw,
+  };
+  await atomicWriteFile(
+    calendarCachePath(year, month),
+    JSON.stringify(payload, null, 2) + "\n",
+  );
 }
 
 // --- Fetch + parse HTML liveffn -----------------------------------------
@@ -586,31 +649,59 @@ async function main() {
   await mkdir(DATA_DIR, { recursive: true });
 
   const now = new Date();
-  // Plage : début de la saison (courante, ou précédente si SCRAPE_PREVIOUS_SEASON)
-  // jusqu'à now + 12 mois.
-  const rangeStart = SCRAPE_PREVIOUS_SEASON
-    ? previousSeasonStart(now)
-    : seasonStart(now);
+  // Plage : début de la N-ième saison précédente (SCRAPE_PREVIOUS_SEASONS)
+  // jusqu'à now + FORWARD_HORIZON_MONTHS mois.
+  const rangeStart =
+    SCRAPE_PREVIOUS_SEASONS > 0
+      ? nthPreviousSeasonStart(now, SCRAPE_PREVIOUS_SEASONS)
+      : seasonStart(now);
   const rangeEnd = new Date(now.getFullYear(), now.getMonth() + FORWARD_HORIZON_MONTHS, 1);
   const months = monthsBetween(rangeStart, rangeEnd);
 
-  // 1. Fetch + parse (throttle 2s entre chaque requête calendrier —
-  // courtoisie envers liveffn, reste imperceptible pour un cron quotidien)
+  // 1. Fetch + parse, avec cache mensuel pour les mois figés
+  // (cf. CALENDAR_CACHE_DIR). Throttle 2s entre fetches HTTP réels uniquement,
+  // pas entre cache hits.
+  if (RESCRAPE_FROZEN) {
+    console.log("[cache] RESCRAPE_FROZEN=1 → bypass du cache mensuel, refetch complet");
+  }
   const CAL_DELAY_MS = 2000;
   const rawAll = [];
   const rawMaitres = [];
+  let cacheHits = 0;
+  let httpFetches = 0;
   for (let i = 0; i < months.length; i++) {
-    if (i > 0) await sleep(CAL_DELAY_MS);
     const { month, year } = months[i];
-    const html = await fetchMonthHtml(month, year);
-    const raw = parseMonthHtml(html, month, year);
+    const frozen = isMonthFrozen(year, month, now);
+    let raw = null;
+
+    if (frozen && !RESCRAPE_FROZEN) {
+      raw = await loadCalendarMonthCache(year, month);
+      if (raw) {
+        cacheHits++;
+        console.log(
+          `[cache] ${year}-${pad2(month)} (figé)  ${raw.length} compétitions brutes (cache)`,
+        );
+      }
+    }
+    if (raw === null) {
+      if (httpFetches > 0) await sleep(CAL_DELAY_MS);
+      const html = await fetchMonthHtml(month, year);
+      raw = parseMonthHtml(html, month, year);
+      httpFetches++;
+      console.log(
+        `[fetch] ${year}-${pad2(month)} ${frozen ? "(figé)" : "(actif)"}  ${raw.length} compétitions brutes`,
+      );
+      if (frozen) {
+        await saveCalendarMonthCache(year, month, raw);
+      }
+    }
     const maitres = raw.filter((r) => isMaitres(r.libelle));
-    console.log(
-      `[scrape] fetching ${year}-${pad2(month)}... ${raw.length} compétitions brutes, ${maitres.length} maîtres`,
-    );
     rawAll.push(...raw);
     rawMaitres.push(...maitres);
   }
+  console.log(
+    `[scrape] calendrier : ${months.length} mois (${cacheHits} cache, ${httpFetches} HTTP)`,
+  );
 
   // 1b. Rattrapage manuel : ré-injecter les ids présents dans la whitelist
   // Sheet mais filtrés par isMaitres (faux négatifs du filtre par nom).
@@ -633,7 +724,7 @@ async function main() {
     }
     console.log(`[manual] ${added} compétitions ajoutées (rattrapage filtre titre)`);
     if (missing.length > 0) {
-      console.warn(`[manual] WARN ${missing.length} ids introuvables dans la fenêtre 12 mois: ${missing.join(", ")}`);
+      console.warn(`[manual] WARN ${missing.length} ids introuvables dans la fenêtre scrapée: ${missing.join(", ")}`);
     }
   }
 
@@ -712,22 +803,25 @@ async function main() {
   // tout de suite). Le fetch des bassins peut ensuite prendre des dizaines
   // de minutes sans gêner l'utilisateur.
   const cs = seasonStart(now);
-  const ps = previousSeasonStart(now);
-  const seasons = [
-    {
-      id: `${ps.getFullYear()}-${ps.getFullYear() + 1}`,
-      label: seasonLabel(ps),
-      start: isoDate(ps),
-      end: `${ps.getFullYear() + 1}-08-31`,
-    },
-    {
-      id: `${cs.getFullYear()}-${cs.getFullYear() + 1}`,
-      label: seasonLabel(cs),
-      start: isoDate(cs),
-      end: `${cs.getFullYear() + 1}-08-31`,
-      current: true,
-    },
-  ];
+  // Liste : N saisons précédentes (de la plus ancienne à la plus récente)
+  // puis la saison courante. Ordre = chronologique croissant.
+  const seasons = [];
+  for (let i = SCRAPE_PREVIOUS_SEASONS; i >= 1; i--) {
+    const s = nthPreviousSeasonStart(now, i);
+    seasons.push({
+      id: `${s.getFullYear()}-${s.getFullYear() + 1}`,
+      label: seasonLabel(s),
+      start: isoDate(s),
+      end: `${s.getFullYear() + 1}-08-31`,
+    });
+  }
+  seasons.push({
+    id: `${cs.getFullYear()}-${cs.getFullYear() + 1}`,
+    label: seasonLabel(cs),
+    start: isoDate(cs),
+    end: `${cs.getFullYear() + 1}-08-31`,
+    current: true,
+  });
 
   async function writeCompetitions() {
     const output = {

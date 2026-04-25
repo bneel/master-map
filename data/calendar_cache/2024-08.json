@@ -1,0 +1,248 @@
+{
+  "savedAt": "2026-04-25T15:56:20.018Z",
+  "year": 2024,
+  "month": 8,
+  "count": 40,
+  "raw": [
+    {
+      "competitionId": "86818",
+      "niveau": "D",
+      "libelle": "Sprint de Beauchastel - 4e Challenge Fabrice Duval - BEAUCHASTEL",
+      "dateIso": "2024-08-03"
+    },
+    {
+      "competitionId": "86878",
+      "niveau": "D",
+      "libelle": "Compétition 05 Meeting + Finales - CHALONNES-SUR-LOIRE",
+      "dateIso": "2024-08-03"
+    },
+    {
+      "competitionId": "85925",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville de Samoëns - SAMOËNS",
+      "dateIso": "2024-08-03"
+    },
+    {
+      "competitionId": "86831",
+      "niveau": "R",
+      "libelle": "Challenge Open du Jeune Nageur Complet/Meeting Open Nord - JAUNAY-CLAN",
+      "dateIso": "2024-08-04"
+    },
+    {
+      "competitionId": "86488",
+      "niveau": "R",
+      "libelle": "Challenge Yvette Andrada  - SAINT-CÉRÉ",
+      "dateIso": "2024-08-04"
+    },
+    {
+      "competitionId": "86507",
+      "niveau": "R",
+      "libelle": "Open Ligue Occitanie  - SAINT-CÉRÉ",
+      "dateIso": "2024-08-04"
+    },
+    {
+      "competitionId": "86691",
+      "niveau": "R",
+      "libelle": "Rencontre Inter-écoles de Natation - SALINDRES",
+      "dateIso": "2024-08-04"
+    },
+    {
+      "competitionId": "86836",
+      "niveau": "R",
+      "libelle": "Challenge Open du Jeune Nageur Complet/Meeting Open Sud - SERRES-CASTET",
+      "dateIso": "2024-08-04"
+    },
+    {
+      "competitionId": "86882",
+      "niveau": "D",
+      "libelle": "2e Challenge de Natation Estivale du Pays Catalan  - THUIR",
+      "dateIso": "2024-08-05"
+    },
+    {
+      "competitionId": "86653",
+      "niveau": "D",
+      "libelle": "TOP 50 - NEUVILLE-DE-POITOU",
+      "dateIso": "2024-08-06"
+    },
+    {
+      "competitionId": "86815",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - NEUVILLE-DE-POITOU",
+      "dateIso": "2024-08-06"
+    },
+    {
+      "competitionId": "86706",
+      "niveau": "R",
+      "libelle": "2e Journée du Demi-fond - PARAY-LE-MONIAL",
+      "dateIso": "2024-08-07"
+    },
+    {
+      "competitionId": "86844",
+      "niveau": "D",
+      "libelle": "Trophée Charente - BARBEZIEUX-SAINT-HILAIRE",
+      "dateIso": "2024-08-07"
+    },
+    {
+      "competitionId": "86875",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Été des Pyrénées-Atlantiques - BIDACHE",
+      "dateIso": "2024-08-10"
+    },
+    {
+      "competitionId": "86050",
+      "niveau": "D",
+      "libelle": "Championnats des Savoie - LA ROCHE-SUR-FORON",
+      "dateIso": "2024-08-10"
+    },
+    {
+      "competitionId": "86841",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Open de Natation Estivale - TULLINS",
+      "dateIso": "2024-08-10"
+    },
+    {
+      "competitionId": "86508",
+      "niveau": "R",
+      "libelle": "Critériums Zone Ouest #1  - SOUILLAC",
+      "dateIso": "2024-08-11"
+    },
+    {
+      "competitionId": "86846",
+      "niveau": "D",
+      "libelle": "Meeting du Sud Charente - BARBEZIEUX-SAINT-HILAIRE",
+      "dateIso": "2024-08-11"
+    },
+    {
+      "competitionId": "86806",
+      "niveau": "D",
+      "libelle": "Compétition 06 - Meeting Soirée - VERN-D'ANJOU",
+      "dateIso": "2024-08-12"
+    },
+    {
+      "competitionId": "86162",
+      "niveau": "D",
+      "libelle": "Challenge Benoît Lauvie - SOUILLAC",
+      "dateIso": "2024-08-15"
+    },
+    {
+      "competitionId": "86832",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux des clubs d'été - BAZAS",
+      "dateIso": "2024-08-16"
+    },
+    {
+      "competitionId": "86854",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue Natation Estivale - AIGUEBLANCHE",
+      "dateIso": "2024-08-17"
+    },
+    {
+      "competitionId": "86857",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Ligue Occitanie - Zone Sud-Est - BÉDARIEUX",
+      "dateIso": "2024-08-17"
+    },
+    {
+      "competitionId": "86881",
+      "niveau": "R",
+      "libelle": "Finale Régionale Individuelle - LA CHATAIGNERAIE",
+      "dateIso": "2024-08-18"
+    },
+    {
+      "competitionId": "86737",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Ligue BFC Natation Estivale - SAINT-BENIN-D'AZY",
+      "dateIso": "2024-08-18"
+    },
+    {
+      "competitionId": "86510",
+      "niveau": "R",
+      "libelle": "Critériums Zone Ouest #2  - SAINT-CÉRÉ",
+      "dateIso": "2024-08-18"
+    },
+    {
+      "competitionId": "86655",
+      "niveau": "D",
+      "libelle": "Challenge 50m - POITIERS",
+      "dateIso": "2024-08-20"
+    },
+    {
+      "competitionId": "86872",
+      "niveau": "N",
+      "libelle": "IIe Finale Nationale Interclubs Toutes Catégories - SAINT-JEAN-PIED-DE-PORT",
+      "dateIso": "2024-08-23"
+    },
+    {
+      "competitionId": "86873",
+      "niveau": "N",
+      "libelle": "Ve Critérium National - SAINT-JEAN-PIED-DE-PORT",
+      "dateIso": "2024-08-23"
+    },
+    {
+      "competitionId": "86051",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville de Morzine - MORZINE",
+      "dateIso": "2024-08-24"
+    },
+    {
+      "competitionId": "86654",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville - JAUNAY-CLAN",
+      "dateIso": "2024-08-25"
+    },
+    {
+      "competitionId": "86662",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Matin - JAUNAY-CLAN",
+      "dateIso": "2024-08-25"
+    },
+    {
+      "competitionId": "86663",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Après-midi - JAUNAY-CLAN",
+      "dateIso": "2024-08-25"
+    },
+    {
+      "competitionId": "86656",
+      "niveau": "D",
+      "libelle": "Compétition de Clôture - NEUVILLE-DE-POITOU",
+      "dateIso": "2024-08-27"
+    },
+    {
+      "competitionId": "86905",
+      "niveau": "D",
+      "libelle": "Meeting Demi-fond de Serres-Castet - SERRES-CASTET",
+      "dateIso": "2024-08-29"
+    },
+    {
+      "competitionId": "86903",
+      "niveau": "D",
+      "libelle": "Meeting Interclubs TC - CHEMILLÉ",
+      "dateIso": "2024-08-30"
+    },
+    {
+      "competitionId": "86904",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - CHEMILLÉ",
+      "dateIso": "2024-08-30"
+    },
+    {
+      "competitionId": "86879",
+      "niveau": "R",
+      "libelle": "Finale Interrégionale Benjamins 2 - LANGON",
+      "dateIso": "2024-08-31"
+    },
+    {
+      "competitionId": "86880",
+      "niveau": "R",
+      "libelle": "Coupe Inter-territoires Open - LANGON",
+      "dateIso": "2024-08-31"
+    },
+    {
+      "competitionId": "86898",
+      "niveau": "D",
+      "libelle": "Championnat du Lot Open - GOURDON",
+      "dateIso": "2024-08-31"
+    }
+  ]
+}

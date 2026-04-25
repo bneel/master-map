@@ -1,8 +1,8 @@
-# Master Map
+# Couloir 4
 
 Site non-officiel qui recense les compétitions de natation **maîtres** en France sur une carte interactive, triées par distance ou par date.
 
-En ligne : https://bneel.github.io/master-map/
+En ligne : https://www.couloir4.fr/
 
 ## Comment ça marche
 
@@ -46,7 +46,7 @@ Raccourcis `make` disponibles : `make scrape` et `make serve`.
 
 ## Déploiement
 
-Settings → Pages → source = `main`, dossier `/ (root)`. URL active en ~1 min : `https://bneel.github.io/master-map/`. SSL automatique (Let's Encrypt via GitHub).
+Settings → Pages → source = `main`, dossier `/ (root)`. Custom domain `www.couloir4.fr` (fichier `CNAME`). SSL automatique (Let's Encrypt via GitHub).
 
 ## Sources et attributions
 

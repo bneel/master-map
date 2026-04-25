@@ -1,0 +1,1970 @@
+{
+  "savedAt": "2026-04-25T15:56:41.710Z",
+  "year": 2025,
+  "month": 5,
+  "count": 327,
+  "raw": [
+    {
+      "competitionId": "89600",
+      "niveau": "D",
+      "libelle": "Meeting du Muguet  - AVRANCHES",
+      "dateIso": "2025-05-01"
+    },
+    {
+      "competitionId": "89881",
+      "niveau": "D",
+      "libelle": "Les 50m de Bray-Dunes - BRAY-DUNES",
+      "dateIso": "2025-05-01"
+    },
+    {
+      "competitionId": "89469",
+      "niveau": "D",
+      "libelle": "Circuit 4 Benjamins/Juniors - SAINT-QUENTIN",
+      "dateIso": "2025-05-01"
+    },
+    {
+      "competitionId": "89178",
+      "niveau": "N",
+      "libelle": "2e Meeting National des Sacres - REIMS",
+      "dateIso": "2025-05-02"
+    },
+    {
+      "competitionId": "90044",
+      "niveau": "N",
+      "libelle": "Meeting National Région Sud #2 - Saint-Raphaël - SAINT-RAPHAËL",
+      "dateIso": "2025-05-02"
+    },
+    {
+      "competitionId": "89237",
+      "niveau": "N",
+      "libelle": "16e Meeting National G. Bozon - TOURS",
+      "dateIso": "2025-05-02"
+    },
+    {
+      "competitionId": "89124",
+      "niveau": "N",
+      "libelle": "XIIIe Meeting National des Maîtres de Caen - CAEN",
+      "dateIso": "2025-05-03"
+    },
+    {
+      "competitionId": "88845",
+      "niveau": "N",
+      "libelle": "Meeting National des Maîtres de Villeurbanne - VILLEURBANNE",
+      "dateIso": "2025-05-03"
+    },
+    {
+      "competitionId": "89802",
+      "niveau": "R",
+      "libelle": "Match 4 Avenirs - Zone Nord-Est - BRAS-PANON",
+      "dateIso": "2025-05-03"
+    },
+    {
+      "competitionId": "89803",
+      "niveau": "R",
+      "libelle": "Match 4 Avenirs - Zone Sud - SAINT-LEU",
+      "dateIso": "2025-05-03"
+    },
+    {
+      "competitionId": "87467",
+      "niveau": "R",
+      "libelle": "32es Nautiques de Tarbes - TARBES",
+      "dateIso": "2025-05-03"
+    },
+    {
+      "competitionId": "89827",
+      "niveau": "R",
+      "libelle": "Championnat d'Eté Open des Maîtres - TAVERNY",
+      "dateIso": "2025-05-03"
+    },
+    {
+      "competitionId": "89355",
+      "niveau": "D",
+      "libelle": "Meeting 3 Open - BAILLY-ROMAINVILLIERS",
+      "dateIso": "2025-05-03"
+    },
+    {
+      "competitionId": "90021",
+      "niveau": "D",
+      "libelle": "18e Challenge Yves Moreau - BRUNOY",
+      "dateIso": "2025-05-03"
+    },
+    {
+      "competitionId": "88549",
+      "niveau": "D",
+      "libelle": "Journée Départementale Maitres - GRANVILLE",
+      "dateIso": "2025-05-03"
+    },
+    {
+      "competitionId": "89656",
+      "niveau": "D",
+      "libelle": "Journée Sprint - L'HAŸ-LES-ROSES",
+      "dateIso": "2025-05-03"
+    },
+    {
+      "competitionId": "89664",
+      "niveau": "D",
+      "libelle": "Journée Sprint Maîtres - L'HAŸ-LES-ROSES",
+      "dateIso": "2025-05-03"
+    },
+    {
+      "competitionId": "87115",
+      "niveau": "D",
+      "libelle": "Animation Avenirs - NÎMES",
+      "dateIso": "2025-05-03"
+    },
+    {
+      "competitionId": "89685",
+      "niveau": "D",
+      "libelle": "Meeting de la Plage - EN Pontivy - PONTIVY",
+      "dateIso": "2025-05-03"
+    },
+    {
+      "competitionId": "90071",
+      "niveau": "D",
+      "libelle": "Challenge 92 Juniors/Séniors - SAINT-CLOUD",
+      "dateIso": "2025-05-03"
+    },
+    {
+      "competitionId": "90036",
+      "niveau": "D",
+      "libelle": "Open 93 - 3e Etape - Nordine Houacine - SAINT-OUEN",
+      "dateIso": "2025-05-03"
+    },
+    {
+      "competitionId": "89631",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Benjamins/Juniors/Séniors #4-2025 - TOULOUSE",
+      "dateIso": "2025-05-03"
+    },
+    {
+      "competitionId": "89877",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Open des Maîtres - AGEN",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "89804",
+      "niveau": "R",
+      "libelle": "Match 4 Avenirs - Zone Ouest - LA POSSESSION",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "89805",
+      "niveau": "R",
+      "libelle": "Challenge des Maîtres 2 - SAINT-LEU",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "90040",
+      "niveau": "R",
+      "libelle": "GRAND PRIX BLANDIN 10ème édition - SCHOELCHER",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "87116",
+      "niveau": "D",
+      "libelle": "Championnats du Gard Benjamins Open - ALES",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "89923",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Départemental - 90  - BELFORT",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "89999",
+      "niveau": "D",
+      "libelle": "Plot 1 : CD 90 - BELFORT",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "88688",
+      "niveau": "D",
+      "libelle": "3e Challenge Avenirs/Benjamins - CHÂTILLON-SUR-INDRE",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "89639",
+      "niveau": "D",
+      "libelle": "3e Rencontre Avenirs - CONCHES-EN-OUCHE",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "89532",
+      "niveau": "D",
+      "libelle": "2e Meeting du Dourdannais - DOURDAN",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "89992",
+      "niveau": "D",
+      "libelle": "Circuit Juniors/Séniors 3 - FRANCONVILLE-LA-GARENNE",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "89657",
+      "niveau": "D",
+      "libelle": "Journée Demi-fond Open - L'HAŸ-LES-ROSES",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "89665",
+      "niveau": "D",
+      "libelle": "Journée Maîtres Demi-fond  - L'HAŸ-LES-ROSES",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "89885",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins - LANNION",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "89589",
+      "niveau": "D",
+      "libelle": "Avenirs - Plot 4 - MONTIVILLIERS",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "89632",
+      "niveau": "D",
+      "libelle": "Trophées Paule Lacoste #4-2025 - PORTET-SUR-GARONNE",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "90015",
+      "niveau": "D",
+      "libelle": "Plot 5 - Pyrénées-Atlantiques - SAINT-JEAN-DE-LUZ",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "89897",
+      "niveau": "D",
+      "libelle": "Meeting Estival de Sedan - SEDAN",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "90016",
+      "niveau": "D",
+      "libelle": "Meeting du muguet  - TAGOLSHEIM",
+      "dateIso": "2025-05-04"
+    },
+    {
+      "competitionId": "90138",
+      "niveau": "D",
+      "libelle": "Meeting 3 Open - Finales - BAILLY-ROMAINVILLIERS",
+      "dateIso": "2025-05-05"
+    },
+    {
+      "competitionId": "88166",
+      "niveau": "R",
+      "libelle": "Tunisian Open Masters 8 - RADES",
+      "dateIso": "2025-05-06"
+    },
+    {
+      "competitionId": "89693",
+      "niveau": "D",
+      "libelle": "Meeting des Corsaires - BAUD",
+      "dateIso": "2025-05-08"
+    },
+    {
+      "competitionId": "89747",
+      "niveau": "D",
+      "libelle": "Circuit 4  - BORDEAUX",
+      "dateIso": "2025-05-08"
+    },
+    {
+      "competitionId": "89683",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs/Benjamins - B. Cohen - COMPIÈGNE",
+      "dateIso": "2025-05-08"
+    },
+    {
+      "competitionId": "89684",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs/Benjamins - B. Cohen / Finales - COMPIÈGNE",
+      "dateIso": "2025-05-08"
+    },
+    {
+      "competitionId": "89872",
+      "niveau": "D",
+      "libelle": "Cher Swimming League - SAINT-GERMAIN-DU-PUY",
+      "dateIso": "2025-05-08"
+    },
+    {
+      "competitionId": "88621",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville - VERDUN",
+      "dateIso": "2025-05-08"
+    },
+    {
+      "competitionId": "90072",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville Masters - VERDUN",
+      "dateIso": "2025-05-08"
+    },
+    {
+      "competitionId": "89021",
+      "niveau": "I",
+      "libelle": "Giant Open 2025 - SAINT-DENIS",
+      "dateIso": "2025-05-09"
+    },
+    {
+      "competitionId": "88846",
+      "niveau": "N",
+      "libelle": "4e Open des Gones - VILLEURBANNE",
+      "dateIso": "2025-05-09"
+    },
+    {
+      "competitionId": "89536",
+      "niveau": "R",
+      "libelle": "46e Meeting de Poitiers - Trophée Christian Leteuré - POITIERS",
+      "dateIso": "2025-05-09"
+    },
+    {
+      "competitionId": "87936",
+      "niveau": "R",
+      "libelle": "Meeting Régional Benjamins 13 ans/Juniors/Séniors – 50 m - TOULOUSE",
+      "dateIso": "2025-05-09"
+    },
+    {
+      "competitionId": "89157",
+      "niveau": "N",
+      "libelle": "11e Meeting National Maîtres de Dijon - DIJON",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "89155",
+      "niveau": "R",
+      "libelle": "Circuit Promotionnel - Etape 2 - BEAUVAIS",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "88466",
+      "niveau": "R",
+      "libelle": "Meeting Jeunes de Châlons-en-Champagne - CHÂLONS-EN-CHAMPAGNE",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "89997",
+      "niveau": "R",
+      "libelle": "5e Meeting de Nevers - NEVERS",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "89133",
+      "niveau": "R",
+      "libelle": "Total Energies - Meeting CNC  - NOUMÉA",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "89156",
+      "niveau": "R",
+      "libelle": "Circuit Promotionnel - Etape 2 - SECLIN",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "90031",
+      "niveau": "D",
+      "libelle": "Championnat Départemental de l'Oise Eté Open des Maîtres - BEAUVAIS",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "89791",
+      "niveau": "D",
+      "libelle": "Nat'Ouest 2025 - BREST",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "89666",
+      "niveau": "D",
+      "libelle": "Plot 3 Avenirs - CACHAN",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "89104",
+      "niveau": "D",
+      "libelle": "Championnats des Yvelines Open - CHEVREUSE",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "89408",
+      "niveau": "D",
+      "libelle": "Benjamins - Journée 3 - GENNEVILLIERS",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "90023",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Avenirs - MARTIGUES",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "88852",
+      "niveau": "D",
+      "libelle": "Trophée des Petits Landais – par équipe - MIMIZAN",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "88854",
+      "niveau": "D",
+      "libelle": "Trophée des Petits Landais – Solo - MIMIZAN",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "90019",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs N°2 - PARAY-LE-MONIAL",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "90091",
+      "niveau": "D",
+      "libelle": "Meeting 72 - SABLE-SUR-SARTHE",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "88763",
+      "niveau": "D",
+      "libelle": "Benjathlon 4 - SAINT-OUEN",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "88748",
+      "niveau": "D",
+      "libelle": "Avenirs Drôme/Ardèche - SAINT-PAUL-TROIS-CHÂTEAUX",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "89990",
+      "niveau": "D",
+      "libelle": "Meeting Départemental Juniors et + - SAINT-PRIEST",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "88504",
+      "niveau": "D",
+      "libelle": "28e Open de Seynod Natation - SEYNOD",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "89654",
+      "niveau": "D",
+      "libelle": "2e Meeting de l'Avenir - VIRY-CHATILLON",
+      "dateIso": "2025-05-10"
+    },
+    {
+      "competitionId": "90092",
+      "niveau": "R",
+      "libelle": "Trophée du Nageur Complet - LES ABYMES",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "89370",
+      "niveau": "D",
+      "libelle": "3e Journée du Trophée Départemental Avenirs - AUCHEL",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "90041",
+      "niveau": "D",
+      "libelle": "Etape Départementale N°3 - BOURG-SAINT-MAURICE",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "87278",
+      "niveau": "D",
+      "libelle": "Tournoi de Vitesse Maîtres - CARROS",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "87321",
+      "niveau": "D",
+      "libelle": "Challenge des Alpes-Maritimes Avenirs - CARROS",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "87330",
+      "niveau": "D",
+      "libelle": "Challenge des Alpes-Maritimes Pitchouns - CARROS",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "89186",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs 3 - CHOLET",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "89710",
+      "niveau": "D",
+      "libelle": "Benjamins Plot n°3 / 2025 - DONGES",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "90144",
+      "niveau": "D",
+      "libelle": "Avenirs - Qualification Région 100 4N - DONGES",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "89868",
+      "niveau": "D",
+      "libelle": "1er Meeting Douvres la Délivrande - DOUVRES-LA-DÉLIVRANDE",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "88575",
+      "niveau": "D",
+      "libelle": "Meeting Natation Drachenbronn-Birlenbach - DRACHENBRONN",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "89377",
+      "niveau": "D",
+      "libelle": "Poule Départementale des Interclubs Benjamins - FAUVILLE-EN-CAUX",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "89521",
+      "niveau": "D",
+      "libelle": "Circuit Départemental n° 3 / Vendée Tour n° 5 - FONTENAY-LE-COMTE",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "89911",
+      "niveau": "D",
+      "libelle": "Challenge 4 Benjamins - LAGNY-SUR-MARNE",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "89640",
+      "niveau": "D",
+      "libelle": "3e Journée Inter-saison - LOUVIERS",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "90030",
+      "niveau": "D",
+      "libelle": "Circuit N°2 Avenirs/Benjamins/Juniors - MÂCON",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "87320",
+      "niveau": "D",
+      "libelle": "Challenge des Alpes-Maritimes Avenirs - MENTON",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "87327",
+      "niveau": "D",
+      "libelle": "Challenge des Alpes-Maritimes Pitchouns - MENTON",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "90034",
+      "niveau": "D",
+      "libelle": "Interclubs Parisiens – Benjamins - PARIS",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "90105",
+      "niveau": "D",
+      "libelle": "Finale Avenirs 2025 - PONTARLIER",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "89350",
+      "niveau": "D",
+      "libelle": "25e Meeting de Provins Natation - PROVINS",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "89931",
+      "niveau": "D",
+      "libelle": "JOQUA 6 - SAINT-ASTIER",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "90024",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins - VENELLES",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "89409",
+      "niveau": "D",
+      "libelle": "Benjamins - Journée 3 - VILLENEUVE-LA-GARENNE",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "89667",
+      "niveau": "D",
+      "libelle": "Plot 3  Avenirs - VILLIERS-SUR-MARNE",
+      "dateIso": "2025-05-11"
+    },
+    {
+      "competitionId": "89985",
+      "niveau": "R",
+      "libelle": "Championnat de Printemps du Circuit Régional Juniors/Séniors - CORBEIL-ESSO..",
+      "dateIso": "2025-05-16"
+    },
+    {
+      "competitionId": "89229",
+      "niveau": "R",
+      "libelle": "Championnats de Polynésie 50m - PAPEETE",
+      "dateIso": "2025-05-16"
+    },
+    {
+      "competitionId": "89210",
+      "niveau": "D",
+      "libelle": "Meeting de Printemps - BELLERIVE-SUR-ALLIER",
+      "dateIso": "2025-05-16"
+    },
+    {
+      "competitionId": "89852",
+      "niveau": "D",
+      "libelle": "Meeting de Saint-Étienne - SAINT-ÉTIENNE",
+      "dateIso": "2025-05-16"
+    },
+    {
+      "competitionId": "89941",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Maîtres - Etape 3 - SAINT-MARCEL",
+      "dateIso": "2025-05-16"
+    },
+    {
+      "competitionId": "88645",
+      "niveau": "N",
+      "libelle": "10e Meeting National des Maîtres du Gard - NÎMES",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "89837",
+      "niveau": "N",
+      "libelle": "Ve Championnats de France Eté N2 des Maîtres - NÎMES",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "89658",
+      "niveau": "R",
+      "libelle": "19e Meeting Mélanie Dambrine - AMIENS",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "89787",
+      "niveau": "R",
+      "libelle": "Meeting Régional de l'ANB - BESANÇON",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "89878",
+      "niveau": "R",
+      "libelle": "Meeting de l'Océan - LNA Tour - LA ROCHELLE",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "90221",
+      "niveau": "R",
+      "libelle": "Trophée Avenirs - Plot 3 - LE LAMENTIN",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "89982",
+      "niveau": "R",
+      "libelle": "Meeting de Lens - LENS",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "89170",
+      "niveau": "R",
+      "libelle": "Meeting de Saint-Malo Natation - SAINT-MALO",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "90154",
+      "niveau": "D",
+      "libelle": "MCA 5 - Ambarès & Lagrave - AMBARÈS",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "89712",
+      "niveau": "D",
+      "libelle": "4e Meeting Ancenis Course Natation - ANCENIS",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "88329",
+      "niveau": "D",
+      "libelle": "Championnat Départemental A3 - Benjamins/Juniors & Séniors - AVIGNON",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "89970",
+      "niveau": "D",
+      "libelle": "Meeting Départemental Benjamins/Juniors & plus - BELLEGARDE-SUR-VALSERINE",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "88551",
+      "niveau": "D",
+      "libelle": "2e District - Nord - CARENTAN",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "90208",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins - DECIZE",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "90210",
+      "niveau": "D",
+      "libelle": "Trophée Bernard Bourdin - DECIZE",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "89882",
+      "niveau": "D",
+      "libelle": "Inter-clubs Douai Natation 1897 - DOUAI",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "87053",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins - ÉPERNAY",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "87054",
+      "niveau": "D",
+      "libelle": "4e Journée Départementale de la Marne - ÉPERNAY",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "90175",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - FRÉJUS",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "88766",
+      "niveau": "D",
+      "libelle": "Mini Neuf Cube 4 - LE RAINCY",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "90086",
+      "niveau": "D",
+      "libelle": "3e Journée Départementale - Secteurs 1&2 - LES ULIS",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "90088",
+      "niveau": "D",
+      "libelle": "3e Journée Départementale - Maîtres - Secteurs 1&2 - LES ULIS",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "90032",
+      "niveau": "D",
+      "libelle": "12e Meeting de Paris - PARIS",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "88749",
+      "niveau": "D",
+      "libelle": "Coupe Départementale Drôme/Ardèche - ROMANS-SUR-ISÈRE",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "90213",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs 4 - Challenge Bleu - SAINT-FLORENT-SUR-CHER",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "90214",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs 4 - Challenge Rouge - SAINT-FLORENT-SUR-CHER",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "90215",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs 4 - Challenge Jaune - SAINT-FLORENT-SUR-CHER",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "90073",
+      "niveau": "D",
+      "libelle": "Plot Avenirs Benjamins et + - SAINT-LOUIS",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "89958",
+      "niveau": "D",
+      "libelle": "Mini Neuf Cube 4 - Samedi à Drancy & Dimanche à Villepinte - VILLEPINTE",
+      "dateIso": "2025-05-17"
+    },
+    {
+      "competitionId": "89704",
+      "niveau": "R",
+      "libelle": "Championnats de Normandie Interclubs Benjamins - ARGENTAN",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89889",
+      "niveau": "R",
+      "libelle": "Meeting de Vitesse - BASTIA",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89800",
+      "niveau": "R",
+      "libelle": "Championnat Régional Interclubs Benjamins - SAINT-JOSEPH",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89801",
+      "niveau": "R",
+      "libelle": "Course des Remplaçants - Interclubs Benjamins Réunion 974 - SAINT-JOSEPH",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89136",
+      "niveau": "R",
+      "libelle": "Interclubs Benjamins 2025 - VENDÔME",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89412",
+      "niveau": "D",
+      "libelle": "Avenirs - Journée 3 - Zone Sud - ANTONY",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "88431",
+      "niveau": "D",
+      "libelle": "Journée Avenirs & Benjamins 5/5 - ARGELES-SUR-MER",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90183",
+      "niveau": "D",
+      "libelle": "Circuit 5 Avenirs - Pyrénées-Atlantiques - BAYONNE",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89410",
+      "niveau": "D",
+      "libelle": "Avenirs - Journée 3 - Zone Nord - BOIS-COLOMBES",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90155",
+      "niveau": "D",
+      "libelle": "MCA 5 - Bordeaux - BORDEAUX",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89946",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs Benjamins - BRETEUIL-SUR-ITON",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90085",
+      "niveau": "D",
+      "libelle": "3e Journée Circuit Avenirs 91 - Secteur 3 - BRUNOY",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89680",
+      "niveau": "D",
+      "libelle": "Challenge 1   Avenirs 2016 et moins - CHENNEVIÈRES-SUR-MARNE",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89812",
+      "niveau": "D",
+      "libelle": "5e Animation Hérault Avenirs - CLERMONT-L'HÉRAULT",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89926",
+      "niveau": "D",
+      "libelle": "3e Natathlon Avenirs CD34 - CLERMONT-L'HÉRAULT",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "88505",
+      "niveau": "D",
+      "libelle": "Circuit Avenirs 3 Haute-Savoie - CLUSES",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "88506",
+      "niveau": "D",
+      "libelle": "Fun Cup Avenirs 3 Haute-Savoie - CLUSES",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89906",
+      "niveau": "D",
+      "libelle": "Challenge 4 Avenirs  - COMBS-LA-VILLE",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89942",
+      "niveau": "D",
+      "libelle": "4e Circuit Hérault Benjamins et Juniors/Séniors - COURNONTERRAL",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89944",
+      "niveau": "D",
+      "libelle": "4ème Circuit Hérault des Maîtres - COURNONTERRAL",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90075",
+      "niveau": "D",
+      "libelle": "Avenirs Printemps  - COUTANCES",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90026",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs Alpes 04/05 - EMBRUN",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89434",
+      "niveau": "D",
+      "libelle": "Parcours Avenirs 3 - ÉRAGNY-SUR-OISE",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90082",
+      "niveau": "D",
+      "libelle": "Rencontre des Ecoles de Natation - Secteur 2 - ÉTAMPES",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90185",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - GIVET",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90186",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins - GIVET",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90005",
+      "niveau": "D",
+      "libelle": "Découv'Nat - 3e Journée - GRAVELINES",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90004",
+      "niveau": "D",
+      "libelle": "Découv'Nat - 3e Journée - HAUBOURDIN",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90120",
+      "niveau": "D",
+      "libelle": "Journée CD 54 #4 - JOEUF",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90198",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins - LANGRES",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90199",
+      "niveau": "D",
+      "libelle": "Journée d'Animation 5 - LANGRES",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90083",
+      "niveau": "D",
+      "libelle": "3e Journée du Circuit Avenirs 91 - Secteur 1 - LES ULIS",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89012",
+      "niveau": "D",
+      "libelle": "Championnats de Vendée Masters Eté - LUÇON",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89520",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs 6 - LUÇON",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90008",
+      "niveau": "D",
+      "libelle": "Découv'Nat - 3e Journée - MARCQ-EN-BAROEUL",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90007",
+      "niveau": "D",
+      "libelle": "Découv'Nat - 3e Journée - MAUBEUGE",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89907",
+      "niveau": "D",
+      "libelle": "Challenge 4 Avenirs  - MEAUX",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89566",
+      "niveau": "D",
+      "libelle": "Meeting Départemental - MONISTROL-SUR-LOIRE",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89567",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins CD43 - MONISTROL-SUR-LOIRE",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90204",
+      "niveau": "D",
+      "libelle": "challenge avenir A - MONISTROL-SUR-LOIRE",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90205",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs B - MONISTROL-SUR-LOIRE",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90248",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs A - MONISTROL-SUR-LOIRE",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90087",
+      "niveau": "D",
+      "libelle": "3e Journée Départementale - Secteur 3 - MONTGERON",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90089",
+      "niveau": "D",
+      "libelle": "3e Journée Départementale - Maîtres - Secteur 3 - MONTGERON",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90080",
+      "niveau": "D",
+      "libelle": "Rencontre des Ecoles de Natation - Secteur 1 - MORSANG-SUR-ORGE",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89411",
+      "niveau": "D",
+      "libelle": "Avenirs - Journée 3 - Zone Centre - NANTERRE",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89601",
+      "niveau": "D",
+      "libelle": "26e Grand Prix des Maitres - NANTES",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90097",
+      "niveau": "D",
+      "libelle": "Vosg'Nat 4 Open 25m - NEUFCHÂTEAU",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "88578",
+      "niveau": "D",
+      "libelle": "Natathlon Benjamins/Juniors/Séniors - Etape 2 - OBERNAI",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90178",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Benjamins  - OBERNAI",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89971",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs 2025 - OYONNAX",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90035",
+      "niveau": "D",
+      "libelle": "Coupe Paillieux – 4e Etape - PARIS",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90184",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs – 4e Etape - PARIS",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89780",
+      "niveau": "D",
+      "libelle": "Journées Qualificatives aux Chpts Départementaux Avenirs 3 - POISSY",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90158",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins - PONT-DE-CLAIX",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90159",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - PONT-DE-CLAIX",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90160",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Avenirs & Benjamins  - PONT-DE-CLAIX",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89939",
+      "niveau": "D",
+      "libelle": "Journées Qualificatives aux Chpts Départementaux Avenirs 3 - PORCHEVILLE",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90081",
+      "niveau": "D",
+      "libelle": "Rencontre des Ecoles de Natation - Secteur 3 - RIS-ORANGIS",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "88750",
+      "niveau": "D",
+      "libelle": "Championnats Drôme/Ardèche Interclubs Benjamins - ROMANS-SUR-ISÈRE",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90009",
+      "niveau": "D",
+      "libelle": "Découv'Nat - 3e Journée - RONCHIN",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89748",
+      "niveau": "D",
+      "libelle": "11e Coupe Maryline Douay - SAINT-HERBLAIN",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90084",
+      "niveau": "D",
+      "libelle": "3e Journée Circuit Avenirs 91 - Secteur 2 - SAINT-MICHEL-SUR-ORGE",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90006",
+      "niveau": "D",
+      "libelle": "Découv'Nat - 3e Journée - SAINT-SAULVE",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89991",
+      "niveau": "D",
+      "libelle": "Natathlon Benjamins N°3 - SAINTE-FOY-LÈS-LYON",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89435",
+      "niveau": "D",
+      "libelle": "Parcours Avenirs 3 - SARCELLES",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89925",
+      "niveau": "D",
+      "libelle": "3e Journée Moselle - SERÉMANGE-ERZANGE",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "90176",
+      "niveau": "D",
+      "libelle": "Journées Qualificatives aux Chpts Départementaux Avenirs 3 - VERSAILLES",
+      "dateIso": "2025-05-18"
+    },
+    {
+      "competitionId": "89017",
+      "niveau": "N",
+      "libelle": "Championnats de France Nationale 2 - BÉTHUNE",
+      "dateIso": "2025-05-22"
+    },
+    {
+      "competitionId": "89844",
+      "niveau": "R",
+      "libelle": "Meeting Benjamins/Avenirs du Grand Chalon - CHALON-SUR-SAÔNE",
+      "dateIso": "2025-05-23"
+    },
+    {
+      "competitionId": "89358",
+      "niveau": "D",
+      "libelle": "Championnats Open Haute-Savoie des Maîtres Eté - THONON-LES-BAINS",
+      "dateIso": "2025-05-23"
+    },
+    {
+      "competitionId": "89846",
+      "niveau": "I",
+      "libelle": "37e Meeting International de Canet-en-Roussillon - CANET-EN-ROUSSILLON",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "89048",
+      "niveau": "N",
+      "libelle": "9e Meeting des Maîtres de Poissy - POISSY",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "89815",
+      "niveau": "R",
+      "libelle": "Rattrapage Match 2 Avenirs - Zone Nord-Est - BRAS-PANON",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90307",
+      "niveau": "R",
+      "libelle": "Rattrapage Match 1 Benjamins/Juniors - Zone Nord-Est - BRAS-PANON",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "89306",
+      "niveau": "R",
+      "libelle": "Meeting NC 3 - DUMBÉA",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "88384",
+      "niveau": "R",
+      "libelle": "Meeting du CNBM - LES ABYMES",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "89832",
+      "niveau": "R",
+      "libelle": "Match 2 Avenirs - Zone Sud - SAINT-LEU",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "89705",
+      "niveau": "R",
+      "libelle": "Championnats de Normandie Printemps - Honneurs - SAINT-LÔ",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "89708",
+      "niveau": "R",
+      "libelle": "Championnats de Normandie Printemps - Benjamins - SAINT-LÔ",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90109",
+      "niveau": "R",
+      "libelle": "Finale Régionale Benjamins - SAINT-NAZAIRE",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90173",
+      "niveau": "R",
+      "libelle": "Finale Régionale Avenirs - SAINT-NAZAIRE",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90163",
+      "niveau": "D",
+      "libelle": "Championnat Départemental 13 Open Maîtres - AIX-EN-PROVENCE",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90170",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux 13 Open Juniors/Séniors - AIX-EN-PROVENCE",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "89857",
+      "niveau": "D",
+      "libelle": "4e Circuit Avenirs - ALBERT",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "88369",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs - 5e Journée - Secteur 2 - ALBI",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "88824",
+      "niveau": "D",
+      "libelle": "5e Meeting SSD Benjamins/Avenirs - BOBIGNY",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90146",
+      "niveau": "D",
+      "libelle": "Meeting Sprint 29 - BREST",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90211",
+      "niveau": "D",
+      "libelle": "Etape Audoise des Médailles du TOAC - CASTELNAUDARY",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "89994",
+      "niveau": "D",
+      "libelle": "1er Meeting Maîtres - CHÂTELLERAULT",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "89996",
+      "niveau": "D",
+      "libelle": "1er Meeting Maître réservé C0 - CHÂTELLERAULT",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90164",
+      "niveau": "D",
+      "libelle": "Championnat Départemental d'Eté  - ÉCHIROLLES",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "87489",
+      "niveau": "D",
+      "libelle": "Plot Départemental 4 - FOUGÈRES",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "89887",
+      "niveau": "D",
+      "libelle": "Maîtres - Plot 3 - GUINGAMP",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90171",
+      "niveau": "D",
+      "libelle": "Coupe Catherine Plewinski - ISSOIRE",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90182",
+      "niveau": "D",
+      "libelle": "Remplaçants Coupe Catherine Plewinski - ISSOIRE",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90168",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Avenirs - 3e Etape - LUYNES",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "89128",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs - 5e Journée - MONTAUBAN",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90167",
+      "niveau": "D",
+      "libelle": "Meeting les Maîtres en Fête - NOGENT-SUR-OISE",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "89196",
+      "niveau": "D",
+      "libelle": "Meeting 45 - ORLÉANS",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90197",
+      "niveau": "D",
+      "libelle": "Challenge Parisien - Benjamins/Juniors/Séniors - PARIS",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90076",
+      "niveau": "D",
+      "libelle": "Meeting Masters de Pau - Paul Izard - PAU",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "87801",
+      "niveau": "D",
+      "libelle": "Chpts Eté Masters Loire - SAINT-ÉTIENNE",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90220",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Eté Toutes Catégories - SARCELLES",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "89955",
+      "niveau": "D",
+      "libelle": "A vos Marques 3 - SARREGUEMINES",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "89966",
+      "niveau": "D",
+      "libelle": "Trophée 4 Avenirs - TONNERRE",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90033",
+      "niveau": "D",
+      "libelle": "Médailles du TOAC 2025 - Etape 1 - TOULOUSE",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "89125",
+      "niveau": "D",
+      "libelle": "Meeting de Versailles Open Espoirs 2025 - VERSAILLES",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90229",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Eté - VIERZON",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90230",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Eté des Maitres - VIERZON",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "89681",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins - VILLEJUIF",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "89682",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Benjamins - VILLEJUIF",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "88963",
+      "niveau": "D",
+      "libelle": "Meeting du CNV - Trophée du Centenaire - VILLENEUVE-SUR-LOT",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90121",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs 4 - VILLERUPT",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90122",
+      "niveau": "D",
+      "libelle": "Circuit Avenirs 4 - VILLERUPT",
+      "dateIso": "2025-05-24"
+    },
+    {
+      "competitionId": "90224",
+      "niveau": "R",
+      "libelle": "Championnats été Ligue AuRA et été Rhône Open Maitres - BELLEVILLE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90107",
+      "niveau": "R",
+      "libelle": "Coupe de France des Départements - LANEUVEVILLE-DEVANT-NANCY",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90098",
+      "niveau": "R",
+      "libelle": "Finale Régionale Printemps Yaouank - LOUDÉAC",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89231",
+      "niveau": "R",
+      "libelle": "Interclubs Benjamins - PIRAE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89858",
+      "niveau": "D",
+      "libelle": "4e Circuit Départemental Benjamins et + - ALBERT",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90169",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Benjamins - 5e Etape - AMBOISE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89066",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins Haute-Savoie - ANNECY",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90181",
+      "niveau": "D",
+      "libelle": "Equipes Mixtes Benjamines et Remplaçants Haute-Savoie - ANNECY",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90188",
+      "niveau": "D",
+      "libelle": "Championnats 36 Printemps - ARGENTON-SUR-CREUSE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90189",
+      "niveau": "D",
+      "libelle": "Championnats 36 Printemps Maîtres - ARGENTON-SUR-CREUSE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90014",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Départemental - 90 - BELFORT",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90056",
+      "niveau": "D",
+      "libelle": "Plot 2 - CD90 - BELFORT",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89993",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins 24/33/47 - BERGERAC",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90012",
+      "niveau": "D",
+      "libelle": "Critérium du Nord - 3e Plot - CAMBRAI",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90264",
+      "niveau": "D",
+      "libelle": "Circuit 4 Avenirs  - CHÂTEAU-THIERRY",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90231",
+      "niveau": "D",
+      "libelle": "Championnat Individuel Avenirs/Benjamins - DECIZE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90238",
+      "niveau": "D",
+      "libelle": "Championnat Avenirs par équipe E4 - DECIZE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90013",
+      "niveau": "D",
+      "libelle": "Critérium du Nord - 3e Plot - GRAVELINES",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90260",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Clubs - JANZÉ",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89886",
+      "niveau": "D",
+      "libelle": "Yaouank 3 & DAE 3 - LAMBALLE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "88788",
+      "niveau": "D",
+      "libelle": "Circuit Départemental - 4e Etape - LANNEMEZAN",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89836",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins 19/23/87 - LIMOGES",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90268",
+      "niveau": "D",
+      "libelle": "Tournoi de Mai - LIMOGES",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90010",
+      "niveau": "D",
+      "libelle": "Critérium du Nord - 3e Plot - MARCQ-EN-BAROEUL",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89908",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins - MEAUX",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "88999",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins - Aveyron/Lozère - MENDE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89000",
+      "niveau": "D",
+      "libelle": "Confrontation Avenirs par équipe Aveyron/Lozère - MENDE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "88244",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs Benjamins  - MONTAUBAN",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89928",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins CD34 - MONTPELLIER",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90270",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins - Pyrénées-Atlantiques - MOURENX",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90271",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins (Équipes Mixtes et Remplaçants) - MOURENX",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89903",
+      "niveau": "D",
+      "libelle": "Meeting Départemental Qualificatif - NARBONNE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "87353",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins 06 et 83 - NICE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "88410",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs - Plot 4 - NOGENT-SUR-OISE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90059",
+      "niveau": "D",
+      "libelle": "Finale de la Coupe du Sud - OULLINS",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "88863",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins - POITIERS",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "88864",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Benjamins - POITIERS",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "88835",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins 40 - SAINT-GEOURS-DE-MAREMNE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90299",
+      "niveau": "D",
+      "libelle": "Meeting Landes - SAINT-GEOURS-DE-MAREMNE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90256",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins - SAINT-VICTOR",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90272",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins - SAINTES",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90327",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants - SAINTES",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90011",
+      "niveau": "D",
+      "libelle": "Critérium du Nord - 3e Plot - SECLIN",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90241",
+      "niveau": "D",
+      "libelle": "Finale Interdépartementale B/J/S - SEURRE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89182",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Benjamins - SORGUES",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89183",
+      "niveau": "D",
+      "libelle": "Interclubs Mixtes Benjamins  - SORGUES",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89184",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Avenirs - SORGUES",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90201",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants - SORGUES",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90017",
+      "niveau": "D",
+      "libelle": "Meeting de Thann - THANN",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90129",
+      "niveau": "D",
+      "libelle": "Meeting de Thann Maîtres  - THANN",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89967",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Benjamins - Equipes de 4 - TONNERRE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89634",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Ben/Juniors/Sen #5-2025 - TOULOUSE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89974",
+      "niveau": "D",
+      "libelle": "Le Printemps des Maîtres - TROYES",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90090",
+      "niveau": "D",
+      "libelle": "Circuit 56_4 Open Benjamins/Juniors/Séniors - VANNES",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "90180",
+      "niveau": "D",
+      "libelle": "Vers le Trophéee des Avenirs - Etape 3 - VERNOUILLET",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89829",
+      "niveau": "D",
+      "libelle": "Meeting de Versailles Open Espoirs 2025 - Finales - VERSAILLES",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89936",
+      "niveau": "D",
+      "libelle": "40e Coupe de la Ville du NVB / Natathlon Avenirs n°3 - VILLEFRANCHE-SUR-SAÔNE",
+      "dateIso": "2025-05-25"
+    },
+    {
+      "competitionId": "89876",
+      "niveau": "N",
+      "libelle": "1er Meeting National des Maîtres de Melun Eurocomswim - MELUN",
+      "dateIso": "2025-05-29"
+    },
+    {
+      "competitionId": "89799",
+      "niveau": "R",
+      "libelle": "Meeting de la Liberté - EN CAEN - CAEN",
+      "dateIso": "2025-05-29"
+    },
+    {
+      "competitionId": "90280",
+      "niveau": "R",
+      "libelle": "Amazonian Cup - Meeting Qualificatif International - CAYENNE",
+      "dateIso": "2025-05-29"
+    },
+    {
+      "competitionId": "90093",
+      "niveau": "R",
+      "libelle": "Coupe Inter-départementale  - SAINT-TROPEZ",
+      "dateIso": "2025-05-29"
+    },
+    {
+      "competitionId": "90150",
+      "niveau": "R",
+      "libelle": "Meeting du Sprint du CNY - YVETOT",
+      "dateIso": "2025-05-29"
+    },
+    {
+      "competitionId": "90118",
+      "niveau": "D",
+      "libelle": "Meeting d'Achicourt - ACHICOURT",
+      "dateIso": "2025-05-29"
+    },
+    {
+      "competitionId": "89719",
+      "niveau": "D",
+      "libelle": "Championnat de Haute-Saône - LURE",
+      "dateIso": "2025-05-29"
+    },
+    {
+      "competitionId": "89720",
+      "niveau": "D",
+      "libelle": "Meeting Maîtres Open - LURE",
+      "dateIso": "2025-05-29"
+    },
+    {
+      "competitionId": "88911",
+      "niveau": "D",
+      "libelle": "3e Meeting Open de Niort - NIORT",
+      "dateIso": "2025-05-29"
+    },
+    {
+      "competitionId": "89894",
+      "niveau": "D",
+      "libelle": "Championnat Départemental du Nord Eté Open des Maîtres - SAINT-POL-SUR-MER",
+      "dateIso": "2025-05-29"
+    },
+    {
+      "competitionId": "89167",
+      "niveau": "N",
+      "libelle": "XIIe Meeting National de la Ville de Melun - MELUN",
+      "dateIso": "2025-05-30"
+    },
+    {
+      "competitionId": "90245",
+      "niveau": "N",
+      "libelle": "45e Grand Prix Jean-Boiteux - MÉRIGNAC",
+      "dateIso": "2025-05-30"
+    },
+    {
+      "competitionId": "89127",
+      "niveau": "N",
+      "libelle": "7e Meeting National de Metz - METZ",
+      "dateIso": "2025-05-30"
+    },
+    {
+      "competitionId": "89046",
+      "niveau": "N",
+      "libelle": "Meeting National Occitanie - Sète - SÈTE",
+      "dateIso": "2025-05-30"
+    },
+    {
+      "competitionId": "88451",
+      "niveau": "D",
+      "libelle": "41e Challenge Le Gallic de Massy - MASSY",
+      "dateIso": "2025-05-30"
+    },
+    {
+      "competitionId": "90249",
+      "niveau": "R",
+      "libelle": "32e Meeting Roger Noblet - LNA Challenge - BAYONNE",
+      "dateIso": "2025-05-31"
+    },
+    {
+      "competitionId": "90172",
+      "niveau": "R",
+      "libelle": "Meeting Arena La Roche-sur-Yon - LA ROCHE-SUR-YON",
+      "dateIso": "2025-05-31"
+    },
+    {
+      "competitionId": "89806",
+      "niveau": "R",
+      "libelle": "Meeting Régional Labellisé 3 - SAINT-DENIS (La Réunion)",
+      "dateIso": "2025-05-31"
+    },
+    {
+      "competitionId": "89977",
+      "niveau": "D",
+      "libelle": "11e Meeting de Natation du Beaujolais - BELLEVILLE",
+      "dateIso": "2025-05-31"
+    },
+    {
+      "competitionId": "90148",
+      "niveau": "D",
+      "libelle": "Championnats Maîtres du Finistère  - CONCARNEAU",
+      "dateIso": "2025-05-31"
+    },
+    {
+      "competitionId": "90203",
+      "niveau": "D",
+      "libelle": "Championnats d'Eté de l'Essonne - MENNECY",
+      "dateIso": "2025-05-31"
+    }
+  ]
+}

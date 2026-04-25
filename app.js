@@ -4,7 +4,7 @@
 // Clé localStorage pour la position utilisateur.
 // La position ne quitte jamais le navigateur : on ne l'envoie nulle part,
 // on la garde juste pour éviter de redemander à chaque visite.
-const USER_POS_STORAGE_KEY = 'master-map.userPos.v1';
+const USER_POS_STORAGE_KEY = 'couloir4.userPos.v1';
 
 // Centre approximatif de la France métropolitaine, utilisé UNIQUEMENT
 // comme centrage initial de la carte tant que l'utilisateur n'a pas

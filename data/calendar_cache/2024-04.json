@@ -1,0 +1,1160 @@
+{
+  "savedAt": "2026-04-25T15:56:10.573Z",
+  "year": 2024,
+  "month": 4,
+  "count": 192,
+  "raw": [
+    {
+      "competitionId": "85684",
+      "niveau": "D",
+      "libelle": "2e Grand Prix de Cyrano des Maîtres - BERGERAC",
+      "dateIso": "2024-04-01"
+    },
+    {
+      "competitionId": "85054",
+      "niveau": "D",
+      "libelle": "Championnat Départemental du Nord Open des Maîtres - FOURMIES",
+      "dateIso": "2024-04-01"
+    },
+    {
+      "competitionId": "85931",
+      "niveau": "D",
+      "libelle": "Championnat 77 Benjamins - LAGNY-SUR-MARNE",
+      "dateIso": "2024-04-01"
+    },
+    {
+      "competitionId": "85386",
+      "niveau": "D",
+      "libelle": "Meeting sprint des Piranhas Mussipontains - PONT-A-MOUSSON",
+      "dateIso": "2024-04-01"
+    },
+    {
+      "competitionId": "85387",
+      "niveau": "D",
+      "libelle": "Meeting sprint des Piranhas Mussipontains - Maîtres - PONT-A-MOUSSON",
+      "dateIso": "2024-04-01"
+    },
+    {
+      "competitionId": "85846",
+      "niveau": "N",
+      "libelle": "Championnat de France Universitaire de Natation - CAEN",
+      "dateIso": "2024-04-03"
+    },
+    {
+      "competitionId": "85853",
+      "niveau": "N",
+      "libelle": "Championnat de France Universitaire par équipes - CAEN",
+      "dateIso": "2024-04-05"
+    },
+    {
+      "competitionId": "85845",
+      "niveau": "R",
+      "libelle": "Championnats des Hauts-de-France - BÉTHUNE",
+      "dateIso": "2024-04-05"
+    },
+    {
+      "competitionId": "85430",
+      "niveau": "N",
+      "libelle": "IXes Championnats de France Interclubs - Nationale 1 - CHÂTEAUROUX",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "85431",
+      "niveau": "N",
+      "libelle": "IXes Championnats de France Interclubs - Nationale 2 - CHÂTEAUROUX",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "85418",
+      "niveau": "N",
+      "libelle": "4e Meeting National de Nevers - NEVERS",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "84717",
+      "niveau": "R",
+      "libelle": "Matchs 3 Avenirs - BRAS-PANON",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "85901",
+      "niveau": "R",
+      "libelle": "Trophée Avenirs & Benjamins #2 - CAYENNE",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "84718",
+      "niveau": "R",
+      "libelle": "Matchs 3 Avenirs - LE PORT",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "84719",
+      "niveau": "R",
+      "libelle": "Matchs 3 Avenirs - SAINT-PIERRE",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "83986",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs/Benjamins Annecy - ANNECY",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "84274",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs 3 - AUBIGNY-SUR-NÈRE",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "85314",
+      "niveau": "D",
+      "libelle": "Meeting Interdépartemental - Hautes-Pyrénées/Gers - BAGNÈRES-DE-BIGORRE",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "85315",
+      "niveau": "D",
+      "libelle": "Circuit Avenirs - Etape 2 - BAGNÈRES-DE-BIGORRE",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "85651",
+      "niveau": "D",
+      "libelle": "Meeting Départemental Benjamins - BELLEGARDE-SUR-VALSERINE",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "85749",
+      "niveau": "D",
+      "libelle": "12e Meeting des Marais - CARENTAN",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "85828",
+      "niveau": "D",
+      "libelle": "1ère Journée Avenirs Eté 2024 - DIEPPE",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "85829",
+      "niveau": "D",
+      "libelle": "Natathlon Benjamins Eté - Plot 1 - DIEPPE",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "85663",
+      "niveau": "D",
+      "libelle": "Benjathlon 2 - DRANCY",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "85831",
+      "niveau": "D",
+      "libelle": "Speed Fun Avenirs - JOIGNY",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "85135",
+      "niveau": "D",
+      "libelle": "District Avenirs  - LOUDÉAC",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "85816",
+      "niveau": "D",
+      "libelle": "Championnats Départ. Printemps Benjamins & Juniors et plus - MORNANT",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "86033",
+      "niveau": "D",
+      "libelle": "Plot Départemental 3 - REDON",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "85935",
+      "niveau": "D",
+      "libelle": "17e Meeting Jeunes de Saint-Dizier - SAINT-DIZIER",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "86024",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Benjamins - SAINT-GERMAIN-EN-LAYE",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "84216",
+      "niveau": "D",
+      "libelle": "Meeting LLSB - SCHILTIGHEIM",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "86046",
+      "niveau": "D",
+      "libelle": "Meeting LLSB Maitres - SCHILTIGHEIM",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "85027",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs/Benjamins - VALENCE",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "85806",
+      "niveau": "D",
+      "libelle": "Championnat Départemental de Printemps Ben/Juniors/Séniors  - VOIRON",
+      "dateIso": "2024-04-06"
+    },
+    {
+      "competitionId": "85956",
+      "niveau": "R",
+      "libelle": "Trophée des Générations - BASTIA",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85957",
+      "niveau": "R",
+      "libelle": "Trophée des Générations - Relais & Nageurs sans Equipe - BASTIA",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85950",
+      "niveau": "R",
+      "libelle": "Pro Tour Benjamins - CHOLET",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "86022",
+      "niveau": "R",
+      "libelle": "Matchs 2 Benjamins/Juniors/Séniors - SAINT-DENIS (La Réunion)",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "86023",
+      "niveau": "R",
+      "libelle": "Matchs 2 Benjamins/Juniors/Séniors - SAINT-LEU",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85297",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux 2 - J/S - AVRILLÉ",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85575",
+      "niveau": "D",
+      "libelle": "Coupe 41 - 2e Manche - BLOIS",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85576",
+      "niveau": "D",
+      "libelle": "Championnats Printemps des Maîtres - BLOIS",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "84275",
+      "niveau": "D",
+      "libelle": "Trophée Benjamins/Juniors/Séniors 3 - BOURGES",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "86000",
+      "niveau": "D",
+      "libelle": "Coupe Départementale n°2 - CHAMBÉRY",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "86059",
+      "niveau": "D",
+      "libelle": "Coupe Départementale 2 Bis - CHAMBÉRY",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85940",
+      "niveau": "D",
+      "libelle": "4e Circuit Hérault Benjamins - CLERMONT-L'HÉRAULT",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85993",
+      "niveau": "D",
+      "libelle": "Départementaux Printemps 2024 d'Eure-et-Loir - CLOYES-SUR-LE-LOIR",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85994",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Printemps 2024 Maîtres du 28 - CLOYES-SUR-LE-LOIR",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85990",
+      "niveau": "D",
+      "libelle": "A vos Marques 2 - CREUTZWALD",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85961",
+      "niveau": "D",
+      "libelle": "District 21/39 - Plot 3 - DOLE",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85421",
+      "niveau": "D",
+      "libelle": "2e Plot Trophée Avenirs/Benjamins - FLEURY-LES-AUBRAIS",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "86007",
+      "niveau": "D",
+      "libelle": "Plot 3 - Zone Sud  - GRAY",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85134",
+      "niveau": "D",
+      "libelle": "District Avenirs - GUINGAMP",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85833",
+      "niveau": "D",
+      "libelle": "Coupe Claude Boulommier - JOIGNY",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85778",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux 13 - Open - LE PUY-SAINTE-RÉPARADE",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85474",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - LIGNY-EN-BARROIS",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85475",
+      "niveau": "D",
+      "libelle": "Meeting Open Meuse - 3e Journée - LIGNY-EN-BARROIS",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85476",
+      "niveau": "D",
+      "libelle": "Meeting des Maitres Open Meuse - 3e Journée - LIGNY-EN-BARROIS",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85860",
+      "niveau": "D",
+      "libelle": "Meeting 37 - LOCHES",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85861",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Open des Maîtres - LOCHES",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85201",
+      "niveau": "D",
+      "libelle": "2e Journée Inter-saison - LOUVIERS",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85393",
+      "niveau": "D",
+      "libelle": "Challenges Avenirs n°2 / 2024 - NANTES",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "86034",
+      "niveau": "D",
+      "libelle": "Avenirs - Plot 3 - Poule Sud - REDON",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "86005",
+      "niveau": "D",
+      "libelle": "Joqua 5  - SAINT-ASTIER",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85660",
+      "niveau": "D",
+      "libelle": "Avenirs N°5 - SAINT-CHAMOND",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85661",
+      "niveau": "D",
+      "libelle": "Benjamins N°5 - SAINT-CHAMOND",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "84590",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Avenirs  - SORGUES",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85525",
+      "niveau": "D",
+      "libelle": "3e Journée Avenirs/Benjamins - THIERS",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85562",
+      "niveau": "D",
+      "libelle": "YAOUANK 56 # 2024_4 - VANNES",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85946",
+      "niveau": "D",
+      "libelle": "Circuit - Plot 3 - Zone Nord - VESOUL",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85945",
+      "niveau": "D",
+      "libelle": "Natathlon Avenirs N°1 - VILLEFRANCHE-SUR-SAÔNE",
+      "dateIso": "2024-04-07"
+    },
+    {
+      "competitionId": "85897",
+      "niveau": "D",
+      "libelle": "Soirée du 13 - Juniors/Séniors # 3 - AIX-EN-PROVENCE",
+      "dateIso": "2024-04-12"
+    },
+    {
+      "competitionId": "85873",
+      "niveau": "R",
+      "libelle": "Meeting de La Teste - LNA Conférence - LA TESTE-DE-BUCH",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "85600",
+      "niveau": "R",
+      "libelle": "13e Meeting de Saint-Sébastien Natation - SAINT-SÉBASTIEN-SUR-LOIRE",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "85879",
+      "niveau": "D",
+      "libelle": "JS AQUA Meet' - ALLONNES",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "85840",
+      "niveau": "D",
+      "libelle": "MCA #4 - Ambarès - AMBARÈS",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "85998",
+      "niveau": "D",
+      "libelle": "Meeting de l'Avenir - FOS-SUR-MER",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "85996",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs N°5 - FRÉJUS",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "86040",
+      "niveau": "D",
+      "libelle": "Maîtres Départementaux 06/83 - N°2 - FRÉJUS",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "85871",
+      "niveau": "D",
+      "libelle": "Circuit des Avenirs N°3 - FRIVILLE-ESCARBOTIN",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "85791",
+      "niveau": "D",
+      "libelle": "Plot 3 Maîtres - LOUDÉAC",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "84591",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Benjamins/Juniors/Séniors - PERTUIS",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "84592",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Maîtres - PERTUIS",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "85028",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Drôme/Ardèche - PIERRELATTE",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "85799",
+      "niveau": "D",
+      "libelle": "Landes Cup 4 - Avenirs - SAINT-PIERRE-DU-MONT",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "86037",
+      "niveau": "D",
+      "libelle": "Meeting de Sedan - SEDAN",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "84811",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Rencontre des Dahlias - SÉLESTAT",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "83909",
+      "niveau": "D",
+      "libelle": "4e Journée Départementale de la Marne - SÉZANNE",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "86062",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 5 - VENDÔME",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "84616",
+      "niveau": "D",
+      "libelle": "Meeting de Vénissieux - VÉNISSIEUX",
+      "dateIso": "2024-04-13"
+    },
+    {
+      "competitionId": "85832",
+      "niveau": "R",
+      "libelle": "Championnats de Normandie Open des Maîtres - CAEN",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "86070",
+      "niveau": "R",
+      "libelle": "Interclubs Benjamins - OLIVET",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "84716",
+      "niveau": "R",
+      "libelle": "Challenge 1 Maîtres - SAINT-PIERRE",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85056",
+      "niveau": "D",
+      "libelle": "Critérium du Nord - 2e Plot - ARMENTIÈRES",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "86035",
+      "niveau": "D",
+      "libelle": "1er Meeting Hubert Heintz - AUCHEL",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85772",
+      "niveau": "D",
+      "libelle": "Critérium du Nord - 2e Plot - AULNOYE-AYMERIES",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85485",
+      "niveau": "D",
+      "libelle": "Journée Maîtres  - AURILLAC",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85889",
+      "niveau": "D",
+      "libelle": "3e Journée Départementale - AURILLAC",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85561",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 56 #2024_3 - CAUDAN",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "86057",
+      "niveau": "D",
+      "libelle": "Plot Avenirs #2024_04 - CAUDAN",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85741",
+      "niveau": "D",
+      "libelle": "1er Meeting de l'Indre - CHÂTILLON-SUR-INDRE",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "86055",
+      "niveau": "D",
+      "libelle": "2e District - CHERBOURG-EN-COTENTIN",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85401",
+      "niveau": "D",
+      "libelle": "Benjamins Plot n°3 / 2024 - COUERON",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "86013",
+      "niveau": "D",
+      "libelle": "Circuit Alpin - DIGNE-LES-BAINS",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "86036",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs - DINAN",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "86041",
+      "niveau": "D",
+      "libelle": "Meeting Benjamins/Juniors 1 - N°4 - DRAGUIGNAN",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85057",
+      "niveau": "D",
+      "libelle": "Critérium du Nord - 2e Plot - ESTAIRES",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "86038",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Avenirs - FONTAINE",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85486",
+      "niveau": "D",
+      "libelle": "Vendée Tours n° 4 - FONTENAY-LE-COMTE",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85488",
+      "niveau": "D",
+      "libelle": "Finale Départementale 85 Interclubs Benjamins  - FONTENAY-LE-COMTE",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85489",
+      "niveau": "D",
+      "libelle": "Critériums Benjamins - FONTENAY-LE-COMTE",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85872",
+      "niveau": "D",
+      "libelle": "Circuit Départemental CD80 N°3 - FRIVILLE-ESCARBOTIN",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85406",
+      "niveau": "D",
+      "libelle": "Inter-teams Avenirs & Benjamins - GANNAT",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85003",
+      "niveau": "D",
+      "libelle": "Championnats du Haut-Rhin 2024 - GUEBWILLER",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85841",
+      "niveau": "D",
+      "libelle": "MCA #4 - La Teste-de-Buch - LA TESTE-DE-BUCH",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85722",
+      "niveau": "D",
+      "libelle": "DAE-3/YAOUANK-3 - LAMBALLE",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85803",
+      "niveau": "D",
+      "libelle": "Journée CD54 #4 - LANEUVEVILLE-DEVANT-NANCY",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "86021",
+      "niveau": "D",
+      "libelle": "Plot 4 - LONS",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85878",
+      "niveau": "D",
+      "libelle": "Pass' Compétitions - MAYENNE",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85880",
+      "niveau": "D",
+      "libelle": "Avenirs  - MAYENNE",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85881",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins - MAYENNE",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85882",
+      "niveau": "D",
+      "libelle": "Juniors/Séniors - MAYENNE",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85809",
+      "niveau": "D",
+      "libelle": "Meeting de Printemps n°1 - MONT-DE-MARSAN",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "86060",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs N° 5 - NICE",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "86061",
+      "niveau": "D",
+      "libelle": "Meeting Benjamins & Juniors 1 - N°4 - NICE",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85202",
+      "niveau": "D",
+      "libelle": "2e Journée Qualificative Benjamins - PONT-SAINT-PIERRE",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85875",
+      "niveau": "D",
+      "libelle": "Meeting Spring Breq' Rennes-Natation - RENNES",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85058",
+      "niveau": "D",
+      "libelle": "Critérium du Nord - 2e Plot - SAINT-POL-SUR-MER",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85992",
+      "niveau": "D",
+      "libelle": "1ère Journée MOSL - SARREGUEMINES",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85773",
+      "niveau": "D",
+      "libelle": "Critérium du Nord - 2e Plot - SECLIN",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "84205",
+      "niveau": "D",
+      "libelle": "Natathlon Benjamins & plus - Rencontre des Dahlias - SÉLESTAT",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85986",
+      "niveau": "D",
+      "libelle": "4e Meeting Départemental Open - TROYES",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85987",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 5 - TROYES",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85055",
+      "niveau": "D",
+      "libelle": "Critérium du Nord - 2e Plot - VILLENEUVE-D'ASCQ",
+      "dateIso": "2024-04-14"
+    },
+    {
+      "competitionId": "85332",
+      "niveau": "N",
+      "libelle": "Ves Championnats de France Juniors - CHALON-SUR-SAÔNE",
+      "dateIso": "2024-04-16"
+    },
+    {
+      "competitionId": "86042",
+      "niveau": "R",
+      "libelle": "25e Meeting International de la Vallée de l'AA  - LUMBRES",
+      "dateIso": "2024-04-20"
+    },
+    {
+      "competitionId": "85902",
+      "niveau": "R",
+      "libelle": "Waka Dilo #2 - MANA",
+      "dateIso": "2024-04-20"
+    },
+    {
+      "competitionId": "85903",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs - Waka Dilo #2 - MANA",
+      "dateIso": "2024-04-20"
+    },
+    {
+      "competitionId": "86054",
+      "niveau": "D",
+      "libelle": "2e District - AVRANCHES",
+      "dateIso": "2024-04-20"
+    },
+    {
+      "competitionId": "86181",
+      "niveau": "D",
+      "libelle": "District - AVRANCHES",
+      "dateIso": "2024-04-20"
+    },
+    {
+      "competitionId": "85877",
+      "niveau": "D",
+      "libelle": "3e Meeting Young Swimmers Show - CHÂTEAUROUX",
+      "dateIso": "2024-04-20"
+    },
+    {
+      "competitionId": "86111",
+      "niveau": "R",
+      "libelle": "Meeting Région Sud des relais  - ANTIBES",
+      "dateIso": "2024-04-21"
+    },
+    {
+      "competitionId": "86071",
+      "niveau": "R",
+      "libelle": "Trophée Avenirs - Plot 3 - LE LORRAIN",
+      "dateIso": "2024-04-21"
+    },
+    {
+      "competitionId": "84891",
+      "niveau": "R",
+      "libelle": "Circuit 25m - 2e Journée - R1 - NOUMÉA",
+      "dateIso": "2024-04-21"
+    },
+    {
+      "competitionId": "84892",
+      "niveau": "R",
+      "libelle": "Circuit 25m - 2e Journée - R2 - NOUMÉA",
+      "dateIso": "2024-04-21"
+    },
+    {
+      "competitionId": "85697",
+      "niveau": "D",
+      "libelle": "Championnat Départemental des Maîtres #2-2024 - BALMA",
+      "dateIso": "2024-04-21"
+    },
+    {
+      "competitionId": "85850",
+      "niveau": "D",
+      "libelle": "Circuit Fédéral Q1 Benjamins - BREST",
+      "dateIso": "2024-04-21"
+    },
+    {
+      "competitionId": "85491",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs n°4 - CHANTONNAY",
+      "dateIso": "2024-04-21"
+    },
+    {
+      "competitionId": "85492",
+      "niveau": "D",
+      "libelle": "Circuit Départemental n°2 - CHANTONNAY",
+      "dateIso": "2024-04-21"
+    },
+    {
+      "competitionId": "86219",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs - Plot 4 - GRANDVILLIERS",
+      "dateIso": "2024-04-21"
+    },
+    {
+      "competitionId": "86001",
+      "niveau": "D",
+      "libelle": "Meeting Sardine Sprint - MARSEILLE",
+      "dateIso": "2024-04-21"
+    },
+    {
+      "competitionId": "85388",
+      "niveau": "D",
+      "libelle": "Vosg' Nat 3 Open 25m - NEUFCHÂTEAU",
+      "dateIso": "2024-04-21"
+    },
+    {
+      "competitionId": "85402",
+      "niveau": "D",
+      "libelle": "Avenirs Plot n°4 / 2024 - ORVAULT",
+      "dateIso": "2024-04-21"
+    },
+    {
+      "competitionId": "85971",
+      "niveau": "D",
+      "libelle": "40e Challenge Le Gallic de Massy - MASSY",
+      "dateIso": "2024-04-26"
+    },
+    {
+      "competitionId": "85466",
+      "niveau": "N",
+      "libelle": "Meeting National Maitres de Villeurbanne Natation - VILLEURBANNE",
+      "dateIso": "2024-04-27"
+    },
+    {
+      "competitionId": "85453",
+      "niveau": "R",
+      "libelle": "Coupe Diane Lacombe - PAPEETE",
+      "dateIso": "2024-04-27"
+    },
+    {
+      "competitionId": "85774",
+      "niveau": "D",
+      "libelle": "Journée Sprint - ALFORTVILLE",
+      "dateIso": "2024-04-27"
+    },
+    {
+      "competitionId": "85981",
+      "niveau": "D",
+      "libelle": "Open 3e Etape - AULNAY-SOUS-BOIS",
+      "dateIso": "2024-04-27"
+    },
+    {
+      "competitionId": "86056",
+      "niveau": "D",
+      "libelle": "Journée Départementale Maîtres - GRANVILLE",
+      "dateIso": "2024-04-27"
+    },
+    {
+      "competitionId": "86104",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs - LIMOUX",
+      "dateIso": "2024-04-27"
+    },
+    {
+      "competitionId": "86220",
+      "niveau": "D",
+      "libelle": "Meeting Qualificatif - Benjamins et + - LOURDES",
+      "dateIso": "2024-04-27"
+    },
+    {
+      "competitionId": "86252",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins 65/32 - LOURDES",
+      "dateIso": "2024-04-27"
+    },
+    {
+      "competitionId": "85656",
+      "niveau": "D",
+      "libelle": "Grand Prix d'Oyonnax Haut Buget - OYONNAX",
+      "dateIso": "2024-04-27"
+    },
+    {
+      "competitionId": "86271",
+      "niveau": "D",
+      "libelle": "3 km INDOOR – OPEN - PARIS",
+      "dateIso": "2024-04-27"
+    },
+    {
+      "competitionId": "86169",
+      "niveau": "D",
+      "libelle": "Challenge Masters Open Aveyron-Lozère - SAINT-AFFRIQUE",
+      "dateIso": "2024-04-27"
+    },
+    {
+      "competitionId": "86173",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs du Nageur Complet - Aveyron/Lozère - SAINT-AFFRIQUE",
+      "dateIso": "2024-04-27"
+    },
+    {
+      "competitionId": "85705",
+      "niveau": "D",
+      "libelle": "Honneur 3 - SAINT-CLOUD",
+      "dateIso": "2024-04-27"
+    },
+    {
+      "competitionId": "86195",
+      "niveau": "D",
+      "libelle": "Championnats des Yvelines - SARTROUVILLE",
+      "dateIso": "2024-04-27"
+    },
+    {
+      "competitionId": "86069",
+      "niveau": "R",
+      "libelle": "Circuit avenirs - LES ABYMES",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "85107",
+      "niveau": "D",
+      "libelle": "Animation Benjamins/Juniors/Séniors - BEAUCAIRE",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "85584",
+      "niveau": "D",
+      "libelle": "Rencontre Benjamins 3 - BEAUMONT-SUR-OISE",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "85928",
+      "niveau": "D",
+      "libelle": "17e Challenge Yves Moreau - BRUNOY",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "85942",
+      "niveau": "D",
+      "libelle": "5ème Animation Hérault Avenirs - COURNONTERRAL",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "85943",
+      "niveau": "D",
+      "libelle": "3ème Plot Natathlon Hérault Avenirs - COURNONTERRAL",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "85929",
+      "niveau": "D",
+      "libelle": "1er Meeting du Dourdannais - DOURDAN",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "85982",
+      "niveau": "D",
+      "libelle": "Journée Demi-Fond - FONTENAY-SOUS-BOIS",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "86105",
+      "niveau": "D",
+      "libelle": "Meeting Départemental Qualificatif - LIMOUX",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "85712",
+      "niveau": "D",
+      "libelle": "Circuit Avenirs/Benjamins/Juniors N°1 - MÂCON",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "85552",
+      "niveau": "D",
+      "libelle": "Circuit Interdépartemental - 3e Etape - MAZAMET",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "86192",
+      "niveau": "D",
+      "libelle": "Championnat Avenirs par équipe - Plot 4 - NEVERS",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "86193",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants - Championnats Avenirs - Plot 4 - NEVERS",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "86194",
+      "niveau": "D",
+      "libelle": "Championnat Individuel Avenirs 3/Benjamins - Plot 3 - NEVERS",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "85643",
+      "niveau": "D",
+      "libelle": "Challenge Parisien Open – 2e Etape - PARIS",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "85644",
+      "niveau": "D",
+      "libelle": "Championnat de Paris Printemps Open des Maîtres - PARIS",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "86212",
+      "niveau": "D",
+      "libelle": "Interclubs Mixtes Avenirs – 2e Etape - PARIS",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "86180",
+      "niveau": "D",
+      "libelle": "Circuit 4 Avenirs - PAU",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "86170",
+      "niveau": "D",
+      "libelle": "Challenge Aveyron/Lozère - Ben/Jun/Sén. - SAINT-AFFRIQUE",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "86081",
+      "niveau": "D",
+      "libelle": "Journée Départementale n°3 - Secteurs 1&3 - SAINTE-GENEVIÈVE-DES-BOIS",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "86082",
+      "niveau": "D",
+      "libelle": "Journée Départementale n°3 - Maîtres - secteurs 1&3 - SAINTE-GENEVIÈVE-D..",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "85941",
+      "niveau": "D",
+      "libelle": "4ème Circuit Hérault Juniors/Séniors - SÈTE",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "85944",
+      "niveau": "D",
+      "libelle": "4ème Circuit Hérault des Maîtres - SÈTE",
+      "dateIso": "2024-04-28"
+    },
+    {
+      "competitionId": "86183",
+      "niveau": "D",
+      "libelle": "Rencontre Benjamins 3 - SOISY-SOUS-MONTMORENCY",
+      "dateIso": "2024-04-28"
+    }
+  ]
+}

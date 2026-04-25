@@ -1,0 +1,1274 @@
+{
+  "savedAt": "2026-04-25T15:55:55.595Z",
+  "year": 2023,
+  "month": 10,
+  "count": 211,
+  "raw": [
+    {
+      "competitionId": "83320",
+      "niveau": "D",
+      "libelle": "1/2 Fond Pré-saison - AIXE-SUR-VIENNE",
+      "dateIso": "2023-10-01"
+    },
+    {
+      "competitionId": "83191",
+      "niveau": "D",
+      "libelle": "Meeting Départemental du Var et des Alpes-Maritimes - ANTIBES",
+      "dateIso": "2023-10-01"
+    },
+    {
+      "competitionId": "83259",
+      "niveau": "D",
+      "libelle": "Meeting de Vitesse d'Auxerre - AUXERRE",
+      "dateIso": "2023-10-01"
+    },
+    {
+      "competitionId": "83217",
+      "niveau": "D",
+      "libelle": "1er Meeting Intergénérationnel du Club de Combourg  - COMBOURG",
+      "dateIso": "2023-10-01"
+    },
+    {
+      "competitionId": "83218",
+      "niveau": "D",
+      "libelle": "1er Meeting Intergénérationnel du Club de Combourg - COMBOURG",
+      "dateIso": "2023-10-01"
+    },
+    {
+      "competitionId": "83306",
+      "niveau": "D",
+      "libelle": "1er Meeting Intergénérationnel du Club de Combourg - COMBOURG",
+      "dateIso": "2023-10-01"
+    },
+    {
+      "competitionId": "83102",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 1ère Journée - DOUAI",
+      "dateIso": "2023-10-01"
+    },
+    {
+      "competitionId": "83228",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée des Maîtres - DOUAI",
+      "dateIso": "2023-10-01"
+    },
+    {
+      "competitionId": "83103",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 1ère Journée - FOURMIES",
+      "dateIso": "2023-10-01"
+    },
+    {
+      "competitionId": "83255",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée des Maîtres - GRAVELINES",
+      "dateIso": "2023-10-01"
+    },
+    {
+      "competitionId": "83256",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 1ère Journée - GRAVELINES",
+      "dateIso": "2023-10-01"
+    },
+    {
+      "competitionId": "83104",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 1ère Journée - LA MADELEINE",
+      "dateIso": "2023-10-01"
+    },
+    {
+      "competitionId": "83101",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 1ère Journée - MARCQ-EN-BAROEUL",
+      "dateIso": "2023-10-01"
+    },
+    {
+      "competitionId": "83230",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée des Maîtres - MARCQ-EN-BAROEUL",
+      "dateIso": "2023-10-01"
+    },
+    {
+      "competitionId": "83105",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 1ère Journée - ROUBAIX",
+      "dateIso": "2023-10-01"
+    },
+    {
+      "competitionId": "83232",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée des Maîtres - ROUBAIX",
+      "dateIso": "2023-10-01"
+    },
+    {
+      "competitionId": "83244",
+      "niveau": "N",
+      "libelle": "Championnat de France Militaire de Natation 2023 - AGEN",
+      "dateIso": "2023-10-03"
+    },
+    {
+      "competitionId": "80728",
+      "niveau": "R",
+      "libelle": "Meeting #3 - PAPEETE",
+      "dateIso": "2023-10-06"
+    },
+    {
+      "competitionId": "83355",
+      "niveau": "N",
+      "libelle": "Meeting National de Cergy-Pontoise Natation - CERGY-PONTOISE",
+      "dateIso": "2023-10-07"
+    },
+    {
+      "competitionId": "83481",
+      "niveau": "D",
+      "libelle": "Animation Avenirs - CASTELNAUDARY",
+      "dateIso": "2023-10-07"
+    },
+    {
+      "competitionId": "83380",
+      "niveau": "D",
+      "libelle": "1er District - COUTANCES",
+      "dateIso": "2023-10-07"
+    },
+    {
+      "competitionId": "83434",
+      "niveau": "D",
+      "libelle": "Meeting Pré-saison - JOUÉ-LES-TOURS",
+      "dateIso": "2023-10-07"
+    },
+    {
+      "competitionId": "83409",
+      "niveau": "D",
+      "libelle": "Critériums d'Automne - LAGNY-SUR-MARNE",
+      "dateIso": "2023-10-07"
+    },
+    {
+      "competitionId": "83310",
+      "niveau": "D",
+      "libelle": "Pré-saison - Pass' compétition (Samedi matin) - LAVAL",
+      "dateIso": "2023-10-07"
+    },
+    {
+      "competitionId": "83311",
+      "niveau": "D",
+      "libelle": "Pré-saison - Circuit Avenirs 1 (Samedi matin) - LAVAL",
+      "dateIso": "2023-10-07"
+    },
+    {
+      "competitionId": "83312",
+      "niveau": "D",
+      "libelle": "Pré-saison Juniors/Séniors - LAVAL",
+      "dateIso": "2023-10-07"
+    },
+    {
+      "competitionId": "83314",
+      "niveau": "D",
+      "libelle": "Pré-saison Benjamins - LAVAL",
+      "dateIso": "2023-10-07"
+    },
+    {
+      "competitionId": "83398",
+      "niveau": "D",
+      "libelle": "2e Meeting de l'Essonne - MONTGERON",
+      "dateIso": "2023-10-07"
+    },
+    {
+      "competitionId": "83399",
+      "niveau": "D",
+      "libelle": "2e Meeting de l'Essonne - Maîtres - MONTGERON",
+      "dateIso": "2023-10-07"
+    },
+    {
+      "competitionId": "83462",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 1 - MONTRICHARD",
+      "dateIso": "2023-10-07"
+    },
+    {
+      "competitionId": "83361",
+      "niveau": "D",
+      "libelle": "Meeting Sprint du Gard - 1 - NÎMES",
+      "dateIso": "2023-10-07"
+    },
+    {
+      "competitionId": "83309",
+      "niveau": "D",
+      "libelle": "Meeting Pécheraud d'Automne - Avenirs & Benjamins  - PARIS",
+      "dateIso": "2023-10-07"
+    },
+    {
+      "competitionId": "83378",
+      "niveau": "D",
+      "libelle": "1er District Nord-Manche - SAINT-LÔ",
+      "dateIso": "2023-10-07"
+    },
+    {
+      "competitionId": "81780",
+      "niveau": "R",
+      "libelle": "Finale Régionale Matchs Benjamins & Juniors/Séniors - SAINT-DENIS (La..",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83523",
+      "niveau": "R",
+      "libelle": "Waka Dilo #7 - SINNAMARY",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83425",
+      "niveau": "D",
+      "libelle": "Pré-saison Benjamins - Avenirs 3 - ANCENIS",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83331",
+      "niveau": "D",
+      "libelle": "Pré-saison Départementale (Matin:Ben/Après-midi:Jun/Sén) - AVRILLÉ",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83530",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Plot 1 - BEAUNE",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83527",
+      "niveau": "D",
+      "libelle": "Challenge Sprint Hérault - Benjamins/Juniors/Séniors - BÉZIERS",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83448",
+      "niveau": "D",
+      "libelle": "Journée d'Automne 71 - CHALON-SUR-SAÔNE",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83237",
+      "niveau": "D",
+      "libelle": "Fun Cup - Relais - CHAMONIX-MONT-BLANC",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83382",
+      "niveau": "D",
+      "libelle": "Critérium d'Automne - FLEURY-LES-AUBRAIS",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83465",
+      "niveau": "D",
+      "libelle": "Pré-saison Benjamins - FONTENAY-LE-COMTE",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83467",
+      "niveau": "D",
+      "libelle": "Pré-saison Juniors et + - FONTENAY-LE-COMTE",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83364",
+      "niveau": "D",
+      "libelle": "14e Meeting EDF Transfrontières Ardennes - GIVET",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83417",
+      "niveau": "D",
+      "libelle": "Meeting Demi-fond - CD54 - LANEUVEVILLE-DEVANT-NANCY",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83303",
+      "niveau": "D",
+      "libelle": "Swimming Squad Challenge - MONTELIMAR",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83374",
+      "niveau": "D",
+      "libelle": "Meeting Sprint du Gard - 2 - NÎMES",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83515",
+      "niveau": "D",
+      "libelle": "Juniors/Séniors n°1 - SAINT-ÉTIENNE",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83525",
+      "niveau": "D",
+      "libelle": "Juniors/Séniors - Plot 4 - SAINTES",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83464",
+      "niveau": "D",
+      "libelle": "Pré-saison - SORGUES",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83354",
+      "niveau": "D",
+      "libelle": "Meeting de Reprise - TOULOUSE",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83359",
+      "niveau": "D",
+      "libelle": "Avenirs - Plot 1  - WESSERLING",
+      "dateIso": "2023-10-08"
+    },
+    {
+      "competitionId": "83299",
+      "niveau": "I",
+      "libelle": "31e Meeting International de Saint-Dizier - SAINT-DIZIER",
+      "dateIso": "2023-10-13"
+    },
+    {
+      "competitionId": "83352",
+      "niveau": "N",
+      "libelle": "Meeting de Rentrée du NVB - VILLEFRANCHE-SUR-SAÔNE",
+      "dateIso": "2023-10-13"
+    },
+    {
+      "competitionId": "83242",
+      "niveau": "R",
+      "libelle": "Meeting Angers Natation - ANGERS",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83450",
+      "niveau": "R",
+      "libelle": "6e Edition du Meeting Little Big - Samedi - LORIENT",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83368",
+      "niveau": "R",
+      "libelle": "11e Saint-Michel Sprint - SAINT-MICHEL-SUR-ORGE",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83345",
+      "niveau": "R",
+      "libelle": "Meeting New Wave - Back To Swim 2023 - VILLEJUIF",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83305",
+      "niveau": "D",
+      "libelle": "Circuit Départemental 2 - ALLONNES",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83198",
+      "niveau": "D",
+      "libelle": "Meeting de Rentrée Avenirs & Pichouns - ANTIBES",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83263",
+      "niveau": "D",
+      "libelle": "Maîtres Départementaux N°1 Var & Alpes-Maritimes - ANTIBES",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83597",
+      "niveau": "D",
+      "libelle": "2e Journée Circuit Icaunais - Poule 2 - AVALLON",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83532",
+      "niveau": "D",
+      "libelle": "Journée d'Automne - BOURGES",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83533",
+      "niveau": "D",
+      "libelle": "Pré-saison Avenirs - BOURGES",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83291",
+      "niveau": "D",
+      "libelle": "Championnat Savoie Automne 1/2 Fond - CHAMBÉRY",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83478",
+      "niveau": "D",
+      "libelle": "Meeting de Rentrée  - CLAMART",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83516",
+      "niveau": "D",
+      "libelle": "Benjamins n°1 + Avenirs (Dernière année) - FEURS",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83619",
+      "niveau": "D",
+      "libelle": "Meeting Sprint de Font-Romeu  - FONT-ROMEU",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83145",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs - HOUILLES",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83598",
+      "niveau": "D",
+      "libelle": "2e Journée Circuit Icaunais - Poule 1 - MIGENNES",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83520",
+      "niveau": "D",
+      "libelle": "C'est la rentrée - Benjamins et + - MIMIZAN",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83631",
+      "niveau": "D",
+      "libelle": "Challenge Départemental Avenirs n°1 - NIORT",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83222",
+      "niveau": "D",
+      "libelle": "15e Meeting EANV - NOGENT-SUR-OISE",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83322",
+      "niveau": "D",
+      "libelle": "Meeting de Fin de Saison - NOTRE-DAME-DE-GRAVENCHON",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83319",
+      "niveau": "D",
+      "libelle": "2e Meeting Masters Eric Aubert - PUTEAUX",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83590",
+      "niveau": "D",
+      "libelle": "12e Meeting de l'ASSJ Glane - SAINT-JUNIEN",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83202",
+      "niveau": "D",
+      "libelle": "Meeting Dauphins de Saint-Louis - SAINT-LOUIS",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83371",
+      "niveau": "D",
+      "libelle": "Médailles du TOAC - Etape 2 - TOULOUSE",
+      "dateIso": "2023-10-14"
+    },
+    {
+      "competitionId": "83307",
+      "niveau": "R",
+      "libelle": "Meeting de Rentrée - CALVI",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83451",
+      "niveau": "R",
+      "libelle": "6e Edition Meeting Little Big - Dimanche - LORIENT",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83431",
+      "niveau": "D",
+      "libelle": "4e Journée du Challenge Départemental  - ACHICOURT",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83264",
+      "niveau": "D",
+      "libelle": "Meeting de la Rentrée - Benjamins - ANTIBES",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83396",
+      "niveau": "D",
+      "libelle": "5e Journée Départementale - AURILLAC",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83360",
+      "niveau": "D",
+      "libelle": "Joqua 7 - BERGERAC",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83469",
+      "niveau": "D",
+      "libelle": "Trophée du 4 Nageurs + 25m Nageur complet - BERGERAC",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83400",
+      "niveau": "D",
+      "libelle": "1ère Journée Pré-saison - BERNAY",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83521",
+      "niveau": "D",
+      "libelle": "C'est la rentrée - Avenirs - BISCARROSSE",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83557",
+      "niveau": "D",
+      "libelle": "Meeting 01 - Benjamins/Juniors - BOURG-EN-BRESSE",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83257",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 2e Journée - BRAY-DUNES",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83547",
+      "niveau": "D",
+      "libelle": "Compétition d'Ouverture - BRIANCON",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83261",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs - 1ère Journée - CAHORS",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83483",
+      "niveau": "D",
+      "libelle": "Meeting Départemental - CARCASSONNE",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83413",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs - 1ère Journée - CARMAUX",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83574",
+      "niveau": "D",
+      "libelle": "Championnats d'Automne - CHASSENEUIL-SUR-BONNIEURE",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83562",
+      "niveau": "D",
+      "libelle": "Demi-fond 28 de 2023 - CHÂTEAUDUN",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83565",
+      "niveau": "D",
+      "libelle": "Parcours Avenirs 1 & 2 - Plot 3 - CHENNEVIÈRES-SUR-MARNE",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83377",
+      "niveau": "D",
+      "libelle": "25e Meeting de l'ACC - CHERBOURG-EN-COTENTIN",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83519",
+      "niveau": "D",
+      "libelle": "Natathlon Avenirs - Étape Sud - DACHSTEIN",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83531",
+      "niveau": "D",
+      "libelle": "JD Sprint - DOLE",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83106",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 2e Journée - DOUAI",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83593",
+      "niveau": "D",
+      "libelle": "Meeting Rentrée Avenirs - DRAGUIGNAN",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83564",
+      "niveau": "D",
+      "libelle": "Biathlon Benjamins/Avenirs N°1 - FOS-SUR-MER",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83501",
+      "niveau": "D",
+      "libelle": "Rentrée Avenirs - FRANCONVILLE-LA-GARENNE",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83480",
+      "niveau": "D",
+      "libelle": "Avenirs - Journée 5 - GENNEVILLIERS",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83294",
+      "niveau": "D",
+      "libelle": "Championnat Départemental d'Automne - Savoie - GILLY-SUR-ISÈRE",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83511",
+      "niveau": "D",
+      "libelle": "Circuit - Zone Sud - Plot 1 (correctif) - GRAY",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83432",
+      "niveau": "D",
+      "libelle": "4e Journée du Challenge Départemental - HARNES",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83107",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 2e Journée - HAUBOURDIN",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83365",
+      "niveau": "D",
+      "libelle": "1er Meeting de l'Indre - LA CHÂTRE",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83108",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 2e Journée - LA MADELEINE",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83428",
+      "niveau": "D",
+      "libelle": "1/2 Fond + Dae An Arvor Automne - LÉHON",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83457",
+      "niveau": "D",
+      "libelle": "4e Journée du Challenge Départemental - LUMBRES",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83109",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 2e Journée - MARCQ-EN-BAROEUL",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83601",
+      "niveau": "D",
+      "libelle": "Biathlon Benjamins/Avenirs N°1 - MARTIGUES",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83110",
+      "niveau": "D",
+      "libelle": "Critérium de Rentrée - 2e Journée - MAUBEUGE",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83245",
+      "niveau": "D",
+      "libelle": "MCA 7 - Mérignac - MÉRIGNAC",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83506",
+      "niveau": "D",
+      "libelle": "Rentrée Avenirs - MONTIGNY-LES-CORMEILLES",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83603",
+      "niveau": "D",
+      "libelle": "Meeting de Rentrée - MONTMORILLON",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83433",
+      "niveau": "D",
+      "libelle": "4e Journée du Challenge Départemental  - MONTREUIL-SUR-MER",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83594",
+      "niveau": "D",
+      "libelle": "Plot 6 - MOURENX",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83426",
+      "niveau": "D",
+      "libelle": "Pré-saison Avenirs 1/2 - NANTES",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83288",
+      "niveau": "D",
+      "libelle": "Etape Qualificative 5 - NERAC",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83507",
+      "niveau": "D",
+      "libelle": "Circuit - Zone Nord - Plot 1 (correctif) - NOIDANS-LÈS-VESOUL",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83466",
+      "niveau": "D",
+      "libelle": "Trophée Hiver Avenirs du Vaucluse - ORANGE",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83401",
+      "niveau": "D",
+      "libelle": "1ère Journée Pré-saison - PACY-SUR-EURE",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83276",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux 35 - RENNES",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83479",
+      "niveau": "D",
+      "libelle": "Meeting de Rentrée - RUEIL-MALMAISON",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83618",
+      "niveau": "D",
+      "libelle": "1ère Journée Avenirs - SAINT-ESTÈVE",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83526",
+      "niveau": "D",
+      "libelle": "Avenirs/Benjamins – Plot 4 - SAINT-JEAN-D'ANGÉLY",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83581",
+      "niveau": "D",
+      "libelle": "12e Meeting de Sassenage  - SASSENAGE",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83297",
+      "niveau": "D",
+      "libelle": "Meeting Virginie Boudjema - THIERS",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83646",
+      "niveau": "D",
+      "libelle": "Journée du CD57 - Mémorial Michel Steier - THIONVILLE",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83372",
+      "niveau": "D",
+      "libelle": "7e Meeting des Leuques - TOUL",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83436",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Avenirs/Benjamins - 1ère Etape - TOURS",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83463",
+      "niveau": "D",
+      "libelle": "Journée d'Automne 1 - VENDÔME",
+      "dateIso": "2023-10-15"
+    },
+    {
+      "competitionId": "83712",
+      "niveau": "D",
+      "libelle": "1ère Journée Départementale Maîtres - COUTANCES",
+      "dateIso": "2023-10-17"
+    },
+    {
+      "competitionId": "83346",
+      "niveau": "R",
+      "libelle": "25e Meeting de la Vallée (Séries) - CHEVREUSE",
+      "dateIso": "2023-10-20"
+    },
+    {
+      "competitionId": "81040",
+      "niveau": "R",
+      "libelle": "Championnats de Polynésie - 25m - PIRAE",
+      "dateIso": "2023-10-20"
+    },
+    {
+      "competitionId": "83327",
+      "niveau": "R",
+      "libelle": "Meeting d'Hérouville-Saint-Clair - CAEN",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83524",
+      "niveau": "R",
+      "libelle": "Spécial Demi-fond - Les Défis de l'Ô - CAYENNE",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83348",
+      "niveau": "R",
+      "libelle": "25e Meeting de la Vallée (Finales du Samedi) - CHEVREUSE",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "80595",
+      "niveau": "R",
+      "libelle": "Circuit 25m. - 4e Journée - R1 - DUMBÉA",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "80596",
+      "niveau": "R",
+      "libelle": "Circuit 25m. - 4e Journée - R2 - DUMBÉA",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83696",
+      "niveau": "R",
+      "libelle": "Challenge Martinique - LE FRANCOIS",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83357",
+      "niveau": "R",
+      "libelle": "17e Meeting Annie Boyet - LONS-LE-SAUNIER",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83226",
+      "niveau": "R",
+      "libelle": "4e Meeting d'Olivet - OLIVET",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83369",
+      "niveau": "R",
+      "libelle": "3e Meeting de Paris d’Automne – Benjamins et plus - PARIS",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83298",
+      "niveau": "R",
+      "libelle": "Meeting d'Automne du SNAN  - SAINT-NAZAIRE",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83710",
+      "niveau": "D",
+      "libelle": "Meeting Qualificatif d'Automne - BAGNÈRES-DE-BIGORRE",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83716",
+      "niveau": "D",
+      "libelle": "Médailles du TOAC - Qualif. - BAGNÈRES-DE-BIGORRE",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83587",
+      "niveau": "D",
+      "libelle": "Open de rentrée - BOBIGNY",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83588",
+      "niveau": "D",
+      "libelle": "Open de rentrée Maîtres - BOBIGNY",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83494",
+      "niveau": "D",
+      "libelle": "Nat'Avenirs - Etape 1 - CAEN",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83238",
+      "niveau": "D",
+      "libelle": "Open Haute-Savoie - CLUSES",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83763",
+      "niveau": "D",
+      "libelle": "Les Damiers Avenirs - COULAINES",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83566",
+      "niveau": "D",
+      "libelle": "Parcours Avenirs 3 & Benjamins Bloc 3 - CRÉTEIL",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83577",
+      "niveau": "D",
+      "libelle": "IX Meeting Pré-interclubs - ERSTEIN",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83246",
+      "niveau": "D",
+      "libelle": "Pré-saison 1 - LA TESTE-DE-BUCH",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83695",
+      "niveau": "D",
+      "libelle": "Compétition d'Halloween - LANGRES",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83602",
+      "niveau": "D",
+      "libelle": "Pré-saison Juniors/Séniors N°2 - MARTIGUES",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83406",
+      "niveau": "D",
+      "libelle": "Championnat du Gard - 1 - NÎMES",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83522",
+      "niveau": "D",
+      "libelle": "Championnats du Finistère Hiver - PONT-L'ABBÉ",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83611",
+      "niveau": "D",
+      "libelle": "Meeting Départemental du Sprint - Benjamins/Juniors et + - SAINT-PRIEST",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83460",
+      "niveau": "D",
+      "libelle": "Championnats de la Marne d'Automne - SAINTE-MENEHOULD",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83756",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - SAINTE-MENEHOULD",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83356",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Benjamins/Juniors/Séniors #6-2023 - TOULOUSE",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83652",
+      "niveau": "D",
+      "libelle": "Meeting Demi-fond Villeurbanne Natation - VILLEURBANNE",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83397",
+      "niveau": "D",
+      "libelle": "7e Meeting d'Automne du CYN - YERRES",
+      "dateIso": "2023-10-21"
+    },
+    {
+      "competitionId": "83349",
+      "niveau": "R",
+      "libelle": "25e Meeting de la Vallée (Finales du Dimanche) - CHEVREUSE",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83358",
+      "niveau": "R",
+      "libelle": "17e Meeting Maitre Annie Boyet - LONS-LE-SAUNIER",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83410",
+      "niveau": "D",
+      "libelle": "Championnat du Gard - 2 - ALES",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "82004",
+      "niveau": "D",
+      "libelle": "Le Trophée Avenirs - 4e Journée - Zone A - AUCHEL",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83262",
+      "niveau": "D",
+      "libelle": "1er Meeting de Bressuire - BRESSUIRE",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83701",
+      "niveau": "D",
+      "libelle": "1ere Animation Avenirs - Groupe 1 - COURNONTERRAL",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83702",
+      "niveau": "D",
+      "libelle": "1ere Animation Avenirs - Groupe 2 - COURNONTERRAL",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "82009",
+      "niveau": "D",
+      "libelle": "Le Trophée Avenirs - 4e Journée - Zone B - DIVION",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83572",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Etape 1 - Nord - HOCHFELDEN",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83573",
+      "niveau": "D",
+      "libelle": "Natathlon Avenirs - Etape 1 - Nord - HOCHFELDEN",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83247",
+      "niveau": "D",
+      "libelle": "Pré-saison 1 - LA TESTE-DE-BUCH",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83753",
+      "niveau": "D",
+      "libelle": "Journée 1 Avenirs - Aveyron/Lozère - MENDE",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83647",
+      "niveau": "D",
+      "libelle": "Meeting Départemental Octobre - MONISTROL-SUR-LOIRE",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83648",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Octobre - MONISTROL-SUR-LOIRE",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83555",
+      "niveau": "D",
+      "libelle": "Circuit Interdépartemental 1 - 1/2 Fond - MONTAUBAN",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "82010",
+      "niveau": "D",
+      "libelle": "Le Trophée Avenirs - 4e Journée - Zone C - MONTREUIL-SUR-MER",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83265",
+      "niveau": "D",
+      "libelle": "Meeting Départemental N°2 des Alpes-Maritimes et du Var - NICE",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83645",
+      "niveau": "D",
+      "libelle": "Petits 100 Maîtres Automne - POISSY",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83677",
+      "niveau": "D",
+      "libelle": "Championnats Demi-fond Drôme/Ardèche - PRIVAS",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83528",
+      "niveau": "D",
+      "libelle": "1/2 Fond - ROCHEFORT-SUR-MER",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83415",
+      "niveau": "D",
+      "libelle": "4e Journée Benjamins/Avenirs - SAINT-GEORGES-DE-MONS",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83300",
+      "niveau": "D",
+      "libelle": "Meeting de Rentrée CDAN - J1 - SAINT-VICTOR",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83333",
+      "niveau": "D",
+      "libelle": "Pré-saison Départementale Avenirs - SAUMUR",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83559",
+      "niveau": "D",
+      "libelle": "Journée Pré-saison Open - THAON-LES-VOSGES",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83656",
+      "niveau": "D",
+      "libelle": "Meeting de la Rentrée Benjamins/Avenirs 3 - TOULON",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83388",
+      "niveau": "D",
+      "libelle": "Compétition de reprise - TROYES",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83389",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - TROYES",
+      "dateIso": "2023-10-22"
+    },
+    {
+      "competitionId": "83419",
+      "niveau": "N",
+      "libelle": "18e Championnats de France Elite en petit bassin - ANGERS",
+      "dateIso": "2023-10-26"
+    },
+    {
+      "competitionId": "83405",
+      "niveau": "R",
+      "libelle": "9e Meeting de Natation du CN Fougères Agglomération - FOUGÈRES",
+      "dateIso": "2023-10-27"
+    },
+    {
+      "competitionId": "83407",
+      "niveau": "R",
+      "libelle": "9e Meeting de Natation du CN Fougères Agglomération-Finales - FOUGÈRES",
+      "dateIso": "2023-10-28"
+    },
+    {
+      "competitionId": "81543",
+      "niveau": "R",
+      "libelle": "Coupe des Mini-champions - Match 6 Avenirs - Zone Ouest - LE PORT",
+      "dateIso": "2023-10-28"
+    },
+    {
+      "competitionId": "81394",
+      "niveau": "R",
+      "libelle": "Coupe des Mini-champions - Match 6 Avenirs - Zone Sud - LE TAMPON",
+      "dateIso": "2023-10-28"
+    },
+    {
+      "competitionId": "83197",
+      "niveau": "R",
+      "libelle": "Championnats Nationaux Interclubs  - NOUMÉA",
+      "dateIso": "2023-10-28"
+    },
+    {
+      "competitionId": "81398",
+      "niveau": "R",
+      "libelle": "Coupe des Mini-champions - Match 6 Avenirs - Zone Nord-Est - SALAZIE",
+      "dateIso": "2023-10-28"
+    },
+    {
+      "competitionId": "83517",
+      "niveau": "D",
+      "libelle": "10e Meeting de la Trouille - LANNION",
+      "dateIso": "2023-10-28"
+    },
+    {
+      "competitionId": "83741",
+      "niveau": "D",
+      "libelle": "1er Meeting ROC Natation - ROYAN",
+      "dateIso": "2023-10-28"
+    },
+    {
+      "competitionId": "83408",
+      "niveau": "R",
+      "libelle": "9e Meeting de Natation du CN Fougères Agglomération-Finales - FOUGÈRES",
+      "dateIso": "2023-10-29"
+    },
+    {
+      "competitionId": "83867",
+      "niveau": "R",
+      "libelle": "Défi d'Octobre pour un Octobre Rose - LE LAMENTIN",
+      "dateIso": "2023-10-29"
+    },
+    {
+      "competitionId": "83403",
+      "niveau": "D",
+      "libelle": "Championnat Départemental des Maîtres #4-2023 - BALMA",
+      "dateIso": "2023-10-29"
+    },
+    {
+      "competitionId": "83788",
+      "niveau": "D",
+      "libelle": "1er Circuit  Hérault Maîtres - FRONTIGNAN",
+      "dateIso": "2023-10-29"
+    },
+    {
+      "competitionId": "83790",
+      "niveau": "D",
+      "libelle": "1er Circuit Juniors/Séniors - Hérault  - FRONTIGNAN",
+      "dateIso": "2023-10-29"
+    },
+    {
+      "competitionId": "83864",
+      "niveau": "D",
+      "libelle": "Inter-clubs fin de saison - LA MADELEINE",
+      "dateIso": "2023-10-30"
+    }
+  ]
+}

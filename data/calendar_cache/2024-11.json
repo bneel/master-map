@@ -1,0 +1,2156 @@
+{
+  "savedAt": "2026-04-25T15:56:27.439Z",
+  "year": 2024,
+  "month": 11,
+  "count": 358,
+  "raw": [
+    {
+      "competitionId": "87057",
+      "niveau": "N",
+      "libelle": "6e Meeting National X'Eau Grand-Cognac - COGNAC",
+      "dateIso": "2024-11-01"
+    },
+    {
+      "competitionId": "87478",
+      "niveau": "R",
+      "libelle": "16e Meeting Régional Choletais - CHOLET",
+      "dateIso": "2024-11-01"
+    },
+    {
+      "competitionId": "87250",
+      "niveau": "D",
+      "libelle": "Meeting Maîtres Gironde - BORDEAUX",
+      "dateIso": "2024-11-01"
+    },
+    {
+      "competitionId": "87514",
+      "niveau": "D",
+      "libelle": "13e Meeting Catherine Brunet - MASSY",
+      "dateIso": "2024-11-01"
+    },
+    {
+      "competitionId": "87572",
+      "niveau": "D",
+      "libelle": "ACANAT Swim - MIGENNES",
+      "dateIso": "2024-11-01"
+    },
+    {
+      "competitionId": "87466",
+      "niveau": "D",
+      "libelle": "Meeting Masters LLSB - SCHILTIGHEIM",
+      "dateIso": "2024-11-01"
+    },
+    {
+      "competitionId": "87539",
+      "niveau": "R",
+      "libelle": "CHAMPIONNATS DE LA GUADELOUPE - LES ABYMES",
+      "dateIso": "2024-11-02"
+    },
+    {
+      "competitionId": "87461",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux - ABBEVILLE",
+      "dateIso": "2024-11-02"
+    },
+    {
+      "competitionId": "86833",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Open d’Automne - ARRAS",
+      "dateIso": "2024-11-02"
+    },
+    {
+      "competitionId": "87155",
+      "niveau": "D",
+      "libelle": "Meeting de Rentrée/Championnats Départementaux Automne (25m) - BELLERIVE-SU..",
+      "dateIso": "2024-11-02"
+    },
+    {
+      "competitionId": "87544",
+      "niveau": "D",
+      "libelle": "Meeting du Sprint de Chassieu - CHASSIEU",
+      "dateIso": "2024-11-02"
+    },
+    {
+      "competitionId": "87571",
+      "niveau": "D",
+      "libelle": "Championnat de l'Oise Hiver - COULOISY",
+      "dateIso": "2024-11-02"
+    },
+    {
+      "competitionId": "87333",
+      "niveau": "D",
+      "libelle": "Championnat de la Manche Benjamins/Juniors/Séniors - SAINT-LÔ",
+      "dateIso": "2024-11-02"
+    },
+    {
+      "competitionId": "87334",
+      "niveau": "D",
+      "libelle": "Championnat de la Manche Benjamins/Juniors/Séniors - AVRANCHES",
+      "dateIso": "2024-11-03"
+    },
+    {
+      "competitionId": "85566",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 56 #2024_5 - CAUDAN",
+      "dateIso": "2024-11-03"
+    },
+    {
+      "competitionId": "87296",
+      "niveau": "D",
+      "libelle": "1er Circuit Départemental Benjamins - CLERMONT-L'HÉRAULT",
+      "dateIso": "2024-11-03"
+    },
+    {
+      "competitionId": "87615",
+      "niveau": "D",
+      "libelle": "Championnat Départemental des Maîtres - LE PUY-SAINTE-RÉPARADE",
+      "dateIso": "2024-11-03"
+    },
+    {
+      "competitionId": "87577",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Drôme/Ardèche de Demi-fond - MONTELIMAR",
+      "dateIso": "2024-11-03"
+    },
+    {
+      "competitionId": "87691",
+      "niveau": "D",
+      "libelle": "Plot 7 - MOURENX",
+      "dateIso": "2024-11-03"
+    },
+    {
+      "competitionId": "87201",
+      "niveau": "N",
+      "libelle": "Meeting National de Saint-Paul La Réunion - SAINT-PAUL",
+      "dateIso": "2024-11-08"
+    },
+    {
+      "competitionId": "85893",
+      "niveau": "R",
+      "libelle": "Promotion Avenirs - Meeting Nat. de Saint-Paul La Réunion - SAINT-PAUL",
+      "dateIso": "2024-11-08"
+    },
+    {
+      "competitionId": "85894",
+      "niveau": "R",
+      "libelle": "Promotion Maîtres - Meeting National de l'ASEC - SAINT-PAUL",
+      "dateIso": "2024-11-08"
+    },
+    {
+      "competitionId": "87751",
+      "niveau": "D",
+      "libelle": "Meeting National Saint-Paul - Chpt Départemental Benjamins - SAINT-PAUL",
+      "dateIso": "2024-11-08"
+    },
+    {
+      "competitionId": "87655",
+      "niveau": "R",
+      "libelle": "Championnats Nationaux Interclubs TC - CHARLEVILLE-MÉZIÈRES",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87764",
+      "niveau": "R",
+      "libelle": "Interclubs Avenirs Martinique - LE LAMENTIN",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87796",
+      "niveau": "R",
+      "libelle": "Spécial Maîtres - LES ABYMES",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87550",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Automne - ARGENTON-SUR-CREUSE",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87556",
+      "niveau": "D",
+      "libelle": "7e Challenge Avenirs/Benjamins - ARGENTON-SUR-CREUSE",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87605",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Automne Maîtres - ARGENTON-SUR-CREUSE",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87721",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Avenirs 3 + Benjamins - AVIGNON",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87767",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - BELLEGARDE-SUR-VALSERINE",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87417",
+      "niveau": "D",
+      "libelle": "Championnats Automne en Web Confront@tion - BOBIGNY",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87418",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Maîtres - BOBIGNY",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87620",
+      "niveau": "D",
+      "libelle": "Championnat Départemental 92 Benjamins - BOULOGNE-BILLANCOURT",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "86855",
+      "niveau": "D",
+      "libelle": "Web Confront@tion Départementale Automne - CHEVREUSE",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87584",
+      "niveau": "D",
+      "libelle": "Championnats Benjamins de l'Essonne Automne  - CORBEIL-ESSONNES",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87624",
+      "niveau": "D",
+      "libelle": "Championnats Benjamins 94 Automne  - CRÉTEIL",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87728",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Benjamins/Juniors et plus - DRAGUIGNAN",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87700",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Automne (Web Confront@tion) - HÉROUVILLE-SAINT-CL..",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87765",
+      "niveau": "D",
+      "libelle": "Kalif Benjamins - LE LAMENTIN",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87794",
+      "niveau": "D",
+      "libelle": "Championnats de la Guadeloupe petit bassin - LES ABYMES",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87120",
+      "niveau": "D",
+      "libelle": "Championnats District 21/39 Automne 25m Web Confront@tion - LONS-LE-SAUNIER",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87088",
+      "niveau": "D",
+      "libelle": "Championnats Interdépartementaux des Maîtres - LURE",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87093",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Automne 25m (Web Confront@tion) - LURE",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87397",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Benjamins Hiver - MORNANT",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87339",
+      "niveau": "D",
+      "libelle": "6e Meeting Maîtres du Loiret - OLIVET",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87772",
+      "niveau": "D",
+      "libelle": "Championnat de Paris – Benjamins – Open - PARIS",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87578",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Drôme/Ardèche - VALENCE",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87648",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Benjamins (25m)  - VENELLES",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87575",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver - VIERZON",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "87576",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver des Maitres - VIERZON",
+      "dateIso": "2024-11-09"
+    },
+    {
+      "competitionId": "86976",
+      "niveau": "R",
+      "libelle": "Championnats Interclubs TC  - MONTAUBAN",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87441",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Centre-Nord - Plot 1 - RONCHIN",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87442",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Centre-Nord - Plot 2 - VILLENEUVE-D'ASCQ",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87600",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Somme - Plot 1 - VITRY-EN-ARTOIS",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87640",
+      "niveau": "D",
+      "libelle": "Web Confront@tion - Championnats de Corse-du-Sud Automne - AJACCIO",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87739",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Corse-du-Sud - AJACCIO",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "86926",
+      "niveau": "D",
+      "libelle": "Interploufs - ANNECY",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "86927",
+      "niveau": "D",
+      "libelle": "Championnats Automne Benjamins des Savoie - ANNECY",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87447",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux 56 TC - BAUD",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87161",
+      "niveau": "D",
+      "libelle": "Web Confront@tion Benjamins - BEAUPREAU",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87481",
+      "niveau": "D",
+      "libelle": "Championnat du Finistère Interclubs TC - BREST",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87607",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs 1 - CHALLANS",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87617",
+      "niveau": "D",
+      "libelle": "Championnats de Vendée Hiver Benjamins - CHALLANS",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87618",
+      "niveau": "D",
+      "libelle": "Championnats de Vendée Hiver Juniors et plus - CHALLANS",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87704",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux TC  - CHARLEVILLE-MÉZIÈRES",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87541",
+      "niveau": "D",
+      "libelle": "Départementaux Automne 2024 du 28 - CHÂTEAUDUN",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87542",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Automne 2024 Maîtres du 28 - CHÂTEAUDUN",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87527",
+      "niveau": "D",
+      "libelle": "Trophée du 4 Nageur - CHATTE",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87828",
+      "niveau": "D",
+      "libelle": "Trophée du 4 Nageur - Relais - CHATTE",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87788",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Automne Benjamins - ÉZANVILLE",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87424",
+      "niveau": "D",
+      "libelle": "Journée Avenirs - GANNAT",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87783",
+      "niveau": "D",
+      "libelle": "Championnat 77 Benjamins Hiver - LAGNY-SUR-MARNE",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87731",
+      "niveau": "D",
+      "libelle": "Championnats Dptx Automne Benjamins & Juniors/Séniors - LE LUDE",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87310",
+      "niveau": "D",
+      "libelle": "Interclubs Interdépartementaux 65/32 - LOURDES",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87464",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Hiver  - MÂCON",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87224",
+      "niveau": "D",
+      "libelle": "Championnat Départemental - Pass Compétitions - MAYENNE",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87226",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Avenirs - MAYENNE",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87227",
+      "niveau": "D",
+      "libelle": "Championnat Départemental TC - MAYENNE",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87705",
+      "niveau": "D",
+      "libelle": "Championnats 76 Hiver - MONTIVILLIERS",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87202",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux des Alpes-Maritimes  - NICE",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87264",
+      "niveau": "D",
+      "libelle": "Interclubs - Poule B - OBERNAI",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87902",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs TC - REDON",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87045",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux de la Marne - REIMS",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87399",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - Dpt 35 - RENNES",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87234",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Benjamins - SAINT-GEORGES-DE-MONS",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87335",
+      "niveau": "D",
+      "libelle": "Championnat Déptl Automne Benjamins (Web Confront@tion) - SAINT-NAZAIRE",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87106",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 2 - SALBRIS",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87508",
+      "niveau": "D",
+      "libelle": "Challenge Benjamins - SALBRIS",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87720",
+      "niveau": "D",
+      "libelle": "6e Meeting Avenirs/Jeunes du Loiret - SARAN",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87659",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver - TOURS",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87179",
+      "niveau": "D",
+      "libelle": "Finale Départementale Interclubs TC - VAL-DE-REUIL",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87742",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants - Championnats Interclubs TC - VAL-DE-REUIL",
+      "dateIso": "2024-11-10"
+    },
+    {
+      "competitionId": "87438",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Nord-Est - Plot 1 - FOURMIES",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87443",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Centre-Nord - Plot 3 - LA MADELEINE",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87456",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Maritime - Plot 2 - LUMBRES",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87625",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - RENNES",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87455",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Maritime - Plot 1 - SAINT-POL-SUR-MER",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87444",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Centre-Nord - Plot 4 - SECLIN",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87667",
+      "niveau": "D",
+      "libelle": "Championnat Interclubs TC - Poule 19/23/87 - AUBUSSON",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87786",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - Poule 64/40 - BAYONNE",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87787",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs (Équipes Mixtes & Remplaçants) - BAYONNE",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87299",
+      "niveau": "D",
+      "libelle": "Interclubs TC Hérault - BÉZIERS",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87685",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - BORDEAUX",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87643",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - CD66 - CANET-EN-ROUSSILLON",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87365",
+      "niveau": "D",
+      "libelle": "Interclubs TC - CHAMBÉRY",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87732",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - COLOMIERS",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87336",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - COUTANCES",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87524",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - LANNION",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87586",
+      "niveau": "D",
+      "libelle": "Championnat Départemental J/S - MELLE",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87645",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux - MONTAUBAN",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87848",
+      "niveau": "D",
+      "libelle": "Remplaçants Interclubs - MONTAUBAN",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87736",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Open TC 25m - NEUFCHÂTEAU",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87738",
+      "niveau": "D",
+      "libelle": "Interclubs TC Mixtes - NEUFCHÂTEAU",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87492",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs Aveyron/Lozère - ONET-LE-CHÂTEAU",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87133",
+      "niveau": "D",
+      "libelle": "JOQUA 8 + Trophées Avenirs & Benjamins - PÉRIGUEUX",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87741",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC 54 - PONT-A-MOUSSON",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87771",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - PONT-A-MOUSSON",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87652",
+      "niveau": "D",
+      "libelle": "Interclubs Interdépartementaux Aube/Haute-Marne - ROMILLY-SUR-SEINE",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87654",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Départementaux - ROMILLY-SUR-SEINE",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87412",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux TC - VILLEFRANCHE-SUR-SAÔNE",
+      "dateIso": "2024-11-11"
+    },
+    {
+      "competitionId": "87181",
+      "niveau": "D",
+      "libelle": "Championnats Maitres - Plot 4 - PACY-SUR-EURE",
+      "dateIso": "2024-11-15"
+    },
+    {
+      "competitionId": "87755",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - Trophée Jacques Chardonneau - ANGERS",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87602",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Somme - Plot 3 - ARRAS",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87676",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule K - ASNIÈRES-SUR-SEINE",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87601",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Somme - Plot 2 - BÉTHUNE",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87673",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule H - BRUNOY",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87682",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule Q - CERGY-PONTOISE",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87670",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule E - CHEVREUSE",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87677",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule L - CLAMART",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87671",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule F - CONFLANS-SAINTE-HONORINE",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87665",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule B - COULOMMIERS",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "85139",
+      "niveau": "R",
+      "libelle": "Championnats de Nouvelle-Calédonie Open grand bain - DUMBÉA",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87806",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - Région Sud - Poule B - Ouest - ISTRES",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87680",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule O - L'HAŸ-LES-ROSES",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87876",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - LE LAMENTIN",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87664",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule R1 - MASSY",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87674",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule I - MASSY",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87678",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule M - MONTREUIL",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87668",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule A - PARIS",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87689",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule S - TAVERNY",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87675",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule J - VIRY-CHATILLON",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87373",
+      "niveau": "D",
+      "libelle": "Championnats Interdépartementaux Automne - ALBI",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "86954",
+      "niveau": "D",
+      "libelle": "Poule Départementale Interclubs TC - AUXERRE",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87816",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Automne 25m (Web Confront@tion) - BERGERAC",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87108",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs TC - BLOIS",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87525",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Automne - BOURGOIN-JALLIEU",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87501",
+      "niveau": "D",
+      "libelle": "Compétition Avenirs n°4 - District Nord - BREST",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87906",
+      "niveau": "D",
+      "libelle": "Championnat Départemental d'Automne 25m (Web Confront@tion) - CANET-EN-ROUSS..",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87626",
+      "niveau": "D",
+      "libelle": "Animation Avenirs - CASTELNAUDARY",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87375",
+      "niveau": "D",
+      "libelle": "Championnat de Guyane en petit bassin - CAYENNE",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87656",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Benjamins - CHAUMONT",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87657",
+      "niveau": "D",
+      "libelle": "Championnats Interdépartementaux Aube/Haute-Marne - CHAUMONT",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87888",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Championnats Rég. IC TC - Poule E - CHEVREUSE",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87849",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC 03/15/63 - CLERMONT-FERRAND",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87502",
+      "niveau": "D",
+      "libelle": "Compétition Avenirs n°4 - District Sud - CONCARNEAU",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87929",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Championnats Régionaux Interclubs - CONFLANS-SAINTE-..",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87221",
+      "niveau": "D",
+      "libelle": "Championnat District 21/39 Interclubs TC - DIJON",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87182",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver - ÉVREUX",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87822",
+      "niveau": "D",
+      "libelle": "Championnats de Gironde Hiver - EYSINES",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87729",
+      "niveau": "D",
+      "libelle": "Interclubs - Poule C - FRÉJUS",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87750",
+      "niveau": "D",
+      "libelle": "Championnats 76 Interclubs - GONFREVILLE-L'ORCHER",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87819",
+      "niveau": "D",
+      "libelle": "Championnats d'Alsace Hiver 2024 - GUEBWILLER",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87797",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs TC Calvados/Orne - HÉROUVILLE-SAINT-..",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87858",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver 54 - LANEUVEVILLE-DEVANT-NANCY",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87448",
+      "niveau": "D",
+      "libelle": "Championnats Dptx Automne Web Confront@tion 25m - Journée 1 - LORIENT",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87534",
+      "niveau": "D",
+      "libelle": "Championnats d'Automne des Côtes-d'Armor  - LOUDÉAC",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87191",
+      "niveau": "D",
+      "libelle": "Championnats de Moselle Automne - Hiver - METZ",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87204",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - Poule C - Alpes-Maritimes - MONACO",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87532",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs Drôme/Ardèche TC - MONTELIMAR",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87076",
+      "niveau": "D",
+      "libelle": "Championnats du Gard Web Confront@tion  - NÎMES",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87597",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs n°2 - NIORT",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87483",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Automne 25m (Web Confront@tion) - ONET-LE-CHÂT..",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87490",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Automne - ONET-LE-CHÂTEAU",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87491",
+      "niveau": "D",
+      "libelle": "Journée Départementale Automne Avenirs  - ONET-LE-CHÂTEAU",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87568",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Maîtres Open - ONET-LE-CHÂTEAU",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87356",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs du Loiret - ORLÉANS",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87730",
+      "niveau": "D",
+      "libelle": "Championnat Hiver Masters Loire - ROANNE",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87385",
+      "niveau": "D",
+      "libelle": "Demi-fond – Plot 2 - ROCHEFORT-SUR-MER",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87386",
+      "niveau": "D",
+      "libelle": "Web Confront@tion Benjamins – Plot 2 (Organisation 16/17) - ROCHEFORT-SUR-MER",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87821",
+      "niveau": "D",
+      "libelle": "Championnats des Vosges Hiver Open 25m - SAINT-DIÉ-DES-VOSGES",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87840",
+      "niveau": "D",
+      "libelle": "Championnats 88 Maitres Open - SAINT-DIÉ-DES-VOSGES",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87634",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Avenirs Automne - Landes - SAINT-PIERRE-DU-MONT",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87050",
+      "niveau": "D",
+      "libelle": "Championnats de la Marne d'Automne - SAINTE-MENEHOULD",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87184",
+      "niveau": "D",
+      "libelle": "Critérium Avenirs Marne - SAINTE-MENEHOULD",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87265",
+      "niveau": "D",
+      "libelle": "Benjamins 2 - SORBIERS",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87598",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs n°2 - THOUARS",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87756",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Benjamins/Juniors/Séniors - TOULOUSE",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87846",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Poule Départementale - VARENNES-VAUZELLES",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87409",
+      "niveau": "D",
+      "libelle": "Coupe du Sud n°1 - VÉNISSIEUX",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87540",
+      "niveau": "D",
+      "libelle": "Interclubs 2024 du 28 - VERNOUILLET",
+      "dateIso": "2024-11-16"
+    },
+    {
+      "competitionId": "87114",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - AUXERRE",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87690",
+      "niveau": "R",
+      "libelle": "Interclubs Régionaux Toutes Catégories - BASTIA",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87692",
+      "niveau": "R",
+      "libelle": "Course des Remplaçants IC Corse - BASTIA",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87446",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Oise - BEAUVAIS",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87753",
+      "niveau": "R",
+      "libelle": "Championnats de Normandie Interclubs TC - CAEN",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87086",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs - CHÂTEAUROUX",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87439",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Nord-Est - Plot 2 - DOUAI",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87805",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - Région Sud - Poule B - Est - HYÈRES",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87760",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - Région Sud - Poule A - MONACO",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87666",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule C - PROVINS",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87445",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Poule Régionale - SAINT-AMAND-LES-EAUX",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "84744",
+      "niveau": "R",
+      "libelle": "Championnat Régional Interclubs TC  - SAINT-PAUL",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87669",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule D - SAVIGNY-LE-TEMPLE",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87440",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Nord-Est - Plot 3 - SOMAIN",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87672",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule G - VERSAILLES",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "86924",
+      "niveau": "R",
+      "libelle": "Finale Régionale Interclubs TC AuRA - VILLEFRANCHE-SUR-SAÔNE",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87679",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule N - VILLEPINTE",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87681",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule P - VITRY-SUR-SEINE",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87077",
+      "niveau": "D",
+      "libelle": "Championnats du Gard Web Confront@tion - ALES",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87162",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - ANGERS",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87862",
+      "niveau": "D",
+      "libelle": "Remplaçants Interclubs TC - ANGERS",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "86937",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Haute-Savoie & Equipes Mixtes IC TC - ANNEMASSE",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87505",
+      "niveau": "D",
+      "libelle": "Interclubs Interdépartementaux TC - BESANÇON",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87684",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Interdépartementaux - BESANÇON",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87574",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux - BOURGES",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87247",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - Poule Départementale 71   - CHALON-SUR-SAÔNE",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87338",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Couëron - COUERON",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87768",
+      "niveau": "D",
+      "libelle": "Meeting Départemental Benjamins - FERNEY-VOLTAIRE",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87627",
+      "niveau": "D",
+      "libelle": "Championnat Interclubs - GAP",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87747",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux TC - Poule C - ISTRES",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87818",
+      "niveau": "D",
+      "libelle": "Course des remplaçants Interclubs TC - 13 - ISTRES",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87839",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux TC - ISTRES",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87498",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs Départementaux TC - LA FLÈCHE",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87908",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants des Chpts de Fce IC TC - LA FLÈCHE",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87619",
+      "niveau": "D",
+      "libelle": "Finale Départementale Interclubs TC - LA ROCHE-SUR-YON",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87934",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Départementaux - LA ROCHE-SUR-YON",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87040",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux TC - LAVAL",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87041",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants des Interclubs Départementaux TC - LAVAL",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87090",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux 19/23/87 - LIMOGES",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87845",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Automne 25m ( Web Confront@tion) - LIMOUX",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87662",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs - LOCHES",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87817",
+      "niveau": "D",
+      "libelle": "Championnats des Pyrénées-Atlantiques - LONS",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87749",
+      "niveau": "D",
+      "libelle": "Championnats du Lot-et-Garonne - MARMANDE",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87380",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs CD43 - MONISTROL-SUR-LOIRE",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87337",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Nantes Jules Verne - NANTES",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87449",
+      "niveau": "D",
+      "libelle": "Championnats Dptx Automne 56 Web Confront@tion 25m - J2 - PLOËRMEL",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87635",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Benjamins - SAINT-GEOURS-DE-MAREMNE",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87886",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Juniors et plus A1 - SAINT-GEOURS-DE-MAREMNE",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87298",
+      "niveau": "D",
+      "libelle": "Championnats Qualificatifs Hérault Benjamins - SÈTE",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87589",
+      "niveau": "D",
+      "libelle": "Championnat Bi-départemental Benjamins - THOUARS",
+      "dateIso": "2024-11-17"
+    },
+    {
+      "competitionId": "87590",
+      "niveau": "N",
+      "libelle": "19e Meeting National de la Mer - CHERBOURG-EN-COTENTIN",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87910",
+      "niveau": "R",
+      "libelle": "Championnats de Corse Hiver - AJACCIO",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87911",
+      "niveau": "R",
+      "libelle": "Championnats de Corse Hiver des Maîtres - AJACCIO",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87824",
+      "niveau": "R",
+      "libelle": "Championnat de LN Guyane - Interclubs Toutes Catégories - CAYENNE",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87717",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Juniors et + - DENAIN",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "84746",
+      "niveau": "R",
+      "libelle": "Championnats de La Réunion 25m - SAINT-PAUL",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87611",
+      "niveau": "R",
+      "libelle": "Challenge Centre-Val-de-Loire (1ère Partie) - SARAN",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87078",
+      "niveau": "D",
+      "libelle": "Interclubs TC Gard - ALES",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87907",
+      "niveau": "D",
+      "libelle": "Interclubs TC 2024 - AMBÉRIEU-EN-BUGEY",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87743",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Hiver Juniors/Séniors - ARGENTEUIL",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87889",
+      "niveau": "D",
+      "libelle": "Meeting Maîtres de Brioude - BRIOUDE",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87850",
+      "niveau": "D",
+      "libelle": "3e Journée Avenirs - CLERMONT-FERRAND",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87585",
+      "niveau": "D",
+      "libelle": "2e Meeting de l'Essonne - CORBEIL-ESSONNES",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87587",
+      "niveau": "D",
+      "libelle": "2e Meeting de l'Essonne - Maîtres - CORBEIL-ESSONNES",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87092",
+      "niveau": "D",
+      "libelle": "Racing Tour - DÉCINES-CHARPIEU",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87517",
+      "niveau": "D",
+      "libelle": "Open de Rentrée Avenirs - DRANCY",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87983",
+      "niveau": "D",
+      "libelle": "challenge avenirs N°1 - FRÉJUS",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87955",
+      "niveau": "D",
+      "libelle": "Coupe Départementale Avenirs Automne - GILLY-SUR-ISÈRE",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87975",
+      "niveau": "D",
+      "libelle": "Avenirs - J6 - Zone Sud - LA GARENNE-COLOMBES",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87546",
+      "niveau": "D",
+      "libelle": "District 1 Avenirs - LANNION",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87920",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Poule B - LIBOURNE",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87376",
+      "niveau": "D",
+      "libelle": "8e Meeting de Megève - MEGÈVE",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87404",
+      "niveau": "D",
+      "libelle": "Meeting des Maîtres de Megève - MEGÈVE",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87649",
+      "niveau": "D",
+      "libelle": "2e Meeting des Maîtres de Montchanin Natation  - MONTCHANIN",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87863",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Benjamins 2/Juniors & Séniors - PERTUIS",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87864",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Maîtres - PERTUIS",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87581",
+      "niveau": "D",
+      "libelle": "Avenirs Drôme/Ardèche - Zone Sud - PIERRELATTE",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87582",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Drôme/Ardèche - Zone Sud  - PIERRELATTE",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87984",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux TC - ROYAN",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "88086",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs - ROYAN",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87548",
+      "niveau": "D",
+      "libelle": "District 1 Avenirs - SAINT-BRIEUC",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87091",
+      "niveau": "D",
+      "libelle": "6e Meeting de la Ville de Saint-Léonard-de-Noblat ( NAC ) - SAINT-LÉONARD-D..",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87343",
+      "niveau": "D",
+      "libelle": "Championnat Déptl Automne Jun./Sén. (Web Confront@tion) - SAINT-SÉBASTIEN-..",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87190",
+      "niveau": "D",
+      "libelle": "Interclubs TC en bassin de 25m - THIONVILLE",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87579",
+      "niveau": "D",
+      "libelle": "Avenirs Drôme/Ardèche - Zone Nord - VALENCE",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87580",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Drôme/Ardèche - Zone Nord  - VALENCE",
+      "dateIso": "2024-11-23"
+    },
+    {
+      "competitionId": "87966",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - SAINT-FRANÇOIS",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "88001",
+      "niveau": "R",
+      "libelle": "Course des Remplaçants - SAINT-FRANÇOIS",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87612",
+      "niveau": "R",
+      "libelle": "Challenge Centre-Val-de-Loire (2e Partie) - SARAN",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87940",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Savoie Automne - AIGUEBLANCHE",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87915",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - Poule 64/40 - BAYONNE",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87916",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - Poule 64/40 - BAYONNE",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87172",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs 90/68 - BELFORT",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87174",
+      "niveau": "D",
+      "libelle": "Natathlon Avenirs – Plot 2 - BELFORT",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87985",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - COUTANCES",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87426",
+      "niveau": "D",
+      "libelle": "Journée Avenirs - CUSSET",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87630",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - EMBRUN",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87887",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - Poule Départementale - FAUVILLE-EN-CAUX",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87529",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - FONTAINE",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "86893",
+      "niveau": "D",
+      "libelle": "Championnat Départemental des Maîtres - JANZÉ",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87998",
+      "niveau": "D",
+      "libelle": "Championnat Départemental des Maîtres (C0) - JANZÉ",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87835",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - LA CIOTAT",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87836",
+      "niveau": "D",
+      "libelle": "Course des remplaçants Interclubs Avenirs - 13 - LA CIOTAT",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87830",
+      "niveau": "D",
+      "libelle": "Avenirs - J6 - Zone Nord - LA GARENNE-COLOMBES",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "88036",
+      "niveau": "D",
+      "libelle": "2e Animation (Matin) - Avenirs CD 34  - LATTES",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "88038",
+      "niveau": "D",
+      "libelle": "2e Animation (Après-midi) - Avenirs CD 34 - LATTES",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87637",
+      "niveau": "D",
+      "libelle": "Départementaux d'Automne des Maîtres Open - LAVAL",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87382",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Novembre - LE PUY-EN-VELAY",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87383",
+      "niveau": "D",
+      "libelle": "Sprint Benjamins - LE PUY-EN-VELAY",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87927",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Poule A - LIBOURNE",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87841",
+      "niveau": "D",
+      "libelle": "Championnat Interclubs - Poule 47/24 - MARMANDE",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87392",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs TC - MAZAMET",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87883",
+      "niveau": "D",
+      "libelle": "Championnat 77 Hiver Open des Maîtres - MEAUX",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87898",
+      "niveau": "D",
+      "libelle": "Championnat 77 Séniors  - MEAUX",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87207",
+      "niveau": "D",
+      "libelle": "Meeting Pitchouns N°1 - MENTON",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87209",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs N°1 - MENTON",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87056",
+      "niveau": "D",
+      "libelle": "2e Meeting Maîtres Alain Vanacker - NANTERRE",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87882",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux - NIORT",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "88011",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants - NIORT",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87941",
+      "niveau": "D",
+      "libelle": "Championnat de Paris Automne Open des Maîtres - PARIS",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87942",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - 1ère Etape - PARIS",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87943",
+      "niveau": "D",
+      "libelle": "Coupe Paillieux – 1ère Etape - PARIS",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87604",
+      "niveau": "D",
+      "libelle": "Interclubs TC Vienne - POITIERS",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "88019",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - Vienne - POITIERS",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87192",
+      "niveau": "D",
+      "libelle": "4e Rencontre Avenirs - PONT-AUDEMER",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87759",
+      "niveau": "D",
+      "libelle": "Trophées Paule Lacoste #1 - PORTET-SUR-GARONNE",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87268",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Loire - ROANNE",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87270",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - Loire - ROANNE",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87528",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - Poule de St-Egrève - SAINT-EGREVE",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87206",
+      "niveau": "D",
+      "libelle": "Meeting Pitchouns N°1 - SAINT-LAURENT-DU-VAR",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87208",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs N°1 - SAINT-LAURENT-DU-VAR",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87879",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs - SAINT-YRIEIX-SUR-CHARENTE",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87164",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Juniors/Séniors - SEGRE",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87205",
+      "niveau": "D",
+      "libelle": "Triathlon Avenirs - VILLENEUVE-LÈS-AVIGNON",
+      "dateIso": "2024-11-24"
+    },
+    {
+      "competitionId": "87023",
+      "niveau": "D",
+      "libelle": "Inter-clubs de Novembre de Marcq - MARCQ-EN-BAROEUL",
+      "dateIso": "2024-11-26"
+    },
+    {
+      "competitionId": "86931",
+      "niveau": "R",
+      "libelle": "Championnats Hiver Ligue AuRA Juniors/Séniors - ROMANS-SUR-ISÈRE",
+      "dateIso": "2024-11-29"
+    },
+    {
+      "competitionId": "87519",
+      "niveau": "D",
+      "libelle": "Se Re-Maître à l'Eau - VILLEMOMBLE",
+      "dateIso": "2024-11-29"
+    },
+    {
+      "competitionId": "86987",
+      "niveau": "N",
+      "libelle": "Final Tour 2024 - AGEN",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "88056",
+      "niveau": "N",
+      "libelle": "Final Tour - Région Guyane - CAYENNE",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "86985",
+      "niveau": "N",
+      "libelle": "Final Tour 2024 - CHARTRES",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "88025",
+      "niveau": "N",
+      "libelle": "Final Tour Martinique - LE CARBET",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "86986",
+      "niveau": "N",
+      "libelle": "Final Tour 2024 - NICE",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "86774",
+      "niveau": "N",
+      "libelle": "Final Tour 2024 - SAINT-ÉTIENNE",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "85911",
+      "niveau": "R",
+      "libelle": "Waka dilo # 4 - Orangina - CAYENNE",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "85141",
+      "niveau": "R",
+      "libelle": "Interclubs Avenirs - DUMBÉA",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "87896",
+      "niveau": "R",
+      "libelle": "Championnats de Normandie Hiver Juniors/Séniors - GRANVILLE",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "88024",
+      "niveau": "R",
+      "libelle": "Matinik First Tour - LE CARBET",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "88103",
+      "niveau": "R",
+      "libelle": "Vivier Avenirs LNM et Invités - LE CARBET",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "88193",
+      "niveau": "R",
+      "libelle": "Matinik First Tour #2 - LE CARBET",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "87859",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - PIRAE",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "87860",
+      "niveau": "R",
+      "libelle": "Interclubs TC (Course des Remplaçants) - PIRAE",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "87897",
+      "niveau": "R",
+      "libelle": "Championnat Régional Benjamins 25m - SARCELLES",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "87913",
+      "niveau": "D",
+      "libelle": "Soirée Maîtres n°1 - CASSIS",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "87914",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Automne Open Web Confront@tion - CASSIS",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "87661",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Maitres - CHAMBRAY-LES-TOURS",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "87126",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Plot 1 - DIJON",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "87595",
+      "niveau": "D",
+      "libelle": "5e Meeting des Maîtres de Ventadour - ÉGLETONS",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "87701",
+      "niveau": "D",
+      "libelle": "Championnats de Gironde Hiver - LA TESTE-DE-BUCH",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "87560",
+      "niveau": "D",
+      "libelle": "Championnat 77 Hiver Open - LAGNY-SUR-MARNE",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "87944",
+      "niveau": "D",
+      "libelle": "Championnat de Paris Open – Hiver 25m. - PARIS",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "87048",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - REIMS",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "86894",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Hiver - RENNES",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "87831",
+      "niveau": "D",
+      "libelle": "Championnat 92 Juniors/Séniors - RUEIL-MALMAISON",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "88051",
+      "niveau": "D",
+      "libelle": "Soirée des Maîtres n°1 - SOISY-SOUS-MONTMORENCY",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "87866",
+      "niveau": "D",
+      "libelle": "Challenge Départemental Avenirs 1 - SORGUES",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "87312",
+      "niveau": "D",
+      "libelle": "Interclubs Interdépartementaux Avenirs 65/32 - TARBES",
+      "dateIso": "2024-11-30"
+    },
+    {
+      "competitionId": "86969",
+      "niveau": "D",
+      "libelle": "Championnats Automne - Avenirs/Benjamins/Juniors/Séniors - VITRY-SUR-SEINE",
+      "dateIso": "2024-11-30"
+    }
+  ]
+}

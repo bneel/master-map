@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bneel.github.io/master-map/sitemap.xml
+Sitemap: https://www.couloir4.fr/sitemap.xml

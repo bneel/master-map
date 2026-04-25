@@ -1,0 +1,368 @@
+{
+  "savedAt": "2026-04-25T15:56:17.807Z",
+  "year": 2024,
+  "month": 7,
+  "count": 60,
+  "raw": [
+    {
+      "competitionId": "86399",
+      "niveau": "R",
+      "libelle": "Coupe Occitanie des Départements Benjamins  - TOULOUSE",
+      "dateIso": "2024-07-01"
+    },
+    {
+      "competitionId": "86600",
+      "niveau": "R",
+      "libelle": "Championnat Régional Eté - BREST",
+      "dateIso": "2024-07-05"
+    },
+    {
+      "competitionId": "86637",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue AuRA Eté - CLERMONT-FERRAND",
+      "dateIso": "2024-07-05"
+    },
+    {
+      "competitionId": "86596",
+      "niveau": "R",
+      "libelle": "Championnat Ligue BFC Eté Juniors/Séniors - MÂCON",
+      "dateIso": "2024-07-05"
+    },
+    {
+      "competitionId": "86810",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Région Sud Juniors/Séniors - MARTIGUES",
+      "dateIso": "2024-07-05"
+    },
+    {
+      "competitionId": "86527",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue Eté J/S - MÉRIGNAC",
+      "dateIso": "2024-07-05"
+    },
+    {
+      "competitionId": "86630",
+      "niveau": "R",
+      "libelle": "Championnat Régional Juniors et plus (50m) - MULHOUSE",
+      "dateIso": "2024-07-05"
+    },
+    {
+      "competitionId": "86529",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue Eté Juniors/Séniors – 50m - TOULOUSE",
+      "dateIso": "2024-07-05"
+    },
+    {
+      "competitionId": "86799",
+      "niveau": "D",
+      "libelle": "Compétition Demi-fond  - ROCHEFORT-SUR-LOIRE",
+      "dateIso": "2024-07-05"
+    },
+    {
+      "competitionId": "86544",
+      "niveau": "R",
+      "libelle": "Championnats Eté des Hauts-de-France - BÉTHUNE",
+      "dateIso": "2024-07-06"
+    },
+    {
+      "competitionId": "86359",
+      "niveau": "D",
+      "libelle": "Challenge Baptiste Dupuis / Coupe Ali Benfifi - EYZIN-PINET",
+      "dateIso": "2024-07-06"
+    },
+    {
+      "competitionId": "86800",
+      "niveau": "D",
+      "libelle": "Compétition 02 - ROCHEFORT-SUR-LOIRE",
+      "dateIso": "2024-07-06"
+    },
+    {
+      "competitionId": "86801",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 2 - ROCHEFORT-SUR-LOIRE",
+      "dateIso": "2024-07-06"
+    },
+    {
+      "competitionId": "86047",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville de Thônes - THÔNES",
+      "dateIso": "2024-07-06"
+    },
+    {
+      "competitionId": "86485",
+      "niveau": "R",
+      "libelle": "Trophée du 4 Nageur Eté - LACAPELLE-MARIVAL",
+      "dateIso": "2024-07-07"
+    },
+    {
+      "competitionId": "86709",
+      "niveau": "R",
+      "libelle": "2e Journée Régionale - MARCIGNY",
+      "dateIso": "2024-07-07"
+    },
+    {
+      "competitionId": "86667",
+      "niveau": "R",
+      "libelle": "2e Journée Régionale BFC - MARCIGNY",
+      "dateIso": "2024-07-07"
+    },
+    {
+      "competitionId": "86642",
+      "niveau": "R",
+      "libelle": "Coupe de la Ville de Salindres - SALINDRES",
+      "dateIso": "2024-07-07"
+    },
+    {
+      "competitionId": "86641",
+      "niveau": "R",
+      "libelle": "Challenge Sprint de Salindres - SALINDRES",
+      "dateIso": "2024-07-07"
+    },
+    {
+      "competitionId": "86650",
+      "niveau": "D",
+      "libelle": "Coupe de la ville - L'ISLE-JOURDAIN",
+      "dateIso": "2024-07-07"
+    },
+    {
+      "competitionId": "85496",
+      "niveau": "D",
+      "libelle": "Journée de fin de saison - LA CHATAIGNERAIE",
+      "dateIso": "2024-07-07"
+    },
+    {
+      "competitionId": "86780",
+      "niveau": "D",
+      "libelle": "JOQUA 1 - SAINT-PALAIS",
+      "dateIso": "2024-07-07"
+    },
+    {
+      "competitionId": "86812",
+      "niveau": "D",
+      "libelle": "Meeting de la ville de Sarlat - Périgord Noir - SARLAT-LA-CANÉDA",
+      "dateIso": "2024-07-07"
+    },
+    {
+      "competitionId": "86048",
+      "niveau": "D",
+      "libelle": "Epreuves Chronométriques Rumilly - RUMILLY",
+      "dateIso": "2024-07-10"
+    },
+    {
+      "competitionId": "86827",
+      "niveau": "D",
+      "libelle": "Challenge Nocturne 2024 - SORE",
+      "dateIso": "2024-07-11"
+    },
+    {
+      "competitionId": "86811",
+      "niveau": "D",
+      "libelle": "Tullinades 2024 - TULLINS",
+      "dateIso": "2024-07-13"
+    },
+    {
+      "competitionId": "86486",
+      "niveau": "R",
+      "libelle": "Trophée du Nageur Complet Eté - GOURDON",
+      "dateIso": "2024-07-14"
+    },
+    {
+      "competitionId": "86835",
+      "niveau": "R",
+      "libelle": "Courses Complémentaires du Trophée Nageur Complet Eté - GOURDON",
+      "dateIso": "2024-07-14"
+    },
+    {
+      "competitionId": "86789",
+      "niveau": "R",
+      "libelle": "Meeting Nouvelle-Aquitaine - NEUVILLE-DE-POITOU",
+      "dateIso": "2024-07-14"
+    },
+    {
+      "competitionId": "86829",
+      "niveau": "D",
+      "libelle": "Championnats Interdépartementaux 11/34/66 - THUIR",
+      "dateIso": "2024-07-14"
+    },
+    {
+      "competitionId": "86834",
+      "niveau": "D",
+      "libelle": "Toutes Catégories & Challenge Avenirs - VIBRAYE",
+      "dateIso": "2024-07-14"
+    },
+    {
+      "competitionId": "86598",
+      "niveau": "N",
+      "libelle": "IVes Championnats de France Open d'Eté - PIERRELATTE",
+      "dateIso": "2024-07-16"
+    },
+    {
+      "competitionId": "86673",
+      "niveau": "R",
+      "libelle": "1ère Journée Régionale du Demi-fond - CHAUFFAILLES",
+      "dateIso": "2024-07-17"
+    },
+    {
+      "competitionId": "86651",
+      "niveau": "D",
+      "libelle": "Top 50 - JAUNAY-CLAN",
+      "dateIso": "2024-07-18"
+    },
+    {
+      "competitionId": "84953",
+      "niveau": "R",
+      "libelle": "Championnats NC - petit bain - NOUMÉA",
+      "dateIso": "2024-07-20"
+    },
+    {
+      "competitionId": "85755",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville d'Evian - ÉVIAN-LES-BAINS",
+      "dateIso": "2024-07-20"
+    },
+    {
+      "competitionId": "86802",
+      "niveau": "D",
+      "libelle": "Compétition 04 - Programme du Critérium - LONGUÉ-JUMELLES",
+      "dateIso": "2024-07-20"
+    },
+    {
+      "competitionId": "86487",
+      "niveau": "R",
+      "libelle": "Trophée Individuel Eté  - GOURDON",
+      "dateIso": "2024-07-21"
+    },
+    {
+      "competitionId": "86839",
+      "niveau": "R",
+      "libelle": "Equipes Mixtes - Coupe Régionale Interclubs TC - MAULÉON-LICHARRE",
+      "dateIso": "2024-07-21"
+    },
+    {
+      "competitionId": "86830",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs Toutes Catégories - MAULÉON-LICHARRE",
+      "dateIso": "2024-07-21"
+    },
+    {
+      "competitionId": "86711",
+      "niveau": "R",
+      "libelle": "4e Journée Régionale - PARAY-LE-MONIAL",
+      "dateIso": "2024-07-21"
+    },
+    {
+      "competitionId": "86700",
+      "niveau": "R",
+      "libelle": "4e Journée Régionale BFC - PARAY-LE-MONIAL",
+      "dateIso": "2024-07-21"
+    },
+    {
+      "competitionId": "86727",
+      "niveau": "D",
+      "libelle": "Championnats du Gard de Natation Estivale - SALINDRES",
+      "dateIso": "2024-07-21"
+    },
+    {
+      "competitionId": "86660",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - CIVRAY",
+      "dateIso": "2024-07-24"
+    },
+    {
+      "competitionId": "86652",
+      "niveau": "D",
+      "libelle": "Top 50 - CIVRAY",
+      "dateIso": "2024-07-24"
+    },
+    {
+      "competitionId": "86842",
+      "niveau": "D",
+      "libelle": "Trophée Charente - MONTBRON",
+      "dateIso": "2024-07-24"
+    },
+    {
+      "competitionId": "86856",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs TC Natation Estivale - Ligue AuRA - THÔNES",
+      "dateIso": "2024-07-27"
+    },
+    {
+      "competitionId": "86868",
+      "niveau": "R",
+      "libelle": "Interclubs TC Natation Estivale AuRA - Equipes Mixtes - THÔNES",
+      "dateIso": "2024-07-27"
+    },
+    {
+      "competitionId": "86847",
+      "niveau": "D",
+      "libelle": "Meeting Natation Estivale - LANGON",
+      "dateIso": "2024-07-27"
+    },
+    {
+      "competitionId": "86828",
+      "niveau": "D",
+      "libelle": "Challenge des Gaves 2024 - PEYREHORADE",
+      "dateIso": "2024-07-27"
+    },
+    {
+      "competitionId": "85798",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories  - Equipes mixtes - CÉRET",
+      "dateIso": "2024-07-28"
+    },
+    {
+      "competitionId": "85797",
+      "niveau": "R",
+      "libelle": "Championnats Interclubs Toutes Catégories  - CÉRET",
+      "dateIso": "2024-07-28"
+    },
+    {
+      "competitionId": "86871",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs BFC Equipes mixtes - CHAROLLES",
+      "dateIso": "2024-07-28"
+    },
+    {
+      "competitionId": "86704",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Avenirs BFC - CHAROLLES",
+      "dateIso": "2024-07-28"
+    },
+    {
+      "competitionId": "86703",
+      "niveau": "R",
+      "libelle": "Coupe Régionale BFC Interclubs TC - CHAROLLES",
+      "dateIso": "2024-07-28"
+    },
+    {
+      "competitionId": "86837",
+      "niveau": "R",
+      "libelle": "Finale Régionale Interclubs - VERN-D'ANJOU",
+      "dateIso": "2024-07-28"
+    },
+    {
+      "competitionId": "86858",
+      "niveau": "R",
+      "libelle": "Finale Régionale Interclubs Mixtes - VERN-D'ANJOU",
+      "dateIso": "2024-07-28"
+    },
+    {
+      "competitionId": "86853",
+      "niveau": "D",
+      "libelle": "JOQUA 2 - HASPARREN",
+      "dateIso": "2024-07-28"
+    },
+    {
+      "competitionId": "86843",
+      "niveau": "D",
+      "libelle": "Trophée Charente - CONFOLENS",
+      "dateIso": "2024-07-31"
+    },
+    {
+      "competitionId": "86049",
+      "niveau": "D",
+      "libelle": "Epreuves Chronométriques Thônes - THÔNES",
+      "dateIso": "2024-07-31"
+    }
+  ]
+}

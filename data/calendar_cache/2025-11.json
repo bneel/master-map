@@ -1,0 +1,2486 @@
+{
+  "savedAt": "2026-04-25T15:56:55.403Z",
+  "year": 2025,
+  "month": 11,
+  "count": 413,
+  "raw": [
+    {
+      "competitionId": "91224",
+      "niveau": "R",
+      "libelle": "Championnats Nationaux Interclubs - THIONVILLE",
+      "dateIso": "2025-11-01"
+    },
+    {
+      "competitionId": "91266",
+      "niveau": "R",
+      "libelle": "Finale Régionale Interclubs TC - Ligue AuRA - VILLEFRANCHE-SUR-SAÔNE",
+      "dateIso": "2025-11-01"
+    },
+    {
+      "competitionId": "91230",
+      "niveau": "D",
+      "libelle": "Championnat Hiver Open du Pas-de-Calais - ARRAS",
+      "dateIso": "2025-11-01"
+    },
+    {
+      "competitionId": "91120",
+      "niveau": "D",
+      "libelle": "Journées Qualificatives - BORDEAUX",
+      "dateIso": "2025-11-01"
+    },
+    {
+      "competitionId": "90982",
+      "niveau": "D",
+      "libelle": "6e Meeting des Maîtres de Ventadour - ÉGLETONS",
+      "dateIso": "2025-11-01"
+    },
+    {
+      "competitionId": "90987",
+      "niveau": "D",
+      "libelle": "2e Meeting d'Automne - ROMILLY-SUR-SEINE",
+      "dateIso": "2025-11-01"
+    },
+    {
+      "competitionId": "91348",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Open des Maîtres - ROYE",
+      "dateIso": "2025-11-01"
+    },
+    {
+      "competitionId": "91151",
+      "niveau": "D",
+      "libelle": "Championnat de la Manche Hiver - SAINT-LÔ",
+      "dateIso": "2025-11-01"
+    },
+    {
+      "competitionId": "91126",
+      "niveau": "D",
+      "libelle": "Championnat du Nord Open (Webconfront@tion) Hiver 25m - SAINT-POL-SUR-MER",
+      "dateIso": "2025-11-01"
+    },
+    {
+      "competitionId": "91144",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Hiver des Maîtres - SAINT-POL-SUR-MER",
+      "dateIso": "2025-11-01"
+    },
+    {
+      "competitionId": "90905",
+      "niveau": "D",
+      "libelle": "Championnat Départemental des Maîtres #2-2025 - BALMA",
+      "dateIso": "2025-11-02"
+    },
+    {
+      "competitionId": "90718",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux des Maîtres (06 & 83) - CARROS",
+      "dateIso": "2025-11-02"
+    },
+    {
+      "competitionId": "91100",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs #5 2025 - CAUDAN",
+      "dateIso": "2025-11-02"
+    },
+    {
+      "competitionId": "91425",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs TC Open - CLERMONT-FERRAND",
+      "dateIso": "2025-11-02"
+    },
+    {
+      "competitionId": "91152",
+      "niveau": "D",
+      "libelle": "Championnat de la Manche Hiver - GRANVILLE",
+      "dateIso": "2025-11-02"
+    },
+    {
+      "competitionId": "91049",
+      "niveau": "D",
+      "libelle": "Interclubs Alsace 2025 - GUEBWILLER",
+      "dateIso": "2025-11-02"
+    },
+    {
+      "competitionId": "91351",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs 2025 - GUEBWILLER",
+      "dateIso": "2025-11-02"
+    },
+    {
+      "competitionId": "91099",
+      "niveau": "D",
+      "libelle": "Plot Avenirs #4 - LORIENT",
+      "dateIso": "2025-11-02"
+    },
+    {
+      "competitionId": "90969",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux de Demi-fond - Drôme/Ardèche - MONTELIMAR",
+      "dateIso": "2025-11-02"
+    },
+    {
+      "competitionId": "91395",
+      "niveau": "D",
+      "libelle": "Plot 7 - Pyrénées-Atlantiques - MOURENX",
+      "dateIso": "2025-11-02"
+    },
+    {
+      "competitionId": "91299",
+      "niveau": "D",
+      "libelle": "4e Rencontre Avenirs - PACY-SUR-EURE",
+      "dateIso": "2025-11-02"
+    },
+    {
+      "competitionId": "91136",
+      "niveau": "D",
+      "libelle": "Championnat Départ. Interclubs TC - VILLEFRANCHE-SUR-SAÔNE",
+      "dateIso": "2025-11-02"
+    },
+    {
+      "competitionId": "91055",
+      "niveau": "R",
+      "libelle": "Championnats de Normandie Interclubs TC - CAEN",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "89578",
+      "niveau": "R",
+      "libelle": "Championnat Régional Interclubs Toutes Catégories - CAYENNE",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91411",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC Martinique - LE LAMENTIN",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91288",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - Trophée Jacques Chardonneau - LE MANS",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91486",
+      "niveau": "R",
+      "libelle": "Course des Remplaçants IC TC - LE MANS",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "88637",
+      "niveau": "R",
+      "libelle": "Championnats Nationaux Interclubs - NOUMÉA",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91350",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux de la Somme - ABBEVILLE",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91427",
+      "niveau": "D",
+      "libelle": "Championnat du Finistère Interclubs TC - BREST",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91442",
+      "niveau": "D",
+      "libelle": "Championnats de l'Aisne - Web Confront@tion - CHÂTEAU-THIERRY",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91340",
+      "niveau": "D",
+      "libelle": "Championnat de l'Oise Hiver - COMPIÈGNE",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91336",
+      "niveau": "D",
+      "libelle": "Championnats d'Automne Benjamins Web Confront@tion - CORBEIL-ESSONNES",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91275",
+      "niveau": "D",
+      "libelle": "Racing Tour 2 - DÉCINES-CHARPIEU",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91441",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Automne Benjamins - FRANCONVILLE-LA-GARENNE",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91460",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux du Var - Benjamins/Juniors et + - HYÈRES",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91134",
+      "niveau": "D",
+      "libelle": "Championnats Interdépartementaux - LONS-LE-SAUNIER",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91166",
+      "niveau": "D",
+      "libelle": "Championnats Interdépartementaux Automne (Web Confront@tion) - LURE",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91489",
+      "niveau": "D",
+      "libelle": "Championnat Départementaux Masters Open - LURE",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91316",
+      "niveau": "D",
+      "libelle": "Trophée du 4 Nageur - MONTBONNOT-EN-ISERE",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91317",
+      "niveau": "D",
+      "libelle": "Trophée du 4 Nageur Relais - MONTBONNOT-EN-ISERE",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91345",
+      "niveau": "D",
+      "libelle": "Web Confront@tion d'Automne - ORANGE",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91264",
+      "niveau": "D",
+      "libelle": "Web Confront@tion Départementale Automne - RAMBOUILLET",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91088",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - REIMS",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "90873",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 2 - SALBRIS",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91133",
+      "niveau": "D",
+      "libelle": "Interclubs TC en bassin de 25m - THIONVILLE",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91063",
+      "niveau": "D",
+      "libelle": "Championnat 77 Benjamins Hiver - TORCY",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91444",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Benjamins Web Confront@tion - VENELLES",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91286",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Benjamins - VILLEJUIF",
+      "dateIso": "2025-11-08"
+    },
+    {
+      "competitionId": "91323",
+      "niveau": "R",
+      "libelle": "Finale Championnats Regionaux Interclubs TC - BREST",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91077",
+      "niveau": "R",
+      "libelle": "Championnat Régional Interclubs TC  - SAINT-PAUL",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91413",
+      "niveau": "D",
+      "libelle": "Web Confront@tion - Championnats de Corse-du-Sud Automne - AJACCIO",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91415",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Corse-du-Sud - AJACCIO",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91246",
+      "niveau": "D",
+      "libelle": "MCA 8 - Andernos - ANDERNOS-LES-BAINS",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91064",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - ANGERS",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91443",
+      "niveau": "D",
+      "libelle": "Remplaçants Interclubs Départementaux TC - ANGERS",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "90742",
+      "niveau": "D",
+      "libelle": "Interclubs TC Haute-Savoie - ANNEMASSE",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "90743",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Haute-Savoie & Equipes Mixtes IC TC - ANNEMASSE",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "90929",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Etape 1 - EM/Nord - BOUXWILLER",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "90931",
+      "niveau": "D",
+      "libelle": "Natathlon Avenirs - Étape 1 - EM/Nord - BOUXWILLER",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91433",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs TC Calvados/Orne - CAEN",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91339",
+      "niveau": "D",
+      "libelle": "Interclubs 2025 du 28 - CHARTRES",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91013",
+      "niveau": "D",
+      "libelle": "Journée Départementale Avenirs - CUSSET",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "90930",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Etape 1 - Sud - DACHSTEIN",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "90932",
+      "niveau": "D",
+      "libelle": "Natathlon Avenirs - Étape 1 - Sud - DACHSTEIN",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91398",
+      "niveau": "D",
+      "libelle": "2e Animation Avenirs - Matin - GIGEAN",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91399",
+      "niveau": "D",
+      "libelle": "2e Animation Avenirs - Après-midi - GIGEAN",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91362",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux TC  - GIVET",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91292",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - LA ROCHE-SUR-YON",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91326",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs Départementaux TC - LE MANS",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91327",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - LE MANS",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "90684",
+      "niveau": "D",
+      "libelle": "Meeting N°1 du 06 : U11 à U13 - MENTON",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "90686",
+      "niveau": "D",
+      "libelle": "Meeting n°1 du 06 : U8 à U10 - MENTON",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "90845",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - Poule Départementale 76 - MONTIVILLIERS",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91232",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Nantes Jules Verne - NANTES",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91423",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - Nantes - NANTES",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91233",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Nort-sur-Erdre - NORT-SUR-ERDRE",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91424",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - Nort-sur-Erdre - NORT-SUR-ERDRE",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "90721",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs - ORLÉANS",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91087",
+      "niveau": "D",
+      "libelle": "Interclubs TC Ain - OYONNAX",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91244",
+      "niveau": "D",
+      "libelle": "MCA 8 - Pessac - PESSAC",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91089",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux de la Marne - REIMS",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91401",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Loire - ROANNE",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91406",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs - ROANNE",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "90970",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs TC Drôme/Ardèche - ROMANS-SUR-ISÈRE",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "90685",
+      "niveau": "D",
+      "libelle": "Meeting n°1 du 06 : U11 à U13  - SAINT-LAURENT-DU-VAR",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "90687",
+      "niveau": "D",
+      "libelle": "Meeting n°1 du 06 : U8 à U10 - SAINT-LAURENT-DU-VAR",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "90879",
+      "niveau": "D",
+      "libelle": "Trophées Paule Lacoste #5-2025 - TOULOUSE",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91400",
+      "niveau": "D",
+      "libelle": "2e Meeting Avenirs A.O. Trappes Natation - TRAPPES",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91303",
+      "niveau": "D",
+      "libelle": "Finale Départementale Interclubs TC - VAL-DE-REUIL",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91485",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants des Championnats Interclubs - VAL-DE-REUIL",
+      "dateIso": "2025-11-09"
+    },
+    {
+      "competitionId": "91313",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Oise - BEAUVAIS",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91552",
+      "niveau": "R",
+      "libelle": "Championnats Interclubs 2025 - CHARTRES",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91190",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule C - COULOMMIERS",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91191",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule D - LAGNY-SUR-MARNE",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91337",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Maritime - Plot 2 - LUMBRES",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91192",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule E - MELUN",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91311",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Centre-Nord - Plot 3 - ROUBAIX",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91315",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Maritime - Plot 1 - SAINT-POL-SUR-MER",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91314",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Nord-Est - Plot 3 - SAINT-QUENTIN",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91310",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Centre-Nord - Plot 1 - SECLIN",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91309",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Centre-Nord - Plot 2 - VILLENEUVE-D'ASCQ",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91102",
+      "niveau": "D",
+      "libelle": "Interclubs 56 TC 2025 - District 2 - BAUD",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91107",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants IC TC 56 2025 - District 2 - BAUD",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91437",
+      "niveau": "D",
+      "libelle": "Meeting Gironde des Maîtres - BORDEAUX",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "90900",
+      "niveau": "D",
+      "libelle": "Meeting Spécial Demi-fond - CANET-EN-ROUSSILLON",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91440",
+      "niveau": "D",
+      "libelle": "Interclubs TC - CHAMBÉRY",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "90915",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux TC - CHÂTEAU-GONTIER",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "90916",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants des Interclubs Départementaux TC - CHÂTEAU-GONTIER",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91153",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - COUTANCES",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91184",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - LANNION",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91475",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - Poule Meylan - MEYLAN",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91500",
+      "niveau": "D",
+      "libelle": "Interclubs TC 79 - NIORT",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91380",
+      "niveau": "D",
+      "libelle": "Intersport Swim Tour (JOQUA 9) - PÉRIGUEUX",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91101",
+      "niveau": "D",
+      "libelle": "Interclubs 56 TC 2025 - District 1 - PLOËRMEL",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91106",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants IC TC 56 2025 - District 1 - PLOËRMEL",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91039",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC 54 - PONT-A-MOUSSON",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91040",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - PONT-A-MOUSSON",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "90759",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs TC - RENNES",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91074",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants du 11 Novembre - RENNES",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91538",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - ROCHEFORT-SUR-MER",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91539",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - ROCHEFORT-SUR-MER",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91476",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - Poule de St-Egrève - SAINT-EGREVE",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "90935",
+      "niveau": "D",
+      "libelle": "Meeting Masters LLSB - SCHILTIGHEIM",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91028",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Open TC 25m - THAON-LES-VOSGES",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "90947",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs - TOURS",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91372",
+      "niveau": "D",
+      "libelle": "Interclubs Interdépartementaux Aube/Haute-Marne - TROYES",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91373",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs - TROYES",
+      "dateIso": "2025-11-11"
+    },
+    {
+      "competitionId": "91511",
+      "niveau": "R",
+      "libelle": "Championnats de la Guadeloupe - LES ABYMES",
+      "dateIso": "2025-11-14"
+    },
+    {
+      "competitionId": "91516",
+      "niveau": "D",
+      "libelle": "Web Confront@tion - 25m. - LES ABYMES",
+      "dateIso": "2025-11-14"
+    },
+    {
+      "competitionId": "91325",
+      "niveau": "N",
+      "libelle": "Meeting de Lyon Natation Métropole - LYON",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91301",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Somme - Plot 3 - ARRAS",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91200",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule M - ASNIÈRES-SUR-SEINE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91300",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Somme - Plot 2 - BÉTHUNE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91197",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule J - BRUNOY",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91206",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule S - CERGY-PONTOISE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91194",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule G - CHEVREUSE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91201",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule N - CLAMART",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91195",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule H - CONFLANS-SAINTE-HONORINE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91312",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Secteur Nord-Est - Plot 1 - DENAIN",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91202",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule O - DRANCY",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91533",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - Région Sud - Poule A - ISTRES",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91537",
+      "niveau": "R",
+      "libelle": "Spécial Avenirs - LES ABYMES",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91188",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs OPTIC 2000 - Poule R1 - MASSY",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91198",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule K - MASSY",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "90903",
+      "niveau": "R",
+      "libelle": "Championnats Interclubs TC  - MONTPELLIER",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91534",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - Région Sud - Poule B - Est - NICE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91189",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule A - PARIS",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91386",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule B - PARIS",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "89250",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - PIRAE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91566",
+      "niveau": "R",
+      "libelle": "Course des Remplaçants - PIRAE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91203",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule P - SAINT-OUEN",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91207",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule T - TAVERNY",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91199",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule L - VIRY-CHATILLON",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91204",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule Q - VITRY-SUR-SEINE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "90857",
+      "niveau": "D",
+      "libelle": "Poule Départementale Interclubs TC - AUXERRE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91160",
+      "niveau": "D",
+      "libelle": "Interclubs Interdépartementaux TC - BESANÇON",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91621",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Départementaux - BESANÇON",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91294",
+      "niveau": "D",
+      "libelle": "Animation Avenirs - CASTELNAUDARY",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91465",
+      "niveau": "D",
+      "libelle": "Championnats de Vendée Hiver Benjamins - CHALLANS",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91466",
+      "niveau": "D",
+      "libelle": "Championnats de Vendée Hiver Juniors et plus - CHALLANS",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "90917",
+      "niveau": "D",
+      "libelle": "Départementaux Toutes Catégories - CHÂTEAU-GONTIER",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91497",
+      "niveau": "D",
+      "libelle": "Départementaux d'Automne des Maîtres Open - CHÂTEAU-GONTIER",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91528",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs - Chevreuse - CHEVREUSE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91251",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Automne - CHOLET",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91527",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs - Conflans - CONFLANS-SAINTE-HONORINE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "90955",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - District 21/39 - DIJON",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91304",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver - ÉVREUX",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "90846",
+      "niveau": "D",
+      "libelle": "Championnat Départemental 76 Automne - FÉCAMP",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91435",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Hiver (Web Confront@tion) - HÉROUVILLE-SAINT-CLAIR",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91659",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Avenirs - HÉROUVILLE-SAINT-CLAIR",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91593",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux TC  - LA CHARITÉ-SUR-LOIRE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91684",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - LA CHARITÉ-SUR-LOIRE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91523",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Automne B/J/S - LA FERTÉ-BERNARD",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91614",
+      "niveau": "D",
+      "libelle": "District Avenirs n°4 - Nord - LANDERNEAU",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91568",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Poule B - LIBOURNE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91185",
+      "niveau": "D",
+      "libelle": "Championnats d'Automne des Côtes-d'Armor  - LOUDÉAC",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "90826",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs Haute-Savoie - MEGÈVE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "90827",
+      "niveau": "D",
+      "libelle": "Equipes Mixtes Interclubs Avenirs - Remplaçants Haute-Savoie - MEGÈVE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "90829",
+      "niveau": "D",
+      "libelle": "Meeting Maîtres Megève Natation - MEGÈVE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91020",
+      "niveau": "D",
+      "libelle": "10e Meeting Avenirs/Benjamins/Juniors 1 - Megève Natation - MEGÈVE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91421",
+      "niveau": "D",
+      "libelle": "Championnats de Moselle Automne/Hiver - METZ",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91628",
+      "niveau": "D",
+      "libelle": "Challenge des Pitchouns n°2 - NIORT",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91402",
+      "niveau": "D",
+      "libelle": "Championnat de la Loire Juniors/Séniors - SAINT-ÉTIENNE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91404",
+      "niveau": "D",
+      "libelle": "Web Confront@tion Benjamins - SAINT-ÉTIENNE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91429",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Automne - Web Confront@tion - SAINT-SÉBASTIEN..",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91347",
+      "niveau": "D",
+      "libelle": "Coupe du Sud n°1 - VÉNISSIEUX",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91588",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs - Poule Q - VITRY-SUR-SEINE",
+      "dateIso": "2025-11-15"
+    },
+    {
+      "competitionId": "91414",
+      "niveau": "R",
+      "libelle": "Interclubs Régionaux Toutes Catégories - AJACCIO",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91416",
+      "niveau": "R",
+      "libelle": "Course des Remplaçants IC Corse - AJACCIO",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91105",
+      "niveau": "R",
+      "libelle": "Championnats Interclubs TC Ligue Bourgogne/Franche-Comté - BESANÇON",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91021",
+      "niveau": "R",
+      "libelle": "Interclubs TC HDF - Poule Régionale - DENAIN",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91535",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - Région Sud - Poule B - Ouest - ISTRES",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "88638",
+      "niveau": "R",
+      "libelle": "Circuit 25m. - 5e Journée - R1 - LA FOA",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "88639",
+      "niveau": "R",
+      "libelle": "Circuit 25m. - 5e Journée - R2 - LA FOA",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91193",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule F - PROVINS",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91196",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule I - VERSAILLES",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "90788",
+      "niveau": "D",
+      "libelle": "Interclubs TC Gard - ALES",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "90971",
+      "niveau": "D",
+      "libelle": "Avenirs Drôme/Ardèche - Zone Nord - ANNONAY",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "90972",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Drôme/Ardèche - Zone Nord - ANNONAY",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91578",
+      "niveau": "D",
+      "libelle": "6e Challenge Avenirs/Benjamins - ARGENTON-SUR-CREUSE",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91297",
+      "niveau": "D",
+      "libelle": "Championnat Interclubs TC 19/23/87 - AUBUSSON",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "90816",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux - BOURGES",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "90881",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - CD66 - CANET-EN-ROUSSILLON",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91155",
+      "niveau": "D",
+      "libelle": "Avenirs Automne - CARENTAN",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "90962",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs TC - CASTRES",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91227",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - Poule Départementale  71  - CHALON-SUR-SAÔNE",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91514",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs - Poule Départementale 71  - CHALON-SUR-S..",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91050",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs Haut-Rhin 2025 - COLMAR",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91053",
+      "niveau": "D",
+      "libelle": "Avenirs - Plot 2 - COLMAR",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91461",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - Poule C - FRÉJUS",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91014",
+      "niveau": "D",
+      "libelle": "Championnats d'Allier de Demi-fond - GANNAT",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91363",
+      "niveau": "D",
+      "libelle": "Championnat Interclubs - GAP",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91470",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Haute-Loire - LE PUY-EN-VELAY",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91569",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Poule A - LIBOURNE",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91530",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes catégories - Pyrénées-Atlantiques - LONS",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91531",
+      "niveau": "D",
+      "libelle": "Interclubs TC 64 - Équipes Mixtes & Remplaçants - LONS",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91237",
+      "niveau": "D",
+      "libelle": "Interclubs Interdépartementaux 65/32 - LOURDES",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91547",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux TC - Poule C - MARTIGUES",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91577",
+      "niveau": "D",
+      "libelle": "Interclubs départementaux Toutes catégories - MARTIGUES",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91341",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories 40 - MONT-DE-MARSAN",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91426",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs - MONT-DE-MARSAN",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91503",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux TC & Equipes Mixtes - MONT-DE-MARSAN",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91703",
+      "niveau": "D",
+      "libelle": "Interclubs Mixtes - MONT-DE-MARSAN",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91342",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux - MONTAUBAN",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91559",
+      "niveau": "D",
+      "libelle": "Interclubs TC Hérault - MONTPELLIER",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "90893",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - MURET",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "90688",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - Poule C - Alpes-Maritimes - NICE",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91253",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - ONET-LE-CHÂTEAU",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91231",
+      "niveau": "D",
+      "libelle": "Interclubs TC Vienne - POITIERS",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91536",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC Vienne - POITIERS",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91615",
+      "niveau": "D",
+      "libelle": "District Avenirs n°4 - Sud - ROSPORDEN",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "90973",
+      "niveau": "D",
+      "libelle": "Avenirs Drôme/Ardèche - Zone Sud - SAINT-PAUL-TROIS-CHÂTEAUX",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "90974",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Drôme/Ardèche - Zone Sud - SAINT-PAUL-TROIS-CHÂTEAUX",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91027",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs - SAINT-YRIEIX-SUR-CHARENTE",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "90722",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs - 1er Plot - SARAN",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "90874",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs TC - VENDÔME",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91525",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Versailles - VERSAILLES",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91044",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs - Poule 47 - VILLENEUVE-SUR-LOT",
+      "dateIso": "2025-11-16"
+    },
+    {
+      "competitionId": "91549",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux des Maîtres (Soirée 1) - MARSEILLE",
+      "dateIso": "2025-11-19"
+    },
+    {
+      "competitionId": "91567",
+      "niveau": "R",
+      "libelle": "Championnats de la Réunion Avenirs - Meeting Océan Indien - SAINT-PAUL",
+      "dateIso": "2025-11-21"
+    },
+    {
+      "competitionId": "91306",
+      "niveau": "D",
+      "libelle": "4e Journée Maîtres - PACY-SUR-EURE",
+      "dateIso": "2025-11-21"
+    },
+    {
+      "competitionId": "91360",
+      "niveau": "D",
+      "libelle": "Championnats de la Réunion Open 25m - Meeting Océan Indien - SAINT-PAUL",
+      "dateIso": "2025-11-21"
+    },
+    {
+      "competitionId": "89030",
+      "niveau": "N",
+      "libelle": "20e Meeting National de la Mer Maîtres - CHERBOURG-EN-COTENTIN",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "89579",
+      "niveau": "R",
+      "libelle": "Championnat de Guyane en Petit Bassin - CAYENNE",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91763",
+      "niveau": "R",
+      "libelle": "Maîtres - Championnat de Guyane - Petit Bassin - CAYENNE",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91617",
+      "niveau": "R",
+      "libelle": "20e Meeting National de la Mer Maîtres - C0 - CHERBOURG-EN-COTENTIN",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91357",
+      "niveau": "R",
+      "libelle": "Finale Régionale Automne Yaouank - DOUARNENEZ",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91521",
+      "niveau": "R",
+      "libelle": "Championnats de Martinique des Maîtres - LE LAMENTIN",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91522",
+      "niveau": "R",
+      "libelle": "Championnats de Martinique 25m - LE LAMENTIN",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91584",
+      "niveau": "R",
+      "libelle": "Mémorial BEPPO - LES ABYMES",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "90963",
+      "niveau": "D",
+      "libelle": "Championnats Interdépartementaux Automne - ALBI",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "90891",
+      "niveau": "D",
+      "libelle": "Championnats du Gard Web Confront@tion - ALES",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "90828",
+      "niveau": "D",
+      "libelle": "Championnats Automne Benjamins Haute-Savoie  - ANNECY",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91573",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Hiver Juniors/Séniors - ARGENTEUIL",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91103",
+      "niveau": "D",
+      "libelle": "Championnats 56 Automne 2025 (Web Confront@tion)  - AURAY",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91604",
+      "niveau": "D",
+      "libelle": "Championnat Départemental U11 et moins - AVIGNON",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91015",
+      "niveau": "D",
+      "libelle": "9e Meeting de Rentrée - Championnat Allier Automne - BELLERIVE-SUR-ALLIER",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91017",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Benjamins (Web Confront@tion) - BELLERIVE-SUR-AL..",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91546",
+      "niveau": "D",
+      "libelle": "Intersport Swim Tour - Web Confront@tion d'Automne - BERGERAC",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91560",
+      "niveau": "D",
+      "libelle": "Web Confront@tion Benjamins - BÉZIERS",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91561",
+      "niveau": "D",
+      "libelle": "Championnats Juniors/Séniors - BÉZIERS",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "90875",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver - BLOIS",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91272",
+      "niveau": "D",
+      "libelle": "Championnats Benjamins/Juniors/Séniors - BOULOGNE-BILLANCOURT",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91575",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Automne - BOURGOIN-JALLIEU",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91428",
+      "niveau": "D",
+      "libelle": "Meeting Maîtres de Brioude - BRIOUDE",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91554",
+      "niveau": "D",
+      "libelle": "2nd Meeting de l'Essonne - BRUNOY",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91557",
+      "niveau": "D",
+      "libelle": "2nd Meeting de l'Essonne - Maîtres - BRUNOY",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "90901",
+      "niveau": "D",
+      "libelle": "Championnat Départemental d'Automne CD66 - Web Confront@tion - CANET-EN-ROUS..",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91509",
+      "niveau": "D",
+      "libelle": "Championnat Départemental d'Automne - Maîtres - CANET-EN-ROUSSILLON",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91432",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Benjamins - CHASSIEU",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91582",
+      "niveau": "D",
+      "libelle": "Départementaux d'Eure-et-Loir - Hiver 2025 - CHÂTEAUDUN",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91637",
+      "niveau": "D",
+      "libelle": "Départementaux Maitres du 28 - Hiver 2025 - CHÂTEAUDUN",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "90996",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux du Berry Automne - 25m - CHÂTEAUROUX",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91121",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux du Berry Autome - Maîtres - CHÂTEAUROUX",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91493",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Benjamins - CHAUMONT",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91494",
+      "niveau": "D",
+      "libelle": "Championnats Interdépartementaux Aube/Haute-Marne - CHAUMONT",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91287",
+      "niveau": "D",
+      "libelle": "Trophée Automne Avenirs - CRÉTEIL",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91242",
+      "niveau": "D",
+      "libelle": "Championnats de Gironde Automne - LA TESTE-DE-BUCH",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91262",
+      "niveau": "D",
+      "libelle": "District 1 Avenirs - LAMBALLE",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91041",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver 54 - LANEUVEVILLE-DEVANT-NANCY",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91412",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d’Automne en Web Confront@tion - LE LAMENTIN",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91553",
+      "niveau": "D",
+      "libelle": "Championnat Départemental d'Automne - LIMOUX",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91396",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Hiver - MÂCON",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91004",
+      "niveau": "D",
+      "libelle": "Championnats Automne Web Confront@tion Benj/Juniors/Séniors - MARVILLE",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91005",
+      "niveau": "D",
+      "libelle": "Championnat Départemental des Maîtres - MARVILLE",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91456",
+      "niveau": "D",
+      "libelle": "Championnats des Vosges Hiver Open 25m - NEUFCHÂTEAU",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91457",
+      "niveau": "D",
+      "libelle": "Championnats 88 Maitres Open - NEUFCHÂTEAU",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91596",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver - NEVERS",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "90689",
+      "niveau": "D",
+      "libelle": "Web Confront@tion Automne U12 et plus - NICE",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91186",
+      "niveau": "D",
+      "libelle": "District 1 Avenirs - PAIMPOL",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91638",
+      "niveau": "D",
+      "libelle": "Championnat de Paris – Hiver - 25m - PARIS",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91515",
+      "niveau": "D",
+      "libelle": "6e Journée Avenirs - RIOM",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91458",
+      "niveau": "D",
+      "libelle": "Chpts Hiver Masters Loire - ROANNE",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91591",
+      "niveau": "D",
+      "libelle": "Journée Départementale Avenirs 2 - RODEZ",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91592",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Automne - RODEZ",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91540",
+      "niveau": "D",
+      "libelle": "Championnat Départemental - CD 17 - ROYAN",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91187",
+      "niveau": "D",
+      "libelle": "District 1 Avenirs - SAINT-BRIEUC",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91048",
+      "niveau": "D",
+      "libelle": "Championnats d'Alsace Hiver 2025 - SAINT-LOUIS",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91091",
+      "niveau": "D",
+      "libelle": "Critérium Avenirs Marne - SAINTE-MENEHOULD",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91092",
+      "niveau": "D",
+      "libelle": "Championnats de la Marne d'Automne - SAINTE-MENEHOULD",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "90723",
+      "niveau": "D",
+      "libelle": "Championnat Départemental du Loiret Hiver Web Confront@tion  - SARAN",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91751",
+      "niveau": "D",
+      "libelle": "Championnat 77 Juniors/Séniors Hiver - SAVIGNY-LE-TEMPLE",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91785",
+      "niveau": "D",
+      "libelle": "Rencontre Benjamins - SAVIGNY-LE-TEMPLE",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91646",
+      "niveau": "D",
+      "libelle": "1er Circuit Départemental Avenirs - SEDAN",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91701",
+      "niveau": "D",
+      "libelle": "Championnats Départemental Automne Benjamins - SENS",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91238",
+      "niveau": "D",
+      "libelle": "Interclubs Interdépartementaux Avenirs 65/32 - TARBES",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91670",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Benjamins - THOUARS",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91671",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Hiver - THOUARS",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "90894",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Benjamins/Juniors/Séniors #7-2025 - TOULOUSE",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "90975",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Drôme/Ardèche d'Automne - VALENCE",
+      "dateIso": "2025-11-22"
+    },
+    {
+      "competitionId": "91154",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs de la Manche - AVRANCHES",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91631",
+      "niveau": "D",
+      "libelle": "Championnats des Pyrénées-Atlantiques - BAYONNE",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91653",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Benjamins - BOURG-EN-BRESSE",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91655",
+      "niveau": "D",
+      "libelle": "Compétition Juniors - BOURG-EN-BRESSE",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91643",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs Avenirs - BRETEUIL-SUR-ITON",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91729",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - Courses des remplaçants - BRETEUIL-SUR-ITON",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91438",
+      "niveau": "D",
+      "libelle": "Nat'Avenirs - Etape 5  - CAEN",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91467",
+      "niveau": "D",
+      "libelle": "Championnats de Vendée Hiver Maitres - CHANTONNAY",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91469",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - CHANTONNAY",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91471",
+      "niveau": "D",
+      "libelle": "Critériums Avenirs  - CHANTONNAY",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91284",
+      "niveau": "D",
+      "libelle": "Championnat Départemental - CHÂTELLERAULT",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91407",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - GENILAC",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91408",
+      "niveau": "D",
+      "libelle": "Avenirs N°2 - GENILAC",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91487",
+      "niveau": "D",
+      "libelle": "Journée Départementale Avenirs - HERBLAY",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91629",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - LA CIOTAT",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "90866",
+      "niveau": "D",
+      "libelle": "Avenirs - Plot 4 (Secteur Ouest - Le Havre-Yvetot-Dieppe) - LE HAVRE",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91080",
+      "niveau": "D",
+      "libelle": "Avenirs - Plot 4 (Secteur Est - Rouen-Pays de Bray) - LE HAVRE",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91650",
+      "niveau": "D",
+      "libelle": "ANIM'AVENIR - LE LUDE",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91652",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Départementaux Avenirs - LE LUDE",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91726",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Avenirs - LE LUDE",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91370",
+      "niveau": "D",
+      "libelle": "Meeting du Lille Université Club - LILLE",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "90948",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver - LOCHES",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91042",
+      "niveau": "D",
+      "libelle": "Championnats du Lot-et-Garonne Hiver - MARMANDE",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "90918",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Avenirs - MAYENNE",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "90919",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Départementaux Avenirs - MAYENNE",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "90920",
+      "niveau": "D",
+      "libelle": "Championnat Pass'Compétitions - MAYENNE",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91488",
+      "niveau": "D",
+      "libelle": "Journée Départementale Avenirs - MONTIGNY-LES-CORMEILLES",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91692",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - 1ère Etape - PARIS",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91693",
+      "niveau": "D",
+      "libelle": "Coupe Paillieux – 1ère Etape - PARIS",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "90622",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Automne - RENNES",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91031",
+      "niveau": "D",
+      "libelle": "Championnat Départemental - RUFFEC",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91349",
+      "niveau": "D",
+      "libelle": "Championnats du Rhône des Maîtres - SAIN-BEL",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91518",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Benjamins - SAINT-GEORGES-DE-MONS",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91006",
+      "niveau": "D",
+      "libelle": "Championats Départementaux  - SAINT-GEOURS-DE-MAREMNE",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91430",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - SAINT-NAZAIRE",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91645",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Avenirs - SAINT-NAZAIRE",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91066",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Avenirs - SAUMUR",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91750",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Avenirs - SAUMUR",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91647",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Automne - SEDAN",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91702",
+      "niveau": "D",
+      "libelle": "Championnat Interdépartemental 65-32 - TARBES",
+      "dateIso": "2025-11-23"
+    },
+    {
+      "competitionId": "91519",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue AuRA Hiver  - ROMANS-SUR-ISÈRE",
+      "dateIso": "2025-11-28"
+    },
+    {
+      "competitionId": "91506",
+      "niveau": "D",
+      "libelle": "Meeting Reds Winter Clash - MONTREUIL",
+      "dateIso": "2025-11-28"
+    },
+    {
+      "competitionId": "91508",
+      "niveau": "D",
+      "libelle": "Meeting Masters REDS WINTER CLASH - MONTREUIL",
+      "dateIso": "2025-11-28"
+    },
+    {
+      "competitionId": "91388",
+      "niveau": "D",
+      "libelle": "Se Re-Maître à l'Eau - VILLEMOMBLE",
+      "dateIso": "2025-11-28"
+    },
+    {
+      "competitionId": "91392",
+      "niveau": "R",
+      "libelle": "Championnats de Normandie Hiver Juniors/Séniors - GRANVILLE",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91329",
+      "niveau": "R",
+      "libelle": "Meeting #3 - PIRAE",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91464",
+      "niveau": "R",
+      "libelle": "Championnat Régional Benjamins - SAINT-AMAND-LES-EAUX",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91606",
+      "niveau": "R",
+      "libelle": "Championnat Régional Benjamins 25m - SARCELLES",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91587",
+      "niveau": "R",
+      "libelle": "Challenge Régional - TOURS",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91737",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs/Benjamins du 28 - BONNEVAL",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91289",
+      "niveau": "D",
+      "libelle": "Championnats Automne Benjamins/Juniors/Séniors - CACHAN",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "90794",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs 2 - CAHORS",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91633",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Automne Open Web Confront@tion - CASSIS",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91636",
+      "niveau": "D",
+      "libelle": "Meeting Départemental Benjamins - CASSIS",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91030",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - COGNAC",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91032",
+      "niveau": "D",
+      "libelle": "Circuit Départemental de Demi-fond - COGNAC",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91033",
+      "niveau": "D",
+      "libelle": "Open de Rentrée Avenirs - DRANCY",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91824",
+      "niveau": "D",
+      "libelle": "Inter-écoles - Sud - GRANVILLE",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91394",
+      "niveau": "D",
+      "libelle": "3e Meeting des Maîtres Montchanin Natation - MONTCHANIN",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91769",
+      "niveau": "D",
+      "libelle": "Championnats d'Automne Open des Maîtres - PARIS",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91491",
+      "niveau": "D",
+      "libelle": "Avenirs 5 - Zone Sud - SAINT-CLOUD",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91034",
+      "niveau": "D",
+      "libelle": "Open de Rentrée Avenirs - SAINT-OUEN",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91490",
+      "niveau": "D",
+      "libelle": "Avenirs 5 - Zone Nord - SURESNES",
+      "dateIso": "2025-11-29"
+    },
+    {
+      "competitionId": "91678",
+      "niveau": "R",
+      "libelle": "Championnat Régional des Maîtres - CLERMONT-L'HÉRAULT",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "88640",
+      "niveau": "R",
+      "libelle": "Interclubs Avenirs - MONT-DORE",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91390",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs - 5e Journée - ACHICOURT",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91446",
+      "niveau": "D",
+      "libelle": "5e Journée du Challenge Départemental - ACHICOURT",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "90991",
+      "niveau": "D",
+      "libelle": "8e Meeting de l'Anjou - Maitres - ANGERS",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91389",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs - 5e Journée - AUCHEL",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91447",
+      "niveau": "D",
+      "libelle": "5e Journée du Challenge Départemental - AUCHEL",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91624",
+      "niveau": "D",
+      "libelle": "Mini Compétition NFC - BELFORT",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91007",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs 40 - BISCARROSSE",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91844",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Avenirs & Mixtes - BISCARROSSE",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91431",
+      "niveau": "D",
+      "libelle": "Coupe de la Communauté de Communes du Pays de Blain - BLAIN",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91225",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - BORDEAUX",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91728",
+      "niveau": "D",
+      "libelle": "Championnat Interclubs Avenirs du Finistère - CHATEAULIN",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91448",
+      "niveau": "D",
+      "libelle": "5e Journée du Challenge Départemental - DESVRES",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "90621",
+      "niveau": "D",
+      "libelle": "Championnat Départemental des Maîtres - JANZÉ",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91075",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Maitres (Catégorie C0) - JANZÉ",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91713",
+      "niveau": "D",
+      "libelle": "Circuit Avenirs 91 n°4 - Secteur 2 - LA NORVILLE",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91802",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - LANGRES",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91803",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Avenirs & Relais Mixtes - LANGRES",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91804",
+      "niveau": "D",
+      "libelle": "Compétition d'Animation N°2 - LANGRES",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91563",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - LATTES",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91712",
+      "niveau": "D",
+      "libelle": "Circuit Avenirs 91 n°4 - Secteur 1 - LES ULIS",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91773",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - Pyrénées-Atlantiques - LONS",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91775",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs 64 (Équipes Mixtes et Remplaçants) - LONS",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91795",
+      "niveau": "D",
+      "libelle": "Championnat d'Hiver - MANOSQUE",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "90967",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs - 2e Journée (Secteur 2) - MAZAMET",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91387",
+      "niveau": "D",
+      "libelle": "Meeting Open de Meaux Masters - MEAUX",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91745",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs 79 - MELLE",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91874",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Avenirs - MELLE",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91215",
+      "niveau": "D",
+      "libelle": "Meeting M4 - Circuit de l'Arc Atlantique - MONT-DE-MARSAN",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91714",
+      "niveau": "D",
+      "libelle": "Circuit Avenirs 91 n°4 - Secteur 3 - MONTGERON",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91391",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs - 5e Journée - MONTREUIL-SUR-MER",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91143",
+      "niveau": "D",
+      "libelle": "3e Meeting Alain Vanacker - NANTERRE",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91285",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs CD 86 - POITIERS",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91776",
+      "niveau": "D",
+      "libelle": "Remplaçants Interclubs Avenirs CD 86 - POITIERS",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "90898",
+      "niveau": "D",
+      "libelle": "Journée Avenirs 2/6 - SAINT-ESTÈVE",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91541",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - SAINT-JEAN-D'ANGÉLY",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "91542",
+      "niveau": "D",
+      "libelle": "Swim'Acad 17 - SAINT-JEAN-D'ANGÉLY",
+      "dateIso": "2025-11-30"
+    },
+    {
+      "competitionId": "90838",
+      "niveau": "D",
+      "libelle": "Triathlon Avenirs - VILLENEUVE-LÈS-AVIGNON",
+      "dateIso": "2025-11-30"
+    }
+  ]
+}

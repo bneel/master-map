@@ -1,0 +1,278 @@
+{
+  "savedAt": "2026-04-25T15:56:48.551Z",
+  "year": 2025,
+  "month": 8,
+  "count": 45,
+  "raw": [
+    {
+      "competitionId": "90614",
+      "niveau": "D",
+      "libelle": "5e Challenge Fabrice Duval - BEAUCHASTEL",
+      "dateIso": "2025-08-02"
+    },
+    {
+      "competitionId": "89733",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville de Samoëns - SAMOËNS",
+      "dateIso": "2025-08-02"
+    },
+    {
+      "competitionId": "90534",
+      "niveau": "R",
+      "libelle": "Quadrathlon des Thermes - BOURBON-LANCY",
+      "dateIso": "2025-08-03"
+    },
+    {
+      "competitionId": "90670",
+      "niveau": "R",
+      "libelle": "Challenge Yvette Andrada - L'ISLE-JOURDAIN",
+      "dateIso": "2025-08-03"
+    },
+    {
+      "competitionId": "90354",
+      "niveau": "R",
+      "libelle": "Meeting Eté Occitanie #1 - L'ISLE-JOURDAIN",
+      "dateIso": "2025-08-03"
+    },
+    {
+      "competitionId": "90611",
+      "niveau": "R",
+      "libelle": "Estival'Tour LNA - Zone Sud - MAULÉON-LICHARRE",
+      "dateIso": "2025-08-03"
+    },
+    {
+      "competitionId": "90418",
+      "niveau": "R",
+      "libelle": "Rencontre Inter-écoles de Natation - SALINDRES",
+      "dateIso": "2025-08-03"
+    },
+    {
+      "competitionId": "90610",
+      "niveau": "R",
+      "libelle": "Estival'Tour LNA - Zone Nord - SARLAT-LA-CANÉDA",
+      "dateIso": "2025-08-03"
+    },
+    {
+      "competitionId": "90465",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 4 - LONGUÉ-JUMELLES",
+      "dateIso": "2025-08-03"
+    },
+    {
+      "competitionId": "90464",
+      "niveau": "D",
+      "libelle": "Compétition 6 - Toutes catégories - LONGUÉ-JUMELLES",
+      "dateIso": "2025-08-03"
+    },
+    {
+      "competitionId": "89821",
+      "niveau": "D",
+      "libelle": "Top 200 - NEUVILLE-DE-POITOU",
+      "dateIso": "2025-08-05"
+    },
+    {
+      "competitionId": "90647",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - NEUVILLE-DE-POITOU",
+      "dateIso": "2025-08-05"
+    },
+    {
+      "competitionId": "90618",
+      "niveau": "D",
+      "libelle": "Trophée Charente - BARBEZIEUX-SAINT-HILAIRE",
+      "dateIso": "2025-08-06"
+    },
+    {
+      "competitionId": "90662",
+      "niveau": "D",
+      "libelle": "IIIe Challenge de Natation Estivale du Pays Catalan - CÉRET",
+      "dateIso": "2025-08-08"
+    },
+    {
+      "competitionId": "90671",
+      "niveau": "D",
+      "libelle": "Championnats des Pyrénées-Atlantiques - BIDACHE",
+      "dateIso": "2025-08-09"
+    },
+    {
+      "competitionId": "90070",
+      "niveau": "D",
+      "libelle": "Championnats de Haute-Savoie - THÔNES",
+      "dateIso": "2025-08-09"
+    },
+    {
+      "competitionId": "90334",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Open de l'Isère - TULLINS",
+      "dateIso": "2025-08-09"
+    },
+    {
+      "competitionId": "90468",
+      "niveau": "D",
+      "libelle": "Compétition 7 - Meeting Séries/Finales - VERN-D'ANJOU",
+      "dateIso": "2025-08-09"
+    },
+    {
+      "competitionId": "90471",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 5 - VERN-D'ANJOU",
+      "dateIso": "2025-08-09"
+    },
+    {
+      "competitionId": "90537",
+      "niveau": "R",
+      "libelle": "3e Journée Régionale  - CHAUFFAILLES",
+      "dateIso": "2025-08-10"
+    },
+    {
+      "competitionId": "90444",
+      "niveau": "R",
+      "libelle": "Meeting Eté Occitanie #2  - SAINT-CÉRÉ",
+      "dateIso": "2025-08-10"
+    },
+    {
+      "competitionId": "90357",
+      "niveau": "R",
+      "libelle": "Championnat Régional Avenirs - Zone Ouest - SAINT-CÉRÉ",
+      "dateIso": "2025-08-10"
+    },
+    {
+      "competitionId": "90619",
+      "niveau": "D",
+      "libelle": "Meeting du Sud Charente - BARBEZIEUX-SAINT-HILAIRE",
+      "dateIso": "2025-08-10"
+    },
+    {
+      "competitionId": "90472",
+      "niveau": "D",
+      "libelle": "Compétition 7b - Meeting Séries/Finales - VERN-D'ANJOU",
+      "dateIso": "2025-08-10"
+    },
+    {
+      "competitionId": "90661",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux - HASPARREN",
+      "dateIso": "2025-08-15"
+    },
+    {
+      "competitionId": "90419",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Ligue Occitanie - Zone Sud-Est - BAGNOLS-SUR-CÈZE",
+      "dateIso": "2025-08-16"
+    },
+    {
+      "competitionId": "90362",
+      "niveau": "R",
+      "libelle": "Meeting Maîtres #3 - GOURDON",
+      "dateIso": "2025-08-16"
+    },
+    {
+      "competitionId": "90359",
+      "niveau": "R",
+      "libelle": "Championnats Occitanie - Zone Ouest  - GOURDON",
+      "dateIso": "2025-08-16"
+    },
+    {
+      "competitionId": "90455",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue Natation Estivale - LA ROCHE-SUR-FORON",
+      "dateIso": "2025-08-16"
+    },
+    {
+      "competitionId": "90539",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux BFC Natation Estivale - SANVIGNES-LES-MINES",
+      "dateIso": "2025-08-16"
+    },
+    {
+      "competitionId": "90663",
+      "niveau": "R",
+      "libelle": "Finale Régionale Individuelle - ROCHEFORT-SUR-LOIRE",
+      "dateIso": "2025-08-17"
+    },
+    {
+      "competitionId": "89822",
+      "niveau": "D",
+      "libelle": "Grand Bac ! - POITIERS",
+      "dateIso": "2025-08-19"
+    },
+    {
+      "competitionId": "90630",
+      "niveau": "N",
+      "libelle": "IIIe Finale Nationale Interclubs Toutes Catégories - GRAND-AIGUEBLANCHE",
+      "dateIso": "2025-08-22"
+    },
+    {
+      "competitionId": "90631",
+      "niveau": "N",
+      "libelle": "VIe Critérium National - GRAND-AIGUEBLANCHE",
+      "dateIso": "2025-08-22"
+    },
+    {
+      "competitionId": "90640",
+      "niveau": "N",
+      "libelle": "Ière Finale Nationale du Trophée Benjamins - GRAND-AIGUEBLANCHE",
+      "dateIso": "2025-08-23"
+    },
+    {
+      "competitionId": "90691",
+      "niveau": "R",
+      "libelle": "Coupe de la Ville de Bédarieux - BÉDARIEUX",
+      "dateIso": "2025-08-24"
+    },
+    {
+      "competitionId": "89823",
+      "niveau": "D",
+      "libelle": "Soirée Relais - NEUVILLE-DE-POITOU",
+      "dateIso": "2025-08-26"
+    },
+    {
+      "competitionId": "90679",
+      "niveau": "D",
+      "libelle": "Meeting de Demi-fond Serres-Castet - SERRES-CASTET",
+      "dateIso": "2025-08-28"
+    },
+    {
+      "competitionId": "90500",
+      "niveau": "R",
+      "libelle": "Meeting Sprint - PIRAE",
+      "dateIso": "2025-08-30"
+    },
+    {
+      "competitionId": "89756",
+      "niveau": "D",
+      "libelle": "Championnat du Lot Open - BIARS-SUR-CÈRE",
+      "dateIso": "2025-08-30"
+    },
+    {
+      "competitionId": "90638",
+      "niveau": "D",
+      "libelle": "Journée de Clôture - CHEMILLÉ",
+      "dateIso": "2025-08-30"
+    },
+    {
+      "competitionId": "90702",
+      "niveau": "D",
+      "libelle": "Challenge Longues Distances de Fin de Saison - LANGON",
+      "dateIso": "2025-08-30"
+    },
+    {
+      "competitionId": "90649",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Après-midi - JAUNAY-CLAN",
+      "dateIso": "2025-08-31"
+    },
+    {
+      "competitionId": "90648",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Matin - JAUNAY-CLAN",
+      "dateIso": "2025-08-31"
+    },
+    {
+      "competitionId": "89850",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville de Jaunay-Marigny - JAUNAY-CLAN",
+      "dateIso": "2025-08-31"
+    }
+  ]
+}

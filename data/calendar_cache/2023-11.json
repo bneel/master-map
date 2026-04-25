@@ -1,0 +1,2066 @@
+{
+  "savedAt": "2026-04-25T15:55:58.062Z",
+  "year": 2023,
+  "month": 11,
+  "count": 343,
+  "raw": [
+    {
+      "competitionId": "83248",
+      "niveau": "D",
+      "libelle": "Pré-saison 2 - BORDEAUX",
+      "dateIso": "2023-11-01"
+    },
+    {
+      "competitionId": "83686",
+      "niveau": "D",
+      "libelle": "Meeting d'Automne (Demi-fond) - ROMILLY-SUR-SEINE",
+      "dateIso": "2023-11-01"
+    },
+    {
+      "competitionId": "83083",
+      "niveau": "N",
+      "libelle": "15e Meeting National du Choletais - CHOLET",
+      "dateIso": "2023-11-03"
+    },
+    {
+      "competitionId": "83087",
+      "niveau": "N",
+      "libelle": "5e Meeting National X'Eau Grand-Cognac - COGNAC",
+      "dateIso": "2023-11-03"
+    },
+    {
+      "competitionId": "83308",
+      "niveau": "N",
+      "libelle": "14e Meeting National Open Côte d'Opale - Pas-de-Calais - LONGUENESSE",
+      "dateIso": "2023-11-03"
+    },
+    {
+      "competitionId": "83351",
+      "niveau": "N",
+      "libelle": "12e Meeting National Catherine Brunet - MASSY",
+      "dateIso": "2023-11-03"
+    },
+    {
+      "competitionId": "81433",
+      "niveau": "N",
+      "libelle": "Meeting National de Saint-Paul La Réunion - SAINT-PAUL",
+      "dateIso": "2023-11-03"
+    },
+    {
+      "competitionId": "83740",
+      "niveau": "R",
+      "libelle": "Promotion Avenirs - Meeting National de l'ASEC - SAINT-PAUL",
+      "dateIso": "2023-11-03"
+    },
+    {
+      "competitionId": "83825",
+      "niveau": "R",
+      "libelle": "Championnats Nationaux Interclubs TC - SAINT-LOUIS",
+      "dateIso": "2023-11-04"
+    },
+    {
+      "competitionId": "83708",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux CD80 - AMIENS",
+      "dateIso": "2023-11-04"
+    },
+    {
+      "competitionId": "83146",
+      "niveau": "D",
+      "libelle": "Demi-fond - CHEVREUSE",
+      "dateIso": "2023-11-04"
+    },
+    {
+      "competitionId": "83789",
+      "niveau": "D",
+      "libelle": "Rentrée Benjamins - GARGES-LES-GONESSE",
+      "dateIso": "2023-11-04"
+    },
+    {
+      "competitionId": "83834",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs - MANOSQUE",
+      "dateIso": "2023-11-04"
+    },
+    {
+      "competitionId": "83739",
+      "niveau": "D",
+      "libelle": "Critériums 1 Benjamins Open - MONTEREAU-FAULT-YONNE",
+      "dateIso": "2023-11-04"
+    },
+    {
+      "competitionId": "83629",
+      "niveau": "D",
+      "libelle": "Championnat de l'Oise Hiver - NOGENT-SUR-OISE",
+      "dateIso": "2023-11-04"
+    },
+    {
+      "competitionId": "83233",
+      "niveau": "D",
+      "libelle": "Championnats du Nord Open Hiver - SAINT-POL-SUR-MER",
+      "dateIso": "2023-11-04"
+    },
+    {
+      "competitionId": "83243",
+      "niveau": "D",
+      "libelle": "Championnat du Nord Hiver Maîtres - SAINT-POL-SUR-MER",
+      "dateIso": "2023-11-04"
+    },
+    {
+      "competitionId": "83395",
+      "niveau": "D",
+      "libelle": "Meeting de Rentrée CDAN - J2 - BELLERIVE-SUR-ALLIER",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83812",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs Départemental #1 - Automne - CAUDAN",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83554",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Poule Départementale de la Nièvre - LA CHARITÉ-SUR-LOIRE",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83866",
+      "niveau": "D",
+      "libelle": "Départementaux d'Automne des Maîtres Open - LAVAL",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83550",
+      "niveau": "D",
+      "libelle": "2e Journée de Pré-saison - LOUVIERS",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83759",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Benjamins - MARSEILLE",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83893",
+      "niveau": "D",
+      "libelle": "Plot 7 - MOURENX",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83549",
+      "niveau": "D",
+      "libelle": "2e Journée de Pré-saison - PONT-SAINT-PIERRE",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83649",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux de la Marne - REIMS",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83946",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d’Automne - SAINT-AFFRIQUE",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83792",
+      "niveau": "D",
+      "libelle": "1er Circuit Hérault Benjamins - SAINT-JEAN-DE-VEDAS",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83676",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Poule Alsace - SAINT-LOUIS",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83793",
+      "niveau": "D",
+      "libelle": "2e Animation Avenirs - Groupe 1 - SÈTE",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83796",
+      "niveau": "D",
+      "libelle": "2e Animation Avenirs - Groupe 2 - SÈTE",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83750",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Open TC 25m - THAON-LES-VOSGES",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83751",
+      "niveau": "D",
+      "libelle": "Animation Interclubs TC Mixtes - THAON-LES-VOSGES",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83845",
+      "niveau": "D",
+      "libelle": "Championnats Demi-fond Open de la Meuse - VERDUN",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83846",
+      "niveau": "D",
+      "libelle": "Championnats Demi-fond Open des Maîtres - VERDUN",
+      "dateIso": "2023-11-05"
+    },
+    {
+      "competitionId": "83926",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule 19/23/87 - AUBUSSON",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83927",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule 64/40 - BAYONNE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83786",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule U - BEAUMONT-SUR-OISE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83919",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule A 33  - BORDEAUX",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83920",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule B 33  - BORDEAUX",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83778",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule K - BRUNOY",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83990",
+      "niveau": "R",
+      "libelle": "Championnat Régional - Interclubs Toutes Catégories - CAYENNE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83787",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule V - CERGY-PONTOISE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83773",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule H - CHEVREUSE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83781",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule N - CLAMART",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83777",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule J - CONFLANS-SAINTE-HONORINE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83768",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule C - COULOMMIERS",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83784",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule Q - DRANCY",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83669",
+      "niveau": "R",
+      "libelle": "Meeting Movember - DUGAZON",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83774",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule I - HOUILLES",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83729",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Secteur Centre Nord - LA MADELEINE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83697",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - LE LAMENTIN",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83775",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - LE MANS",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83776",
+      "niveau": "R",
+      "libelle": "Course des Remplaçants IC TC - LE MANS",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83840",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Secteur Maritime - LUMBRES",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83730",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Secteur Centre Nord - MARCQ-EN-BAROEUL",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83770",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule E - MELUN",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83703",
+      "niveau": "R",
+      "libelle": "Championnats Interclubs Toutes Catégories - MONTPELLIER",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83954",
+      "niveau": "R",
+      "libelle": "Championnat Régional Automne Benjamins 50m  - NICE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83925",
+      "niveau": "R",
+      "libelle": "Championnats Interclubs TC - Poule 79 - NIORT",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83785",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule T - NOGENT-SUR-MARNE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83767",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule A - PARIS",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83922",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - PIRAE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83923",
+      "niveau": "R",
+      "libelle": "Course des Remplaçants - PIRAE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83329",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - RENNES",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83929",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule 17 - ROCHEFORT-SUR-MER",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83335",
+      "niveau": "R",
+      "libelle": "Finale Régionale Interclubs TC - VILLEFRANCHE-SUR-SAÔNE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83822",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule S - VILLEJUIF",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83783",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule P - VILLEPINTE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83545",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - ANCENIS",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83282",
+      "niveau": "D",
+      "libelle": "Interclubs TC - ANNECY",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83292",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Equipes Mixtes et Remplaçants - ANNECY",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83673",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Poule Départementale  - AUXERRE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83963",
+      "niveau": "D",
+      "libelle": "Interclubs TC Poule 64/40 - Équipes Mixtes & Remplaçants - BAYONNE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83861",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - Poule Départementale 71 - CHALON-SUR-SAÔNE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83975",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs - Poule Départementale 71 - CHALON-SUR-SA..",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83296",
+      "niveau": "D",
+      "libelle": "Interclubs TC - CHAMBÉRY",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83373",
+      "niveau": "D",
+      "libelle": "Savoie Course des remplaçants - CHAMBÉRY",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83865",
+      "niveau": "D",
+      "libelle": "Interclubs du 28 - CHÂTEAUDUN",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83727",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Aube/Haute-Marne - CHAUMONT",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83383",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - COUTANCES",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83384",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Départementaux   - COUTANCES",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "84057",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants - Poule I - HOUILLES",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83444",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs - LOCHES",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83869",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux 65/32 - LOURDES",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83849",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - MARSEILLE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "84015",
+      "niveau": "D",
+      "libelle": "Trophée du 4 Nageur - MEYLAN",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83367",
+      "niveau": "D",
+      "libelle": "Joqua 8 - PÉRIGUEUX",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "84000",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Course des remplaçants - ROCHEFORT-SUR-MER",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83323",
+      "niveau": "D",
+      "libelle": "Championnats 76 Hiver - ROUEN",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83474",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs TC - SALBRIS",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83620",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs du Loiret - SARAN",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83862",
+      "niveau": "D",
+      "libelle": "Meeting Masters LLSB - SCHILTIGHEIM",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83899",
+      "niveau": "D",
+      "libelle": "Interclubs TC en bassin de 25m - THIONVILLE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83876",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC 54 - VILLERUPT",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83877",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - VILLERUPT",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "84107",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Automne  - VIRE",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83692",
+      "niveau": "D",
+      "libelle": "Critérium Avenirs - VITRY-LE-FRANÇOIS",
+      "dateIso": "2023-11-11"
+    },
+    {
+      "competitionId": "83874",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - AUXERRE",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83931",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule 86 - CHÂTELLERAULT",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83782",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule O - CLICHY",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83639",
+      "niveau": "R",
+      "libelle": "Challence Avenirs  - DUGAZON",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83747",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Secteur Maritime - GRAVELINES",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83595",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule Régionale - LIBOURNE",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83779",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule L - MASSY",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83766",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule B - PARIS",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83769",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule D - PROVINS",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "81385",
+      "niveau": "R",
+      "libelle": "Championnat régional interclubs TC - SAINT-PAUL",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83771",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule F - SAVIGNY-LE-TEMPLE",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83424",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs - TOURS",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83772",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule G - VERSAILLES",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83722",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Maitres 2023 - ALBERT",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83334",
+      "niveau": "D",
+      "libelle": "Championnat Interclubs TC - ANGERS",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83921",
+      "niveau": "D",
+      "libelle": "Interclubs Interdépartementaux TC - BESANÇON",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83973",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - BESANÇON",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83534",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux - BOURGES",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83666",
+      "niveau": "D",
+      "libelle": "Championnat du Finistère Interclubs TC - BREST",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83718",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Pyrénées-Orientales - CANET-EN-ROUSSILLON",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83385",
+      "niveau": "D",
+      "libelle": "Avenirs Automne - CARENTAN",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "84032",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - Poule 86 - CHÂTELLERAULT",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83423",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs TC Open - CLERMONT-FERRAND",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83551",
+      "niveau": "D",
+      "libelle": "Compétition Avenirs Hiver - CONCHES-EN-OUCHE",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83544",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - COUERON",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83744",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs TC - District 21/39 - DIJON",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83989",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux - GIVET",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83737",
+      "niveau": "D",
+      "libelle": "Finale Départementale Interclubs TC - LA ROCHE-SUR-YON",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83738",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Finales Départementales Interclubs - LA ROCHE-SUR-YON",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83429",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - LAMBALLE",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83563",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants IC TC - LAMBALLE",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83315",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux TC - LAVAL",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83317",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants IC Départementaux - LAVAL",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83827",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs Départementaux TC - LE MANS",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83828",
+      "niveau": "D",
+      "libelle": "Remplaçants Championnats Interclubs Départementaux TC - LE MANS",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83468",
+      "niveau": "D",
+      "libelle": "Trophée Finale des Avenirs du Vaucluse - LE PONTET",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83991",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Interclubs - LE PUY-EN-VELAY",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83992",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - LE PUY-EN-VELAY",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83904",
+      "niveau": "D",
+      "libelle": "Après-Midi des Maîtres - MARSEILLE",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83757",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs TC - MAZAMET",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83283",
+      "niveau": "D",
+      "libelle": "Fun Cup Relais - MEGÈVE",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83818",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux - MONTAUBAN",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83797",
+      "niveau": "D",
+      "libelle": "Interclubs TC - MONTPELLIER",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "84003",
+      "niveau": "D",
+      "libelle": "Championnat Hiver de l'Orne - MORTAGNE-AU-PERCHE",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83445",
+      "niveau": "D",
+      "libelle": "Championnat départemental Interclubs TC - MURET",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83546",
+      "niveau": "D",
+      "libelle": "Interclubs TC - NANTES",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83947",
+      "niveau": "D",
+      "libelle": "Championnat Départemental IC TC - Aveyron/Lozère - ONET-LE-CHÂTEAU",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83558",
+      "niveau": "D",
+      "libelle": "Interclubs TC - OYONNAX",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83278",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - Dpt 35 - RENNES",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83894",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Loire - ROANNE",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83895",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - Loire - ROANNE",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83678",
+      "niveau": "D",
+      "libelle": "Championnats Drôme Ardèche Interclubs Toutes Catégories - ROMANS-SUR-ISÈRE",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83707",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - SAINT-EGREVE",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83809",
+      "niveau": "D",
+      "libelle": "Interclubs TC - 56 - VANNES",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83826",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - 56 - VANNES",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83654",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Interclubs TC - VILLEFRANCHE-SUR-SAÔNE",
+      "dateIso": "2023-11-12"
+    },
+    {
+      "competitionId": "83882",
+      "niveau": "D",
+      "libelle": "Championnats Maitres - Plot 1 - PACY-SUR-EURE",
+      "dateIso": "2023-11-17"
+    },
+    {
+      "competitionId": "83735",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Secteur Somme - ARRAS",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83736",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Secteur Somme - BÉTHUNE",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "84098",
+      "niveau": "R",
+      "libelle": "Waka Dilo #8 - CAYENNE",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83976",
+      "niveau": "R",
+      "libelle": "Meeting NC 5 - DUMBÉA",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83957",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - Région Sud - Poule A - ISTRES",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83765",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule R1 - MASSY",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83979",
+      "niveau": "R",
+      "libelle": "2e Meeting Maîtres Montchanin Natation - MONTCHANIN",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83958",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - Région Sud - Poule B - Est - NICE",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "80735",
+      "niveau": "R",
+      "libelle": "Tahiti Nui Cup - PAPEETE",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83698",
+      "niveau": "R",
+      "libelle": "Interclubs Avenirs - SAINT-ESPRIT",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83699",
+      "niveau": "R",
+      "libelle": "Kalif' Benjamins - SAINT-ESPRIT",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83780",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Interclubs TC - Poule M - VIRY-CHATILLON",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83795",
+      "niveau": "D",
+      "libelle": "Interclubs TC du Gard - ALES",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83625",
+      "niveau": "D",
+      "libelle": "Championnats Automne Webconfront@tion - BOBIGNY",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83628",
+      "niveau": "D",
+      "libelle": "Championnats Automne Maîtres - BOBIGNY",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "84067",
+      "niveau": "D",
+      "libelle": "Districts Nord n°4 - BREST",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83495",
+      "niveau": "D",
+      "libelle": "Nat'Avenirs Hiver 2 - CAEN",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83496",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux TC  - CAEN",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "84185",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs - CAEN",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "84169",
+      "niveau": "D",
+      "libelle": "Etape Benjamins et plus - CANET-EN-ROUSSILLON",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83982",
+      "niveau": "D",
+      "libelle": "Championnats de Vendée Hiver - CHALLANS",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83286",
+      "niveau": "D",
+      "libelle": "7e Open Swin de Chamonix - CHAMONIX-MONT-BLANC",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83967",
+      "niveau": "D",
+      "libelle": "Pass' Compétitions n°2 - CHÂTEAU-GONTIER",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83971",
+      "niveau": "D",
+      "libelle": "Circuit Avenirs n°2 - CHÂTEAU-GONTIER",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83972",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Benjamins/Juniors/Séniors - CHÂTEAU-GONTIER",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "84223",
+      "niveau": "D",
+      "libelle": "Championnat Dptl Automne 25m Benjamins - web confront@tion - CHÂTEAU-GONTIER",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "84069",
+      "niveau": "D",
+      "libelle": "Districts Sud n°4 - CONCARNEAU",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "84133",
+      "niveau": "D",
+      "libelle": "Finales Départementales    Avenirs 1 & Avenirs 2 & Avenirs 3 - CRÉTEIL",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83746",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Plot 2 - DIJON",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83924",
+      "niveau": "D",
+      "libelle": "Ligue Espoirs 2024 - Etape 1 - ÉGLETONS",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83974",
+      "niveau": "D",
+      "libelle": "4e Meeting des Maîtres de Ventadour - ÉGLETONS",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83508",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Hiver - EYSINES",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83892",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Open des Maîtres - JOUÉ-LES-TOURS",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "84063",
+      "niveau": "D",
+      "libelle": "Circuit Départemental 3 - LA FLÈCHE",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "84241",
+      "niveau": "D",
+      "libelle": "Circuit Départemental Benjamins - LA FLÈCHE",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83752",
+      "niveau": "D",
+      "libelle": "Championnat District Automne 21/39 - LONS-LE-SAUNIER",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83810",
+      "niveau": "D",
+      "libelle": "Championnats 56 Hiver - Journée 1 - LORIENT",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83430",
+      "niveau": "D",
+      "libelle": "Championnats d'Automne des Côtes d'Armor  - LOUDÉAC",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "84104",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Hiver 71 - MÂCON",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83835",
+      "niveau": "D",
+      "libelle": "Championnat Interclubs - MANOSQUE",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83978",
+      "niveau": "D",
+      "libelle": "Championnats Interdépartementaux  - MONTBÉLIARD",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83640",
+      "niveau": "D",
+      "libelle": "Poule Départementale des Interclubs Toutes Catégories - MONTIVILLIERS",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83980",
+      "niveau": "D",
+      "libelle": "Championnats 88 Maitres Open - NEUFCHÂTEAU",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "84023",
+      "niveau": "D",
+      "libelle": "Championnats des Vosges Hiver 25m Open - NEUFCHÂTEAU",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "84106",
+      "niveau": "D",
+      "libelle": "Championnats d'Alsace d'Automne CEA - OBERNAI",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83674",
+      "niveau": "D",
+      "libelle": "Championnats Hiver Masters Loire - ROANNE",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "84024",
+      "niveau": "D",
+      "libelle": "Avenirs - J6 - Zone Nord - SAINT-CLOUD",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83653",
+      "niveau": "D",
+      "libelle": "Meeting de la Ville de Saint-Priest - SAINT-PRIEST",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "84062",
+      "niveau": "D",
+      "libelle": "Chpt Dptl Web Confront@tion 44 - Benjamins/Juniors/Séniors - SAINT-SÉBASTIE..",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "84239",
+      "niveau": "D",
+      "libelle": "Championnats de Moselle Automne - THIONVILLE",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83679",
+      "niveau": "D",
+      "libelle": "Avenirs - Drôme/Ardèche - Zone Nord - VALENCE",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83680",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Drôme/Ardèche - Zone Nord - VALENCE",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83950",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Hiver - VARENNES-VAUZELLES",
+      "dateIso": "2023-11-18"
+    },
+    {
+      "competitionId": "83837",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Secteur Somme - ABBEVILLE",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83734",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Secteur Somme - ACHICOURT",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83841",
+      "niveau": "R",
+      "libelle": "Interclubs Régionaux Toutes Catégories - AJACCIO",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84108",
+      "niveau": "R",
+      "libelle": "Course des Remplaçants Interclubs - Ligue Corse - AJACCIO",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83728",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Secteur Oise - BEAUVAIS",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84040",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule 24/47 - BERGERAC",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83928",
+      "niveau": "R",
+      "libelle": "Championnat Interclubs TC - Poule 16 - COGNAC",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83711",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Poule Régionale - DENAIN",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83733",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Secteur Nord-Est - DOUAI",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83637",
+      "niveau": "R",
+      "libelle": "Interclubs Régionaux TC - DUGAZON",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83870",
+      "niveau": "R",
+      "libelle": "Championnats de Normandie Interclubs Toutes Catégories - GRANVILLE",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83933",
+      "niveau": "R",
+      "libelle": "Course des Remplaçants Interclubs TC - GRANVILLE",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83959",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - Région Sud - Poule B - Ouest - ISTRES",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83502",
+      "niveau": "R",
+      "libelle": "Interclubs Régionaux Avenirs - SARAN",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83731",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Secteur Centre-Nord - SECLIN",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83732",
+      "niveau": "R",
+      "libelle": "Interclubs TC - Secteur Centre-Nord - VILLENEUVE-D'ASCQ",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84166",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Sprint - ANGERS",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84026",
+      "niveau": "D",
+      "libelle": "Avenirs - J6 - Zone Sud - ANTONY",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83486",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - BAYONNE",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84077",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs (Équipes Mixtes & Remplaçants) - BAYONNE",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83543",
+      "niveau": "D",
+      "libelle": "Trophées Avenirs - BEAUMONT-SUR-OISE",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83336",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Benjamins - BEAUPREAU",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84200",
+      "niveau": "D",
+      "libelle": "Interclubs Remplaçants - BEAUVAIS",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83719",
+      "niveau": "D",
+      "libelle": "Journée 2 Avenirs - CANET-EN-ROUSSILLON",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84089",
+      "niveau": "D",
+      "libelle": "Critérium Départemental - COGNAC",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84118",
+      "niveau": "D",
+      "libelle": "Trophées Avenirs - CORMEILLES-EN-PARISIS",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84115",
+      "niveau": "D",
+      "libelle": "Meeting Départemental Juniors - FERNEY-VOLTAIRE",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83939",
+      "niveau": "D",
+      "libelle": "Interclubs TC - Poule C - HYÈRES",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84129",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs #1 - Secteur Sud - LANEUVEVILLE-DEVANT-NANCY",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84044",
+      "niveau": "D",
+      "libelle": "Critériums Avenirs Open - Secteur 1 - MEAUX",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84083",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs n°2 - MELLE",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83725",
+      "niveau": "D",
+      "libelle": "Meeting M4 - Circuit de l'Arc Atlantique - MONT-DE-MARSAN",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84039",
+      "niveau": "D",
+      "libelle": "Championnats Interdépartementaux Maîtres - MONTBÉLIARD",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83804",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Officiel FFN des Maitres - MONTPELLIER",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83821",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Automne 25m (Web confront@tion) - MONTPELLIER",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83675",
+      "niveau": "D",
+      "libelle": "Meeting Maitres Alain Vanacker - NANTERRE",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84049",
+      "niveau": "D",
+      "libelle": "Critériums Avenirs Open - Secteur 2 - NEMOURS",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84137",
+      "niveau": "D",
+      "libelle": "Interclubs Toutes Catégories - Poule C - Alpes-Maritimes - NICE",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84093",
+      "niveau": "D",
+      "libelle": "Coupe Paillieux – 1ère Etape - PARIS",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84094",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - 1ère Etape - PARIS",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84095",
+      "niveau": "D",
+      "libelle": "Championnat de Paris Automne Open des Maîtres - PARIS",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83471",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux TC - PERTUIS",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84109",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs Départementaux TC - PERTUIS",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83811",
+      "niveau": "D",
+      "libelle": "Championnats 56 Hiver - Journée 2 - PLOËRMEL",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83607",
+      "niveau": "D",
+      "libelle": "Championnat Bi-départemental 79/86 - Juniors/Séniors - POITIERS",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83896",
+      "niveau": "D",
+      "libelle": "Juniors/Séniors N°2 - SAINT-CHAMOND",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83758",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs Open - SAINT-GEORGES-DE-MONS",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83883",
+      "niveau": "D",
+      "libelle": "Finale Départementale Interclubs TC - SAINT-MARCEL",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "84065",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs TC - SAINT-MARCEL",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83681",
+      "niveau": "D",
+      "libelle": "Avenirs - Drôme/Ardèche - Zone Sud - SAINT-PAUL-TROIS-CHÂTEAUX",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83682",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs - Zone Sud - SAINT-PAUL-TROIS-CHÂTEAUX",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83687",
+      "niveau": "D",
+      "libelle": "Championnats Open du Rhône Hiver Maîtres 2023 - TARARE",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83798",
+      "niveau": "D",
+      "libelle": "Triathlon Avenirs - VILLENEUVE-LÈS-AVIGNON",
+      "dateIso": "2023-11-19"
+    },
+    {
+      "competitionId": "83952",
+      "niveau": "R",
+      "libelle": "Championnats Ligue Bourgogne/Franche-Comté Hiver  - NEVERS",
+      "dateIso": "2023-11-24"
+    },
+    {
+      "competitionId": "83754",
+      "niveau": "D",
+      "libelle": "Se Re-Maître à l'Eau - VILLEMOMBLE",
+      "dateIso": "2023-11-24"
+    },
+    {
+      "competitionId": "83096",
+      "niveau": "N",
+      "libelle": "18e Meeting National de la Mer Maîtres - CHERBOURG-EN-COTENTIN",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83085",
+      "niveau": "N",
+      "libelle": "Meeting de Lyon Natation Métropole - LYON",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83794",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Hiver – Benjamins 1/2 & Juniors 1/2 - ALES",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83842",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Hiver - Ligue Corse - BASTIA",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84035",
+      "niveau": "R",
+      "libelle": "Championnats de Corse Hiver des Maîtres - BASTIA",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84243",
+      "niveau": "R",
+      "libelle": "Championnat de Guyane en Petit Bassin - CAYENNE",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83830",
+      "niveau": "R",
+      "libelle": "Finale Régionale Jeunes Yaouank - DOUARNENEZ",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84281",
+      "niveau": "R",
+      "libelle": "Mémorial Beppo - DUGAZON",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83704",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Hiver – Benjamins 1/2 & Juniors 1/2 - MONTAUBAN",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "81386",
+      "niveau": "R",
+      "libelle": "Championnats de La Réunion TC petit bassin - SAINT-PAUL",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84130",
+      "niveau": "R",
+      "libelle": "Championnat Régional Benjamins 25m - SARCELLES",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84025",
+      "niveau": "R",
+      "libelle": "Championnat Régional Benjamins Open - SARREGUEMINES",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83723",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Benjamins 2023 - SOISSONS",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84199",
+      "niveau": "D",
+      "libelle": "Championnats des 2 Savoie Benjamins - ANNECY",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83932",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Hiver - ARGENTON-SUR-CREUSE",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84116",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - BELLEGARDE-SUR-VALSERINE",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83376",
+      "niveau": "D",
+      "libelle": "Championnats de Dordogne Hiver - BERGERAC",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83505",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver - BLOIS",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83970",
+      "niveau": "D",
+      "libelle": "Web Confront@tion Benjamins - BOLLÈNE",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84196",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux d'Automne - BOURGOIN-JALLIEU",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84154",
+      "niveau": "D",
+      "libelle": "Meeting Maîtres - BRIOUDE",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83614",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Automne Web Confront@tion - CALAIS",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83891",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Automne Open Web Confront@tion - CASSIS",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83488",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Maitres - CHAMBRAY-LES-TOURS",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84247",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver Benjamins - CHASSIEU",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83884",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver - ÉVREUX",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84178",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs n°1 - FRÉJUS",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84201",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Benjamins Open - ISSOIRE",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83742",
+      "niveau": "D",
+      "libelle": "Départementaux Benjamins et Avenirs 3 - LA GARENNE-COLOMBES",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84324",
+      "niveau": "D",
+      "libelle": "Benjamins 2012 - Championnats 92 - LA GARENNE-COLOMBES",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83509",
+      "niveau": "D",
+      "libelle": "Championnat Départemental - LA TESTE-DE-BUCH",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84227",
+      "niveau": "D",
+      "libelle": "District Avenirs  - LANNION",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84144",
+      "niveau": "D",
+      "libelle": "Championnats Benjamins de l'Essonne Web Confront@tion - LES ULIS",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83624",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver - ORLÉANS",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84125",
+      "niveau": "D",
+      "libelle": "Championnat de Paris – Hiver 25m. - PARIS",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84228",
+      "niveau": "D",
+      "libelle": "District Avenirs  - SAINT-BRIEUC",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83268",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs N°1 - SAINT-LAURENT-DU-VAR",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83270",
+      "niveau": "D",
+      "libelle": "Meeting Pitchouns N°1 - SAINT-LAURENT-DU-VAR",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84246",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux 19/23/87 - 5e Meeting NAC - SAINT-LÉONARD-DE-NO..",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83386",
+      "niveau": "D",
+      "libelle": "Championnat de la Manche Benjamins/Juniors/Séniors - SAINT-LÔ",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83589",
+      "niveau": "D",
+      "libelle": "Open de Rentrée Avenirs - SAINT-OUEN",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84257",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Avenirs - SAINT-PIERRE-DU-MONT",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83691",
+      "niveau": "D",
+      "libelle": "Championnat Départemental d'Automne Open - SAVIGNY-LE-TEMPLE",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83683",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Drôme/Ardèche - VALENCE",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83885",
+      "niveau": "D",
+      "libelle": "Coupe du Sud N°1 - VÉNISSIEUX",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83535",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver - VIERZON",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83536",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver des Maitres - VIERZON",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "83839",
+      "niveau": "D",
+      "libelle": "Championnat Automne 94 - Benjamins/Juniors/Séniors & Open - VITRY-SUR-SEINE",
+      "dateIso": "2023-11-25"
+    },
+    {
+      "competitionId": "84092",
+      "niveau": "R",
+      "libelle": "Challenge Avenirs - Mémorial Beppo - DUGAZON",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "83964",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue Benjamins  - LAVAL",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "83387",
+      "niveau": "D",
+      "libelle": "Championnat de la Manche Benjamins/Juniors/Séniors - AVRANCHES",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "84252",
+      "niveau": "D",
+      "libelle": "MCA 8 - Bassens - BASSENS",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "84195",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Benjamins - BELLEY",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "84219",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Avenirs 2023 - BLAIN",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "84087",
+      "niveau": "D",
+      "libelle": "MCA 8 - Bordeaux - BORDEAUX",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "84048",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Automne - CANNES",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "83280",
+      "niveau": "D",
+      "libelle": "Championnats des Maîtres Hiver Open - JANZÉ",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "83844",
+      "niveau": "D",
+      "libelle": "Championnats des Pyrénées-Atlantiques Benjamins - LONS",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "84224",
+      "niveau": "D",
+      "libelle": "Championnats des Pyrénées-Atlantiques Juniors/Séniors - LONS",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "84231",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs n°1 - LUÇON",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "84050",
+      "niveau": "D",
+      "libelle": "Championnat Départemental 47 Automne (Web Confront@tion) - MARMANDE",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "83267",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs N°1 - MENTON",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "83269",
+      "niveau": "D",
+      "libelle": "Meeting Pitchouns N°1 - MENTON",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "83917",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Benjamins - MONT-DE-MARSAN",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "83918",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Juniors et plus - MONT-DE-MARSAN",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "83638",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs - NOTRE-DAME-DE-GRAVENCHON",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "84253",
+      "niveau": "D",
+      "libelle": "MCA 8 - Pessac - PESSAC",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "83252",
+      "niveau": "D",
+      "libelle": "Web Confront@tion Départementale d'Automne - RAMBOUILLET",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "84001",
+      "niveau": "D",
+      "libelle": "Web Confront@tion Benjamins - ROYAN",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "84002",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - ROYAN",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "83897",
+      "niveau": "D",
+      "libelle": "Benjamins N°2 (Avenirs dernières années) - Qualif. CF - SAINT-ÉTIENNE",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "83341",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Juniors/Séniors - SEGRE",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "84198",
+      "niveau": "D",
+      "libelle": "Avenirs - Plot 2 - THANN",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "84022",
+      "niveau": "D",
+      "libelle": "Championnat Bi-départemental Avenirs/Benjamins - THOUARS",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "84179",
+      "niveau": "D",
+      "libelle": "Meeting Avenirs N°1 - TOULON",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "84193",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Hiver - TOURS",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "83938",
+      "niveau": "D",
+      "libelle": "Meeting Départemental 1 - TROYES",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "83941",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 2 - TROYES",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "84030",
+      "niveau": "D",
+      "libelle": "Départementaux Automne 2023 du 28 - VERNOUILLET",
+      "dateIso": "2023-11-26"
+    },
+    {
+      "competitionId": "84135",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Automne 2023 Maîtres du 28 - VERNOUILLET",
+      "dateIso": "2023-11-26"
+    }
+  ]
+}

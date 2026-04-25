@@ -231,6 +231,12 @@ header {
   .pos-btn { padding: 0.4rem; }
 }
 
+/* Mobile/tablet : pinch + double-tap suffisent, on cache les boutons zoom
+   Leaflet pour libérer le coin haut-gauche (sinon le prompt position chevauche). */
+@media (max-width: 959px) {
+  .leaflet-control-zoom { display: none; }
+}
+
 
 /* Recherche */
 .search {
@@ -328,6 +334,7 @@ main { flex: 1; display: flex; position: relative; min-height: 0; }
   display: inline-flex; align-items: center; gap: 0.4rem;
   font-size: 0.75rem; color: #64748b;
 }
+.list-count-text { color: #2563eb; font-weight: 600; }
 .sort-group { display: inline-flex; border: 1px solid #cbd5e1; border-radius: 0.35rem; overflow: hidden; }
 .sort-btn {
   font: inherit; font-size: 0.8rem; font-weight: 500;
@@ -428,7 +435,10 @@ main { flex: 1; display: flex; position: relative; min-height: 0; }
   max-width: calc(100% - 1.5rem); width: 22rem;
 }
 .location-prompt p { margin: 0 0 0.6rem; font-size: 0.85rem; color: #0f172a; }
-.location-prompt-actions { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.location-prompt-actions {
+  display: flex; flex-direction: column;
+  gap: 0.4rem; align-items: center;
+}
 .btn-primary, .btn-secondary, .btn-link {
   font: inherit; font-size: 0.8rem; font-weight: 600;
   padding: 0.4rem 0.7rem; border-radius: 0.35rem; cursor: pointer;

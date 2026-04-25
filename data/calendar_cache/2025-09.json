@@ -1,0 +1,92 @@
+{
+  "savedAt": "2026-04-25T15:56:50.756Z",
+  "year": 2025,
+  "month": 9,
+  "count": 14,
+  "raw": [
+    {
+      "competitionId": "88634",
+      "niveau": "R",
+      "libelle": "Circuit 25m. - 3e Journée - R1 - DUMBÉA",
+      "dateIso": "2025-09-21"
+    },
+    {
+      "competitionId": "88635",
+      "niveau": "R",
+      "libelle": "Circuit 25m. - 3e Journée - R2 - DUMBÉA",
+      "dateIso": "2025-09-21"
+    },
+    {
+      "competitionId": "90727",
+      "niveau": "R",
+      "libelle": "4e Meeting International de Nouméa - NOUMÉA",
+      "dateIso": "2025-09-26"
+    },
+    {
+      "competitionId": "89282",
+      "niveau": "R",
+      "libelle": "Meeting Aito #2 - PIRAE",
+      "dateIso": "2025-09-27"
+    },
+    {
+      "competitionId": "90812",
+      "niveau": "D",
+      "libelle": "Grand Meeting de la Rentrée - CHÂTEAUBRIANT",
+      "dateIso": "2025-09-27"
+    },
+    {
+      "competitionId": "90850",
+      "niveau": "R",
+      "libelle": "1er Meeting du CN Panon (Séries Benjamins) - BRAS-PANON",
+      "dateIso": "2025-09-28"
+    },
+    {
+      "competitionId": "90851",
+      "niveau": "R",
+      "libelle": "1er Meeting du CN Panon (Séries Avenirs) - BRAS-PANON",
+      "dateIso": "2025-09-28"
+    },
+    {
+      "competitionId": "90852",
+      "niveau": "R",
+      "libelle": "1er Meeting du CN Panon (Demi-Finales Benjamins) - BRAS-PANON",
+      "dateIso": "2025-09-28"
+    },
+    {
+      "competitionId": "90655",
+      "niveau": "D",
+      "libelle": "1/2 Fond Pré-saison - AIXE-SUR-VIENNE",
+      "dateIso": "2025-09-28"
+    },
+    {
+      "competitionId": "90773",
+      "niveau": "D",
+      "libelle": "Meeting de Vitesse - AUXERRE",
+      "dateIso": "2025-09-28"
+    },
+    {
+      "competitionId": "90719",
+      "niveau": "D",
+      "libelle": "Meeting 4N EDEN99 - DELLE",
+      "dateIso": "2025-09-28"
+    },
+    {
+      "competitionId": "90738",
+      "niveau": "D",
+      "libelle": "Meeting 4N - Maitres EDEN99 - DELLE",
+      "dateIso": "2025-09-28"
+    },
+    {
+      "competitionId": "90835",
+      "niveau": "D",
+      "libelle": "Meeting du Gard Sprint Benjamins 2/Juniors/Séniors - NÎMES",
+      "dateIso": "2025-09-28"
+    },
+    {
+      "competitionId": "90836",
+      "niveau": "D",
+      "libelle": "Meeting du Gard Sprint Avenirs (13/14/15) Benjamin (e) 2012 - NÎMES",
+      "dateIso": "2025-09-28"
+    }
+  ]
+}
