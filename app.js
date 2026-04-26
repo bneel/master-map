@@ -58,6 +58,27 @@ function todayIso() {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
+// Texte explicatif en haut de chaque liste, selon le mode courant.
+// Centré, neutre par défaut, variante orange en mode "Habituelles".
+function listHeaderHtml() {
+  const cur = findCurrentSeason();
+  const curLabel = cur ? cur.label : '';
+  if (state.mode === 'upcoming') {
+    return `Les compétitions à venir sont les compétitions maîtres confirmées sur liveFFN, prévues dans les prochains mois.`;
+  }
+  if (state.mode === 'past') {
+    return `Les compétitions passées sont les compétitions maîtres de la saison ${curLabel} qui ont déjà eu lieu.`;
+  }
+  if (state.mode === 'season') {
+    const s = state.seasons[state.seasonIndex];
+    return `Toutes les compétitions maîtres de la saison ${s ? s.label : ''} (passées et à venir).`;
+  }
+  if (state.mode === 'habituelles') {
+    return `Les compétitions habituelles sont les compétitions récurrentes sur les 4 dernières saisons, mais pas encore confirmées sur liveFFN pour cette saison. Le lieu et la date sont estimés à partir des éditions précédentes.`;
+  }
+  return '';
+}
+
 // Envoie un événement custom à GoatCounter. No-op si le script n'est pas
 // encore chargé (async) : c'est sans conséquence, les events ratés concernent
 // uniquement les premières ms après le boot.
@@ -778,15 +799,26 @@ function renderList() {
   setCompetitionCount(items.length);
 
   list.innerHTML = '';
+
+  // En-tête explicatif (centré, expliquant ce que contient la liste)
+  const header = document.createElement('li');
+  header.className = 'list-info-header';
+  header.innerHTML = listHeaderHtml();
+  list.appendChild(header);
+
   if (items.length === 0) {
+    const empty = document.createElement('li');
+    empty.className = 'empty';
     if (state.search) {
-      list.innerHTML = `<li class="empty"><p class="empty-msg-1">Aucune compétition ne correspond à votre recherche.</p><p class="empty-msg-2"><span aria-hidden="true">⚠️</span> Elle n'est peut-être pas encore sur liveFFN.</p><button type="button" class="btn-secondary empty-info-btn">En savoir plus</button></li>`;
-      const btnInfo = list.querySelector('.empty-info-btn');
+      empty.innerHTML = `<p class="empty-msg-1">Aucune compétition ne correspond à votre recherche.</p><p class="empty-msg-2"><span aria-hidden="true">⚠️</span> Elle n'est peut-être pas encore sur liveFFN.</p><button type="button" class="btn-secondary empty-info-btn">En savoir plus</button>`;
+      list.appendChild(empty);
+      const btnInfo = empty.querySelector('.empty-info-btn');
       if (btnInfo) btnInfo.addEventListener('click', () => {
         document.getElementById('infoBtn').click();
       });
     } else {
-      list.innerHTML = `<li class="empty">Aucune compétition maîtres dans cette fenêtre.</li>`;
+      empty.textContent = 'Aucune compétition maîtres dans cette fenêtre.';
+      list.appendChild(empty);
     }
     return;
   }
@@ -850,38 +882,57 @@ function renderHabituelles() {
   }
   if (state.bassinFilter === '25') items = items.filter((p) => p.bassin === 25);
   else if (state.bassinFilter === '50') items = items.filter((p) => p.bassin === 50);
-  items.sort((a, b) => a.expectedDate.localeCompare(b.expectedDate));
-  setCompetitionCount(items.length);
+
+  // Calcul distance (haversine) pour chaque prédiction si position connue.
+  // Pour les CF (Lapinland fictif) le résultat est trompeur ; on l'affiche
+  // quand même par cohérence — l'utilisateur sait que c'est une habituelle.
+  const enriched = items.map((p) => {
+    let dist = Infinity;
+    if (state.userPos && p.lat != null && p.lon != null) {
+      dist = haversineKm(state.userPos, { lat: p.lat, lon: p.lon });
+    }
+    return { p, dist };
+  });
+
+  // Tri selon state.sortMode (date par défaut si pas de position)
+  const effectiveSort = state.userPos ? state.sortMode : 'date';
+  if (effectiveSort === 'date') {
+    enriched.sort((a, b) => a.p.expectedDate.localeCompare(b.p.expectedDate));
+  } else {
+    enriched.sort((a, b) => a.dist - b.dist);
+  }
+
+  setCompetitionCount(enriched.length);
   list.innerHTML = '';
 
-  // En-tête explicatif au-dessus de la liste
+  // En-tête explicatif au-dessus de la liste (variante orange)
   const header = document.createElement('li');
-  header.className = 'habituelles-header';
-  header.innerHTML = `<strong>Compétitions habituelles</strong> — récurrentes selon l'historique des 4 dernières saisons, mais pas encore confirmées sur liveFFN pour cette saison. Lieu et date estimés à partir des éditions précédentes.`;
+  header.className = 'list-info-header habituelles-variant';
+  header.innerHTML = listHeaderHtml();
   list.appendChild(header);
 
-  if (items.length === 0) {
+  if (enriched.length === 0) {
     const empty = document.createElement('li');
     empty.className = 'empty';
     empty.innerHTML = `<p class="empty-msg-1">Aucune compétition habituelle attendue pour cette fin de saison.</p><p class="empty-msg-2">Les compétitions récurrentes ont déjà été ajoutées par leurs organisateurs sur liveFFN, ou la saison touche à sa fin.</p>`;
     list.appendChild(empty);
     return;
   }
-  for (const p of items) {
+  for (const { p, dist } of enriched) {
     const li = document.createElement('li');
     li.className = 'habituelle-item';
     if (p.type === 'tournant') li.classList.add('habituelle-tournant');
     const code = p.championnatFrance ? 'F' : p.niveau;
-    // Affiche la ville si présente (CF easter egg "Lapinland" ou ville-centrée).
-    // Sinon "Lieu à confirmer" pour les tournantes locales sans hôte fixé.
     const lieuHtml = p.ville
       ? escapeHtml(p.ville)
       : `<span class="habituelle-lieu-tbd">Lieu à confirmer</span>`;
     const bassinHtml = p.bassin
       ? `<span class="bassin-tag">${p.bassin} m</span>`
       : '';
+    const distHtml = state.userPos && Number.isFinite(dist)
+      ? `<span class="distance-pin"><span class="distance-pin-ico" aria-hidden="true">📍</span>${Math.round(dist)} km</span>`
+      : '';
     const dateApprox = `${escapeHtml(p.moment)} ${escapeHtml(p.monthLabel)}`;
-    // Pour les tournantes : montrer où ça a eu lieu les éditions précédentes
     let recentCitiesHtml = '';
     if (p.type === 'tournant' && Array.isArray(p.recentCities) && p.recentCities.length > 0) {
       const list = p.recentCities.map((v) => escapeHtml(v.toLowerCase().replace(/\b(\w)/g, (m) => m.toUpperCase()))).join(', ');
@@ -894,9 +945,10 @@ function renderHabituelles() {
         <p class="meta">
           <span class="meta-text">${lieuHtml} &middot; ${dateApprox}</span>
           ${bassinHtml}
+          ${distHtml}
         </p>
         ${recentCitiesHtml}
-        <p class="habituelle-note">Compétition récurrente (vue en ${escapeHtml(p.seasonsLabel || p.confidence || '')}) — pas encore confirmée sur liveFFN.</p>
+        <p class="habituelle-note">Compétition récurrente, vue en ${escapeHtml(p.seasonsLabel || p.confidence || '')}. Pas encore confirmée sur liveFFN.</p>
       </div>
     `;
     list.appendChild(li);
@@ -959,7 +1011,7 @@ function habituellePopupHtml(p) {
       </div>
       <div>${lieuTxt} · ${escapeHtml(p.moment)} ${escapeHtml(p.monthLabel)} ${bassinTxt}</div>
       ${recentTxt}
-      <div class="habituelle-note">Compétition récurrente (vue en ${escapeHtml(p.seasonsLabel || '')}) — pas encore confirmée sur liveFFN.</div>
+      <div class="habituelle-note">Compétition récurrente, vue en ${escapeHtml(p.seasonsLabel || '')}. Pas encore confirmée sur liveFFN.</div>
     </div>
   `;
 }
