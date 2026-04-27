@@ -1,5 +1,11 @@
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; height: 100%; }
+/* Réserve la gouttière du scrollbar globalement (page principale + page
+   Statut). La page principale n'affiche jamais de scrollbar (overflow:hidden),
+   la page Statut en affiche une dès que le contenu dépasse — sans ce
+   `scrollbar-gutter: stable`, la largeur effective diffère de ~17 px entre
+   les deux, ce qui décale visuellement le bandeau. */
+html { scrollbar-gutter: stable; }
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background: #f8fafc;
@@ -20,7 +26,7 @@ header {
   flex-shrink: 0; /* pas de compression, hauteur naturelle */
 }
 .title-row {
-  display: flex; align-items: baseline; gap: 0.6rem;
+  display: flex; align-items: center; gap: 0.6rem;
   margin-bottom: 0.45rem;
 }
 .brand {
@@ -650,3 +656,279 @@ footer {
 .list-toolbar { background: transparent; border-bottom: 1px solid #bfdbfe; }
 #list li { background: transparent; border-bottom: 1px solid #bfdbfe; }
 #list li:hover, #list li:active { background: #dbeafe; }
+
+/* Lien "Voir l'historique" dans la modale À propos, après la ligne
+   "Dernière mise à jour : ...". Icône horloge inline + texte. La couleur
+   de l'icône évolue selon l'âge du dernier passage du bot
+   (classes posées par JS : fresh / warn / stale). */
+.status-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-left: 0.3rem;
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.status-link span { text-decoration: underline; }
+.status-link:hover span { color: #1d4ed8; }
+.status-link svg {
+  width: 0.95em; height: 0.95em;
+  flex-shrink: 0;
+  color: #64748b;
+}
+.status-link.fresh svg { color: #16a34a; }
+.status-link.warn  svg { color: #ea580c; }
+.status-link.stale svg { color: #dc2626; }
+
+/* --- Page Statut (statut.html) — timeline plate --- */
+/* Override le overflow:hidden global du body : la page Statut est une page
+   "documentaire" classique qui doit pouvoir scroller. */
+html:has(body.page-statut),
+body.page-statut {
+  height: auto;
+  min-height: 100%;
+  overflow: visible;
+}
+/* Réserve la gouttière du scrollbar en permanence, pour que la page ne
+   rétrécisse pas quand on bascule sur un onglet plus court (sans scroll). */
+html:has(body.page-statut) {
+  scrollbar-gutter: stable;
+}
+/* Override des règles `main { display:flex; flex:1; flex-direction:row; }`
+   héritées de la page principale : sur statut.html on veut un layout
+   document classique (block) où les sections s'empilent verticalement.
+   `width: 100%` est explicite pour neutraliser tout `flex` parent qui
+   ferait dimensionner le main au contenu (cause d'écart de largeur entre
+   onglets : si un pane est plus court, le main rétrécit). */
+body.page-statut main.statut-main {
+  display: block;
+  flex: none;
+  width: 100%;
+}
+.statut-main {
+  padding: 1rem 1.25rem 2rem;
+}
+.statut-intro { margin-bottom: 1rem; }
+.statut-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.statut-title {
+  margin: 0 0 0.4rem;
+  font-size: 1.2rem;
+  color: #0f172a;
+}
+.statut-title-row .statut-title { margin: 0; }
+.bot-status {
+  display: inline-block;
+  padding: 0.18rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+.bot-status.fresh { background: #dcfce7; color: #166534; }
+.bot-status.warn  { background: #fef3c7; color: #92400e; }
+.bot-status.stale { background: #fee2e2; color: #991b1b; }
+.statut-desc {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #334155;
+}
+.statut-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid #e2e8f0;
+  margin: 1rem 0 0.75rem;
+}
+.statut-tab {
+  flex: 1 1 0;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  padding: 0.55rem 1rem;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #64748b;
+  cursor: pointer;
+  margin-bottom: -1px;
+  text-align: center;
+}
+.statut-tab:hover { color: #0f172a; }
+.statut-tab.active {
+  color: #2563eb;
+  border-bottom-color: #2563eb;
+}
+.statut-pane[hidden] { display: none; }
+.statut-pane-desc {
+  margin: 0 0 0.75rem;
+  font-size: 0.88rem;
+  color: #475569;
+  line-height: 1.5;
+}
+.recent-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.recent-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.3rem 0;
+  font-size: 0.88rem;
+  border-bottom: 1px solid #f1f5f9;
+}
+.recent-item:last-child { border-bottom: 0; }
+.recent-stamp {
+  font-variant-numeric: tabular-nums;
+  color: #475569;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.recent-summary {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  align-items: baseline;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+.recent-summary > span {
+  padding: 0.05rem 0.4rem;
+  border-radius: 0.25rem;
+}
+.recent-zero {
+  background: #f1f5f9;
+  color: #64748b;
+  font-weight: 500;
+}
+.hist-totals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+.hist-totals > span {
+  padding: 0.2rem 0.55rem;
+  border-radius: 0.3rem;
+}
+.hist-total-added   { background: #dcfce7; color: #166534; }
+.hist-total-updated { background: #fef3c7; color: #92400e; }
+.hist-total-removed { background: #fee2e2; color: #991b1b; }
+.statut-loading {
+  text-align: center;
+  color: #64748b;
+  font-size: 0.9rem;
+  padding: 2rem 0;
+}
+.hist-empty {
+  list-style: none;
+  background: #f1f5f9;
+  border-radius: 0.4rem;
+  padding: 0.9rem 1rem;
+  color: #334155;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: center;
+}
+.hist-lines {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.hist-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.45rem 0.7rem;
+  border-left: 3px solid transparent;
+  border-radius: 0 0.25rem 0.25rem 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.hist-line + .hist-line { border-top: 1px solid #f1f5f9; }
+.hist-added   { border-left-color: #16a34a; background: #f0fdf4; }
+.hist-removed { border-left-color: #dc2626; background: #fef2f2; }
+.hist-updated { border-left-color: #ca8a04; background: #fffbeb; }
+.hist-stamp {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.78rem;
+  color: #64748b;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.hist-marker {
+  font-weight: 700;
+  font-size: 1rem;
+  width: 1.1rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+.hist-added   .hist-marker { color: #16a34a; }
+.hist-removed .hist-marker { color: #dc2626; }
+.hist-updated .hist-marker { color: #ca8a04; }
+/* hist-content : prend toute la largeur restante, ses enfants wrappent
+   sur la même ligne (titre + meta) au lieu d'être empilés à droite. */
+.hist-content {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: inline;
+}
+.hist-title {
+  color: #0f172a;
+  font-weight: 500;
+  word-break: break-word;
+}
+.hist-title a { color: #2563eb; text-decoration: none; }
+.hist-title a:hover { text-decoration: underline; }
+.hist-meta-row {
+  font-size: 0.85rem;
+  color: #475569;
+}
+.hist-meta-row::before { content: ' · '; color: #cbd5e1; padding: 0 0.05rem; }
+.line-meta { white-space: normal; }
+.line-sep { color: #cbd5e1; padding: 0 0.15rem; }
+.hist-change-label { font-weight: 600; color: #334155; }
+.hist-from {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
+.hist-arrow { color: #94a3b8; padding: 0 0.1rem; }
+.hist-to {
+  color: #0f172a;
+  font-weight: 500;
+  background: #fef3c7;
+  padding: 0 0.25rem;
+  border-radius: 0.2rem;
+}
+
+@media (max-width: 560px) {
+  .hist-line {
+    padding: 0.4rem 0.6rem;
+    gap: 0.35rem;
+  }
+  .hist-stamp {
+    flex-basis: 100%;
+    font-weight: 600;
+    color: #475569;
+  }
+}
+
+.page-statut footer a {
+  color: inherit;
+  text-decoration: underline;
+}

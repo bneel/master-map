@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://gc.zgo.at 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://couloir4.goatcounter.com; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'" />
+
+  <title>Historique des mises à jour — Couloir 4</title>
+  <meta name="description" content="Historique des mises à jour de Couloir 4 : compétitions ajoutées, modifiées et supprimées suite aux scrapings de liveFFN sur les 6 derniers mois." />
+  <meta name="robots" content="index, follow" />
+  <meta name="language" content="French" />
+  <link rel="canonical" href="https://www.couloir4.fr/statut.html" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="favicon.svg" />
+
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body class="page-statut">
+  <header>
+    <div class="title-row">
+      <a class="brand" href="./" aria-label="Couloir 4 — retour à l'accueil">
+        <img src="favicon.svg" alt="" width="32" height="32" class="brand-logo" />
+        <div class="brand-text">
+          <h1>Couloir 4</h1>
+          <p class="tagline">Les compétitions de natation des maîtres</p>
+        </div>
+      </a>
+      <button type="button" id="infoBtn" class="info-btn" aria-label="À propos — informations sur les données" title="À propos">À propos</button>
+    </div>
+  </header>
+
+  <div id="infoModal" class="modal" hidden aria-modal="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-content" role="document">
+      <button type="button" class="modal-close" id="modalClose" aria-label="Fermer">✕</button>
+      <h2 id="modalTitle" class="modal-title">À propos</h2>
+      <p class="modal-p">
+        <strong>Couloir 4</strong> recense les compétitions de natation maîtres en France sur une carte interactive. Les données proviennent de liveFFN.
+      </p>
+      <p class="modal-updated-line">Dernière mise à jour : <span id="modalUpdated">…</span>. <a href="statut.html" id="statusIcon" class="status-link"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polyline points="12,7 12,12 15,14"/></svg><span>Voir l'historique</span></a></p>
+      <hr class="modal-sep">
+      <p class="modal-author">Site développé par <strong>Benjamin Néel</strong></p>
+      <div class="modal-socials">
+        <a class="social-link social-instagram" href="https://www.instagram.com/benjamin_darneel/" target="_blank" rel="noopener" aria-label="Instagram de Benjamin">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>
+          <span>Instagram</span>
+        </a>
+        <a class="social-link social-linkedin" href="https://www.linkedin.com/in/benjaminneel/" target="_blank" rel="noopener" aria-label="LinkedIn de Benjamin">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M7 10.5h2.7v7.5H7v-7.5zm1.35-4.1a1.55 1.55 0 110 3.1 1.55 1.55 0 010-3.1zM11.3 10.5h2.6v1.05c.55-.9 1.55-1.25 2.55-1.25 2 0 2.85 1.15 2.85 3.35V18h-2.7v-3.9c0-1.05-.3-1.75-1.25-1.75s-1.35.75-1.35 1.75V18h-2.7v-7.5z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+      <hr class="modal-sep">
+      <p class="modal-p">
+        Si une compétition n'apparaît pas sur <strong>Couloir 4</strong>, ce n'est pas un bug : c'est qu'elle n'est pas encore sur liveFFN.
+      </p>
+      <p class="modal-p">
+        Si vous souhaitez faire apparaître une compétition sur <strong>Couloir 4</strong>, demandez à votre club de l'ajouter sur liveFFN et de mettre le mot « maîtres » dans le titre. Elle apparaîtra 24 h après sur <strong>Couloir 4</strong>.
+      </p>
+      <p class="modal-p">
+        Si une compétition maîtres existe sur liveFFN mais pas sur <strong>Couloir 4</strong>, soit vous n'avez pas attendu 24 h, soit le mot « maîtres » ou « master » ne figure pas dans le titre sur liveFFN. Dans ce cas, envoyez-nous une demande via <a href="https://docs.google.com/forms/d/e/1FAIpQLSf6g021DXRIjD3V0xvkoZ9mtt02SCiwz91aicK6UGp37fEwQg/viewform" target="_blank" rel="noopener">ce formulaire</a>.
+      </p>
+      <p class="modal-legal-link">
+        <button type="button" class="legal-link-btn" id="openLegalBtn">Mentions légales</button>
+      </p>
+      <p class="modal-copyright">© 2026 Benjamin Néel · Publié sous licence MIT</p>
+    </div>
+  </div>
+
+  <div id="legalModal" class="modal" hidden aria-modal="true" role="dialog" aria-labelledby="legalModalTitle">
+    <div class="modal-backdrop" id="legalModalBackdrop"></div>
+    <div class="modal-content" role="document">
+      <button type="button" class="modal-close" id="legalModalClose" aria-label="Fermer">✕</button>
+      <h2 id="legalModalTitle" class="modal-title">Mentions légales</h2>
+
+      <p class="modal-p">
+        <strong>Couloir 4</strong> est un service gratuit et libre d'accès, développé bénévolement pour la communauté des nageurs maîtres. Le code source est ouvert ; il est consultable et réutilisable sur <a href="https://github.com/bneel/master-map" target="_blank" rel="noopener">GitHub</a>.
+      </p>
+
+      <hr class="modal-sep">
+
+      <h3 class="legal-h3">Éditeur</h3>
+      <p class="modal-p">
+        Benjamin Néel, à titre personnel et bénévole.<br>
+        Contact via <a href="https://www.instagram.com/benjamin_darneel/" target="_blank" rel="noopener">Instagram</a> ou <a href="https://www.linkedin.com/in/benjaminneel/" target="_blank" rel="noopener">LinkedIn</a>.
+      </p>
+
+      <h3 class="legal-h3">Hébergeur</h3>
+      <p class="modal-p">
+        GitHub, Inc. — 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA.
+      </p>
+
+      <hr class="modal-sep">
+
+      <h3 class="legal-h3">Données &amp; vie privée</h3>
+      <p class="modal-p">
+        Couloir 4 ne dépose <strong>aucun cookie</strong> et n'utilise <strong>aucun tracker publicitaire</strong>.
+      </p>
+      <p class="modal-p">
+        <strong>Statistiques de fréquentation.</strong> Le site utilise GoatCounter (<code>couloir4.goatcounter.com</code>), un outil d'analyse sans cookie. Les données collectées sont anonymisées : page vue, référent, pays approximatif, type de navigateur. Aucune adresse IP ni identifiant personnel n'est conservé. Base légale : intérêt légitime (la CNIL exempte de consentement les outils de mesure d'audience non-traçants).
+      </p>
+      <p class="modal-p">
+        <strong>Stockage local.</strong> Votre dernière position géographique, utilisée pour calculer les distances aux compétitions, est conservée uniquement dans votre navigateur via <code>localStorage</code> (clé <code>couloir4.userPos.v1</code>). Elle n'est jamais transmise à un serveur. Vous pouvez l'effacer à tout moment via les paramètres de votre navigateur.
+      </p>
+      <p class="modal-p">
+        <strong>Vos droits.</strong> Aucune donnée personnelle n'étant collectée par l'éditeur, il n'y a pas de demande à formuler. Pour toute question, vous pouvez contacter l'éditeur via Instagram ou LinkedIn.
+      </p>
+
+      <hr class="modal-sep">
+
+      <h3 class="legal-h3">Sources &amp; crédits</h3>
+      <p class="modal-p">
+        Les données de compétitions proviennent de <a href="https://liveffn.com" target="_blank" rel="noopener">liveFFN</a>, site de la Fédération Française de Natation. Couloir 4 est un projet <strong>indépendant et non-officiel</strong>, sans aucun lien avec la FFN.
+      </p>
+      <p class="modal-p">
+        Cartographie : <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> (© contributeurs OSM), fond de carte <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a>.
+      </p>
+
+      <hr class="modal-sep">
+
+      <h3 class="legal-h3">Note aux administrateurs de liveFFN</h3>
+      <p class="modal-p">
+        Couloir 4 consulte liveFFN pour récupérer le calendrier des compétitions maîtres et les tailles de bassin. Le trafic est volontairement <strong>ultralight</strong> : 2 passages automatisés par jour (vers 11 h et 17 h, moins de 10 pages visitées à chaque passage).
+      </p>
+      <p class="modal-p">
+        En cas de besoin, merci de me contacter via Instagram ou LinkedIn.
+      </p>
+    </div>
+  </div>
+
+  <main class="statut-main">
+    <section class="statut-intro">
+      <div class="statut-title-row">
+        <h2 class="statut-title">Historique des mises à jour</h2>
+        <span id="botStatus" class="bot-status" hidden></span>
+      </div>
+    </section>
+
+    <div id="statutError" class="error" hidden></div>
+    <div id="statutLoading" class="statut-loading">Chargement de l'historique…</div>
+
+    <nav class="statut-tabs" id="statutTabs" role="tablist" aria-label="Onglets historique">
+      <button type="button" class="statut-tab active" id="tabChanges" data-tab="changes" role="tab" aria-selected="true" aria-controls="paneChanges">Historique des modifications</button>
+      <button type="button" class="statut-tab" id="tabRuns" data-tab="runs" role="tab" aria-selected="false" aria-controls="paneRuns">Historique du bot</button>
+    </nav>
+
+    <section id="paneChanges" class="statut-pane statut-pane-active" role="tabpanel" aria-labelledby="tabChanges">
+      <p class="statut-pane-desc">Cette page recense toutes les modifications sur les 3 derniers mois (ajout, modification, suppression).</p>
+      <div id="statutTotals" class="hist-totals" aria-label="Totaux"></div>
+      <ol id="statutLines" class="hist-lines"></ol>
+    </section>
+
+    <section id="paneRuns" class="statut-pane" role="tabpanel" aria-labelledby="tabRuns" hidden>
+      <p class="statut-pane-desc">Cette page retrace tous les passages du bot sur liveFFN sur les 30 derniers jours.</p>
+      <ul id="recentList" class="recent-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    Non officiel &middot; Source&nbsp;: liveffn.com &middot; <a href="./">Retour à l'accueil</a>
+  </footer>
+
+  <script src="statut.js"></script>
+  <script data-goatcounter="https://couloir4.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

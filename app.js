@@ -317,6 +317,19 @@ function formatUpdated(iso) {
   return { text };
 }
 
+// Coloration de l'icône horloge du header selon l'âge du dernier scraping.
+// Cron 2×/jour → âge nominal < 12 h. Seuils :
+//   <36h : fresh (gris neutre)  / 36-72h : warn (orange)  / >72h : stale (rouge)
+function applyStatusIconAge(iso) {
+  const icon = document.getElementById('statusIcon');
+  if (!icon) return;
+  const diffH = (Date.now() - new Date(iso).getTime()) / 3600000;
+  icon.classList.remove('fresh', 'warn', 'stale');
+  if (!Number.isFinite(diffH) || diffH < 36) icon.classList.add('fresh');
+  else if (diffH < 72) icon.classList.add('warn');
+  else icon.classList.add('stale');
+}
+
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c => (
     { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
@@ -630,6 +643,7 @@ async function loadData() {
 
   if (data.generatedAt) {
     state.updatedText = formatUpdated(data.generatedAt).text;
+    applyStatusIconAge(data.generatedAt);
   }
 
   state.seasons = Array.isArray(data.seasons) ? data.seasons : [];

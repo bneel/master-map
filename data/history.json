@@ -1,0 +1,146 @@
+{
+  "generatedAt": "2026-04-27T16:29:29.000Z",
+  "scraperRuns": [
+    {
+      "scrapedAt": "2026-04-27T12:21:32.000Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
+    {
+      "scrapedAt": "2026-04-27T11:55:22.000Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 2
+      }
+    },
+    {
+      "scrapedAt": "2026-04-26T17:49:17.000Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
+    {
+      "scrapedAt": "2026-04-26T11:42:00.000Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
+    {
+      "scrapedAt": "2026-04-25T17:47:03.000Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    }
+  ],
+  "runs": [
+    {
+      "scrapedAt": "2026-04-27T12:21:32.000Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "93710",
+          "nom": "Meeting Masters Paul-Izard",
+          "ville": "PAU",
+          "dateDebut": "2026-05-23",
+          "dateFin": "2026-05-23",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93710"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
+    {
+      "scrapedAt": "2026-04-27T11:55:22.000Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 2
+      },
+      "added": [
+        {
+          "id": "92474",
+          "nom": "Championnats de la Manche et du Calvados OPEN - Maitres",
+          "ville": "SAINT-LÔ",
+          "dateDebut": "2026-06-13",
+          "dateFin": "2026-06-13",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92474"
+        }
+      ],
+      "removed": [],
+      "updated": [
+        {
+          "id": "93589",
+          "nom": "Championnat de Paris Open des Maîtres - Printemps",
+          "ville": "PARIS",
+          "dateDebut": "2026-04-25",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "CHAMPIONNAT DE PARIS OPEN DES MAÎTRES - PRINTEMPS",
+              "to": "Championnat de Paris Open des Maîtres - Printemps"
+            }
+          ]
+        },
+        {
+          "id": "93304",
+          "nom": "1ère Journée Maîtres du Cantal",
+          "ville": "AURILLAC",
+          "dateDebut": "2026-04-26",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "1er Journée Maîtres Cantal",
+              "to": "1ère Journée Maîtres du Cantal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scrapedAt": "2026-04-23T09:14:32.000Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "92801",
+          "nom": "19e Meeting de Combs-la-Ville",
+          "ville": "COMBS-LA-VILLE",
+          "dateDebut": "2026-04-19",
+          "dateFin": "2026-04-19",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92801"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    }
+  ]
+}

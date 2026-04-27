@@ -26,6 +26,38 @@ const POOL_SIZES_PATH = path.join(DATA_DIR, "pool_sizes.json");
 const OVERRIDES_PATH = path.join(DATA_DIR, "cities_overrides.json");
 const CALENDAR_CACHE_DIR = path.join(DATA_DIR, "calendar_cache");
 const PREDICTIONS_PATH = path.join(DATA_DIR, "predictions.json");
+const HISTORY_PATH = path.join(DATA_DIR, "history.json");
+
+// Fenêtre glissante de l'historique des runs (en millisecondes).
+// Un run plus ancien que cette fenêtre est purgé à chaque écriture.
+const HISTORY_WINDOW_MS = 3 * 30 * 24 * 60 * 60 * 1000; // ~3 mois
+
+// Fenêtre glissante des passages du scraper conservés en tête de
+// history.json (champ scraperRuns), affichée dans l'onglet "Passages"
+// de la page Statut. À 2 passages/jour, 30 j ≈ 60 entrées (≈ 4 KB).
+const SCRAPER_RUNS_WINDOW_MS = 30 * 24 * 60 * 60 * 1000;
+
+// Champs comparés entre 2 snapshots de competitions.json pour détecter les
+// updates. lat/lon exclus volontairement : dérivés du géocodage, peuvent
+// bouger sur reload du cache Nominatim sans qu'il y ait eu de vraie évolution.
+const HISTORY_TRACKED_FIELDS = [
+  "nom",
+  "ville",
+  "dateDebut",
+  "dateFin",
+  "niveau",
+  "niveauLibelle",
+  "championnatFrance",
+  "bassin",
+  "url",
+];
+
+// Cut-off de pertinence pour l'historique : on n'enregistre un changement
+// (ajout/retrait/modif) que si la compétition concernée a lieu au plus
+// HISTORY_RELEVANCE_DAYS jours avant la date du run (donc compés futures
+// + tout juste passées). Évite que l'élargissement de la fenêtre de
+// scraping crée des "ajouts" massifs de compés des saisons antérieures.
+const HISTORY_RELEVANCE_DAYS = 7;
 
 // User-Agent explicite pour les administrateurs de liveffn.com :
 // - nom du projet clairement identifié (Couloir 4)
@@ -644,10 +676,171 @@ async function geocodeAll(cities, cache) {
   }
 }
 
+// --- Historique des runs ------------------------------------------------
+// Suit les ajouts/retraits/modifications de compétitions entre 2 runs
+// successifs du scraper. Alimente data/history.json, lu par statut.html.
+
+// Lit le snapshot précédent de competitions.json pour servir de base au
+// diff. Soft-fail : fichier absent, JSON invalide, schéma surprenant → on
+// part avec une liste vide (le diff produira potentiellement des "added"
+// pour tout ce qui existe, ce qui reste vrai au sens de "ce qu'on n'avait
+// pas avant").
+async function loadPreviousCompetitions() {
+  try {
+    const txt = await readFile(COMPETITIONS_PATH, "utf8");
+    const data = JSON.parse(txt);
+    return Array.isArray(data?.competitions) ? data.competitions : [];
+  } catch (err) {
+    if (err.code !== "ENOENT") {
+      console.warn(`[history] lecture snapshot précédent échouée: ${err.message}, on part de vide`);
+    }
+    return [];
+  }
+}
+
+// Construit le payload "compact" d'une compétition pour l'historique.
+// Champs HISTORY_TRACKED_FIELDS uniquement → garde history.json léger.
+function historyEntryFor(c) {
+  const out = { id: c.id };
+  for (const f of HISTORY_TRACKED_FIELDS) out[f] = c[f] ?? null;
+  return out;
+}
+
+// Calcule added/removed/updated entre 2 listes de compétitions.
+function diffCompetitions(prev, next) {
+  const prevById = new Map(prev.map((c) => [c.id, c]));
+  const nextById = new Map(next.map((c) => [c.id, c]));
+  const added = [];
+  const removed = [];
+  const updated = [];
+  for (const [id, c] of nextById) {
+    if (!prevById.has(id)) added.push(historyEntryFor(c));
+  }
+  for (const [id, c] of prevById) {
+    if (!nextById.has(id)) removed.push(historyEntryFor(c));
+  }
+  for (const [id, after] of nextById) {
+    const before = prevById.get(id);
+    if (!before) continue;
+    const changes = [];
+    for (const f of HISTORY_TRACKED_FIELDS) {
+      const a = before[f] ?? null;
+      const b = after[f] ?? null;
+      if (a !== b) changes.push({ field: f, from: a, to: b });
+    }
+    if (changes.length > 0) {
+      updated.push({
+        id,
+        nom: after.nom,
+        ville: after.ville,
+        dateDebut: after.dateDebut,
+        changes,
+      });
+    }
+  }
+  return { added, removed, updated };
+}
+
+// Cutoff "compé pertinente au moment du run" :
+// dateDebut >= (jour du run - HISTORY_RELEVANCE_DAYS).
+function relevanceCutoffIso(runDate) {
+  const d = new Date(runDate);
+  d.setUTCDate(d.getUTCDate() - HISTORY_RELEVANCE_DAYS);
+  return d.toISOString().slice(0, 10);
+}
+
+function isCompRelevantAtRun(entry, cutoffIso) {
+  // Pas de date connue : on garde par sécurité (cas rare).
+  if (!entry || !entry.dateDebut) return true;
+  return entry.dateDebut >= cutoffIso;
+}
+
+async function updateHistory(previousCompetitions, currentCompetitions, now) {
+  const rawDiff = diffCompetitions(previousCompetitions, currentCompetitions);
+  const cutoffIso = relevanceCutoffIso(now);
+  const diff = {
+    added:   rawDiff.added.filter((c) => isCompRelevantAtRun(c, cutoffIso)),
+    removed: rawDiff.removed.filter((c) => isCompRelevantAtRun(c, cutoffIso)),
+    updated: rawDiff.updated.filter((u) => isCompRelevantAtRun(u, cutoffIso)),
+  };
+  const counts = {
+    added: diff.added.length,
+    removed: diff.removed.length,
+    updated: diff.updated.length,
+  };
+  const totalChanges = counts.added + counts.removed + counts.updated;
+
+  // Charge l'historique existant : runs détaillés + 5 derniers passages.
+  let history = { generatedAt: null, scraperRuns: [], runs: [] };
+  try {
+    const txt = await readFile(HISTORY_PATH, "utf8");
+    const data = JSON.parse(txt);
+    history = {
+      generatedAt: data?.generatedAt ?? null,
+      scraperRuns: Array.isArray(data?.scraperRuns) ? data.scraperRuns : [],
+      runs: Array.isArray(data?.runs) ? data.runs : [],
+    };
+  } catch (err) {
+    if (err.code !== "ENOENT") {
+      console.warn(`[history] lecture échouée: ${err.message}, on repart de vide`);
+    }
+  }
+
+  // Toujours mettre à jour scraperRuns (tous les passages dans la fenêtre
+  // glissante, même sans changement), pour l'onglet "Passages" de la page
+  // Statut.
+  const runsCutoffMs = now.getTime() - SCRAPER_RUNS_WINDOW_MS;
+  const scraperRuns = [
+    { scrapedAt: now.toISOString(), counts },
+    ...history.scraperRuns,
+  ].filter((r) => {
+    const t = Date.parse(r.scrapedAt);
+    return Number.isFinite(t) && t >= runsCutoffMs;
+  });
+
+  // runs détaillés : on n'ajoute une entrée que s'il y a au moins un
+  // changement pertinent, et on purge ce qui dépasse la fenêtre.
+  const cutoffMs = now.getTime() - HISTORY_WINDOW_MS;
+  let runs = history.runs.filter((r) => {
+    const t = Date.parse(r.scrapedAt);
+    return Number.isFinite(t) && t >= cutoffMs;
+  });
+  if (totalChanges > 0) {
+    runs = [
+      {
+        scrapedAt: now.toISOString(),
+        counts,
+        added: diff.added,
+        removed: diff.removed,
+        updated: diff.updated,
+      },
+      ...runs,
+    ];
+  }
+
+  const output = {
+    generatedAt: now.toISOString(),
+    scraperRuns,
+    runs,
+  };
+  await atomicWriteFile(HISTORY_PATH, JSON.stringify(output, null, 2) + "\n");
+  if (totalChanges > 0) {
+    console.log(
+      `[history] run enregistré (+${counts.added} -${counts.removed} ~${counts.updated}), ${runs.length} runs en fenêtre`,
+    );
+  } else {
+    console.log("[history] aucun changement pertinent, scraperRuns mis à jour");
+  }
+}
+
 // --- main ---------------------------------------------------------------
 
 async function main() {
   await mkdir(DATA_DIR, { recursive: true });
+
+  // Snapshot précédent lu AVANT toute écriture, pour produire le diff
+  // (added/removed/updated) qui alimente data/history.json à la fin du run.
+  const previousSnapshot = await loadPreviousCompetitions();
 
   const now = new Date();
   // Plage : début de la N-ième saison précédente (SCRAPE_PREVIOUS_SEASONS)
@@ -867,6 +1060,16 @@ async function main() {
   // 7. Écriture finale (au cas où le dernier flush périodique n'a pas eu lieu)
   await writeCompetitions();
   await flushPoolCache(poolCache);
+
+  // 7b. Mise à jour de l'historique : diff entre l'ancien et le nouveau
+  // snapshot. N'enregistre un run que s'il y a au moins un changement.
+  // Filet : un bug ici ne doit pas faire planter le scraper, les données
+  // principales (competitions.json, pool_sizes.json) sont déjà écrites.
+  try {
+    await updateHistory(previousSnapshot, kept, now);
+  } catch (err) {
+    console.warn(`[history] erreur updateHistory: ${err.message} (ignoré)`);
+  }
 
   const bassin25 = kept.filter(c => c.bassin === 25).length;
   const bassin50 = kept.filter(c => c.bassin === 50).length;
