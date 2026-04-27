@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T17:49:16.998Z",
+  "generatedAt": "2026-04-27T11:55:22.509Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10048,7 +10048,7 @@
     },
     {
       "id": "93589",
-      "nom": "CHAMPIONNAT DE PARIS OPEN DES MAÎTRES - PRINTEMPS",
+      "nom": "Championnat de Paris Open des Maîtres - Printemps",
       "ville": "PARIS",
       "dateDebut": "2026-04-25",
       "dateFin": "2026-04-25",
@@ -10062,7 +10062,7 @@
     },
     {
       "id": "93304",
-      "nom": "1er Journée Maîtres Cantal",
+      "nom": "1ère Journée Maîtres du Cantal",
       "ville": "AURILLAC",
       "dateDebut": "2026-04-26",
       "dateFin": "2026-04-26",
@@ -10479,6 +10479,20 @@
       "lat": 48.0647729,
       "lon": -2.9675702,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93644"
+    },
+    {
+      "id": "92474",
+      "nom": "Championnats de la Manche et du Calvados OPEN - Maitres",
+      "ville": "SAINT-LÔ",
+      "dateDebut": "2026-06-13",
+      "dateFin": "2026-06-13",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 49.115808,
+      "lon": -1.0909278,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92474"
     },
     {
       "id": "93657",

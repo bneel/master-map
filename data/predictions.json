@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T17:49:17.051Z",
+  "generatedAt": "2026-04-27T11:55:22.569Z",
   "season": "2025-2026",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -406,33 +406,6 @@
         "MULHOUSE",
         "NÎMES",
         "MONTPELLIER"
-      ]
-    },
-    {
-      "id": "habituelle-T_D_calvado_championnat_manche-2026-06",
-      "type": "tournant",
-      "nom": "Championnats de la Manche et du Calvados OPEN - Maitres",
-      "ville": null,
-      "lat": 49.115808,
-      "lon": -1.0909278,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "06",
-      "monthLabel": "juin",
-      "moment": "mi",
-      "expectedDate": "2026-06-19",
-      "dispersionDays": 10,
-      "seasonsSeen": [
-        "2024-2025",
-        "2023-2024",
-        "2021-2022"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2025, 2024, 2022",
-      "recentCities": [
-        "SAINT-LÔ"
       ]
     },
     {
