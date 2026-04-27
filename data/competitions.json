@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T12:21:31.892Z",
+  "generatedAt": "2026-04-27T16:59:48.066Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10157,6 +10157,20 @@
       "lat": 49.1813403,
       "lon": -0.3635615,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93230"
+    },
+    {
+      "id": "93723",
+      "nom": "2EME MEETING DE LA PLAGE MAITRES",
+      "ville": "PONTIVY",
+      "dateDebut": "2026-05-03",
+      "dateFin": "2026-05-03",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 50,
+      "lat": 48.0647729,
+      "lon": -2.9675702,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93723"
     },
     {
       "id": "93509",
