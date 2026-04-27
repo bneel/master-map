@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T11:55:22.569Z",
+  "generatedAt": "2026-04-27T12:21:31.947Z",
   "season": "2025-2026",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -161,32 +161,6 @@
       "recentCities": [
         "ARGENTON-SUR-CREUSE",
         "VILLEJUIF"
-      ]
-    },
-    {
-      "id": "habituelle-V_PAU_D-2026-05",
-      "type": "ville",
-      "nom": "Meeting Masters de Pau - Paul Izard",
-      "ville": "PAU",
-      "lat": 43.2957547,
-      "lon": -0.3685668,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 50,
-      "month": "05",
-      "monthLabel": "mai",
-      "moment": "fin",
-      "expectedDate": "2026-05-29",
-      "dispersionDays": 5,
-      "seasonsSeen": [
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2025, 2024",
-      "recentCities": [
-        "PAU"
       ]
     },
     {

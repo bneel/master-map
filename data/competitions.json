@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T11:55:22.509Z",
+  "generatedAt": "2026-04-27T12:21:31.892Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10297,6 +10297,20 @@
       "lat": 46.0986791,
       "lon": 4.7359529,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93646"
+    },
+    {
+      "id": "93710",
+      "nom": "Meeting Masters Paul-Izard",
+      "ville": "PAU",
+      "dateDebut": "2026-05-23",
+      "dateFin": "2026-05-23",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 50,
+      "lat": 43.2957547,
+      "lon": -0.3685668,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93710"
     },
     {
       "id": "92861",
