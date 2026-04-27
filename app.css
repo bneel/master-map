@@ -62,11 +62,6 @@ header {
 }
 .info-btn:hover { background: #1d4ed8; }
 .info-btn-icon { font-size: 0.95rem; line-height: 1; }
-/* Variantes de staleness — signalent visuellement l'âge des données */
-.info-btn.warn { background: #ea580c; }
-.info-btn.warn:hover { background: #c2410c; }
-.info-btn.stale { background: #dc2626; }
-.info-btn.stale:hover { background: #b91c1c; }
 
 /* Modal "À propos" */
 .modal[hidden] { display: none; }
@@ -111,8 +106,6 @@ header {
   color: #64748b;
 }
 #modalUpdated { font-weight: 600; color: #16a34a; }
-#modalUpdated.warn { color: #ea580c; }
-#modalUpdated.stale { color: #dc2626; }
 .modal-sep { border: 0; border-top: 1px solid #e2e8f0; margin: 0.75rem 0; }
 /* Ligne "Site développé par …" + icônes réseaux */
 .modal-author {
@@ -164,6 +157,30 @@ header {
   text-align: center;
   font-size: 0.7rem;
   color: #64748b;
+}
+
+.modal-legal-link {
+  margin: 0.9rem 0 0;
+  text-align: center;
+}
+.legal-link-btn {
+  background: none; border: 0; padding: 0;
+  color: #2563eb; text-decoration: underline;
+  font: inherit; font-size: 0.8rem; cursor: pointer;
+}
+.legal-link-btn:hover { color: #1d4ed8; }
+
+.legal-h3 {
+  margin: 0.9rem 0 0.4rem;
+  font-size: 0.9rem;
+  color: #0f172a;
+}
+.legal-h3:first-of-type { margin-top: 0; }
+#legalModal code {
+  font-size: 0.78rem;
+  background: #f1f5f9;
+  padding: 0.05rem 0.3rem;
+  border-radius: 0.2rem;
 }
 
 .controls-row {

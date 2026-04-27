@@ -314,8 +314,7 @@ function formatUpdated(iso) {
   else if (diffH < 24) text = `il y a ${Math.floor(diffH)} h`;
   else if (diffH < 48) text = 'hier';
   else text = `il y a ${Math.floor(diffH / 24)} jours`;
-  const cls = diffH >= 72 ? 'stale' : diffH >= 36 ? 'warn' : '';
-  return { text, cls, stale: diffH >= 72 };
+  return { text };
 }
 
 function escapeHtml(s) {
@@ -630,12 +629,7 @@ async function loadData() {
   const data = await res.json();
 
   if (data.generatedAt) {
-    const u = formatUpdated(data.generatedAt);
-    const btn = document.getElementById('infoBtn');
-    btn.classList.remove('warn', 'stale');
-    if (u.cls) btn.classList.add(u.cls);
-    state.updatedText = u.text;
-    state.updatedClass = u.cls;
+    state.updatedText = formatUpdated(data.generatedAt).text;
   }
 
   state.seasons = Array.isArray(data.seasons) ? data.seasons : [];
@@ -1036,8 +1030,6 @@ function initInfoModal() {
   function open() {
     trackEvent('modale:about:open');
     updatedEl.textContent = state.updatedText || 'date indisponible';
-    updatedEl.classList.remove('warn', 'stale');
-    if (state.updatedClass) updatedEl.classList.add(state.updatedClass);
     previouslyFocused = document.activeElement;
     modal.hidden = false;
     keyAbort = new AbortController();
@@ -1070,6 +1062,40 @@ function initInfoModal() {
   });
 }
 
+function initLegalModal() {
+  const openBtn = document.getElementById('openLegalBtn');
+  const modal = document.getElementById('legalModal');
+  const backdrop = document.getElementById('legalModalBackdrop');
+  const closeBtn = document.getElementById('legalModalClose');
+  if (!openBtn || !modal) return;
+
+  let keyAbort = null;
+  let previouslyFocused = null;
+
+  function open() {
+    trackEvent('modale:legal:open');
+    previouslyFocused = document.activeElement;
+    modal.hidden = false;
+    keyAbort = new AbortController();
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !modal.hidden) close();
+    }, { signal: keyAbort.signal });
+    setTimeout(() => closeBtn.focus(), 0);
+  }
+  function close() {
+    modal.hidden = true;
+    if (keyAbort) { keyAbort.abort(); keyAbort = null; }
+    if (previouslyFocused && typeof previouslyFocused.focus === 'function') {
+      previouslyFocused.focus();
+    }
+    previouslyFocused = null;
+  }
+
+  openBtn.addEventListener('click', open);
+  closeBtn.addEventListener('click', close);
+  backdrop.addEventListener('click', close);
+}
+
 function initLegendClose() {
   const legend = document.getElementById('legend');
   const btn = document.getElementById('legendClose');
@@ -1085,6 +1111,7 @@ async function init() {
   initSort();
   initLocation();
   initInfoModal();
+  initLegalModal();
   initReload();
   initLegendClose();
 
