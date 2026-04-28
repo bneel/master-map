@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T18:10:53.920Z",
+  "generatedAt": "2026-04-28T12:25:14.633Z",
   "season": "2025-2026",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -108,32 +108,6 @@
       "seasonsLabel": "2025, 2024",
       "recentCities": [
         "LURE"
-      ]
-    },
-    {
-      "id": "habituelle-V_NOGENT_SUR_OISE_D-2026-05",
-      "type": "ville",
-      "nom": "Meeting les Maîtres en Fête",
-      "ville": "NOGENT-SUR-OISE",
-      "lat": 49.2720766,
-      "lon": 2.469591,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "05",
-      "monthLabel": "mai",
-      "moment": "fin",
-      "expectedDate": "2026-05-25",
-      "dispersionDays": 1,
-      "seasonsSeen": [
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2025, 2024",
-      "recentCities": [
-        "NOGENT-SUR-OISE"
       ]
     },
     {

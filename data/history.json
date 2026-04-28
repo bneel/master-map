@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-04-27T18:10:30.804Z",
+  "generatedAt": "2026-04-28T12:24:51.898Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-04-28T12:24:51.898Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-04-27T18:10:30.804Z",
       "counts": {
@@ -59,6 +67,30 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-04-28T12:24:51.898Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "93375",
+          "nom": "Meeting les Maîtres en Fête",
+          "ville": "NOGENT-SUR-OISE",
+          "dateDebut": "2026-05-30",
+          "dateFin": "2026-05-30",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93375"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-04-27T16:59:24.716Z",
       "counts": {

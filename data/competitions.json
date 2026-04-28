@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T18:10:53.868Z",
+  "generatedAt": "2026-04-28T12:25:14.576Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10339,6 +10339,20 @@
       "lat": 51.071002,
       "lon": 2.5245134,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92861"
+    },
+    {
+      "id": "93375",
+      "nom": "Meeting les Maîtres en Fête",
+      "ville": "NOGENT-SUR-OISE",
+      "dateDebut": "2026-05-30",
+      "dateFin": "2026-05-30",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 49.2720766,
+      "lon": 2.469591,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93375"
     },
     {
       "id": "93379",
