@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T12:25:14.576Z",
+  "generatedAt": "2026-04-28T18:22:43.839Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10185,6 +10185,34 @@
       "lat": 48.5197475,
       "lon": 3.7263678,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93509"
+    },
+    {
+      "id": "93457",
+      "nom": "Tournoi de Vitesse Maîtres des Alpes Maritimes",
+      "ville": "VALLAURIS",
+      "dateDebut": "2026-05-03",
+      "dateFin": "2026-05-03",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.5761001,
+      "lon": 7.05859,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93457"
+    },
+    {
+      "id": "93462",
+      "nom": "Championnats Départementaux des Maîtres des Alpes Maritimes",
+      "ville": "VALLAURIS",
+      "dateDebut": "2026-05-03",
+      "dateFin": "2026-05-03",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.5761001,
+      "lon": 7.05859,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93462"
     },
     {
       "id": "93674",

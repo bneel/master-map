@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-04-28T12:24:51.898Z",
+  "generatedAt": "2026-04-28T18:22:09.345Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-04-28T18:22:09.345Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-04-28T12:24:51.898Z",
       "counts": {
@@ -67,6 +75,42 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-04-28T18:22:09.345Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "93457",
+          "nom": "Tournoi de Vitesse Maîtres des Alpes Maritimes",
+          "ville": "VALLAURIS",
+          "dateDebut": "2026-05-03",
+          "dateFin": "2026-05-03",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93457"
+        },
+        {
+          "id": "93462",
+          "nom": "Championnats Départementaux des Maîtres des Alpes Maritimes",
+          "ville": "VALLAURIS",
+          "dateDebut": "2026-05-03",
+          "dateFin": "2026-05-03",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93462"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-04-28T12:24:51.898Z",
       "counts": {
