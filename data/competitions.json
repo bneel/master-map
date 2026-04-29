@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T12:18:52.710Z",
+  "generatedAt": "2026-04-29T18:18:07.983Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10171,20 +10171,6 @@
       "lat": 48.0647729,
       "lon": -2.9675702,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93723"
-    },
-    {
-      "id": "93509",
-      "nom": "2ème printemps des maîtres",
-      "ville": "ROMILLY-SUR-SEINE",
-      "dateDebut": "2026-05-03",
-      "dateFin": "2026-05-03",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 48.5197475,
-      "lon": 3.7263678,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93509"
     },
     {
       "id": "93457",
