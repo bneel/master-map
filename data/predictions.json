@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T18:18:08.047Z",
+  "generatedAt": "2026-04-30T12:17:07.857Z",
   "season": "2025-2026",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -82,32 +82,6 @@
       "seasonsLabel": "2025, 2024",
       "recentCities": [
         "SAINT-LEU"
-      ]
-    },
-    {
-      "id": "habituelle-V_LURE_D-2026-05",
-      "type": "ville",
-      "nom": "Meeting Maîtres Open",
-      "ville": "LURE",
-      "lat": 47.6863376,
-      "lon": 6.4946806,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "05",
-      "monthLabel": "mai",
-      "moment": "mi",
-      "expectedDate": "2026-05-19",
-      "dispersionDays": 10,
-      "seasonsSeen": [
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2025, 2024",
-      "recentCities": [
-        "LURE"
       ]
     },
     {

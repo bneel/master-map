@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-04-29T18:17:46.246Z",
+  "generatedAt": "2026-04-30T12:16:36.121Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-04-30T12:16:36.121Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-04-29T18:17:46.246Z",
       "counts": {
@@ -91,6 +99,42 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-04-30T12:16:36.121Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "93700",
+          "nom": "MASTERS - Meeting Qualificatif #4",
+          "ville": "CAYENNE",
+          "dateDebut": "2026-05-02",
+          "dateFin": "2026-05-02",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93700"
+        },
+        {
+          "id": "92557",
+          "nom": "Meeting Maîtres Open",
+          "ville": "LURE",
+          "dateDebut": "2026-05-08",
+          "dateFin": "2026-05-08",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92557"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-04-29T18:17:46.246Z",
       "counts": {
