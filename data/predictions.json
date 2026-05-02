@@ -1,35 +1,8 @@
 {
-  "generatedAt": "2026-05-01T18:04:08.713Z",
+  "generatedAt": "2026-05-02T11:49:37.192Z",
   "season": "2025-2026",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
-    {
-      "id": "habituelle-T_D_departementale_journee-2026-05",
-      "type": "tournant",
-      "nom": "Journée Départementale Maitres",
-      "ville": null,
-      "lat": 48.8376296,
-      "lon": -1.5959177,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "05",
-      "monthLabel": "mai",
-      "moment": "début",
-      "expectedDate": "2026-05-01",
-      "dispersionDays": 3,
-      "seasonsSeen": [
-        "2024-2025",
-        "2023-2024",
-        "2021-2022"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2025, 2024, 2022",
-      "recentCities": [
-        "GRANVILLE"
-      ]
-    },
     {
       "id": "habituelle-T_R_championnat_normandie-2026-05",
       "type": "tournant",
