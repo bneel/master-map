@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T11:46:51.333Z",
+  "generatedAt": "2026-05-03T17:52:43.409Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10381,6 +10381,20 @@
       "lat": 51.071002,
       "lon": 2.5245134,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92861"
+    },
+    {
+      "id": "93599",
+      "nom": "5th Meeting Of The Ducks - Maîtres",
+      "ville": "LUNÉVILLE",
+      "dateDebut": "2026-05-25",
+      "dateFin": "2026-05-25",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 50,
+      "lat": 48.5916164,
+      "lon": 6.4919563,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93599"
     },
     {
       "id": "93375",
