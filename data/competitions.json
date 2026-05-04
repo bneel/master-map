@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T12:22:17.428Z",
+  "generatedAt": "2026-05-04T18:22:08.502Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10495,6 +10495,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93421"
     },
     {
+      "id": "93157",
+      "nom": "14e Meeting National des Maîtres de Toulouse",
+      "ville": "TOULOUSE",
+      "dateDebut": "2026-06-07",
+      "dateFin": "2026-06-07",
+      "niveau": "N",
+      "niveauLibelle": "National",
+      "championnatFrance": false,
+      "bassin": 50,
+      "lat": 43.6044638,
+      "lon": 1.4442433,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93157"
+    },
+    {
       "id": "92770",
       "nom": "Championnat Départemental Eté 50m Masters",
       "ville": "SAUVIAN",
@@ -10605,6 +10619,20 @@
       "lat": 48.2020717,
       "lon": 5.9418851,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93657"
+    },
+    {
+      "id": "93795",
+      "nom": "Meeting maîtres 1",
+      "ville": "GRAMAT",
+      "dateDebut": "2026-06-28",
+      "dateFin": "2026-06-28",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 44.7789948,
+      "lon": 1.723394,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93795"
     }
   ]
 }

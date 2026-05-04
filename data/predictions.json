@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T12:22:17.485Z",
+  "generatedAt": "2026-05-04T18:22:08.562Z",
   "season": "2025-2026",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -194,32 +194,6 @@
       "recentCities": [
         "AJACCIO",
         "BASTIA"
-      ]
-    },
-    {
-      "id": "habituelle-V_TOULOUSE_N-2026-06",
-      "type": "ville",
-      "nom": "13e Meeting National des Maîtres de Toulouse",
-      "ville": "TOULOUSE",
-      "lat": 43.6044638,
-      "lon": 1.4442433,
-      "niveau": "N",
-      "niveauLibelle": "National",
-      "championnatFrance": false,
-      "bassin": 50,
-      "month": "06",
-      "monthLabel": "juin",
-      "moment": "début",
-      "expectedDate": "2026-06-07",
-      "dispersionDays": 0,
-      "seasonsSeen": [
-        "2024-2025",
-        "2021-2022"
-      ],
-      "consecutiveStreak": 1,
-      "seasonsLabel": "2025, 2022",
-      "recentCities": [
-        "TOULOUSE"
       ]
     },
     {
