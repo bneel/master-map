@@ -898,9 +898,20 @@ body.page-statut main.statut-main {
   text-align: center;
   flex-shrink: 0;
 }
-.hist-added   .hist-marker { color: #16a34a; }
-.hist-removed .hist-marker { color: #dc2626; }
-.hist-updated .hist-marker { color: #ca8a04; }
+.hist-badge {
+  display: inline-block;
+  flex-shrink: 0;
+  padding: 0.1rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  text-transform: lowercase;
+}
+.hist-badge-added   { background: #dcfce7; color: #166534; }
+.hist-badge-updated { background: #fef3c7; color: #92400e; }
+.hist-badge-removed { background: #fee2e2; color: #991b1b; }
 /* hist-content : prend toute la largeur restante, ses enfants wrappent
    sur la même ligne (titre + meta) au lieu d'être empilés à droite. */
 .hist-content {

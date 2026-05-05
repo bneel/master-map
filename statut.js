@@ -110,11 +110,12 @@ function lineMetaInline(parts) {
   return parts.filter(Boolean).map((p) => `<span class="line-meta">${p}</span>`).join(' <span class="line-sep">·</span> ');
 }
 
-// Ligne d'un changement : marker · titre · meta — pas de timestamp (la date
-// est portée par la ligne « passage du bot » qui ouvre le groupe).
-function lineHtml({ type, marker, title, metaInline, groupCls }) {
+// Ligne d'un changement : badge texte (ajout/modification/suppression) ·
+// titre · meta. Pas de timestamp (la date est portée par la ligne « passage
+// du bot » qui ouvre le groupe).
+function lineHtml({ type, badgeLabel, title, metaInline, groupCls }) {
   return `<li class="hist-line hist-${type} ${groupCls}">
-    <span class="hist-marker" aria-hidden="true">${marker}</span>
+    <span class="hist-badge hist-badge-${type}">${badgeLabel}</span>
     <span class="hist-content"><span class="hist-title">${title}</span>${metaInline ? `<span class="hist-meta-row">${metaInline}</span>` : ''}</span>
   </li>`;
 }
@@ -124,7 +125,7 @@ function addedLine(c, groupCls) {
     c.ville ? escapeHtml(c.ville) : '',
     c.dateDebut ? escapeHtml(formatCompDate(c.dateDebut)) : '',
   ]);
-  return lineHtml({ type: 'added', marker: '✚', title: compTitleHtml(c), metaInline: meta, groupCls });
+  return lineHtml({ type: 'added', badgeLabel: 'ajout', title: compTitleHtml(c), metaInline: meta, groupCls });
 }
 
 function removedLine(c, groupCls) {
@@ -132,7 +133,7 @@ function removedLine(c, groupCls) {
     c.ville ? escapeHtml(c.ville) : '',
     c.dateDebut ? escapeHtml(formatCompDate(c.dateDebut)) : '',
   ]);
-  return lineHtml({ type: 'removed', marker: '✖', title: compTitleHtml(c), metaInline: meta, groupCls });
+  return lineHtml({ type: 'removed', badgeLabel: 'suppression', title: compTitleHtml(c), metaInline: meta, groupCls });
 }
 
 function updatedLine(u, groupCls) {
@@ -146,7 +147,7 @@ function updatedLine(u, groupCls) {
     u.ville ? escapeHtml(u.ville) : '',
     changesHtml,
   ]);
-  return lineHtml({ type: 'updated', marker: '✎', title: compTitleHtml(u), metaInline: meta, groupCls });
+  return lineHtml({ type: 'updated', badgeLabel: 'modification', title: compTitleHtml(u), metaInline: meta, groupCls });
 }
 
 // Ligne d'en-tête « passage du bot » : seule à porter le timestamp + résumé
