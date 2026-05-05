@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T18:22:08.502Z",
+  "generatedAt": "2026-05-05T12:05:52.417Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10285,6 +10285,34 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92852"
     },
     {
+      "id": "93630",
+      "nom": "3ème journée départementale - Maîtres - secteur 2",
+      "ville": "SAINT-MICHEL-SUR-ORGE",
+      "dateDebut": "2026-05-10",
+      "dateFin": "2026-05-10",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.6302735,
+      "lon": 2.3027478,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93630"
+    },
+    {
+      "id": "93634",
+      "nom": "3ème journée départementale - Maîtres - secteurs 1 & 3",
+      "ville": "VIRY-CHATILLON",
+      "dateDebut": "2026-05-10",
+      "dateFin": "2026-05-10",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.6708729,
+      "lon": 2.3750351,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93634"
+    },
+    {
       "id": "92450",
       "nom": "11e Meeting des Maîtres du Gard",
       "ville": "NÎMES",
@@ -10621,18 +10649,18 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93657"
     },
     {
-      "id": "93795",
-      "nom": "Meeting maîtres 1",
-      "ville": "GRAMAT",
-      "dateDebut": "2026-06-28",
-      "dateFin": "2026-06-28",
+      "id": "93803",
+      "nom": "Meeting maîtres 2",
+      "ville": "DECAZEVILLE",
+      "dateDebut": "2026-07-19",
+      "dateFin": "2026-07-19",
       "niveau": "R",
       "niveauLibelle": "Régional",
       "championnatFrance": false,
       "bassin": 25,
-      "lat": 44.7789948,
-      "lon": 1.723394,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93795"
+      "lat": 44.5585148,
+      "lon": 2.2542071,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93803"
     }
   ]
 }
