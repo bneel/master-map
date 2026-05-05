@@ -62,6 +62,8 @@
       <p class="modal-p">
         Si une compétition maîtres existe sur liveFFN mais pas sur <strong>Couloir 4</strong>, soit vous n'avez pas attendu 24 h, soit le mot « maîtres » ou « master » ne figure pas dans le titre sur liveFFN. Dans ce cas, envoyez-nous une demande via <a href="https://docs.google.com/forms/d/e/1FAIpQLSf6g021DXRIjD3V0xvkoZ9mtt02SCiwz91aicK6UGp37fEwQg/viewform" target="_blank" rel="noopener">ce formulaire</a>.
       </p>
+      <hr class="modal-sep">
+      <p class="modal-thanks">Merci à Thomas, Géraldine, Alexis, Geoffrey, Manue, Sophie et Amandine pour leurs idées et remarques.</p>
       <p class="modal-legal-link">
         <button type="button" class="legal-link-btn" id="openLegalBtn">Mentions légales</button>
       </p>
@@ -141,20 +143,10 @@
     <div id="statutError" class="error" hidden></div>
     <div id="statutLoading" class="statut-loading">Chargement de l'historique…</div>
 
-    <nav class="statut-tabs" id="statutTabs" role="tablist" aria-label="Onglets historique">
-      <button type="button" class="statut-tab active" id="tabChanges" data-tab="changes" role="tab" aria-selected="true" aria-controls="paneChanges">Historique des modifications</button>
-      <button type="button" class="statut-tab" id="tabRuns" data-tab="runs" role="tab" aria-selected="false" aria-controls="paneRuns">Historique du bot</button>
-    </nav>
-
-    <section id="paneChanges" class="statut-pane statut-pane-active" role="tabpanel" aria-labelledby="tabChanges">
-      <p class="statut-pane-desc">Cette page recense toutes les modifications sur les 3 derniers mois (ajout, modification, suppression).</p>
+    <section class="statut-pane statut-pane-active">
+      <p class="statut-pane-desc">Cette page retrace tous les passages du bot sur liveFFN et les modifications associées (ajouts, modifications, suppressions) sur les 30 derniers jours.</p>
       <div id="statutTotals" class="hist-totals" aria-label="Totaux"></div>
       <ol id="statutLines" class="hist-lines"></ol>
-    </section>
-
-    <section id="paneRuns" class="statut-pane" role="tabpanel" aria-labelledby="tabRuns" hidden>
-      <p class="statut-pane-desc">Cette page retrace tous les passages du bot sur liveFFN sur les 30 derniers jours.</p>
-      <ul id="recentList" class="recent-list"></ul>
     </section>
   </main>
 

@@ -165,6 +165,14 @@ header {
   color: #64748b;
 }
 
+.modal-thanks {
+  margin: 0.6rem 0 0;
+  font-size: 0.92rem;
+  font-style: italic;
+  color: #475569;
+  text-align: center;
+  line-height: 1.4;
+}
 .modal-legal-link {
   margin: 0.9rem 0 0;
   text-align: center;
@@ -854,16 +862,28 @@ body.page-statut main.statut-main {
   flex-wrap: wrap;
   align-items: baseline;
   gap: 0.5rem;
-  padding: 0.45rem 0.7rem;
-  border-left: 3px solid transparent;
-  border-radius: 0 0.25rem 0.25rem 0;
+  padding: 0.45rem 0.7rem 0.45rem 2.2rem;
   font-size: 0.9rem;
   line-height: 1.5;
 }
-.hist-line + .hist-line { border-top: 1px solid #f1f5f9; }
-.hist-added   { border-left-color: #16a34a; background: #f0fdf4; }
-.hist-removed { border-left-color: #dc2626; background: #fef2f2; }
-.hist-updated { border-left-color: #ca8a04; background: #fffbeb; }
+.hist-run {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.45rem 0.7rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.hist-run .hist-marker { color: #64748b; }
+.hist-run-noop { color: #64748b; }
+.hist-run-noop .hist-run-label { color: #64748b; }
+.hist-run-label { color: #334155; font-weight: 500; }
+.hist-run-summary { display: inline-flex; gap: 0.35rem; align-items: baseline; }
+/* Zébrure par groupe : un groupe = un passage du bot + ses modifs intercalées.
+   Couleur reprise du fond de la liste principale (.pane-list). */
+.hist-g-even { background: #ffffff; }
+.hist-g-odd  { background: #dbeafe; }
 .hist-stamp {
   font-variant-numeric: tabular-nums;
   font-size: 0.78rem;

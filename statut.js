@@ -110,35 +110,32 @@ function lineMetaInline(parts) {
   return parts.filter(Boolean).map((p) => `<span class="line-meta">${p}</span>`).join(' <span class="line-sep">·</span> ');
 }
 
-// Une seule ligne fluide : timestamp · marker · titre · meta — tout inline,
-// wrappe naturellement quand la largeur manque.
-function lineHtml({ stampIso, type, marker, title, metaInline }) {
-  const stamp = formatRunStamp(stampIso);
-  const stampFull = formatRunStampFull(stampIso);
-  return `<li class="hist-line hist-${type}">
-    <time class="hist-stamp" datetime="${escapeHtml(stampIso)}" title="${escapeHtml(stampFull)}">${stamp}</time>
+// Ligne d'un changement : marker · titre · meta — pas de timestamp (la date
+// est portée par la ligne « passage du bot » qui ouvre le groupe).
+function lineHtml({ type, marker, title, metaInline, groupCls }) {
+  return `<li class="hist-line hist-${type} ${groupCls}">
     <span class="hist-marker" aria-hidden="true">${marker}</span>
     <span class="hist-content"><span class="hist-title">${title}</span>${metaInline ? `<span class="hist-meta-row">${metaInline}</span>` : ''}</span>
   </li>`;
 }
 
-function addedLine(stampIso, c) {
+function addedLine(c, groupCls) {
   const meta = lineMetaInline([
     c.ville ? escapeHtml(c.ville) : '',
     c.dateDebut ? escapeHtml(formatCompDate(c.dateDebut)) : '',
   ]);
-  return lineHtml({ stampIso, type: 'added', marker: '✚', title: compTitleHtml(c), metaInline: meta });
+  return lineHtml({ type: 'added', marker: '✚', title: compTitleHtml(c), metaInline: meta, groupCls });
 }
 
-function removedLine(stampIso, c) {
+function removedLine(c, groupCls) {
   const meta = lineMetaInline([
     c.ville ? escapeHtml(c.ville) : '',
     c.dateDebut ? escapeHtml(formatCompDate(c.dateDebut)) : '',
   ]);
-  return lineHtml({ stampIso, type: 'removed', marker: '✖', title: compTitleHtml(c), metaInline: meta });
+  return lineHtml({ type: 'removed', marker: '✖', title: compTitleHtml(c), metaInline: meta, groupCls });
 }
 
-function updatedLine(stampIso, u) {
+function updatedLine(u, groupCls) {
   const changesHtml = (u.changes || []).map((ch) => {
     const label = FIELD_LABELS[ch.field] || ch.field;
     const from = formatFieldValue(ch.field, ch.from);
@@ -149,20 +146,52 @@ function updatedLine(stampIso, u) {
     u.ville ? escapeHtml(u.ville) : '',
     changesHtml,
   ]);
-  return lineHtml({ stampIso, type: 'updated', marker: '✎', title: compTitleHtml(u), metaInline: meta });
+  return lineHtml({ type: 'updated', marker: '✎', title: compTitleHtml(u), metaInline: meta, groupCls });
 }
 
-// Aplatit tous les runs en lignes plates, ordre antichronologique
-// (les runs sont déjà du plus récent au plus ancien). À l'intérieur d'un
-// run on ordonne : ajouts, modifs, suppressions.
-function flattenRuns(runs) {
+// Ligne d'en-tête « passage du bot » : seule à porter le timestamp + résumé
+// +N ~N −N (ou « aucun changement »). Les lignes added/updated/removed du
+// même timestamp sont rattachées visuellement par la couleur de fond de groupe.
+function runHeaderLine(scraperRun, groupCls) {
+  const stampIso = scraperRun.scrapedAt;
+  const stamp = formatRunStamp(stampIso);
+  const stampFull = formatRunStampFull(stampIso);
+  const c = scraperRun.counts || { added: 0, removed: 0, updated: 0 };
+  const total = (c.added || 0) + (c.removed || 0) + (c.updated || 0);
+  const isNoop = total === 0;
+  const summary = isNoop
+    ? '<span class="recent-zero">aucun changement</span>'
+    : [
+        c.added > 0 ? `<span class="hist-total-added">+${c.added}</span>` : '',
+        c.updated > 0 ? `<span class="hist-total-updated">~${c.updated}</span>` : '',
+        c.removed > 0 ? `<span class="hist-total-removed">−${c.removed}</span>` : '',
+      ].filter(Boolean).join(' ');
+  const noopCls = isNoop ? ' hist-run-noop' : '';
+  return `<li class="hist-run${noopCls} ${groupCls}">
+    <time class="hist-stamp" datetime="${escapeHtml(stampIso)}" title="${escapeHtml(stampFull)}">${stamp}</time>
+    <span class="hist-marker" aria-hidden="true">⏱</span>
+    <span class="hist-content"><span class="hist-run-label">passage du bot</span> <span class="hist-run-summary">${summary}</span></span>
+  </li>`;
+}
+
+// Construit la timeline fusionnée : pour chaque passage du bot des 30 derniers
+// jours (antichronologique), une ligne d'en-tête, puis si ce passage a des
+// changements pertinents on intercale les lignes détaillées (added/updated/
+// removed). Toutes les lignes d'un même groupe partagent la même classe
+// hist-g-odd / hist-g-even pour matérialiser le rattachement par fond.
+function buildTimeline(scraperRuns, runs) {
+  const runsByStamp = new Map();
+  for (const r of runs) runsByStamp.set(r.scrapedAt, r);
   const lines = [];
-  for (const run of runs) {
-    const stampIso = run.scrapedAt;
-    for (const c of (run.added || [])) lines.push(addedLine(stampIso, c));
-    for (const u of (run.updated || [])) lines.push(updatedLine(stampIso, u));
-    for (const c of (run.removed || [])) lines.push(removedLine(stampIso, c));
-  }
+  scraperRuns.forEach((sr, i) => {
+    const groupCls = (i % 2 === 0) ? 'hist-g-even' : 'hist-g-odd';
+    lines.push(runHeaderLine(sr, groupCls));
+    const run = runsByStamp.get(sr.scrapedAt);
+    if (!run) return;
+    for (const c of (run.added || [])) lines.push(addedLine(c, groupCls));
+    for (const u of (run.updated || [])) lines.push(updatedLine(u, groupCls));
+    for (const c of (run.removed || [])) lines.push(removedLine(c, groupCls));
+  });
   return lines;
 }
 
@@ -195,34 +224,6 @@ function showError(msg) {
   const err = document.getElementById('statutError');
   err.textContent = msg;
   err.hidden = false;
-}
-
-function recentItemHtml(r) {
-  const stamp = formatRunStamp(r.scrapedAt);
-  const stampFull = formatRunStampFull(r.scrapedAt);
-  const c = r.counts || { added: 0, removed: 0, updated: 0 };
-  const total = (c.added || 0) + (c.removed || 0) + (c.updated || 0);
-  const summary = total === 0
-    ? '<span class="recent-zero">aucun changement</span>'
-    : [
-        c.added > 0 ? `<span class="hist-total-added">+${c.added}</span>` : '',
-        c.updated > 0 ? `<span class="hist-total-updated">~${c.updated}</span>` : '',
-        c.removed > 0 ? `<span class="hist-total-removed">−${c.removed}</span>` : '',
-      ].filter(Boolean).join(' ');
-  return `<li class="recent-item">
-    <time class="recent-stamp" datetime="${escapeHtml(r.scrapedAt)}" title="${escapeHtml(stampFull)}">${stamp}</time>
-    <span class="recent-summary">${summary}</span>
-  </li>`;
-}
-
-function renderRecent(scraperRuns) {
-  const list = document.getElementById('recentList');
-  if (!list) return;
-  if (!Array.isArray(scraperRuns) || scraperRuns.length === 0) {
-    list.innerHTML = '<li class="hist-empty">Aucun passage enregistré pour le moment.</li>';
-    return;
-  }
-  list.innerHTML = scraperRuns.map(recentItemHtml).join('');
 }
 
 // Catégorie d'âge du dernier passage du bot (mêmes seuils que l'icône
@@ -269,42 +270,25 @@ function render(data) {
   const scraperRuns = Array.isArray(data?.scraperRuns) ? data.scraperRuns : [];
 
   renderBotStatus(scraperRuns);
-  renderRecent(scraperRuns);
+
+  // Fenêtre d'affichage : 30 j. Les scraperRuns sont déjà purgés à 30 j côté
+  // scraper, mais on filtre aussi les runs (qui ont une fenêtre 3 mois côté
+  // backend) pour aligner les totaux sur la timeline fusionnée affichée.
+  const cutoff = Date.now() - 30 * 24 * 3600 * 1000;
+  const runsInWindow = runs.filter((r) => {
+    const t = new Date(r.scrapedAt).getTime();
+    return Number.isFinite(t) && t >= cutoff;
+  });
 
   const totals = document.getElementById('statutTotals');
-  if (totals) totals.innerHTML = totalsHtml(runs);
+  if (totals) totals.innerHTML = totalsHtml(runsInWindow);
 
   const container = document.getElementById('statutLines');
-  if (!runs || runs.length === 0) {
-    container.innerHTML = '<li class="hist-empty">Aucun changement enregistré pour le moment. La page se remplira après les prochains passages du scraper.</li>';
+  if (!scraperRuns || scraperRuns.length === 0) {
+    container.innerHTML = '<li class="hist-empty">Aucun passage enregistré pour le moment. La page se remplira après les prochains passages du scraper.</li>';
     return;
   }
-  container.innerHTML = flattenRuns(runs).join('');
-}
-
-function initTabs() {
-  const tabs = document.querySelectorAll('.statut-tab');
-  const panes = {
-    changes: document.getElementById('paneChanges'),
-    runs: document.getElementById('paneRuns'),
-  };
-  tabs.forEach((tab) => {
-    tab.addEventListener('click', () => {
-      const target = tab.dataset.tab;
-      tabs.forEach((t) => {
-        const isActive = t === tab;
-        t.classList.toggle('active', isActive);
-        t.setAttribute('aria-selected', isActive ? 'true' : 'false');
-      });
-      Object.entries(panes).forEach(([name, el]) => {
-        if (!el) return;
-        const isActive = name === target;
-        el.classList.toggle('statut-pane-active', isActive);
-        el.hidden = !isActive;
-      });
-      trackEvent('statut:tab:' + target);
-    });
-  });
+  container.innerHTML = buildTimeline(scraperRuns, runsInWindow).join('');
 }
 
 // --- Modale "À propos" (DOM dupliqué depuis index.html) ------------------
@@ -405,7 +389,6 @@ function initLegalModal() {
 async function init() {
   initInfoModal();
   initLegalModal();
-  initTabs();
   try {
     const data = await loadHistory();
     render(data);
