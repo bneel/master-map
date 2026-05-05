@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T12:05:52.477Z",
+  "generatedAt": "2026-05-05T18:16:46.770Z",
   "season": "2025-2026",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -220,34 +220,6 @@
       "seasonsLabel": "2025, 2024",
       "recentCities": [
         "LE HAVRE"
-      ]
-    },
-    {
-      "id": "habituelle-T_N_championnat_ete-2026-06",
-      "type": "tournant",
-      "nom": "XXXVIIIe Championnats de France Eté Open",
-      "ville": "LAPINLAND",
-      "lat": 43.836699,
-      "lon": 4.360054,
-      "niveau": "N",
-      "niveauLibelle": "National",
-      "championnatFrance": true,
-      "bassin": 50,
-      "month": "06",
-      "monthLabel": "juin",
-      "moment": "mi",
-      "expectedDate": "2026-06-14",
-      "dispersionDays": 16,
-      "seasonsSeen": [
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2025, 2024",
-      "recentCities": [
-        "MULHOUSE",
-        "NÎMES",
-        "MONTPELLIER"
       ]
     },
     {

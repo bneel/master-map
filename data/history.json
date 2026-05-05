@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-05-05T12:05:04.963Z",
+  "generatedAt": "2026-05-05T18:16:01.753Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-05-05T18:16:01.753Z",
+      "counts": {
+        "added": 3,
+        "removed": 2,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-05-05T12:05:04.963Z",
       "counts": {
@@ -179,6 +187,79 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-05-05T18:16:01.753Z",
+      "counts": {
+        "added": 3,
+        "removed": 2,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "93480",
+          "nom": "VIe Championnats de France Eté N2 des Maîtres",
+          "ville": "NÎMES",
+          "dateDebut": "2026-05-15",
+          "dateFin": "2026-05-15",
+          "niveau": "N",
+          "niveauLibelle": "National",
+          "championnatFrance": true,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93480"
+        },
+        {
+          "id": "93811",
+          "nom": "Meeting maîtres 1",
+          "ville": "GOURDON",
+          "dateDebut": "2026-06-21",
+          "dateFin": "2026-06-21",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93811"
+        },
+        {
+          "id": "93377",
+          "nom": "Championnats de France N1 Été Open des Maitres",
+          "ville": "TARBES",
+          "dateDebut": "2026-06-25",
+          "dateFin": "2026-06-25",
+          "niveau": "N",
+          "niveauLibelle": "National",
+          "championnatFrance": true,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93377"
+        }
+      ],
+      "removed": [
+        {
+          "id": "93387",
+          "nom": "Journée Sprint Maîtres",
+          "ville": "L'HAŸ-LES-ROSES",
+          "dateDebut": "2026-05-16",
+          "dateFin": "2026-05-16",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93387"
+        },
+        {
+          "id": "93212",
+          "nom": "Journée Demi-Fond Maîtres Open",
+          "ville": "L'HAŸ-LES-ROSES",
+          "dateDebut": "2026-05-17",
+          "dateFin": "2026-05-17",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93212"
+        }
+      ],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-05-05T12:05:04.963Z",
       "counts": {

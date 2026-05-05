@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T12:05:52.417Z",
+  "generatedAt": "2026-05-05T18:16:46.717Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10313,6 +10313,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93634"
     },
     {
+      "id": "93480",
+      "nom": "VIe Championnats de France Eté N2 des Maîtres",
+      "ville": "NÎMES",
+      "dateDebut": "2026-05-15",
+      "dateFin": "2026-05-15",
+      "niveau": "N",
+      "niveauLibelle": "National",
+      "championnatFrance": true,
+      "bassin": 50,
+      "lat": 43.8374249,
+      "lon": 4.3600687,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93480"
+    },
+    {
       "id": "92450",
       "nom": "11e Meeting des Maîtres du Gard",
       "ville": "NÎMES",
@@ -10325,34 +10339,6 @@
       "lat": 43.8374249,
       "lon": 4.3600687,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92450"
-    },
-    {
-      "id": "93387",
-      "nom": "Journée Sprint Maîtres",
-      "ville": "L'HAŸ-LES-ROSES",
-      "dateDebut": "2026-05-16",
-      "dateFin": "2026-05-16",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 48.7790514,
-      "lon": 2.3373021,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93387"
-    },
-    {
-      "id": "93212",
-      "nom": "Journée Demi-Fond Maîtres Open",
-      "ville": "L'HAŸ-LES-ROSES",
-      "dateDebut": "2026-05-17",
-      "dateFin": "2026-05-17",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 48.7790514,
-      "lon": 2.3373021,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93212"
     },
     {
       "id": "92378",
@@ -10647,6 +10633,34 @@
       "lat": 48.2020717,
       "lon": 5.9418851,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93657"
+    },
+    {
+      "id": "93811",
+      "nom": "Meeting maîtres 1",
+      "ville": "GOURDON",
+      "dateDebut": "2026-06-21",
+      "dateFin": "2026-06-21",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 46.6414367,
+      "lon": 4.4461818,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93811"
+    },
+    {
+      "id": "93377",
+      "nom": "Championnats de France N1 Été Open des Maitres",
+      "ville": "TARBES",
+      "dateDebut": "2026-06-25",
+      "dateFin": "2026-06-25",
+      "niveau": "N",
+      "niveauLibelle": "National",
+      "championnatFrance": true,
+      "bassin": 50,
+      "lat": 43.232858,
+      "lon": 0.0781021,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93377"
     },
     {
       "id": "93803",
