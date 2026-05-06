@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-05-05T18:16:01.753Z",
+  "generatedAt": "2026-05-06T12:28:04.693Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-05-06T12:28:04.693Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-05-05T18:16:01.753Z",
       "counts": {
@@ -187,6 +195,30 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-05-06T12:28:04.693Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "93828",
+          "nom": "Meeting maîtres 3",
+          "ville": "GOURDON",
+          "dateDebut": "2026-08-22",
+          "dateFin": "2026-08-22",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93828"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-05-05T18:16:01.753Z",
       "counts": {

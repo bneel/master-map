@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T18:16:46.717Z",
+  "generatedAt": "2026-05-06T12:28:28.137Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10675,6 +10675,20 @@
       "lat": 44.5585148,
       "lon": 2.2542071,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93803"
+    },
+    {
+      "id": "93828",
+      "nom": "Meeting maîtres 3",
+      "ville": "GOURDON",
+      "dateDebut": "2026-08-22",
+      "dateFin": "2026-08-22",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 46.6414367,
+      "lon": 4.4461818,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93828"
     }
   ]
 }
