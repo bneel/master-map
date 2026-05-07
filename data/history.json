@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-05-07T12:59:27.085Z",
+  "generatedAt": "2026-05-07T18:49:08.225Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-05-07T18:49:08.225Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 1
+      }
+    },
     {
       "scrapedAt": "2026-05-07T12:59:27.085Z",
       "counts": {
@@ -211,6 +219,31 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-05-07T18:49:08.225Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 1
+      },
+      "added": [],
+      "removed": [],
+      "updated": [
+        {
+          "id": "92450",
+          "nom": "11e Meeting national des Maîtres du Gard",
+          "ville": "NÎMES",
+          "dateDebut": "2026-05-16",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "11e Meeting des Maîtres du Gard",
+              "to": "11e Meeting national des Maîtres du Gard"
+            }
+          ]
+        }
+      ]
+    },
     {
       "scrapedAt": "2026-05-07T12:59:27.085Z",
       "counts": {
