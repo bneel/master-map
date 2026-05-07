@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T18:23:47.747Z",
+  "generatedAt": "2026-05-07T12:59:51.169Z",
   "season": "2025-2026",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -112,32 +112,6 @@
         "LE LUDE",
         "VIERZON",
         "LANGON"
-      ]
-    },
-    {
-      "id": "habituelle-V_LES_ABYMES_R-2026-06",
-      "type": "ville",
-      "nom": "Shark Meet Maîtres",
-      "ville": "LES ABYMES",
-      "lat": 16.2706436,
-      "lon": -61.5057749,
-      "niveau": "R",
-      "niveauLibelle": "Régional",
-      "championnatFrance": false,
-      "bassin": 50,
-      "month": "06",
-      "monthLabel": "juin",
-      "moment": "début",
-      "expectedDate": "2026-06-05",
-      "dispersionDays": 3,
-      "seasonsSeen": [
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2025, 2024",
-      "recentCities": [
-        "LES ABYMES"
       ]
     },
     {

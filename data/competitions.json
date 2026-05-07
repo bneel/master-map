@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T18:23:47.688Z",
+  "generatedAt": "2026-05-07T12:59:51.106Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10353,6 +10353,20 @@
       "lat": 48.9274192,
       "lon": 2.0426301,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92378"
+    },
+    {
+      "id": "93838",
+      "nom": "SHARK MEET 4 MAITRES",
+      "ville": "LES ABYMES",
+      "dateDebut": "2026-05-23",
+      "dateFin": "2026-05-23",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 50,
+      "lat": 16.2706436,
+      "lon": -61.5057749,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93838"
     },
     {
       "id": "93646",
