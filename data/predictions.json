@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T11:55:37.042Z",
+  "generatedAt": "2026-05-10T17:57:13.168Z",
   "season": "2025-2026",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -29,32 +29,6 @@
       "recentCities": [
         "CHERBOURG-EN-COTENTIN",
         "CAEN"
-      ]
-    },
-    {
-      "id": "habituelle-V_SAINT_LEU_R-2026-05",
-      "type": "ville",
-      "nom": "Challenge des Maîtres 2",
-      "ville": "SAINT-LEU",
-      "lat": -21.1677694,
-      "lon": 55.2881932,
-      "niveau": "R",
-      "niveauLibelle": "Régional",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "05",
-      "monthLabel": "mai",
-      "moment": "mi",
-      "expectedDate": "2026-05-12",
-      "dispersionDays": 8,
-      "seasonsSeen": [
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2025, 2024",
-      "recentCities": [
-        "SAINT-LEU"
       ]
     },
     {

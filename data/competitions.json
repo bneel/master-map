@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T11:55:36.980Z",
+  "generatedAt": "2026-05-10T17:57:13.102Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10118,7 +10118,7 @@
     },
     {
       "id": "93441",
-      "nom": "3ème Meeting Sprint des Piranhas Mussipontains - Maîtres",
+      "nom": "3e Meeting Sprint des Piranhas Mussipontains - Maîtres",
       "ville": "PONT-A-MOUSSON",
       "dateDebut": "2026-04-26",
       "dateFin": "2026-04-26",
@@ -10160,7 +10160,7 @@
     },
     {
       "id": "93700",
-      "nom": "MASTERS - Meeting Qualificatif #4",
+      "nom": "Masters - Meeting Qualificatif #4",
       "ville": "CAYENNE",
       "dateDebut": "2026-05-02",
       "dateFin": "2026-05-02",
@@ -10174,7 +10174,7 @@
     },
     {
       "id": "93723",
-      "nom": "2EME MEETING DE LA PLAGE MAITRES",
+      "nom": "2e Meeting de la Plage - Maîtres",
       "ville": "PONTIVY",
       "dateDebut": "2026-05-03",
       "dateFin": "2026-05-03",
@@ -10188,7 +10188,7 @@
     },
     {
       "id": "93457",
-      "nom": "Tournoi de Vitesse Maîtres des Alpes Maritimes",
+      "nom": "Tournoi de Vitesse Maîtres des Alpes-Maritimes",
       "ville": "VALLAURIS",
       "dateDebut": "2026-05-03",
       "dateFin": "2026-05-03",
@@ -10202,7 +10202,7 @@
     },
     {
       "id": "93462",
-      "nom": "Championnats Départementaux des Maîtres des Alpes Maritimes",
+      "nom": "Championnats Départementaux des Maîtres des Alpes-Maritimes",
       "ville": "VALLAURIS",
       "dateDebut": "2026-05-03",
       "dateFin": "2026-05-03",
@@ -10395,6 +10395,20 @@
       "lat": 43.2957547,
       "lon": -0.3685668,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93710"
+    },
+    {
+      "id": "93823",
+      "nom": "Challenge des Maîtres 3",
+      "ville": "SAINT-LEU",
+      "dateDebut": "2026-05-24",
+      "dateFin": "2026-05-24",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": -21.1677694,
+      "lon": 55.2881932,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93823"
     },
     {
       "id": "92861",

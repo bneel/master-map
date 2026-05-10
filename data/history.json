@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-05-10T11:55:02.382Z",
+  "generatedAt": "2026-05-10T17:56:48.016Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-05-10T17:56:48.016Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 3
+      }
+    },
     {
       "scrapedAt": "2026-05-10T11:55:02.382Z",
       "counts": {
@@ -259,6 +267,70 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-05-10T17:56:48.016Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 3
+      },
+      "added": [
+        {
+          "id": "93823",
+          "nom": "Challenge des Maîtres 3",
+          "ville": "SAINT-LEU",
+          "dateDebut": "2026-05-24",
+          "dateFin": "2026-05-24",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93823"
+        }
+      ],
+      "removed": [],
+      "updated": [
+        {
+          "id": "93723",
+          "nom": "2e Meeting de la Plage - Maîtres",
+          "ville": "PONTIVY",
+          "dateDebut": "2026-05-03",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "2EME MEETING DE LA PLAGE MAITRES",
+              "to": "2e Meeting de la Plage - Maîtres"
+            }
+          ]
+        },
+        {
+          "id": "93457",
+          "nom": "Tournoi de Vitesse Maîtres des Alpes-Maritimes",
+          "ville": "VALLAURIS",
+          "dateDebut": "2026-05-03",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "Tournoi de Vitesse Maîtres des Alpes Maritimes",
+              "to": "Tournoi de Vitesse Maîtres des Alpes-Maritimes"
+            }
+          ]
+        },
+        {
+          "id": "93462",
+          "nom": "Championnats Départementaux des Maîtres des Alpes-Maritimes",
+          "ville": "VALLAURIS",
+          "dateDebut": "2026-05-03",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "Championnats Départementaux des Maîtres des Alpes Maritimes",
+              "to": "Championnats Départementaux des Maîtres des Alpes-Maritimes"
+            }
+          ]
+        }
+      ]
+    },
     {
       "scrapedAt": "2026-05-10T11:55:02.382Z",
       "counts": {
