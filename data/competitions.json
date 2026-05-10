@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T17:55:16.410Z",
+  "generatedAt": "2026-05-10T11:55:36.980Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10523,6 +10523,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93421"
     },
     {
+      "id": "93858",
+      "nom": "open des Maitres",
+      "ville": "MEUDON",
+      "dateDebut": "2026-06-06",
+      "dateFin": "2026-06-06",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 50,
+      "lat": 48.8126688,
+      "lon": 2.2385432,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93858"
+    },
+    {
       "id": "93157",
       "nom": "14e Meeting National des Maîtres de Toulouse",
       "ville": "TOULOUSE",
@@ -10579,7 +10593,7 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93578"
     },
     {
-      "id": "93324",
+      "id": "93856",
       "nom": "Meeting Maîtres de Megève Natation",
       "ville": "MEGÈVE",
       "dateDebut": "2026-06-13",
@@ -10590,7 +10604,7 @@
       "bassin": 50,
       "lat": 45.8567089,
       "lon": 6.617932,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93324"
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93856"
     },
     {
       "id": "92266",

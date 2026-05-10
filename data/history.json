@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-05-09T17:54:53.790Z",
+  "generatedAt": "2026-05-10T11:55:02.382Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-05-10T11:55:02.382Z",
+      "counts": {
+        "added": 2,
+        "removed": 1,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-05-09T17:54:53.790Z",
       "counts": {
@@ -251,6 +259,55 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-05-10T11:55:02.382Z",
+      "counts": {
+        "added": 2,
+        "removed": 1,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "93858",
+          "nom": "open des Maitres",
+          "ville": "MEUDON",
+          "dateDebut": "2026-06-06",
+          "dateFin": "2026-06-06",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93858"
+        },
+        {
+          "id": "93856",
+          "nom": "Meeting Maîtres de Megève Natation",
+          "ville": "MEGÈVE",
+          "dateDebut": "2026-06-13",
+          "dateFin": "2026-06-13",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93856"
+        }
+      ],
+      "removed": [
+        {
+          "id": "93324",
+          "nom": "Meeting Maîtres de Megève Natation",
+          "ville": "MEGÈVE",
+          "dateDebut": "2026-06-13",
+          "dateFin": "2026-06-13",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93324"
+        }
+      ],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-05-07T18:49:08.225Z",
       "counts": {
