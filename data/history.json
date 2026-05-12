@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-05-11T19:01:56.589Z",
+  "generatedAt": "2026-05-12T13:06:02.364Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-05-12T13:06:02.364Z",
+      "counts": {
+        "added": 2,
+        "removed": 1,
+        "updated": 1
+      }
+    },
     {
       "scrapedAt": "2026-05-11T19:01:56.589Z",
       "counts": {
@@ -283,6 +291,69 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-05-12T13:06:02.364Z",
+      "counts": {
+        "added": 2,
+        "removed": 1,
+        "updated": 1
+      },
+      "added": [
+        {
+          "id": "93677",
+          "nom": "Championnats de Martinique Maîtres - 50m",
+          "ville": "LE LAMENTIN",
+          "dateDebut": "2026-05-17",
+          "dateFin": "2026-05-17",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93677"
+        },
+        {
+          "id": "93879",
+          "nom": "5th Meeting of the Ducks - Maîtres",
+          "ville": "LUNÉVILLE",
+          "dateDebut": "2026-05-25",
+          "dateFin": "2026-05-25",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93879"
+        }
+      ],
+      "removed": [
+        {
+          "id": "93599",
+          "nom": "5th Meeting Of The Ducks - Maîtres",
+          "ville": "LUNÉVILLE",
+          "dateDebut": "2026-05-25",
+          "dateFin": "2026-05-25",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93599"
+        }
+      ],
+      "updated": [
+        {
+          "id": "93634",
+          "nom": "3e Journée Départementale - Maîtres - Secteurs 1 & 3",
+          "ville": "VIRY-CHATILLON",
+          "dateDebut": "2026-05-10",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "3ème journée départementale - Maîtres - secteurs 1 & 3",
+              "to": "3e Journée Départementale - Maîtres - Secteurs 1 & 3"
+            }
+          ]
+        }
+      ]
+    },
     {
       "scrapedAt": "2026-05-11T19:01:56.589Z",
       "counts": {
