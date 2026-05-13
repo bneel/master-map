@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T13:13:47.466Z",
+  "generatedAt": "2026-05-13T19:00:54.462Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10381,6 +10381,20 @@
       "lat": 46.0986791,
       "lon": 4.7359529,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93646"
+    },
+    {
+      "id": "93907",
+      "nom": "2ème Meeting Maître 65-32",
+      "ville": "LOURDES",
+      "dateDebut": "2026-05-23",
+      "dateFin": "2026-05-23",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.0940904,
+      "lon": -0.0464975,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93907"
     },
     {
       "id": "93710",
