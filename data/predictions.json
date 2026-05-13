@@ -1,36 +1,8 @@
 {
-  "generatedAt": "2026-05-12T19:02:13.881Z",
+  "generatedAt": "2026-05-13T13:13:47.534Z",
   "season": "2025-2026",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
-    {
-      "id": "habituelle-T_R_championnat_normandie-2026-05",
-      "type": "tournant",
-      "nom": "Championnats de Normandie Open des Maîtres",
-      "ville": null,
-      "lat": 49.411937300000005,
-      "lon": -0.994259,
-      "niveau": "R",
-      "niveauLibelle": "Régional",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "05",
-      "monthLabel": "mai",
-      "moment": "mi",
-      "expectedDate": "2026-05-12",
-      "dispersionDays": 27,
-      "seasonsSeen": [
-        "2024-2025",
-        "2023-2024",
-        "2021-2022"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2025, 2024, 2022",
-      "recentCities": [
-        "CHERBOURG-EN-COTENTIN",
-        "CAEN"
-      ]
-    },
     {
       "id": "habituelle-T_D_championnat_printemp-2026-05",
       "type": "tournant",
