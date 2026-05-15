@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T18:58:20.602Z",
+  "generatedAt": "2026-05-15T12:56:24.701Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10703,6 +10703,20 @@
       "lat": 46.6414367,
       "lon": 4.4461818,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93811"
+    },
+    {
+      "id": "93916",
+      "nom": "Championnat départemental Master été",
+      "ville": "RIOM",
+      "dateDebut": "2026-06-21",
+      "dateFin": "2026-06-21",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 45.893012,
+      "lon": 3.1140583,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93916"
     },
     {
       "id": "93377",
