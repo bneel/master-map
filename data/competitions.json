@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T18:02:18.130Z",
+  "generatedAt": "2026-05-18T14:32:43.788Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10300,7 +10300,7 @@
     },
     {
       "id": "93480",
-      "nom": "VIe Championnats de France Eté N2 des Maîtres",
+      "nom": "VIes Championnats de France Eté N2 des Maîtres",
       "ville": "NÎMES",
       "dateDebut": "2026-05-15",
       "dateFin": "2026-05-15",
@@ -10521,6 +10521,20 @@
       "lat": 47.6918575,
       "lon": 2.6313889,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93495"
+    },
+    {
+      "id": "93641",
+      "nom": "Championnat 77 Eté Open des Maitres",
+      "ville": "LAGNY-SUR-MARNE",
+      "dateDebut": "2026-05-31",
+      "dateFin": "2026-05-31",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.8773018,
+      "lon": 2.7056056,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93641"
     },
     {
       "id": "92519",

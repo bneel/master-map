@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-05-17T18:01:54.907Z",
+  "generatedAt": "2026-05-18T14:32:19.110Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-05-18T14:32:19.110Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 1
+      }
+    },
     {
       "scrapedAt": "2026-05-17T18:01:54.907Z",
       "counts": {
@@ -379,6 +387,44 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-05-18T14:32:19.110Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 1
+      },
+      "added": [
+        {
+          "id": "93641",
+          "nom": "Championnat 77 Eté Open des Maitres",
+          "ville": "LAGNY-SUR-MARNE",
+          "dateDebut": "2026-05-31",
+          "dateFin": "2026-05-31",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93641"
+        }
+      ],
+      "removed": [],
+      "updated": [
+        {
+          "id": "93480",
+          "nom": "VIes Championnats de France Eté N2 des Maîtres",
+          "ville": "NÎMES",
+          "dateDebut": "2026-05-15",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "VIe Championnats de France Eté N2 des Maîtres",
+              "to": "VIes Championnats de France Eté N2 des Maîtres"
+            }
+          ]
+        }
+      ]
+    },
     {
       "scrapedAt": "2026-05-15T12:56:01.983Z",
       "counts": {
