@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-05-20T13:41:59.584Z",
+  "generatedAt": "2026-05-20T19:30:24.893Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-05-20T19:30:24.893Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-05-20T13:41:59.584Z",
       "counts": {
@@ -419,6 +427,30 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-05-20T19:30:24.893Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "93726",
+          "nom": "Championnat départemental des Maîtres de Gironde",
+          "ville": "LANGON",
+          "dateDebut": "2026-06-07",
+          "dateFin": "2026-06-07",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93726"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-05-20T13:41:59.584Z",
       "counts": {

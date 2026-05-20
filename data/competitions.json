@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T13:42:25.136Z",
+  "generatedAt": "2026-05-20T19:30:48.517Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10605,6 +10605,20 @@
       "lat": 43.6044638,
       "lon": 1.4442433,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93157"
+    },
+    {
+      "id": "93726",
+      "nom": "Championnat départemental des Maîtres de Gironde",
+      "ville": "LANGON",
+      "dateDebut": "2026-06-07",
+      "dateFin": "2026-06-07",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 44.5530659,
+      "lon": -0.2449274,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93726"
     },
     {
       "id": "92770",
