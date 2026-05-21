@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-05-20T19:30:24.893Z",
+  "generatedAt": "2026-05-21T14:15:25.852Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-05-21T14:15:25.852Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-05-20T19:30:24.893Z",
       "counts": {
@@ -427,6 +435,30 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-05-21T14:15:25.852Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "93949",
+          "nom": "Championnat Départemental 13 Open Maîtres",
+          "ville": "MARTIGUES",
+          "dateDebut": "2026-06-06",
+          "dateFin": "2026-06-06",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93949"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-05-20T19:30:24.893Z",
       "counts": {
