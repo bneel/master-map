@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T13:33:19.524Z",
+  "generatedAt": "2026-05-22T18:57:53.468Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10619,6 +10619,20 @@
       "lat": 43.6044638,
       "lon": 1.4442433,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93157"
+    },
+    {
+      "id": "92601",
+      "nom": "Championnats été - Ligue AuRA Open Maître",
+      "ville": "OYONNAX",
+      "dateDebut": "2026-06-07",
+      "dateFin": "2026-06-07",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 50,
+      "lat": 46.2575174,
+      "lon": 5.6556181,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92601"
     },
     {
       "id": "93726",
