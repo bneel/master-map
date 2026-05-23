@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T18:57:53.468Z",
+  "generatedAt": "2026-05-23T12:01:39.894Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10453,6 +10453,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93879"
     },
     {
+      "id": "93894",
+      "nom": "Championnat Départemental NFC Maîtres",
+      "ville": "BELFORT",
+      "dateDebut": "2026-05-30",
+      "dateFin": "2026-05-30",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.6379599,
+      "lon": 6.8628942,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93894"
+    },
+    {
       "id": "93603",
       "nom": "Trophée de spécialité pour les maîtres",
       "ville": "MIREPOIX",
@@ -10549,6 +10563,20 @@
       "lat": 48.8773018,
       "lon": 2.7056056,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93641"
+    },
+    {
+      "id": "93308",
+      "nom": "27e Grand Prix des Maitres",
+      "ville": "NANTES",
+      "dateDebut": "2026-05-31",
+      "dateFin": "2026-05-31",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.2186371,
+      "lon": -1.5541362,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93308"
     },
     {
       "id": "92519",

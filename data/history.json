@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-05-22T18:57:29.778Z",
+  "generatedAt": "2026-05-23T12:01:04.254Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-05-23T12:01:04.254Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-05-22T18:57:29.778Z",
       "counts": {
@@ -459,6 +467,42 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-05-23T12:01:04.254Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "93894",
+          "nom": "Championnat Départemental NFC Maîtres",
+          "ville": "BELFORT",
+          "dateDebut": "2026-05-30",
+          "dateFin": "2026-05-30",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93894"
+        },
+        {
+          "id": "93308",
+          "nom": "27e Grand Prix des Maitres",
+          "ville": "NANTES",
+          "dateDebut": "2026-05-31",
+          "dateFin": "2026-05-31",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93308"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-05-22T18:57:29.778Z",
       "counts": {
