@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T13:56:05.236Z",
+  "generatedAt": "2026-05-26T19:24:01.945Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10356,7 +10356,7 @@
     },
     {
       "id": "93838",
-      "nom": "SHARK MEET 4 MAITRES",
+      "nom": "Shark Meet 4 Maîtres",
       "ville": "LES ABYMES",
       "dateDebut": "2026-05-23",
       "dateFin": "2026-05-23",
@@ -10384,7 +10384,7 @@
     },
     {
       "id": "93907",
-      "nom": "2ème Meeting Maître 65-32",
+      "nom": "2e Meeting Maîtres 65/32",
       "ville": "LOURDES",
       "dateDebut": "2026-05-23",
       "dateFin": "2026-05-23",
@@ -10579,6 +10579,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93308"
     },
     {
+      "id": "94003",
+      "nom": "Meeting maître",
+      "ville": "THANN",
+      "dateDebut": "2026-06-05",
+      "dateFin": "2026-06-05",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.8101008,
+      "lon": 7.1020957,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94003"
+    },
+    {
       "id": "92519",
       "nom": "12e Meeting National des Maîtres du Laval Aquatique Club",
       "ville": "LAVAL",
@@ -10633,6 +10647,20 @@
       "lat": 48.8126688,
       "lon": 2.2385432,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93858"
+    },
+    {
+      "id": "93977",
+      "nom": "Championnat du Finistère Masters",
+      "ville": "SCAËR",
+      "dateDebut": "2026-06-06",
+      "dateFin": "2026-06-06",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.0268097,
+      "lon": -3.7020023,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93977"
     },
     {
       "id": "93157",
