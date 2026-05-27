@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T19:24:01.945Z",
+  "generatedAt": "2026-05-27T14:28:31.915Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10465,20 +10465,6 @@
       "lat": 47.6379599,
       "lon": 6.8628942,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93894"
-    },
-    {
-      "id": "93603",
-      "nom": "Trophée de spécialité pour les maîtres",
-      "ville": "MIREPOIX",
-      "dateDebut": "2026-05-30",
-      "dateFin": "2026-05-30",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 43.7458333,
-      "lon": 0.6719444,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93603"
     },
     {
       "id": "93375",
