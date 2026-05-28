@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-05-27T19:29:22.821Z",
+  "generatedAt": "2026-05-28T14:38:52.122Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-05-28T14:38:52.122Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-05-27T19:29:22.821Z",
       "counts": {
@@ -472,17 +480,33 @@
         "removed": 0,
         "updated": 0
       }
-    },
+    }
+  ],
+  "runs": [
     {
-      "scrapedAt": "2026-04-28T12:24:51.898Z",
+      "scrapedAt": "2026-05-28T14:38:52.122Z",
       "counts": {
         "added": 1,
         "removed": 0,
         "updated": 0
-      }
-    }
-  ],
-  "runs": [
+      },
+      "added": [
+        {
+          "id": "93857",
+          "nom": "Championnat des Maîtres Région Sud Open en Grand Bassin",
+          "ville": "TOULON",
+          "dateDebut": "2026-05-31",
+          "dateFin": "2026-05-31",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93857"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-05-27T19:29:22.821Z",
       "counts": {

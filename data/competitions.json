@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T19:29:46.903Z",
+  "generatedAt": "2026-05-28T14:39:17.875Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10549,6 +10549,20 @@
       "lat": 47.6918575,
       "lon": 2.6313889,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93495"
+    },
+    {
+      "id": "93857",
+      "nom": "Championnat des Maîtres Région Sud Open en Grand Bassin",
+      "ville": "TOULON",
+      "dateDebut": "2026-05-31",
+      "dateFin": "2026-05-31",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 50,
+      "lat": 43.1257311,
+      "lon": 5.9304919,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93857"
     },
     {
       "id": "93641",
