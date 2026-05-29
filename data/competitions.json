@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T19:39:33.597Z",
+  "generatedAt": "2026-05-29T14:10:20.106Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10815,6 +10815,20 @@
       "lat": 48.2020717,
       "lon": 5.9418851,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93657"
+    },
+    {
+      "id": "94052",
+      "nom": "MEETING DEPARTEMENTAL DES MAITRES OPEN DU 41",
+      "ville": "SAINT-LAURENT-NOUAN",
+      "dateDebut": "2026-06-14",
+      "dateFin": "2026-06-14",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.7169881,
+      "lon": 1.6116899,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94052"
     },
     {
       "id": "93811",
