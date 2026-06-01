@@ -1,38 +1,8 @@
 {
-  "generatedAt": "2026-05-31T18:08:39.925Z",
+  "generatedAt": "2026-06-01T16:40:02.998Z",
   "season": "2025-2026",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
-    {
-      "id": "habituelle-T_D_championnat_departementaux_ete-2026-05",
-      "type": "tournant",
-      "nom": "Championnats Départementaux Open Masters Eté",
-      "ville": null,
-      "lat": 46.477343033333334,
-      "lon": 0.6597852000000001,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "05",
-      "monthLabel": "mai",
-      "moment": "fin",
-      "expectedDate": "2026-05-31",
-      "dispersionDays": 11,
-      "seasonsSeen": [
-        "2024-2025",
-        "2023-2024",
-        "2021-2022",
-        "2020-2021"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2025, 2024, 2022, 2021",
-      "recentCities": [
-        "LE LUDE",
-        "VIERZON",
-        "LANGON"
-      ]
-    },
     {
       "id": "habituelle-T_R_championnat_ete_regional-2026-06",
       "type": "tournant",
