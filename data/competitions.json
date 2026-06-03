@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T20:10:00.520Z",
+  "generatedAt": "2026-06-03T15:28:32.066Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10607,6 +10607,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92519"
     },
     {
+      "id": "94048",
+      "nom": "Championnats de Normandie Open des Maîtres",
+      "ville": "FLERS",
+      "dateDebut": "2026-06-06",
+      "dateFin": "2026-06-06",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 50.32053,
+      "lon": 2.25255,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94048"
+    },
+    {
       "id": "93421",
       "nom": "Prise de temps des Maîtres de Douai 1897 Natation",
       "ville": "DOUAI",
@@ -10675,20 +10689,6 @@
       "lat": 43.6044638,
       "lon": 1.4442433,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93157"
-    },
-    {
-      "id": "92601",
-      "nom": "Championnats été - Ligue AuRA Open Maître",
-      "ville": "OYONNAX",
-      "dateDebut": "2026-06-07",
-      "dateFin": "2026-06-07",
-      "niveau": "R",
-      "niveauLibelle": "Régional",
-      "championnatFrance": false,
-      "bassin": 50,
-      "lat": 46.2575174,
-      "lon": 5.6556181,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92601"
     },
     {
       "id": "93726",
@@ -10815,6 +10815,20 @@
       "lat": 48.2020717,
       "lon": 5.9418851,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93657"
+    },
+    {
+      "id": "94038",
+      "nom": "Championnat de l'Essonne été des Maîtres",
+      "ville": "LES ULIS",
+      "dateDebut": "2026-06-14",
+      "dateFin": "2026-06-14",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.681708,
+      "lon": 2.1701573,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94038"
     },
     {
       "id": "94052",
