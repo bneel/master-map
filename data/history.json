@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-06-05T13:52:39.057Z",
+  "generatedAt": "2026-06-05T19:00:24.352Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-06-05T19:00:24.352Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-06-05T13:52:39.057Z",
       "counts": {
@@ -472,17 +480,33 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-05-06T18:23:24.299Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-06-05T19:00:24.352Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "93979",
+          "nom": "Championnat Vaucluse Open Maîtres",
+          "ville": "CARPENTRAS",
+          "dateDebut": "2026-06-06",
+          "dateFin": "2026-06-06",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93979"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-06-03T15:27:58.837Z",
       "counts": {
