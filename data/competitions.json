@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T12:07:15.800Z",
+  "generatedAt": "2026-06-06T18:13:33.017Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10647,6 +10647,20 @@
       "lat": 50.3675677,
       "lon": 3.0804641,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93421"
+    },
+    {
+      "id": "94061",
+      "nom": "championnats departementaux open masters ete",
+      "ville": "LE LUDE",
+      "dateDebut": "2026-06-06",
+      "dateFin": "2026-06-06",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.6572143,
+      "lon": 0.1551409,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94061"
     },
     {
       "id": "93949",
