@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T18:13:33.017Z",
+  "generatedAt": "2026-06-07T12:22:49.105Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10885,6 +10885,20 @@
       "lat": 46.6414367,
       "lon": 4.4461818,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93811"
+    },
+    {
+      "id": "94092",
+      "nom": "CHAMPIONNATS INTERDEPARTEMENTAUX D'ETE DES MAITRES",
+      "ville": "PAMIERS",
+      "dateDebut": "2026-06-21",
+      "dateFin": "2026-06-21",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 50,
+      "lat": 43.1147515,
+      "lon": 1.6082177,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94092"
     },
     {
       "id": "93916",
