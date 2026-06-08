@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-06-07T18:10:06.246Z",
+  "generatedAt": "2026-06-08T14:49:34.481Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-06-08T14:49:34.481Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 4
+      }
+    },
     {
       "scrapedAt": "2026-06-07T18:10:06.246Z",
       "counts": {
@@ -472,25 +480,73 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-05-09T11:53:02.245Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-05-08T18:15:31.372Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-06-08T14:49:34.481Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 4
+      },
+      "added": [],
+      "removed": [],
+      "updated": [
+        {
+          "id": "94003",
+          "nom": "Meeting Maîtres",
+          "ville": "THANN",
+          "dateDebut": "2026-06-05",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "Meeting maître",
+              "to": "Meeting Maîtres"
+            }
+          ]
+        },
+        {
+          "id": "94061",
+          "nom": "Championnats Départementaux Open Masters Été",
+          "ville": "LE LUDE",
+          "dateDebut": "2026-06-06",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "championnats departementaux open masters ete",
+              "to": "Championnats Départementaux Open Masters Été"
+            }
+          ]
+        },
+        {
+          "id": "93726",
+          "nom": "Championnat Départemental des Maîtres de Gironde",
+          "ville": "LANGON",
+          "dateDebut": "2026-06-07",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "Championnat départemental des Maîtres de Gironde",
+              "to": "Championnat Départemental des Maîtres de Gironde"
+            }
+          ]
+        },
+        {
+          "id": "93552",
+          "nom": "Meeting Open Meuse des Maitres - 4e Journée",
+          "ville": "VERDUN",
+          "dateDebut": "2026-06-07",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "Meeting Open Meuse des Maitres 4ème Journée",
+              "to": "Meeting Open Meuse des Maitres - 4e Journée"
+            }
+          ]
+        }
+      ]
+    },
     {
       "scrapedAt": "2026-06-07T12:22:23.938Z",
       "counts": {

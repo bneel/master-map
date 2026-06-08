@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T18:10:30.185Z",
+  "generatedAt": "2026-06-08T14:49:57.986Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10580,7 +10580,7 @@
     },
     {
       "id": "94003",
-      "nom": "Meeting maître",
+      "nom": "Meeting Maîtres",
       "ville": "THANN",
       "dateDebut": "2026-06-05",
       "dateFin": "2026-06-05",
@@ -10650,7 +10650,7 @@
     },
     {
       "id": "94061",
-      "nom": "championnats departementaux open masters ete",
+      "nom": "Championnats Départementaux Open Masters Été",
       "ville": "LE LUDE",
       "dateDebut": "2026-06-06",
       "dateFin": "2026-06-06",
@@ -10720,7 +10720,7 @@
     },
     {
       "id": "93726",
-      "nom": "Championnat départemental des Maîtres de Gironde",
+      "nom": "Championnat Départemental des Maîtres de Gironde",
       "ville": "LANGON",
       "dateDebut": "2026-06-07",
       "dateFin": "2026-06-07",
@@ -10748,7 +10748,7 @@
     },
     {
       "id": "93552",
-      "nom": "Meeting Open Meuse des Maitres 4ème Journée",
+      "nom": "Meeting Open Meuse des Maitres - 4e Journée",
       "ville": "VERDUN",
       "dateDebut": "2026-06-07",
       "dateFin": "2026-06-07",
