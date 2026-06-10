@@ -1,34 +1,8 @@
 {
-  "generatedAt": "2026-06-09T19:22:13.917Z",
+  "generatedAt": "2026-06-10T14:26:02.775Z",
   "season": "2025-2026",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
-    {
-      "id": "habituelle-T_D_circuit_finale-2026-06",
-      "type": "tournant",
-      "nom": "Finale du Circuit 76 des Maîtres",
-      "ville": null,
-      "lat": 49.4938975,
-      "lon": 0.1079732,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 50,
-      "month": "06",
-      "monthLabel": "juin",
-      "moment": "début",
-      "expectedDate": "2026-06-09",
-      "dispersionDays": 8,
-      "seasonsSeen": [
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2025, 2024",
-      "recentCities": [
-        "LE HAVRE"
-      ]
-    },
     {
       "id": "habituelle-V_VAIVRE_ET_MONTOILLE_D-2026-06",
       "type": "ville",
