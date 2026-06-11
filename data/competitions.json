@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T14:40:35.311Z",
+  "generatedAt": "2026-06-11T19:38:51.466Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -10871,6 +10871,20 @@
       "lat": 47.7169881,
       "lon": 1.6116899,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94052"
+    },
+    {
+      "id": "94022",
+      "nom": "Meeting du Ludolac - Masters",
+      "ville": "VAIVRE-ET-MONTOILLE",
+      "dateDebut": "2026-06-20",
+      "dateFin": "2026-06-20",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 50,
+      "lat": 47.6339612,
+      "lon": 6.106983,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94022"
     },
     {
       "id": "93811",

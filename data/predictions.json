@@ -1,35 +1,8 @@
 {
-  "generatedAt": "2026-06-11T14:40:35.373Z",
+  "generatedAt": "2026-06-11T19:38:51.528Z",
   "season": "2025-2026",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
-    {
-      "id": "habituelle-V_VAIVRE_ET_MONTOILLE_D-2026-06",
-      "type": "ville",
-      "nom": "Meeting du Ludolac Masters",
-      "ville": "VAIVRE-ET-MONTOILLE",
-      "lat": 47.6339612,
-      "lon": 6.106983,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 50,
-      "month": "06",
-      "monthLabel": "juin",
-      "moment": "fin",
-      "expectedDate": "2026-06-22",
-      "dispersionDays": 1,
-      "seasonsSeen": [
-        "2024-2025",
-        "2023-2024",
-        "2021-2022"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2025, 2024, 2022",
-      "recentCities": [
-        "VAIVRE-ET-MONTOILLE"
-      ]
-    },
     {
       "id": "habituelle-V_REMIREMONT_D-2026-07",
       "type": "ville",
