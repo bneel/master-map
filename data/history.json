@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-06-23T13:43:48.840Z",
+  "generatedAt": "2026-06-23T19:10:47.377Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-06-23T19:10:47.377Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 1
+      }
+    },
     {
       "scrapedAt": "2026-06-23T13:43:48.840Z",
       "counts": {
@@ -472,17 +480,34 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-05-24T18:03:21.029Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-06-23T19:10:47.377Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 1
+      },
+      "added": [],
+      "removed": [],
+      "updated": [
+        {
+          "id": "94092",
+          "nom": "Championnats Interdépartementaux d'Été des Maîtres",
+          "ville": "PAMIERS",
+          "dateDebut": "2026-06-21",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "CHAMPIONNATS INTERDEPARTEMENTAUX D'ETE DES MAITRES",
+              "to": "Championnats Interdépartementaux d'Été des Maîtres"
+            }
+          ]
+        }
+      ]
+    },
     {
       "scrapedAt": "2026-06-22T15:54:55.277Z",
       "counts": {
