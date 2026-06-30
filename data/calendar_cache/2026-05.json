@@ -1,0 +1,1820 @@
+{
+  "savedAt": "2026-06-30T13:09:40.137Z",
+  "year": 2026,
+  "month": 5,
+  "count": 302,
+  "raw": [
+    {
+      "competitionId": "93352",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Open des Maîtres - AGEN",
+      "dateIso": "2026-05-01"
+    },
+    {
+      "competitionId": "93118",
+      "niveau": "R",
+      "libelle": "46e Grand Prix Jean Boiteux - LNA Tour - MÉRIGNAC",
+      "dateIso": "2026-05-01"
+    },
+    {
+      "competitionId": "93309",
+      "niveau": "D",
+      "libelle": "5e Meeting Ancenis Course Natation - ANCENIS",
+      "dateIso": "2026-05-01"
+    },
+    {
+      "competitionId": "93553",
+      "niveau": "D",
+      "libelle": "1er Meeting d’Aubusson - AUBUSSON",
+      "dateIso": "2026-05-01"
+    },
+    {
+      "competitionId": "93300",
+      "niveau": "D",
+      "libelle": "Meeting du Muguet - AVRANCHES",
+      "dateIso": "2026-05-01"
+    },
+    {
+      "competitionId": "92860",
+      "niveau": "D",
+      "libelle": "Les 50m de Bray-Dunes - BRAY-DUNES",
+      "dateIso": "2026-05-01"
+    },
+    {
+      "competitionId": "93086",
+      "niveau": "D",
+      "libelle": "Meeting du Valois - CRÉPY-EN-VALOIS",
+      "dateIso": "2026-05-01"
+    },
+    {
+      "competitionId": "93548",
+      "niveau": "D",
+      "libelle": "Le Grand Challenge OCTOPUS - SAINT-QUENTIN",
+      "dateIso": "2026-05-01"
+    },
+    {
+      "competitionId": "93230",
+      "niveau": "N",
+      "libelle": "XIVe Meeting National des Maîtres de Caen - CAEN",
+      "dateIso": "2026-05-02"
+    },
+    {
+      "competitionId": "92810",
+      "niveau": "N",
+      "libelle": "17e Meeting National G. Bozon - TOURS",
+      "dateIso": "2026-05-02"
+    },
+    {
+      "competitionId": "93699",
+      "niveau": "R",
+      "libelle": "Meeting Qualificatif #4 - Circuit LNG - CAYENNE",
+      "dateIso": "2026-05-02"
+    },
+    {
+      "competitionId": "93700",
+      "niveau": "R",
+      "libelle": "Masters - Meeting Qualificatif #4  - CAYENNE",
+      "dateIso": "2026-05-02"
+    },
+    {
+      "competitionId": "93610",
+      "niveau": "R",
+      "libelle": "Match #4 U11 - Zone Ouest - LE PORT",
+      "dateIso": "2026-05-02"
+    },
+    {
+      "competitionId": "93609",
+      "niveau": "R",
+      "libelle": "Match #4 U11 - Zone Sud - LE TAMPON",
+      "dateIso": "2026-05-02"
+    },
+    {
+      "competitionId": "93692",
+      "niveau": "R",
+      "libelle": "Coupe Diane Lacombe Nui - PAPEETE",
+      "dateIso": "2026-05-02"
+    },
+    {
+      "competitionId": "93608",
+      "niveau": "R",
+      "libelle": "Match #4 U11 - Zone Nord-Est - SAINTE-MARIE",
+      "dateIso": "2026-05-02"
+    },
+    {
+      "competitionId": "91999",
+      "niveau": "R",
+      "libelle": "33es Nautiques de Tarbes - TARBES",
+      "dateIso": "2026-05-02"
+    },
+    {
+      "competitionId": "93605",
+      "niveau": "D",
+      "libelle": "Meeting des Jeunes - CHÂLONS-EN-CHAMPAGNE",
+      "dateIso": "2026-05-02"
+    },
+    {
+      "competitionId": "93132",
+      "niveau": "D",
+      "libelle": "Natathlon Avenirs - Etape 4/Benjamins - Etape 3 - ERSTEIN",
+      "dateIso": "2026-05-02"
+    },
+    {
+      "competitionId": "93571",
+      "niveau": "D",
+      "libelle": "1er Meeting des Atlantides - LE MANS",
+      "dateIso": "2026-05-02"
+    },
+    {
+      "competitionId": "93652",
+      "niveau": "R",
+      "libelle": "Meeting de Vitesse - BASTIA",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93659",
+      "niveau": "R",
+      "libelle": "Grand Prix Jacques Sicot - 1ère Edition - SCHOELCHER",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93500",
+      "niveau": "D",
+      "libelle": "Meeting du Sprint/Les Quatres 50m - ARLES",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "92194",
+      "niveau": "D",
+      "libelle": "Trophée Départemental U11- 3 - ARRAS",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "92413",
+      "niveau": "D",
+      "libelle": "Challenge Départemental - Journée 3 - ARRAS",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93564",
+      "niveau": "D",
+      "libelle": "Meeting U13 - Belleville - BELLEVILLE",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "92197",
+      "niveau": "D",
+      "libelle": "Trophée Départemental U11 - 3 - CALAIS",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93451",
+      "niveau": "D",
+      "libelle": "6e Meeting des Dentelles - Séries & Relais - CAUDRY",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93453",
+      "niveau": "D",
+      "libelle": "6e Meeting des Dentelles - Les Finales - CAUDRY",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93339",
+      "niveau": "D",
+      "libelle": "Championnat Départemental U13 et + de printemps - CHAMBÉRY",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93069",
+      "niveau": "D",
+      "libelle": "4e Meeting de l'Indre - CHÂTILLON-SUR-INDRE",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "92691",
+      "niveau": "D",
+      "libelle": "Journée Départementale Avenirs et Benjamins 1 - COMMENTRY",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "92894",
+      "niveau": "D",
+      "libelle": "Trophée Benjamins - Juniors et + - Plot 2 - COULOISY",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "92416",
+      "niveau": "D",
+      "libelle": "Challenge Départemental - Journée 3 - DIVION",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "92766",
+      "niveau": "D",
+      "libelle": "3e Meeting du Dourdannais - DOURDAN",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93689",
+      "niveau": "D",
+      "libelle": "Journée d'Animation 4 (U11 et moins) - LANGRES",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93691",
+      "niveau": "D",
+      "libelle": "Journée d'Animation 4 (Toutes catégories) - LANGRES",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93698",
+      "niveau": "D",
+      "libelle": "Circuit 4 Benjamins/Juniors - LAON",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93443",
+      "niveau": "D",
+      "libelle": "Journée CD54 #4 - LONGWY",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93582",
+      "niveau": "D",
+      "libelle": "Circuit N°2 - Avenirs/U11-Benjamins/U13 & Juniors/U18  - MÂCON",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "92415",
+      "niveau": "D",
+      "libelle": "Challenge Départemental - Journée 3 - MONTREUIL-SUR-MER",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93624",
+      "niveau": "D",
+      "libelle": "2e Meeting de la Plage - PONTIVY",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93001",
+      "niveau": "D",
+      "libelle": "Trophées Paule Lacoste #5-2026 - PORTET-SUR-GARONNE",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93554",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 3 - Zone Est - SAINT-AVOLD",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93696",
+      "niveau": "D",
+      "libelle": "CUP 17 - Plot  - SAINTES",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93555",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 3 - Zone Ouest - THIONVILLE",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93457",
+      "niveau": "D",
+      "libelle": "Tournoi de Vitesse Maîtres des Alpes-Maritimes - VALLAURIS",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93462",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux des Maîtres des Alpes-Maritimes - VALLAURIS",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93665",
+      "niveau": "D",
+      "libelle": "Championnat Départemental U11 & moins - VEDENE",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "92196",
+      "niveau": "D",
+      "libelle": "Trophée Départemental U11 - 3 - VITRY-EN-ARTOIS",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "92414",
+      "niveau": "D",
+      "libelle": "Challenge Départemental - Journée 3 - VITRY-EN-ARTOIS",
+      "dateIso": "2026-05-03"
+    },
+    {
+      "competitionId": "93733",
+      "niveau": "R",
+      "libelle": "Meeting Région Sud Qualification WC #2 - ANTIBES",
+      "dateIso": "2026-05-08"
+    },
+    {
+      "competitionId": "92795",
+      "niveau": "R",
+      "libelle": "2e Tour du Circuit HDF Promotionnel - BEAUVAIS",
+      "dateIso": "2026-05-08"
+    },
+    {
+      "competitionId": "93535",
+      "niveau": "R",
+      "libelle": "8e Meeting de Metz - METZ",
+      "dateIso": "2026-05-08"
+    },
+    {
+      "competitionId": "92048",
+      "niveau": "R",
+      "libelle": "Meeting Régional Toutes Catégories - Niveau Régional - TOULOUSE",
+      "dateIso": "2026-05-08"
+    },
+    {
+      "competitionId": "92049",
+      "niveau": "R",
+      "libelle": "Meeting Régional Toutes Catégories - Niveau National - TOULOUSE",
+      "dateIso": "2026-05-08"
+    },
+    {
+      "competitionId": "93673",
+      "niveau": "D",
+      "libelle": "Départementaux Printemps 2026 d'Eure-et-Loir - BONNEVAL",
+      "dateIso": "2026-05-08"
+    },
+    {
+      "competitionId": "93674",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Printemps 2026 Maîtres du 28 - BONNEVAL",
+      "dateIso": "2026-05-08"
+    },
+    {
+      "competitionId": "93705",
+      "niveau": "D",
+      "libelle": "Championnats du Haut-Rhin 2026 - GUEBWILLER",
+      "dateIso": "2026-05-08"
+    },
+    {
+      "competitionId": "93540",
+      "niveau": "D",
+      "libelle": "Inter-clubs du Lille UC Natation - LILLE",
+      "dateIso": "2026-05-08"
+    },
+    {
+      "competitionId": "92557",
+      "niveau": "D",
+      "libelle": "Meeting Maîtres Open - LURE",
+      "dateIso": "2026-05-08"
+    },
+    {
+      "competitionId": "92558",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Open - LURE",
+      "dateIso": "2026-05-08"
+    },
+    {
+      "competitionId": "93670",
+      "niveau": "D",
+      "libelle": "Challenge de Manosque - MANOSQUE",
+      "dateIso": "2026-05-08"
+    },
+    {
+      "competitionId": "93668",
+      "niveau": "D",
+      "libelle": "Meeting du CN Grésivaudan - PONTCHARRA",
+      "dateIso": "2026-05-08"
+    },
+    {
+      "competitionId": "93568",
+      "niveau": "D",
+      "libelle": "Meeting des Corsaires - QUESTEMBERT",
+      "dateIso": "2026-05-08"
+    },
+    {
+      "competitionId": "93227",
+      "niveau": "D",
+      "libelle": "Meeting de Saint-Étienne - SAINT-ÉTIENNE",
+      "dateIso": "2026-05-08"
+    },
+    {
+      "competitionId": "93712",
+      "niveau": "D",
+      "libelle": "Cher Swimming League - SAINT-GERMAIN-DU-PUY",
+      "dateIso": "2026-05-08"
+    },
+    {
+      "competitionId": "92647",
+      "niveau": "N",
+      "libelle": "12e Meeting National Maîtres de Dijon Métropole - DIJON",
+      "dateIso": "2026-05-09"
+    },
+    {
+      "competitionId": "91700",
+      "niveau": "R",
+      "libelle": "6e Meeting de Nevers - NEVERS",
+      "dateIso": "2026-05-09"
+    },
+    {
+      "competitionId": "92794",
+      "niveau": "R",
+      "libelle": "2e Tour du Circuit HDF Promotionnel - SECLIN",
+      "dateIso": "2026-05-09"
+    },
+    {
+      "competitionId": "93557",
+      "niveau": "D",
+      "libelle": "33e Meeting Roger-Noblet - BAYONNE",
+      "dateIso": "2026-05-09"
+    },
+    {
+      "competitionId": "93732",
+      "niveau": "D",
+      "libelle": "Nat'Ouest 2026 - BREST",
+      "dateIso": "2026-05-09"
+    },
+    {
+      "competitionId": "93593",
+      "niveau": "D",
+      "libelle": "Critériums 3 Benjamins/Juniors/Séniors Open  - NEMOURS",
+      "dateIso": "2026-05-09"
+    },
+    {
+      "competitionId": "90952",
+      "niveau": "D",
+      "libelle": "Animation U11 - NÎMES",
+      "dateIso": "2026-05-09"
+    },
+    {
+      "competitionId": "93174",
+      "niveau": "D",
+      "libelle": "Etoiles du Futur - OSTWALD",
+      "dateIso": "2026-05-09"
+    },
+    {
+      "competitionId": "93534",
+      "niveau": "D",
+      "libelle": "13e Meeting de Paris  - PARIS",
+      "dateIso": "2026-05-09"
+    },
+    {
+      "competitionId": "93612",
+      "niveau": "D",
+      "libelle": "Challenge 92 Demi-fond Juniors/Séniors - PUTEAUX",
+      "dateIso": "2026-05-09"
+    },
+    {
+      "competitionId": "93821",
+      "niveau": "D",
+      "libelle": "Benjamins J3 - PUTEAUX",
+      "dateIso": "2026-05-09"
+    },
+    {
+      "competitionId": "93676",
+      "niveau": "D",
+      "libelle": "Benjathlon n°4 - SAINT-OUEN",
+      "dateIso": "2026-05-09"
+    },
+    {
+      "competitionId": "93647",
+      "niveau": "D",
+      "libelle": "3e Trophy des P'tits Landais - SAINT-PIERRE-DU-MONT",
+      "dateIso": "2026-05-09"
+    },
+    {
+      "competitionId": "92393",
+      "niveau": "D",
+      "libelle": "Championnats des Yvelines - SARTROUVILLE",
+      "dateIso": "2026-05-09"
+    },
+    {
+      "competitionId": "91954",
+      "niveau": "D",
+      "libelle": "29e Open de Seynod Natation - SEYNOD",
+      "dateIso": "2026-05-09"
+    },
+    {
+      "competitionId": "91695",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 5 - VENDÔME",
+      "dateIso": "2026-05-09"
+    },
+    {
+      "competitionId": "93209",
+      "niveau": "D",
+      "libelle": "Avenirs U11 - Plot 3   - VILLEJUIF",
+      "dateIso": "2026-05-09"
+    },
+    {
+      "competitionId": "90956",
+      "niveau": "D",
+      "libelle": "Championnats du Gard U13  Open - ALES",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93530",
+      "niveau": "D",
+      "libelle": "Interclubs U14/U15 - AMBERT",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93531",
+      "niveau": "D",
+      "libelle": "Interclubs U12/U13 - AMBERT",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93253",
+      "niveau": "D",
+      "libelle": "Journée Départementale Juniors/Séniors - AVRILLÉ",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "91696",
+      "niveau": "D",
+      "libelle": "Coupe 41 (3e Manche) - BLOIS",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93016",
+      "niveau": "D",
+      "libelle": "Découv'Nat - 3e Journée - CAUDRY",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93319",
+      "niveau": "D",
+      "libelle": "Interclubs U11 et moins - ÉPINAL",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93320",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux U13 et U12 - ÉPINAL",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93658",
+      "niveau": "D",
+      "libelle": "INTERCLUBS Départementaux U15 - ÉPINAL",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93538",
+      "niveau": "D",
+      "libelle": "Meeting Maîtres La TERRE NEUVAS - FÉCAMP",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93671",
+      "niveau": "D",
+      "libelle": "Challenge 92 du Demi-fond Juniors/Séniors - GENNEVILLIERS",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93822",
+      "niveau": "D",
+      "libelle": "Benjamins J3 - GENNEVILLIERS",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93594",
+      "niveau": "D",
+      "libelle": "4e Trophée Avenirs U11  - GIVORS",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93020",
+      "niveau": "D",
+      "libelle": "Découv'Nat - 3e Journée - GRAVELINES",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "92103",
+      "niveau": "D",
+      "libelle": "6e Meeting des Landes - HAGETMAU",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93071",
+      "niveau": "D",
+      "libelle": "4e Challenge U13 - LA CHÂTRE",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93017",
+      "niveau": "D",
+      "libelle": "Découv'Nat - 3e Journée - LA MADELEINE",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93487",
+      "niveau": "D",
+      "libelle": "Nat' Avenirs - Etape 3 - LISIEUX",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93489",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux Benjamins - LISIEUX",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "92404",
+      "niveau": "D",
+      "libelle": "Championnat Départemental U12/U13 - 4e Étape - LOCHES",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "92852",
+      "niveau": "D",
+      "libelle": "Championnats de Vendée Masters Eté - LUÇON",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93688",
+      "niveau": "D",
+      "libelle": "Circuit Départemental Benjamins n°2  - LUÇON",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93792",
+      "niveau": "D",
+      "libelle": "Rencontre Avenirs 4 - LUÇON",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93015",
+      "niveau": "D",
+      "libelle": "Découv'Nat - 3e Journée - MARCQ-EN-BAROEUL",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93725",
+      "niveau": "D",
+      "libelle": "Plot Benjamins U12/U13 - n°2 / 2026 - NORT-SUR-ERDRE",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "91163",
+      "niveau": "D",
+      "libelle": "Trophée U13 - 4e Plot  - ORLÉANS",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93175",
+      "niveau": "D",
+      "libelle": "47e Meeting International de Natation - OSTWALD",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93771",
+      "niveau": "D",
+      "libelle": "Coupe Paillieux – 4e Etape - PARIS",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93773",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs – 2e Etape - PARIS",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "92129",
+      "niveau": "D",
+      "libelle": "Avenirs Drôme/Ardèche  - PIERRELATTE",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93628",
+      "niveau": "D",
+      "libelle": "3e Journée Départementale - Secteur 2 - SAINT-MICHEL-SUR-ORGE",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93630",
+      "niveau": "D",
+      "libelle": "3e Journée Départementale - Maîtres - Secteur 2 - SAINT-MICHEL-SUR-ORGE",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93019",
+      "niveau": "D",
+      "libelle": "Découv'Nat - 3e Journée - SAINT-SAULVE",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93321",
+      "niveau": "D",
+      "libelle": "Vosg'Nat 4 Open 25m - THAON-LES-VOSGES",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93634",
+      "niveau": "D",
+      "libelle": "3e Journée Départementale - Maîtres - Secteurs 1 & 3 - VIRY-CHATILLON",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "93638",
+      "niveau": "D",
+      "libelle": "3e Journée Départementale - Secteurs 1 & 3 - VIRY-CHATILLON",
+      "dateIso": "2026-05-10"
+    },
+    {
+      "competitionId": "92068",
+      "niveau": "R",
+      "libelle": "9e Tunisian Open Masters - RADES",
+      "dateIso": "2026-05-12"
+    },
+    {
+      "competitionId": "93798",
+      "niveau": "R",
+      "libelle": "Coupe Inter-départementale U11 - GAP",
+      "dateIso": "2026-05-14"
+    },
+    {
+      "competitionId": "93656",
+      "niveau": "R",
+      "libelle": "Meeting du Sprint du CN Yvetot - YVETOT",
+      "dateIso": "2026-05-14"
+    },
+    {
+      "competitionId": "93425",
+      "niveau": "D",
+      "libelle": "Meeting des Jeunes - CAEN",
+      "dateIso": "2026-05-14"
+    },
+    {
+      "competitionId": "92536",
+      "niveau": "D",
+      "libelle": "4e Meeting de la Ville de Niort - NIORT",
+      "dateIso": "2026-05-14"
+    },
+    {
+      "competitionId": "93556",
+      "niveau": "D",
+      "libelle": "2e Journée Moselle - SARREGUEMINES",
+      "dateIso": "2026-05-14"
+    },
+    {
+      "competitionId": "93480",
+      "niveau": "N",
+      "libelle": "VIes Championnats de France Eté N2 des Maîtres - NÎMES",
+      "dateIso": "2026-05-15"
+    },
+    {
+      "competitionId": "93426",
+      "niveau": "D",
+      "libelle": "Meeting de Caen - CAEN",
+      "dateIso": "2026-05-15"
+    },
+    {
+      "competitionId": "93105",
+      "niveau": "D",
+      "libelle": "42e Challenge Le Gallic de Massy - MASSY",
+      "dateIso": "2026-05-15"
+    },
+    {
+      "competitionId": "92450",
+      "niveau": "N",
+      "libelle": "11e Meeting national des Maîtres du Gard - NÎMES",
+      "dateIso": "2026-05-16"
+    },
+    {
+      "competitionId": "93289",
+      "niveau": "R",
+      "libelle": "Meeting Arena - La Roche-sur-Yon - LA ROCHE-SUR-YON",
+      "dateIso": "2026-05-16"
+    },
+    {
+      "competitionId": "92947",
+      "niveau": "R",
+      "libelle": "13e Meeting de la Ville de Melun Eurocomswim - MELUN",
+      "dateIso": "2026-05-16"
+    },
+    {
+      "competitionId": "91976",
+      "niveau": "D",
+      "libelle": "Circuit Départemental (étape 3) - CD66 - CANET-EN-ROUSSILLON",
+      "dateIso": "2026-05-16"
+    },
+    {
+      "competitionId": "93655",
+      "niveau": "D",
+      "libelle": "Meeting Pur Sprint - CHELLES",
+      "dateIso": "2026-05-16"
+    },
+    {
+      "competitionId": "92895",
+      "niveau": "D",
+      "libelle": "Trophée Avenirs - Plot 3 - CRÉPY-EN-VALOIS",
+      "dateIso": "2026-05-16"
+    },
+    {
+      "competitionId": "93707",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Benjamins - DRAGUIGNAN",
+      "dateIso": "2026-05-16"
+    },
+    {
+      "competitionId": "93210",
+      "niveau": "D",
+      "libelle": "Journée Sprint   U14 et + - L'HAŸ-LES-ROSES",
+      "dateIso": "2026-05-16"
+    },
+    {
+      "competitionId": "92587",
+      "niveau": "D",
+      "libelle": "4e Étape Départementale U11 et - - REIMS",
+      "dateIso": "2026-05-16"
+    },
+    {
+      "competitionId": "93611",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Eté Toutes Catégories - SARCELLES",
+      "dateIso": "2026-05-16"
+    },
+    {
+      "competitionId": "93666",
+      "niveau": "D",
+      "libelle": "Championnat Départemental U12 et plus - SORGUES",
+      "dateIso": "2026-05-16"
+    },
+    {
+      "competitionId": "93677",
+      "niveau": "R",
+      "libelle": "Championnats de Martinique Maîtres - 50m - LE LAMENTIN",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93669",
+      "niveau": "R",
+      "libelle": "1er Meeting Michel Fouasseau – U13 - LE PORT",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93701",
+      "niveau": "R",
+      "libelle": "Spécial Ecole de Natation #4 - SAINT-LAURENT-DU-MARONI",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "92467",
+      "niveau": "D",
+      "libelle": "Avenirs Eté - AVRANCHES",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93574",
+      "niveau": "D",
+      "libelle": "Challenge Départemental Avenirs  - BELFORT",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93575",
+      "niveau": "D",
+      "libelle": "Trophées U11 - BELFORT",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93576",
+      "niveau": "D",
+      "libelle": "Interclubs NFC U13 - BELFORT",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93908",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs NFC U13 - BELFORT",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93782",
+      "niveau": "D",
+      "libelle": "Critérium du Nord - 3e Plot - CAMBRAI",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93790",
+      "niveau": "D",
+      "libelle": "Circuit 4 Avenirs - CHÂTEAU-THIERRY",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93573",
+      "niveau": "D",
+      "libelle": "Meeting Benjamin Cohen - COMPIÈGNE",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93633",
+      "niveau": "D",
+      "libelle": "Rencontre des Écoles de Natation - Secteur 2 - ÉTAMPES",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93781",
+      "niveau": "D",
+      "libelle": "Critérium du Nord - 3e Plot - GRAVELINES",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93693",
+      "niveau": "D",
+      "libelle": "Interclubs U13 (Benjamins) - ISTRES",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93791",
+      "niveau": "D",
+      "libelle": "Interclubs U15 (Juniors 1 et 2) - ISTRES",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93211",
+      "niveau": "D",
+      "libelle": "Journée Demi-fond Open U12 et + - L'HAŸ-LES-ROSES",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93770",
+      "niveau": "D",
+      "libelle": "Challenge N°2 - Avenirs/U11 - LOUHANS",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93779",
+      "niveau": "D",
+      "libelle": "Critérium du Nord - 3e Plot - MARCQ-EN-BAROEUL",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93631",
+      "niveau": "D",
+      "libelle": "Rencontre des écoles de Natation - secteur 1 - MORSANG-SUR-ORGE",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "92589",
+      "niveau": "D",
+      "libelle": "4e Étape Départementale U12 et + - REIMS",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93632",
+      "niveau": "D",
+      "libelle": "Rencontre des Écoles de Natation - Secteur 3 - RIS-ORANGIS",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93729",
+      "niveau": "D",
+      "libelle": "12ème Coupe Maryline DOUAY - SAINT-HERBLAIN",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93830",
+      "niveau": "D",
+      "libelle": "5e Journée Qualificative - Pyrénées-Atlantiques - SAINT-JEAN-DE-LUZ",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93780",
+      "niveau": "D",
+      "libelle": "Critérium du Nord - 3e Plot - SECLIN",
+      "dateIso": "2026-05-17"
+    },
+    {
+      "competitionId": "93727",
+      "niveau": "Z",
+      "libelle": "Challenge National #2 - Plot Dijon - DIJON",
+      "dateIso": "2026-05-22"
+    },
+    {
+      "competitionId": "92378",
+      "niveau": "N",
+      "libelle": "10e Meeting des Maîtres de Poissy - POISSY",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93721",
+      "niveau": "R",
+      "libelle": "Coupe des Départements - Ligue AuRA - BOURGOIN-JALLIEU",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "92827",
+      "niveau": "R",
+      "libelle": "Meeting de Lens - LENS",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93785",
+      "niveau": "R",
+      "libelle": "Shark Meet 4 - LES ABYMES",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93838",
+      "niveau": "R",
+      "libelle": "Shark Meet 4 Maîtres - LES ABYMES",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93784",
+      "niveau": "R",
+      "libelle": "33e Meeting 45 - ORLÉANS",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93470",
+      "niveau": "R",
+      "libelle": "47e Meeting de Poitiers - Trophée Christian Leteure - POITIERS",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "91973",
+      "niveau": "D",
+      "libelle": "Championnat Départemental U11 (2015 & après) - ARGELES-SUR-MER",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93646",
+      "niveau": "D",
+      "libelle": "Championnat du Rhône Eté Maîtres - BELLEVILLE",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93648",
+      "niveau": "D",
+      "libelle": "12e Meeting de Natation du Beaujolais - BELLEVILLE",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93735",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants - Coupe de France des Départements - BOURGOIN-JALLIEU",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93873",
+      "niveau": "D",
+      "libelle": "5e Meeting de la Pentecôte  - CERNAY",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "90584",
+      "niveau": "D",
+      "libelle": "Plot Départemental 4 - FOUGÈRES",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "92475",
+      "niveau": "D",
+      "libelle": "2e District - Nord - GRANVILLE",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93882",
+      "niveau": "D",
+      "libelle": "Circuit Départemental TC 65/32 - 4e Étape - LOURDES",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93906",
+      "niveau": "D",
+      "libelle": "Médailles du TOAC - 65/32 - 1ère Etape  - LOURDES",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93907",
+      "niveau": "D",
+      "libelle": "2e Meeting Maîtres 65/32 - LOURDES",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93709",
+      "niveau": "D",
+      "libelle": "6e Meeting SSD Benjamins/Avenirs - MARVILLE",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93416",
+      "niveau": "D",
+      "libelle": "Tournoi International de Paris - TIP - PARIS",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93774",
+      "niveau": "D",
+      "libelle": "Challenge Parisien - Benjamins/Juniors/Séniors - PARIS",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93710",
+      "niveau": "D",
+      "libelle": "Meeting Masters Paul-Izard - PAU",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93089",
+      "niveau": "D",
+      "libelle": "Meeting 72 - SABLE-SUR-SARTHE",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "92485",
+      "niveau": "D",
+      "libelle": "U11 - Plot 3 (Tous secteurs) - SAINT-ÉTIENNE-DU-ROUVRAY",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93713",
+      "niveau": "D",
+      "libelle": "Trophée 18 - U11 - Etape 4 - Challenge Bleu - SAINT-GERMAIN-DU-PUY",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93714",
+      "niveau": "D",
+      "libelle": "Trophée 18 - U11 - Etape 4 - Challenge Rouge - SAINT-GERMAIN-DU-PUY",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93004",
+      "niveau": "D",
+      "libelle": "Championnat Départemental B/J/S #5-2026 - TOULOUSE",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "93661",
+      "niveau": "D",
+      "libelle": "Championnat Départemental U11 et avant - 3e Etape - TOURS",
+      "dateIso": "2026-05-23"
+    },
+    {
+      "competitionId": "92718",
+      "niveau": "R",
+      "libelle": "20e Meeting Mélanie Dambrine - AMIENS",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93918",
+      "niveau": "R",
+      "libelle": "Coupe de France des Départements - Phase Qualificative - AVIGNON",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93216",
+      "niveau": "R",
+      "libelle": "Finale Régionale Printemps Yaouank - LOUDÉAC",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93823",
+      "niveau": "R",
+      "libelle": "Challenge des Maîtres 3 - SAINT-LEU",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93392",
+      "niveau": "D",
+      "libelle": "Circuit 5 - BORDEAUX",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93896",
+      "niveau": "D",
+      "libelle": "Trophées Haute-Savoie - U11 et moins - Complet - CLUSES",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93905",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 4 - COMBS-LA-VILLE",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93983",
+      "niveau": "D",
+      "libelle": "2e Meeting Sprint TC de C2N - DOUVRES-LA-DÉLIVRANDE",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93860",
+      "niveau": "D",
+      "libelle": "Circuit Avenirs 91 - 3e Plot - Secteur 2 - ÉVRY",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93155",
+      "niveau": "D",
+      "libelle": "Meeting U11 - 5e Journée (Secteur 1) - GAILLAC",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "92377",
+      "niveau": "D",
+      "libelle": "3es Journées Qualificatives aux Chpts Départementaux U11 - GUYANCOURT",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93679",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux U11 (Avenirs) - ISTRES",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "92544",
+      "niveau": "D",
+      "libelle": "Interclubs Départementaux (U11) Avenirs - JANZÉ",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93683",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs (U11) - Équipes Mixtes - JANZÉ",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93378",
+      "niveau": "D",
+      "libelle": "DAE-3 / YAOUANK-3 - LANNION",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93154",
+      "niveau": "D",
+      "libelle": "Meeting U11 - 5e Journée (Secteur 2) - LAVAUR",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93859",
+      "niveau": "D",
+      "libelle": "Circuit Avenirs 91 - 3e Plot - Secteur 1 - LES ULIS",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93176",
+      "niveau": "D",
+      "libelle": "Meeting du Tournesol - LINGOLSHEIM",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93897",
+      "niveau": "D",
+      "libelle": "Circuit 5 - U11 - Pyrénées-Atlantiques - LONS",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93213",
+      "niveau": "D",
+      "libelle": "Interclubs U13 - Val-de-Marne - MAISONS-ALFORT",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93374",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs U13 - MAISONS-ALFORT",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93927",
+      "niveau": "D",
+      "libelle": "Interclubs Mixtes - U13  - MAISONS-ALFORT",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93904",
+      "niveau": "D",
+      "libelle": "Challenge Avenirs 4 - MEAUX",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93706",
+      "niveau": "D",
+      "libelle": "Interclubs Benjamins (U13) - MONTCHANIN",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93861",
+      "niveau": "D",
+      "libelle": "Circuit Avenirs 91 - 3e Plot - Secteur 3 - MONTGERON",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "92758",
+      "niveau": "D",
+      "libelle": "Natathlon Avenirs / Groupe 1 et Animation - 3e Plot  - MONTPELLIER",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "92759",
+      "niveau": "D",
+      "libelle": "Natathlon Avenirs / Après-midi / Groupe 2 - 3e Plot  - MONTPELLIER",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93601",
+      "niveau": "D",
+      "libelle": "Finale de la Coupe du Sud - OULLINS",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93808",
+      "niveau": "D",
+      "libelle": "Intersport Swim Tour Joqua 4 - PÉRIGUEUX",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93854",
+      "niveau": "D",
+      "libelle": "2e Meeting Estival - SEDAN",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93844",
+      "niveau": "D",
+      "libelle": "Championnats Interdépartementaux Open Aube/Haute-Marne - TROYES",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "91947",
+      "niveau": "D",
+      "libelle": "3es Journées Qualificatives aux Chpts Départementaux U11 - VÉLIZY-VILLACOU..",
+      "dateIso": "2026-05-24"
+    },
+    {
+      "competitionId": "93432",
+      "niveau": "N",
+      "libelle": "Championnats de France U18 - CHALON-SUR-SAÔNE",
+      "dateIso": "2026-05-25"
+    },
+    {
+      "competitionId": "92861",
+      "niveau": "D",
+      "libelle": "Challenge Maîtres Xavier Carteron - BRAY-DUNES",
+      "dateIso": "2026-05-25"
+    },
+    {
+      "competitionId": "93598",
+      "niveau": "D",
+      "libelle": "5th Meeting Of The Ducks - LUNÉVILLE",
+      "dateIso": "2026-05-25"
+    },
+    {
+      "competitionId": "93879",
+      "niveau": "D",
+      "libelle": "5th Meeting of the Ducks - Maîtres - LUNÉVILLE",
+      "dateIso": "2026-05-25"
+    },
+    {
+      "competitionId": "93855",
+      "niveau": "D",
+      "libelle": "Challenge U11 - Étape 3 - VERNOUILLET",
+      "dateIso": "2026-05-25"
+    },
+    {
+      "competitionId": "93680",
+      "niveau": "I",
+      "libelle": "38e Meeting International de Canet-en-Roussillon - CANET-EN-ROUSSILLON",
+      "dateIso": "2026-05-27"
+    },
+    {
+      "competitionId": "92695",
+      "niveau": "D",
+      "libelle": "32e Meeting de Printemps de VVA Natation - BELLERIVE-SUR-ALLIER",
+      "dateIso": "2026-05-29"
+    },
+    {
+      "competitionId": "93371",
+      "niveau": "R",
+      "libelle": "Championnats de Normandie U13 - ARGENTAN",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93922",
+      "niveau": "R",
+      "libelle": "Trophée U11 2026 - Plot 3 - LE LORRAIN",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93430",
+      "niveau": "R",
+      "libelle": "Meeting de Saint-Malo Natation - SAINT-MALO",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93980",
+      "niveau": "R",
+      "libelle": "Finale Régionale U13 - SAINT-NAZAIRE",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93744",
+      "niveau": "R",
+      "libelle": "Match U14+ - SAINT-PAUL",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93851",
+      "niveau": "D",
+      "libelle": "Trophée 4 - U11 - AVALLON",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "92735",
+      "niveau": "D",
+      "libelle": "Championnats Interdépartementaux - BELFORT",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93894",
+      "niveau": "D",
+      "libelle": "Championnat Départemental NFC Maîtres - BELFORT",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93681",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux U13 (Benjamins) - BERRE-L'ETANG",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93525",
+      "niveau": "D",
+      "libelle": "Meeting Sprint 29 - BREST",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93930",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Été Avenirs - COSNE-COURS-SUR-LOIRE",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93932",
+      "niveau": "D",
+      "libelle": "Championnats Départementaux Été Benjamins et + - COSNE-COURS-SUR-LOIRE",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93889",
+      "niveau": "D",
+      "libelle": "Championnat d'Eté - DIGNE-LES-BAINS",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93711",
+      "niveau": "D",
+      "libelle": "Mini Neuf Cube 4 - DRANCY",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93809",
+      "niveau": "D",
+      "libelle": "Championnat Départemental d'Eté  - ÉCHIROLLES",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93869",
+      "niveau": "D",
+      "libelle": "Championnats d'Eté de l'Essonne - MENNECY",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "92978",
+      "niveau": "D",
+      "libelle": "Meeting de Mitry-Mory Marc Hennegrave - MITRY-MORY",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "90716",
+      "niveau": "D",
+      "libelle": "Trophée U8 à U13 - NICE",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93375",
+      "niveau": "D",
+      "libelle": "Meeting les Maîtres en Fête - NOGENT-SUR-OISE",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93237",
+      "niveau": "D",
+      "libelle": "Meeting du Club des Vikings de Rouen - ROUEN",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93379",
+      "niveau": "D",
+      "libelle": "Maîtres - Plot 3 - SAINT-BRIEUC",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "92093",
+      "niveau": "D",
+      "libelle": "Chpts Eté Masters Loire - SAINT-ÉTIENNE",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93813",
+      "niveau": "D",
+      "libelle": "Interclubs par Equipes U13 - Benjamins - SAINT-PRIEST",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93835",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants Interclubs U13 - SAINT-PRIEST",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "92673",
+      "niveau": "D",
+      "libelle": "Championnats Open Haute-Savoie des Maîtres Eté - THONON-LES-BAINS",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93664",
+      "niveau": "D",
+      "libelle": "17e Meeting Espoirs du SN Versailles - VERSAILLES",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93702",
+      "niveau": "D",
+      "libelle": "17e Meeting Espoirs du SN Versailles - Finales - VERSAILLES",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93715",
+      "niveau": "D",
+      "libelle": "Championnats du Berry Eté - VIERZON",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93736",
+      "niveau": "D",
+      "libelle": "3e Meeting de l'Avenir - VIRY-CHATILLON",
+      "dateIso": "2026-05-30"
+    },
+    {
+      "competitionId": "93846",
+      "niveau": "R",
+      "libelle": "Coupe 263 Benjamins - AUCHEL",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93789",
+      "niveau": "R",
+      "libelle": "Coupe de France des départements - CHAUMONT",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "92367",
+      "niveau": "R",
+      "libelle": "Animation 25m - Circuit Combiné 1 - DUMBÉA",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93495",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Maîtres Été - GIEN",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93857",
+      "niveau": "R",
+      "libelle": "Championnat des Maîtres Région Sud Open en Grand Bassin - TOULON",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "92199",
+      "niveau": "D",
+      "libelle": "Trophée U11 Départemental 4 - ACHICOURT",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93047",
+      "niveau": "D",
+      "libelle": "Interclubs Haute-Savoie U12/U13 - ANNECY",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93048",
+      "niveau": "D",
+      "libelle": "Interclubs U14/U15 Haute-Savoie - ANNECY",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93049",
+      "niveau": "D",
+      "libelle": "Equipes Mixtes U12/U13 Haute-Savoie et Remplaçants - ANNECY",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93051",
+      "niveau": "D",
+      "libelle": "Equipes Mixtes U14/U15 Haute-Savoie et Remplaçants - ANNECY",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93615",
+      "niveau": "D",
+      "libelle": "Avenirs - Journée 3 - Zone Sud - ANTONY",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93852",
+      "niveau": "D",
+      "libelle": "Coupe Claude Boulommier - AVALLON",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93618",
+      "niveau": "D",
+      "libelle": "Rencontre U13 2 - BEAUMONT-SUR-OISE",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93614",
+      "niveau": "D",
+      "libelle": "Avenirs - Journée 3 - Zone Centre - BOIS-COLOMBES",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93829",
+      "niveau": "D",
+      "libelle": "MCA 5 - Bordeaux - BORDEAUX",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93892",
+      "niveau": "D",
+      "libelle": "Trophée des Pitchouns - BRESSUIRE",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93919",
+      "niveau": "D",
+      "libelle": "Championnat du Finistère Été - BREST",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93613",
+      "niveau": "D",
+      "libelle": "Avenirs - Journée 3 - Zone Nord - CLICHY",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "92202",
+      "niveau": "D",
+      "libelle": "Trophée U11 Départemental 4 - DESVRES",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "92203",
+      "niveau": "D",
+      "libelle": "Trophée U11 Départemental 4 - DIVION",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93177",
+      "niveau": "D",
+      "libelle": "Meeting Natation Drachenbronn-Birlenbach - DRACHENBRONN",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93620",
+      "niveau": "D",
+      "libelle": "Rencontre U13 2 - ÉZANVILLE",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93641",
+      "niveau": "D",
+      "libelle": "Championnat 77 Eté Open des Maitres  - LAGNY-SUR-MARNE",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "92110",
+      "niveau": "D",
+      "libelle": "4e Meeting Départemental - LE PUY-EN-VELAY",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "92111",
+      "niveau": "D",
+      "libelle": "Interclubs U13 - LE PUY-EN-VELAY",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "92567",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs U13 - MONTAUBAN",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "92571",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs U15 - MONTAUBAN",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93767",
+      "niveau": "D",
+      "libelle": "Interclubs U13 - MONTBRISON",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93768",
+      "niveau": "D",
+      "libelle": "Course des Remplaçants - MONTBRISON",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "94023",
+      "niveau": "D",
+      "libelle": "Interclubs U13 Herault - MONTPELLIER",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93731",
+      "niveau": "D",
+      "libelle": "Finale District U11 - MORBIER",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93308",
+      "niveau": "D",
+      "libelle": "27e Grand Prix des Maitres - NANTES",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93622",
+      "niveau": "D",
+      "libelle": "Interclubs U13 Aveyron/Lozère  - ONET-LE-CHÂTEAU",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93626",
+      "niveau": "D",
+      "libelle": "Confrontation U11 par équipe Aveyron/Lozère - ONET-LE-CHÂTEAU",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93928",
+      "niveau": "D",
+      "libelle": "Interclubs U15 Aveyron/Lozère - ONET-LE-CHÂTEAU",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93468",
+      "niveau": "D",
+      "libelle": "Championnat Départemental U11 & moins - ORANGE",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93849",
+      "niveau": "D",
+      "libelle": "26e Meeting de Provins Natation - PROVINS",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "92130",
+      "niveau": "D",
+      "libelle": "Coupe Départementale Drôme/Ardèche - SAINT-PAUL-TROIS-CHÂTEAUX",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "92131",
+      "niveau": "D",
+      "libelle": "Championnats Interclubs U12/U13 - Drôme/Ardèche - SAINT-PAUL-TROIS-CHÂTEAUX",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93942",
+      "niveau": "D",
+      "libelle": "Interclubs Avenirs - TOULON",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93936",
+      "niveau": "D",
+      "libelle": "Mini Neuf Cube 4 - TREMBLAY-EN-FRANCE",
+      "dateIso": "2026-05-31"
+    },
+    {
+      "competitionId": "93739",
+      "niveau": "D",
+      "libelle": "JOQUA 2 - VILLENEUVE-SUR-LOT",
+      "dateIso": "2026-05-31"
+    }
+  ]
+}
