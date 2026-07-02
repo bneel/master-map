@@ -1,33 +1,6 @@
 {
-  "generatedAt": "2026-07-01T19:02:22.082Z",
+  "generatedAt": "2026-07-02T13:00:00.205Z",
   "season": "2025-2026",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
-  "predictions": [
-    {
-      "id": "habituelle-V_REMIREMONT_D-2026-07",
-      "type": "ville",
-      "nom": "Meeting  du CD88 Open Maîtres",
-      "ville": "REMIREMONT",
-      "lat": 48.0158951,
-      "lon": 6.5912615,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "07",
-      "monthLabel": "juillet",
-      "moment": "début",
-      "expectedDate": "2026-07-01",
-      "dispersionDays": 161,
-      "seasonsSeen": [
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2025, 2024",
-      "recentCities": [
-        "REMIREMONT"
-      ]
-    }
-  ]
+  "predictions": []
 }
