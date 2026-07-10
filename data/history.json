@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-07-10T13:13:30.254Z",
+  "generatedAt": "2026-07-10T18:25:25.829Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-07-10T18:25:25.829Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-07-10T13:13:30.254Z",
       "counts": {
@@ -479,14 +487,6 @@
         "added": 0,
         "removed": 0,
         "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-06-10T14:25:39.984Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 1
       }
     }
   ],
