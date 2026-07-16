@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T18:13:33.011Z",
+  "generatedAt": "2026-07-16T12:21:38.184Z",
   "seasons": [
     {
       "id": "2023-2024",
@@ -5623,6 +5623,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=89117"
     },
     {
+      "id": "88900",
+      "nom": "XXXe Championnat de France Hiver Open",
+      "ville": "LE MANS",
+      "dateDebut": "2025-03-06",
+      "dateFin": "2025-03-06",
+      "niveau": "N",
+      "niveauLibelle": "National",
+      "championnatFrance": true,
+      "bassin": 25,
+      "lat": 48.0073849,
+      "lon": 0.1967849,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=88900"
+    },
+    {
       "id": "89301",
       "nom": "Meeting des Maîtres",
       "ville": "LES ABYMES",
@@ -7091,6 +7105,20 @@
       "lat": 47.6339612,
       "lon": 6.106983,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=90496"
+    },
+    {
+      "id": "89840",
+      "nom": "XXXVIIIe Championnats de France Eté Open",
+      "ville": "MULHOUSE",
+      "dateDebut": "2025-06-26",
+      "dateFin": "2025-06-26",
+      "niveau": "N",
+      "niveauLibelle": "National",
+      "championnatFrance": true,
+      "bassin": 50,
+      "lat": 47.7467233,
+      "lon": 7.3389937,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=89840"
     },
     {
       "id": "90497",
@@ -9961,6 +9989,20 @@
       "lat": 48.7709414,
       "lon": 2.0706084,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92391"
+    },
+    {
+      "id": "92801",
+      "nom": "19e Meeting de Combs-la-Ville",
+      "ville": "COMBS-LA-VILLE",
+      "dateDebut": "2026-04-19",
+      "dateFin": "2026-04-19",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.6646994,
+      "lon": 2.564877,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92801"
     },
     {
       "id": "92808",
