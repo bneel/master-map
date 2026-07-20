@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-07-20T13:08:22.130Z",
+  "generatedAt": "2026-07-20T18:57:55.236Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-07-20T18:57:55.236Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 1
+      }
+    },
     {
       "scrapedAt": "2026-07-20T13:08:22.130Z",
       "counts": {
@@ -464,17 +472,34 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-06-20T18:18:25.590Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-07-20T18:57:55.236Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 1
+      },
+      "added": [],
+      "removed": [],
+      "updated": [
+        {
+          "id": "93803",
+          "nom": "Meeting Maîtres 2",
+          "ville": "DECAZEVILLE",
+          "dateDebut": "2026-07-19",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "Meeting maîtres 2",
+              "to": "Meeting Maîtres 2"
+            }
+          ]
+        }
+      ]
+    },
     {
       "scrapedAt": "2026-06-29T14:47:57.085Z",
       "counts": {
