@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-07-26T12:04:55.207Z",
+  "generatedAt": "2026-07-26T18:05:10.424Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-07-26T18:05:10.424Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-07-26T12:04:55.207Z",
       "counts": {
@@ -467,14 +475,6 @@
     },
     {
       "scrapedAt": "2026-06-26T18:56:25.619Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-06-26T13:13:01.235Z",
       "counts": {
         "added": 0,
         "removed": 0,
@@ -1975,54 +1975,6 @@
           "championnatFrance": false,
           "bassin": 25,
           "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93375"
-        }
-      ],
-      "removed": [],
-      "updated": []
-    },
-    {
-      "scrapedAt": "2026-04-27T16:59:24.716Z",
-      "counts": {
-        "added": 1,
-        "removed": 0,
-        "updated": 0
-      },
-      "added": [
-        {
-          "id": "93723",
-          "nom": "2EME MEETING DE LA PLAGE MAITRES",
-          "ville": "PONTIVY",
-          "dateDebut": "2026-05-03",
-          "dateFin": "2026-05-03",
-          "niveau": "D",
-          "niveauLibelle": "Départemental",
-          "championnatFrance": false,
-          "bassin": 50,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93723"
-        }
-      ],
-      "removed": [],
-      "updated": []
-    },
-    {
-      "scrapedAt": "2026-04-27T12:21:32.000Z",
-      "counts": {
-        "added": 1,
-        "removed": 0,
-        "updated": 0
-      },
-      "added": [
-        {
-          "id": "93710",
-          "nom": "Meeting Masters Paul-Izard",
-          "ville": "PAU",
-          "dateDebut": "2026-05-23",
-          "dateFin": "2026-05-23",
-          "niveau": "D",
-          "niveauLibelle": "Départemental",
-          "championnatFrance": false,
-          "bassin": 50,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93710"
         }
       ],
       "removed": [],
