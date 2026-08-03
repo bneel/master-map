@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-08-02T18:03:30.855Z",
+  "generatedAt": "2026-08-03T13:42:02.416Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-08-03T13:42:02.416Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-08-02T18:03:30.855Z",
       "counts": {
@@ -459,22 +467,6 @@
     },
     {
       "scrapedAt": "2026-07-04T18:07:07.559Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-07-04T12:08:34.797Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-07-03T18:17:05.995Z",
       "counts": {
         "added": 0,
         "removed": 0,
@@ -1737,103 +1729,6 @@
           "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93212"
         }
       ],
-      "updated": []
-    },
-    {
-      "scrapedAt": "2026-05-05T12:05:04.963Z",
-      "counts": {
-        "added": 3,
-        "removed": 1,
-        "updated": 0
-      },
-      "added": [
-        {
-          "id": "93630",
-          "nom": "3ème journée départementale - Maîtres - secteur 2",
-          "ville": "SAINT-MICHEL-SUR-ORGE",
-          "dateDebut": "2026-05-10",
-          "dateFin": "2026-05-10",
-          "niveau": "D",
-          "niveauLibelle": "Départemental",
-          "championnatFrance": false,
-          "bassin": 25,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93630"
-        },
-        {
-          "id": "93634",
-          "nom": "3ème journée départementale - Maîtres - secteurs 1 & 3",
-          "ville": "VIRY-CHATILLON",
-          "dateDebut": "2026-05-10",
-          "dateFin": "2026-05-10",
-          "niveau": "D",
-          "niveauLibelle": "Départemental",
-          "championnatFrance": false,
-          "bassin": 25,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93634"
-        },
-        {
-          "id": "93803",
-          "nom": "Meeting maîtres 2",
-          "ville": "DECAZEVILLE",
-          "dateDebut": "2026-07-19",
-          "dateFin": "2026-07-19",
-          "niveau": "R",
-          "niveauLibelle": "Régional",
-          "championnatFrance": false,
-          "bassin": 25,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93803"
-        }
-      ],
-      "removed": [
-        {
-          "id": "93795",
-          "nom": "Meeting maîtres 1",
-          "ville": "GRAMAT",
-          "dateDebut": "2026-06-28",
-          "dateFin": "2026-06-28",
-          "niveau": "R",
-          "niveauLibelle": "Régional",
-          "championnatFrance": false,
-          "bassin": 25,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93795"
-        }
-      ],
-      "updated": []
-    },
-    {
-      "scrapedAt": "2026-05-04T18:21:34.449Z",
-      "counts": {
-        "added": 2,
-        "removed": 0,
-        "updated": 0
-      },
-      "added": [
-        {
-          "id": "93157",
-          "nom": "14e Meeting National des Maîtres de Toulouse",
-          "ville": "TOULOUSE",
-          "dateDebut": "2026-06-07",
-          "dateFin": "2026-06-07",
-          "niveau": "N",
-          "niveauLibelle": "National",
-          "championnatFrance": false,
-          "bassin": 50,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93157"
-        },
-        {
-          "id": "93795",
-          "nom": "Meeting maîtres 1",
-          "ville": "GRAMAT",
-          "dateDebut": "2026-06-28",
-          "dateFin": "2026-06-28",
-          "niveau": "R",
-          "niveauLibelle": "Régional",
-          "championnatFrance": false,
-          "bassin": 25,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93795"
-        }
-      ],
-      "removed": [],
       "updated": []
     }
   ]
