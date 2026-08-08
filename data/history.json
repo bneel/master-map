@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-08-08T11:30:57.939Z",
+  "generatedAt": "2026-08-08T17:36:36.094Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-08-08T17:36:36.094Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-08-08T11:30:57.939Z",
       "counts": {
@@ -459,14 +467,6 @@
     },
     {
       "scrapedAt": "2026-07-09T18:52:38.562Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-07-09T13:50:43.539Z",
       "counts": {
         "added": 0,
         "removed": 0,
@@ -1535,55 +1535,6 @@
           ]
         }
       ]
-    },
-    {
-      "scrapedAt": "2026-05-10T11:55:02.382Z",
-      "counts": {
-        "added": 2,
-        "removed": 1,
-        "updated": 0
-      },
-      "added": [
-        {
-          "id": "93858",
-          "nom": "open des Maitres",
-          "ville": "MEUDON",
-          "dateDebut": "2026-06-06",
-          "dateFin": "2026-06-06",
-          "niveau": "D",
-          "niveauLibelle": "Départemental",
-          "championnatFrance": false,
-          "bassin": 50,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93858"
-        },
-        {
-          "id": "93856",
-          "nom": "Meeting Maîtres de Megève Natation",
-          "ville": "MEGÈVE",
-          "dateDebut": "2026-06-13",
-          "dateFin": "2026-06-13",
-          "niveau": "D",
-          "niveauLibelle": "Départemental",
-          "championnatFrance": false,
-          "bassin": 50,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93856"
-        }
-      ],
-      "removed": [
-        {
-          "id": "93324",
-          "nom": "Meeting Maîtres de Megève Natation",
-          "ville": "MEGÈVE",
-          "dateDebut": "2026-06-13",
-          "dateFin": "2026-06-13",
-          "niveau": "D",
-          "niveauLibelle": "Départemental",
-          "championnatFrance": false,
-          "bassin": 50,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93324"
-        }
-      ],
-      "updated": []
     }
   ]
 }
