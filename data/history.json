@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-08-11T18:00:07.816Z",
+  "generatedAt": "2026-08-12T11:48:30.416Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-08-12T11:48:30.416Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-08-11T18:00:07.816Z",
       "counts": {
@@ -459,14 +467,6 @@
     },
     {
       "scrapedAt": "2026-07-13T13:25:56.669Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-07-12T18:02:36.563Z",
       "counts": {
         "added": 0,
         "removed": 0,
@@ -1355,30 +1355,6 @@
           "championnatFrance": false,
           "bassin": 25,
           "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93916"
-        }
-      ],
-      "removed": [],
-      "updated": []
-    },
-    {
-      "scrapedAt": "2026-05-13T19:00:28.272Z",
-      "counts": {
-        "added": 1,
-        "removed": 0,
-        "updated": 0
-      },
-      "added": [
-        {
-          "id": "93907",
-          "nom": "2ème Meeting Maître 65-32",
-          "ville": "LOURDES",
-          "dateDebut": "2026-05-23",
-          "dateFin": "2026-05-23",
-          "niveau": "D",
-          "niveauLibelle": "Départemental",
-          "championnatFrance": false,
-          "bassin": 25,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93907"
         }
       ],
       "removed": [],
