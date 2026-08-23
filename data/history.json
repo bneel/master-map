@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-08-22T17:26:06.215Z",
+  "generatedAt": "2026-08-23T11:22:41.324Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-08-23T11:22:41.324Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-08-22T17:26:06.215Z",
       "counts": {
@@ -467,14 +475,6 @@
     },
     {
       "scrapedAt": "2026-07-24T12:21:00.294Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-07-23T18:16:43.115Z",
       "counts": {
         "added": 0,
         "removed": 0,
