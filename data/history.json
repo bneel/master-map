@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-08-30T15:13:41.368Z",
+  "generatedAt": "2026-08-30T19:42:08.894Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-08-30T19:42:08.894Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-08-30T15:13:41.368Z",
       "counts": {
@@ -459,14 +467,6 @@
     },
     {
       "scrapedAt": "2026-08-01T12:03:22.681Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-07-31T18:23:51.845Z",
       "counts": {
         "added": 0,
         "removed": 0,
@@ -982,31 +982,6 @@
         }
       ],
       "updated": []
-    },
-    {
-      "scrapedAt": "2026-06-01T16:39:39.881Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 1
-      },
-      "added": [],
-      "removed": [],
-      "updated": [
-        {
-          "id": "93495",
-          "nom": "Championnats Régionaux Maîtres Été",
-          "ville": "GIEN",
-          "dateDebut": "2026-05-31",
-          "changes": [
-            {
-              "field": "nom",
-              "from": "Championnats régionaux maîtres été",
-              "to": "Championnats Régionaux Maîtres Été"
-            }
-          ]
-        }
-      ]
     }
   ]
 }
