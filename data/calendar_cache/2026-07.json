@@ -1,0 +1,398 @@
+{
+  "savedAt": "2026-08-30T15:13:41.885Z",
+  "year": 2026,
+  "month": 7,
+  "count": 65,
+  "raw": [
+    {
+      "competitionId": "93832",
+      "niveau": "R",
+      "libelle": "Web Confront@tion Été U14 et + - AMIENS",
+      "dateIso": "2026-07-03"
+    },
+    {
+      "competitionId": "94138",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue AuRA Été - CLERMONT-FERRAND",
+      "dateIso": "2026-07-03"
+    },
+    {
+      "competitionId": "94157",
+      "niveau": "R",
+      "libelle": "Web Confront@tion Régionale #2 - ÉPINAL",
+      "dateIso": "2026-07-03"
+    },
+    {
+      "competitionId": "94051",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue Été - LIMOGES",
+      "dateIso": "2026-07-03"
+    },
+    {
+      "competitionId": "94213",
+      "niveau": "R",
+      "libelle": "Web Confront@tion Région Sud - Juniors/Séniors #2 - MARTIGUES",
+      "dateIso": "2026-07-03"
+    },
+    {
+      "competitionId": "94004",
+      "niveau": "R",
+      "libelle": "Championnats Ligue BFC U18 et plus - MONTCEAU-LES-MINES",
+      "dateIso": "2026-07-03"
+    },
+    {
+      "competitionId": "92369",
+      "niveau": "R",
+      "libelle": "Championnats du Grand Ouest  - ORLÉANS",
+      "dateIso": "2026-07-03"
+    },
+    {
+      "competitionId": "94055",
+      "niveau": "R",
+      "libelle": "Web Confront@tion #2 - Ile-de-France - TAVERNY",
+      "dateIso": "2026-07-03"
+    },
+    {
+      "competitionId": "93934",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue d'Été TC - TOULOUSE",
+      "dateIso": "2026-07-03"
+    },
+    {
+      "competitionId": "94124",
+      "niveau": "D",
+      "libelle": "Soirée 800 Libre et 1500 Libre - ROCHEFORT-SUR-LOIRE",
+      "dateIso": "2026-07-03"
+    },
+    {
+      "competitionId": "94217",
+      "niveau": "R",
+      "libelle": "Championnats Honneur - ORLÉANS",
+      "dateIso": "2026-07-04"
+    },
+    {
+      "competitionId": "93988",
+      "niveau": "D",
+      "libelle": "Challenge Baptiste Dupuis - EYZIN-PINET",
+      "dateIso": "2026-07-04"
+    },
+    {
+      "competitionId": "93989",
+      "niveau": "D",
+      "libelle": "Coupe Ali Benfifi - EYZIN-PINET",
+      "dateIso": "2026-07-04"
+    },
+    {
+      "competitionId": "94199",
+      "niveau": "D",
+      "libelle": "Summer Cup - LA SUZE-SUR-SARTHE",
+      "dateIso": "2026-07-04"
+    },
+    {
+      "competitionId": "94131",
+      "niveau": "D",
+      "libelle": "Compétition 02 - TC - ROCHEFORT-SUR-LOIRE",
+      "dateIso": "2026-07-04"
+    },
+    {
+      "competitionId": "94208",
+      "niveau": "D",
+      "libelle": "Journée Qualificative - Pyrénées-Atlantiques - SAINT-PALAIS",
+      "dateIso": "2026-07-04"
+    },
+    {
+      "competitionId": "94176",
+      "niveau": "R",
+      "libelle": "Trophée Régional des Jeunes et Confrontation 1 - CHAROLLES",
+      "dateIso": "2026-07-05"
+    },
+    {
+      "competitionId": "94077",
+      "niveau": "R",
+      "libelle": "Coupe de la Ville de Salindres - SALINDRES",
+      "dateIso": "2026-07-05"
+    },
+    {
+      "competitionId": "94078",
+      "niveau": "R",
+      "libelle": "Challenge Sprint de Salindres - SALINDRES",
+      "dateIso": "2026-07-05"
+    },
+    {
+      "competitionId": "93796",
+      "niveau": "R",
+      "libelle": "Trophée 4 Nageur Été - SOUILLAC",
+      "dateIso": "2026-07-05"
+    },
+    {
+      "competitionId": "93966",
+      "niveau": "D",
+      "libelle": "Compétition Vendéenne de fin de saison - LA CHATAIGNERAIE",
+      "dateIso": "2026-07-05"
+    },
+    {
+      "competitionId": "94200",
+      "niveau": "D",
+      "libelle": "Summer Cup - LA SUZE-SUR-SARTHE",
+      "dateIso": "2026-07-05"
+    },
+    {
+      "competitionId": "94221",
+      "niveau": "D",
+      "libelle": "Meeting du Sud Saintonge - MONTLIEU-LA-GARDE",
+      "dateIso": "2026-07-05"
+    },
+    {
+      "competitionId": "93329",
+      "niveau": "D",
+      "libelle": "Epreuves Chronométriques Rumilly - RUMILLY",
+      "dateIso": "2026-07-08"
+    },
+    {
+      "competitionId": "94175",
+      "niveau": "R",
+      "libelle": "Soirée du Sprint - SANVIGNES-LES-MINES",
+      "dateIso": "2026-07-10"
+    },
+    {
+      "competitionId": "94140",
+      "niveau": "D",
+      "libelle": "Compétition 03 - Meeting en soirée - CHALONNES-SUR-LOIRE",
+      "dateIso": "2026-07-10"
+    },
+    {
+      "competitionId": "94243",
+      "niveau": "D",
+      "libelle": "Trophée Bixente Vatine - HASPARREN",
+      "dateIso": "2026-07-11"
+    },
+    {
+      "competitionId": "93330",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville de Thônes - THÔNES",
+      "dateIso": "2026-07-11"
+    },
+    {
+      "competitionId": "94258",
+      "niveau": "D",
+      "libelle": "Tullinades 2026 - TULLINS",
+      "dateIso": "2026-07-11"
+    },
+    {
+      "competitionId": "93797",
+      "niveau": "R",
+      "libelle": "Trophée nageur complet - BIARS-SUR-CÈRE",
+      "dateIso": "2026-07-12"
+    },
+    {
+      "competitionId": "93799",
+      "niveau": "R",
+      "libelle": "Meeting U9 - BIARS-SUR-CÈRE",
+      "dateIso": "2026-07-12"
+    },
+    {
+      "competitionId": "93800",
+      "niveau": "R",
+      "libelle": "Trophée nageur complet : courses complémentaires - BIARS-SUR-CÈRE",
+      "dateIso": "2026-07-12"
+    },
+    {
+      "competitionId": "94099",
+      "niveau": "D",
+      "libelle": "Estival Poitou - Tour 1 - L'ISLE-JOURDAIN",
+      "dateIso": "2026-07-12"
+    },
+    {
+      "competitionId": "94244",
+      "niveau": "D",
+      "libelle": "Meeting de la Ville de Sarlat - SARLAT-LA-CANÉDA",
+      "dateIso": "2026-07-12"
+    },
+    {
+      "competitionId": "94241",
+      "niveau": "D",
+      "libelle": "Inter-clubs du Morel - AIGUEBLANCHE",
+      "dateIso": "2026-07-16"
+    },
+    {
+      "competitionId": "94097",
+      "niveau": "D",
+      "libelle": "Top 50 - JAUNAY-CLAN",
+      "dateIso": "2026-07-16"
+    },
+    {
+      "competitionId": "94259",
+      "niveau": "D",
+      "libelle": "Challenge Nocturne 2026 - SORE",
+      "dateIso": "2026-07-16"
+    },
+    {
+      "competitionId": "90961",
+      "niveau": "N",
+      "libelle": "6e Open d'Eté - CANET-EN-ROUSSILLON",
+      "dateIso": "2026-07-17"
+    },
+    {
+      "competitionId": "94262",
+      "niveau": "D",
+      "libelle": "Compétition 03 - Meeting en soirée - CHALONNES-SUR-LOIRE",
+      "dateIso": "2026-07-17"
+    },
+    {
+      "competitionId": "92488",
+      "niveau": "R",
+      "libelle": "Championnats de Nouvelle-Calédonie Open petit bassin - NOUMÉA",
+      "dateIso": "2026-07-18"
+    },
+    {
+      "competitionId": "93331",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville d'Evian-les-Bains - ÉVIAN-LES-BAINS",
+      "dateIso": "2026-07-18"
+    },
+    {
+      "competitionId": "94249",
+      "niveau": "D",
+      "libelle": "Challenge des Gaves - PEYREHORADE",
+      "dateIso": "2026-07-18"
+    },
+    {
+      "competitionId": "94177",
+      "niveau": "R",
+      "libelle": "Coupe Régionale BFC Interclubs Toutes Catégories - BOURBON-LANCY",
+      "dateIso": "2026-07-19"
+    },
+    {
+      "competitionId": "94180",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs Mixte - BOURBON-LANCY",
+      "dateIso": "2026-07-19"
+    },
+    {
+      "competitionId": "93803",
+      "niveau": "R",
+      "libelle": "Meeting Maîtres 2 - DECAZEVILLE",
+      "dateIso": "2026-07-19"
+    },
+    {
+      "competitionId": "93802",
+      "niveau": "R",
+      "libelle": "Trophée Individuel Eté - DECAZEVILLE",
+      "dateIso": "2026-07-19"
+    },
+    {
+      "competitionId": "92387",
+      "niveau": "R",
+      "libelle": "Super Finale Avenirs - Championnats NC Open petit bassin - NOUMÉA",
+      "dateIso": "2026-07-19"
+    },
+    {
+      "competitionId": "94100",
+      "niveau": "D",
+      "libelle": "Estival Tour Poitou 2 - AIRVAULT",
+      "dateIso": "2026-07-19"
+    },
+    {
+      "competitionId": "94245",
+      "niveau": "D",
+      "libelle": "Championnats du Gard de Natation Estivale - BAGNOLS-SUR-CÈZE",
+      "dateIso": "2026-07-19"
+    },
+    {
+      "competitionId": "94240",
+      "niveau": "D",
+      "libelle": "Challenge de Bazas - BAZAS",
+      "dateIso": "2026-07-19"
+    },
+    {
+      "competitionId": "94147",
+      "niveau": "D",
+      "libelle": "Compétition 04 - U13 et moins - VERN-D'ANJOU",
+      "dateIso": "2026-07-19"
+    },
+    {
+      "competitionId": "94162",
+      "niveau": "D",
+      "libelle": "Compétition 05 - Meeting en soirée - VERN-D'ANJOU",
+      "dateIso": "2026-07-20"
+    },
+    {
+      "competitionId": "94098",
+      "niveau": "D",
+      "libelle": "Top 100 - JAUNAY-CLAN",
+      "dateIso": "2026-07-21"
+    },
+    {
+      "competitionId": "94181",
+      "niveau": "R",
+      "libelle": "Soirée Demi-Fond  1 - CHAUFFAILLES",
+      "dateIso": "2026-07-22"
+    },
+    {
+      "competitionId": "94255",
+      "niveau": "D",
+      "libelle": "Trophée Charente - MONTBRON",
+      "dateIso": "2026-07-22"
+    },
+    {
+      "competitionId": "94251",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs - SAINT-JEAN-PIED-DE-PORT",
+      "dateIso": "2026-07-25"
+    },
+    {
+      "competitionId": "94252",
+      "niveau": "R",
+      "libelle": "Interclubs LNA - Equipes Mixtes et Remplaçants - SAINT-JEAN-PIED-DE-PORT",
+      "dateIso": "2026-07-25"
+    },
+    {
+      "competitionId": "93999",
+      "niveau": "R",
+      "libelle": "Interclubs TC Natation Estivale AuRA - Incomplètes et Mixtes - THÔNES",
+      "dateIso": "2026-07-25"
+    },
+    {
+      "competitionId": "93993",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs TC Natation Estivale - Ligue AuRA - THÔNES",
+      "dateIso": "2026-07-25"
+    },
+    {
+      "competitionId": "94182",
+      "niveau": "R",
+      "libelle": "2e Journée Régionale - PARAY-LE-MONIAL",
+      "dateIso": "2026-07-26"
+    },
+    {
+      "competitionId": "94278",
+      "niveau": "R",
+      "libelle": "Coupe Régionale Interclubs Toutes Catégories - SALINDRES",
+      "dateIso": "2026-07-26"
+    },
+    {
+      "competitionId": "94279",
+      "niveau": "R",
+      "libelle": "Interclubs Toutes Catégories - Equipes Mixtes - SALINDRES",
+      "dateIso": "2026-07-26"
+    },
+    {
+      "competitionId": "94309",
+      "niveau": "D",
+      "libelle": "Compétition 06 - LA CHATAIGNERAIE",
+      "dateIso": "2026-07-26"
+    },
+    {
+      "competitionId": "94256",
+      "niveau": "D",
+      "libelle": "Trophée Charente - CONFOLENS",
+      "dateIso": "2026-07-29"
+    },
+    {
+      "competitionId": "93332",
+      "niveau": "D",
+      "libelle": "Epreuves chronométriques Thônes - THÔNES",
+      "dateIso": "2026-07-29"
+    }
+  ]
+}
