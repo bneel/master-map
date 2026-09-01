@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-01T15:24:46.342Z",
+  "generatedAt": "2026-09-01T19:48:46.379Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-09-01T19:48:46.379Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-09-01T15:24:46.342Z",
       "counts": {
@@ -459,14 +467,6 @@
     },
     {
       "scrapedAt": "2026-08-03T13:42:02.416Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-08-02T18:03:30.855Z",
       "counts": {
         "added": 0,
         "removed": 0,
@@ -932,55 +932,6 @@
         }
       ],
       "removed": [],
-      "updated": []
-    },
-    {
-      "scrapedAt": "2026-06-03T15:27:58.837Z",
-      "counts": {
-        "added": 2,
-        "removed": 1,
-        "updated": 0
-      },
-      "added": [
-        {
-          "id": "94048",
-          "nom": "Championnats de Normandie Open des Maîtres",
-          "ville": "FLERS",
-          "dateDebut": "2026-06-06",
-          "dateFin": "2026-06-06",
-          "niveau": "R",
-          "niveauLibelle": "Régional",
-          "championnatFrance": false,
-          "bassin": 25,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94048"
-        },
-        {
-          "id": "94038",
-          "nom": "Championnat de l'Essonne été des Maîtres",
-          "ville": "LES ULIS",
-          "dateDebut": "2026-06-14",
-          "dateFin": "2026-06-14",
-          "niveau": "D",
-          "niveauLibelle": "Départemental",
-          "championnatFrance": false,
-          "bassin": 25,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94038"
-        }
-      ],
-      "removed": [
-        {
-          "id": "92601",
-          "nom": "Championnats été - Ligue AuRA Open Maître",
-          "ville": "OYONNAX",
-          "dateDebut": "2026-06-07",
-          "dateFin": "2026-06-07",
-          "niveau": "R",
-          "niveauLibelle": "Régional",
-          "championnatFrance": false,
-          "bassin": 50,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92601"
-        }
-      ],
       "updated": []
     }
   ]
