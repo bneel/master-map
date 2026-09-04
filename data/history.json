@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-04T14:51:18.694Z",
+  "generatedAt": "2026-09-04T19:22:13.656Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-09-04T19:22:13.656Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-09-04T14:51:18.694Z",
       "counts": {
@@ -464,14 +472,6 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-08-05T18:26:50.062Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
@@ -881,30 +881,6 @@
           "championnatFrance": false,
           "bassin": 50,
           "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94092"
-        }
-      ],
-      "removed": [],
-      "updated": []
-    },
-    {
-      "scrapedAt": "2026-06-06T18:13:10.318Z",
-      "counts": {
-        "added": 1,
-        "removed": 0,
-        "updated": 0
-      },
-      "added": [
-        {
-          "id": "94061",
-          "nom": "championnats departementaux open masters ete",
-          "ville": "LE LUDE",
-          "dateDebut": "2026-06-06",
-          "dateFin": "2026-06-06",
-          "niveau": "D",
-          "niveauLibelle": "Départemental",
-          "championnatFrance": false,
-          "bassin": 25,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94061"
         }
       ],
       "removed": [],
