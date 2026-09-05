@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-04T19:22:13.656Z",
+  "generatedAt": "2026-09-05T13:44:19.345Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-09-05T13:44:19.345Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-09-04T19:22:13.656Z",
       "counts": {
@@ -464,14 +472,6 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-08-06T12:57:47.274Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
@@ -861,30 +861,6 @@
           ]
         }
       ]
-    },
-    {
-      "scrapedAt": "2026-06-07T12:22:23.938Z",
-      "counts": {
-        "added": 1,
-        "removed": 0,
-        "updated": 0
-      },
-      "added": [
-        {
-          "id": "94092",
-          "nom": "CHAMPIONNATS INTERDEPARTEMENTAUX D'ETE DES MAITRES",
-          "ville": "PAMIERS",
-          "dateDebut": "2026-06-21",
-          "dateFin": "2026-06-21",
-          "niveau": "D",
-          "niveauLibelle": "Départemental",
-          "championnatFrance": false,
-          "bassin": 50,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94092"
-        }
-      ],
-      "removed": [],
-      "updated": []
     }
   ]
 }
