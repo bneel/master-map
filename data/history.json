@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-07T20:25:35.035Z",
+  "generatedAt": "2026-09-08T14:58:37.845Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-09-08T14:58:37.845Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-09-07T20:25:35.035Z",
       "counts": {
@@ -472,14 +480,6 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-08-09T11:31:18.803Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
@@ -780,31 +780,6 @@
       ],
       "removed": [],
       "updated": []
-    },
-    {
-      "scrapedAt": "2026-06-10T14:25:39.984Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 1
-      },
-      "added": [],
-      "removed": [],
-      "updated": [
-        {
-          "id": "93858",
-          "nom": "Open des Maitres",
-          "ville": "MEUDON",
-          "dateDebut": "2026-06-06",
-          "changes": [
-            {
-              "field": "nom",
-              "from": "open des Maitres",
-              "to": "Open des Maitres"
-            }
-          ]
-        }
-      ]
     }
   ]
 }
