@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-09T15:02:11.509Z",
+  "generatedAt": "2026-09-09T19:39:28.180Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-09-09T19:39:28.180Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-09-09T15:02:11.509Z",
       "counts": {
@@ -472,14 +480,6 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-08-10T17:54:01.612Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
@@ -756,30 +756,6 @@
           ]
         }
       ]
-    },
-    {
-      "scrapedAt": "2026-06-11T19:38:27.911Z",
-      "counts": {
-        "added": 1,
-        "removed": 0,
-        "updated": 0
-      },
-      "added": [
-        {
-          "id": "94022",
-          "nom": "Meeting du Ludolac - Masters",
-          "ville": "VAIVRE-ET-MONTOILLE",
-          "dateDebut": "2026-06-20",
-          "dateFin": "2026-06-20",
-          "niveau": "D",
-          "niveauLibelle": "Départemental",
-          "championnatFrance": false,
-          "bassin": 50,
-          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94022"
-        }
-      ],
-      "removed": [],
-      "updated": []
     }
   ]
 }
