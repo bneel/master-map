@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-09T19:39:28.180Z",
+  "generatedAt": "2026-09-10T14:54:50.220Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-09-10T14:54:50.220Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-09-09T19:39:28.180Z",
       "counts": {
@@ -472,14 +480,6 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-08-11T11:45:32.028Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
@@ -727,31 +727,6 @@
               "field": "nom",
               "from": "Championnat de l'Essonne été des Maîtres",
               "to": "Championnat de l'Essonne Été des Maîtres"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "scrapedAt": "2026-06-12T14:10:49.579Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 1
-      },
-      "added": [],
-      "removed": [],
-      "updated": [
-        {
-          "id": "93377",
-          "nom": "XXXIXème Championnats de France N1 Été Open des Maitres",
-          "ville": "TARBES",
-          "dateDebut": "2026-06-25",
-          "changes": [
-            {
-              "field": "nom",
-              "from": "Championnats de France N1 Été Open des Maitres",
-              "to": "XXXIXème Championnats de France N1 Été Open des Maitres"
             }
           ]
         }
