@@ -1129,9 +1129,13 @@ function fingerprint(nom) {
     .join("_");
 }
 
+// Jour de l'année (1..365) sur une année de référence non bissextile, lu
+// depuis la chaîne ISO : pas de décalage d'un jour après le 29 février des
+// années bissextiles (circDist raisonne sur 365 j), ni de dépendance au
+// fuseau horaire. Le 29 février compte comme le 1er mars.
 function dayOfYear(iso) {
-  const d = new Date(iso);
-  return Math.floor((d - new Date(d.getFullYear(), 0, 0)) / 86400000);
+  const [, m, d] = iso.split("-").map(Number);
+  return Math.round((Date.UTC(2001, m - 1, d) - Date.UTC(2001, 0, 0)) / 86400000);
 }
 
 function circDist(a, b) {
@@ -1355,21 +1359,28 @@ async function generatePredictions(currentSeasonComps, poolCache, citiesCache, o
         .sort((a, b) => b.dateDebut.localeCompare(a.dateDebut))
         .slice(0, 3);
     }
-    const meanDoy = Math.round(
-      historicalItems.reduce((a, b) => a + b.doy, 0) / historicalItems.length,
+    // Moyenne CIRCULAIRE des jours de l'année, cohérente avec circDist du
+    // clustering : une série à cheval sur le 1er janvier (éditions en
+    // décembre et en janvier) doit tomber en décembre/janvier. La moyenne
+    // arithmétique l'envoyait en plein été (ex. doy 350 et 12 → 181).
+    const angleOf = (doy) => ((doy - 1) / 365) * 2 * Math.PI;
+    const meanAngle = Math.atan2(
+      historicalItems.reduce((a, c) => a + Math.sin(angleOf(c.doy)), 0),
+      historicalItems.reduce((a, c) => a + Math.cos(angleOf(c.doy)), 0),
     );
-    const dispersion = (() => {
-      const m = meanDoy;
-      return Math.sqrt(
-        historicalItems.reduce((s2, c) => s2 + (c.doy - m) ** 2, 0) / historicalItems.length,
-      );
-    })();
+    const meanDoy = ((Math.round((meanAngle / (2 * Math.PI)) * 365) % 365) + 365) % 365 + 1;
+    const dispersion = Math.sqrt(
+      historicalItems.reduce((s2, c) => s2 + circDist(c.doy, meanDoy) ** 2, 0) / historicalItems.length,
+    );
 
-    // Date civile : choisir l'année correcte (sept-déc → start, jan-août → start+1)
+    // Date civile : choisir l'année correcte (sept-déc → start, jan-août → start+1).
+    // Jour/mois lus sur l'année de référence de dayOfYear (non bissextile),
+    // puis appliqués à l'année visée.
     const startYear = parseInt(currentSeasonId.split("-")[0], 10);
     const endYear = parseInt(currentSeasonId.split("-")[1], 10);
-    const expectedYear = meanDoy >= 244 ? startYear : endYear; // doy 244 = ~1er sept
-    const dRef = new Date(expectedYear, 0, meanDoy);
+    const expectedYear = meanDoy >= 244 ? startYear : endYear; // doy 244 = 1er sept
+    const refDay = new Date(Date.UTC(2001, 0, meanDoy));
+    const dRef = new Date(expectedYear, refDay.getUTCMonth(), refDay.getUTCDate());
     const expectedIso = isoDate(dRef);
     if (expectedIso > seasonEnd) continue; // hors saison courante
     // Filtre : on retire celles dont la date estimée est strictement passée.

@@ -3,5 +3,15 @@
     "lat": 46.0986791,
     "lon": 4.7359529,
     "note": "Belleville-en-Beaujolais (Rhône). Sans override, Nominatim renvoie Belleville près de Nancy (Meurthe-et-Moselle) qui a une importance légèrement supérieure."
+  },
+  "MARVILLE": {
+    "lat": 48.9392967,
+    "lon": 2.3834289,
+    "note": "Piscine de Marville, Saint-Denis (Seine-Saint-Denis) : compétitions « 93 » / « SSD ». Sans override, Nominatim renvoie Marville (Meuse)."
+  },
+  "SAINT-PIERRE": {
+    "lat": -21.341298,
+    "lon": 55.4776174,
+    "note": "Saint-Pierre (La Réunion) : compétitions régionales « Zone Sud », en alternance avec Saint-Leu. Sans override, Nominatim renvoie Saint-Pierre (Bas-Rhin)."
   }
 }
