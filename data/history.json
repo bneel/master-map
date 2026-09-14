@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-14T16:49:26.734Z",
+  "generatedAt": "2026-09-14T20:51:00.385Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-09-14T20:51:00.385Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-09-14T16:49:26.734Z",
       "counts": {
@@ -472,14 +480,6 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-08-15T17:25:58.549Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
@@ -655,44 +655,6 @@
         }
       ],
       "updated": []
-    },
-    {
-      "scrapedAt": "2026-06-16T20:14:21.832Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 2
-      },
-      "added": [],
-      "removed": [],
-      "updated": [
-        {
-          "id": "92474",
-          "nom": "Championnats de la Manche et du Calvados Open - Maitres",
-          "ville": "SAINT-LÔ",
-          "dateDebut": "2026-06-13",
-          "changes": [
-            {
-              "field": "nom",
-              "from": "Championnats de la Manche et du Calvados OPEN - Maitres",
-              "to": "Championnats de la Manche et du Calvados Open - Maitres"
-            }
-          ]
-        },
-        {
-          "id": "94052",
-          "nom": "Meeting Départemental des Maîtres Open du 41",
-          "ville": "SAINT-LAURENT-NOUAN",
-          "dateDebut": "2026-06-14",
-          "changes": [
-            {
-              "field": "nom",
-              "from": "MEETING DEPARTEMENTAL DES MAITRES OPEN DU 41",
-              "to": "Meeting Départemental des Maîtres Open du 41"
-            }
-          ]
-        }
-      ]
     }
   ]
 }
