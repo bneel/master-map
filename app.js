@@ -1142,7 +1142,7 @@ async function init() {
   const initialZoom = state.userPos ? 7 : 6;
 
   state.map = L.map('map').setView([initialCenter.lat, initialCenter.lon], initialZoom);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=cb1_3kko_1_31e514c8c1372c2d22880a3a', {
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/">CARTO</a>',
     maxZoom: 19
   }).addTo(state.map);
