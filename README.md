@@ -62,4 +62,4 @@ MIT — `LICENSE` à ajouter.
 
 ## Auteur
 
-Benjamin Néel · [Instagram](https://www.instagram.com/benjamin_darneel/) · [LinkedIn](https://www.linkedin.com/in/benjaminneel/)
+Benjamin Néel · [Instagram](https://www.instagram.com/benjamin.d.neel/) · [LinkedIn](https://www.linkedin.com/in/benjaminneel/)
