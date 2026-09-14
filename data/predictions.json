@@ -1,38 +1,8 @@
 {
-  "generatedAt": "2026-09-13T19:16:01.546Z",
+  "generatedAt": "2026-09-14T16:49:50.636Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
-    {
-      "id": "habituelle-T_D_championnat_departementaux_hiver-2026-09",
-      "type": "tournant",
-      "nom": "Championnats Départementaux Masters Hiver",
-      "ville": null,
-      "lat": 47.557928733333334,
-      "lon": 0.4977145,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "09",
-      "monthLabel": "septembre",
-      "moment": "mi",
-      "expectedDate": "2026-09-13",
-      "dispersionDays": 141,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024",
-        "2021-2022"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024, 2022",
-      "recentCities": [
-        "LE LUDE",
-        "MONTRICHARD",
-        "VIERZON"
-      ]
-    },
     {
       "id": "habituelle-V_GRAVELINES_D-2026-10",
       "type": "ville",
@@ -48,7 +18,7 @@
       "monthLabel": "octobre",
       "moment": "début",
       "expectedDate": "2026-10-04",
-      "dispersionDays": 3,
+      "dispersionDays": 2,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -75,7 +45,7 @@
       "monthLabel": "octobre",
       "moment": "début",
       "expectedDate": "2026-10-04",
-      "dispersionDays": 3,
+      "dispersionDays": 2,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -101,7 +71,7 @@
       "month": "10",
       "monthLabel": "octobre",
       "moment": "début",
-      "expectedDate": "2026-10-06",
+      "expectedDate": "2026-10-05",
       "dispersionDays": 1,
       "seasonsSeen": [
         "2025-2026",
@@ -127,7 +97,7 @@
       "month": "10",
       "monthLabel": "octobre",
       "moment": "début",
-      "expectedDate": "2026-10-06",
+      "expectedDate": "2026-10-05",
       "dispersionDays": 1,
       "seasonsSeen": [
         "2025-2026",
@@ -153,7 +123,7 @@
       "month": "10",
       "monthLabel": "octobre",
       "moment": "mi",
-      "expectedDate": "2026-10-15",
+      "expectedDate": "2026-10-14",
       "dispersionDays": 1,
       "seasonsSeen": [
         "2025-2026",
@@ -178,8 +148,8 @@
       "bassin": 25,
       "month": "10",
       "monthLabel": "octobre",
-      "moment": "fin",
-      "expectedDate": "2026-10-21",
+      "moment": "mi",
+      "expectedDate": "2026-10-20",
       "dispersionDays": 1,
       "seasonsSeen": [
         "2025-2026",
@@ -206,7 +176,7 @@
       "month": "11",
       "monthLabel": "novembre",
       "moment": "début",
-      "expectedDate": "2026-11-07",
+      "expectedDate": "2026-11-06",
       "dispersionDays": 5,
       "seasonsSeen": [
         "2025-2026",
@@ -233,7 +203,7 @@
       "monthLabel": "novembre",
       "moment": "début",
       "expectedDate": "2026-11-08",
-      "dispersionDays": 4,
+      "dispersionDays": 5,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -259,7 +229,7 @@
       "month": "11",
       "monthLabel": "novembre",
       "moment": "mi",
-      "expectedDate": "2026-11-17",
+      "expectedDate": "2026-11-16",
       "dispersionDays": 12,
       "seasonsSeen": [
         "2025-2026",
@@ -289,7 +259,7 @@
       "monthLabel": "novembre",
       "moment": "mi",
       "expectedDate": "2026-11-19",
-      "dispersionDays": 2,
+      "dispersionDays": 3,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -316,8 +286,8 @@
       "month": "11",
       "monthLabel": "novembre",
       "moment": "mi",
-      "expectedDate": "2026-11-20",
-      "dispersionDays": 5,
+      "expectedDate": "2026-11-19",
+      "dispersionDays": 4,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025"
@@ -368,7 +338,7 @@
       "month": "11",
       "monthLabel": "novembre",
       "moment": "fin",
-      "expectedDate": "2026-11-24",
+      "expectedDate": "2026-11-23",
       "dispersionDays": 1,
       "seasonsSeen": [
         "2025-2026",
@@ -396,7 +366,7 @@
       "month": "11",
       "monthLabel": "novembre",
       "moment": "fin",
-      "expectedDate": "2026-11-27",
+      "expectedDate": "2026-11-26",
       "dispersionDays": 17,
       "seasonsSeen": [
         "2025-2026",
@@ -407,6 +377,32 @@
       "seasonsLabel": "2026, 2025, 2021",
       "recentCities": [
         "LES ABYMES"
+      ]
+    },
+    {
+      "id": "habituelle-V_MONTCHANIN_D-2026-11",
+      "type": "ville",
+      "nom": "3e Meeting des Maîtres Montchanin Natation",
+      "ville": "MONTCHANIN",
+      "lat": 46.747427,
+      "lon": 4.4699684,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "11",
+      "monthLabel": "novembre",
+      "moment": "fin",
+      "expectedDate": "2026-11-26",
+      "dispersionDays": 3,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2026, 2025",
+      "recentCities": [
+        "MONTCHANIN"
       ]
     },
     {
@@ -424,7 +420,7 @@
       "monthLabel": "novembre",
       "moment": "fin",
       "expectedDate": "2026-11-27",
-      "dispersionDays": 3,
+      "dispersionDays": 2,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -434,32 +430,6 @@
       "seasonsLabel": "2026, 2025, 2024",
       "recentCities": [
         "VILLEMOMBLE"
-      ]
-    },
-    {
-      "id": "habituelle-V_MONTCHANIN_D-2026-11",
-      "type": "ville",
-      "nom": "3e Meeting des Maîtres Montchanin Natation",
-      "ville": "MONTCHANIN",
-      "lat": 46.747427,
-      "lon": 4.4699684,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "11",
-      "monthLabel": "novembre",
-      "moment": "fin",
-      "expectedDate": "2026-11-27",
-      "dispersionDays": 3,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2026, 2025",
-      "recentCities": [
-        "MONTCHANIN"
       ]
     },
     {
@@ -489,7 +459,7 @@
       ]
     },
     {
-      "id": "habituelle-T_D_championnat_departementaux-2026-12",
+      "id": "habituelle-T_D_championnat_departementaux-2026-11",
       "type": "tournant",
       "nom": "Championnat Départementaux Masters Open",
       "ville": null,
@@ -499,11 +469,11 @@
       "niveauLibelle": "Départemental",
       "championnatFrance": false,
       "bassin": 25,
-      "month": "12",
-      "monthLabel": "décembre",
-      "moment": "début",
-      "expectedDate": "2026-12-01",
-      "dispersionDays": 16,
+      "month": "11",
+      "monthLabel": "novembre",
+      "moment": "fin",
+      "expectedDate": "2026-11-30",
+      "dispersionDays": 15,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -532,7 +502,7 @@
       "monthLabel": "décembre",
       "moment": "début",
       "expectedDate": "2026-12-03",
-      "dispersionDays": 7,
+      "dispersionDays": 8,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -543,6 +513,34 @@
       "seasonsLabel": "2026, 2025, 2024, 2022",
       "recentCities": [
         "CHAMBRAY-LES-TOURS"
+      ]
+    },
+    {
+      "id": "habituelle-T_D_championnat_hiver_vendee-2026-12",
+      "type": "tournant",
+      "nom": "Championnats de Vendée Hiver Maitres",
+      "ville": null,
+      "lat": 46.5712037,
+      "lon": -1.1075552,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "12",
+      "monthLabel": "décembre",
+      "moment": "début",
+      "expectedDate": "2026-12-04",
+      "dispersionDays": 11,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025",
+        "2021-2022"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2026, 2025, 2022",
+      "recentCities": [
+        "CHANTONNAY",
+        "LUÇON"
       ]
     },
     {
@@ -560,7 +558,7 @@
       "monthLabel": "décembre",
       "moment": "début",
       "expectedDate": "2026-12-05",
-      "dispersionDays": 3,
+      "dispersionDays": 2,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -573,34 +571,6 @@
         "SAINT-FLORENTIN",
         "MIGENNES",
         "AUXERRE"
-      ]
-    },
-    {
-      "id": "habituelle-T_D_championnat_hiver_vendee-2026-12",
-      "type": "tournant",
-      "nom": "Championnats de Vendée Hiver Maitres",
-      "ville": null,
-      "lat": 46.5712037,
-      "lon": -1.1075552,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "12",
-      "monthLabel": "décembre",
-      "moment": "début",
-      "expectedDate": "2026-12-05",
-      "dispersionDays": 12,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2021-2022"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2026, 2025, 2022",
-      "recentCities": [
-        "CHANTONNAY",
-        "LUÇON"
       ]
     },
     {
@@ -618,7 +588,7 @@
       "monthLabel": "décembre",
       "moment": "début",
       "expectedDate": "2026-12-06",
-      "dispersionDays": 3,
+      "dispersionDays": 2,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -644,7 +614,7 @@
       "month": "12",
       "monthLabel": "décembre",
       "moment": "début",
-      "expectedDate": "2026-12-08",
+      "expectedDate": "2026-12-07",
       "dispersionDays": 5,
       "seasonsSeen": [
         "2025-2026",
@@ -672,7 +642,7 @@
       "month": "12",
       "monthLabel": "décembre",
       "moment": "début",
-      "expectedDate": "2026-12-08",
+      "expectedDate": "2026-12-07",
       "dispersionDays": 1,
       "seasonsSeen": [
         "2025-2026",
@@ -700,7 +670,7 @@
       "month": "12",
       "monthLabel": "décembre",
       "moment": "début",
-      "expectedDate": "2026-12-08",
+      "expectedDate": "2026-12-07",
       "dispersionDays": 5,
       "seasonsSeen": [
         "2025-2026",
@@ -711,6 +681,33 @@
       "seasonsLabel": "2026, 2025, 2024",
       "recentCities": [
         "CARQUEFOU"
+      ]
+    },
+    {
+      "id": "habituelle-V_SAINT_MARTIN_D_H_RES_N-2026-12",
+      "type": "ville",
+      "nom": "Open des Maîtres 2025",
+      "ville": "SAINT-MARTIN-D'HÈRES",
+      "lat": 45.1836683,
+      "lon": 5.75448,
+      "niveau": "N",
+      "niveauLibelle": "National",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "12",
+      "monthLabel": "décembre",
+      "moment": "début",
+      "expectedDate": "2026-12-08",
+      "dispersionDays": 1,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025",
+        "2023-2024"
+      ],
+      "consecutiveStreak": 3,
+      "seasonsLabel": "2026, 2025, 2024",
+      "recentCities": [
+        "SAINT-MARTIN-D'HÈRES"
       ]
     },
     {
@@ -743,30 +740,29 @@
       ]
     },
     {
-      "id": "habituelle-V_SAINT_MARTIN_D_H_RES_N-2026-12",
+      "id": "habituelle-V_CHAMONIX_MONT_BLANC_D-2026-12",
       "type": "ville",
-      "nom": "Open des Maîtres 2025",
-      "ville": "SAINT-MARTIN-D'HÈRES",
-      "lat": 45.1836683,
-      "lon": 5.75448,
-      "niveau": "N",
-      "niveauLibelle": "National",
+      "nom": "Masters de Chamonix",
+      "ville": "CHAMONIX-MONT-BLANC",
+      "lat": 45.9246705,
+      "lon": 6.8727506,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
       "championnatFrance": false,
       "bassin": 25,
       "month": "12",
       "monthLabel": "décembre",
       "moment": "début",
-      "expectedDate": "2026-12-09",
-      "dispersionDays": 1,
+      "expectedDate": "2026-12-10",
+      "dispersionDays": 3,
       "seasonsSeen": [
         "2025-2026",
-        "2024-2025",
-        "2023-2024"
+        "2024-2025"
       ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024",
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2026, 2025",
       "recentCities": [
-        "SAINT-MARTIN-D'HÈRES"
+        "CHAMONIX-MONT-BLANC"
       ]
     },
     {
@@ -784,7 +780,7 @@
       "monthLabel": "décembre",
       "moment": "mi",
       "expectedDate": "2026-12-11",
-      "dispersionDays": 2,
+      "dispersionDays": 3,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -794,32 +790,6 @@
       "seasonsLabel": "2026, 2025, 2024",
       "recentCities": [
         "LE HAVRE"
-      ]
-    },
-    {
-      "id": "habituelle-V_CHAMONIX_MONT_BLANC_D-2026-12",
-      "type": "ville",
-      "nom": "Masters de Chamonix",
-      "ville": "CHAMONIX-MONT-BLANC",
-      "lat": 45.9246705,
-      "lon": 6.8727506,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "12",
-      "monthLabel": "décembre",
-      "moment": "mi",
-      "expectedDate": "2026-12-11",
-      "dispersionDays": 3,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2026, 2025",
-      "recentCities": [
-        "CHAMONIX-MONT-BLANC"
       ]
     },
     {
@@ -837,7 +807,7 @@
       "monthLabel": "décembre",
       "moment": "mi",
       "expectedDate": "2026-12-12",
-      "dispersionDays": 4,
+      "dispersionDays": 3,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -847,6 +817,36 @@
       "seasonsLabel": "2026, 2025, 2024",
       "recentCities": [
         "POITIERS"
+      ]
+    },
+    {
+      "id": "habituelle-T_D_championnat_departementaux_hiver-2026-12",
+      "type": "tournant",
+      "nom": "Championnats Départementaux Masters Hiver",
+      "ville": null,
+      "lat": 47.557928733333334,
+      "lon": 0.4977145,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "12",
+      "monthLabel": "décembre",
+      "moment": "mi",
+      "expectedDate": "2026-12-13",
+      "dispersionDays": 21,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025",
+        "2023-2024",
+        "2021-2022"
+      ],
+      "consecutiveStreak": 3,
+      "seasonsLabel": "2026, 2025, 2024, 2022",
+      "recentCities": [
+        "LE LUDE",
+        "MONTRICHARD",
+        "VIERZON"
       ]
     },
     {
@@ -863,7 +863,7 @@
       "month": "12",
       "monthLabel": "décembre",
       "moment": "mi",
-      "expectedDate": "2026-12-14",
+      "expectedDate": "2026-12-13",
       "dispersionDays": 1,
       "seasonsSeen": [
         "2025-2026",
@@ -889,7 +889,7 @@
       "month": "12",
       "monthLabel": "décembre",
       "moment": "mi",
-      "expectedDate": "2026-12-15",
+      "expectedDate": "2026-12-14",
       "dispersionDays": 1,
       "seasonsSeen": [
         "2025-2026",
@@ -900,6 +900,63 @@
       "seasonsLabel": "2026, 2025, 2024",
       "recentCities": [
         "BELFORT"
+      ]
+    },
+    {
+      "id": "habituelle-T_D_championnat_hiver-2026-12",
+      "type": "tournant",
+      "nom": "Championnat d'Hiver des Maîtres Open",
+      "ville": null,
+      "lat": 48.4174641,
+      "lon": 0.4380721,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "12",
+      "monthLabel": "décembre",
+      "moment": "mi",
+      "expectedDate": "2026-12-17",
+      "dispersionDays": 21,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025",
+        "2023-2024"
+      ],
+      "consecutiveStreak": 3,
+      "seasonsLabel": "2026, 2025, 2024",
+      "recentCities": [
+        "MAYENNE",
+        "LAGNY-SUR-MARNE",
+        "LAVAL"
+      ]
+    },
+    {
+      "id": "habituelle-V_ANGERS_D-2026-12",
+      "type": "ville",
+      "nom": "8e Meeting de l'Anjou - Maitres",
+      "ville": "ANGERS",
+      "lat": 47.4739884,
+      "lon": -0.5515588,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "12",
+      "monthLabel": "décembre",
+      "moment": "fin",
+      "expectedDate": "2026-12-26",
+      "dispersionDays": 28,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025",
+        "2023-2024",
+        "2021-2022"
+      ],
+      "consecutiveStreak": 3,
+      "seasonsLabel": "2026, 2025, 2024, 2022",
+      "recentCities": [
+        "ANGERS"
       ]
     },
     {
@@ -917,7 +974,7 @@
       "monthLabel": "décembre",
       "moment": "fin",
       "expectedDate": "2026-12-26",
-      "dispersionDays": 3,
+      "dispersionDays": 2,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -927,6 +984,63 @@
       "seasonsLabel": "2026, 2025, 2024",
       "recentCities": [
         "BAYONNE"
+      ]
+    },
+    {
+      "id": "habituelle-T_D_allier_championnat-2027-01",
+      "type": "tournant",
+      "nom": "Championnats Open d'Allier Maitres",
+      "ville": null,
+      "lat": 46.3328297,
+      "lon": 3.2663477,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "01",
+      "monthLabel": "janvier",
+      "moment": "début",
+      "expectedDate": "2027-01-01",
+      "dispersionDays": 18,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2026, 2025",
+      "recentCities": [
+        "MOULINS",
+        "GANNAT"
+      ]
+    },
+    {
+      "id": "habituelle-T_R_championnat_hiver_regionaux-2027-01",
+      "type": "tournant",
+      "nom": "Championnats Régionaux Hiver Open des Maîtres",
+      "ville": null,
+      "lat": 48.48186416666667,
+      "lon": 4.738379533333333,
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "01",
+      "monthLabel": "janvier",
+      "moment": "début",
+      "expectedDate": "2027-01-08",
+      "dispersionDays": 22,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025",
+        "2023-2024",
+        "2021-2022"
+      ],
+      "consecutiveStreak": 3,
+      "seasonsLabel": "2026, 2025, 2024, 2022",
+      "recentCities": [
+        "SERÉMANGE-ERZANGE",
+        "PONT-A-MOUSSON",
+        "VIERZON"
       ]
     },
     {
@@ -984,6 +1098,32 @@
       ]
     },
     {
+      "id": "habituelle-V_MONTAUBAN_D-2027-01",
+      "type": "ville",
+      "nom": "Meeting des Maîtres 2",
+      "ville": "MONTAUBAN",
+      "lat": 44.0175835,
+      "lon": 1.3549991,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "01",
+      "monthLabel": "janvier",
+      "moment": "mi",
+      "expectedDate": "2027-01-14",
+      "dispersionDays": 17,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2026, 2025",
+      "recentCities": [
+        "MONTAUBAN"
+      ]
+    },
+    {
       "id": "habituelle-V_SAINT_CHAMOND_D-2027-01",
       "type": "ville",
       "nom": "Chpts Printemps Masters Loire",
@@ -1007,6 +1147,36 @@
       "seasonsLabel": "2026, 2025",
       "recentCities": [
         "SAINT-CHAMOND"
+      ]
+    },
+    {
+      "id": "habituelle-T_D_championnat_departemental-2027-01",
+      "type": "tournant",
+      "nom": "Championnat Départemental 13 Open Maîtres",
+      "ville": null,
+      "lat": 44.313673666666666,
+      "lon": 5.045981766666667,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 50,
+      "month": "01",
+      "monthLabel": "janvier",
+      "moment": "mi",
+      "expectedDate": "2027-01-18",
+      "dispersionDays": 67,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025",
+        "2023-2024",
+        "2021-2022"
+      ],
+      "consecutiveStreak": 3,
+      "seasonsLabel": "2026, 2025, 2024, 2022",
+      "recentCities": [
+        "MARTIGUES",
+        "BOURGOIN-JALLIEU",
+        "AVIGNON"
       ]
     },
     {
@@ -1168,6 +1338,36 @@
       "seasonsLabel": "2026, 2025",
       "recentCities": [
         "PONT-SAINT-PIERRE"
+      ]
+    },
+    {
+      "id": "habituelle-T_R_championnat_regional-2027-01",
+      "type": "tournant",
+      "nom": "Championnat Régional des Maîtres Open",
+      "ville": null,
+      "lat": 44.93175986666666,
+      "lon": 1.9789018,
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "01",
+      "monthLabel": "janvier",
+      "moment": "fin",
+      "expectedDate": "2027-01-25",
+      "dispersionDays": 26,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025",
+        "2023-2024",
+        "2021-2022"
+      ],
+      "consecutiveStreak": 3,
+      "seasonsLabel": "2026, 2025, 2024, 2022",
+      "recentCities": [
+        "CHÂTEAU-GONTIER",
+        "BÉZIERS",
+        "CLERMONT-L'HÉRAULT"
       ]
     },
     {
@@ -1555,6 +1755,33 @@
       ]
     },
     {
+      "id": "habituelle-T_R_interclub_nord_poule_regionaux-2027-02",
+      "type": "tournant",
+      "nom": "Interclubs Régionaux Open des Maîtres - Poule Nord",
+      "ville": null,
+      "lat": 46.2584594,
+      "lon": -0.31072195,
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "02",
+      "monthLabel": "février",
+      "moment": "début",
+      "expectedDate": "2027-02-08",
+      "dispersionDays": 1,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2026, 2025",
+      "recentCities": [
+        "ROCHEFORT-SUR-MER",
+        "POITIERS"
+      ]
+    },
+    {
       "id": "habituelle-T_R_equipe_interclub_regionaux-2027-02",
       "type": "tournant",
       "nom": "Interclubs Régionaux Maîtres Open - Equipes de 6",
@@ -1584,39 +1811,12 @@
       ]
     },
     {
-      "id": "habituelle-T_R_interclub_nord_poule_regionaux-2027-02",
-      "type": "tournant",
-      "nom": "Interclubs Régionaux Open des Maîtres - Poule Nord",
-      "ville": null,
-      "lat": 46.2584594,
-      "lon": -0.31072195,
-      "niveau": "R",
-      "niveauLibelle": "Régional",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "02",
-      "monthLabel": "février",
-      "moment": "début",
-      "expectedDate": "2027-02-09",
-      "dispersionDays": 1,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2026, 2025",
-      "recentCities": [
-        "ROCHEFORT-SUR-MER",
-        "POITIERS"
-      ]
-    },
-    {
       "id": "habituelle-T_D_championnat_ssd-2027-02",
       "type": "tournant",
       "nom": "Championnat SSD Maîtres",
       "ville": null,
-      "lat": 49.180566600000006,
-      "lon": 3.95222185,
+      "lat": 48.92284185,
+      "lon": 2.414326,
       "niveau": "D",
       "niveauLibelle": "Départemental",
       "championnatFrance": false,
@@ -1708,7 +1908,7 @@
       "monthLabel": "février",
       "moment": "fin",
       "expectedDate": "2027-02-27",
-      "dispersionDays": 5,
+      "dispersionDays": 4,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -1796,7 +1996,7 @@
       "month": "03",
       "monthLabel": "mars",
       "moment": "début",
-      "expectedDate": "2027-03-05",
+      "expectedDate": "2027-03-04",
       "dispersionDays": 14,
       "seasonsSeen": [
         "2025-2026",
@@ -1825,7 +2025,7 @@
       "month": "03",
       "monthLabel": "mars",
       "moment": "début",
-      "expectedDate": "2027-03-05",
+      "expectedDate": "2027-03-04",
       "dispersionDays": 14,
       "seasonsSeen": [
         "2025-2026",
@@ -1923,33 +2123,29 @@
       ]
     },
     {
-      "id": "habituelle-T_R_championnat_regional-2027-03",
-      "type": "tournant",
-      "nom": "Championnat Régional des Maîtres Open",
-      "ville": null,
-      "lat": 44.93175986666666,
-      "lon": 1.9789018,
-      "niveau": "R",
-      "niveauLibelle": "Régional",
+      "id": "habituelle-V_ANNEMASSE_D-2027-03",
+      "type": "ville",
+      "nom": "2e Meeting Maîtres Annemasse Agglo.",
+      "ville": "ANNEMASSE",
+      "lat": 46.1934005,
+      "lon": 6.2341093,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
       "championnatFrance": false,
-      "bassin": 25,
+      "bassin": 50,
       "month": "03",
       "monthLabel": "mars",
       "moment": "mi",
-      "expectedDate": "2027-03-17",
-      "dispersionDays": 106,
+      "expectedDate": "2027-03-20",
+      "dispersionDays": 0,
       "seasonsSeen": [
         "2025-2026",
-        "2024-2025",
-        "2023-2024",
-        "2021-2022"
+        "2023-2024"
       ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024, 2022",
+      "consecutiveStreak": 1,
+      "seasonsLabel": "2026, 2024",
       "recentCities": [
-        "CHÂTEAU-GONTIER",
-        "BÉZIERS",
-        "CLERMONT-L'HÉRAULT"
+        "ANNEMASSE"
       ]
     },
     {
@@ -1957,8 +2153,8 @@
       "type": "ville",
       "nom": "Challenge des Maîtres 1",
       "ville": "SAINT-PIERRE",
-      "lat": 48.3832725,
-      "lon": 7.4718731,
+      "lat": -21.341298,
+      "lon": 55.4776174,
       "niveau": "R",
       "niveauLibelle": "Régional",
       "championnatFrance": false,
@@ -2003,6 +2199,34 @@
       "seasonsLabel": "2026, 2025",
       "recentCities": [
         "ÉTRÉPAGNY"
+      ]
+    },
+    {
+      "id": "habituelle-T_D_championnat_departemental_printemp-2027-03",
+      "type": "tournant",
+      "nom": "Championnat Départemental printemps des Maîtres",
+      "ville": null,
+      "lat": 44.9355386,
+      "lon": 1.6253600000000001,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "03",
+      "monthLabel": "mars",
+      "moment": "fin",
+      "expectedDate": "2027-03-25",
+      "dispersionDays": 18,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025",
+        "2021-2022"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2026, 2025, 2022",
+      "recentCities": [
+        "CHINON",
+        "CANET-EN-ROUSSILLON"
       ]
     },
     {
@@ -2058,34 +2282,6 @@
         "LA NORVILLE",
         "MONTGERON",
         "MORSANG-SUR-ORGE"
-      ]
-    },
-    {
-      "id": "habituelle-T_D_championnat_departemental_printemp-2027-03",
-      "type": "tournant",
-      "nom": "Championnat Départemental printemps des Maîtres",
-      "ville": null,
-      "lat": 44.9355386,
-      "lon": 1.6253600000000001,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "03",
-      "monthLabel": "mars",
-      "moment": "fin",
-      "expectedDate": "2027-03-26",
-      "dispersionDays": 18,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2021-2022"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2026, 2025, 2022",
-      "recentCities": [
-        "CHINON",
-        "CANET-EN-ROUSSILLON"
       ]
     },
     {
@@ -2213,7 +2409,7 @@
       "monthLabel": "avril",
       "moment": "début",
       "expectedDate": "2027-04-02",
-      "dispersionDays": 20,
+      "dispersionDays": 21,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -2223,36 +2419,6 @@
       "seasonsLabel": "2026, 2025, 2024",
       "recentCities": [
         "COMBS-LA-VILLE"
-      ]
-    },
-    {
-      "id": "habituelle-T_R_championnat_hiver_regionaux-2027-04",
-      "type": "tournant",
-      "nom": "Championnats Régionaux Hiver Open des Maîtres",
-      "ville": null,
-      "lat": 48.48186416666667,
-      "lon": 4.738379533333333,
-      "niveau": "R",
-      "niveauLibelle": "Régional",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "04",
-      "monthLabel": "avril",
-      "moment": "début",
-      "expectedDate": "2027-04-09",
-      "dispersionDays": 137,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024",
-        "2021-2022"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024, 2022",
-      "recentCities": [
-        "SERÉMANGE-ERZANGE",
-        "PONT-A-MOUSSON",
-        "VIERZON"
       ]
     },
     {
@@ -2270,7 +2436,7 @@
       "monthLabel": "avril",
       "moment": "début",
       "expectedDate": "2027-04-09",
-      "dispersionDays": 8,
+      "dispersionDays": 9,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -2322,7 +2488,7 @@
       "month": "04",
       "monthLabel": "avril",
       "moment": "mi",
-      "expectedDate": "2027-04-16",
+      "expectedDate": "2027-04-15",
       "dispersionDays": 8,
       "seasonsSeen": [
         "2025-2026",
@@ -2351,7 +2517,7 @@
       "monthLabel": "avril",
       "moment": "mi",
       "expectedDate": "2027-04-16",
-      "dispersionDays": 10,
+      "dispersionDays": 11,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -2404,7 +2570,7 @@
       "monthLabel": "avril",
       "moment": "fin",
       "expectedDate": "2027-04-22",
-      "dispersionDays": 7,
+      "dispersionDays": 6,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -2458,7 +2624,7 @@
       "month": "04",
       "monthLabel": "avril",
       "moment": "fin",
-      "expectedDate": "2027-04-29",
+      "expectedDate": "2027-04-28",
       "dispersionDays": 3,
       "seasonsSeen": [
         "2025-2026",
@@ -2540,9 +2706,9 @@
       "bassin": 50,
       "month": "05",
       "monthLabel": "mai",
-      "moment": "mi",
-      "expectedDate": "2027-05-11",
-      "dispersionDays": 12,
+      "moment": "début",
+      "expectedDate": "2027-05-10",
+      "dispersionDays": 11,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -2569,7 +2735,7 @@
       "month": "05",
       "monthLabel": "mai",
       "moment": "mi",
-      "expectedDate": "2027-05-12",
+      "expectedDate": "2027-05-11",
       "dispersionDays": 7,
       "seasonsSeen": [
         "2025-2026",
@@ -2626,7 +2792,7 @@
       "monthLabel": "mai",
       "moment": "mi",
       "expectedDate": "2027-05-15",
-      "dispersionDays": 8,
+      "dispersionDays": 7,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -2667,32 +2833,6 @@
       ]
     },
     {
-      "id": "habituelle-V_MONTAUBAN_D-2027-05",
-      "type": "ville",
-      "nom": "Meeting des Maîtres 2",
-      "ville": "MONTAUBAN",
-      "lat": 44.0175835,
-      "lon": 1.3549991,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "05",
-      "monthLabel": "mai",
-      "moment": "mi",
-      "expectedDate": "2027-05-15",
-      "dispersionDays": 155,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2026, 2025",
-      "recentCities": [
-        "MONTAUBAN"
-      ]
-    },
-    {
       "id": "habituelle-V_SAINT_LEU_R-2027-05",
       "type": "ville",
       "nom": "Challenge des Maîtres 3",
@@ -2706,8 +2846,8 @@
       "month": "05",
       "monthLabel": "mai",
       "moment": "mi",
-      "expectedDate": "2027-05-16",
-      "dispersionDays": 9,
+      "expectedDate": "2027-05-15",
+      "dispersionDays": 8,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -2717,36 +2857,6 @@
       "seasonsLabel": "2026, 2025, 2024",
       "recentCities": [
         "SAINT-LEU"
-      ]
-    },
-    {
-      "id": "habituelle-T_R_championnat_normandie-2027-05",
-      "type": "tournant",
-      "nom": "Championnats de Normandie Open des Maîtres",
-      "ville": null,
-      "lat": 49.714801533333336,
-      "lon": 0.08801066666666664,
-      "niveau": "R",
-      "niveauLibelle": "Régional",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "05",
-      "monthLabel": "mai",
-      "moment": "mi",
-      "expectedDate": "2027-05-20",
-      "dispersionDays": 25,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024",
-        "2021-2022"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024, 2022",
-      "recentCities": [
-        "FLERS",
-        "CHERBOURG-EN-COTENTIN",
-        "CAEN"
       ]
     },
     {
@@ -2762,8 +2872,8 @@
       "bassin": 25,
       "month": "05",
       "monthLabel": "mai",
-      "moment": "fin",
-      "expectedDate": "2027-05-21",
+      "moment": "mi",
+      "expectedDate": "2027-05-20",
       "dispersionDays": 10,
       "seasonsSeen": [
         "2025-2026",
@@ -2775,6 +2885,36 @@
       "seasonsLabel": "2026, 2025, 2024, 2022",
       "recentCities": [
         "LUÇON"
+      ]
+    },
+    {
+      "id": "habituelle-T_R_championnat_normandie-2027-05",
+      "type": "tournant",
+      "nom": "Championnats de Normandie Open des Maîtres",
+      "ville": null,
+      "lat": 49.714801533333336,
+      "lon": 0.08801066666666664,
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "05",
+      "monthLabel": "mai",
+      "moment": "fin",
+      "expectedDate": "2027-05-21",
+      "dispersionDays": 25,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025",
+        "2023-2024",
+        "2021-2022"
+      ],
+      "consecutiveStreak": 3,
+      "seasonsLabel": "2026, 2025, 2024, 2022",
+      "recentCities": [
+        "FLERS",
+        "CHERBOURG-EN-COTENTIN",
+        "CAEN"
       ]
     },
     {
@@ -2819,7 +2959,7 @@
       "month": "05",
       "monthLabel": "mai",
       "moment": "fin",
-      "expectedDate": "2027-05-25",
+      "expectedDate": "2027-05-24",
       "dispersionDays": 7,
       "seasonsSeen": [
         "2025-2026",
@@ -2829,6 +2969,33 @@
       "seasonsLabel": "2026, 2025",
       "recentCities": [
         "NANTES"
+      ]
+    },
+    {
+      "id": "habituelle-V_VERDUN_D-2027-05",
+      "type": "ville",
+      "nom": "Meeting Open Meuse des Maitres - 4e Journée",
+      "ville": "VERDUN",
+      "lat": 49.1589278,
+      "lon": 5.3867277,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "05",
+      "monthLabel": "mai",
+      "moment": "fin",
+      "expectedDate": "2027-05-25",
+      "dispersionDays": 22,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025",
+        "2023-2024"
+      ],
+      "consecutiveStreak": 3,
+      "seasonsLabel": "2026, 2025, 2024",
+      "recentCities": [
+        "VERDUN"
       ]
     },
     {
@@ -2859,33 +3026,6 @@
       ]
     },
     {
-      "id": "habituelle-V_VERDUN_D-2027-05",
-      "type": "ville",
-      "nom": "Meeting Open Meuse des Maitres - 4e Journée",
-      "ville": "VERDUN",
-      "lat": 49.1589278,
-      "lon": 5.3867277,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "05",
-      "monthLabel": "mai",
-      "moment": "fin",
-      "expectedDate": "2027-05-26",
-      "dispersionDays": 22,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024",
-      "recentCities": [
-        "VERDUN"
-      ]
-    },
-    {
       "id": "habituelle-V_NOGENT_SUR_OISE_D-2027-05",
       "type": "ville",
       "nom": "Meeting les Maîtres en Fête",
@@ -2899,7 +3039,7 @@
       "month": "05",
       "monthLabel": "mai",
       "moment": "fin",
-      "expectedDate": "2027-05-27",
+      "expectedDate": "2027-05-26",
       "dispersionDays": 3,
       "seasonsSeen": [
         "2025-2026",
@@ -2926,8 +3066,8 @@
       "month": "05",
       "monthLabel": "mai",
       "moment": "fin",
-      "expectedDate": "2027-05-27",
-      "dispersionDays": 5,
+      "expectedDate": "2027-05-26",
+      "dispersionDays": 4,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -2979,8 +3119,8 @@
       "month": "05",
       "monthLabel": "mai",
       "moment": "fin",
-      "expectedDate": "2027-05-29",
-      "dispersionDays": 8,
+      "expectedDate": "2027-05-28",
+      "dispersionDays": 9,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -3007,8 +3147,8 @@
       "month": "05",
       "monthLabel": "mai",
       "moment": "fin",
-      "expectedDate": "2027-05-29",
-      "dispersionDays": 8,
+      "expectedDate": "2027-05-28",
+      "dispersionDays": 9,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -3034,7 +3174,7 @@
       "month": "05",
       "monthLabel": "mai",
       "moment": "fin",
-      "expectedDate": "2027-05-29",
+      "expectedDate": "2027-05-28",
       "dispersionDays": 4,
       "seasonsSeen": [
         "2025-2026",
@@ -3173,7 +3313,7 @@
       "monthLabel": "juin",
       "moment": "début",
       "expectedDate": "2027-06-05",
-      "dispersionDays": 2,
+      "dispersionDays": 3,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -3213,6 +3353,32 @@
       ]
     },
     {
+      "id": "habituelle-T_D_championnat_vaucluse-2027-06",
+      "type": "tournant",
+      "nom": "Championnat Vaucluse Open Maîtres",
+      "ville": null,
+      "lat": 44.0554043,
+      "lon": 5.0487681,
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 50,
+      "month": "06",
+      "monthLabel": "juin",
+      "moment": "début",
+      "expectedDate": "2027-06-06",
+      "dispersionDays": 1,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025"
+      ],
+      "consecutiveStreak": 2,
+      "seasonsLabel": "2026, 2025",
+      "recentCities": [
+        "CARPENTRAS"
+      ]
+    },
+    {
       "id": "habituelle-V_TOULOUSE_N-2027-06",
       "type": "ville",
       "nom": "14e Meeting National des Maîtres de Toulouse",
@@ -3237,32 +3403,6 @@
       "seasonsLabel": "2026, 2025, 2022",
       "recentCities": [
         "TOULOUSE"
-      ]
-    },
-    {
-      "id": "habituelle-T_D_championnat_vaucluse-2027-06",
-      "type": "tournant",
-      "nom": "Championnat Vaucluse Open Maîtres",
-      "ville": null,
-      "lat": 44.0554043,
-      "lon": 5.0487681,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 50,
-      "month": "06",
-      "monthLabel": "juin",
-      "moment": "début",
-      "expectedDate": "2027-06-07",
-      "dispersionDays": 1,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2026, 2025",
-      "recentCities": [
-        "CARPENTRAS"
       ]
     },
     {
@@ -3296,6 +3436,35 @@
       ]
     },
     {
+      "id": "habituelle-T_N_championnat_ete-2027-06",
+      "type": "tournant",
+      "nom": "XXXVIIIe Championnats de France Eté Open",
+      "ville": "LAPINLAND",
+      "lat": 43.836699,
+      "lon": 4.360054,
+      "niveau": "N",
+      "niveauLibelle": "National",
+      "championnatFrance": true,
+      "bassin": 50,
+      "month": "06",
+      "monthLabel": "juin",
+      "moment": "début",
+      "expectedDate": "2027-06-10",
+      "dispersionDays": 18,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025",
+        "2023-2024"
+      ],
+      "consecutiveStreak": 3,
+      "seasonsLabel": "2026, 2025, 2024",
+      "recentCities": [
+        "TARBES",
+        "NÎMES",
+        "MULHOUSE"
+      ]
+    },
+    {
       "id": "habituelle-T_D_departementale_finale-2027-06",
       "type": "tournant",
       "nom": "Finale Départementale Maitres",
@@ -3310,7 +3479,7 @@
       "monthLabel": "juin",
       "moment": "mi",
       "expectedDate": "2027-06-11",
-      "dispersionDays": 2,
+      "dispersionDays": 3,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -3322,35 +3491,6 @@
       "recentCities": [
         "SAINT-MARCEL",
         "PONT-AUDEMER"
-      ]
-    },
-    {
-      "id": "habituelle-T_N_championnat_ete-2027-06",
-      "type": "tournant",
-      "nom": "XXXVIIIe Championnats de France Eté Open",
-      "ville": "LAPINLAND",
-      "lat": 43.836699,
-      "lon": 4.360054,
-      "niveau": "N",
-      "niveauLibelle": "National",
-      "championnatFrance": true,
-      "bassin": 50,
-      "month": "06",
-      "monthLabel": "juin",
-      "moment": "mi",
-      "expectedDate": "2027-06-11",
-      "dispersionDays": 18,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024",
-      "recentCities": [
-        "TARBES",
-        "NÎMES",
-        "MULHOUSE"
       ]
     },
     {
@@ -3393,8 +3533,8 @@
       "month": "06",
       "monthLabel": "juin",
       "moment": "mi",
-      "expectedDate": "2027-06-17",
-      "dispersionDays": 8,
+      "expectedDate": "2027-06-16",
+      "dispersionDays": 9,
       "seasonsSeen": [
         "2025-2026",
         "2024-2025",
@@ -3463,63 +3603,6 @@
       ]
     },
     {
-      "id": "habituelle-T_D_championnat_departemental-2027-06",
-      "type": "tournant",
-      "nom": "Championnat Départemental 13 Open Maîtres",
-      "ville": null,
-      "lat": 44.313673666666666,
-      "lon": 5.045981766666667,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 50,
-      "month": "06",
-      "monthLabel": "juin",
-      "moment": "fin",
-      "expectedDate": "2027-06-30",
-      "dispersionDays": 126,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024",
-        "2021-2022"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024, 2022",
-      "recentCities": [
-        "MARTIGUES",
-        "BOURGOIN-JALLIEU",
-        "AVIGNON"
-      ]
-    },
-    {
-      "id": "habituelle-T_D_allier_championnat-2027-07",
-      "type": "tournant",
-      "nom": "Championnats Open d'Allier Maitres",
-      "ville": null,
-      "lat": 46.3328297,
-      "lon": 3.2663477,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "07",
-      "monthLabel": "juillet",
-      "moment": "début",
-      "expectedDate": "2027-07-03",
-      "dispersionDays": 165,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2026, 2025",
-      "recentCities": [
-        "MOULINS",
-        "GANNAT"
-      ]
-    },
-    {
       "id": "habituelle-V_DECAZEVILLE_R-2027-07",
       "type": "ville",
       "nom": "Meeting Maîtres 2",
@@ -3546,35 +3629,6 @@
       ]
     },
     {
-      "id": "habituelle-T_D_championnat_hiver-2027-08",
-      "type": "tournant",
-      "nom": "Championnat d'Hiver des Maîtres Open",
-      "ville": null,
-      "lat": 48.4174641,
-      "lon": 0.4380721,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "08",
-      "monthLabel": "août",
-      "moment": "mi",
-      "expectedDate": "2027-08-18",
-      "dispersionDays": 152,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024",
-      "recentCities": [
-        "MAYENNE",
-        "LAGNY-SUR-MARNE",
-        "LAVAL"
-      ]
-    },
-    {
       "id": "habituelle-V_GOURDON_R-2027-08",
       "type": "ville",
       "nom": "Meeting Maîtres 3",
@@ -3598,34 +3652,6 @@
       "seasonsLabel": "2026, 2025",
       "recentCities": [
         "GOURDON"
-      ]
-    },
-    {
-      "id": "habituelle-V_ANGERS_D-2027-08",
-      "type": "ville",
-      "nom": "8e Meeting de l'Anjou - Maitres",
-      "ville": "ANGERS",
-      "lat": 47.4739884,
-      "lon": -0.5515588,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "08",
-      "monthLabel": "août",
-      "moment": "fin",
-      "expectedDate": "2027-08-28",
-      "dispersionDays": 145,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024",
-        "2021-2022"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024, 2022",
-      "recentCities": [
-        "ANGERS"
       ]
     }
   ]
