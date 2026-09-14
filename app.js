@@ -690,7 +690,8 @@ function initSort() {
       document.querySelectorAll('.sort-btn').forEach(b => {
         b.classList.toggle('active', b === btn);
       });
-      renderList();
+      if (state.mode === 'habituelles') renderHabituelles();
+      else renderList();
       trackEvent('tri:' + btn.dataset.sort);
     });
   });
@@ -875,21 +876,29 @@ function renderList() {
   list.appendChild(hint);
 }
 
+// Filtres communs à la liste et à la carte "Habituelles" :
+//   - date estimée pas encore passée (predictions.json n'est régénéré qu'au
+//     passage du bot, une prédiction du jour J resterait affichée à J+1) ;
+//   - recherche insensible aux accents (state.search est déjà normalisé) ;
+//   - bassin.
+function filteredHabituelles() {
+  const today = todayIso();
+  const search = state.search || '';
+  return state.predictions.filter((p) => {
+    if (p.expectedDate < today) return false;
+    if (search && !normalize(`${p.nom} ${p.ville || ''} ${(p.recentCities || []).join(' ')}`).includes(search)) return false;
+    if (state.bassinFilter === '25' && p.bassin !== 25) return false;
+    if (state.bassinFilter === '50' && p.bassin !== 50) return false;
+    return true;
+  });
+}
+
 // Rendu de l'onglet "Habituelles" : compétitions récurrentes (présentes en
 // N-1 + au moins 2 fois sur les 4 dernières saisons) non encore confirmées
 // sur liveFFN pour la saison courante. Filtre bassin et tri distance cachés.
 function renderHabituelles() {
   const list = document.getElementById('list');
-  const search = state.search || '';
-  let items = state.predictions.slice();
-  if (search) {
-    items = items.filter((p) => {
-      const hay = `${p.nom} ${p.ville || ''} ${(p.recentCities || []).join(' ')}`.toLowerCase();
-      return hay.includes(search);
-    });
-  }
-  if (state.bassinFilter === '25') items = items.filter((p) => p.bassin === 25);
-  else if (state.bassinFilter === '50') items = items.filter((p) => p.bassin === 50);
+  const items = filteredHabituelles();
 
   // Calcul distance (haversine) pour chaque prédiction si position connue.
   // Pour les CF (Lapinland fictif) le résultat est trompeur ; on l'affiche
@@ -974,19 +983,8 @@ function renderHabituellesMap() {
   }
   state.markers = {};
 
-  // Filtres recherche + bassin identiques à la liste
-  const search = state.search || '';
-  let items = state.predictions.slice();
-  if (search) {
-    items = items.filter((p) => {
-      const hay = `${p.nom} ${p.ville || ''} ${(p.recentCities || []).join(' ')}`.toLowerCase();
-      return hay.includes(search);
-    });
-  }
-  if (state.bassinFilter === '25') items = items.filter((p) => p.bassin === 25);
-  else if (state.bassinFilter === '50') items = items.filter((p) => p.bassin === 50);
-  // Garde uniquement celles avec lat/lon (= excluant CF)
-  items = items.filter((p) => p.lat != null && p.lon != null);
+  // Mêmes filtres que la liste, puis uniquement celles avec lat/lon
+  const items = filteredHabituelles().filter((p) => p.lat != null && p.lon != null);
 
   for (const p of items) {
     const key = `hab:${p.id}`;
