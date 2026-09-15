@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T15:28:42.260Z",
+  "generatedAt": "2026-09-15T20:06:04.502Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7595,6 +7595,20 @@
       "lat": 46.6414367,
       "lon": 4.4461818,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93828"
+    },
+    {
+      "id": "94509",
+      "nom": "MEETING MAITRES DU MANS",
+      "ville": "LE MANS",
+      "dateDebut": "2026-09-26",
+      "dateFin": "2026-09-26",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.0073849,
+      "lon": 0.1967849,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94509"
     }
   ]
 }

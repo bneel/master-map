@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-15T15:28:19.851Z",
+  "generatedAt": "2026-09-15T20:05:42.122Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-09-15T20:05:42.122Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-09-15T15:28:19.851Z",
       "counts": {
@@ -472,17 +480,33 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-08-16T17:25:04.841Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-09-15T20:05:42.122Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94509",
+          "nom": "MEETING MAITRES DU MANS",
+          "ville": "LE MANS",
+          "dateDebut": "2026-09-26",
+          "dateFin": "2026-09-26",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94509"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-08-24T11:31:00.626Z",
       "counts": {
