@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T20:08:29.723Z",
+  "generatedAt": "2026-09-18T14:49:31.731Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7609,6 +7609,20 @@
       "lat": 48.0073849,
       "lon": 0.1967849,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94509"
+    },
+    {
+      "id": "94557",
+      "nom": "Championnat Départemental Maîtres #3-2026",
+      "ville": "TOULOUSE",
+      "dateDebut": "2026-10-18",
+      "dateFin": "2026-10-18",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.6044638,
+      "lon": 1.4442433,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94557"
     }
   ]
 }
