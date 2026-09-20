@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-20T14:35:51.676Z",
+  "generatedAt": "2026-09-20T19:19:07.025Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-09-20T19:19:07.025Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-09-20T14:35:51.676Z",
       "counts": {
@@ -472,17 +480,33 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-08-21T17:34:51.134Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-09-20T19:19:07.025Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94424",
+          "nom": "3e soirée départementale Maîtres",
+          "ville": "COUTANCES",
+          "dateDebut": "2026-10-06",
+          "dateFin": "2026-10-06",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94424"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-09-20T14:35:51.676Z",
       "counts": {
@@ -650,31 +674,6 @@
               "field": "nom",
               "from": "CHAMPIONNATS INTERDEPARTEMENTAUX D'ETE DES MAITRES",
               "to": "Championnats Interdépartementaux d'Été des Maîtres"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "scrapedAt": "2026-06-22T15:54:55.277Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 1
-      },
-      "added": [],
-      "removed": [],
-      "updated": [
-        {
-          "id": "93811",
-          "nom": "Meeting Maîtres 1",
-          "ville": "GOURDON",
-          "dateDebut": "2026-06-21",
-          "changes": [
-            {
-              "field": "nom",
-              "from": "Meeting maîtres 1",
-              "to": "Meeting Maîtres 1"
             }
           ]
         }

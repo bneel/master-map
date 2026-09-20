@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T14:36:16.708Z",
+  "generatedAt": "2026-09-20T19:19:29.663Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7609,6 +7609,20 @@
       "lat": 48.0073849,
       "lon": 0.1967849,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94509"
+    },
+    {
+      "id": "94424",
+      "nom": "3e soirée départementale Maîtres",
+      "ville": "COUTANCES",
+      "dateDebut": "2026-10-06",
+      "dateFin": "2026-10-06",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 49.047792,
+      "lon": -1.4454857,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94424"
     },
     {
       "id": "94557",
