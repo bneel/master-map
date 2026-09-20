@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T19:15:47.406Z",
+  "generatedAt": "2026-09-20T14:36:16.708Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7623,6 +7623,20 @@
       "lat": 43.6044638,
       "lon": 1.4442433,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94557"
+    },
+    {
+      "id": "94589",
+      "nom": "7e Meeting des Maîtres de Ventadour",
+      "ville": "ÉGLETONS",
+      "dateDebut": "2026-10-31",
+      "dateFin": "2026-10-31",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 45.4065225,
+      "lon": 2.045018,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94589"
     }
   ]
 }

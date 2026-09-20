@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T19:15:47.471Z",
+  "generatedAt": "2026-09-20T14:36:16.766Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -213,35 +213,6 @@
       "seasonsLabel": "2026, 2025, 2024",
       "recentCities": [
         "SCHILTIGHEIM"
-      ]
-    },
-    {
-      "id": "habituelle-V__GLETONS_D-2026-11",
-      "type": "ville",
-      "nom": "6e Meeting des Maîtres de Ventadour",
-      "ville": "ÉGLETONS",
-      "lat": 45.4065225,
-      "lon": 2.045018,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "11",
-      "monthLabel": "novembre",
-      "moment": "mi",
-      "expectedDate": "2026-11-16",
-      "dispersionDays": 12,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024",
-        "2021-2022",
-        "2020-2021"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024, 2022",
-      "recentCities": [
-        "ÉGLETONS"
       ]
     },
     {
