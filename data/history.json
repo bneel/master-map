@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-20T19:19:07.025Z",
+  "generatedAt": "2026-09-21T16:50:52.551Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-09-21T16:50:52.551Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-09-20T19:19:07.025Z",
       "counts": {
@@ -472,17 +480,33 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-08-22T11:22:30.805Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-09-21T16:50:52.551Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94622",
+          "nom": "Meeting maîtres  1",
+          "ville": "ALBI",
+          "dateDebut": "2026-10-18",
+          "dateFin": "2026-10-18",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94622"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-09-20T19:19:07.025Z",
       "counts": {

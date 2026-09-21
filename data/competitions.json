@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T19:19:29.663Z",
+  "generatedAt": "2026-09-21T16:51:15.891Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7623,6 +7623,20 @@
       "lat": 49.047792,
       "lon": -1.4454857,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94424"
+    },
+    {
+      "id": "94622",
+      "nom": "Meeting maîtres  1",
+      "ville": "ALBI",
+      "dateDebut": "2026-10-18",
+      "dateFin": "2026-10-18",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.9277552,
+      "lon": 2.147899,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94622"
     },
     {
       "id": "94557",
