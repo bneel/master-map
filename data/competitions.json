@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T16:51:15.891Z",
+  "generatedAt": "2026-09-21T20:57:25.415Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7611,6 +7611,90 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94509"
     },
     {
+      "id": "94439",
+      "nom": "Critérium de rentrée des Maîtres",
+      "ville": "ARMENTIÈRES",
+      "dateDebut": "2026-10-04",
+      "dateFin": "2026-10-04",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 50.6867281,
+      "lon": 2.882169,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94439"
+    },
+    {
+      "id": "94437",
+      "nom": "Critérium de rentrée des Maîtres",
+      "ville": "GRAVELINES",
+      "dateDebut": "2026-10-04",
+      "dateFin": "2026-10-04",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 50.9870697,
+      "lon": 2.1273118,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94437"
+    },
+    {
+      "id": "94441",
+      "nom": "Critérium de rentrée des Maîtres",
+      "ville": "MARCQ-EN-BAROEUL",
+      "dateDebut": "2026-10-04",
+      "dateFin": "2026-10-04",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 50.6767018,
+      "lon": 3.1043032,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94441"
+    },
+    {
+      "id": "94443",
+      "nom": "Critérium de rentrée des Maîtres",
+      "ville": "ROUBAIX",
+      "dateDebut": "2026-10-04",
+      "dateFin": "2026-10-04",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 50.6915893,
+      "lon": 3.1741734,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94443"
+    },
+    {
+      "id": "94445",
+      "nom": "Critérium de rentrée des Maîtres",
+      "ville": "SAINT-SAULVE",
+      "dateDebut": "2026-10-04",
+      "dateFin": "2026-10-04",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 50.3710165,
+      "lon": 3.5547336,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94445"
+    },
+    {
+      "id": "94432",
+      "nom": "Critérium de rentrée des Maîtres",
+      "ville": "SOMAIN",
+      "dateDebut": "2026-10-04",
+      "dateFin": "2026-10-04",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 50.3589237,
+      "lon": 3.2810972,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94432"
+    },
+    {
       "id": "94424",
       "nom": "3e soirée départementale Maîtres",
       "ville": "COUTANCES",
@@ -7665,6 +7749,20 @@
       "lat": 45.4065225,
       "lon": 2.045018,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94589"
+    },
+    {
+      "id": "94633",
+      "nom": "Meeting des Maîtres - Megève Natation",
+      "ville": "MEGÈVE",
+      "dateDebut": "2026-11-14",
+      "dateFin": "2026-11-14",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 45.8567089,
+      "lon": 6.617932,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94633"
     }
   ]
 }

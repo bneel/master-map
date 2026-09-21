@@ -1,62 +1,8 @@
 {
-  "generatedAt": "2026-09-21T16:51:15.949Z",
+  "generatedAt": "2026-09-21T20:57:25.451Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
-    {
-      "id": "habituelle-V_GRAVELINES_D-2026-10",
-      "type": "ville",
-      "nom": "Critérium de rentrée des Maîtres",
-      "ville": "GRAVELINES",
-      "lat": 50.9870697,
-      "lon": 2.1273118,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "10",
-      "monthLabel": "octobre",
-      "moment": "début",
-      "expectedDate": "2026-10-04",
-      "dispersionDays": 2,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024",
-      "recentCities": [
-        "GRAVELINES"
-      ]
-    },
-    {
-      "id": "habituelle-V_ROUBAIX_D-2026-10",
-      "type": "ville",
-      "nom": "Critérium de rentrée des Maîtres",
-      "ville": "ROUBAIX",
-      "lat": 50.6915893,
-      "lon": 3.1741734,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "10",
-      "monthLabel": "octobre",
-      "moment": "début",
-      "expectedDate": "2026-10-04",
-      "dispersionDays": 2,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024",
-      "recentCities": [
-        "ROUBAIX"
-      ]
-    },
     {
       "id": "habituelle-V_FOURMIES_D-2026-10",
       "type": "ville",
@@ -241,32 +187,6 @@
       "recentCities": [
         "NEUFCHÂTEAU",
         "SAINT-DIÉ-DES-VOSGES"
-      ]
-    },
-    {
-      "id": "habituelle-V_MEG_VE_D-2026-11",
-      "type": "ville",
-      "nom": "Meeting Maîtres Megève Natation",
-      "ville": "MEGÈVE",
-      "lat": 45.8567089,
-      "lon": 6.617932,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "11",
-      "monthLabel": "novembre",
-      "moment": "mi",
-      "expectedDate": "2026-11-19",
-      "dispersionDays": 4,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2026, 2025",
-      "recentCities": [
-        "MEGÈVE"
       ]
     },
     {

@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-21T16:50:52.551Z",
+  "generatedAt": "2026-09-21T20:55:51.174Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-09-21T20:55:51.174Z",
+      "counts": {
+        "added": 7,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-09-21T16:50:52.551Z",
       "counts": {
@@ -472,17 +480,105 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-08-22T17:26:06.215Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-09-21T20:55:51.174Z",
+      "counts": {
+        "added": 7,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94439",
+          "nom": "Critérium de rentrée des Maîtres",
+          "ville": "ARMENTIÈRES",
+          "dateDebut": "2026-10-04",
+          "dateFin": "2026-10-04",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94439"
+        },
+        {
+          "id": "94437",
+          "nom": "Critérium de rentrée des Maîtres",
+          "ville": "GRAVELINES",
+          "dateDebut": "2026-10-04",
+          "dateFin": "2026-10-04",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94437"
+        },
+        {
+          "id": "94441",
+          "nom": "Critérium de rentrée des Maîtres",
+          "ville": "MARCQ-EN-BAROEUL",
+          "dateDebut": "2026-10-04",
+          "dateFin": "2026-10-04",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94441"
+        },
+        {
+          "id": "94443",
+          "nom": "Critérium de rentrée des Maîtres",
+          "ville": "ROUBAIX",
+          "dateDebut": "2026-10-04",
+          "dateFin": "2026-10-04",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94443"
+        },
+        {
+          "id": "94445",
+          "nom": "Critérium de rentrée des Maîtres",
+          "ville": "SAINT-SAULVE",
+          "dateDebut": "2026-10-04",
+          "dateFin": "2026-10-04",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94445"
+        },
+        {
+          "id": "94432",
+          "nom": "Critérium de rentrée des Maîtres",
+          "ville": "SOMAIN",
+          "dateDebut": "2026-10-04",
+          "dateFin": "2026-10-04",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94432"
+        },
+        {
+          "id": "94633",
+          "nom": "Meeting des Maîtres - Megève Natation",
+          "ville": "MEGÈVE",
+          "dateDebut": "2026-11-14",
+          "dateFin": "2026-11-14",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94633"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-09-21T16:50:52.551Z",
       "counts": {
@@ -673,31 +769,6 @@
               "field": "nom",
               "from": "XXXIXème Championnats de France N1 Été Open des Maitres",
               "to": "XXXIXes Championnats de France N1 Été Open des Maitres"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "scrapedAt": "2026-06-23T19:10:47.377Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 1
-      },
-      "added": [],
-      "removed": [],
-      "updated": [
-        {
-          "id": "94092",
-          "nom": "Championnats Interdépartementaux d'Été des Maîtres",
-          "ville": "PAMIERS",
-          "dateDebut": "2026-06-21",
-          "changes": [
-            {
-              "field": "nom",
-              "from": "CHAMPIONNATS INTERDEPARTEMENTAUX D'ETE DES MAITRES",
-              "to": "Championnats Interdépartementaux d'Été des Maîtres"
             }
           ]
         }
