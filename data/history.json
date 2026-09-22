@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-22T15:26:48.817Z",
+  "generatedAt": "2026-09-22T20:04:45.979Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-09-22T20:04:45.979Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-09-22T15:26:48.817Z",
       "counts": {
@@ -472,17 +480,33 @@
         "removed": 0,
         "updated": 1
       }
-    },
-    {
-      "scrapedAt": "2026-08-23T17:25:41.679Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-09-22T20:04:45.979Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94644",
+          "nom": "Départementaux d'Automne des Maîtres Open",
+          "ville": "LAVAL",
+          "dateDebut": "2026-11-15",
+          "dateFin": "2026-11-15",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94644"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-09-22T15:26:48.817Z",
       "counts": {

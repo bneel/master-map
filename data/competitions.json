@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T15:27:11.616Z",
+  "generatedAt": "2026-09-22T20:05:07.692Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7777,6 +7777,20 @@
       "lat": 45.8567089,
       "lon": 6.617932,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94633"
+    },
+    {
+      "id": "94644",
+      "nom": "Départementaux d'Automne des Maîtres Open",
+      "ville": "LAVAL",
+      "dateDebut": "2026-11-15",
+      "dateFin": "2026-11-15",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.0706687,
+      "lon": -0.7734022,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94644"
     }
   ]
 }
