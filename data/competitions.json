@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T20:57:25.415Z",
+  "generatedAt": "2026-09-22T15:27:11.616Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7707,6 +7707,20 @@
       "lat": 49.047792,
       "lon": -1.4454857,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94424"
+    },
+    {
+      "id": "94612",
+      "nom": "Soirée des Maîtres",
+      "ville": "TAVERNY",
+      "dateDebut": "2026-10-10",
+      "dateFin": "2026-10-10",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 49.0265888,
+      "lon": 2.2234971,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94612"
     },
     {
       "id": "94622",
