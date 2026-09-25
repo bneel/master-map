@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-24T20:20:00.786Z",
+  "generatedAt": "2026-09-25T15:45:03.074Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-09-25T15:45:03.074Z",
+      "counts": {
+        "added": 2,
+        "removed": 1,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-09-24T20:20:00.786Z",
       "counts": {
@@ -472,17 +480,58 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-08-26T11:31:52.171Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-09-25T15:45:03.074Z",
+      "counts": {
+        "added": 2,
+        "removed": 1,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94677",
+          "nom": "Meeting Sprint Masters",
+          "ville": "GIGEAN",
+          "dateDebut": "2026-10-04",
+          "dateFin": "2026-10-04",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94677"
+        },
+        {
+          "id": "94660",
+          "nom": "100 Maitres d'automne 2026",
+          "ville": "POISSY",
+          "dateDebut": "2026-10-18",
+          "dateFin": "2026-10-18",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94660"
+        }
+      ],
+      "removed": [
+        {
+          "id": "94441",
+          "nom": "Critérium de rentrée des Maîtres",
+          "ville": "MARCQ-EN-BAROEUL",
+          "dateDebut": "2026-10-04",
+          "dateFin": "2026-10-04",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94441"
+        }
+      ],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-09-22T20:04:45.979Z",
       "counts": {

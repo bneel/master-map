@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T20:20:24.332Z",
+  "generatedAt": "2026-09-25T15:45:39.230Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7625,6 +7625,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94439"
     },
     {
+      "id": "94677",
+      "nom": "Meeting Sprint Masters",
+      "ville": "GIGEAN",
+      "dateDebut": "2026-10-04",
+      "dateFin": "2026-10-04",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.5008343,
+      "lon": 3.7108476,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94677"
+    },
+    {
       "id": "94437",
       "nom": "Critérium de rentrée des Maîtres",
       "ville": "GRAVELINES",
@@ -7637,20 +7651,6 @@
       "lat": 50.9870697,
       "lon": 2.1273118,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94437"
-    },
-    {
-      "id": "94441",
-      "nom": "Critérium de rentrée des Maîtres",
-      "ville": "MARCQ-EN-BAROEUL",
-      "dateDebut": "2026-10-04",
-      "dateFin": "2026-10-04",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 50.6767018,
-      "lon": 3.1043032,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94441"
     },
     {
       "id": "94443",
@@ -7735,6 +7735,20 @@
       "lat": 43.9277552,
       "lon": 2.147899,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94622"
+    },
+    {
+      "id": "94660",
+      "nom": "100 Maitres d'automne 2026",
+      "ville": "POISSY",
+      "dateDebut": "2026-10-18",
+      "dateFin": "2026-10-18",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.9274192,
+      "lon": 2.0426301,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94660"
     },
     {
       "id": "94557",

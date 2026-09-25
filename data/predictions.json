@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T20:20:24.391Z",
+  "generatedAt": "2026-09-25T15:45:39.292Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -79,33 +79,6 @@
       "seasonsLabel": "2026, 2025",
       "recentCities": [
         "COUTANCES"
-      ]
-    },
-    {
-      "id": "habituelle-V_POISSY_D-2026-10",
-      "type": "ville",
-      "nom": "100 Maîtres d'Automne",
-      "ville": "POISSY",
-      "lat": 48.9274192,
-      "lon": 2.0426301,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "10",
-      "monthLabel": "octobre",
-      "moment": "mi",
-      "expectedDate": "2026-10-20",
-      "dispersionDays": 1,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024",
-      "recentCities": [
-        "POISSY"
       ]
     },
     {
