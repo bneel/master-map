@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T14:55:08.810Z",
+  "generatedAt": "2026-09-26T19:40:01.464Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -1729,6 +1729,34 @@
       ]
     },
     {
+      "id": "habituelle-T_N_championnat_hiver-2027-02",
+      "type": "tournant",
+      "nom": "XXXIe Championnat de France N1 Hiver Open des Maîtres",
+      "ville": "LAPINLAND",
+      "lat": 43.836699,
+      "lon": 4.360054,
+      "niveau": "N",
+      "niveauLibelle": "National",
+      "championnatFrance": true,
+      "bassin": 25,
+      "month": "02",
+      "monthLabel": "février",
+      "moment": "fin",
+      "expectedDate": "2027-02-24",
+      "dispersionDays": 10,
+      "seasonsSeen": [
+        "2025-2026",
+        "2023-2024",
+        "2021-2022"
+      ],
+      "consecutiveStreak": 1,
+      "seasonsLabel": "2026, 2024, 2022",
+      "recentCities": [
+        "BOURG-EN-BRESSE",
+        "LIBOURNE"
+      ]
+    },
+    {
       "id": "habituelle-T_R_championnat_interclub_martinique-2027-02",
       "type": "tournant",
       "nom": "Championnats Interclubs Maîtres Martinique",
@@ -1785,36 +1813,6 @@
         "LE PUY-EN-VELAY",
         "SAINT-GEORGES-DE-MONS",
         "VILLEFRANCHE-SUR-SAÔNE"
-      ]
-    },
-    {
-      "id": "habituelle-T_N_championnat_hiver-2027-03",
-      "type": "tournant",
-      "nom": "XXXe Championnat de France Hiver Open",
-      "ville": "LAPINLAND",
-      "lat": 43.836699,
-      "lon": 4.360054,
-      "niveau": "N",
-      "niveauLibelle": "National",
-      "championnatFrance": true,
-      "bassin": 25,
-      "month": "03",
-      "monthLabel": "mars",
-      "moment": "début",
-      "expectedDate": "2027-03-01",
-      "dispersionDays": 9,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024",
-        "2021-2022"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024, 2022",
-      "recentCities": [
-        "BOURG-EN-BRESSE",
-        "LIBOURNE",
-        "LE MANS"
       ]
     },
     {
@@ -2256,33 +2254,6 @@
       "seasonsLabel": "2026, 2024, 2022",
       "recentCities": [
         "ÉPERNAY"
-      ]
-    },
-    {
-      "id": "habituelle-V_COMBS_LA_VILLE_D-2027-04",
-      "type": "ville",
-      "nom": "19e Meeting de Combs-la-Ville",
-      "ville": "COMBS-LA-VILLE",
-      "lat": 48.6646994,
-      "lon": 2.564877,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "04",
-      "monthLabel": "avril",
-      "moment": "début",
-      "expectedDate": "2027-04-02",
-      "dispersionDays": 21,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024",
-      "recentCities": [
-        "COMBS-LA-VILLE"
       ]
     },
     {
@@ -3270,6 +3241,35 @@
       ]
     },
     {
+      "id": "habituelle-T_N_championnat_ete-2027-06",
+      "type": "tournant",
+      "nom": "XXXIXes Championnats de France N1 Été Open des Maitres",
+      "ville": "LAPINLAND",
+      "lat": 43.836699,
+      "lon": 4.360054,
+      "niveau": "N",
+      "niveauLibelle": "National",
+      "championnatFrance": true,
+      "bassin": 50,
+      "month": "06",
+      "monthLabel": "juin",
+      "moment": "début",
+      "expectedDate": "2027-06-07",
+      "dispersionDays": 18,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025",
+        "2023-2024"
+      ],
+      "consecutiveStreak": 3,
+      "seasonsLabel": "2026, 2025, 2024",
+      "recentCities": [
+        "TARBES",
+        "NÎMES",
+        "MONTPELLIER"
+      ]
+    },
+    {
       "id": "habituelle-T_D_championnat_ete-2027-06",
       "type": "tournant",
       "nom": "Championnats 56 Maîtres Eté - Open",
@@ -3297,35 +3297,6 @@
         "PONTIVY",
         "LAGNY-SUR-MARNE",
         "COMBS-LA-VILLE"
-      ]
-    },
-    {
-      "id": "habituelle-T_N_championnat_ete-2027-06",
-      "type": "tournant",
-      "nom": "XXXVIIIe Championnats de France Eté Open",
-      "ville": "LAPINLAND",
-      "lat": 43.836699,
-      "lon": 4.360054,
-      "niveau": "N",
-      "niveauLibelle": "National",
-      "championnatFrance": true,
-      "bassin": 50,
-      "month": "06",
-      "monthLabel": "juin",
-      "moment": "début",
-      "expectedDate": "2027-06-10",
-      "dispersionDays": 18,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024",
-      "recentCities": [
-        "TARBES",
-        "NÎMES",
-        "MULHOUSE"
       ]
     },
     {
