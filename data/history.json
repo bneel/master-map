@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-27T19:59:52.834Z",
+  "generatedAt": "2026-09-28T18:31:20.316Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-09-28T18:31:20.316Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-09-27T19:59:52.834Z",
       "counts": {
@@ -472,33 +480,33 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-08-29T15:31:56.280Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-08-29T00:55:12.874Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-08-28T21:19:35.260Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-09-28T18:31:20.316Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94727",
+          "nom": "Championnats du Berry Maîtres",
+          "ville": "CHÂTEAUROUX",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94727"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-09-25T15:45:03.074Z",
       "counts": {

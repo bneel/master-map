@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T20:00:17.718Z",
+  "generatedAt": "2026-09-28T18:31:44.141Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7805,6 +7805,20 @@
       "lat": 48.0706687,
       "lon": -0.7734022,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94644"
+    },
+    {
+      "id": "94727",
+      "nom": "Championnats du Berry Maîtres",
+      "ville": "CHÂTEAUROUX",
+      "dateDebut": "2026-11-21",
+      "dateFin": "2026-11-21",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 46.8203785,
+      "lon": 1.6770956,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94727"
     }
   ]
 }
