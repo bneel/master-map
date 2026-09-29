@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T22:29:08.254Z",
+  "generatedAt": "2026-09-29T16:49:34.271Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -105,33 +105,6 @@
       "seasonsLabel": "2026, 2025",
       "recentCities": [
         "BORDEAUX"
-      ]
-    },
-    {
-      "id": "habituelle-V_SCHILTIGHEIM_D-2026-11",
-      "type": "ville",
-      "nom": "Meeting Masters LLSB",
-      "ville": "SCHILTIGHEIM",
-      "lat": 48.6047148,
-      "lon": 7.7484488,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 50,
-      "month": "11",
-      "monthLabel": "novembre",
-      "moment": "début",
-      "expectedDate": "2026-11-08",
-      "dispersionDays": 5,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024",
-      "recentCities": [
-        "SCHILTIGHEIM"
       ]
     },
     {

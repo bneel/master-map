@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T22:29:08.195Z",
+  "generatedAt": "2026-09-29T16:49:34.216Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7777,6 +7777,20 @@
       "lat": 45.4065225,
       "lon": 2.045018,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94589"
+    },
+    {
+      "id": "94710",
+      "nom": "Meeting Masters LLSB",
+      "ville": "SCHILTIGHEIM",
+      "dateDebut": "2026-11-11",
+      "dateFin": "2026-11-11",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 50,
+      "lat": 48.6047148,
+      "lon": 7.7484488,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94710"
     },
     {
       "id": "94633",

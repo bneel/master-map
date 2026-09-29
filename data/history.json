@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-28T22:28:45.865Z",
+  "generatedAt": "2026-09-29T16:49:11.005Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-09-29T16:49:11.005Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-09-28T22:28:45.865Z",
       "counts": {
@@ -472,17 +480,33 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-08-30T15:13:41.368Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-09-29T16:49:11.005Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94710",
+          "nom": "Meeting Masters LLSB",
+          "ville": "SCHILTIGHEIM",
+          "dateDebut": "2026-11-11",
+          "dateFin": "2026-11-11",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94710"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-09-28T18:31:20.316Z",
       "counts": {
