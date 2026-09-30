@@ -1,0 +1,290 @@
+{
+  "savedAt": "2026-09-30T16:43:06.339Z",
+  "year": 2026,
+  "month": 8,
+  "count": 47,
+  "raw": [
+    {
+      "competitionId": "94197",
+      "niveau": "D",
+      "libelle": "6e Challenge Fabrice Duval - BEAUCHASTEL",
+      "dateIso": "2026-08-01"
+    },
+    {
+      "competitionId": "93333",
+      "niveau": "D",
+      "libelle": "Coupe de la Ville de Samoëns - SAMOËNS",
+      "dateIso": "2026-08-01"
+    },
+    {
+      "competitionId": "94287",
+      "niveau": "R",
+      "libelle": "Finale Régionale Interclubs - CHALONNES-SUR-LOIRE",
+      "dateIso": "2026-08-02"
+    },
+    {
+      "competitionId": "94349",
+      "niveau": "R",
+      "libelle": "Equipes Mixtes et Remplaçants - CHALONNES-SUR-LOIRE",
+      "dateIso": "2026-08-02"
+    },
+    {
+      "competitionId": "93806",
+      "niveau": "R",
+      "libelle": "Interclubs U15 Été - L'ISLE-JOURDAIN",
+      "dateIso": "2026-08-02"
+    },
+    {
+      "competitionId": "93807",
+      "niveau": "R",
+      "libelle": "Meeting Open Été 16ans et + - L'ISLE-JOURDAIN",
+      "dateIso": "2026-08-02"
+    },
+    {
+      "competitionId": "94183",
+      "niveau": "R",
+      "libelle": "Confrontation TC2 - SAINT-BENIN-D'AZY",
+      "dateIso": "2026-08-02"
+    },
+    {
+      "competitionId": "93587",
+      "niveau": "D",
+      "libelle": "Estival Tour Poitou 3 - CIVRAY",
+      "dateIso": "2026-08-02"
+    },
+    {
+      "competitionId": "94343",
+      "niveau": "D",
+      "libelle": "Meeting Estival Tour - SERRES-CASTET",
+      "dateIso": "2026-08-02"
+    },
+    {
+      "competitionId": "94079",
+      "niveau": "D",
+      "libelle": "IVe Challenge de Natation Estivale du Pays Catalan - THUIR",
+      "dateIso": "2026-08-03"
+    },
+    {
+      "competitionId": "94257",
+      "niveau": "D",
+      "libelle": "Trophée Charente - BARBEZIEUX-SAINT-HILAIRE",
+      "dateIso": "2026-08-05"
+    },
+    {
+      "competitionId": "94239",
+      "niveau": "D",
+      "libelle": "Top 200 - L'ISLE-JOURDAIN",
+      "dateIso": "2026-08-05"
+    },
+    {
+      "competitionId": "94254",
+      "niveau": "R",
+      "libelle": "Meeting Régional LNA - NEUVILLE-DE-POITOU",
+      "dateIso": "2026-08-08"
+    },
+    {
+      "competitionId": "94318",
+      "niveau": "D",
+      "libelle": "Epreuves chronométriques du Morel - AIGUEBLANCHE",
+      "dateIso": "2026-08-08"
+    },
+    {
+      "competitionId": "94163",
+      "niveau": "D",
+      "libelle": "Competition 07 - Meeting avec séries et finales - LONGUÉ-JUMELLES",
+      "dateIso": "2026-08-08"
+    },
+    {
+      "competitionId": "94360",
+      "niveau": "R",
+      "libelle": "Challenge Andrada - GRAMAT",
+      "dateIso": "2026-08-09"
+    },
+    {
+      "competitionId": "93818",
+      "niveau": "R",
+      "libelle": "Meeting Eté Occitanie 1 - GRAMAT",
+      "dateIso": "2026-08-09"
+    },
+    {
+      "competitionId": "94247",
+      "niveau": "R",
+      "libelle": "Meeting des Jeunes & Trophée Robert Rapala - SALINDRES",
+      "dateIso": "2026-08-09"
+    },
+    {
+      "competitionId": "94184",
+      "niveau": "R",
+      "libelle": "3e Journée Régionale - SANVIGNES-LES-MINES",
+      "dateIso": "2026-08-09"
+    },
+    {
+      "competitionId": "94080",
+      "niveau": "D",
+      "libelle": "Championnat Interdépartemental de Natation Estivale 11/34/66 - CÉRET",
+      "dateIso": "2026-08-09"
+    },
+    {
+      "competitionId": "94203",
+      "niveau": "D",
+      "libelle": "Compétition 07 Bis - Meeting avec séries et finales - LONGUÉ-JUMELLES",
+      "dateIso": "2026-08-09"
+    },
+    {
+      "competitionId": "94185",
+      "niveau": "R",
+      "libelle": "Soirée Demi-fond n°2 - CHAUFFAILLES",
+      "dateIso": "2026-08-12"
+    },
+    {
+      "competitionId": "93334",
+      "niveau": "D",
+      "libelle": "Epreuves Chronométriques La Roche-sur-Foron - LA ROCHE-SUR-FORON",
+      "dateIso": "2026-08-12"
+    },
+    {
+      "competitionId": "94357",
+      "niveau": "D",
+      "libelle": "Championnats des Pyrénées-Atlantiques - BIDACHE",
+      "dateIso": "2026-08-15"
+    },
+    {
+      "competitionId": "93335",
+      "niveau": "D",
+      "libelle": "Championnats Haute-Savoie Natation Estivale - RUMILLY",
+      "dateIso": "2026-08-15"
+    },
+    {
+      "competitionId": "94186",
+      "niveau": "R",
+      "libelle": "Confrontation TC3 - CHAROLLES",
+      "dateIso": "2026-08-16"
+    },
+    {
+      "competitionId": "94363",
+      "niveau": "R",
+      "libelle": "Trophée Max Toulza - LE VIGAN",
+      "dateIso": "2026-08-16"
+    },
+    {
+      "competitionId": "93824",
+      "niveau": "R",
+      "libelle": "Championnat Régional U11 Eté - Zone Ouest - SAINT-CÉRÉ",
+      "dateIso": "2026-08-16"
+    },
+    {
+      "competitionId": "93827",
+      "niveau": "R",
+      "libelle": "Meeting Eté Occitanie 2 - SAINT-CÉRÉ",
+      "dateIso": "2026-08-16"
+    },
+    {
+      "competitionId": "93992",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Isère Open - EYZIN-PINET",
+      "dateIso": "2026-08-16"
+    },
+    {
+      "competitionId": "94013",
+      "niveau": "D",
+      "libelle": "Compétition 8 TC - LA CHATAIGNERAIE",
+      "dateIso": "2026-08-16"
+    },
+    {
+      "competitionId": "94347",
+      "niveau": "D",
+      "libelle": "Meeting Sud Saintonge - MONTLIEU-LA-GARDE",
+      "dateIso": "2026-08-16"
+    },
+    {
+      "competitionId": "94087",
+      "niveau": "D",
+      "libelle": "Grand Bac - POITIERS",
+      "dateIso": "2026-08-18"
+    },
+    {
+      "competitionId": "94341",
+      "niveau": "D",
+      "libelle": "Challenge Benoît Lauvie - SOUILLAC",
+      "dateIso": "2026-08-19"
+    },
+    {
+      "competitionId": "94253",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux - LANGON",
+      "dateIso": "2026-08-21"
+    },
+    {
+      "competitionId": "93828",
+      "niveau": "R",
+      "libelle": "Meeting Maîtres 3 - GOURDON",
+      "dateIso": "2026-08-22"
+    },
+    {
+      "competitionId": "93839",
+      "niveau": "R",
+      "libelle": "Championnats Occitanie - Zone Ouest - GOURDON",
+      "dateIso": "2026-08-22"
+    },
+    {
+      "competitionId": "94246",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux Ligue Occitanie - Zone Sud-Est - THUIR",
+      "dateIso": "2026-08-22"
+    },
+    {
+      "competitionId": "94113",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue Natation Estivale - Relais Avenirs - TULLINS",
+      "dateIso": "2026-08-22"
+    },
+    {
+      "competitionId": "94110",
+      "niveau": "R",
+      "libelle": "Championnats de Ligue Natation Estivale - TULLINS",
+      "dateIso": "2026-08-22"
+    },
+    {
+      "competitionId": "94187",
+      "niveau": "R",
+      "libelle": "Championnats Régionaux BFC - CHAUFFAILLES",
+      "dateIso": "2026-08-23"
+    },
+    {
+      "competitionId": "94346",
+      "niveau": "R",
+      "libelle": "Finale Régionale Individuelle - CHEMILLÉ",
+      "dateIso": "2026-08-23"
+    },
+    {
+      "competitionId": "94289",
+      "niveau": "N",
+      "libelle": "VIIe Critérium National - SEGRE",
+      "dateIso": "2026-08-28"
+    },
+    {
+      "competitionId": "94288",
+      "niveau": "N",
+      "libelle": "IVe Finale Nationale Interclubs Toutes Catégories - SEGRE",
+      "dateIso": "2026-08-28"
+    },
+    {
+      "competitionId": "94290",
+      "niveau": "N",
+      "libelle": "IIe Finale Nationale des Trophées U12 et U13 - SEGRE",
+      "dateIso": "2026-08-29"
+    },
+    {
+      "competitionId": "94374",
+      "niveau": "R",
+      "libelle": "Coupe de la Ville de Bédarieux - BÉDARIEUX",
+      "dateIso": "2026-08-30"
+    },
+    {
+      "competitionId": "94106",
+      "niveau": "D",
+      "libelle": "Championnat Départemental Estival - JAUNAY-CLAN",
+      "dateIso": "2026-08-30"
+    }
+  ]
+}

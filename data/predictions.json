@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T21:19:34.822Z",
+  "generatedAt": "2026-09-30T16:43:37.543Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -848,36 +848,6 @@
       "recentCities": [
         "MOULINS",
         "GANNAT"
-      ]
-    },
-    {
-      "id": "habituelle-T_R_championnat_hiver_regionaux-2027-01",
-      "type": "tournant",
-      "nom": "Championnats Régionaux Hiver Open des Maîtres",
-      "ville": null,
-      "lat": 48.48186416666667,
-      "lon": 4.738379533333333,
-      "niveau": "R",
-      "niveauLibelle": "Régional",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "01",
-      "monthLabel": "janvier",
-      "moment": "début",
-      "expectedDate": "2027-01-08",
-      "dispersionDays": 22,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024",
-        "2021-2022"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024, 2022",
-      "recentCities": [
-        "SERÉMANGE-ERZANGE",
-        "PONT-A-MOUSSON",
-        "VIERZON"
       ]
     },
     {

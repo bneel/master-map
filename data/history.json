@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-29T21:19:11.959Z",
+  "generatedAt": "2026-09-30T16:43:05.823Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-09-30T16:43:05.823Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-09-29T21:19:11.959Z",
       "counts": {
@@ -483,6 +491,42 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-09-30T16:43:05.823Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94498",
+          "nom": "Championnats Régionaux Open d'Hiver Masters",
+          "ville": "SARAN",
+          "dateDebut": "2027-01-23",
+          "dateFin": "2027-01-23",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94498"
+        },
+        {
+          "id": "94505",
+          "nom": "Championnats Régionaux Interclins Masters",
+          "ville": "GIEN",
+          "dateDebut": "2027-02-14",
+          "dateFin": "2027-02-14",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94505"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-09-29T16:49:11.005Z",
       "counts": {

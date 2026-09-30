@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T21:19:34.762Z",
+  "generatedAt": "2026-09-30T16:43:37.492Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7833,6 +7833,34 @@
       "lat": 46.8203785,
       "lon": 1.6770956,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94727"
+    },
+    {
+      "id": "94498",
+      "nom": "Championnats Régionaux Open d'Hiver Masters",
+      "ville": "SARAN",
+      "dateDebut": "2027-01-23",
+      "dateFin": "2027-01-23",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.9514553,
+      "lon": 1.8749906,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94498"
+    },
+    {
+      "id": "94505",
+      "nom": "Championnats Régionaux Interclins Masters",
+      "ville": "GIEN",
+      "dateDebut": "2027-02-14",
+      "dateFin": "2027-02-14",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.6918575,
+      "lon": 2.6313889,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94505"
     }
   ]
 }
