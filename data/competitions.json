@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T21:21:13.138Z",
+  "generatedAt": "2026-10-01T17:18:12.268Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7679,20 +7679,6 @@
       "lat": 50.3710165,
       "lon": 3.5547336,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94445"
-    },
-    {
-      "id": "94432",
-      "nom": "Critérium de rentrée des Maîtres",
-      "ville": "SOMAIN",
-      "dateDebut": "2026-10-04",
-      "dateFin": "2026-10-04",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 50.3589237,
-      "lon": 3.2810972,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94432"
     },
     {
       "id": "94424",
