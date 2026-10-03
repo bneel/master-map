@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T21:14:44.144Z",
+  "generatedAt": "2026-10-03T15:05:08.948Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7819,6 +7819,20 @@
       "lat": 46.8203785,
       "lon": 1.6770956,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94727"
+    },
+    {
+      "id": "94671",
+      "nom": "Plot 1 Maître",
+      "ville": "LAMBALLE",
+      "dateDebut": "2026-12-12",
+      "dateFin": "2026-12-12",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.4624462,
+      "lon": -2.5165023,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94671"
     },
     {
       "id": "94498",
