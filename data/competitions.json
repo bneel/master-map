@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T15:05:08.948Z",
+  "generatedAt": "2026-10-03T19:44:41.182Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7763,6 +7763,20 @@
       "lat": 45.4065225,
       "lon": 2.045018,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94589"
+    },
+    {
+      "id": "94453",
+      "nom": "Championnat Départemental Hiver des Maîtres",
+      "ville": "SAINT-POL-SUR-MER",
+      "dateDebut": "2026-10-31",
+      "dateFin": "2026-10-31",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 51.0273731,
+      "lon": 2.3422205,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94453"
     },
     {
       "id": "94710",
