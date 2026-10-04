@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T19:44:41.182Z",
+  "generatedAt": "2026-10-04T15:42:10.131Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7707,6 +7707,20 @@
       "lat": 49.0265888,
       "lon": 2.2234971,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94612"
+    },
+    {
+      "id": "94537",
+      "nom": "20éme Meeting Annie BOYET (maitre)",
+      "ville": "LONS-LE-SAUNIER",
+      "dateDebut": "2026-10-18",
+      "dateFin": "2026-10-18",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 46.6727037,
+      "lon": 5.5589973,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94537"
     },
     {
       "id": "94622",
