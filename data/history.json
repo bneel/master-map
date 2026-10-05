@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-05T19:32:30.008Z",
+  "generatedAt": "2026-10-05T23:05:36.226Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-10-05T23:05:36.226Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-10-05T19:32:30.008Z",
       "counts": {
@@ -475,6 +483,42 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-10-05T23:05:36.226Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94844",
+          "nom": "Demi-fond départemental Maitre (grand bassin)",
+          "ville": "NOTRE-DAME-DE-GRAVENCHON",
+          "dateDebut": "2026-10-11",
+          "dateFin": "2026-10-11",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94844"
+        },
+        {
+          "id": "94836",
+          "nom": "Meeting Maitres les 100 ans du club 1926-2026",
+          "ville": "CREIL",
+          "dateDebut": "2026-11-14",
+          "dateFin": "2026-11-14",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94836"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-10-05T19:32:30.008Z",
       "counts": {

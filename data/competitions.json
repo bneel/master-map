@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T19:32:52.586Z",
+  "generatedAt": "2026-10-05T23:06:09.657Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7709,6 +7709,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94612"
     },
     {
+      "id": "94844",
+      "nom": "Demi-fond départemental Maitre (grand bassin)",
+      "ville": "NOTRE-DAME-DE-GRAVENCHON",
+      "dateDebut": "2026-10-11",
+      "dateFin": "2026-10-11",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 50,
+      "lat": 49.4898201,
+      "lon": 0.5680054,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94844"
+    },
+    {
       "id": "94537",
       "nom": "20éme Meeting Annie BOYET (maitre)",
       "ville": "LONS-LE-SAUNIER",
@@ -7805,6 +7819,20 @@
       "lat": 48.6047148,
       "lon": 7.7484488,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94710"
+    },
+    {
+      "id": "94836",
+      "nom": "Meeting Maitres les 100 ans du club 1926-2026",
+      "ville": "CREIL",
+      "dateDebut": "2026-11-14",
+      "dateFin": "2026-11-14",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 49.2607914,
+      "lon": 2.4733771,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94836"
     },
     {
       "id": "94633",
