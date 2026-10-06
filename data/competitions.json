@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T23:06:09.657Z",
+  "generatedAt": "2026-10-06T17:04:18.457Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7707,6 +7707,20 @@
       "lat": 49.0265888,
       "lon": 2.2234971,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94612"
+    },
+    {
+      "id": "94796",
+      "nom": "Meeting CD34 de Rentrée Masters",
+      "ville": "MONTPELLIER",
+      "dateDebut": "2026-10-11",
+      "dateFin": "2026-10-11",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.6112422,
+      "lon": 3.8767337,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94796"
     },
     {
       "id": "94844",

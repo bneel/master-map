@@ -1,60 +1,8 @@
 {
-  "generatedAt": "2026-10-05T23:06:09.695Z",
+  "generatedAt": "2026-10-06T17:04:18.508Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
-    {
-      "id": "habituelle-V_FOURMIES_D-2026-10",
-      "type": "ville",
-      "nom": "Critérium de rentrée des Maîtres",
-      "ville": "FOURMIES",
-      "lat": 50.0171741,
-      "lon": 4.0458492,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "10",
-      "monthLabel": "octobre",
-      "moment": "début",
-      "expectedDate": "2026-10-05",
-      "dispersionDays": 1,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2026, 2025",
-      "recentCities": [
-        "FOURMIES"
-      ]
-    },
-    {
-      "id": "habituelle-V_LA_MADELEINE_D-2026-10",
-      "type": "ville",
-      "nom": "Critérium de rentrée des Maîtres",
-      "ville": "LA MADELEINE",
-      "lat": 50.654401,
-      "lon": 3.0733338,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "10",
-      "monthLabel": "octobre",
-      "moment": "début",
-      "expectedDate": "2026-10-05",
-      "dispersionDays": 1,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2026, 2025",
-      "recentCities": [
-        "LA MADELEINE"
-      ]
-    },
     {
       "id": "habituelle-T_D_departementale_journee-2026-10",
       "type": "tournant",
