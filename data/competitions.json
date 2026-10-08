@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T21:53:25.618Z",
+  "generatedAt": "2026-10-08T17:46:49.921Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7711,15 +7711,15 @@
     {
       "id": "94796",
       "nom": "Meeting CD34 de Rentrée Masters",
-      "ville": "MONTPELLIER",
+      "ville": "CLERMONT-L'HÉRAULT",
       "dateDebut": "2026-10-11",
       "dateFin": "2026-10-11",
       "niveau": "D",
       "niveauLibelle": "Départemental",
       "championnatFrance": false,
       "bassin": 25,
-      "lat": 43.6112422,
-      "lon": 3.8767337,
+      "lat": 43.6263176,
+      "lon": 3.4302412,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94796"
     },
     {
@@ -7891,6 +7891,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94727"
     },
     {
+      "id": "94882",
+      "nom": "Championnats des Vosges hiver  Open cat. Maîtres",
+      "ville": "NEUFCHÂTEAU",
+      "dateDebut": "2026-11-21",
+      "dateFin": "2026-11-21",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.3568649,
+      "lon": 5.708585,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94882"
+    },
+    {
       "id": "94671",
       "nom": "Plot 1 Maître",
       "ville": "LAMBALLE",
@@ -7903,6 +7917,20 @@
       "lat": 48.4624462,
       "lon": -2.5165023,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94671"
+    },
+    {
+      "id": "94885",
+      "nom": "Meeting  du CD88 Open Maîtres",
+      "ville": "GÉRARDMER",
+      "dateDebut": "2026-12-13",
+      "dateFin": "2026-12-13",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.0705772,
+      "lon": 6.8776965,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94885"
     },
     {
       "id": "94498",

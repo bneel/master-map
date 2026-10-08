@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-07T21:53:02.246Z",
+  "generatedAt": "2026-10-08T17:46:15.449Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-10-08T17:46:15.449Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 1
+      }
+    },
     {
       "scrapedAt": "2026-10-07T21:53:02.246Z",
       "counts": {
@@ -472,17 +480,59 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-09-08T14:58:37.845Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-10-08T17:46:15.449Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 1
+      },
+      "added": [
+        {
+          "id": "94882",
+          "nom": "Championnats des Vosges hiver  Open cat. Maîtres",
+          "ville": "NEUFCHÂTEAU",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94882"
+        },
+        {
+          "id": "94885",
+          "nom": "Meeting  du CD88 Open Maîtres",
+          "ville": "GÉRARDMER",
+          "dateDebut": "2026-12-13",
+          "dateFin": "2026-12-13",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94885"
+        }
+      ],
+      "removed": [],
+      "updated": [
+        {
+          "id": "94796",
+          "nom": "Meeting CD34 de Rentrée Masters",
+          "ville": "CLERMONT-L'HÉRAULT",
+          "dateDebut": "2026-10-11",
+          "changes": [
+            {
+              "field": "ville",
+              "from": "MONTPELLIER",
+              "to": "CLERMONT-L'HÉRAULT"
+            }
+          ]
+        }
+      ]
+    },
     {
       "scrapedAt": "2026-10-06T17:03:55.041Z",
       "counts": {
