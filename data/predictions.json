@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T21:56:58.722Z",
+  "generatedAt": "2026-10-09T17:23:08.156Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -241,35 +241,6 @@
       "seasonsLabel": "2026, 2024",
       "recentCities": [
         "PARIS"
-      ]
-    },
-    {
-      "id": "habituelle-T_D_championnat_departementaux-2026-11",
-      "type": "tournant",
-      "nom": "Championnat Départementaux Masters Open",
-      "ville": null,
-      "lat": 46.40622373333333,
-      "lon": 3.4388132999999996,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "11",
-      "monthLabel": "novembre",
-      "moment": "fin",
-      "expectedDate": "2026-11-30",
-      "dispersionDays": 15,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024",
-      "recentCities": [
-        "LURE",
-        "CARROS",
-        "LORIENT"
       ]
     },
     {
@@ -902,36 +873,6 @@
       "seasonsLabel": "2026, 2025",
       "recentCities": [
         "SAINT-CHAMOND"
-      ]
-    },
-    {
-      "id": "habituelle-T_D_championnat_departemental-2027-01",
-      "type": "tournant",
-      "nom": "Championnat Départemental 13 Open Maîtres",
-      "ville": null,
-      "lat": 44.313673666666666,
-      "lon": 5.045981766666667,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 50,
-      "month": "01",
-      "monthLabel": "janvier",
-      "moment": "mi",
-      "expectedDate": "2027-01-18",
-      "dispersionDays": 67,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024",
-        "2021-2022"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024, 2022",
-      "recentCities": [
-        "MARTIGUES",
-        "BOURGOIN-JALLIEU",
-        "AVIGNON"
       ]
     },
     {

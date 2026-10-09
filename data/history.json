@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-08T21:56:36.228Z",
+  "generatedAt": "2026-10-09T17:22:16.335Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-10-09T17:22:16.335Z",
+      "counts": {
+        "added": 4,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-10-08T21:56:36.228Z",
       "counts": {
@@ -472,17 +480,69 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-09-09T15:02:11.509Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-10-09T17:22:16.335Z",
+      "counts": {
+        "added": 4,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94714",
+          "nom": "Open de rentrée Maîtres",
+          "ville": "BOBIGNY",
+          "dateDebut": "2026-10-17",
+          "dateFin": "2026-10-17",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94714"
+        },
+        {
+          "id": "94268",
+          "nom": "Championnats départementaux des maîtres 06 et 83",
+          "ville": "NICE",
+          "dateDebut": "2026-10-17",
+          "dateFin": "2026-10-17",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94268"
+        },
+        {
+          "id": "94412",
+          "nom": "Challenge des Maîtres #1",
+          "ville": "SAINT-PIERRE",
+          "dateDebut": "2026-10-25",
+          "dateFin": "2026-10-25",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94412"
+        },
+        {
+          "id": "94717",
+          "nom": "Championnat Départemental des Maîtres",
+          "ville": "MARVILLE",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94717"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-10-08T17:46:15.449Z",
       "counts": {

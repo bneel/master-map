@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T21:56:58.658Z",
+  "generatedAt": "2026-10-09T17:23:08.086Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7737,6 +7737,34 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94844"
     },
     {
+      "id": "94714",
+      "nom": "Open de rentrée Maîtres",
+      "ville": "BOBIGNY",
+      "dateDebut": "2026-10-17",
+      "dateFin": "2026-10-17",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.906387,
+      "lon": 2.4452231,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94714"
+    },
+    {
+      "id": "94268",
+      "nom": "Championnats départementaux des maîtres 06 et 83",
+      "ville": "NICE",
+      "dateDebut": "2026-10-17",
+      "dateFin": "2026-10-17",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.7009358,
+      "lon": 7.2683912,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94268"
+    },
+    {
       "id": "94537",
       "nom": "20éme Meeting Annie BOYET (maitre)",
       "ville": "LONS-LE-SAUNIER",
@@ -7791,6 +7819,20 @@
       "lat": 43.6044638,
       "lon": 1.4442433,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94557"
+    },
+    {
+      "id": "94412",
+      "nom": "Challenge des Maîtres #1",
+      "ville": "SAINT-PIERRE",
+      "dateDebut": "2026-10-25",
+      "dateFin": "2026-10-25",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": -21.341298,
+      "lon": 55.4776174,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94412"
     },
     {
       "id": "94589",
@@ -7889,6 +7931,20 @@
       "lat": 46.8203785,
       "lon": 1.6770956,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94727"
+    },
+    {
+      "id": "94717",
+      "nom": "Championnat Départemental des Maîtres",
+      "ville": "MARVILLE",
+      "dateDebut": "2026-11-21",
+      "dateFin": "2026-11-21",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.9392967,
+      "lon": 2.3834289,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94717"
     },
     {
       "id": "94882",
