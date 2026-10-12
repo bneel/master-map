@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T20:52:03.533Z",
+  "generatedAt": "2026-10-12T20:10:52.456Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7724,7 +7724,7 @@
     },
     {
       "id": "94844",
-      "nom": "Demi-fond départemental Maitre (grand bassin)",
+      "nom": "Demi-fond Départemental Maitres (50m)",
       "ville": "NOTRE-DAME-DE-GRAVENCHON",
       "dateDebut": "2026-10-11",
       "dateFin": "2026-10-11",
@@ -7819,6 +7819,20 @@
       "lat": 43.6044638,
       "lon": 1.4442433,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94557"
+    },
+    {
+      "id": "94911",
+      "nom": "DEMI-FONDS 55 OPEN DES maitres",
+      "ville": "VERDUN",
+      "dateDebut": "2026-10-18",
+      "dateFin": "2026-10-18",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 49.1589278,
+      "lon": 5.3867277,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94911"
     },
     {
       "id": "94412",
@@ -7961,6 +7975,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94882"
     },
     {
+      "id": "94914",
+      "nom": "2ème Meeting de la madeleine Open des maitres",
+      "ville": "COMMERCY",
+      "dateDebut": "2026-12-06",
+      "dateFin": "2026-12-06",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.763203,
+      "lon": 5.5914753,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94914"
+    },
+    {
       "id": "94671",
       "nom": "Plot 1 Maître",
       "ville": "LAMBALLE",
@@ -7987,6 +8015,20 @@
       "lat": 48.0705772,
       "lon": 6.8776965,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94885"
+    },
+    {
+      "id": "94899",
+      "nom": "Meeting Départemental des Maîtres Open du 41",
+      "ville": "MONTRICHARD",
+      "dateDebut": "2026-12-13",
+      "dateFin": "2026-12-13",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.3593576,
+      "lon": 1.1828617,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94899"
     },
     {
       "id": "94498",

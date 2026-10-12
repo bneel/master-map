@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-11T20:51:41.510Z",
+  "generatedAt": "2026-10-12T20:10:08.975Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-10-12T20:10:08.975Z",
+      "counts": {
+        "added": 3,
+        "removed": 0,
+        "updated": 1
+      }
+    },
     {
       "scrapedAt": "2026-10-11T20:51:41.510Z",
       "counts": {
@@ -464,25 +472,71 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-09-12T19:06:12.080Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-09-12T13:55:09.251Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-10-12T20:10:08.975Z",
+      "counts": {
+        "added": 3,
+        "removed": 0,
+        "updated": 1
+      },
+      "added": [
+        {
+          "id": "94911",
+          "nom": "DEMI-FONDS 55 OPEN DES maitres",
+          "ville": "VERDUN",
+          "dateDebut": "2026-10-18",
+          "dateFin": "2026-10-18",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94911"
+        },
+        {
+          "id": "94914",
+          "nom": "2ème Meeting de la madeleine Open des maitres",
+          "ville": "COMMERCY",
+          "dateDebut": "2026-12-06",
+          "dateFin": "2026-12-06",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94914"
+        },
+        {
+          "id": "94899",
+          "nom": "Meeting Départemental des Maîtres Open du 41",
+          "ville": "MONTRICHARD",
+          "dateDebut": "2026-12-13",
+          "dateFin": "2026-12-13",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94899"
+        }
+      ],
+      "removed": [],
+      "updated": [
+        {
+          "id": "94844",
+          "nom": "Demi-fond Départemental Maitres (50m)",
+          "ville": "NOTRE-DAME-DE-GRAVENCHON",
+          "dateDebut": "2026-10-11",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "Demi-fond départemental Maitre (grand bassin)",
+              "to": "Demi-fond Départemental Maitres (50m)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "scrapedAt": "2026-10-09T17:22:16.335Z",
       "counts": {
