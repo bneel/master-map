@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-12T23:33:26.398Z",
+  "generatedAt": "2026-10-13T18:02:08.903Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-10-13T18:02:08.903Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-10-12T23:33:26.398Z",
       "counts": {
@@ -472,17 +480,33 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-09-13T14:50:16.801Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-10-13T18:02:08.903Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94932",
+          "nom": "Championnat Départemental Maîtres Open",
+          "ville": "ONET-LE-CHÂTEAU",
+          "dateDebut": "2026-10-17",
+          "dateFin": "2026-10-17",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94932"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-10-12T20:10:08.975Z",
       "counts": {

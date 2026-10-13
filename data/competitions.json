@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T23:33:49.049Z",
+  "generatedAt": "2026-10-13T18:02:33.111Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7763,6 +7763,20 @@
       "lat": 43.7009358,
       "lon": 7.2683912,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94268"
+    },
+    {
+      "id": "94932",
+      "nom": "Championnat Départemental Maîtres Open",
+      "ville": "ONET-LE-CHÂTEAU",
+      "dateDebut": "2026-10-17",
+      "dateFin": "2026-10-17",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 44.365393,
+      "lon": 2.5923743,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94932"
     },
     {
       "id": "94537",
