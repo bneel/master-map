@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T21:46:50.374Z",
+  "generatedAt": "2026-10-14T15:44:16.834Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8029,6 +8029,20 @@
       "lat": 48.0705772,
       "lon": 6.8776965,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94885"
+    },
+    {
+      "id": "94940",
+      "nom": "Meeting maîtres 2",
+      "ville": "MONTAUBAN",
+      "dateDebut": "2026-12-13",
+      "dateFin": "2026-12-13",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 44.0175835,
+      "lon": 1.3549991,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94940"
     },
     {
       "id": "94899",

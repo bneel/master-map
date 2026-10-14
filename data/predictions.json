@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T21:46:50.410Z",
+  "generatedAt": "2026-10-14T15:44:16.876Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -821,32 +821,6 @@
       "seasonsLabel": "2026, 2025, 2024",
       "recentCities": [
         "CLUSES"
-      ]
-    },
-    {
-      "id": "habituelle-V_MONTAUBAN_D-2027-01",
-      "type": "ville",
-      "nom": "Meeting des Maîtres 2",
-      "ville": "MONTAUBAN",
-      "lat": 44.0175835,
-      "lon": 1.3549991,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "01",
-      "monthLabel": "janvier",
-      "moment": "mi",
-      "expectedDate": "2027-01-14",
-      "dispersionDays": 17,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2026, 2025",
-      "recentCities": [
-        "MONTAUBAN"
       ]
     },
     {

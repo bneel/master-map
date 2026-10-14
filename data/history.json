@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-13T21:46:27.250Z",
+  "generatedAt": "2026-10-14T15:43:53.061Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-10-14T15:43:53.061Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-10-13T21:46:27.250Z",
       "counts": {
@@ -483,6 +491,30 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-10-14T15:43:53.061Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94940",
+          "nom": "Meeting maîtres 2",
+          "ville": "MONTAUBAN",
+          "dateDebut": "2026-12-13",
+          "dateFin": "2026-12-13",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94940"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-10-13T18:02:08.903Z",
       "counts": {
