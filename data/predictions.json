@@ -1,34 +1,8 @@
 {
-  "generatedAt": "2026-10-14T20:32:24.865Z",
+  "generatedAt": "2026-10-15T15:31:31.756Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
-    {
-      "id": "habituelle-T_D_departementale_journee-2026-10",
-      "type": "tournant",
-      "nom": "Journée Départementale des Maîtres",
-      "ville": null,
-      "lat": 49.047792,
-      "lon": -1.4454857,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "10",
-      "monthLabel": "octobre",
-      "moment": "mi",
-      "expectedDate": "2026-10-14",
-      "dispersionDays": 1,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2026, 2025",
-      "recentCities": [
-        "COUTANCES"
-      ]
-    },
     {
       "id": "habituelle-V_BORDEAUX_D-2026-11",
       "type": "ville",

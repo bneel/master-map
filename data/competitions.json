@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T20:32:24.802Z",
+  "generatedAt": "2026-10-15T15:31:31.688Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8015,6 +8015,20 @@
       "lat": 48.4624462,
       "lon": -2.5165023,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94671"
+    },
+    {
+      "id": "94961",
+      "nom": "Journée Départementale Maitres",
+      "ville": "AURILLAC",
+      "dateDebut": "2026-12-13",
+      "dateFin": "2026-12-13",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 44.9285441,
+      "lon": 2.4433101,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94961"
     },
     {
       "id": "94885",

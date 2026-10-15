@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-14T20:32:01.857Z",
+  "generatedAt": "2026-10-15T15:31:07.310Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-10-15T15:31:07.310Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-10-14T20:32:01.857Z",
       "counts": {
@@ -472,25 +480,33 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-09-15T15:28:19.851Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-09-14T20:51:00.385Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-10-15T15:31:07.310Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94961",
+          "nom": "Journée Départementale Maitres",
+          "ville": "AURILLAC",
+          "dateDebut": "2026-12-13",
+          "dateFin": "2026-12-13",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94961"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-10-14T20:32:01.857Z",
       "counts": {
