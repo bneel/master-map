@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T15:17:30.633Z",
+  "generatedAt": "2026-10-16T19:51:54.964Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7989,6 +7989,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94882"
     },
     {
+      "id": "94991",
+      "nom": "Meeting de reprise pour les maîtres",
+      "ville": "SAINT-GIRONS",
+      "dateDebut": "2026-11-22",
+      "dateFin": "2026-11-22",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 42.9841865,
+      "lon": 1.1464455,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94991"
+    },
+    {
       "id": "94914",
       "nom": "2ème Meeting de la madeleine Open des maitres",
       "ville": "COMMERCY",
@@ -8001,6 +8015,20 @@
       "lat": 48.763203,
       "lon": 5.5914753,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94914"
+    },
+    {
+      "id": "94992",
+      "nom": "14e Meeting Masters Henri Théolat - Chpt Dptl des Maitres",
+      "ville": "POITIERS",
+      "dateDebut": "2026-12-06",
+      "dateFin": "2026-12-06",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 46.5802596,
+      "lon": 0.340196,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94992"
     },
     {
       "id": "94671",

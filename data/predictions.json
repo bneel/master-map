@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T15:17:30.669Z",
+  "generatedAt": "2026-10-16T19:51:55.029Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -520,33 +520,6 @@
       "seasonsLabel": "2026, 2025, 2024",
       "recentCities": [
         "LE HAVRE"
-      ]
-    },
-    {
-      "id": "habituelle-V_POITIERS_D-2026-12",
-      "type": "ville",
-      "nom": "14e Meeting Masters Henri Théolat - Chpt Dptl des Maitres",
-      "ville": "POITIERS",
-      "lat": 46.5802596,
-      "lon": 0.340196,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "12",
-      "monthLabel": "décembre",
-      "moment": "mi",
-      "expectedDate": "2026-12-12",
-      "dispersionDays": 3,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024",
-      "recentCities": [
-        "POITIERS"
       ]
     },
     {
