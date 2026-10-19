@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-19T17:21:53.248Z",
+  "generatedAt": "2026-10-19T21:23:30.455Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-10-19T21:23:30.455Z",
+      "counts": {
+        "added": 5,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-10-19T17:21:53.248Z",
       "counts": {
@@ -472,17 +480,81 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-09-19T19:15:23.185Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-10-19T21:23:30.455Z",
+      "counts": {
+        "added": 5,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "95025",
+          "nom": "Championnats Automne Masters Loire",
+          "ville": "ROANNE",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95025"
+        },
+        {
+          "id": "95026",
+          "nom": "Championnats Hiver Masters Loire",
+          "ville": "SAINT-CHAMOND",
+          "dateDebut": "2027-01-16",
+          "dateFin": "2027-01-16",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95026"
+        },
+        {
+          "id": "95027",
+          "nom": "Championnats Demi Fond Masters Loire",
+          "ville": "MONTBRISON",
+          "dateDebut": "2027-03-20",
+          "dateFin": "2027-03-20",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95027"
+        },
+        {
+          "id": "95030",
+          "nom": "Meeting maîtres 4",
+          "ville": "CAHORS",
+          "dateDebut": "2027-03-28",
+          "dateFin": "2027-03-28",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95030"
+        },
+        {
+          "id": "95028",
+          "nom": "Championnats Eté Masters Loire",
+          "ville": "SAINT-ÉTIENNE",
+          "dateDebut": "2027-05-29",
+          "dateFin": "2027-05-29",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95028"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-10-19T17:21:53.248Z",
       "counts": {

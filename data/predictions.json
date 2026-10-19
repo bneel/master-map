@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T17:22:15.865Z",
+  "generatedAt": "2026-10-19T21:24:33.289Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -2118,32 +2118,6 @@
       "seasonsLabel": "2026, 2025, 2024",
       "recentCities": [
         "PONT-A-MOUSSON"
-      ]
-    },
-    {
-      "id": "habituelle-V_CAHORS_D-2027-04",
-      "type": "ville",
-      "nom": "Meeting Maîtres 3",
-      "ville": "CAHORS",
-      "lat": 44.4495,
-      "lon": 1.4364999,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "04",
-      "monthLabel": "avril",
-      "moment": "mi",
-      "expectedDate": "2027-04-19",
-      "dispersionDays": 0,
-      "seasonsSeen": [
-        "2025-2026",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 1,
-      "seasonsLabel": "2026, 2024",
-      "recentCities": [
-        "CAHORS"
       ]
     },
     {
