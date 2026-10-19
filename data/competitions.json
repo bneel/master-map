@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T19:21:16.420Z",
+  "generatedAt": "2026-10-19T17:22:15.798Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7738,7 +7738,7 @@
     },
     {
       "id": "94714",
-      "nom": "Open de rentrée Maîtres",
+      "nom": "Open de Rentrée Maîtres",
       "ville": "BOBIGNY",
       "dateDebut": "2026-10-17",
       "dateFin": "2026-10-17",
@@ -7752,7 +7752,7 @@
     },
     {
       "id": "94268",
-      "nom": "Championnats départementaux des maîtres 06 et 83",
+      "nom": "Championnats Départementaux des Maîtres 06 & 83",
       "ville": "NICE",
       "dateDebut": "2026-10-17",
       "dateFin": "2026-10-17",
@@ -7780,7 +7780,7 @@
     },
     {
       "id": "94537",
-      "nom": "20éme Meeting Annie BOYET (maitre)",
+      "nom": "20e Meeting Annie Boyet (Maîtres)",
       "ville": "LONS-LE-SAUNIER",
       "dateDebut": "2026-10-18",
       "dateFin": "2026-10-18",
@@ -7794,7 +7794,7 @@
     },
     {
       "id": "94622",
-      "nom": "Meeting maîtres  1",
+      "nom": "Meeting Maîtres 1",
       "ville": "ALBI",
       "dateDebut": "2026-10-18",
       "dateFin": "2026-10-18",
@@ -7808,7 +7808,7 @@
     },
     {
       "id": "94660",
-      "nom": "100 Maitres d'automne 2026",
+      "nom": "100 Maitres d'Automne 2026",
       "ville": "POISSY",
       "dateDebut": "2026-10-18",
       "dateFin": "2026-10-18",
@@ -7889,6 +7889,20 @@
       "lat": 51.0273731,
       "lon": 2.3422205,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94453"
+    },
+    {
+      "id": "95008",
+      "nom": "Meeting Gironde des Maîtres",
+      "ville": "BORDEAUX",
+      "dateDebut": "2026-11-11",
+      "dateFin": "2026-11-11",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 44.841225,
+      "lon": -0.5800364,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95008"
     },
     {
       "id": "94710",
@@ -8018,7 +8032,7 @@
     },
     {
       "id": "94992",
-      "nom": "14e Meeting Masters Henri Théolat - Chpt Dptl des Maitres",
+      "nom": "15e Meeting Masters Henri Théolat - Chpt Dptl des Maitres",
       "ville": "POITIERS",
       "dateDebut": "2026-12-06",
       "dateFin": "2026-12-06",

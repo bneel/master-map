@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-18T19:20:53.620Z",
+  "generatedAt": "2026-10-19T17:21:53.248Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-10-19T17:21:53.248Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 6
+      }
+    },
     {
       "scrapedAt": "2026-10-18T19:20:53.620Z",
       "counts": {
@@ -472,25 +480,112 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-09-19T14:12:37.805Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-09-18T19:29:25.400Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-10-19T17:21:53.248Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 6
+      },
+      "added": [
+        {
+          "id": "95008",
+          "nom": "Meeting Gironde des Maîtres",
+          "ville": "BORDEAUX",
+          "dateDebut": "2026-11-11",
+          "dateFin": "2026-11-11",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95008"
+        }
+      ],
+      "removed": [],
+      "updated": [
+        {
+          "id": "94714",
+          "nom": "Open de Rentrée Maîtres",
+          "ville": "BOBIGNY",
+          "dateDebut": "2026-10-17",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "Open de rentrée Maîtres",
+              "to": "Open de Rentrée Maîtres"
+            }
+          ]
+        },
+        {
+          "id": "94268",
+          "nom": "Championnats Départementaux des Maîtres 06 & 83",
+          "ville": "NICE",
+          "dateDebut": "2026-10-17",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "Championnats départementaux des maîtres 06 et 83",
+              "to": "Championnats Départementaux des Maîtres 06 & 83"
+            }
+          ]
+        },
+        {
+          "id": "94537",
+          "nom": "20e Meeting Annie Boyet (Maîtres)",
+          "ville": "LONS-LE-SAUNIER",
+          "dateDebut": "2026-10-18",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "20éme Meeting Annie BOYET (maitre)",
+              "to": "20e Meeting Annie Boyet (Maîtres)"
+            }
+          ]
+        },
+        {
+          "id": "94622",
+          "nom": "Meeting Maîtres 1",
+          "ville": "ALBI",
+          "dateDebut": "2026-10-18",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "Meeting maîtres  1",
+              "to": "Meeting Maîtres 1"
+            }
+          ]
+        },
+        {
+          "id": "94660",
+          "nom": "100 Maitres d'Automne 2026",
+          "ville": "POISSY",
+          "dateDebut": "2026-10-18",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "100 Maitres d'automne 2026",
+              "to": "100 Maitres d'Automne 2026"
+            }
+          ]
+        },
+        {
+          "id": "94992",
+          "nom": "15e Meeting Masters Henri Théolat - Chpt Dptl des Maitres",
+          "ville": "POITIERS",
+          "dateDebut": "2026-12-06",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "14e Meeting Masters Henri Théolat - Chpt Dptl des Maitres",
+              "to": "15e Meeting Masters Henri Théolat - Chpt Dptl des Maitres"
+            }
+          ]
+        }
+      ]
+    },
     {
       "scrapedAt": "2026-10-16T19:51:09.367Z",
       "counts": {

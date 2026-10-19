@@ -1,34 +1,8 @@
 {
-  "generatedAt": "2026-10-18T19:21:16.470Z",
+  "generatedAt": "2026-10-19T17:22:15.865Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
-    {
-      "id": "habituelle-V_BORDEAUX_D-2026-11",
-      "type": "ville",
-      "nom": "Meeting Gironde des Maîtres",
-      "ville": "BORDEAUX",
-      "lat": 44.841225,
-      "lon": -0.5800364,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "11",
-      "monthLabel": "novembre",
-      "moment": "début",
-      "expectedDate": "2026-11-06",
-      "dispersionDays": 5,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2026, 2025",
-      "recentCities": [
-        "BORDEAUX"
-      ]
-    },
     {
       "id": "habituelle-T_D_championnat-2026-11",
       "type": "tournant",
