@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T21:24:33.225Z",
+  "generatedAt": "2026-10-20T15:34:47.382Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8029,6 +8029,20 @@
       "lat": 42.9841865,
       "lon": 1.1464455,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94991"
+    },
+    {
+      "id": "92516",
+      "nom": "Open des Maîtres 2026",
+      "ville": "SAINT-MARTIN-D'HÈRES",
+      "dateDebut": "2026-12-06",
+      "dateFin": "2026-12-06",
+      "niveau": "N",
+      "niveauLibelle": "National",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 45.1836683,
+      "lon": 5.75448,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92516"
     },
     {
       "id": "94914",

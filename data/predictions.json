@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T21:24:33.289Z",
+  "generatedAt": "2026-10-20T15:34:47.453Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -385,33 +385,6 @@
       "seasonsLabel": "2026, 2025, 2024",
       "recentCities": [
         "CARQUEFOU"
-      ]
-    },
-    {
-      "id": "habituelle-V_SAINT_MARTIN_D_H_RES_N-2026-12",
-      "type": "ville",
-      "nom": "Open des Maîtres 2025",
-      "ville": "SAINT-MARTIN-D'HÈRES",
-      "lat": 45.1836683,
-      "lon": 5.75448,
-      "niveau": "N",
-      "niveauLibelle": "National",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "12",
-      "monthLabel": "décembre",
-      "moment": "début",
-      "expectedDate": "2026-12-08",
-      "dispersionDays": 1,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024",
-      "recentCities": [
-        "SAINT-MARTIN-D'HÈRES"
       ]
     },
     {
