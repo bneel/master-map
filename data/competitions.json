@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T20:23:58.626Z",
+  "generatedAt": "2026-10-21T15:51:52.350Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8029,6 +8029,20 @@
       "lat": 42.9841865,
       "lon": 1.1464455,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94991"
+    },
+    {
+      "id": "95047",
+      "nom": "Soirée des Maîtres 3",
+      "ville": "SOISY-SOUS-MONTMORENCY",
+      "dateDebut": "2026-11-28",
+      "dateFin": "2026-11-28",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.9875044,
+      "lon": 2.3002885,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95047"
     },
     {
       "id": "92516",

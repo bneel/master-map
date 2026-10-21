@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-20T20:23:36.173Z",
+  "generatedAt": "2026-10-21T15:51:29.301Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-10-21T15:51:29.301Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-10-20T20:23:36.173Z",
       "counts": {
@@ -483,6 +491,30 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-10-21T15:51:29.301Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "95047",
+          "nom": "Soirée des Maîtres 3",
+          "ville": "SOISY-SOUS-MONTMORENCY",
+          "dateDebut": "2026-11-28",
+          "dateFin": "2026-11-28",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95047"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-10-20T15:34:25.417Z",
       "counts": {

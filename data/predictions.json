@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T20:23:58.691Z",
+  "generatedAt": "2026-10-21T15:51:52.388Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -302,34 +302,6 @@
       "seasonsLabel": "2026, 2025, 2024",
       "recentCities": [
         "MARCQ-EN-BAROEUL"
-      ]
-    },
-    {
-      "id": "habituelle-V_SOISY_SOUS_MONTMORENCY_D-2026-12",
-      "type": "ville",
-      "nom": "Soirée des Maîtres 2",
-      "ville": "SOISY-SOUS-MONTMORENCY",
-      "lat": 48.9875044,
-      "lon": 2.3002885,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "12",
-      "monthLabel": "décembre",
-      "moment": "début",
-      "expectedDate": "2026-12-07",
-      "dispersionDays": 5,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024",
-        "2021-2022"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024, 2022",
-      "recentCities": [
-        "SOISY-SOUS-MONTMORENCY"
       ]
     },
     {
