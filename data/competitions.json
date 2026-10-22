@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T15:48:50.375Z",
+  "generatedAt": "2026-10-22T20:27:47.283Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8015,6 +8015,20 @@
       "lat": 46.0345572,
       "lon": 4.0729178,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95025"
+    },
+    {
+      "id": "95061",
+      "nom": "Championnats Open Hiver Maîtres du Rhône",
+      "ville": "CHASSIEU",
+      "dateDebut": "2026-11-22",
+      "dateFin": "2026-11-22",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 45.7422756,
+      "lon": 4.9681796,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95061"
     },
     {
       "id": "94991",
