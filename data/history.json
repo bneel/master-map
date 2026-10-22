@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-21T20:29:39.936Z",
+  "generatedAt": "2026-10-22T15:48:26.553Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-10-22T15:48:26.553Z",
+      "counts": {
+        "added": 37,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-10-21T20:29:39.936Z",
       "counts": {
@@ -472,25 +480,465 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-09-22T15:26:48.817Z",
-      "counts": {
-        "added": 1,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-09-21T20:55:51.174Z",
-      "counts": {
-        "added": 7,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-10-22T15:48:26.553Z",
+      "counts": {
+        "added": 37,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94714",
+          "nom": "Open de Rentrée Maîtres",
+          "ville": "BOBIGNY",
+          "dateDebut": "2026-10-17",
+          "dateFin": "2026-10-17",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94714"
+        },
+        {
+          "id": "94268",
+          "nom": "Championnats Départementaux des Maîtres 06 & 83",
+          "ville": "NICE",
+          "dateDebut": "2026-10-17",
+          "dateFin": "2026-10-17",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94268"
+        },
+        {
+          "id": "94932",
+          "nom": "Championnat Départemental Maîtres Open",
+          "ville": "ONET-LE-CHÂTEAU",
+          "dateDebut": "2026-10-17",
+          "dateFin": "2026-10-17",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94932"
+        },
+        {
+          "id": "94537",
+          "nom": "20e Meeting Annie Boyet (Maîtres)",
+          "ville": "LONS-LE-SAUNIER",
+          "dateDebut": "2026-10-18",
+          "dateFin": "2026-10-18",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94537"
+        },
+        {
+          "id": "94622",
+          "nom": "Meeting Maîtres 1",
+          "ville": "ALBI",
+          "dateDebut": "2026-10-18",
+          "dateFin": "2026-10-18",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94622"
+        },
+        {
+          "id": "94660",
+          "nom": "100 Maitres d'Automne 2026",
+          "ville": "POISSY",
+          "dateDebut": "2026-10-18",
+          "dateFin": "2026-10-18",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94660"
+        },
+        {
+          "id": "94557",
+          "nom": "Championnat Départemental Maîtres #3-2026",
+          "ville": "TOULOUSE",
+          "dateDebut": "2026-10-18",
+          "dateFin": "2026-10-18",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94557"
+        },
+        {
+          "id": "94911",
+          "nom": "DEMI-FONDS 55 OPEN DES maitres",
+          "ville": "VERDUN",
+          "dateDebut": "2026-10-18",
+          "dateFin": "2026-10-18",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94911"
+        },
+        {
+          "id": "94412",
+          "nom": "Challenge des Maîtres #1",
+          "ville": "SAINT-PIERRE",
+          "dateDebut": "2026-10-25",
+          "dateFin": "2026-10-25",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94412"
+        },
+        {
+          "id": "94959",
+          "nom": "7e Meeting des Maîtres de Ventadour",
+          "ville": "ÉGLETONS",
+          "dateDebut": "2026-10-31",
+          "dateFin": "2026-10-31",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94959"
+        },
+        {
+          "id": "94453",
+          "nom": "Championnat Départemental Hiver des Maîtres",
+          "ville": "SAINT-POL-SUR-MER",
+          "dateDebut": "2026-10-31",
+          "dateFin": "2026-10-31",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94453"
+        },
+        {
+          "id": "95008",
+          "nom": "Meeting Gironde des Maîtres",
+          "ville": "BORDEAUX",
+          "dateDebut": "2026-11-11",
+          "dateFin": "2026-11-11",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95008"
+        },
+        {
+          "id": "94710",
+          "nom": "Meeting Masters LLSB",
+          "ville": "SCHILTIGHEIM",
+          "dateDebut": "2026-11-11",
+          "dateFin": "2026-11-11",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94710"
+        },
+        {
+          "id": "94836",
+          "nom": "Meeting Maitres les 100 ans du club 1926-2026",
+          "ville": "CREIL",
+          "dateDebut": "2026-11-14",
+          "dateFin": "2026-11-14",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94836"
+        },
+        {
+          "id": "94633",
+          "nom": "Meeting des Maîtres - Megève Natation",
+          "ville": "MEGÈVE",
+          "dateDebut": "2026-11-14",
+          "dateFin": "2026-11-14",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94633"
+        },
+        {
+          "id": "94644",
+          "nom": "Départementaux d'Automne des Maîtres Open",
+          "ville": "LAVAL",
+          "dateDebut": "2026-11-15",
+          "dateFin": "2026-11-15",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94644"
+        },
+        {
+          "id": "94727",
+          "nom": "Championnats du Berry Maîtres",
+          "ville": "CHÂTEAUROUX",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94727"
+        },
+        {
+          "id": "94717",
+          "nom": "Championnat Départemental des Maîtres",
+          "ville": "MARVILLE",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94717"
+        },
+        {
+          "id": "94882",
+          "nom": "Championnats des Vosges hiver  Open cat. Maîtres",
+          "ville": "NEUFCHÂTEAU",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94882"
+        },
+        {
+          "id": "95025",
+          "nom": "Championnats Automne Masters Loire",
+          "ville": "ROANNE",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95025"
+        },
+        {
+          "id": "94991",
+          "nom": "Meeting de reprise pour les maîtres",
+          "ville": "SAINT-GIRONS",
+          "dateDebut": "2026-11-22",
+          "dateFin": "2026-11-22",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94991"
+        },
+        {
+          "id": "95047",
+          "nom": "Soirée des Maîtres 3",
+          "ville": "SOISY-SOUS-MONTMORENCY",
+          "dateDebut": "2026-11-28",
+          "dateFin": "2026-11-28",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95047"
+        },
+        {
+          "id": "92516",
+          "nom": "Open des Maîtres 2026",
+          "ville": "SAINT-MARTIN-D'HÈRES",
+          "dateDebut": "2026-12-06",
+          "dateFin": "2026-12-06",
+          "niveau": "N",
+          "niveauLibelle": "National",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92516"
+        },
+        {
+          "id": "94914",
+          "nom": "2ème Meeting de la madeleine Open des maitres",
+          "ville": "COMMERCY",
+          "dateDebut": "2026-12-06",
+          "dateFin": "2026-12-06",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94914"
+        },
+        {
+          "id": "94992",
+          "nom": "15e Meeting Masters Henri Théolat - Chpt Dptl des Maitres",
+          "ville": "POITIERS",
+          "dateDebut": "2026-12-06",
+          "dateFin": "2026-12-06",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94992"
+        },
+        {
+          "id": "94671",
+          "nom": "Plot 1 Maître",
+          "ville": "LAMBALLE",
+          "dateDebut": "2026-12-12",
+          "dateFin": "2026-12-12",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94671"
+        },
+        {
+          "id": "94977",
+          "nom": "championnats de Martinique Maîtres",
+          "ville": "SCHOELCHER",
+          "dateDebut": "2026-12-13",
+          "dateFin": "2026-12-13",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94977"
+        },
+        {
+          "id": "94961",
+          "nom": "Journée Départementale Maitres",
+          "ville": "AURILLAC",
+          "dateDebut": "2026-12-13",
+          "dateFin": "2026-12-13",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94961"
+        },
+        {
+          "id": "94885",
+          "nom": "Meeting  du CD88 Open Maîtres",
+          "ville": "GÉRARDMER",
+          "dateDebut": "2026-12-13",
+          "dateFin": "2026-12-13",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94885"
+        },
+        {
+          "id": "94940",
+          "nom": "Meeting maîtres 2",
+          "ville": "MONTAUBAN",
+          "dateDebut": "2026-12-13",
+          "dateFin": "2026-12-13",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94940"
+        },
+        {
+          "id": "94899",
+          "nom": "Meeting Départemental des Maîtres Open du 41",
+          "ville": "MONTRICHARD",
+          "dateDebut": "2026-12-13",
+          "dateFin": "2026-12-13",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94899"
+        },
+        {
+          "id": "95026",
+          "nom": "Championnats Hiver Masters Loire",
+          "ville": "SAINT-CHAMOND",
+          "dateDebut": "2027-01-16",
+          "dateFin": "2027-01-16",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95026"
+        },
+        {
+          "id": "94498",
+          "nom": "Championnats Régionaux Open d'Hiver Masters",
+          "ville": "SARAN",
+          "dateDebut": "2027-01-23",
+          "dateFin": "2027-01-23",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94498"
+        },
+        {
+          "id": "94505",
+          "nom": "Championnats Régionaux Interclins Masters",
+          "ville": "GIEN",
+          "dateDebut": "2027-02-14",
+          "dateFin": "2027-02-14",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94505"
+        },
+        {
+          "id": "95027",
+          "nom": "Championnats Demi Fond Masters Loire",
+          "ville": "MONTBRISON",
+          "dateDebut": "2027-03-20",
+          "dateFin": "2027-03-20",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95027"
+        },
+        {
+          "id": "95030",
+          "nom": "Meeting maîtres 4",
+          "ville": "CAHORS",
+          "dateDebut": "2027-03-28",
+          "dateFin": "2027-03-28",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95030"
+        },
+        {
+          "id": "95028",
+          "nom": "Championnats Eté Masters Loire",
+          "ville": "SAINT-ÉTIENNE",
+          "dateDebut": "2027-05-29",
+          "dateFin": "2027-05-29",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 50,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95028"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-10-21T20:29:39.936Z",
       "counts": {
