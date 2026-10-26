@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T19:30:02.185Z",
+  "generatedAt": "2026-10-26T17:09:53.053Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7959,6 +7959,20 @@
       "lat": 48.0706687,
       "lon": -0.7734022,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94644"
+    },
+    {
+      "id": "95092",
+      "nom": "MASTERS - Championnat de Guyane en Petit Bassin",
+      "ville": "SINNAMARY",
+      "dateDebut": "2026-11-20",
+      "dateFin": "2026-11-20",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 5.3770561,
+      "lon": -52.9571586,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95092"
     },
     {
       "id": "94727",
