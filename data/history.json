@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-26T21:30:59.885Z",
+  "generatedAt": "2026-10-27T16:15:02.187Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-10-27T16:15:02.187Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-10-26T21:30:59.885Z",
       "counts": {
@@ -472,17 +480,45 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-09-27T15:32:53.813Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-10-27T16:15:02.187Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94985",
+          "nom": "Soirée Masters 56 Open",
+          "ville": "LORIENT",
+          "dateDebut": "2026-12-12",
+          "dateFin": "2026-12-12",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94985"
+        },
+        {
+          "id": "94993",
+          "nom": "Soirée \"MASTERS 56 catégorie C0\" open",
+          "ville": "LORIENT",
+          "dateDebut": "2026-12-12",
+          "dateFin": "2026-12-12",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94993"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-10-26T17:09:29.821Z",
       "counts": {

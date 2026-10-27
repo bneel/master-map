@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T21:31:22.691Z",
+  "generatedAt": "2026-10-27T16:15:33.820Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8127,6 +8127,34 @@
       "lat": 48.4624462,
       "lon": -2.5165023,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94671"
+    },
+    {
+      "id": "94985",
+      "nom": "Soirée Masters 56 Open",
+      "ville": "LORIENT",
+      "dateDebut": "2026-12-12",
+      "dateFin": "2026-12-12",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.7477336,
+      "lon": -3.3660907,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94985"
+    },
+    {
+      "id": "94993",
+      "nom": "Soirée \"MASTERS 56 catégorie C0\" open",
+      "ville": "LORIENT",
+      "dateDebut": "2026-12-12",
+      "dateFin": "2026-12-12",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.7477336,
+      "lon": -3.3660907,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94993"
     },
     {
       "id": "94977",
