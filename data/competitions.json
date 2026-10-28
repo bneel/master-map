@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T17:01:46.365Z",
+  "generatedAt": "2026-10-28T21:34:47.666Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8099,6 +8099,20 @@
       "lat": 48.763203,
       "lon": 5.5914753,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94914"
+    },
+    {
+      "id": "95120",
+      "nom": "Meeting du Sprint des Maîtres de Marcq Natation",
+      "ville": "MARCQ-EN-BAROEUL",
+      "dateDebut": "2026-12-06",
+      "dateFin": "2026-12-06",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 50.6767018,
+      "lon": 3.1043032,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95120"
     },
     {
       "id": "94992",

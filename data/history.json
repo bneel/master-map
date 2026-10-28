@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-28T17:01:22.991Z",
+  "generatedAt": "2026-10-28T21:34:23.575Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-10-28T21:34:23.575Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-10-28T17:01:22.991Z",
       "counts": {
@@ -480,17 +488,33 @@
         "removed": 0,
         "updated": 0
       }
-    },
+    }
+  ],
+  "runs": [
     {
-      "scrapedAt": "2026-09-28T18:31:20.316Z",
+      "scrapedAt": "2026-10-28T21:34:23.575Z",
       "counts": {
         "added": 1,
         "removed": 0,
         "updated": 0
-      }
-    }
-  ],
-  "runs": [
+      },
+      "added": [
+        {
+          "id": "95120",
+          "nom": "Meeting du Sprint des Maîtres de Marcq Natation",
+          "ville": "MARCQ-EN-BAROEUL",
+          "dateDebut": "2026-12-06",
+          "dateFin": "2026-12-06",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95120"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-10-27T16:15:02.187Z",
       "counts": {

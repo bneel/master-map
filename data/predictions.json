@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T17:01:46.421Z",
+  "generatedAt": "2026-10-28T21:34:47.726Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -275,33 +275,6 @@
         "SAINT-FLORENTIN",
         "MIGENNES",
         "AUXERRE"
-      ]
-    },
-    {
-      "id": "habituelle-V_MARCQ_EN_BAROEUL_D-2026-12",
-      "type": "ville",
-      "nom": "Meeting du Sprint des Maîtres de Marcq Natation",
-      "ville": "MARCQ-EN-BAROEUL",
-      "lat": 50.6767018,
-      "lon": 3.1043032,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "12",
-      "monthLabel": "décembre",
-      "moment": "début",
-      "expectedDate": "2026-12-06",
-      "dispersionDays": 2,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024",
-      "recentCities": [
-        "MARCQ-EN-BAROEUL"
       ]
     },
     {
