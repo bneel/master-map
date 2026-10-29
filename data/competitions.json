@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T21:34:47.666Z",
+  "generatedAt": "2026-10-29T17:20:02.864Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7959,6 +7959,20 @@
       "lat": 48.0706687,
       "lon": -0.7734022,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94644"
+    },
+    {
+      "id": "95117",
+      "nom": "Maîtres en Seine",
+      "ville": "ROUEN",
+      "dateDebut": "2026-11-15",
+      "dateFin": "2026-11-15",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 49.4404591,
+      "lon": 1.0939658,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95117"
     },
     {
       "id": "95092",

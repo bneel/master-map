@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-28T21:34:23.575Z",
+  "generatedAt": "2026-10-29T17:19:40.225Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-10-29T17:19:40.225Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-10-28T21:34:23.575Z",
       "counts": {
@@ -472,25 +480,33 @@
         "removed": 0,
         "updated": 0
       }
-    },
+    }
+  ],
+  "runs": [
     {
-      "scrapedAt": "2026-09-29T16:49:11.005Z",
+      "scrapedAt": "2026-10-29T17:19:40.225Z",
       "counts": {
         "added": 1,
         "removed": 0,
         "updated": 0
-      }
+      },
+      "added": [
+        {
+          "id": "95117",
+          "nom": "Maîtres en Seine",
+          "ville": "ROUEN",
+          "dateDebut": "2026-11-15",
+          "dateFin": "2026-11-15",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95117"
+        }
+      ],
+      "removed": [],
+      "updated": []
     },
-    {
-      "scrapedAt": "2026-09-28T22:28:45.865Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    }
-  ],
-  "runs": [
     {
       "scrapedAt": "2026-10-28T21:34:23.575Z",
       "counts": {
