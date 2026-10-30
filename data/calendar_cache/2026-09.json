@@ -1,0 +1,86 @@
+{
+  "savedAt": "2026-10-30T16:57:16.383Z",
+  "year": 2026,
+  "month": 9,
+  "count": 13,
+  "raw": [
+    {
+      "competitionId": "94470",
+      "niveau": "R",
+      "libelle": "Le 5 km en bassin - CHARTRES",
+      "dateIso": "2026-09-20"
+    },
+    {
+      "competitionId": "94507",
+      "niveau": "R",
+      "libelle": "Spécial Demi-Fond - CAYENNE",
+      "dateIso": "2026-09-26"
+    },
+    {
+      "competitionId": "94520",
+      "niveau": "D",
+      "libelle": "Journée d'Automne - BOURGES",
+      "dateIso": "2026-09-26"
+    },
+    {
+      "competitionId": "94521",
+      "niveau": "D",
+      "libelle": "Pré-saison Avenirs - BOURGES",
+      "dateIso": "2026-09-26"
+    },
+    {
+      "competitionId": "94385",
+      "niveau": "D",
+      "libelle": "Grand Meeting de la Rentrée - CHÂTEAUBRIANT",
+      "dateIso": "2026-09-26"
+    },
+    {
+      "competitionId": "93730",
+      "niveau": "D",
+      "libelle": "NAT 35 - FOUGÈRES",
+      "dateIso": "2026-09-26"
+    },
+    {
+      "competitionId": "94559",
+      "niveau": "D",
+      "libelle": "Meeting Pré-saison - JOUÉ-LES-TOURS",
+      "dateIso": "2026-09-26"
+    },
+    {
+      "competitionId": "94509",
+      "niveau": "D",
+      "libelle": "MEETING MAITRES DU MANS - LE MANS",
+      "dateIso": "2026-09-26"
+    },
+    {
+      "competitionId": "94401",
+      "niveau": "R",
+      "libelle": "2e Meeting de Bras-Panon - BRAS-PANON",
+      "dateIso": "2026-09-27"
+    },
+    {
+      "competitionId": "94071",
+      "niveau": "D",
+      "libelle": "Challenge Pré‑saison - AIXE-SUR-VIENNE",
+      "dateIso": "2026-09-27"
+    },
+    {
+      "competitionId": "94394",
+      "niveau": "D",
+      "libelle": "Interclubs U15 - NÎMES",
+      "dateIso": "2026-09-27"
+    },
+    {
+      "competitionId": "94395",
+      "niveau": "D",
+      "libelle": "Animation 2010 et avant - NÎMES",
+      "dateIso": "2026-09-27"
+    },
+    {
+      "competitionId": "94417",
+      "niveau": "D",
+      "libelle": "Journée d'Automne - VENDÔME",
+      "dateIso": "2026-09-27"
+    }
+  ]
+}
