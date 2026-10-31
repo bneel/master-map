@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-30T21:24:40.383Z",
+  "generatedAt": "2026-10-31T15:58:05.317Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-10-31T15:58:05.317Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-10-30T21:24:40.383Z",
       "counts": {
@@ -483,6 +491,42 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-10-31T15:58:05.317Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94953",
+          "nom": "Web Confrontation Masters",
+          "ville": "BÉZIERS",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94953"
+        },
+        {
+          "id": "94915",
+          "nom": "Meeting Maitres de Brioude",
+          "ville": "BRIOUDE",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94915"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-10-29T17:19:40.225Z",
       "counts": {
