@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-31T20:25:22.055Z",
+  "generatedAt": "2026-11-01T17:01:15.917Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-11-01T17:01:15.917Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-10-31T20:25:22.055Z",
       "counts": {
@@ -472,25 +480,45 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-10-02T16:32:39.066Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-10-01T21:42:51.126Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-11-01T17:01:15.917Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "95174",
+          "nom": "Départementaux Maitres du 28 - AUTOMNE 2026",
+          "ville": "BONNEVAL",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95174"
+        },
+        {
+          "id": "95032",
+          "nom": "Meeting maîtres 6",
+          "ville": "CAHORS",
+          "dateDebut": "2027-06-13",
+          "dateFin": "2027-06-13",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95032"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-10-31T15:58:05.317Z",
       "counts": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T20:25:42.587Z",
+  "generatedAt": "2026-11-01T17:01:52.185Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8003,6 +8003,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94953"
     },
     {
+      "id": "95174",
+      "nom": "Départementaux Maitres du 28 - AUTOMNE 2026",
+      "ville": "BONNEVAL",
+      "dateDebut": "2026-11-21",
+      "dateFin": "2026-11-21",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.181527,
+      "lon": 1.3853323,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95174"
+    },
+    {
       "id": "94915",
       "nom": "Meeting Maitres de Brioude",
       "ville": "BRIOUDE",
@@ -8365,6 +8379,20 @@
       "lat": 45.4401467,
       "lon": 4.3873058,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95028"
+    },
+    {
+      "id": "95032",
+      "nom": "Meeting maîtres 6",
+      "ville": "CAHORS",
+      "dateDebut": "2027-06-13",
+      "dateFin": "2027-06-13",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 44.4495,
+      "lon": 1.4364999,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95032"
     }
   ]
 }
