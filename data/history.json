@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-01T17:01:15.917Z",
+  "generatedAt": "2026-11-01T21:02:45.837Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-11-01T21:02:45.837Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-11-01T17:01:15.917Z",
       "counts": {
