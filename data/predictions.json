@@ -1,36 +1,8 @@
 {
-  "generatedAt": "2026-11-01T21:03:08.955Z",
+  "generatedAt": "2026-11-02T20:39:30.206Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
-    {
-      "id": "habituelle-T_D_championnat-2026-11",
-      "type": "tournant",
-      "nom": "Championnats 88 Maitres Open",
-      "ville": null,
-      "lat": 48.3336817,
-      "lon": 6.121646933333333,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "11",
-      "monthLabel": "novembre",
-      "moment": "mi",
-      "expectedDate": "2026-11-19",
-      "dispersionDays": 3,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024",
-      "recentCities": [
-        "NEUFCHÂTEAU",
-        "SAINT-DIÉ-DES-VOSGES"
-      ]
-    },
     {
       "id": "habituelle-V_CHERBOURG_EN_COTENTIN_N-2026-11",
       "type": "ville",
@@ -135,32 +107,6 @@
       "seasonsLabel": "2026, 2025, 2024",
       "recentCities": [
         "VILLEMOMBLE"
-      ]
-    },
-    {
-      "id": "habituelle-T_D_automne_championnat-2026-11",
-      "type": "tournant",
-      "nom": "Championnats d'Automne Open des Maîtres",
-      "ville": null,
-      "lat": 48.8588897,
-      "lon": 2.320041,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "11",
-      "monthLabel": "novembre",
-      "moment": "fin",
-      "expectedDate": "2026-11-29",
-      "dispersionDays": 0,
-      "seasonsSeen": [
-        "2025-2026",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 1,
-      "seasonsLabel": "2026, 2024",
-      "recentCities": [
-        "PARIS"
       ]
     },
     {

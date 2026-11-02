@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T21:03:08.895Z",
+  "generatedAt": "2026-11-02T20:39:30.141Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8045,6 +8045,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94727"
     },
     {
+      "id": "95194",
+      "nom": "Championnats Maîtres",
+      "ville": "LURE",
+      "dateDebut": "2026-11-21",
+      "dateFin": "2026-11-21",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.6863376,
+      "lon": 6.4946806,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95194"
+    },
+    {
       "id": "94717",
       "nom": "Championnat Départemental des Maîtres",
       "ville": "MARVILLE",
@@ -8071,6 +8085,20 @@
       "lat": 48.3568649,
       "lon": 5.708585,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94882"
+    },
+    {
+      "id": "95185",
+      "nom": "Championnats d'Automne Open des Maîtres",
+      "ville": "PARIS",
+      "dateDebut": "2026-11-21",
+      "dateFin": "2026-11-21",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.8588897,
+      "lon": 2.320041,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95185"
     },
     {
       "id": "95025",
