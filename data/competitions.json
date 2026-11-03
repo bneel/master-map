@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T23:49:47.818Z",
+  "generatedAt": "2026-11-03T18:16:05.083Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8017,6 +8017,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95174"
     },
     {
+      "id": "95098",
+      "nom": "Meeting des Maîtres de l'Ouest - Bressuire - Arc Atlantique",
+      "ville": "BRESSUIRE",
+      "dateDebut": "2026-11-21",
+      "dateFin": "2026-11-21",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 46.8425572,
+      "lon": -0.4929017,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95098"
+    },
+    {
       "id": "94915",
       "nom": "Meeting Maitres de Brioude",
       "ville": "BRIOUDE",
@@ -8143,6 +8157,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94991"
     },
     {
+      "id": "95066",
+      "nom": "4e Journée Maîtres",
+      "ville": "PONT-SAINT-PIERRE",
+      "dateDebut": "2026-11-27",
+      "dateFin": "2026-11-27",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 49.3354021,
+      "lon": 1.2740017,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95066"
+    },
+    {
       "id": "95047",
       "nom": "Soirée des Maîtres 3",
       "ville": "SOISY-SOUS-MONTMORENCY",
@@ -8169,6 +8197,20 @@
       "lat": 45.1836683,
       "lon": 5.75448,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92516"
+    },
+    {
+      "id": "95212",
+      "nom": "Championnat Régional des Maîtres",
+      "ville": "NÎMES",
+      "dateDebut": "2026-12-06",
+      "dateFin": "2026-12-06",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.8374249,
+      "lon": 4.3600687,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95212"
     },
     {
       "id": "94914",
@@ -8227,20 +8269,6 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94671"
     },
     {
-      "id": "94993",
-      "nom": "Soirée \"MASTERS 56 catégorie C0\" open",
-      "ville": "LORIENT",
-      "dateDebut": "2026-12-12",
-      "dateFin": "2026-12-12",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 47.7477336,
-      "lon": -3.3660907,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94993"
-    },
-    {
       "id": "94985",
       "nom": "Soirée Masters 56 Open",
       "ville": "LORIENT",
@@ -8253,6 +8281,20 @@
       "lat": 47.7477336,
       "lon": -3.3660907,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94985"
+    },
+    {
+      "id": "94993",
+      "nom": "Soirée \"MASTERS 56 catégorie C0\" open",
+      "ville": "LORIENT",
+      "dateDebut": "2026-12-12",
+      "dateFin": "2026-12-12",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.7477336,
+      "lon": -3.3660907,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94993"
     },
     {
       "id": "94977",
@@ -8351,6 +8393,20 @@
       "lat": 47.9514553,
       "lon": 1.8749906,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94498"
+    },
+    {
+      "id": "95178",
+      "nom": "Meeting maîtres  3",
+      "ville": "ALBI",
+      "dateDebut": "2027-01-24",
+      "dateFin": "2027-01-24",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.9277552,
+      "lon": 2.147899,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95178"
     },
     {
       "id": "94505",

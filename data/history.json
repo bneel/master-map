@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-02T23:49:25.320Z",
+  "generatedAt": "2026-11-03T18:15:12.359Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-11-03T18:15:12.359Z",
+      "counts": {
+        "added": 4,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-11-02T23:49:25.320Z",
       "counts": {
@@ -472,17 +480,69 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-10-04T15:41:46.072Z",
-      "counts": {
-        "added": 1,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-11-03T18:15:12.359Z",
+      "counts": {
+        "added": 4,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "95098",
+          "nom": "Meeting des Maîtres de l'Ouest - Bressuire - Arc Atlantique",
+          "ville": "BRESSUIRE",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95098"
+        },
+        {
+          "id": "95066",
+          "nom": "4e Journée Maîtres",
+          "ville": "PONT-SAINT-PIERRE",
+          "dateDebut": "2026-11-27",
+          "dateFin": "2026-11-27",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95066"
+        },
+        {
+          "id": "95212",
+          "nom": "Championnat Régional des Maîtres",
+          "ville": "NÎMES",
+          "dateDebut": "2026-12-06",
+          "dateFin": "2026-12-06",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95212"
+        },
+        {
+          "id": "95178",
+          "nom": "Meeting maîtres  3",
+          "ville": "ALBI",
+          "dateDebut": "2027-01-24",
+          "dateFin": "2027-01-24",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95178"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-11-02T20:38:54.833Z",
       "counts": {
