@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T22:15:18.136Z",
+  "generatedAt": "2026-11-04T18:30:30.032Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8185,6 +8185,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95047"
     },
     {
+      "id": "95058",
+      "nom": "33ème Rencontre Vénissiane des Maîtres",
+      "ville": "VÉNISSIEUX",
+      "dateDebut": "2026-12-05",
+      "dateFin": "2026-12-05",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 45.6977109,
+      "lon": 4.8855966,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95058"
+    },
+    {
       "id": "92516",
       "nom": "Open des Maîtres 2026",
       "ville": "SAINT-MARTIN-D'HÈRES",
@@ -8267,6 +8281,20 @@
       "lat": 48.4624462,
       "lon": -2.5165023,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94671"
+    },
+    {
+      "id": "95217",
+      "nom": "Interclubs Départementaux Maitres",
+      "ville": "LOCHES",
+      "dateDebut": "2026-12-12",
+      "dateFin": "2026-12-12",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.1281692,
+      "lon": 0.9979549,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95217"
     },
     {
       "id": "94985",
