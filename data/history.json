@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-05T18:33:25.442Z",
+  "generatedAt": "2026-11-05T22:37:27.115Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-11-05T22:37:27.115Z",
+      "counts": {
+        "added": 0,
+        "removed": 1,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-11-05T18:33:25.442Z",
       "counts": {
@@ -472,17 +480,33 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-10-06T21:32:24.041Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-11-05T22:37:27.115Z",
+      "counts": {
+        "added": 0,
+        "removed": 1,
+        "updated": 0
+      },
+      "added": [],
+      "removed": [
+        {
+          "id": "95061",
+          "nom": "Championnats Open Hiver Maîtres du Rhône",
+          "ville": "CHASSIEU",
+          "dateDebut": "2026-11-22",
+          "dateFin": "2026-11-22",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95061"
+        }
+      ],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-11-04T18:29:55.494Z",
       "counts": {
