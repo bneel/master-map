@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T22:37:51.367Z",
+  "generatedAt": "2026-11-06T17:51:00.950Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8017,8 +8017,8 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95174"
     },
     {
-      "id": "95098",
-      "nom": "Meeting des Maîtres de l'Ouest - Bressuire - Arc Atlantique",
+      "id": "95097",
+      "nom": "Meeting des Maîtres de l'Ouest -Arc Atlantique- Bressuire",
       "ville": "BRESSUIRE",
       "dateDebut": "2026-11-21",
       "dateFin": "2026-11-21",
@@ -8028,7 +8028,7 @@
       "bassin": 25,
       "lat": 46.8425572,
       "lon": -0.4929017,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95098"
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95097"
     },
     {
       "id": "94915",
@@ -8043,6 +8043,20 @@
       "lat": 45.293897,
       "lon": 3.3853711,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94915"
+    },
+    {
+      "id": "95251",
+      "nom": "Championnats du Rhône des Maitres Hiver",
+      "ville": "CHASSIEU",
+      "dateDebut": "2026-11-21",
+      "dateFin": "2026-11-21",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 45.7422756,
+      "lon": 4.9681796,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95251"
     },
     {
       "id": "94727",
@@ -8283,20 +8297,6 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95217"
     },
     {
-      "id": "94993",
-      "nom": "Soirée \"MASTERS 56 catégorie C0\" open",
-      "ville": "LORIENT",
-      "dateDebut": "2026-12-12",
-      "dateFin": "2026-12-12",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 47.7477336,
-      "lon": -3.3660907,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94993"
-    },
-    {
       "id": "94985",
       "nom": "Soirée Masters 56 Open",
       "ville": "LORIENT",
@@ -8309,6 +8309,20 @@
       "lat": 47.7477336,
       "lon": -3.3660907,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94985"
+    },
+    {
+      "id": "94993",
+      "nom": "Soirée \"MASTERS 56 catégorie C0\" open",
+      "ville": "LORIENT",
+      "dateDebut": "2026-12-12",
+      "dateFin": "2026-12-12",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.7477336,
+      "lon": -3.3660907,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94993"
     },
     {
       "id": "94977",

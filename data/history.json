@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-05T22:37:27.115Z",
+  "generatedAt": "2026-11-06T17:50:26.158Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-11-06T17:50:26.158Z",
+      "counts": {
+        "added": 2,
+        "removed": 1,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-11-05T22:37:27.115Z",
       "counts": {
@@ -472,17 +480,58 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-10-07T17:41:56.978Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-11-06T17:50:26.158Z",
+      "counts": {
+        "added": 2,
+        "removed": 1,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "95097",
+          "nom": "Meeting des Maîtres de l'Ouest -Arc Atlantique- Bressuire",
+          "ville": "BRESSUIRE",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95097"
+        },
+        {
+          "id": "95251",
+          "nom": "Championnats du Rhône des Maitres Hiver",
+          "ville": "CHASSIEU",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95251"
+        }
+      ],
+      "removed": [
+        {
+          "id": "95098",
+          "nom": "Meeting des Maîtres de l'Ouest - Bressuire - Arc Atlantique",
+          "ville": "BRESSUIRE",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95098"
+        }
+      ],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-11-05T22:37:27.115Z",
       "counts": {
