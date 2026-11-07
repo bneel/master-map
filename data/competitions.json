@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T16:46:05.837Z",
+  "generatedAt": "2026-11-07T20:45:11.928Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8017,8 +8017,8 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95174"
     },
     {
-      "id": "95097",
-      "nom": "Meeting des Maîtres de l'Ouest -Arc Atlantique- Bressuire",
+      "id": "95260",
+      "nom": "Meeting Maîtres de l'Ouest -Arc Atlantique- Bressuire",
       "ville": "BRESSUIRE",
       "dateDebut": "2026-11-21",
       "dateFin": "2026-11-21",
@@ -8028,7 +8028,7 @@
       "bassin": 25,
       "lat": 46.8425572,
       "lon": -0.4929017,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95097"
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95260"
     },
     {
       "id": "94915",
