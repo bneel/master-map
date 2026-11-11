@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T22:14:17.127Z",
+  "generatedAt": "2026-11-11T18:27:15.694Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8141,6 +8141,20 @@
       "lat": 46.0345572,
       "lon": 4.0729178,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95025"
+    },
+    {
+      "id": "95316",
+      "nom": "Championnat Départemental d'Automne des Maitres 25m",
+      "ville": "SAINTE-MENEHOULD",
+      "dateDebut": "2026-11-21",
+      "dateFin": "2026-11-21",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 49.0904192,
+      "lon": 4.8967637,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95316"
     },
     {
       "id": "94991",

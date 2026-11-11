@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-10T22:13:53.899Z",
+  "generatedAt": "2026-11-11T18:26:52.762Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-11-11T18:26:52.762Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-11-10T22:13:53.899Z",
       "counts": {
@@ -483,6 +491,30 @@
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-11-11T18:26:52.762Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "95316",
+          "nom": "Championnat Départemental d'Automne des Maitres 25m",
+          "ville": "SAINTE-MENEHOULD",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95316"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-11-07T20:44:49.583Z",
       "counts": {
