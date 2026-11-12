@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T23:23:58.938Z",
+  "generatedAt": "2026-11-12T18:44:23.647Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8073,6 +8073,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94727"
     },
     {
+      "id": "94983",
+      "nom": "2ème Meeting de l'Essonne - Maîtres",
+      "ville": "DRAVEIL",
+      "dateDebut": "2026-11-21",
+      "dateFin": "2026-11-21",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.6851514,
+      "lon": 2.4083576,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94983"
+    },
+    {
       "id": "95194",
       "nom": "Championnats Maîtres",
       "ville": "LURE",
@@ -8185,6 +8199,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95066"
     },
     {
+      "id": "95113",
+      "nom": "4e Meeting des Maitres Montchanin Natation",
+      "ville": "MONTCHANIN",
+      "dateDebut": "2026-11-28",
+      "dateFin": "2026-11-28",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 46.747427,
+      "lon": 4.4699684,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95113"
+    },
+    {
       "id": "95047",
       "nom": "Soirée des Maîtres 3",
       "ville": "SOISY-SOUS-MONTMORENCY",
@@ -8225,20 +8253,6 @@
       "lat": 45.1836683,
       "lon": 5.75448,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92516"
-    },
-    {
-      "id": "95212",
-      "nom": "Championnat Régional des Maîtres",
-      "ville": "NÎMES",
-      "dateDebut": "2026-12-06",
-      "dateFin": "2026-12-06",
-      "niveau": "R",
-      "niveauLibelle": "Régional",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 43.8374249,
-      "lon": 4.3600687,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95212"
     },
     {
       "id": "94914",
@@ -8311,20 +8325,6 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95217"
     },
     {
-      "id": "94993",
-      "nom": "Soirée \"MASTERS 56 catégorie C0\" open",
-      "ville": "LORIENT",
-      "dateDebut": "2026-12-12",
-      "dateFin": "2026-12-12",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 47.7477336,
-      "lon": -3.3660907,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94993"
-    },
-    {
       "id": "94985",
       "nom": "Soirée Masters 56 Open",
       "ville": "LORIENT",
@@ -8337,6 +8337,20 @@
       "lat": 47.7477336,
       "lon": -3.3660907,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94985"
+    },
+    {
+      "id": "94993",
+      "nom": "Soirée \"MASTERS 56 catégorie C0\" open",
+      "ville": "LORIENT",
+      "dateDebut": "2026-12-12",
+      "dateFin": "2026-12-12",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.7477336,
+      "lon": -3.3660907,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94993"
     },
     {
       "id": "94977",

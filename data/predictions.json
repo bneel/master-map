@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T23:23:59.006Z",
+  "generatedAt": "2026-11-12T18:44:23.699Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -54,32 +54,6 @@
       "seasonsLabel": "2026, 2025, 2021",
       "recentCities": [
         "LES ABYMES"
-      ]
-    },
-    {
-      "id": "habituelle-V_MONTCHANIN_D-2026-11",
-      "type": "ville",
-      "nom": "3e Meeting des Maîtres Montchanin Natation",
-      "ville": "MONTCHANIN",
-      "lat": 46.747427,
-      "lon": 4.4699684,
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "11",
-      "monthLabel": "novembre",
-      "moment": "fin",
-      "expectedDate": "2026-11-26",
-      "dispersionDays": 3,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2026, 2025",
-      "recentCities": [
-        "MONTCHANIN"
       ]
     },
     {
@@ -709,6 +683,36 @@
       "seasonsLabel": "2026, 2025",
       "recentCities": [
         "PONT-SAINT-PIERRE"
+      ]
+    },
+    {
+      "id": "habituelle-T_R_championnat_regional-2027-01",
+      "type": "tournant",
+      "nom": "Championnat Régional des Maîtres Open",
+      "ville": null,
+      "lat": 44.93175986666666,
+      "lon": 1.9789018,
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "month": "01",
+      "monthLabel": "janvier",
+      "moment": "fin",
+      "expectedDate": "2027-01-25",
+      "dispersionDays": 26,
+      "seasonsSeen": [
+        "2025-2026",
+        "2024-2025",
+        "2023-2024",
+        "2021-2022"
+      ],
+      "consecutiveStreak": 3,
+      "seasonsLabel": "2026, 2025, 2024, 2022",
+      "recentCities": [
+        "CHÂTEAU-GONTIER",
+        "BÉZIERS",
+        "CLERMONT-L'HÉRAULT"
       ]
     },
     {
