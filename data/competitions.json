@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T22:39:47.996Z",
+  "generatedAt": "2026-11-13T18:26:09.409Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8255,6 +8255,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=92516"
     },
     {
+      "id": "95364",
+      "nom": "Championnat Régional des Maîtres",
+      "ville": "NÎMES",
+      "dateDebut": "2026-12-06",
+      "dateFin": "2026-12-06",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.8374249,
+      "lon": 4.3600687,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95364"
+    },
+    {
       "id": "94914",
       "nom": "2ème Meeting de la madeleine Open des maitres",
       "ville": "COMMERCY",
@@ -8325,20 +8339,6 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95217"
     },
     {
-      "id": "94985",
-      "nom": "Soirée Masters 56 Open",
-      "ville": "LORIENT",
-      "dateDebut": "2026-12-12",
-      "dateFin": "2026-12-12",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 47.7477336,
-      "lon": -3.3660907,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94985"
-    },
-    {
       "id": "94993",
       "nom": "Soirée \"MASTERS 56 catégorie C0\" open",
       "ville": "LORIENT",
@@ -8351,6 +8351,20 @@
       "lat": 47.7477336,
       "lon": -3.3660907,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94993"
+    },
+    {
+      "id": "94985",
+      "nom": "Soirée Masters 56 Open",
+      "ville": "LORIENT",
+      "dateDebut": "2026-12-12",
+      "dateFin": "2026-12-12",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.7477336,
+      "lon": -3.3660907,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94985"
     },
     {
       "id": "94977",
