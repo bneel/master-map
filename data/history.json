@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-13T22:26:59.192Z",
+  "generatedAt": "2026-11-14T16:52:33.015Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-11-14T16:52:33.015Z",
+      "counts": {
+        "added": 4,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-11-13T22:26:59.192Z",
       "counts": {
@@ -472,17 +480,69 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-10-15T15:31:07.310Z",
-      "counts": {
-        "added": 1,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-11-14T16:52:33.015Z",
+      "counts": {
+        "added": 4,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "95375",
+          "nom": "Championnat Départemental Maîtres",
+          "ville": "BOURGOIN-JALLIEU",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95375"
+        },
+        {
+          "id": "94321",
+          "nom": "Championnat Départemental des Maîtres",
+          "ville": "JANZÉ",
+          "dateDebut": "2026-11-28",
+          "dateFin": "2026-11-28",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94321"
+        },
+        {
+          "id": "94352",
+          "nom": "Championnat Départemental Maitres (Catégorie C0)",
+          "ville": "JANZÉ",
+          "dateDebut": "2026-11-28",
+          "dateFin": "2026-11-28",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94352"
+        },
+        {
+          "id": "95379",
+          "nom": "1er Circuit Hérault Masters",
+          "ville": "GIGEAN",
+          "dateDebut": "2026-12-06",
+          "dateFin": "2026-12-06",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95379"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-11-13T18:25:46.467Z",
       "counts": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T22:27:23.576Z",
+  "generatedAt": "2026-11-14T16:53:29.634Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8017,6 +8017,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95174"
     },
     {
+      "id": "95375",
+      "nom": "Championnat Départemental Maîtres",
+      "ville": "BOURGOIN-JALLIEU",
+      "dateDebut": "2026-11-21",
+      "dateFin": "2026-11-21",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 45.5860438,
+      "lon": 5.2772265,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95375"
+    },
+    {
       "id": "95260",
       "nom": "Meeting Maîtres de l'Ouest -Arc Atlantique- Bressuire",
       "ville": "BRESSUIRE",
@@ -8199,6 +8213,34 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95066"
     },
     {
+      "id": "94321",
+      "nom": "Championnat Départemental des Maîtres",
+      "ville": "JANZÉ",
+      "dateDebut": "2026-11-28",
+      "dateFin": "2026-11-28",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.9577282,
+      "lon": -1.4972365,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94321"
+    },
+    {
+      "id": "94352",
+      "nom": "Championnat Départemental Maitres (Catégorie C0)",
+      "ville": "JANZÉ",
+      "dateDebut": "2026-11-28",
+      "dateFin": "2026-11-28",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.9577282,
+      "lon": -1.4972365,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94352"
+    },
+    {
       "id": "95113",
       "nom": "4e Meeting des Maitres Montchanin Natation",
       "ville": "MONTCHANIN",
@@ -8283,6 +8325,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94914"
     },
     {
+      "id": "95379",
+      "nom": "1er Circuit Hérault Masters",
+      "ville": "GIGEAN",
+      "dateDebut": "2026-12-06",
+      "dateFin": "2026-12-06",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.5008343,
+      "lon": 3.7108476,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95379"
+    },
+    {
       "id": "95120",
       "nom": "Meeting du Sprint des Maîtres de Marcq Natation",
       "ville": "MARCQ-EN-BAROEUL",
@@ -8339,20 +8395,6 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95217"
     },
     {
-      "id": "94985",
-      "nom": "Soirée Masters 56 Open",
-      "ville": "LORIENT",
-      "dateDebut": "2026-12-12",
-      "dateFin": "2026-12-12",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 47.7477336,
-      "lon": -3.3660907,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94985"
-    },
-    {
       "id": "94993",
       "nom": "Soirée \"MASTERS 56 catégorie C0\" open",
       "ville": "LORIENT",
@@ -8365,6 +8407,20 @@
       "lat": 47.7477336,
       "lon": -3.3660907,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94993"
+    },
+    {
+      "id": "94985",
+      "nom": "Soirée Masters 56 Open",
+      "ville": "LORIENT",
+      "dateDebut": "2026-12-12",
+      "dateFin": "2026-12-12",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.7477336,
+      "lon": -3.3660907,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94985"
     },
     {
       "id": "94977",
