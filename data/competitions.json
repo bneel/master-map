@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T21:15:52.170Z",
+  "generatedAt": "2026-11-15T17:36:40.201Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8213,6 +8213,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95066"
     },
     {
+      "id": "95396",
+      "nom": "7ème Meeting Maîtres",
+      "ville": "FLEURY-LES-AUBRAIS",
+      "dateDebut": "2026-11-28",
+      "dateFin": "2026-11-28",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.9309156,
+      "lon": 1.9208883,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95396"
+    },
+    {
       "id": "94321",
       "nom": "Championnat Départemental des Maîtres",
       "ville": "JANZÉ",
@@ -8365,6 +8379,20 @@
       "lat": 46.5802596,
       "lon": 0.340196,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94992"
+    },
+    {
+      "id": "94760",
+      "nom": "Meeting Quatre Nages Maîtres",
+      "ville": "BELFORT",
+      "dateDebut": "2026-12-12",
+      "dateFin": "2026-12-12",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.6379599,
+      "lon": 6.8628942,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94760"
     },
     {
       "id": "94671",

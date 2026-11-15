@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-14T21:15:29.223Z",
+  "generatedAt": "2026-11-15T17:36:09.331Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-11-15T17:36:09.331Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-11-14T21:15:29.223Z",
       "counts": {
@@ -472,17 +480,45 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-10-16T15:17:07.447Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-11-15T17:36:09.331Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "95396",
+          "nom": "7ème Meeting Maîtres",
+          "ville": "FLEURY-LES-AUBRAIS",
+          "dateDebut": "2026-11-28",
+          "dateFin": "2026-11-28",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95396"
+        },
+        {
+          "id": "94760",
+          "nom": "Meeting Quatre Nages Maîtres",
+          "ville": "BELFORT",
+          "dateDebut": "2026-12-12",
+          "dateFin": "2026-12-12",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94760"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-11-14T16:52:33.015Z",
       "counts": {
