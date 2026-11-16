@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-15T21:36:47.399Z",
+  "generatedAt": "2026-11-16T20:50:16.550Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-11-16T20:50:16.550Z",
+      "counts": {
+        "added": 5,
+        "removed": 1,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-11-15T21:36:47.399Z",
       "counts": {
@@ -464,25 +472,94 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-10-17T19:10:03.346Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-10-17T14:05:41.666Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-11-16T20:50:16.550Z",
+      "counts": {
+        "added": 5,
+        "removed": 1,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "95223",
+          "nom": "Championnat Départemental des Maîtres (soirée 1)",
+          "ville": "MARSEILLE",
+          "dateDebut": "2026-11-18",
+          "dateFin": "2026-11-18",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95223"
+        },
+        {
+          "id": "95224",
+          "nom": "Championnat Départemental Maîtres (Engagements Séniors)",
+          "ville": "MARSEILLE",
+          "dateDebut": "2026-11-18",
+          "dateFin": "2026-11-18",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95224"
+        },
+        {
+          "id": "95412",
+          "nom": "Championnat Départemental d'Automne Maîtres - CD66",
+          "ville": "CANET-EN-ROUSSILLON",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95412"
+        },
+        {
+          "id": "95329",
+          "nom": "Championnat Départemental Maîtres Hiver",
+          "ville": "MARIGNANE",
+          "dateDebut": "2026-12-13",
+          "dateFin": "2026-12-13",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95329"
+        },
+        {
+          "id": "95330",
+          "nom": "Championnat Départ. Maîtres Hiver (Engagements Séniors)",
+          "ville": "MARIGNANE",
+          "dateDebut": "2026-12-13",
+          "dateFin": "2026-12-13",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95330"
+        }
+      ],
+      "removed": [
+        {
+          "id": "94991",
+          "nom": "Meeting de reprise pour les maîtres",
+          "ville": "SAINT-GIRONS",
+          "dateDebut": "2026-11-22",
+          "dateFin": "2026-11-22",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94991"
+        }
+      ],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-11-15T17:36:09.331Z",
       "counts": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T21:37:11.546Z",
+  "generatedAt": "2026-11-16T20:51:20.695Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -7975,6 +7975,34 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95117"
     },
     {
+      "id": "95223",
+      "nom": "Championnat Départemental des Maîtres (soirée 1)",
+      "ville": "MARSEILLE",
+      "dateDebut": "2026-11-18",
+      "dateFin": "2026-11-18",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.2961743,
+      "lon": 5.3699525,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95223"
+    },
+    {
+      "id": "95224",
+      "nom": "Championnat Départemental Maîtres (Engagements Séniors)",
+      "ville": "MARSEILLE",
+      "dateDebut": "2026-11-18",
+      "dateFin": "2026-11-18",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.2961743,
+      "lon": 5.3699525,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95224"
+    },
+    {
       "id": "95092",
       "nom": "MASTERS - Championnat de Guyane en Petit Bassin",
       "ville": "SINNAMARY",
@@ -8057,6 +8085,20 @@
       "lat": 45.293897,
       "lon": 3.3853711,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94915"
+    },
+    {
+      "id": "95412",
+      "nom": "Championnat Départemental d'Automne Maîtres - CD66",
+      "ville": "CANET-EN-ROUSSILLON",
+      "dateDebut": "2026-11-21",
+      "dateFin": "2026-11-21",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 42.704359,
+      "lon": 3.0105105,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95412"
     },
     {
       "id": "95251",
@@ -8183,20 +8225,6 @@
       "lat": 49.0904192,
       "lon": 4.8967637,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95316"
-    },
-    {
-      "id": "94991",
-      "nom": "Meeting de reprise pour les maîtres",
-      "ville": "SAINT-GIRONS",
-      "dateDebut": "2026-11-22",
-      "dateFin": "2026-11-22",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 42.9841865,
-      "lon": 1.1464455,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94991"
     },
     {
       "id": "95066",
@@ -8491,6 +8519,34 @@
       "lat": 48.0705772,
       "lon": 6.8776965,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94885"
+    },
+    {
+      "id": "95329",
+      "nom": "Championnat Départemental Maîtres Hiver",
+      "ville": "MARIGNANE",
+      "dateDebut": "2026-12-13",
+      "dateFin": "2026-12-13",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.4162193,
+      "lon": 5.2145269,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95329"
+    },
+    {
+      "id": "95330",
+      "nom": "Championnat Départ. Maîtres Hiver (Engagements Séniors)",
+      "ville": "MARIGNANE",
+      "dateDebut": "2026-12-13",
+      "dateFin": "2026-12-13",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.4162193,
+      "lon": 5.2145269,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95330"
     },
     {
       "id": "94940",
