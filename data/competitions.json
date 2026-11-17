@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T00:42:26.388Z",
+  "generatedAt": "2026-11-17T19:40:09.266Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8015,6 +8015,34 @@
       "lat": 5.3770561,
       "lon": -52.9571586,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95092"
+    },
+    {
+      "id": "93627",
+      "nom": "21e Meeting National de la Mer Maîtres",
+      "ville": "CHERBOURG-EN-COTENTIN",
+      "dateDebut": "2026-11-21",
+      "dateFin": "2026-11-21",
+      "niveau": "N",
+      "niveauLibelle": "National",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 49.6425343,
+      "lon": -1.6249565,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93627"
+    },
+    {
+      "id": "95152",
+      "nom": "21ème MEETING NATIONAL DE LA MER MAÎTRES - C0",
+      "ville": "CHERBOURG-EN-COTENTIN",
+      "dateDebut": "2026-11-21",
+      "dateFin": "2026-11-21",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 49.6425343,
+      "lon": -1.6249565,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95152"
     },
     {
       "id": "94953",

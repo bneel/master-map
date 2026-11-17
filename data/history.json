@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-17T00:42:01.963Z",
+  "generatedAt": "2026-11-17T19:39:37.609Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-11-17T19:39:37.609Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-11-17T00:42:01.963Z",
       "counts": {
@@ -464,25 +472,45 @@
         "removed": 0,
         "updated": 6
       }
-    },
-    {
-      "scrapedAt": "2026-10-18T19:20:53.620Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-10-18T14:20:43.598Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-11-17T19:39:37.609Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "93627",
+          "nom": "21e Meeting National de la Mer Maîtres",
+          "ville": "CHERBOURG-EN-COTENTIN",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "N",
+          "niveauLibelle": "National",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=93627"
+        },
+        {
+          "id": "95152",
+          "nom": "21ème MEETING NATIONAL DE LA MER MAÎTRES - C0",
+          "ville": "CHERBOURG-EN-COTENTIN",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95152"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-11-16T20:50:16.550Z",
       "counts": {

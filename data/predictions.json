@@ -1,34 +1,8 @@
 {
-  "generatedAt": "2026-11-17T00:42:26.437Z",
+  "generatedAt": "2026-11-17T19:40:09.315Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
-    {
-      "id": "habituelle-V_CHERBOURG_EN_COTENTIN_N-2026-11",
-      "type": "ville",
-      "nom": "20e Meeting National de la Mer Maîtres",
-      "ville": "CHERBOURG-EN-COTENTIN",
-      "lat": 49.6425343,
-      "lon": -1.6249565,
-      "niveau": "N",
-      "niveauLibelle": "National",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "11",
-      "monthLabel": "novembre",
-      "moment": "fin",
-      "expectedDate": "2026-11-22",
-      "dispersionDays": 0,
-      "seasonsSeen": [
-        "2025-2026",
-        "2023-2024"
-      ],
-      "consecutiveStreak": 1,
-      "seasonsLabel": "2026, 2024",
-      "recentCities": [
-        "CHERBOURG-EN-COTENTIN"
-      ]
-    },
     {
       "id": "habituelle-V_LES_ABYMES_R-2026-11",
       "type": "ville",
