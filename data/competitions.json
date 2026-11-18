@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T23:48:10.713Z",
+  "generatedAt": "2026-11-18T19:16:13.333Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8255,6 +8255,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95316"
     },
     {
+      "id": "94991",
+      "nom": "Meeting de reprise pour les maîtres",
+      "ville": "SAINT-GIRONS",
+      "dateDebut": "2026-11-22",
+      "dateFin": "2026-11-22",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 42.9841865,
+      "lon": 1.1464455,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94991"
+    },
+    {
       "id": "95066",
       "nom": "4e Journée Maîtres",
       "ville": "PONT-SAINT-PIERRE",
@@ -8479,20 +8493,6 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95217"
     },
     {
-      "id": "94993",
-      "nom": "Soirée \"MASTERS 56 catégorie C0\" open",
-      "ville": "LORIENT",
-      "dateDebut": "2026-12-12",
-      "dateFin": "2026-12-12",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 47.7477336,
-      "lon": -3.3660907,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94993"
-    },
-    {
       "id": "94985",
       "nom": "Soirée Masters 56 Open",
       "ville": "LORIENT",
@@ -8505,6 +8505,20 @@
       "lat": 47.7477336,
       "lon": -3.3660907,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94985"
+    },
+    {
+      "id": "94993",
+      "nom": "Soirée \"MASTERS 56 catégorie C0\" open",
+      "ville": "LORIENT",
+      "dateDebut": "2026-12-12",
+      "dateFin": "2026-12-12",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.7477336,
+      "lon": -3.3660907,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94993"
     },
     {
       "id": "94977",
@@ -8549,20 +8563,6 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94885"
     },
     {
-      "id": "95329",
-      "nom": "Championnat Départemental Maîtres Hiver",
-      "ville": "MARIGNANE",
-      "dateDebut": "2026-12-13",
-      "dateFin": "2026-12-13",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 43.4162193,
-      "lon": 5.2145269,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95329"
-    },
-    {
       "id": "95330",
       "nom": "Championnat Départ. Maîtres Hiver (Engagements Séniors)",
       "ville": "MARIGNANE",
@@ -8575,6 +8575,20 @@
       "lat": 43.4162193,
       "lon": 5.2145269,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95330"
+    },
+    {
+      "id": "95329",
+      "nom": "Championnat Départemental Maîtres Hiver",
+      "ville": "MARIGNANE",
+      "dateDebut": "2026-12-13",
+      "dateFin": "2026-12-13",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.4162193,
+      "lon": 5.2145269,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95329"
     },
     {
       "id": "94940",
@@ -8687,6 +8701,20 @@
       "lat": 44.4495,
       "lon": 1.4364999,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95030"
+    },
+    {
+      "id": "95455",
+      "nom": "Masters de Cluses - Coupe Max Bergier",
+      "ville": "CLUSES",
+      "dateDebut": "2027-04-24",
+      "dateFin": "2027-04-24",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 46.0603171,
+      "lon": 6.5804218,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95455"
     },
     {
       "id": "95028",

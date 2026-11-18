@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-17T23:47:45.968Z",
+  "generatedAt": "2026-11-18T19:15:50.341Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-11-18T19:15:50.341Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-11-17T23:47:45.968Z",
       "counts": {
@@ -472,17 +480,45 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-10-19T17:21:53.248Z",
-      "counts": {
-        "added": 1,
-        "removed": 0,
-        "updated": 6
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-11-18T19:15:50.341Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "94991",
+          "nom": "Meeting de reprise pour les maîtres",
+          "ville": "SAINT-GIRONS",
+          "dateDebut": "2026-11-22",
+          "dateFin": "2026-11-22",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94991"
+        },
+        {
+          "id": "95455",
+          "nom": "Masters de Cluses - Coupe Max Bergier",
+          "ville": "CLUSES",
+          "dateDebut": "2027-04-24",
+          "dateFin": "2027-04-24",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95455"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-11-17T19:39:37.609Z",
       "counts": {
