@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T23:19:45.964Z",
+  "generatedAt": "2026-11-19T19:23:58.085Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8087,20 +8087,6 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95375"
     },
     {
-      "id": "95260",
-      "nom": "Meeting Maîtres de l'Ouest -Arc Atlantique- Bressuire",
-      "ville": "BRESSUIRE",
-      "dateDebut": "2026-11-21",
-      "dateFin": "2026-11-21",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 46.8425572,
-      "lon": -0.4929017,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95260"
-    },
-    {
       "id": "94915",
       "nom": "Meeting Maitres de Brioude",
       "ville": "BRIOUDE",
@@ -8353,6 +8339,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95047"
     },
     {
+      "id": "95306",
+      "nom": "Championnats de Vendée Masters",
+      "ville": "LUÇON",
+      "dateDebut": "2026-11-29",
+      "dateFin": "2026-11-29",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 46.4555953,
+      "lon": -1.1645595,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95306"
+    },
+    {
       "id": "95058",
       "nom": "33ème Rencontre Vénissiane des Maîtres",
       "ville": "VÉNISSIEUX",
@@ -8493,20 +8493,6 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95217"
     },
     {
-      "id": "94985",
-      "nom": "Soirée Masters 56 Open",
-      "ville": "LORIENT",
-      "dateDebut": "2026-12-12",
-      "dateFin": "2026-12-12",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 47.7477336,
-      "lon": -3.3660907,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94985"
-    },
-    {
       "id": "94993",
       "nom": "Soirée \"MASTERS 56 catégorie C0\" open",
       "ville": "LORIENT",
@@ -8519,6 +8505,20 @@
       "lat": 47.7477336,
       "lon": -3.3660907,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94993"
+    },
+    {
+      "id": "94985",
+      "nom": "Soirée Masters 56 Open",
+      "ville": "LORIENT",
+      "dateDebut": "2026-12-12",
+      "dateFin": "2026-12-12",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 47.7477336,
+      "lon": -3.3660907,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94985"
     },
     {
       "id": "94977",
@@ -8563,20 +8563,6 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94885"
     },
     {
-      "id": "95330",
-      "nom": "Championnat Départ. Maîtres Hiver (Engagements Séniors)",
-      "ville": "MARIGNANE",
-      "dateDebut": "2026-12-13",
-      "dateFin": "2026-12-13",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 43.4162193,
-      "lon": 5.2145269,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95330"
-    },
-    {
       "id": "95329",
       "nom": "Championnat Départemental Maîtres Hiver",
       "ville": "MARIGNANE",
@@ -8589,6 +8575,20 @@
       "lat": 43.4162193,
       "lon": 5.2145269,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95329"
+    },
+    {
+      "id": "95330",
+      "nom": "Championnat Départ. Maîtres Hiver (Engagements Séniors)",
+      "ville": "MARIGNANE",
+      "dateDebut": "2026-12-13",
+      "dateFin": "2026-12-13",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.4162193,
+      "lon": 5.2145269,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95330"
     },
     {
       "id": "94940",
@@ -8659,6 +8659,20 @@
       "lat": 43.9277552,
       "lon": 2.147899,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95178"
+    },
+    {
+      "id": "95229",
+      "nom": "Championnat Départemental des Maîtres #1-2027",
+      "ville": "BALMA",
+      "dateDebut": "2027-01-24",
+      "dateFin": "2027-01-24",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 43.6096587,
+      "lon": 1.4980089,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95229"
     },
     {
       "id": "94505",
