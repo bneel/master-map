@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-19T23:27:43.696Z",
+  "generatedAt": "2026-11-20T18:59:12.089Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-11-20T18:59:12.089Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-11-19T23:27:43.696Z",
       "counts": {
@@ -472,17 +480,45 @@
         "removed": 36,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-10-21T15:51:29.301Z",
-      "counts": {
-        "added": 1,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-11-20T18:59:12.089Z",
+      "counts": {
+        "added": 2,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "95347",
+          "nom": "Championnats de Bretagne des Maitres",
+          "ville": "VITRE",
+          "dateDebut": "2027-01-24",
+          "dateFin": "2027-01-24",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95347"
+        },
+        {
+          "id": "95348",
+          "nom": "Championnats Régionaux Interclubs des Maitres",
+          "ville": "MORLAIX",
+          "dateDebut": "2027-02-21",
+          "dateFin": "2027-02-21",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95348"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-11-19T19:23:24.528Z",
       "counts": {

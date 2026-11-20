@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T23:28:07.027Z",
+  "generatedAt": "2026-11-20T18:59:45.559Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
@@ -1213,35 +1213,6 @@
         "BOURG-EN-BRESSE",
         "LIBOURNE",
         "LE MANS"
-      ]
-    },
-    {
-      "id": "habituelle-T_R_championnat_interclub_regionaux-2027-03",
-      "type": "tournant",
-      "nom": "Championnats Régionaux Interclubs des Maitres",
-      "ville": null,
-      "lat": 48.14506636666667,
-      "lon": -2.0805070666666667,
-      "niveau": "R",
-      "niveauLibelle": "Régional",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "03",
-      "monthLabel": "mars",
-      "moment": "début",
-      "expectedDate": "2027-03-02",
-      "dispersionDays": 10,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2023-2024",
-        "2021-2022"
-      ],
-      "consecutiveStreak": 3,
-      "seasonsLabel": "2026, 2025, 2024, 2022",
-      "recentCities": [
-        "VITRE",
-        "CHATEAUNEUF-DU-FAOU"
       ]
     },
     {

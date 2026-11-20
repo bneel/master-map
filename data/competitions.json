@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T23:28:06.979Z",
+  "generatedAt": "2026-11-20T18:59:45.497Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8647,6 +8647,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94498"
     },
     {
+      "id": "95347",
+      "nom": "Championnats de Bretagne des Maitres",
+      "ville": "VITRE",
+      "dateDebut": "2027-01-24",
+      "dateFin": "2027-01-24",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.1244503,
+      "lon": -1.214331,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95347"
+    },
+    {
       "id": "95178",
       "nom": "Meeting maîtres  3",
       "ville": "ALBI",
@@ -8687,6 +8701,20 @@
       "lat": 47.6918575,
       "lon": 2.6313889,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94505"
+    },
+    {
+      "id": "95348",
+      "nom": "Championnats Régionaux Interclubs des Maitres",
+      "ville": "MORLAIX",
+      "dateDebut": "2027-02-21",
+      "dateFin": "2027-02-21",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.5824932,
+      "lon": -3.8331972,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95348"
     },
     {
       "id": "95027",
