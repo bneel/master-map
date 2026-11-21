@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-20T23:00:29.637Z",
+  "generatedAt": "2026-11-21T17:54:13.753Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-11-21T17:54:13.753Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-11-20T23:00:29.637Z",
       "counts": {
@@ -472,17 +480,33 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-10-22T15:48:26.553Z",
-      "counts": {
-        "added": 37,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-11-21T17:54:13.753Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 0
+      },
+      "added": [
+        {
+          "id": "95421",
+          "nom": "Championnt 77 Hiver Open des Maîtres",
+          "ville": "OZOIR-LA-FERRIÈRE",
+          "dateDebut": "2026-12-06",
+          "dateFin": "2026-12-06",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95421"
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
     {
       "scrapedAt": "2026-11-20T18:59:12.089Z",
       "counts": {

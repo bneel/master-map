@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T23:00:53.150Z",
+  "generatedAt": "2026-11-21T17:54:38.920Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8435,6 +8435,20 @@
       "lat": 50.6767018,
       "lon": 3.1043032,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95120"
+    },
+    {
+      "id": "95421",
+      "nom": "Championnt 77 Hiver Open des Maîtres",
+      "ville": "OZOIR-LA-FERRIÈRE",
+      "dateDebut": "2026-12-06",
+      "dateFin": "2026-12-06",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.7620904,
+      "lon": 2.6719421,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95421"
     },
     {
       "id": "94992",
