@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-21T22:05:32.087Z",
+  "generatedAt": "2026-11-22T18:18:32.995Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-11-22T18:18:32.995Z",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "updated": 0
+      }
+    },
     {
       "scrapedAt": "2026-11-21T22:05:32.087Z",
       "counts": {
@@ -467,14 +475,6 @@
     },
     {
       "scrapedAt": "2026-10-23T20:16:05.755Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-10-23T15:39:35.929Z",
       "counts": {
         "added": 0,
         "removed": 0,
@@ -3444,31 +3444,6 @@
       ],
       "removed": [],
       "updated": []
-    },
-    {
-      "scrapedAt": "2026-08-24T11:31:00.626Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 1
-      },
-      "added": [],
-      "removed": [],
-      "updated": [
-        {
-          "id": "93828",
-          "nom": "Meeting Maîtres 3",
-          "ville": "GOURDON",
-          "dateDebut": "2026-08-22",
-          "changes": [
-            {
-              "field": "nom",
-              "from": "Meeting maîtres 3",
-              "to": "Meeting Maîtres 3"
-            }
-          ]
-        }
-      ]
     }
   ]
 }
