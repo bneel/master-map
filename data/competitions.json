@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T22:22:00.325Z",
+  "generatedAt": "2026-11-23T22:29:43.342Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -2249,20 +2249,6 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=89117"
     },
     {
-      "id": "88900",
-      "nom": "XXXe Championnat de France Hiver Open",
-      "ville": "LE MANS",
-      "dateDebut": "2025-03-06",
-      "dateFin": "2025-03-06",
-      "niveau": "N",
-      "niveauLibelle": "National",
-      "championnatFrance": true,
-      "bassin": 25,
-      "lat": 48.0073849,
-      "lon": 0.1967849,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=88900"
-    },
-    {
       "id": "89301",
       "nom": "Meeting des Maîtres",
       "ville": "LES ABYMES",
@@ -3731,20 +3717,6 @@
       "lat": 47.6339612,
       "lon": 6.106983,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=90496"
-    },
-    {
-      "id": "89840",
-      "nom": "XXXVIIIe Championnats de France Eté Open",
-      "ville": "MULHOUSE",
-      "dateDebut": "2025-06-26",
-      "dateFin": "2025-06-26",
-      "niveau": "N",
-      "niveauLibelle": "National",
-      "championnatFrance": true,
-      "bassin": 50,
-      "lat": 47.7467233,
-      "lon": 7.3389937,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=89840"
     },
     {
       "id": "90497",
@@ -8004,7 +7976,7 @@
     },
     {
       "id": "95092",
-      "nom": "MASTERS - Championnat de Guyane en Petit Bassin",
+      "nom": "Championnat de Guyane Masters en Petit Bassin",
       "ville": "SINNAMARY",
       "dateDebut": "2026-11-20",
       "dateFin": "2026-11-20",
@@ -8032,7 +8004,7 @@
     },
     {
       "id": "95152",
-      "nom": "21ème MEETING NATIONAL DE LA MER MAÎTRES - C0",
+      "nom": "21e Meeting National de la Mer Maîtres - C0",
       "ville": "CHERBOURG-EN-COTENTIN",
       "dateDebut": "2026-11-21",
       "dateFin": "2026-11-21",
@@ -8060,7 +8032,7 @@
     },
     {
       "id": "95174",
-      "nom": "Départementaux Maitres du 28 - AUTOMNE 2026",
+      "nom": "Départementaux Maitres du 28 - Automne 2026",
       "ville": "BONNEVAL",
       "dateDebut": "2026-11-21",
       "dateFin": "2026-11-21",
@@ -8144,7 +8116,7 @@
     },
     {
       "id": "94983",
-      "nom": "2ème Meeting de l'Essonne - Maîtres",
+      "nom": "2e Meeting de l'Essonne - Maîtres",
       "ville": "DRAVEIL",
       "dateDebut": "2026-11-21",
       "dateFin": "2026-11-21",
@@ -8183,20 +8155,6 @@
       "lat": 48.9392967,
       "lon": 2.3834289,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94717"
-    },
-    {
-      "id": "94882",
-      "nom": "Championnats des Vosges hiver  Open cat. Maîtres",
-      "ville": "NEUFCHÂTEAU",
-      "dateDebut": "2026-11-21",
-      "dateFin": "2026-11-21",
-      "niveau": "D",
-      "niveauLibelle": "Départemental",
-      "championnatFrance": false,
-      "bassin": 25,
-      "lat": 48.3568649,
-      "lon": 5.708585,
-      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94882"
     },
     {
       "id": "95185",
@@ -8242,7 +8200,7 @@
     },
     {
       "id": "94991",
-      "nom": "Meeting de reprise pour les maîtres",
+      "nom": "Meeting de Reprise pour les Maîtres",
       "ville": "SAINT-GIRONS",
       "dateDebut": "2026-11-22",
       "dateFin": "2026-11-22",
@@ -8353,6 +8311,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95306"
     },
     {
+      "id": "95501",
+      "nom": "Championnat Départemental Maîtres Open",
+      "ville": "CAPDENAC",
+      "dateDebut": "2026-12-05",
+      "dateFin": "2026-12-05",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 44.5808234,
+      "lon": 2.0696065,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95501"
+    },
+    {
       "id": "95058",
       "nom": "33ème Rencontre Vénissiane des Maîtres",
       "ville": "VÉNISSIEUX",
@@ -8395,6 +8367,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95364"
     },
     {
+      "id": "95493",
+      "nom": "journée départementale 91 - Maîtres - secteur 3",
+      "ville": "BRUNOY",
+      "dateDebut": "2026-12-06",
+      "dateFin": "2026-12-06",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.6979312,
+      "lon": 2.5044613,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95493"
+    },
+    {
       "id": "94914",
       "nom": "2ème Meeting de la madeleine Open des maitres",
       "ville": "COMMERCY",
@@ -8409,6 +8395,20 @@
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94914"
     },
     {
+      "id": "95491",
+      "nom": "journée départementale 91 - Maîtres - secteur 1",
+      "ville": "DOURDAN",
+      "dateDebut": "2026-12-06",
+      "dateFin": "2026-12-06",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.5288442,
+      "lon": 2.0153689,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95491"
+    },
+    {
       "id": "95379",
       "nom": "1er Circuit Hérault Masters",
       "ville": "GIGEAN",
@@ -8421,6 +8421,20 @@
       "lat": 43.5008343,
       "lon": 3.7108476,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95379"
+    },
+    {
+      "id": "95492",
+      "nom": "journée départementale 91 - Maîtres - secteur 2",
+      "ville": "LA NORVILLE",
+      "dateDebut": "2026-12-06",
+      "dateFin": "2026-12-06",
+      "niveau": "D",
+      "niveauLibelle": "Départemental",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.5856753,
+      "lon": 2.2583893,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95492"
     },
     {
       "id": "95120",
@@ -8438,7 +8452,7 @@
     },
     {
       "id": "95421",
-      "nom": "Championnt 77 Hiver Open des Maîtres",
+      "nom": "Championnat 77 Hiver Open des Maîtres",
       "ville": "OZOIR-LA-FERRIÈRE",
       "dateDebut": "2026-12-06",
       "dateFin": "2026-12-06",

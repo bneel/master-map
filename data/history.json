@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-22T22:21:35.393Z",
+  "generatedAt": "2026-11-23T22:28:48.024Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-11-23T22:28:48.024Z",
+      "counts": {
+        "added": 4,
+        "removed": 1,
+        "updated": 6
+      }
+    },
     {
       "scrapedAt": "2026-11-22T22:21:35.393Z",
       "counts": {
@@ -464,25 +472,161 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-10-24T19:21:46.914Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-10-24T14:19:52.250Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-11-23T22:28:48.024Z",
+      "counts": {
+        "added": 4,
+        "removed": 1,
+        "updated": 6
+      },
+      "added": [
+        {
+          "id": "95501",
+          "nom": "Championnat Départemental Maîtres Open",
+          "ville": "CAPDENAC",
+          "dateDebut": "2026-12-05",
+          "dateFin": "2026-12-05",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95501"
+        },
+        {
+          "id": "95493",
+          "nom": "journée départementale 91 - Maîtres - secteur 3",
+          "ville": "BRUNOY",
+          "dateDebut": "2026-12-06",
+          "dateFin": "2026-12-06",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95493"
+        },
+        {
+          "id": "95491",
+          "nom": "journée départementale 91 - Maîtres - secteur 1",
+          "ville": "DOURDAN",
+          "dateDebut": "2026-12-06",
+          "dateFin": "2026-12-06",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95491"
+        },
+        {
+          "id": "95492",
+          "nom": "journée départementale 91 - Maîtres - secteur 2",
+          "ville": "LA NORVILLE",
+          "dateDebut": "2026-12-06",
+          "dateFin": "2026-12-06",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95492"
+        }
+      ],
+      "removed": [
+        {
+          "id": "94882",
+          "nom": "Championnats des Vosges hiver  Open cat. Maîtres",
+          "ville": "NEUFCHÂTEAU",
+          "dateDebut": "2026-11-21",
+          "dateFin": "2026-11-21",
+          "niveau": "D",
+          "niveauLibelle": "Départemental",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=94882"
+        }
+      ],
+      "updated": [
+        {
+          "id": "95092",
+          "nom": "Championnat de Guyane Masters en Petit Bassin",
+          "ville": "SINNAMARY",
+          "dateDebut": "2026-11-20",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "MASTERS - Championnat de Guyane en Petit Bassin",
+              "to": "Championnat de Guyane Masters en Petit Bassin"
+            }
+          ]
+        },
+        {
+          "id": "95152",
+          "nom": "21e Meeting National de la Mer Maîtres - C0",
+          "ville": "CHERBOURG-EN-COTENTIN",
+          "dateDebut": "2026-11-21",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "21ème MEETING NATIONAL DE LA MER MAÎTRES - C0",
+              "to": "21e Meeting National de la Mer Maîtres - C0"
+            }
+          ]
+        },
+        {
+          "id": "95174",
+          "nom": "Départementaux Maitres du 28 - Automne 2026",
+          "ville": "BONNEVAL",
+          "dateDebut": "2026-11-21",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "Départementaux Maitres du 28 - AUTOMNE 2026",
+              "to": "Départementaux Maitres du 28 - Automne 2026"
+            }
+          ]
+        },
+        {
+          "id": "94983",
+          "nom": "2e Meeting de l'Essonne - Maîtres",
+          "ville": "DRAVEIL",
+          "dateDebut": "2026-11-21",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "2ème Meeting de l'Essonne - Maîtres",
+              "to": "2e Meeting de l'Essonne - Maîtres"
+            }
+          ]
+        },
+        {
+          "id": "94991",
+          "nom": "Meeting de Reprise pour les Maîtres",
+          "ville": "SAINT-GIRONS",
+          "dateDebut": "2026-11-22",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "Meeting de reprise pour les maîtres",
+              "to": "Meeting de Reprise pour les Maîtres"
+            }
+          ]
+        },
+        {
+          "id": "95421",
+          "nom": "Championnat 77 Hiver Open des Maîtres",
+          "ville": "OZOIR-LA-FERRIÈRE",
+          "dateDebut": "2026-12-06",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "Championnt 77 Hiver Open des Maîtres",
+              "to": "Championnat 77 Hiver Open des Maîtres"
+            }
+          ]
+        }
+      ]
+    },
     {
       "scrapedAt": "2026-11-21T17:54:13.753Z",
       "counts": {
