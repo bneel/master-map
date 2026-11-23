@@ -1204,3 +1204,11 @@ function showLoadErrorBanner(msg) {
 }
 
 document.addEventListener('DOMContentLoaded', init);
+
+// Application installable (PWA) : enregistre le service worker (sw.js),
+// qui permet l'installation et l'ouverture sans réseau.
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch((err) => console.warn('service worker:', err.message));
+  });
+}

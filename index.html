@@ -20,9 +20,12 @@
   <meta name="geo.placename" content="France" />
   <link rel="canonical" href="https://www.couloir4.fr/" />
 
-  <!-- Favicon SVG (support moderne) + apple-touch-icon -->
+  <!-- Favicon SVG (support moderne) + apple-touch-icon PNG (iOS ignore le SVG) -->
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <link rel="apple-touch-icon" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+  <!-- Application installable (PWA) : manifeste + titre sous l'icône iOS -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="apple-mobile-web-app-title" content="Couloir 4" />
 
   <!-- Open Graph (Facebook, WhatsApp, LinkedIn, etc.) -->
   <meta property="og:type" content="website" />

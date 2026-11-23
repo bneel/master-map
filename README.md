@@ -32,6 +32,9 @@ Raccourcis `make` disponibles : `make scrape` et `make serve`.
 ├── index.html                      # Page unique (SEO meta + Open Graph)
 ├── app.js                          # Logique carte/liste/filtres/position
 ├── app.css                         # Styles
+├── manifest.json                   # Manifeste PWA (application installable)
+├── sw.js                           # Service worker : installation + ouverture hors ligne
+├── icons/                          # Icônes d'application (PNG générés depuis les SVG)
 ├── robots.txt                      # SEO
 ├── sitemap.xml                     # SEO
 ├── data/
@@ -43,6 +46,17 @@ Raccourcis `make` disponibles : `make scrape` et `make serve`.
 ├── Makefile
 └── README.md
 ```
+
+## Application installable (PWA)
+
+Le site s'installe comme une application, sans passer par les stores :
+- **Android (Chrome)** : le navigateur propose « Installer l'application ».
+- **iPhone (Safari)** : Partager → « Sur l'écran d'accueil ».
+
+`sw.js` sert le site réseau d'abord, avec la dernière copie en secours hors ligne. Leaflet est servi cache d'abord, car son URL est versionnée. Les tuiles de carte ne sont pas mises en cache. Pour purger le cache des appareils, changer `VERSION` dans `sw.js`.
+
+Les PNG de `icons/` sont rendus depuis `favicon.svg` (icônes « any ») et `icons/icon-plein.svg` (icônes « maskable » et iOS) avec Chrome sans interface :
+`google-chrome --headless=new --default-background-color=00000000 --window-size=512,512 --screenshot=… page.html`
 
 ## Déploiement
 
