@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T03:13:23.143Z",
+  "generatedAt": "2026-11-24T21:01:14.140Z",
   "seasons": [
     {
       "id": "2024-2025",
@@ -8018,7 +8018,7 @@
     },
     {
       "id": "94953",
-      "nom": "Web Confrontation Masters",
+      "nom": "Web Confront@tion Masters",
       "ville": "BÉZIERS",
       "dateDebut": "2026-11-21",
       "dateFin": "2026-11-21",
@@ -8309,6 +8309,20 @@
       "lat": 46.4555953,
       "lon": -1.1645595,
       "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95306"
+    },
+    {
+      "id": "95411",
+      "nom": "Championnat régional des Maîtres Ile-de-France",
+      "ville": "BOULOGNE-BILLANCOURT",
+      "dateDebut": "2026-12-05",
+      "dateFin": "2026-12-05",
+      "niveau": "R",
+      "niveauLibelle": "Régional",
+      "championnatFrance": false,
+      "bassin": 25,
+      "lat": 48.8356649,
+      "lon": 2.240206,
+      "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95411"
     },
     {
       "id": "95501",

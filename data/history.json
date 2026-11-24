@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-24T03:13:00.809Z",
+  "generatedAt": "2026-11-24T21:00:49.062Z",
   "scraperRuns": [
+    {
+      "scrapedAt": "2026-11-24T21:00:49.062Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 1
+      }
+    },
     {
       "scrapedAt": "2026-11-24T03:13:00.809Z",
       "counts": {
@@ -464,25 +472,47 @@
         "removed": 0,
         "updated": 0
       }
-    },
-    {
-      "scrapedAt": "2026-10-25T19:29:39.375Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
-    },
-    {
-      "scrapedAt": "2026-10-25T14:53:30.208Z",
-      "counts": {
-        "added": 0,
-        "removed": 0,
-        "updated": 0
-      }
     }
   ],
   "runs": [
+    {
+      "scrapedAt": "2026-11-24T21:00:49.062Z",
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "updated": 1
+      },
+      "added": [
+        {
+          "id": "95411",
+          "nom": "Championnat régional des Maîtres Ile-de-France",
+          "ville": "BOULOGNE-BILLANCOURT",
+          "dateDebut": "2026-12-05",
+          "dateFin": "2026-12-05",
+          "niveau": "R",
+          "niveauLibelle": "Régional",
+          "championnatFrance": false,
+          "bassin": 25,
+          "url": "https://www.liveffn.com/cgi-bin/index.php?competition=95411"
+        }
+      ],
+      "removed": [],
+      "updated": [
+        {
+          "id": "94953",
+          "nom": "Web Confront@tion Masters",
+          "ville": "BÉZIERS",
+          "dateDebut": "2026-11-21",
+          "changes": [
+            {
+              "field": "nom",
+              "from": "Web Confrontation Masters",
+              "to": "Web Confront@tion Masters"
+            }
+          ]
+        }
+      ]
+    },
     {
       "scrapedAt": "2026-11-23T22:28:48.024Z",
       "counts": {
