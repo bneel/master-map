@@ -1,35 +1,8 @@
 {
-  "generatedAt": "2026-11-26T20:01:07.211Z",
+  "generatedAt": "2026-11-27T00:58:35.880Z",
   "season": "2026-2027",
   "rule": "N-1 obligatoire + au moins 2 présences sur les 4 dernières saisons",
   "predictions": [
-    {
-      "id": "habituelle-V_LES_ABYMES_R-2026-11",
-      "type": "ville",
-      "nom": "Spécial Maîtres",
-      "ville": "LES ABYMES",
-      "lat": 16.2706436,
-      "lon": -61.5057749,
-      "niveau": "R",
-      "niveauLibelle": "Régional",
-      "championnatFrance": false,
-      "bassin": 25,
-      "month": "11",
-      "monthLabel": "novembre",
-      "moment": "fin",
-      "expectedDate": "2026-11-26",
-      "dispersionDays": 17,
-      "seasonsSeen": [
-        "2025-2026",
-        "2024-2025",
-        "2020-2021"
-      ],
-      "consecutiveStreak": 2,
-      "seasonsLabel": "2026, 2025, 2021",
-      "recentCities": [
-        "LES ABYMES"
-      ]
-    },
     {
       "id": "habituelle-V_VILLEMOMBLE_D-2026-11",
       "type": "ville",
